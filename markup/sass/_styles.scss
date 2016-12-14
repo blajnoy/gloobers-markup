@@ -1,0 +1,17 @@
+.header {
+	min-height: 100vh;
+	background: url(../images/bg-main.jpg) 50% 0 no-repeat;
+	background-size: cover;
+
+	.header-holder {
+		padding: 28px 0 0;
+	}
+}
+.logo {
+	float: left;
+	margin: -14px 0 0 -12px;
+}
+.btn {
+	border-radius: 10px;
+	height: 42px;
+}

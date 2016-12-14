@@ -1,0 +1,50 @@
+body {
+	background:#fff;
+	color: $mainTextColor;
+	font: 18px/28px 'Open Sans', sans-serif;
+}
+p {margin: 0 0 20px;}
+a {
+	color: $linkColor;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+h1, h2, h3 {
+	font: 40px/43px 'PT Sans', sans-serif;
+	margin: 0 0 40px;
+	color: $secondTextColor;
+}
+h1 {
+	font-size: 56px;
+	line-height: 60px;
+}
+sup {
+	font-size: 0.5em;
+	position: relative;
+	top: -0.6em;
+}
+input[type=text],
+input[type=url],
+input[type=email],
+input[type=password],
+input[type=number] {
+	@include sassy-text;
+}
+textarea {
+	@include sassy-textarea;
+}
+input[type=submit],
+input[type=button],
+button {
+	@include sassy-button;
+	@include breakpoint(max-width 769px) {
+		width: 100%;
+	}
+}
+svg {
+	vertical-align: middle;
+	max-width: 100%;
+	overflow: hidden;
+}

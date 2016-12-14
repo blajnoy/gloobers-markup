@@ -1,0 +1,71 @@
+$sassy-base-color: #777 !default;
+$sassy-accent-color: coral !default;
+$sassy-disabled-color: #eee !default;
+
+@mixin sassy-text {
+	box-sizing: border-box;
+	min-height: 60px;
+	width: 100%;
+	padding: 17px 32px;
+	font-family: inherit;
+	font-size: 16px;
+	vertical-align: middle;
+	border-radius: 5px;
+	outline: none;
+	background-color: #fff;
+	border: 0;
+	&:focus {}
+	&:disabled {
+		background-color: $sassy-disabled-color;
+		cursor: not-allowed;
+	}
+	
+	@include input-placeholder(#666);
+}
+@mixin sassy-textarea {
+	@include sassy-text;
+	display: block;
+	overflow: auto;
+}
+
+@mixin sassy-button {
+	box-sizing: border-box;
+	cursor: pointer;
+	min-height: 60px;
+	padding: 17px 34px;
+	font-family: inherit;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff;
+	background: linear-gradient(to top, $gradientColorFrom 0%, $gradientColorTo 100%);
+	
+	&::-moz-focus-inner {
+		border: 0;
+	}
+	&:hover,
+	&:focus {
+		background: linear-gradient(to top, $gradientColorTo 0%, $gradientColorFrom 100%);
+	}
+	&:active {
+		background: linear-gradient(to top, $gradientColorTo 0%, $gradientColorFrom 100%);
+	}
+}
+@mixin input-placeholder($color) {
+	&::-webkit-input-placeholder {
+		color: $color;
+	}
+	&:-moz-placeholder {
+		color: $color;
+	}
+	&::-moz-placeholder {
+		color: $color;
+	}
+	&:-ms-input-placeholder {
+		color: $color;
+	}
+}
