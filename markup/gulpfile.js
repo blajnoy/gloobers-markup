@@ -4,7 +4,8 @@ var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	rename = require('gulp-rename'),
 	cleanCSS = require('gulp-clean-css'),
-	autoprefixer = require('gulp-autoprefixer');
+	autoprefixer = require('gulp-autoprefixer'),
+	spritesmith = require('gulp.spritesmith');
 
 gulp.task('sass', function() {
 	return gulp.src('sass/**/*.scss')
@@ -20,6 +21,22 @@ gulp.task('sass', function() {
 
 gulp.task('sass:watch', function() {
 	gulp.watch('sass/**/*.scss', ['sass']);
+});
+
+gulp.task('sprite', function () {
+	var spriteData = gulp.src('assets/png/*.png').pipe(spritesmith({
+		imgPath: '../images/sprite.png',
+		imgName: 'sprite.png',
+		cssName: 'sprite.css'
+	}));
+	var imgStream = spriteData.img
+		.pipe(gulp.dest('images'));
+
+	var cssStream = spriteData.css
+		.pipe(gulp.dest('css'));
+
+	return cssStream, imgStream;
+
 });
 
 gulp.task('default', function() {

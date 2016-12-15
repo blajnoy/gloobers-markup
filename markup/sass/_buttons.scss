@@ -1,0 +1,44 @@
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 0;
+	text-align: center;
+	touch-action: manipulation;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 10px 10px;
+	border: 2px solid currentColor;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	color: $linkColor;
+
+	transition: all 100ms linear;
+
+	&:hover,
+	&:focus,
+	&.focus {
+		color: darken($linkColor, 10%);
+		text-decoration: none;
+	}
+
+	&:active,
+	&.active {
+		outline: 0;
+	}
+
+	&.disabled,
+	&[disabled],
+	fieldset[disabled] & {
+		cursor: pointer;
+		opacity: .6;
+	}
+}
+.btn-default {
+	@include button-gradient($secondTextColor, $gradientColorFrom, $gradientColorTo)
+}
+
+
+
+

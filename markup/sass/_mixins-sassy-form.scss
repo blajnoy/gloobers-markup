@@ -42,17 +42,17 @@ $sassy-disabled-color: #eee !default;
 	display: inline-block;
 	vertical-align: middle;
 	color: #fff;
-	background: linear-gradient(to top, $gradientColorFrom 0%, $gradientColorTo 100%);
+	background: linear-gradient(to bottom, $gradientColorFrom 0%, $gradientColorTo 100%);
 	
 	&::-moz-focus-inner {
 		border: 0;
 	}
 	&:hover,
 	&:focus {
-		background: linear-gradient(to top, $gradientColorTo 0%, $gradientColorFrom 100%);
+		background: linear-gradient(to bottom, $gradientColorTo 0%, $gradientColorFrom 100%);
 	}
 	&:active {
-		background: linear-gradient(to top, $gradientColorTo 0%, $gradientColorFrom 100%);
+		background: linear-gradient(to bottom, $gradientColorTo 0%, $gradientColorFrom 100%);
 	}
 }
 @mixin input-placeholder($color) {

@@ -7,8 +7,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gloobers</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans:400,700" rel="stylesheet">
+	<link href="css/sprite.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.css" rel="stylesheet">
 	<link href="css/all.css" rel="stylesheet">
+	<script src="https://use.fontawesome.com/36fe5b07c5.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -17,12 +19,12 @@
 				<div class="header-holder">
 					<a href="#" class="logo"><img src="images/logo.png" alt="Gloobers" height="59" width="160"></a>
 					<nav class="nav">
-						<a href="#" class="btn">Refer a professional</a>
 						<ul class="main-nav">
-							<li><a href="#">About</a></li>
-							<li><a href="#">Professionals</a></li>
+							<li><a href="#">About <i class="fa fa-arrow-down" aria-hidden="true"></i></a></li>
+							<li class="active"><a href="#">Professionals</a></li>
 							<li><a href="#">Log in</a></li>
 						</ul>
+						<a href="#" class="btn btn-default">Refer a professional</a>
 					</nav>
 				</div>
 				<div class="search-area">
@@ -49,8 +51,31 @@
 						</div>
 						<button class="btn-search"><i class=""></i></button>
 					</div>
+					<p class="search-info">Search through 6.000 items or browse 2.000 events.</p>
+					<div class="fast-categories">
+						<a href="#" class="fast-lnk">
+							<span class="img-h">
+								<i class="icon icon-hotel"></i>
+								<em class="num">545.543</em>
+							</span>
+							<strong>Hotel</strong>
+						</a>
+						<a href="#" class="fast-lnk">
+							<span class="img-h">
+								<i class="icon icon-activites"></i>
+								<em class="num">545.543</em>
+							</span>
+							<strong>Activities</strong>
+						</a>
+						<a href="#" class="fast-lnk">
+							<span class="img-h">
+								<i class="icon icon-find-advisor"></i>
+								<em class="num">545.543</em>
+							</span>
+							<strong>Find an advisor</strong>
+						</a>
+					</div>
 				</div>
-				<span class="search-info">Search through 6.000 items or browse 2.000 events.</span>
 			</div>
 		</header>
 		<main class="main">
