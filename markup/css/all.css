@@ -762,3 +762,82 @@ fieldset[disabled] .btn {
 .fast-lnk strong {
   font-weight: bold;
 }
+
+.recommendations {
+  font-size: 0;
+}
+
+.recommendations .card {
+  width: 370px;
+  padding: 0 10px;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 21px;
+  background: #fff;
+}
+
+.card .card-holder {
+  display: block;
+}
+
+.card .img-h {
+  position: relative;
+  margin: -11px -11px 15px;
+}
+
+.card .img-h .img-wrap {
+  display: block;
+  position: relative;
+  display: block;
+}
+
+.card .img-h .img-wrap:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.card .img-h .img-wrap > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card .img-h .img-wrap img {
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card .img-h .price {
+  background-color: rgba(80, 30, 0, 0.8);
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 19px;
+  left: 0;
+  color: #fff;
+}
+
+.card .img-h .price strong {
+  display: block;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.card .img-h .price span {
+  display: block;
+  font-size: 12px;
+  line-height: 15px;
+  opacity: .5;
+}

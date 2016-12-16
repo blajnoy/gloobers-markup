@@ -156,3 +156,72 @@
 		font-weight: bold;
 	}
 }
+.recommendations {
+	font-size: 0;
+	.card {
+		width: 370px;
+		padding: 0 10px;
+	}
+}
+.card {
+	position: relative;
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+	line-height: 21px;
+	background: #fff;
+
+	.card-holder {
+		display: block;
+	}
+	.img-h {
+		position: relative;
+		margin: -11px -11px 15px;
+
+		.img-wrap {
+
+			@include aspect-ratio(16, 9);
+			display: block;
+
+			img	{
+				overflow: hidden;
+				object-fit: cover;
+			}
+		}
+		.price {
+			background-color: rgba(80, 30, 0, .8);
+			padding: 5px 10px;
+			position: absolute;
+			bottom: 19px;
+			left: 0;
+			color: #fff;
+
+			strong {
+				display: block;
+				font-size: 24px;
+				line-height: 1;
+			}
+			span {
+				display: block;
+				font-size: 12px;
+				line-height: 15px;
+				opacity: .5;
+			}
+		}
+	}
+	.avatar {
+
+	}
+	footer {
+		.category {
+
+		}
+		.reviews {
+
+		}
+	}
+
+}
