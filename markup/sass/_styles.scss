@@ -150,6 +150,9 @@
 			left: 50%;
 			transform: translate( -50%, 0 );
 			border-radius: 10px;
+			max-width: 100px;
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 	}
 	strong {
@@ -158,51 +161,68 @@
 }
 .recommendations {
 	font-size: 0;
+	margin: 0 -15px;
+
 	.card {
-		width: 370px;
-		padding: 0 10px;
+		width: calc((100% / 3) - 30px);
+		margin: 0 15px 40px;
 	}
 }
 .card {
 	position: relative;
 	border: 1px solid #e5e5e5;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 15px 15px 13px;
 	display: inline-block;
 	vertical-align: top;
 	font-size: 18px;
 	line-height: 21px;
 	background: #fff;
+	color: #000;
 
 	.card-holder {
 		display: block;
+		color: currentColor;
+
+
+		&:hover {
+			text-decoration: none;
+			.ttl {
+				text-decoration: underline;
+			}
+		}
 	}
 	.img-h {
 		position: relative;
-		margin: -11px -11px 15px;
+		margin: -16px -16px 13px;
 
 		.img-wrap {
-
-			@include aspect-ratio(16, 9);
 			display: block;
+			@include aspect-ratio(370, 163);
 
+			&:before {
+				padding-top: 163px;
+			}
 			img	{
 				overflow: hidden;
 				object-fit: cover;
+				border-radius: 10px 10px 0 0;
 			}
 		}
 		.price {
 			background-color: rgba(80, 30, 0, .8);
-			padding: 5px 10px;
+			padding: 13px 15px 6px 17px;
 			position: absolute;
 			bottom: 19px;
 			left: 0;
 			color: #fff;
+			font: 12px/15px 'PT Sans', sans-serif;
 
 			strong {
 				display: block;
 				font-size: 24px;
-				line-height: 1;
+				line-height: 13px;
+				font-weight: bold;
 			}
 			span {
 				display: block;
@@ -213,15 +233,162 @@
 		}
 	}
 	.avatar {
-
+		float: right;
+		border-radius: 50%;
+		box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.28), 0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+		margin: -45px 0 0;
+		position: relative;
+		z-index: 2;
+	}
+	.ttl {
+		display: block;
+		font-weight: bold;
+		color: $secondTextColor;
+		padding: 0 0 8px;
 	}
 	footer {
-		.category {
+		font-size: 16px;
+		line-height: 19px;
+		padding: 21px 0 0;
+		@include clearfix();
 
+		.category {
+			opacity: .5;
 		}
 		.reviews {
+			float: right;
 
+			strong {
+				font-weight: bold;
+			}
 		}
 	}
+}
+.block {
+	padding: 60px 0;
 
+	&.coloured {
+		background: #fbfbfb;
+	}
+	&.wood {
+		background: url(../images/bg-wood.jpg) 50% 0 no-repeat;
+		background-size: cover;
+
+	}
+}
+.btn-row {
+	padding: 0 0 15px;
+
+	&.center {
+		text-align: center;
+	}
+}
+.btn-more {
+	min-width: 166px;
+}
+.block-title {
+	text-align: center;
+	font-size: 20px;
+	line-height: 23px;
+	padding: 0 0 35px;
+
+	.wood & {
+		color: #fff;
+		opacity: .8;
+	}
+
+	h2 {
+		margin: 0;
+
+		.wood & {
+			color: #fff;
+		}
+
+
+		& + .sub-ttl {
+			margin: 10px 0 0;
+		}
+	}
+}
+.cities-list {
+	font-size: 0;
+	margin: 0 -15px;
+	padding: 0 0 25px;
+
+	.item {
+		display: inline-block;
+		vertical-align: top;
+		margin: 15px;
+		width: calc( (100% / 3) - 30px );
+		position: relative;
+		border-radius: 10px;
+
+
+		&.big {
+			width: calc( 2 * (100% / 3) - 30px );
+
+			> a {
+				@include aspect-ratio(74, 35, 15px);
+			}
+		}
+		> a {
+			color: #fff;
+			display: block;
+			text-decoration: none;
+			position: relative;
+			border-radius: 10px;
+			transition: all 100ms ease-in;
+			box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+			@include aspect-ratio(37, 35);
+
+			&:after {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				background-color: rgb(30, 151, 216);
+				opacity: 0;
+				border-radius: 10px;
+				transition: all 100ms ease-in;
+			}
+			&:hover {
+				box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+
+				&:after {
+					opacity: .5;
+				}
+			}
+		}
+		.text-h {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate( -50%, -50%);
+			font-size: 18px;
+			line-height: 21px;
+			text-align: center;
+			z-index: 2;
+			padding: 0 0 4px;
+			text-shadow: 0.3px 1px 2px rgba(60, 60, 60, 0.44);
+		}
+		.city-name {
+			font: bold 56px/59px 'PT Sans', sans-serif;
+			display: block;
+			padding: 0 0 9px;
+		}
+		.events-num {
+			display: block;
+
+			strong {
+				font-weight: bold;
+			}
+		}
+		img {
+			overflow: hidden;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+	}
 }
