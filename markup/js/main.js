@@ -1,4 +1,13 @@
 $(document).ready(function() {
+
+	$('.slider').slick({
+		centerMode: true,
+		slidesToShow: 3,
+		arrows: false,
+		variableWidth: true
+	});
+
+	/*
 	$("#btn-toggle").on("click", function() {
 		$("#elm-expand").toggleClass("open");
 		return false;
@@ -17,7 +26,8 @@ $(document).ready(function() {
 		autoSize: true
 	});
 
-	/* sticked elm */
+	// sticked elm
+
 	var didScroll;
 	var lastScrollTop = 0;
 	var delta = 20;
@@ -54,7 +64,8 @@ $(document).ready(function() {
 
 
 
-	/** menu **/
+	// menu
+
 	function toggleClassMenu(event) {
 		var target = event.target;
 		while (target != this) {
@@ -90,5 +101,7 @@ $(document).ready(function() {
 	myMenu.addEventListener("transitionend", OnTransitionEnd, false);
 	oppMenu.addEventListener("click", toggleClassMenu, false);
 	myMenu.addEventListener("click", toggleClassMenu, false);
+
+	*/
 
 });
