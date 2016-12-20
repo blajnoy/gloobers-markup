@@ -1,5 +1,5 @@
 body {
-	background:#fff;
+	background:#262626;
 	color: $mainTextColor;
 	font: 18px/28px 'Open Sans', sans-serif;
 }
@@ -11,7 +11,7 @@ a {
 		text-decoration: underline;
 	}
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font: bold 40px/43px 'PT Sans', sans-serif;
 	margin: 0 0 40px;
 	color: $secondTextColor;
@@ -39,9 +39,6 @@ input[type=submit],
 input[type=button],
 button {
 	@include sassy-button;
-	@include breakpoint(max-width 769px) {
-		width: 100%;
-	}
 }
 svg {
 	vertical-align: middle;

@@ -2,12 +2,13 @@ $(document).ready(function() {
 
 	$('.slider').slick({
 		centerMode: true,
-		slidesToShow: 5,
-		arrows: false
-		//variableWidth: true
+		slidesToShow: 3,
+		arrows: false,
+		variableWidth: true
 	});
-	
-	$('.date-range-input').daterangepicker();
+	$(function() {
+		$('input[name="daterange"]').daterangepicker();
+	});
 
 	/*
 	$("#btn-toggle").on("click", function() {

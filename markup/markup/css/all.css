@@ -875,8 +875,9 @@ fieldset[disabled] .btn {
 }
 
 .date-range .date-col {
+  display: inline-block;
   vertical-align: middle;
-  width: 100%;
+  width: 43%;
   padding: 0 6px;
 }
 
@@ -1318,25 +1319,26 @@ fieldset[disabled] .btn {
 .slider {
   width: 440px;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .slider .item {
   outline: none !important;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 33px;
+}
+
+.slider .item.slick-current {
+  padding-top: 0;
 }
 
 .slider .item.slick-current .img-h img {
-  -webkit-transform: scale(-webkit-calc(120/50));
-  -ms-transform: scale(calc(120/50));
-  transform: scale(calc(120/50));
+  width: 120px;
   opacity: 1;
 }
 
 .slider blockquote {
   position: relative;
   color: #000;
+  padding: 0 15px;
 }
 
 .slider blockquote .q-text {
@@ -1352,19 +1354,10 @@ fieldset[disabled] .btn {
 .slider blockquote .img-h img {
   display: block;
   width: 50px;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  -webkit-transition: all 400ms ease;
-  transition: all 400ms ease;
   height: auto;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   opacity: .5;
-  margin: 0 auto;
 }
 
 .columns {

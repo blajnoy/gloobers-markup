@@ -5,11 +5,14 @@
 		clear: both;
 	}
 }
-@mixin button-variant($color, $background, $border) {
-
+@mixin button-variant($color: #60b5e2, $background: none, $border: "2px solid currentColor") {
+	color: #{$color};
+	background: #{$background};
+	border: #{$border};
 }
 @mixin button-gradient($color, $gradientColorStart, $gradientColorEnd) {
 	border: 0;
+	padding: 12px;
 	padding-left: 20px;
 	padding-right: 20px;
 	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
