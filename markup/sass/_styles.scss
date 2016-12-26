@@ -18,7 +18,7 @@
 	font-size: 14px;
 	line-height: 18px;
 
-	.main-nav {
+	ul {
 		display: inline-block;
 		vertical-align: middle;
 		text-transform: uppercase;
@@ -44,19 +44,18 @@
 					opacity: 0;
 					transition: all 100ms ease-in;
 				}
-				&:hover {
-					text-decoration: none;
-					color: #fff;
+			}
+			&.active a,
+			& a:hover {
+				text-decoration: none;
+				color: #fff;
 
-					&:after {
-						opacity: 1;
-						width: 100%;
-					}
+				&:after {
+					opacity: 1;
+					width: 100%;
 				}
 			}
-
 		}
-
 	}
 }
 .search-area {
@@ -467,7 +466,7 @@
 		}
 	}
 }
-.slider {
+.carousel {
 	width: 440px;
 	margin: 0 auto;
 	background: rgba(#000, .5);
@@ -479,7 +478,6 @@
 
 		&.slick-current {
 
-
 			.img-h img {
 				transform: scale(calc(120/50));
 				opacity: 1;
@@ -489,7 +487,6 @@
 	blockquote {
 		position: relative;
 		color: #000;
-		//padding: 0 15px;
 
 		.q-text {
 			position: absolute;
@@ -500,8 +497,10 @@
 			display: none;
 		}
 		.img-h {
+			margin: 0 15px;
 
 			img {
+
 				display: block;
 				width: 50px;
 				transform: scale(1);
@@ -510,7 +509,7 @@
 				height: auto;
 				border-radius: 50%;
 				opacity: .5;
-				margin: 0 auto;
+				margin: 0 15px;
 			}
 		}
 	}
@@ -608,6 +607,90 @@
 		margin: 0 0 0 40px;
 	}
 }
+
+.how-it-works-slider {
+
+
+	.slider-tabs {
+		@extend .nav;
+		padding: 0 0 60px;
+		float: none;
+		text-align: center;
+
+		ul {
+			li {
+				display: inline-block;
+				vertical-align: top;
+				font-size: 14px;
+				line-height: 17px;
+				padding: 0 20px;
+
+				a {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.slider {
+		color: #fff;
+
+		.slide {
+			font-size: 0;
+			outline: none !important;
+
+			.steps {
+				margin: 0 -3%;
+			}
+
+			.step {
+				display: inline-block;
+				vertical-align: top;
+				width: calc(100%/3);
+				padding: 0 3%;
+				text-align: center;
+				font-size: 14px;
+				line-height: 24px;
+			}
+			.img-h {
+				height: 230px;
+				line-height: 230px;
+				text-align: center;
+				margin: 0 0 30px;
+
+				img {
+					display: inline;
+					vertical-align: middle;
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.ttl {
+				font: bold 30px/33px 'PT Sans', sans-serif;
+				display: block;
+				padding: 0 0 20px;
+				opacity: .9;
+			}
+			p {
+				margin: 0;
+				opacity: .8;
+			}
+		}
+	}
+}
+
+
+
+/* start calendar */
+
+.dropdown-menu {
+	display: none;
+}
+.daterangepicker_input {
+	display: none;
+}
+
+/* end calendar */
 
 .footer {
 	background: #282828;

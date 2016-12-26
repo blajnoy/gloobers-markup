@@ -1,13 +1,40 @@
 $(document).ready(function() {
 
-	$('.slider').slick({
+	$('.carousel').slick({
 		centerMode: true,
 		slidesToShow: 5,
+		swipeToSlide: true,
+		//centerPadding: '60px',
 		arrows: false
 		//variableWidth: true
 	});
-	
-	$('.date-range-input').daterangepicker();
+
+	$('.slider')
+		.slick({
+			slidesToShow: 1,
+			arrows: false
+		})
+		.on('afterChange', function(event, slick, currentSlide, nextSlide){
+			$('.slider-tabs li').removeClass("active").eq(currentSlide).addClass("active");
+		});
+
+	$('.slider-tabs li').each( function(i) {
+		$(this).click(function(){
+			$('.slider-tabs li').removeClass("active");
+			$(this).addClass("active");
+			$('.slider').slick('slickGoTo', i);
+		})
+	});
+
+	$('.date-range-input').daterangepicker({
+		"autoApply": true,
+		"showCustomRangeLabel": false,
+		"startDate": "12/16/2016",
+		"endDate": "12/22/2016",
+		"opens": "left"
+	}, function(start, end, label) {
+		console.log("New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')");
+	});
 
 	/*
 	$("#btn-toggle").on("click", function() {

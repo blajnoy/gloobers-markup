@@ -9,7 +9,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans:400,700" rel="stylesheet">
 	<link href="css/sprite.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.css" rel="stylesheet">
+
+
+
+	<link href="css/daterangepicker.css" rel="stylesheet">
+
 	<link href="css/all.css" rel="stylesheet">
+
+
+
+
+
 	<script src="https://use.fontawesome.com/36fe5b07c5.js"></script>
 </head>
 <body>
@@ -38,7 +48,7 @@
 						<div class="col col02">
 							<span class="ttl">When?</span>
 							<div class="date-range">
-								<input name="daterange" class="date-range-input" type="text" placeholder="30/11/2016 - 31/12/2016" value="30/11/2016 - 31/12/2016">
+								<input name="daterange" class="date-range-input" type="text" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
 								<!--<i class="fa fa-arrow-right" aria-hidden="true"></i>-->
 							</div>
 						</div>
@@ -168,70 +178,67 @@
 						<h2>How it works</h2>
 						<p class="sub-ttl">You recommend, you earn. It's that simple !</p>
 					</div>
-					<div class="recommendations">
-						<div class="card">
-							<a href="#" class="card-holder">
-								<div class="img-h">
-									<span class="img-wrap">
-										<img src="images/img01.jpg" alt="image">
-									</span>
-									<div class="price">
-										<strong>230<sup>TC</sup></strong>
-										<span>You earn</span>
+					<div class="how-it-works-slider">
+						<nav class="slider-tabs">
+							<ul>
+								<li class="slider-0 active"><a href="javascript:void(0);">Travel</a></li>
+								<li class="slider-1"><a href="javascript:void(0);">Advise</a></li>
+								<li class="slider-2"><a href="javascript:void(0);">Earn</a></li>
+							</ul>
+						</nav>
+						<div class="slider">
+							<div class="slide">
+								<div class="steps">
+									<div class="step">
+										<div class="img-h"><img src="images/ico-help-travelers.png" alt="image" width="230" height="166"></div>
+										<strong class="ttl">1. Help other travelers</strong>
+									</div>
+									<div class="step">
+										<div class="img-h"><img src="images/ico-get-rewarded.png" alt="image" width="170" height="229"></div>
+										<strong class="ttl">2. Get rewarded</strong>
+									</div>
+									<div class="step">
+										<div class="img-h"><img src="images/ico-travel-free.png" alt="image" width="204" height="230"></div>
+										<strong class="ttl">3. Travel for free</strong>
 									</div>
 								</div>
-								<img class="avatar" src="images/photo01.jpg" alt="image">
-								<strong class="ttl">Lorem Ipsum is simply </strong>
-								<span class="sub-ttl">Long  location name</span>
-								<footer>
-									<span class="category">Listing category</span>
-									<em class="reviews"><strong>25</strong> Reviews</em>
-								</footer>
-							</a>
-						</div>
-						<div class="card">
-							<a href="#" class="card-holder">
-								<div class="img-h">
-									<span class="img-wrap">
-										<img src="images/bg-main.jpg" alt="image">
-									</span>
-									<div class="price">
-										<strong>230<sup>TC</sup></strong>
-										<span>You earn</span>
+							</div>
+							<div class="slide">
+								<div class="steps">
+									<div class="step">
+										<div class="img-h"><img src="images/ico-trustful.png" alt="image" width="230" height="165"></div>
+										<strong class="ttl">1. Find trustful advisors</strong>
+									</div>
+									<div class="step">
+										<div class="img-h"><img src="images/ico-get-rewarded.png" alt="image" width="170" height="229"></div>
+										<strong class="ttl">2. Get tailor-made recommendations</strong>
+									</div>
+									<div class="step">
+										<div class="img-h"><img src="images/ico-travel-credits.png" alt="image" width="230" height="219"></div>
+										<strong class="ttl">3. Travel using your Travel credits</strong>
 									</div>
 								</div>
-								<img class="avatar" src="images/photo01.jpg" alt="image">
-								<strong class="ttl">Lorem Ipsum is simply </strong>
-								<span class="sub-ttl">Long  location name</span>
-								<footer>
-									<span class="category">Listing category</span>
-									<em class="reviews"><strong>25</strong> Reviews</em>
-								</footer>
-							</a>
-						</div>
-						<div class="card">
-							<a href="#" class="card-holder">
-								<div class="img-h">
-									<span class="img-wrap">
-										<img src="images/bg-main.jpg" alt="image">
-									</span>
-									<div class="price">
-										<strong>230<sup>TC</sup></strong>
-										<span>You earn</span>
+							</div>
+							<div class="slide">
+								<div class="steps">
+									<div class="step">
+										<div class="img-h"><img src="images/ico-help-other.png" alt="image" width="223" height="230"></div>
+										<strong class="ttl">Help other traveler</strong>
+										<p>and earn up to 7% of booked amount in Travel credits</p>
+									</div>
+									<div class="step">
+										<div class="img-h"><img src="images/ico-refer-travelers.png" alt="image" width="202" height="218"></div>
+										<strong class="ttl">Refer travelers</strong>
+										<p>and earn passively on every trip they'll book, or every recommendation they'll give</p>
+									</div>
+									<div class="step">
+										<div class="img-h"><img src="images/ico-refer-prof.png" alt="image" width="230" height="210"></div>
+										<strong class="ttl">Refer professionals</strong>
+										<p>Earn a passive reward on every single reservation they will receive</p>
 									</div>
 								</div>
-								<img class="avatar" src="images/photo01.jpg" alt="image">
-								<strong class="ttl">Lorem Ipsum is simply </strong>
-								<span class="sub-ttl">Long  location name</span>
-								<footer>
-									<span class="category">Listing category</span>
-									<em class="reviews"><strong>25</strong> Reviews</em>
-								</footer>
-							</a>
+							</div>
 						</div>
-					</div>
-					<div class="btn-row center">
-						<a href="#" class="btn btn-more">See more</a>
 					</div>
 				</div>
 			</section>
@@ -297,7 +304,8 @@
 					<div class="block-title">
 						<h2>Testimonials</h2>
 					</div>
-					<div class="slider">
+					<!--
+					<div class="carousel">
 						<div class="item">
 							<blockquote>
 								<p class="q-text">« Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived, !»</p>
@@ -417,6 +425,36 @@
 									</cite>
 								</footer>
 							</blockquote>
+						</div>
+					</div>
+					-->
+					<div class="carousel">
+						<div class="item">
+							<div class="img-h">1</div>
+						</div>
+						<div class="item">
+							<div class="img-h">2</div>
+						</div>
+						<div class="item">
+							<div class="img-h">3</div>
+						</div>
+						<div class="item">
+							<div class="img-h">4</div>
+						</div>
+						<div class="item">
+							<div class="img-h">5</div>
+						</div>
+						<div class="item">
+							<div class="img-h">6</div>
+						</div>
+						<div class="item">
+							<div class="img-h">7</div>
+						</div>
+						<div class="item">
+							<div class="img-h">8</div>
+						</div>
+						<div class="item">
+							<div class="img-h">9</div>
 						</div>
 					</div>
 				</div>
@@ -541,8 +579,8 @@
 
 	<script type="text/javascript" src="js/moment.js"></script>
 	<script type="text/javascript" src="js/daterangepicker.js"></script>
-
 	<script type="text/javascript" src="js/slick.min.js"></script>
+
 	<script src="js/main.js"></script>
 </body>
 </html>
