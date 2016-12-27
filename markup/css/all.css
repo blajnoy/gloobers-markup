@@ -718,8 +718,8 @@ fieldset[disabled] .btn {
   position: absolute;
   color: inherit;
   background-color: #fff;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   width: 278px;
   padding: 4px;
   margin-top: 1px;
@@ -736,25 +736,25 @@ fieldset[disabled] .btn {
 }
 
 .daterangepicker:before {
-  top: -7px;
-  border-right: 7px solid transparent;
-  border-left: 7px solid transparent;
-  border-bottom: 7px solid #ccc;
+  top: -10px;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid #ccc;
 }
 
 .daterangepicker:after {
-  top: -6px;
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid #fff;
-  border-left: 6px solid transparent;
+  top: -9px;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #fff;
+  border-left: 9px solid transparent;
 }
 
 .daterangepicker.opensleft:before {
-  right: 9px;
+  right: 12px;
 }
 
 .daterangepicker.opensleft:after {
-  right: 10px;
+  right: 13px;
 }
 
 .daterangepicker.openscenter:before {
@@ -774,11 +774,11 @@ fieldset[disabled] .btn {
 }
 
 .daterangepicker.opensright:before {
-  left: 9px;
+  left: 12px;
 }
 
 .daterangepicker.opensright:after {
-  left: 10px;
+  left: 13px;
 }
 
 .daterangepicker.dropup {
@@ -787,16 +787,16 @@ fieldset[disabled] .btn {
 
 .daterangepicker.dropup:before {
   top: initial;
-  bottom: -7px;
+  bottom: -10px;
   border-bottom: initial;
-  border-top: 7px solid #ccc;
+  border-top: 10px solid #ccc;
 }
 
 .daterangepicker.dropup:after {
   top: initial;
-  bottom: -6px;
+  bottom: -9px;
   border-bottom: initial;
-  border-top: 6px solid #fff;
+  border-top: 9px solid #fff;
 }
 
 .daterangepicker.dropdown-menu {
@@ -831,8 +831,8 @@ fieldset[disabled] .btn {
 .daterangepicker .calendar-table {
   border: 1px solid #fff;
   padding: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   background-color: #fff;
 }
 
@@ -845,8 +845,8 @@ fieldset[disabled] .btn {
   text-align: center;
   width: 20px;
   height: 20px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   border: 1px solid transparent;
   white-space: nowrap;
   cursor: pointer;
@@ -878,22 +878,22 @@ fieldset[disabled] .btn {
 }
 
 .daterangepicker td.start-date {
-  -webkit-border-radius: 4px 0 0 4px;
-  border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
 }
 
 .daterangepicker td.end-date {
-  -webkit-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
 }
 
 .daterangepicker td.start-date.end-date {
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .daterangepicker td.active, .daterangepicker td.active:hover {
-  background-color: #357ebd;
+  background-color: #1e97d8;
   border-color: transparent;
   color: #fff;
 }
@@ -1001,8 +1001,8 @@ fieldset[disabled] .btn {
   font-size: 13px;
   background-color: #f5f5f5;
   border: 1px solid #f5f5f5;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   color: #08c;
   padding: 3px 12px;
   margin-bottom: 8px;
@@ -1971,16 +1971,40 @@ fieldset[disabled] .btn {
   opacity: .8;
 }
 
-/* start calendar */
-.dropdown-menu {
+.daterangepicker {
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.daterangepicker.dropdown-menu {
+  display: none;
+  margin-top: 30px;
+}
+
+.daterangepicker .daterangepicker_input {
   display: none;
 }
 
-.daterangepicker_input {
-  display: none;
+.daterangepicker th.month {
+  font-weight: bold;
+  color: #501e00;
 }
 
-/* end calendar */
+.daterangepicker td.start-date {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.daterangepicker td.end-date {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.daterangepicker td.start-date.end-date {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
 .footer {
   background: #282828;
   color: #fff;

@@ -680,17 +680,49 @@
 }
 
 
+//
+// daterangepicker
 
-/* start calendar */
+.daterangepicker {
+	font-size: 14px;
+	line-height: 32px;
 
-.dropdown-menu {
-	display: none;
+	&.dropdown-menu {
+		display: none;
+		margin-top: 30px;
+	}
+
+	.daterangepicker_input {
+		display: none;
+	}
+
+	th {
+
+		&.month {
+
+			font-weight: bold;
+			color: #501e00;
+		}
+	}
+
+	td {
+
+		&.start-date {
+			border-radius: 0;
+		}
+
+		&.end-date {
+			border-radius: 0;
+		}
+
+		&.start-date.end-date {
+			border-radius: 0;
+		}
+	}
+
 }
-.daterangepicker_input {
-	display: none;
-}
 
-/* end calendar */
+// end daterangepicker
 
 .footer {
 	background: #282828;
