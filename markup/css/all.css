@@ -1731,59 +1731,70 @@ fieldset[disabled] .btn {
 }
 
 .carousel {
-  width: 440px;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.5);
+  width: 440px;
+}
+
+.carousel .slick-track {
+  position: static;
 }
 
 .carousel .item {
   outline: none !important;
-  padding-top: 35px;
-  padding-bottom: 35px;
 }
 
-.carousel .item.slick-current .img-h img {
+.carousel .item.slick-current blockquote .img-h img {
   -webkit-transform: scale(-webkit-calc(120/50));
   -ms-transform: scale(calc(120/50));
   transform: scale(calc(120/50));
   opacity: 1;
 }
 
+.carousel .item.slick-current blockquote .q-text {
+  opacity: 1;
+}
+
+.carousel .item.slick-current blockquote footer {
+  opacity: 0;
+}
+
 .carousel blockquote {
-  position: relative;
   color: #000;
+  margin: 200px 20px 125px;
 }
 
 .carousel blockquote .q-text {
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   position: absolute;
-  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
 }
 
 .carousel blockquote footer {
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   position: absolute;
-  display: none;
-}
-
-.carousel blockquote .img-h {
-  margin: 0 15px;
+  opacity: 0;
 }
 
 .carousel blockquote .img-h img {
   display: block;
   width: 50px;
+  height: 50px;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  -webkit-transition: all 400ms ease;
-  transition: all 400ms ease;
-  height: auto;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   opacity: .5;
-  margin: 0 15px;
 }
 
 .columns {
@@ -1973,7 +1984,7 @@ fieldset[disabled] .btn {
 
 .daterangepicker {
   font-size: 14px;
-  line-height: 32px;
+  line-height: 30px;
 }
 
 .daterangepicker.dropdown-menu {
@@ -1983,11 +1994,6 @@ fieldset[disabled] .btn {
 
 .daterangepicker .daterangepicker_input {
   display: none;
-}
-
-.daterangepicker th.month {
-  font-weight: bold;
-  color: #501e00;
 }
 
 .daterangepicker td.start-date {
@@ -2003,6 +2009,22 @@ fieldset[disabled] .btn {
 .daterangepicker td.start-date.end-date {
   -webkit-border-radius: 0;
   border-radius: 0;
+}
+
+.daterangepicker .calendar th, .daterangepicker .calendar td {
+  min-width: 30px;
+}
+
+.daterangepicker .calendar th {
+  font-size: 10px;
+  opacity: .5;
+}
+
+.daterangepicker .calendar th.month {
+  font-weight: bold;
+  color: #501e00;
+  opacity: 1;
+  font-size: inherit;
 }
 
 .footer {

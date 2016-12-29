@@ -467,49 +467,61 @@
 	}
 }
 .carousel {
-	width: 440px;
 	margin: 0 auto;
-	background: rgba(#000, .5);
+	width: 440px;
+
+	.slick-track {
+		position: static;
+	}
 
 	.item {
 		outline: none !important;
-		padding-top: 35px;
-		padding-bottom: 35px;
 
 		&.slick-current {
 
-			.img-h img {
-				transform: scale(calc(120/50));
-				opacity: 1;
+			blockquote {
+				.img-h img {
+					transform: scale(calc(120/50));
+					opacity: 1;
+				}
+				.q-text {
+					opacity: 1;
+				}
+				footer {
+					opacity: 0;
+				}
+
 			}
 		}
 	}
 	blockquote {
-		position: relative;
 		color: #000;
+		margin: 200px 20px 125px;
 
 		.q-text {
+			transition: all 400ms ease;
 			position: absolute;
-			display: none;
+			top: 0;
+			left: 0;
+			right: 0;
+			opacity: 0;
 		}
 		footer {
+			transition: all 400ms ease;
 			position: absolute;
-			display: none;
+			opacity: 0;
 		}
 		.img-h {
-			margin: 0 15px;
 
 			img {
-
 				display: block;
 				width: 50px;
+				height: 50px;
 				transform: scale(1);
 				transform-origin: 50% 50%;
-				transition: all 400ms ease;
-				height: auto;
+				transition: all 200ms ease;
 				border-radius: 50%;
 				opacity: .5;
-				margin: 0 15px;
 			}
 		}
 	}
@@ -685,7 +697,7 @@
 
 .daterangepicker {
 	font-size: 14px;
-	line-height: 32px;
+	line-height: 30px;
 
 	&.dropdown-menu {
 		display: none;
@@ -696,17 +708,13 @@
 		display: none;
 	}
 
-	th {
-
-		&.month {
-
-			font-weight: bold;
-			color: #501e00;
-		}
-	}
-
 	td {
-
+		&.off {
+			&, &.in-range, &.start-date, &.end-date {
+				//opacity: 0;
+				//pointer-events: none;
+			}
+		}
 		&.start-date {
 			border-radius: 0;
 		}
@@ -719,10 +727,26 @@
 			border-radius: 0;
 		}
 	}
+	.calendar {
 
+		th, td {
+			min-width: 30px;
+		}
+		th {
+			font-size: 10px;
+			opacity: .5;
+			&.month {
+				font-weight: bold;
+				color: #501e00;
+				opacity: 1;
+				font-size: inherit;
+			}
+		}
+	}
 }
 
 // end daterangepicker
+//
 
 .footer {
 	background: #282828;

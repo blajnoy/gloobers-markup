@@ -3,10 +3,9 @@ $(document).ready(function() {
 	$('.carousel').slick({
 		centerMode: true,
 		slidesToShow: 5,
-		swipeToSlide: true,
-		//centerPadding: '60px',
-		arrows: false
-		//variableWidth: true
+		arrows: false,
+		variableWidth: true,
+		focusOnSelect: truecltkfn
 	});
 
 	$('.slider')
