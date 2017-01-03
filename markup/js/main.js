@@ -1,12 +1,26 @@
 $(document).ready(function() {
 
-	$('.carousel').slick({
+	$('.testimonials-carousel').slick({
 		centerMode: true,
 		slidesToShow: 5,
+		swipeToSlide: true,
 		arrows: false,
 		variableWidth: true,
-		focusOnSelect: truecltkfn
+		focusOnSelect: true,
+		asNavFor: '.slider-for'
 	});
+
+	$('.slider-for').slick({
+		slidesToShow: 1,
+		arrows: false,
+		fade: true,
+		draggable: false,
+		swipe: false,
+		touchMove: false,
+		//adaptiveHeight: true
+	});
+
+
 
 	$('.slider')
 		.slick({
