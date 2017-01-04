@@ -47,19 +47,38 @@ table {
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url("../fonts/Gilroy-Light.eot");
-  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Light.woff") format("woff"), url("../fonts/Gilroy-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
+  font-family: "gloobers-icons";
+  src: url("../fonts/icons/gloobers-icons.eot");
+  src: url("../fonts/icons/gloobers-icons.eot?#iefix") format("eot"), url("../fonts/icons/gloobers-icons.woff2") format("woff2"), url("../fonts/icons/gloobers-icons.woff") format("woff"), url("../fonts/icons/gloobers-icons.ttf") format("truetype"), url("../fonts/icons/gloobers-icons.svg#gloobers-icons") format("svg");
 }
 
-@font-face {
-  font-family: 'Gilroy';
-  src: url("../fonts/Gilroy-ExtraBold.eot");
-  src: url("../fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
+.gl-ico {
+  font-family: "gloobers-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.gl-ico-arrow-down:before {
+  content: "\E001";
+}
+
+.gl-ico-arrow-left:before {
+  content: "\E002";
+}
+
+.gl-ico-arrow-right:before {
+  content: "\E003";
+}
+
+.gl-ico-arrow-up:before {
+  content: "\E004";
 }
 
 body {
@@ -1129,7 +1148,8 @@ fieldset[disabled] .btn {
 
 .header {
   min-height: 100vh;
-  background: url(../images/bg-main.jpg) 50% 0 no-repeat;
+  padding: 0 0 115px;
+  background: url(../images/bg-main.jpg) 50% 0 no-repeat fixed;
   background-size: cover;
   position: relative;
 }
@@ -1192,6 +1212,10 @@ fieldset[disabled] .btn {
   opacity: 0;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
+}
+
+.nav ul li a .gl-ico, .how-it-works-slider .slider-tabs ul li a .gl-ico {
+  vertical-align: middle;
 }
 
 .nav ul li.active a, .how-it-works-slider .slider-tabs ul li.active a,
@@ -1727,9 +1751,9 @@ fieldset[disabled] .btn {
 }
 
 .testimonials-slider .testimonials-carousel .item.slick-current .img-h img {
-  -webkit-transform: scale(-webkit-calc(120/50));
-  -ms-transform: scale(calc(120/50));
-  transform: scale(calc(120/50));
+  -webkit-transform: scale(2.4);
+  -ms-transform: scale(2.4);
+  transform: scale(2.4);
   opacity: 1;
 }
 
@@ -1853,11 +1877,14 @@ fieldset[disabled] .btn {
 .features-list .img-h {
   width: 70px;
   float: left;
-  padding: 6px 0 0;
+  padding: 6px 30px 0 0;
 }
 
 .features-list .img-h img {
   vertical-align: middle;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .features-list .text-h {

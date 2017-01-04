@@ -1,7 +1,8 @@
 .header {
 	@include clearfix();
 	min-height: 100vh;
-	background: url(../images/bg-main.jpg) 50% 0 no-repeat;
+	padding: 0 0 115px;
+	background: url(../images/bg-main.jpg) 50% 0 no-repeat fixed;
 	background-size: cover;
 	position: relative;
 
@@ -44,6 +45,9 @@
 					transform: translateX(-50%);
 					opacity: 0;
 					transition: all 100ms ease-in;
+				}
+				.gl-ico {
+					vertical-align: middle;
 				}
 			}
 			&.active a,
@@ -464,9 +468,8 @@
 			}
 
 			&.slick-current {
-
 				.img-h img {
-					transform: scale(calc(120/50));
+					transform: scale(2.4);
 					opacity: 1;
 				}
 			}
@@ -567,7 +570,6 @@
 	}
 }
 .features-list {
-
 	.item {
 		@include clearfix();
 		font-size: 18px;
@@ -578,10 +580,13 @@
 	.img-h {
 		width: 70px;
 		float: left;
-		padding: 6px 0 0;
+		padding: 6px 30px 0 0;
 
 		img {
 			vertical-align: middle;
+			display: block;
+			width: 100%;
+			height: auto;
 		}
 	}
 	.text-h {

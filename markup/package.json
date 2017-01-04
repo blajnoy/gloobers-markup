@@ -12,11 +12,15 @@
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^2.0.13",
     "gulp-css-longhand": "^1.0.3",
+    "gulp-iconfont": "^8.0.1",
+    "gulp-iconfont-css": "^2.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp.spritesmith": "^6.2.1",
     "slick-carousel": "^1.6.0",
-    "susy": "^2.2.12"
+    "susy": "^2.2.12",
+    "tether": "^1.4.0",
+    "tether-drop": "^1.4.2"
   },
   "dependencies": {},
   "description": ""

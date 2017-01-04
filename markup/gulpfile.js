@@ -5,8 +5,33 @@ var gulp = require('gulp'),
 	rename = require('gulp-rename'),
 	cleanCSS = require('gulp-clean-css'),
 	autoprefixer = require('gulp-autoprefixer'),
-	spritesmith = require('gulp.spritesmith');
+	spritesmith = require('gulp.spritesmith'),
+	iconfont = require('gulp-iconfont'),
+	iconfontCss = require('gulp-iconfont-css');
 
+
+
+
+var fontName = 'gloobers-icons',
+	cssClass = 'gl-ico';
+
+gulp.task('iconfont', function(){
+	gulp.src(['assets/icons/*.svg'])
+		.pipe(iconfontCss({
+			fontName: fontName,
+			cssClass: cssClass,
+			path: 'assets/css/templates/_icons.scss',
+			targetPath: '../../sass/_icons.scss',
+			fontPath: '../fonts/icons/'
+		}))
+		.pipe(iconfont({
+			prependUnicode: true,
+			formats: ['ttf', 'eot', 'woff', 'woff2', 'svg'],
+			fontName: fontName,
+			normalize: true
+		}))
+		.pipe(gulp.dest('fonts/icons/'));
+});
 
 
 gulp.task('sass', function() {
