@@ -1,0 +1,84 @@
+@font-face {
+	font-family: "gloobers-icons";
+	src: url('../fonts/icons/gloobers-icons.eot');
+	src: url('../fonts/icons/gloobers-icons.eot?#iefix') format('eot'),
+	url('../fonts/icons/gloobers-icons.woff2') format('woff2'),
+	url('../fonts/icons/gloobers-icons.woff') format('woff'),
+	url('../fonts/icons/gloobers-icons.ttf') format('truetype'),
+	url('../fonts/icons/gloobers-icons.svg#gloobers-icons') format('svg');
+}
+
+@mixin gl-ico-styles {
+	font-family: "gloobers-icons";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+%gl-ico {
+	@include gl-ico-styles;
+}
+
+@function gl-ico-char($filename) {
+	$char: "";
+	
+	@if $filename == arrow-down {
+		$char: \E001;
+	}
+	@if $filename == arrow-left {
+		$char: \E002;
+	}
+	@if $filename == arrow-right {
+		$char: \E003;
+	}
+	@if $filename == arrow-up {
+		$char: \E004;
+	}
+	@if $filename == minus {
+		$char: \E005;
+	}
+	@if $filename == plus {
+		$char: \E006;
+	}
+
+	@return $char;
+}
+
+@function unicode($str){
+	@return unquote("\"") + $str + unquote("\"");
+}
+
+.gl-ico {
+	@include gl-ico-styles;
+}
+
+@mixin gl-ico($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		content: unicode(gl-ico-char($filename));
+	}
+}
+
+.gl-ico-arrow-down {
+	@include gl-ico(arrow-down);
+}
+.gl-ico-arrow-left {
+	@include gl-ico(arrow-left);
+}
+.gl-ico-arrow-right {
+	@include gl-ico(arrow-right);
+}
+.gl-ico-arrow-up {
+	@include gl-ico(arrow-up);
+}
+.gl-ico-minus {
+	@include gl-ico(minus);
+}
+.gl-ico-plus {
+	@include gl-ico(plus);
+}
