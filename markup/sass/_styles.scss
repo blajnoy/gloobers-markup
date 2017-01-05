@@ -88,24 +88,25 @@
 	vertical-align: top;
 	background: #fff;
 	border-radius: 10px 10px 0 0;
-	padding: 10px 10px 0;
+	padding: 15px 15px 0;
 
 	box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.62);
 	font-size: 0;
 
-	.col {
-		display: inline-block;
-		vertical-align: top;
-		font-size: 14px;
-		line-height: 17px;
+	.radio-inline {
 		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-		padding: 10px;
+		padding-bottom: 14px;
+		padding-right: 35px;
+		&:last-child {
+			padding-right: 0;
+		}
 	}
 }
 .search-tabs + .search-bar {
 	border-radius: 0 10px 10px 10px;
 }
 .search-bar {
+	@include clearfix();
 	background: #fff;
 	border-radius: 10px;
 	box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.62);
@@ -113,10 +114,15 @@
 	position: relative;
 	margin: 0 0 10px;
 	font-size: 0;
-	padding: 10px;
+	padding: 10px 0;
 
+	.tab-content {
+		float: left;
+		width: 100%;
+	}
 	.btn-search {
-		margin: -10px -10px -10px 0;
+		float: left;
+		margin: -10px 0 -10px -74px;
 	}
 
 	input[type = "text"] {
@@ -154,6 +160,57 @@
 		color: $secondTextColor;
 	}
 }
+.person-num-holder {
+	background: #fff;
+	font-size: 14px;
+	line-height: 17px;
+	width: 240px;
+	color: #000;
+
+	.person-row {
+		@include clearfix();
+
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		padding: 15px 0 23px;
+		margin: 0 0 10px;
+
+		.operation-btns {
+			margin: 0 -9px 0 0;
+
+			.btns-col {
+				padding: 5px 10px;
+
+				+ .btns-col {
+					border-left: 1px solid rgba(0, 0, 0, 0.1);
+				}
+			}
+
+		}
+		.text-h {
+			overflow: hidden;
+
+			strong {
+				font-weight: 600;
+				padding: 0 7px 0 0;
+
+				span {
+					padding: 0 7px 0 0;
+				}
+			}
+		}
+		.person-info {
+			font-size: 12px;
+			opacity: .5;
+		}
+	}
+}
+.lnk-row {
+	padding: 10px 0;
+}
+.lnk-close {
+	text-transform: uppercase;
+	color: #000;
+}
 .btn-scroll {
 	display: block;
 	width: 30px;
@@ -164,7 +221,6 @@
 	margin: 0 0 0 -15px;
 }
 .date-range {
-	color: #ededed;
 
 	.date-col {
 		vertical-align: middle;
@@ -734,6 +790,7 @@
 
 		th, td {
 			min-width: 30px;
+			padding: 0;
 		}
 		th {
 			font-size: 10px;

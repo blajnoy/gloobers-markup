@@ -19,6 +19,33 @@ $(document).ready(function() {
 		touchMove: false,
 		//adaptiveHeight: true
 	});
+	$("#open-person-popover").popover({
+		html: true,
+		content: function() {
+			return $('#popover-content').html();
+		}
+	});
+	$(document).on( "click", "#close-person-popover", function() {
+		$('#open-person-popover').popover('hide');
+		return false;
+	});
+
+	$("#open-person-popover01").popover({
+		html: true,
+		content: function() {
+			return $('#popover-content01').html();
+		}
+	});
+	$(document).on( "click", "#close-person-popover01", function() {
+		$('#open-person-popover01').popover('hide');
+		return false;
+	});
+
+	$('.search-tabs .radio').click(function () {
+		$('#open-person-popover').popover('hide');
+		$('#open-person-popover01').popover('hide');
+		$(this).tab('show');
+	});
 
 
 

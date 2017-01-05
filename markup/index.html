@@ -6,17 +6,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gloobers</title>
+
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans:400,700" rel="stylesheet">
 	<link href="css/sprite.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.css" rel="stylesheet">
-
-
-
 	<link href="css/daterangepicker.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
 	<link href="css/all.css" rel="stylesheet">
-
-	<script src="https://use.fontawesome.com/36fe5b07c5.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -37,32 +35,113 @@
 					<h1>Be Friendly, Travel for free</h1>
 					<p class="sub-ttl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 					<div class="search-tabs">
-						<div class="col">
-							<label for="lb01"><input id="lb01" type="radio" name="search-tabs" checked="checked">Hotel</label>
+						<div data-target="#tab01" class="radio radio-inline">
+							<input id="lb01" type="radio" name="search-tabs" checked="checked">
+							<label for="lb01">Hotel</label>
 						</div>
-						<div class="col">
-							<label for="lb02"><input id="lb02" type="radio" name="search-tabs">Activities</label>
+						<div data-target="#tab02" class="radio radio-inline">
+							<input id="lb02" type="radio" name="search-tabs">
+							<label for="lb02">Activities</label>
 						</div>
-						<div class="col">
-							<label for="lb03"><input id="lb03" type="radio" name="search-tabs">Find an advisor</label>
+						<div data-target="#tab03" class="radio radio-inline">
+							<input id="lb03" type="radio" name="search-tabs">
+							<label for="lb03">Find an advisor</label>
 						</div>
 					</div>
 					<div class="search-bar">
-						<div class="col col01">
-							<span class="ttl">Where?</span>
-							<input type="text" placeholder="Enter your destination" value="">
-						</div>
-						<div class="col col02">
-							<span class="ttl">When?</span>
-							<div class="date-range">
-								<input name="daterange" class="date-range-input" type="text" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
-								<!--<i class="fa fa-arrow-right" aria-hidden="true"></i>-->
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab01">
+								<div class="col col01">
+									<span class="ttl">Where?</span>
+									<input type="text" placeholder="Enter your destination" value="">
+								</div>
+								<div class="col col02">
+									<span class="ttl">When?</span>
+									<div class="date-range">
+										<input name="daterange" class="date-range-input" type="text" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
+									</div>
+								</div>
+								<div class="col col03">
+									<span class="ttl">What?</span>
+									<div class="person-num">
+										<span class="chosen" data-placement="bottom" id="open-person-popover" data-container="body" data-placement="left" data-html="true">6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
+									</div>
+									<div id="popover-content" class="hide">
+										<div class="person-num-holder">
+											<div class="person-row">
+												<div class="operation-btns pull-right">
+													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+												</div>
+												<div class="text-h">
+													<strong><span>2</span>Adult</strong>
+												</div>
+											</div>
+											<div class="person-row">
+												<div class="operation-btns pull-right">
+													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+												</div>
+												<div class="text-h">
+													<strong class=""><span class="">1</span>Childrens</strong>
+													<em class="person-info">Age 2 -12 </em>
+												</div>
+											</div>
+											<div class="lnk-row clearfix">
+												<a id="close-person-popover" href="#" class="lnk-close pull-right">Close</a>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="col col03">
-							<span class="ttl">What?</span>
-							<div class="person-num">
-								<span class="chosen">6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
+							<div class="tab-pane" id="tab02">
+								<div class="col col01">
+									<span class="ttl">Where2?</span>
+									<input type="text" placeholder="Enter your destination" value="">
+								</div>
+								<div class="col col02">
+									<span class="ttl">When2?</span>
+									<div class="date-range">
+										<input name="daterange" class="date-range-input" type="text" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
+									</div>
+								</div>
+								<div class="col col03">
+									<span class="ttl">What2?</span>
+									<div class="person-num">
+										<span class="chosen" data-placement="bottom" id="open-person-popover01" data-container="body" data-placement="left" data-html="true">6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
+									</div>
+									<div id="popover-content01" class="hide">
+										<div class="person-num-holder">
+											<div class="person-row">
+												<div class="operation-btns pull-right">
+													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+												</div>
+												<div class="text-h">
+													<strong><span>1</span>Persons</strong>
+												</div>
+											</div>
+											<div class="lnk-row clearfix">
+												<a id="close-person-popover01" href="#" class="lnk-close pull-right">Close</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="tab03">
+								<div class="col col01">
+									<span class="ttl">Where3?</span>
+									<input type="text" placeholder="Enter your destination" value="">
+								</div>
+								<div class="col col02">
+									<span class="ttl">When3?</span>
+									<div class="date-range">
+										<input name="daterange" class="date-range-input" type="text" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
+									</div>
+								</div>
+								<div class="col col03">
+									<span class="ttl">What3?</span>
+								</div>
 							</div>
 						</div>
 						<button class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -553,11 +632,14 @@
 		</footer>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/36fe5b07c5.js"></script>
+
 	<script src="js/custom-file-input.js"></script>
-	<script src="js/jquery.fancybox.pack.js"></script>
+	<!--<script src="js/jquery.fancybox.pack.js"></script>-->
 
 	<script type="text/javascript" src="js/moment.js"></script>
 	<script type="text/javascript" src="js/daterangepicker.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
 
 	<script src="js/main.js"></script>
