@@ -13,7 +13,19 @@
 	<link href="css/daterangepicker.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<style>
 
+		.chart rect {
+			fill: steelblue;
+		}
+
+		.chart text {
+			fill: white;
+			font: 10px sans-serif;
+			text-anchor: middle;
+		}
+
+	</style>
 	<link href="css/all.css" rel="stylesheet">
 </head>
 <body>
@@ -31,139 +43,10 @@
 						<a href="#" class="btn btn-default">Refer a professional</a>
 					</nav>
 				</div>
-				<div class="search-area">
-					<h1>Be Friendly, Travel for free</h1>
-					<p class="sub-ttl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-					<div class="search-tabs">
-						<div data-target="#tab01" class="radio radio-inline">
-							<input id="lb01" type="radio" name="search-tabs" checked="checked">
-							<label for="lb01">Hotel</label>
-						</div>
-						<div data-target="#tab02" class="radio radio-inline">
-							<input id="lb02" type="radio" name="search-tabs">
-							<label for="lb02">Activities</label>
-						</div>
-						<div data-target="#tab03" class="radio radio-inline">
-							<input id="lb03" type="radio" name="search-tabs">
-							<label for="lb03">Find an advisor</label>
-						</div>
-					</div>
-					<div class="search-bar">
-						<div class="tab-content">
-							<div class="tab-pane active" id="tab01">
-								<div class="col col01">
-									<span class="ttl">Where?</span>
-									<input type="text" placeholder="Enter your destination" value="">
-								</div>
-								<div class="col col02">
-									<span class="ttl">When?</span>
-									<div class="date-range">
-										<input name="daterange" class="date-range-input" type="text" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
-									</div>
-								</div>
-								<div class="col col03">
-									<span class="ttl">What?</span>
-									<div class="person-num">
-										<span class="chosen" data-placement="bottom" id="open-person-popover" data-container="body" data-placement="left" data-html="true">6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
-									</div>
-									<div id="popover-content" class="hide">
-										<div class="person-num-holder">
-											<div class="person-row">
-												<div class="operation-btns pull-right">
-													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-												</div>
-												<div class="text-h">
-													<strong><span>2</span>Adult</strong>
-												</div>
-											</div>
-											<div class="person-row">
-												<div class="operation-btns pull-right">
-													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-												</div>
-												<div class="text-h">
-													<strong class=""><span class="">1</span>Childrens</strong>
-													<em class="person-info">Age 2 -12 </em>
-												</div>
-											</div>
-											<div class="lnk-row clearfix">
-												<a id="close-person-popover" href="#" class="lnk-close pull-right">Close</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane" id="tab02">
-								<div class="col col01">
-									<span class="ttl">Where2?</span>
-									<input type="text" placeholder="Enter your destination" value="">
-								</div>
-								<div class="col col02">
-									<span class="ttl">When2?</span>
-									<div class="date-range">
-										<input name="daterange" class="date-range-input" type="text" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
-									</div>
-								</div>
-								<div class="col col03">
-									<span class="ttl">What2?</span>
-									<div class="person-num">
-										<span class="chosen" data-placement="bottom" id="open-person-popover01" data-container="body" data-placement="left" data-html="true">6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
-									</div>
-									<div id="popover-content01" class="hide">
-										<div class="person-num-holder">
-											<div class="person-row">
-												<div class="operation-btns pull-right">
-													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-												</div>
-												<div class="text-h">
-													<strong><span>1</span>Persons</strong>
-												</div>
-											</div>
-											<div class="lnk-row clearfix">
-												<a id="close-person-popover01" href="#" class="lnk-close pull-right">Close</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane" id="tab03">
-								<div class="col col01">
-									<span class="ttl">Where3?</span>
-									<input type="text" placeholder="Enter your destination" value="">
-								</div>
-								<div class="col col02">
-									<span class="ttl">When3?</span>
-									<div class="date-range">
-										<input name="daterange" class="date-range-input" type="text" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
-									</div>
-								</div>
-								<div class="col col03">
-									<span class="ttl">What3?</span>
-								</div>
-							</div>
-						</div>
-						<button class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
-					</div>
-					<p class="search-info">Search through 6.000 items or browse 2.000 events.</p>
-				</div>
-				<a href="#tag" class="btn-scroll">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="45" viewBox="0 0 30 45">
-						<metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-							<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
-								<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-									<rdf:Description rdf:about=""/>
-								</rdf:RDF>
-							</x:xmpmeta>
-							<?xpacket end="w"?></metadata>
-						<image id="mouse" width="30" height="45" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAtCAQAAAAT1xMqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgDBQNKSMu4uEhAAACG0lEQVRIx+3WvU9TYRTH8V8vEFBJkSiJLzEYizQ6EFCbdMJEAhqJhsioDjoxspgwODGw+PIfGBNdSDRsisRBGrtUXdTBVIsvkcQQaStCtYXefh3ahvb2aeUy95zl3nPP57nnmZ7HgwzRpwGdkE+tsrWiT3qlOX0x9FGezYzxgXyk+Mp30oW3MCN4yrvL6RALQIoHjLKvULPwcY2nZIEwx83YwxSwzi32IkN2MQ2kuFKJLR4CUXqMsJgXiAPjTnwXeEmbo/kJU46Kn0Uo/j1fGgXeVlDxi/mKmp8EKY4V8W6WWOOoYUwTFheBMJ48ngRuGPdoxmIaGEGimQQ/2OEKd5NjHlkaVrvu6a/cxEc912l1Wjor6bErKkmPJA1aCmhV71zjsKSAJZ+iylVpyehPlS8xZXWkUV4tV12/XytVvmT1W3saJWWq4miNwVdlWa53WxJ1XMd1XAW3bEt6ZVtKqmMbtElexS0tyK8G17hbDYpZimiXTrrGZyRFxHngds2z0ZQhbPaLJpZYptUV7QOe5c+qCWDSFZ4FBvJ4J99I07tlehWY3Tyfh8jxmY4t0VOskeRw6c3gJvCeA/+lAX5iM1x+rRB3gEX6a9LrpLC57LyTCDHOBnCfLiMM8gJIcG6z5hzqDWAzxxg9tCBEG0EmeA3ADIdK+53rW1wiRDHSbBSeMswQdE7jMd49D2pQvepUu3KKK6aIQkpWtv0DHYXYxCIfOB0AAAAASUVORK5CYII="/>
-					</svg>
-				</a>
 			</div>
 		</header>
 		<main class="main">
-
+			<div id="chart"></div>
 		</main>
 		<footer class="footer">
 			<div class="container">
@@ -188,17 +71,26 @@
 			</div>
 		</footer>
 	</div>
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/36fe5b07c5.js"></script>
 
 	<script src="js/custom-file-input.js"></script>
-	<!--<script src="js/jquery.fancybox.pack.js"></script>-->
 
 	<script type="text/javascript" src="js/moment.js"></script>
 	<script type="text/javascript" src="js/daterangepicker.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/popover-extra-placements.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-slider.min.js"></script>
+
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+	<script src="https://d3js.org/d3-ease.v1.min.js"></script>
+
 
 	<script src="js/main.js"></script>
+
 </body>
 </html>

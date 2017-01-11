@@ -48,7 +48,6 @@ $(document).ready(function() {
 	});
 
 
-
 	$('.slider')
 		.slick({
 			slidesToShow: 1,
@@ -75,6 +74,100 @@ $(document).ready(function() {
 	}, function(start, end, label) {
 		console.log("New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')");
 	});
+
+
+	/*(function () {
+
+		//  the data that powers the bar chart, a simple array of numeric values
+		var chartdata = [40, 60, 80, 100, 70, 120, 100, 60, 70, 150, 120, 140];
+
+		//  the size of the overall svg element
+		var height = 200,
+			width = 720,
+
+		//  the width of each bar and the offset between each bar
+			barWidth = 40,
+			barOffset = 20;
+
+
+		d3.select('#chart').append('svg')
+			.attr('width', width)
+			.attr('height', height)
+			.style('background', '#dff0d8')
+			.selectAll('rect').data(chartdata)
+			.enter().append('rect')
+			.style('fill', '#3c763d')
+			.attr('width', barWidth)
+			.attr('height', function (data) {
+				return data;
+			})
+			.attr('x', function (data, i) {
+				return i * (barWidth + barOffset);
+			})
+			.attr('y', function (data) {
+				return height - data;
+			});
+
+	})();*/
+	(function(){
+
+		var chartdata = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120,
+			135, 150, 165, 180, 200, 220, 240, 270, 300, 330, 370, 410];
+
+		var height = 400,
+			width = 720;
+
+		var dynamicColor;
+
+		var yScale = d3.scaleLinear()
+			.domain([0, d3.max(chartdata)])
+			.range([0, height]);
+
+
+		var xScale = d3.scaleBand()
+			.domain(d3.range(0, chartdata.length))
+			.range([0, width]);
+
+		var awesome = d3.select('#chart').append('svg')
+			.attr('width', width)
+			.attr('height', height)
+			.append('g')
+			.selectAll('rect').data(chartdata)
+			.enter().append('rect')
+			.style('fill', '#acacac')
+			.attr('width', xScale.bandwidth())
+			.attr('x', function (data, i) {
+				return xScale(i);
+			})
+			.attr('height', 0)
+			.attr('y', height)
+			.on('mouseover', function () {
+				dynamicColor = this.style.fill;
+				d3.select(this)
+					.style('fill', '#3c763d')
+			})
+
+			.on('mouseout', function () {
+				d3.select(this)
+					.style('fill', dynamicColor)
+			});
+
+		awesome.transition()
+			.attr('height', function (data) {
+				return yScale(data);
+			})
+			.attr('y', function (data) {
+				return height - yScale(data);
+			})
+			.delay(function (data, i) {
+				return i * 20;
+			})
+			.duration(1000)
+			.ease(d3.easeElastic)
+
+	})();
+
+
 
 	/*
 	$("#btn-toggle").on("click", function() {
