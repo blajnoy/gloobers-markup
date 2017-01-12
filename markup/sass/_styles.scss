@@ -815,6 +815,36 @@
 // end daterangepicker
 //
 
+
+.histo-slider {
+	@include clearfix();
+	height: 70px;
+	width: 700px;
+	padding: 0 10px;
+	color: rgba(#000, .5);
+
+	.histo-chart {
+		width: 100%;
+		height: 50%;
+	}
+	.slider {
+		display: block;
+		margin: -7px 0 0;
+	}
+
+	.min-price,
+	.max-price {
+		float: left;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.max-price {
+		float: right;
+	}
+}
+
+
+
 .footer {
 	background: #282828;
 	color: #fff;
@@ -877,7 +907,7 @@
 		display: inline-block;
 		padding: 0 16px;
 		vertical-align: middle;
-		
+
 		a {
 			color: #fff ;
 		}

@@ -109,48 +109,44 @@ $(document).ready(function() {
 			});
 
 	})();*/
+
+	$("#ex2").slider({});
+
 	(function(){
 
-		var chartdata = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120,
-			135, 150, 165, 180, 200, 220, 240, 270, 300, 330, 370, 410];
 
-		var height = 400,
-			width = 720;
+		var arr = [];
+		for (var i = 0, l = 50; i < l; i++) {
+			arr.push(Math.round(Math.random() * l))
+		}
 
-		var dynamicColor;
+		/*var chartdata = [500, 100, 10, 10, 500, 100, 10, 10, 0, 35, 1000, 0, 35, 100, 100, 500, 300, 500, 100, 10, 10, 0, 35, 2100, 1000, 500, 300, 300, 500, 100, 10, 10, 0, 35, 1000, 500, 300, 500, 100, 10, 10, 0, 35, 1000, 1000, 500, 1000, 1000, 500, 300];*/
+
+		var chartdata = arr;
+
+		var height = 35,
+			width = '100%',
+			persentageItemWidth = 100/chartdata.length;
 
 		var yScale = d3.scaleLinear()
 			.domain([0, d3.max(chartdata)])
 			.range([0, height]);
 
 
-		var xScale = d3.scaleBand()
-			.domain(d3.range(0, chartdata.length))
-			.range([0, width]);
-
-		var awesome = d3.select('#chart').append('svg')
+		var rect = d3.select('#chart').append('svg')
 			.attr('width', width)
 			.attr('height', height)
-			.append('g')
-			.selectAll('rect').data(chartdata)
+			.append('g');
+		var awesome = rect.selectAll('rect').data(chartdata)
 			.enter().append('rect')
 			.style('fill', '#acacac')
-			.attr('width', xScale.bandwidth())
+			.attr('width', persentageItemWidth + "%")
 			.attr('x', function (data, i) {
-				return xScale(i);
+				return persentageItemWidth*i + "%";
 			})
 			.attr('height', 0)
-			.attr('y', height)
-			.on('mouseover', function () {
-				dynamicColor = this.style.fill;
-				d3.select(this)
-					.style('fill', '#3c763d')
-			})
+			.attr('y', height);
 
-			.on('mouseout', function () {
-				d3.select(this)
-					.style('fill', dynamicColor)
-			});
 
 		awesome.transition()
 			.attr('height', function (data) {
@@ -159,14 +155,24 @@ $(document).ready(function() {
 			.attr('y', function (data) {
 				return height - yScale(data);
 			})
-			.delay(function (data, i) {
-				return i * 20;
+			.delay(function (/*data,*/ i) {
+				return i * 10;
 			})
 			.duration(1000)
-			.ease(d3.easeElastic)
+			.ease(d3.easeElastic);
 
+		var refreshGraph = function () {
+			return awesome;
+		}
+		
+
+
+		$("#refresh-prices").click(function () {
+			refreshGraph();
+		})
+		
+		
 	})();
-
 
 
 	/*

@@ -40,13 +40,19 @@
 							<li class="active"><a href="#">Professionals</a></li>
 							<li><a href="#">Log in</a></li>
 						</ul>
-						<a href="#" class="btn btn-default">Refer a professional</a>
+						<!--<a href="#" class="btn btn-default">Refer a professional</a>-->
+						<a href="#" class="btn btn-default" id="refresh-prices">Refresh</a>
 					</nav>
 				</div>
 			</div>
 		</header>
 		<main class="main">
-			<div id="chart"></div>
+			<div class="histo-slider">
+				<div id="chart" class="histo-chart"></div>
+				<input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[10, 1000]"/>
+				<b class="min-price">$10</b>
+				<b class="max-price">$1000</b>
+			</div>
 		</main>
 		<footer class="footer">
 			<div class="container">
