@@ -817,15 +817,16 @@
 
 
 .histo-slider {
-	@include clearfix();
-	height: 70px;
+	overflow: hidden;
+	height: 80px;
 	width: 700px;
-	padding: 0 10px;
+	padding: 10px 10px 0;
 	color: rgba(#000, .5);
 
 	.histo-chart {
 		width: 100%;
 		height: 50%;
+
 	}
 	.slider {
 		display: block;
