@@ -4,8 +4,16 @@
 	position: relative;
 
 	.header-holder {
-		padding: 28px 0 0;
+		padding-top: 14px;
+		padding-bottom: 14px;
 		@include clearfix();
+		background: #fff;
+		border-bottom: 2px solid #e1e1e1;
+
+		.hp & {
+			background: none;
+			padding-top: 28px;
+		}
 	}
 
 	.hp & {
@@ -16,7 +24,47 @@
 }
 .logo {
 	float: left;
-	margin: -14px 0 0 -12px;
+	margin: 0 20px 0 0;
+
+	img {
+		display: block;
+	}
+
+	.hp & {
+		margin: -14px 0 0 -12px;
+	}
+}
+.search-row {
+	display: table-cell;
+	width: 10000px;
+	border-left: 2px solid #e5e5e5;
+	padding: 0 0 0 28px;
+
+	.fa {
+		vertical-align: middle;
+		margin: 0 -22px 0 0;
+		position: relative;
+		z-index: 2;
+	}
+
+	.search-field {
+		display: inline-block;
+		width: 100%;
+		font-size: 18px;
+		vertical-align: middle;
+		padding: 15px 37px;
+	}
+}
+.search-wrapper {
+	@include clearfix();
+	height: calc(100vh - 90px);
+}
+.search-sidebar {
+	height: 100%;
+	overflow: auto;
+}
+.map {
+	height: 100%;
 }
 .nav {
 	float: right;
@@ -34,7 +82,7 @@
 			padding: 0 40px 0 0;
 
 			a {
-				color: #fff;
+				color: #000;
 				position: relative;
 
 				&:after {
@@ -52,16 +100,24 @@
 				.gl-ico {
 					vertical-align: middle;
 				}
+				.hp & {
+					color: #fff;
+				}
 			}
+
 			&.active a,
 			& a:hover {
 				text-decoration: none;
-				color: #fff;
+				color: #000;
 
 				&:after {
 					opacity: 1;
 					width: 100%;
 				}
+			}
+			.hp &.active a,
+			.hp & a:hover {
+				color: #fff;
 			}
 		}
 	}
@@ -819,7 +875,7 @@
 .histo-slider {
 	overflow: hidden;
 	height: 80px;
-	width: 700px;
+	width: 100%;
 	padding: 10px 10px 0;
 	color: rgba(#000, .5);
 
@@ -833,13 +889,13 @@
 		margin: -7px 0 0;
 	}
 
-	.min-price,
-	.max-price {
+	.price-min,
+	.price-max {
 		float: left;
 		font-size: 14px;
 		line-height: 17px;
 	}
-	.max-price {
+	.price-max {
 		float: right;
 	}
 }

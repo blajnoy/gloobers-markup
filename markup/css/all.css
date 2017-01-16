@@ -1952,13 +1952,21 @@ fieldset[disabled] .btn {
 }
 
 .header .header-holder {
-  padding: 28px 0 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background: #fff;
+  border-bottom: 2px solid #e1e1e1;
 }
 
 .header .header-holder:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.hp .header .header-holder {
+  background: none;
+  padding-top: 28px;
 }
 
 .hp .header {
@@ -1969,7 +1977,57 @@ fieldset[disabled] .btn {
 
 .logo {
   float: left;
+  margin: 0 20px 0 0;
+}
+
+.logo img {
+  display: block;
+}
+
+.hp .logo {
   margin: -14px 0 0 -12px;
+}
+
+.search-row {
+  display: table-cell;
+  width: 10000px;
+  border-left: 2px solid #e5e5e5;
+  padding: 0 0 0 28px;
+}
+
+.search-row .fa {
+  vertical-align: middle;
+  margin: 0 -22px 0 0;
+  position: relative;
+  z-index: 2;
+}
+
+.search-row .search-field {
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  vertical-align: middle;
+  padding: 15px 37px;
+}
+
+.search-wrapper {
+  height: -webkit-calc(100vh - 90px);
+  height: calc(100vh - 90px);
+}
+
+.search-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.search-sidebar {
+  height: 100%;
+  overflow: auto;
+}
+
+.map {
+  height: 100%;
 }
 
 .nav, .how-it-works-slider .slider-tabs {
@@ -1991,7 +2049,7 @@ fieldset[disabled] .btn {
 }
 
 .nav ul li a, .how-it-works-slider .slider-tabs ul li a {
-  color: #fff;
+  color: #000;
   position: relative;
 }
 
@@ -2015,16 +2073,27 @@ fieldset[disabled] .btn {
   vertical-align: middle;
 }
 
+.hp .nav ul li a, .hp .how-it-works-slider .slider-tabs ul li a, .how-it-works-slider .hp .slider-tabs ul li a {
+  color: #fff;
+}
+
 .nav ul li.active a, .how-it-works-slider .slider-tabs ul li.active a,
 .nav ul li a:hover, .how-it-works-slider .slider-tabs ul li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 .nav ul li.active a:after, .how-it-works-slider .slider-tabs ul li.active a:after,
 .nav ul li a:hover:after, .how-it-works-slider .slider-tabs ul li a:hover:after {
   opacity: 1;
   width: 100%;
+}
+
+.hp .nav ul li.active a, .hp .how-it-works-slider .slider-tabs ul li.active a, .how-it-works-slider .hp .slider-tabs ul li.active a,
+.hp .nav ul li a:hover,
+.hp .how-it-works-slider .slider-tabs ul li a:hover, .how-it-works-slider
+.hp .slider-tabs ul li a:hover {
+  color: #fff;
 }
 
 .search-area {
@@ -2913,16 +2982,11 @@ fieldset[disabled] .btn {
 }
 
 .histo-slider {
-  height: 70px;
-  width: 700px;
-  padding: 0 10px;
+  overflow: hidden;
+  height: 80px;
+  width: 100%;
+  padding: 10px 10px 0;
   color: rgba(0, 0, 0, 0.5);
-}
-
-.histo-slider:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .histo-slider .histo-chart {
@@ -2935,14 +2999,14 @@ fieldset[disabled] .btn {
   margin: -7px 0 0;
 }
 
-.histo-slider .min-price,
-.histo-slider .max-price {
+.histo-slider .price-min,
+.histo-slider .price-max {
   float: left;
   font-size: 14px;
   line-height: 17px;
 }
 
-.histo-slider .max-price {
+.histo-slider .price-max {
   float: right;
 }
 
