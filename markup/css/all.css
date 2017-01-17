@@ -2034,6 +2034,9 @@ fieldset[disabled] .btn {
   float: right;
   font-size: 14px;
   line-height: 18px;
+  padding: 7px 0 0 40px;
+  height: 60px;
+  border-left: 2px solid #e5e5e5;
 }
 
 .nav ul, .how-it-works-slider .slider-tabs ul {
@@ -2071,6 +2074,7 @@ fieldset[disabled] .btn {
 
 .nav ul li a .gl-ico, .how-it-works-slider .slider-tabs ul li a .gl-ico {
   vertical-align: middle;
+  margin: 0 0 0 5px;
 }
 
 .hp .nav ul li a, .hp .how-it-works-slider .slider-tabs ul li a, .how-it-works-slider .hp .slider-tabs ul li a {
@@ -2078,7 +2082,9 @@ fieldset[disabled] .btn {
 }
 
 .nav ul li.active a, .how-it-works-slider .slider-tabs ul li.active a,
-.nav ul li a:hover, .how-it-works-slider .slider-tabs ul li a:hover {
+.nav ul li a:hover, .how-it-works-slider .slider-tabs ul li a:hover,
+.nav ul li a:active, .how-it-works-slider .slider-tabs ul li a:active,
+.nav ul li a:focus, .how-it-works-slider .slider-tabs ul li a:focus {
   text-decoration: none;
   color: #000;
 }
@@ -2094,6 +2100,52 @@ fieldset[disabled] .btn {
 .hp .how-it-works-slider .slider-tabs ul li a:hover, .how-it-works-slider
 .hp .slider-tabs ul li a:hover {
   color: #fff;
+}
+
+.hp .nav, .hp .how-it-works-slider .slider-tabs, .how-it-works-slider .hp .slider-tabs {
+  border: 0;
+  padding: 0;
+  height: auto;
+}
+
+.object-type {
+  float: right;
+  font-size: 16px;
+  line-height: 19px;
+  color: #501e00;
+  margin: 18px 40px 0 0;
+  position: relative;
+}
+
+.object-type:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #1e97d8;
+  bottom: -2px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  opacity: 0;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
+
+.object-type .gl-ico {
+  vertical-align: middle;
+  margin: 0 0 0 5px;
+}
+
+.object-type:hover, .object-type:active, .object-type:focus {
+  text-decoration: none;
+  color: #501e00;
+}
+
+.object-type:hover:after {
+  opacity: 1;
+  width: 100%;
 }
 
 .search-area {

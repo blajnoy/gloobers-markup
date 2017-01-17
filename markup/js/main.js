@@ -16,34 +16,26 @@ $(document).ready(function() {
 		fade: true,
 		draggable: false,
 		swipe: false,
-		touchMove: false,
+		touchMove: false
 		//adaptiveHeight: true
 	});
-	$("#open-person-popover").popover({
+	$("[data-toggle=popover]").popover({
 		html: true,
 		content: function() {
-			return $('#popover-content').html();
+			return $($(this).data("popoverHtmlId")).html();
 		}
-	});
-	$(document).on( "click", "#close-person-popover", function() {
-		$('#open-person-popover').popover('hide');
-		return false;
-	});
+	}).on('shown.bs.popover', function(e){
+		var popover = $(this);
 
-	$("#open-person-popover01").popover({
-		html: true,
-		content: function() {
-			return $('#popover-content01').html();
-		}
-	});
-	$(document).on( "click", "#close-person-popover01", function() {
-		$('#open-person-popover01').popover('hide');
-		return false;
+		$(document).on( "click", '.popover .lnk-close', function(){
+			popover.popover('hide');
+			return false;
+		});
+		
 	});
 
 	$('.search-tabs .radio').click(function () {
-		$('#open-person-popover').popover('hide');
-		$('#open-person-popover01').popover('hide');
+		$("[data-toggle=popover]").popover('hide');
 		$(this).tab('show');
 	});
 
@@ -211,6 +203,7 @@ $(document).ready(function() {
 		
 		
 	})();
+
 
 });
 
