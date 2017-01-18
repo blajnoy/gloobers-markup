@@ -20,10 +20,13 @@
 
 /** Global variables **/
 $popover_margin:				11px;
+$popover_margin_offset:			23px;
+
 $arrow_border:					11px;
 $arrow_color:					rgba(0, 0, 0, 0.25);
 $arrow_after_border:			10px;
 $arrow_after_color:				#fff;
+
 
 
 
@@ -33,7 +36,7 @@ $arrow_after_color:				#fff;
 
 /** Top Left **/
 .popover.topLeft {
-	margin-top: calc( -1 * ( #{$popover_margin} + 23px ) );
+	margin-top: - ( $popover_margin + $popover_margin_offset );
 }
 .popover.topLeft {
 	.arrow {
@@ -53,7 +56,7 @@ $arrow_after_color:				#fff;
 
 /** Top Right **/
 .popover.topRight {
-	margin-top: calc( -1 * ( #{$popover_margin} + 23px ) );
+	margin-top: - ( $popover_margin + $popover_margin_offset );
 	.arrow {
 		bottom: -$popover_margin;
 		left: 75%;
@@ -75,7 +78,7 @@ $arrow_after_color:				#fff;
 
 /** Right Top **/
 .popover.rightTop {
-	margin-left: calc( #{$popover_margin} + 23px );
+	margin-left: $popover_margin + $popover_margin_offset;
 	.arrow {
 		top: 25%;
 		left: -$popover_margin;
@@ -91,7 +94,7 @@ $arrow_after_color:				#fff;
 	}
 }
 .popover.rightBottom {
-	margin-left: calc( #{$popover_margin} + 23px );;
+	margin-left: $popover_margin + $popover_margin_offset;
 	.arrow {
 		top: 75%;
 		left: -$popover_margin;
@@ -113,7 +116,7 @@ $arrow_after_color:				#fff;
 
 /** Bottom Left **/
 .popover.bottomLeft {
-	margin-top: calc( #{$popover_margin} + 23px );;
+	margin-top: $popover_margin + $popover_margin_offset;
 	.arrow {
 		top: -$popover_margin;
 		left: 25%;
@@ -131,7 +134,7 @@ $arrow_after_color:				#fff;
 
 /** Bottom Right **/
 .popover.bottomRight {
-	margin-top: calc( #{$popover_margin} + 23px );;
+	margin-top: $popover_margin + $popover_margin_offset;
 	.arrow {
 		top: -$popover_margin;
 		left: 75%;
@@ -153,7 +156,7 @@ $arrow_after_color:				#fff;
 
 /** Left Top **/
 .popover.leftTop {
-	margin-left: calc( -1 * ( #{$popover_margin} + 23px ) );
+	margin-left: - ( $popover_margin + $popover_margin_offset );
 	.arrow {
 		top: 25%;
 		right: -$popover_margin;
@@ -171,7 +174,7 @@ $arrow_after_color:				#fff;
 
 /** Left Bottom **/
 .popover.leftBottom {
-	margin-left: calc( -1 * ( #{$popover_margin} + 23px ) );
+	margin-left: - ( $popover_margin + $popover_margin_offset );
 	.arrow {
 		top: 75%;
 		right: -$popover_margin;

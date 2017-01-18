@@ -1447,8 +1447,7 @@ fieldset[disabled] .btn {
  *************************/
 /** Top Left **/
 .popover.topLeft {
-  margin-top: -webkit-calc( -1 * ( 11px + 23px ));
-  margin-top: calc( -1 * ( 11px + 23px ));
+  margin-top: -34px;
 }
 
 .popover.topLeft .arrow {
@@ -1468,8 +1467,7 @@ fieldset[disabled] .btn {
 
 /** Top Right **/
 .popover.topRight {
-  margin-top: -webkit-calc( -1 * ( 11px + 23px ));
-  margin-top: calc( -1 * ( 11px + 23px ));
+  margin-top: -34px;
 }
 
 .popover.topRight .arrow {
@@ -1492,8 +1490,7 @@ fieldset[disabled] .btn {
  *************************/
 /** Right Top **/
 .popover.rightTop {
-  margin-left: -webkit-calc( 11px + 23px);
-  margin-left: calc( 11px + 23px);
+  margin-left: 34px;
 }
 
 .popover.rightTop .arrow {
@@ -1512,8 +1509,7 @@ fieldset[disabled] .btn {
 }
 
 .popover.rightBottom {
-  margin-left: -webkit-calc( 11px + 23px);
-  margin-left: calc( 11px + 23px);
+  margin-left: 34px;
 }
 
 .popover.rightBottom .arrow {
@@ -1536,8 +1532,7 @@ fieldset[disabled] .btn {
  *************************/
 /** Bottom Left **/
 .popover.bottomLeft {
-  margin-top: -webkit-calc( 11px + 23px);
-  margin-top: calc( 11px + 23px);
+  margin-top: 34px;
 }
 
 .popover.bottomLeft .arrow {
@@ -1557,8 +1552,7 @@ fieldset[disabled] .btn {
 
 /** Bottom Right **/
 .popover.bottomRight {
-  margin-top: -webkit-calc( 11px + 23px);
-  margin-top: calc( 11px + 23px);
+  margin-top: 34px;
 }
 
 .popover.bottomRight .arrow {
@@ -1581,8 +1575,7 @@ fieldset[disabled] .btn {
  *************************/
 /** Left Top **/
 .popover.leftTop {
-  margin-left: -webkit-calc( -1 * ( 11px + 23px ));
-  margin-left: calc( -1 * ( 11px + 23px ));
+  margin-left: -34px;
 }
 
 .popover.leftTop .arrow {
@@ -1602,8 +1595,7 @@ fieldset[disabled] .btn {
 
 /** Left Bottom **/
 .popover.leftBottom {
-  margin-left: -webkit-calc( -1 * ( 11px + 23px ));
-  margin-left: calc( -1 * ( 11px + 23px ));
+  margin-left: -34px;
 }
 
 .popover.leftBottom .arrow {
@@ -1966,7 +1958,9 @@ fieldset[disabled] .btn {
 
 .hp .header .header-holder {
   background: none;
+  border: 0;
   padding-top: 28px;
+  padding-bottom: 0;
 }
 
 .hp .header {
@@ -2110,14 +2104,17 @@ fieldset[disabled] .btn {
 
 .object-type {
   float: right;
-  font-size: 16px;
-  line-height: 19px;
-  color: #501e00;
   margin: 18px 40px 0 0;
   position: relative;
+  font-size: 16px;
+  line-height: 19px;
 }
 
-.object-type:after {
+.object-type > a {
+  color: #501e00;
+}
+
+.object-type > a:after {
   content: "";
   position: absolute;
   width: 0;
@@ -2133,17 +2130,17 @@ fieldset[disabled] .btn {
   transition: all 100ms ease-in;
 }
 
-.object-type .gl-ico {
+.object-type > a .gl-ico {
   vertical-align: middle;
   margin: 0 0 0 5px;
 }
 
-.object-type:hover, .object-type:active, .object-type:focus {
+.object-type > a:hover, .object-type > a:active, .object-type > a:focus {
   text-decoration: none;
   color: #501e00;
 }
 
-.object-type:hover:after {
+.object-type > a:hover:after {
   opacity: 1;
   width: 100%;
 }

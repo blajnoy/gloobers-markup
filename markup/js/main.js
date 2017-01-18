@@ -31,7 +31,7 @@ $(document).ready(function() {
 			popover.popover('hide');
 			return false;
 		});
-		
+
 	});
 
 	$('.search-tabs .radio').click(function () {

@@ -11,6 +11,7 @@
 	<link href="css/sprite.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.css" rel="stylesheet">
 	<link href="css/daterangepicker.css" rel="stylesheet">
+	<link href="css/drop-theme-arrows.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 	<style>
@@ -41,8 +42,18 @@
 					</ul>
 					<a href="#" id="refresh-prices" class="btn btn-default">Refer a professional</a>
 				</nav>
-				<a class="object-type" href="#" data-toggle="popover" data-placement="bottomRight" data-container="body" data-html="true" data-popover-html-id="#popover-object-type">Hotels <i class="gl-ico gl-ico-arrow-down"></i></a>
-				<div id="popover-object-type" class="hide">hi</div>
+				<div class="object-type">
+					<a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						Hotels <i class="gl-ico gl-ico-arrow-down"></i>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="dLabel">
+						<ul>
+							<li><a href="#">Hotels</a></li>
+							<li><a href="#">Activites</a></li>
+							<li><a href="#">Advisors</a></li>
+						</ul>
+					</div>
+				</div>
 				<div class="search-row">
 					<i class="fa fa-search" aria-hidden="true"></i>
 					<input class="search-field" type="text" placeholder="Start searching">
@@ -279,12 +290,12 @@
 
 	<script src="js/custom-file-input.js"></script>
 
-	<script type="text/javascript" src="js/moment.js"></script>
-	<script type="text/javascript" src="js/daterangepicker.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/slick.min.js"></script>
-	<script type="text/javascript" src="js/popover-extra-placements.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap-slider.min.js"></script>
+	<script src="js/moment.js"></script>
+	<script src="js/daterangepicker.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/popover-extra-placements.min.js"></script>
+	<script src="js/bootstrap-slider.min.js"></script>
 
 	<script src="https://d3js.org/d3.v4.min.js"></script>
 	<script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
@@ -293,7 +304,8 @@
 	<script src="js/modernizr.js"></script>
 
 
-
+	<script src="js/tether.min.js"></script>
+	<script src="js/drop.min.js"></script>
 
 	<script src="js/main.js"></script>
 
