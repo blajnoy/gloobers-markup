@@ -1,0 +1,211 @@
+$drop-bg-color: #fff;
+$drop-color: $mainTextColor;
+$black_20: rgba(0, 0, 0, 0.2);
+
+.drop-element {
+	box-sizing: border-box;
+	position: absolute;
+  	display: none;
+
+	&:after {
+		box-sizing: border-box;
+	}
+
+	&:before {
+		box-sizing: border-box;
+	}
+
+	* {
+		box-sizing: border-box;
+
+		&:after {
+			box-sizing: border-box;
+		}
+
+		&:before {
+			box-sizing: border-box;
+		}
+	}
+
+	&.drop-open {
+		display: block;
+	}
+
+	&.drop-theme-arrows {
+		max-width: 100%;
+		max-height: 100%;
+
+		.drop-content {
+			border-radius: 10px;
+			position: relative;
+			font-family: inherit;
+			background: $drop-bg-color;
+			color: $drop-color;
+			padding: 15px;
+			font-size: 1em;
+			line-height: 1.3em;
+			transform: translateZ(0);
+			box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.62);
+
+			&:before {
+				content: "";
+				display: block;
+				position: absolute;
+				width: 0;
+				height: 0;
+				border-color: transparent;
+				border-width: 16px;
+				border-style: solid;
+			}
+		}
+		&.drop-element-attached-bottom {
+			&.drop-element-attached-left {
+				&.drop-target-attached-top .drop-content {
+					margin-bottom: 16px;
+
+					&:before {
+						top: 100%;
+						left: 16px;
+						border-top-color: $drop-bg-color;
+					}
+				}
+
+				&.drop-target-attached-right .drop-content {
+					margin-left: 16px;
+
+					&:before {
+						bottom: 16px;
+						right: 100%;
+						border-right-color: $drop-bg-color;
+					}
+				}
+			}
+
+			&.drop-element-attached-right {
+				&.drop-target-attached-top .drop-content {
+					margin-bottom: 16px;
+
+					&:before {
+						top: 100%;
+						right: 16px;
+						border-top-color: $drop-bg-color;
+					}
+				}
+
+				&.drop-target-attached-left .drop-content {
+					margin-right: 16px;
+
+					&:before {
+						bottom: 16px;
+						left: 100%;
+						border-left-color: $drop-bg-color;
+					}
+				}
+			}
+
+			&.drop-element-attached-center .drop-content {
+				margin-bottom: 16px;
+
+				&:before {
+					top: 100%;
+					left: 50%;
+					margin-left: -16px;
+					border-top-color: $drop-bg-color;
+				}
+			}
+		}
+
+		&.drop-element-attached-top {
+			&.drop-element-attached-left {
+				&.drop-target-attached-bottom .drop-content {
+					margin-top: 16px;
+
+					&:before {
+						bottom: 100%;
+						left: 16px;
+						border-bottom-color: $drop-bg-color;
+					}
+				}
+
+				&.drop-target-attached-right .drop-content {
+					margin-left: 16px;
+
+					&:before {
+						top: 16px;
+						right: 100%;
+						border-right-color: $drop-bg-color;
+					}
+				}
+			}
+
+			&.drop-element-attached-right {
+				&.drop-target-attached-bottom .drop-content {
+					margin-top: 16px;
+
+					&:before {
+						bottom: 100%;
+						right: 16px;
+						border-bottom-color: $drop-bg-color;
+					}
+				}
+
+				&.drop-target-attached-left .drop-content {
+					margin-right: 16px;
+
+					&:before {
+						top: 16px;
+						left: 100%;
+						border-left-color: $drop-bg-color;
+					}
+				}
+			}
+
+			&.drop-element-attached-center .drop-content {
+				margin-top: 16px;
+
+				&:before {
+					bottom: 100%;
+					left: 50%;
+					margin-left: -16px;
+					border-bottom-color: $drop-bg-color;
+				}
+			}
+		}
+
+		&.drop-element-attached-right.drop-element-attached-middle .drop-content {
+			margin-right: 16px;
+
+			&:before {
+				left: 100%;
+				top: 50%;
+				margin-top: -16px;
+				border-left-color: $drop-bg-color;
+			}
+		}
+
+		&.drop-element-attached-left.drop-element-attached-middle .drop-content {
+			margin-left: 16px;
+
+			&:before {
+				right: 100%;
+				top: 50%;
+				margin-top: -16px;
+				border-right-color: $drop-bg-color;
+			}
+		}
+	}
+
+	&.drop-out-of-bounds {
+		display: none;
+
+		&.drop-out-of-bounds-bottom {
+			&.drop-out-of-bounds-top {
+				display: block;
+
+				.drop-content {
+					background: red;
+				}
+			}
+		}
+	}
+}

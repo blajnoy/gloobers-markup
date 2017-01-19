@@ -43,15 +43,17 @@
 					<a href="#" id="refresh-prices" class="btn btn-default">Refer a professional</a>
 				</nav>
 				<div class="object-type">
-					<a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<a href="#" class="open-drop" data-offset="-10px 0" data-theme="drop-theme-arrows">
 						Hotels <i class="gl-ico gl-ico-arrow-down"></i>
 					</a>
-					<div class="dropdown-menu" aria-labelledby="dLabel">
-						<ul>
-							<li><a href="#">Hotels</a></li>
-							<li><a href="#">Activites</a></li>
-							<li><a href="#">Advisors</a></li>
-						</ul>
+					<div class="drop-content hide">
+						<div class="drop-list">
+							<ul>
+								<li class="active"><a href="#">Hotels</a></li>
+								<li><a href="#">Activites</a></li>
+								<li><a href="#">Advisors</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="search-row">
@@ -64,44 +66,77 @@
 			<section class="search-wrapper">
 				<div class="search-sidebar col-xs-12 col-sm-6">
 					<div class="search-nav">
-						<div class="row">
+						<div class="search-nav-row">
 							<div class="col">
 								<span class="ttl">When</span>
 								<div class="date-range">
-									<input name="daterange" class="date-range-input" type="text" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
+									<input name="daterange" class="date-range-input" type="text" data-opens="right" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
 								</div>
 							</div>
 							<div class="col">
 								<span class="ttl">Adult</span>
 								<div class="person-num">
-									<span class="chosen" data-placement="bottomRight" id="open-person-popover" data-container="body" data-html="true">6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
-								</div>
-								<div id="popover-content" class="hide">
-									<div class="person-num-holder">
-										<div class="person-row">
-											<div class="operation-btns pull-right">
-												<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-												<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+									<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows" >DefaulSet value <i class="gl-ico gl-ico-arrow-down"></i></span>
+									<div class="drop-content hide">
+										<div class="person-num-holder">
+											<div class="person-row">
+												<div class="operation-btns pull-right">
+													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+												</div>
+												<div class="text-h">
+													<strong class=""><span class="">1</span>Adults</strong>
+													<em class="person-info">Age 2 -12 </em>
+												</div>
 											</div>
-											<div class="text-h">
-												<strong><span>2</span>Adult</strong>
-											</div>
-										</div>
-										<div class="person-row">
-											<div class="operation-btns pull-right">
-												<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-												<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-											</div>
-											<div class="text-h">
-												<strong class=""><span class="">1</span>Childrens</strong>
-												<em class="person-info">Age 2 -12 </em>
-											</div>
-										</div>
-										<div class="lnk-row clearfix">
-											<a id="close-person-popover" href="#" class="lnk-close pull-right">Close</a>
 										</div>
 									</div>
 								</div>
+							</div>
+							<div class="col">
+								<span class="ttl">Children</span>
+								<div class="person-num">
+									<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows" >DefaulSet value <i class="gl-ico gl-ico-arrow-down"></i></span>
+									<div class="drop-content hide">
+										<div class="person-num-holder">
+											<div class="person-row">
+												<div class="operation-btns pull-right">
+													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+												</div>
+												<div class="text-h">
+													<strong class=""><span class="">1</span>Children</strong>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<span class="ttl">Rooms</span>
+								<div class="person-num">
+									<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows">8 rooms <i class="gl-ico gl-ico-arrow-down"></i></span>
+									<div class="drop-content hide">
+										<div class="drop-list rooms-drop">
+											<ul>
+												<li><a href="#">1</a></li>
+												<li><a href="#">2</a></li>
+												<li><a href="#">3</a></li>
+												<li><a href="#">4</a></li>
+												<li><a href="#">5</a></li>
+												<li><a href="#">6</a></li>
+												<li><a href="#">7</a></li>
+												<li class="active"><a href="#">8</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="advansed-filter">
+							<div class="ttl-row">
+								<strong class="ttl">Advanced options</strong>
+								<a href="#" class="expand">Show more</a>
 							</div>
 						</div>
 						<div class="filter-dropdown" id="filter-dropdown">
@@ -112,149 +147,132 @@
 								<b class="price-max" id="price-max">$ <span>1000</span></b>
 							</div>
 						</div>
+						<div class="results-found-info text-right"><strong>300+ Events</strong> search results</div>
 					</div>
 					<div class="result-wrapper">
-							<div class="result-list">
-								<div class="item clearfix">
-									<div class="img-h">
-										<a href="#"><img src="images/img20.jpg" height="220" width="263" alt=""></a>
-										<a href="#" class="lnk-add-fav selected">В избранное</a>
+							<div class="result-list row">
+								<div class="col-xs-12 col-sm-6">
+									<div class="card">
+										<a href="#" class="card-holder">
+											<div class="img-h">
+												<span class="img-wrap">
+													<img src="images/img01.jpg" alt="image">
+												</span>
+												<div class="price">
+													<strong>230<sup>TC</sup></strong>
+													<span>You earn</span>
+												</div>
+											</div>
+											<img class="avatar" src="images/photo01.jpg" alt="image">
+											<strong class="ttl">Lorem Ipsum is simply </strong>
+											<span class="sub-ttl">Long  location name</span>
+											<footer>
+												<span class="category">Listing category</span>
+												<em class="reviews"><strong>25</strong> Reviews</em>
+											</footer>
+										</a>
 									</div>
-									<div class="text-h">
-										<div class="item-ttl clearfix">
-											<span class="rate rate-lg pull-right hidden-xs">
-												<em class="rate-num">5,8</em>
-												<i class="star"></i>
-												<i class="star"></i>
-												<i class="star"></i>
-											</span>
-											<h2><a href="#">THE LITTLE PRINCESS Cafe</a></h2>
-										</div>
-										<div class="object-info clearfix">
-											<span class="item-addr">Улица Иванова 99а</span>
-											<span class="item-time">10<sup>00</sup> - 22<sup>00</sup></span>
-										</div>
-										<div class="content-h">
-											<p>Auctor, tellus odio eget in sodales: gravida molestie pharetra orci mattis leo. Elementum, eget adipiscing sagittis leo enim commodo quam in nec a lectus commodo. Mauris nibh leo, metus quam ultricies — mattis amet eros molestie lorem adipiscing auctor. </p>
-										</div>
-										<footer class="item-footer clearfix">
-											<span class="rate rate-lg visible-xs">
-												<em class="rate-num">5,8</em>
-												<i class="star"></i>
-												<i class="star"></i>
-												<i class="star"></i>
-											</span>
-											<span class="tags-category hidden-xs">Кафе и рестораны</span>
-											<a href="#" class="comments comments-lg pull-right">122</a>
-											<a class="visit-place visited" href="#">Я был здесь</a>
-											<span class="action-qty">0</span>
-											<span class="event-qty">0</span>
-										</footer>
+									<div class="card">
+										<a href="#" class="card-holder">
+											<div class="img-h">
+												<span class="img-wrap">
+													<img src="images/img01.jpg" alt="image">
+												</span>
+												<div class="price">
+													<strong>230<sup>TC</sup></strong>
+													<span>You earn</span>
+												</div>
+											</div>
+											<img class="avatar" src="images/photo01.jpg" alt="image">
+											<strong class="ttl">Lorem Ipsum is simply </strong>
+											<span class="sub-ttl">Long  location name</span>
+											<footer>
+												<span class="category">Listing category</span>
+												<em class="reviews"><strong>25</strong> Reviews</em>
+											</footer>
+										</a>
 									</div>
-								</div>
-								<div class="item clearfix">
-									<div class="img-h">
-										<a href="#"><img src="images/img20.jpg" height="220" width="263" alt=""></a>
-										<a href="#" class="lnk-add-fav selected">В избранное</a>
-									</div>
-									<div class="text-h">
-										<div class="item-ttl clearfix">
-											<span class="rate rate-lg pull-right hidden-xs">
-												<em class="rate-num">5,8</em>
-												<i class="star"></i>
-												<i class="star"></i>
-												<i class="star"></i>
-											</span>
-											<h2><a href="#">THE LITTLE PRINCESS Cafe</a></h2>
-										</div>
-										<div class="object-info clearfix">
-											<span class="item-addr">Улица Иванова 99а</span>
-											<span class="item-time">10<sup>00</sup> - 22<sup>00</sup></span>
-										</div>
-										<div class="content-h">
-											<p>Auctor, tellus odio eget in sodales: gravida molestie pharetra orci mattis leo. Elementum, eget adipiscing sagittis leo enim commodo quam in nec a lectus commodo. Mauris nibh leo, metus quam ultricies — mattis amet eros molestie lorem adipiscing auctor. </p>
-										</div>
-										<footer class="item-footer clearfix">
-											<span class="rate rate-lg visible-xs">
-												<em class="rate-num">5,8</em>
-												<i class="star"></i>
-												<i class="star"></i>
-												<i class="star"></i>
-											</span>
-											<span class="tags-category hidden-xs">Кафе и рестораны</span>
-											<a href="#" class="comments comments-lg pull-right">122</a>
-											<a class="visit-place visited" href="#">Я был здесь</a>
-										</footer>
+									<div class="card">
+										<a href="#" class="card-holder">
+											<div class="img-h">
+												<span class="img-wrap">
+													<img src="images/img01.jpg" alt="image">
+												</span>
+												<div class="price">
+													<strong>230<sup>TC</sup></strong>
+													<span>You earn</span>
+												</div>
+											</div>
+											<img class="avatar" src="images/photo01.jpg" alt="image">
+											<strong class="ttl">Lorem Ipsum is simply </strong>
+											<span class="sub-ttl">Long  location name</span>
+											<footer>
+												<span class="category">Listing category</span>
+												<em class="reviews"><strong>25</strong> Reviews</em>
+											</footer>
+										</a>
 									</div>
 								</div>
-								<div class="item clearfix">
-									<div class="img-h">
-										<a href="#"><img src="images/img20.jpg" height="220" width="263" alt=""></a>
-										<a href="#" class="lnk-add-fav selected">В избранное</a>
+								<div class="col-xs-12 col-sm-6">
+									<div class="card">
+										<a href="#" class="card-holder">
+											<div class="img-h">
+												<span class="img-wrap">
+													<img src="images/img01.jpg" alt="image">
+												</span>
+												<div class="price">
+													<strong>230<sup>TC</sup></strong>
+													<span>You earn</span>
+												</div>
+											</div>
+											<img class="avatar" src="images/photo01.jpg" alt="image">
+											<strong class="ttl">Lorem Ipsum is simply </strong>
+											<span class="sub-ttl">Long  location name</span>
+											<footer>
+												<span class="category">Listing category</span>
+												<em class="reviews"><strong>25</strong> Reviews</em>
+											</footer>
+										</a>
 									</div>
-									<div class="text-h">
-										<div class="item-ttl clearfix">
-											<span class="rate rate-lg pull-right hidden-xs">
-												<em class="rate-num">5,8</em>
-												<i class="star"></i>
-												<i class="star"></i>
-												<i class="star"></i>
-											</span>
-											<h2><a href="#">THE LITTLE PRINCESS Cafe</a></h2>
-										</div>
-										<div class="object-info clearfix">
-											<span class="item-addr">Улица Иванова 99а</span>
-											<span class="item-time">10<sup>00</sup> - 22<sup>00</sup></span>
-										</div>
-										<div class="content-h">
-											<p>Auctor, tellus odio eget in sodales: gravida molestie pharetra orci mattis leo. Elementum, eget adipiscing sagittis leo enim commodo quam in nec a lectus commodo. Mauris nibh leo, metus quam ultricies — mattis amet eros molestie lorem adipiscing auctor. </p>
-										</div>
-										<footer class="item-footer clearfix">
-											<span class="rate rate-lg visible-xs">
-												<em class="rate-num">5,8</em>
-												<i class="star"></i>
-												<i class="star"></i>
-												<i class="star"></i>
-											</span>
-											<span class="tags-category hidden-xs">Кафе и рестораны</span>
-											<a href="#" class="comments comments-lg pull-right">122</a>
-											<a class="visit-place visited" href="#">Я был здесь</a>
-										</footer>
+									<div class="card">
+										<a href="#" class="card-holder">
+											<div class="img-h">
+												<span class="img-wrap">
+													<img src="images/img01.jpg" alt="image">
+												</span>
+												<div class="price">
+													<strong>230<sup>TC</sup></strong>
+													<span>You earn</span>
+												</div>
+											</div>
+											<img class="avatar" src="images/photo01.jpg" alt="image">
+											<strong class="ttl">Lorem Ipsum is simply </strong>
+											<span class="sub-ttl">Long  location name</span>
+											<footer>
+												<span class="category">Listing category</span>
+												<em class="reviews"><strong>25</strong> Reviews</em>
+											</footer>
+										</a>
 									</div>
-								</div>
-								<div class="item clearfix">
-									<div class="img-h">
-										<a href="#"><img src="images/img20.jpg" height="220" width="263" alt=""></a>
-										<a href="#" class="lnk-add-fav selected">В избранное</a>
-									</div>
-									<div class="text-h">
-										<div class="item-ttl clearfix">
-											<span class="rate rate-lg pull-right hidden-xs">
-												<em class="rate-num">5,8</em>
-												<i class="star"></i>
-												<i class="star"></i>
-												<i class="star"></i>
-											</span>
-											<h2><a href="#">THE LITTLE PRINCESS Cafe</a></h2>
-										</div>
-										<div class="object-info clearfix">
-											<span class="item-addr">Улица Иванова 99а</span>
-											<span class="item-time">10<sup>00</sup> - 22<sup>00</sup></span>
-										</div>
-										<div class="content-h">
-											<p>Auctor, tellus odio eget in sodales: gravida molestie pharetra orci mattis leo. Elementum, eget adipiscing sagittis leo enim commodo quam in nec a lectus commodo. Mauris nibh leo, metus quam ultricies — mattis amet eros molestie lorem adipiscing auctor. </p>
-										</div>
-										<footer class="item-footer clearfix">
-											<span class="rate rate-lg visible-xs">
-												<em class="rate-num">5,8</em>
-												<i class="star"></i>
-												<i class="star"></i>
-												<i class="star"></i>
-											</span>
-											<span class="tags-category hidden-xs">Кафе и рестораны</span>
-											<a href="#" class="comments comments-lg pull-right">122</a>
-											<a class="visit-place visited" href="#">Я был здесь</a>
-										</footer>
+									<div class="card">
+										<a href="#" class="card-holder">
+											<div class="img-h">
+												<span class="img-wrap">
+													<img src="images/img01.jpg" alt="image">
+												</span>
+												<div class="price">
+													<strong>230<sup>TC</sup></strong>
+													<span>You earn</span>
+												</div>
+											</div>
+											<img class="avatar" src="images/photo01.jpg" alt="image">
+											<strong class="ttl">Lorem Ipsum is simply </strong>
+											<span class="sub-ttl">Long  location name</span>
+											<footer>
+												<span class="category">Listing category</span>
+												<em class="reviews"><strong>25</strong> Reviews</em>
+											</footer>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -268,15 +286,6 @@
 									<li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
 								</ul>
 							</div>
-							<!--
-							<div class="spinner-wrap">
-								<div class="spinner">
-									<div class="bounce1"></div>
-									<div class="bounce2"></div>
-									<div class="bounce3"></div>
-								</div>
-							</div>
-							-->
 						</div>
 				</div>
 				<div class="map col-sm-6 hidden-xs" id="map"></div>

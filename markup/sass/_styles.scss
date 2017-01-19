@@ -64,6 +64,58 @@
 .search-sidebar {
 	height: 100%;
 	overflow: auto;
+	padding: 15px 30px 15px 15px;
+	font-size: 14px;
+	line-height: 17px;
+}
+.search-nav {
+
+}
+.search-nav-row {
+	width: 100%;
+	display: flex;
+	padding: 0 0 32px;
+
+	.col {
+		display: inline-block;
+		flex: auto;
+		margin: 0 80px 0 0;
+		padding: 0 0 13px;
+		position: relative;
+
+		&:after {
+			content: '';
+			position: absolute;
+			height: 1px;
+			width: 100%;
+			bottom: 0;
+			left: 0;
+			background: #e1e1e1;
+		}
+
+		font-size: 16px;
+		line-height: 19px;
+
+		.date-range-input {
+			padding: 0;
+			min-height: 1px;
+		}
+	}
+	.ttl {
+		display: block;
+		font-size: 14px;
+		line-height: 17px;
+		color: $secondTextColor;
+		padding: 0 0 10px;
+		font-weight: bold;
+	}
+}
+.results-found-info {
+	color: #000;
+
+	strong {
+		font-weight: bold;
+	}
 }
 .map {
 	height: 100%;
@@ -172,6 +224,7 @@
 			color: $secondTextColor;
 		}
 
+		&.drop-enabled:after,
 		&:hover:after {
 			opacity: 1;
 			width: 100%;
@@ -285,7 +338,6 @@
 	.person-row {
 		@include clearfix();
 
-		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 		padding: 15px 0 23px;
 		margin: 0 0 10px;
 
@@ -317,6 +369,9 @@
 			font-size: 12px;
 			opacity: .5;
 		}
+	}
+	+ .person-row {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
 }
 .lnk-row {
@@ -360,6 +415,46 @@
 	display: inline-block;
 	cursor: pointer;
 }
+.drop-list {
+
+	ul {
+		margin: -15px 0;
+		padding: 0;
+		list-style: none;
+		font-size: 16px;
+		line-height: 19px;
+
+		li {
+			display: block;
+
+			a {
+				display: block;
+				padding: 15px;
+				color: #000;
+				text-align: center;
+
+				&:hover {
+					text-decoration: none;
+					color: #1e97d8;
+				}
+			}
+
+			&.active {
+				a {
+					text-decoration: none;
+					color: #1e97d8;
+				}
+			}
+			+ li {
+				border-top: 1px solid #e5e5e5;
+			}
+		}
+	}
+	&.rooms-drop  ul li a{
+		padding: 5px 15px;
+		text-align: center;
+	}
+}
 .search-info {
 	display: block;
 	font-size: 14px;
@@ -393,6 +488,7 @@
 	line-height: 21px;
 	background: #fff;
 	color: #000;
+	width: 100%;
 
 	.card-holder {
 		display: block;
@@ -481,6 +577,13 @@
 			}
 		}
 	}
+
+	.result-list & {
+		margin: 0 0 30px;
+	}
+}
+.result-list {
+
 }
 .block {
 	padding: 60px 0;
@@ -931,8 +1034,8 @@
 .histo-slider {
 	overflow: hidden;
 	height: 80px;
-	width: 100%;
 	padding: 10px 10px 0;
+	margin: 0 -10px;
 	color: rgba(#000, .5);
 
 	.histo-chart {

@@ -61,11 +61,58 @@ $(document).ready(function() {
 		"autoApply": true,
 		"showCustomRangeLabel": false,
 		"startDate": "12/16/2016",
-		"endDate": "12/22/2016",
-		"opens": "left"
+		"endDate": "12/22/2016"
 	}, function(start, end, label) {
 		console.log("New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')");
 	});
+
+	(function() {
+		var init, setupDrop, setupHero, _Drop;
+
+		_Drop = Drop.createContext({
+			classPrefix: 'drop'
+		});
+
+		init = function() {
+			return setupDrop();
+		};
+
+		setupDrop = function() {
+			return $('.open-drop').each(function() {
+
+				var $elm, content, drop, openOn, theme, position, offset;
+
+				$elm = $(this);
+
+				theme = $elm.data('theme');
+				openOn = $elm.data('open-on') || 'click';
+
+				offset = $elm.data('offset') || '0 0';
+
+				position = $elm.data('position')  || 'bottom center';
+
+				$elm.addClass(theme);
+
+				content = $($elm.data('drop-content')).html() || $elm.next('.drop-content').html();
+
+				return drop = new _Drop({
+					target: $elm[0],
+					classes: theme,
+					position: position,
+					constrainToWindow: true,
+					constrainToScrollParent: false,
+					openOn: openOn,
+					content: content,
+					tetherOptions: {
+						offset: offset
+					}
+				});
+			});
+		};
+
+		init();
+
+	}).call(this);
 
 
 	/*(function () {
