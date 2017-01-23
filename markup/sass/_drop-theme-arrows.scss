@@ -1,6 +1,6 @@
 $drop-bg-color: #fff;
 $black_20: rgba(0, 0, 0, 0.2);
-$drop-color: $mainTextColor;
+
 
 .drop-element {
 	box-sizing: border-box;
@@ -40,7 +40,7 @@ $drop-color: $mainTextColor;
 			position: relative;
 			font-family: inherit;
 			background: $drop-bg-color;
-			color: $drop-color;
+			color: $mainTextColor;
 			padding: 15px;
 			font-size: 1em;
 			line-height: 1.3em;
@@ -54,9 +54,7 @@ $drop-color: $mainTextColor;
 				position: absolute;
 				width: 0;
 				height: 0;
-				border-color: transparent;
-				border-width: 16px;
-				border-style: solid;
+				border: 16px solid transparent;
 			}
 		}
 		&.drop-element-attached-bottom {
@@ -207,11 +205,10 @@ $drop-color: $mainTextColor;
 			position: relative;
 			font-family: inherit;
 			background: $drop-bg-color;
-			color: $drop-color;
+			color: $mainTextColor;
 			padding: 1em;
 			font-size: 1.1em;
 			line-height: 1.5em;
-			transform: translateZ(0);
 			filter: drop-shadow(0 1px 4px $black_20);
 			box-shadow: 0 20px 50px 0 $black_20;
 			transition: transform 0.3s cubic-bezier(0, 0, 0.265, 1.55);
@@ -222,16 +219,14 @@ $drop-color: $mainTextColor;
 				position: absolute;
 				width: 0;
 				height: 0;
-				border-color: transparent;
-				border-width: 12px;
-				border-style: solid;
+				border: 12px solid transparent;
 			}
 		}
 		&.drop-element-attached-bottom {
 			&.drop-element-attached-left {
 				&.drop-target-attached-top .drop-content {
 					margin-bottom: 12px;
-					transform-origin: 0 calc(100% +12px);
+					transform-origin: 0 calc(100% + 12px);
 					&:before {
 						top: 100%;
 						left: 12px;
@@ -251,7 +246,7 @@ $drop-color: $mainTextColor;
 			&.drop-element-attached-right {
 				&.drop-target-attached-top .drop-content {
 					margin-bottom: 12px;
-					transform-origin: 100% calc(100% +12px);
+					transform-origin: 100% calc(100% + 12px);
 					&:before {
 						top: 100%;
 						right: 12px;
@@ -260,7 +255,7 @@ $drop-color: $mainTextColor;
 				}
 				&.drop-target-attached-left .drop-content {
 					margin-right: 12px;
-					transform-origin: calc(100% +12px) 100%;
+					transform-origin: calc(100% + 12px) 100%;
 					&:before {
 						bottom: 12px;
 						left: 100%;
@@ -270,7 +265,7 @@ $drop-color: $mainTextColor;
 			}
 			&.drop-element-attached-center .drop-content {
 				margin-bottom: 12px;
-				transform-origin: 50% calc(100% +12px);
+				transform-origin: 50% calc(100% + 12px);
 				&:before {
 					top: 100%;
 					left: 50%;
@@ -312,7 +307,7 @@ $drop-color: $mainTextColor;
 				}
 				&.drop-target-attached-left .drop-content {
 					margin-right: 12px;
-					transform-origin: calc(100% +12px) 0;
+					transform-origin: calc(100% + 12px) 0;
 					&:before {
 						top: 12px;
 						left: 100%;
@@ -346,7 +341,7 @@ $drop-color: $mainTextColor;
 		}
 		&.drop-element-attached-right.drop-element-attached-middle .drop-content {
 			margin-right: 12px;
-			transform-origin: calc(100% +12px) 50%;
+			transform-origin: calc(100% + 12px) 50%;
 			&:before {
 				left: 100%;
 				top: 50%;

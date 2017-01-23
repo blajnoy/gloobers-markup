@@ -606,7 +606,7 @@
 		margin: 0 0 30px;
 	}
 }
-.card-rate-info {
+.object-rate-info {
 	float: right;
 	text-align: right;
 	padding: 4px 0 0;
@@ -635,6 +635,59 @@
 .result-list {
 
 }
+.main-slider {
+
+	.no-js & {
+		height: 550px;
+		overflow: hidden;
+	}
+
+	.item {
+		img {
+			display: block;
+		}
+	}
+
+	.btn-prev,
+	.btn-next {
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: #fff;
+		z-index: 2;
+		font-size: 39px;
+		line-height: 39px;
+		height: 100%;
+		width: 25%;
+
+		.gl-ico {
+			position: absolute;
+			top: 50%;
+			left: 40px;
+			transition:  100ms ease-in;
+			transform: translateY(-50%)
+					   scale(1);
+		}
+
+		&:hover {
+			.gl-ico {
+				transform: translateY(-50%)
+						   scale(1.5);
+			}
+		}
+	}
+
+	.btn-next {
+		left: auto;
+		right: 0;
+
+		.gl-ico {
+			left: auto;
+			right: 40px;
+		}
+	}
+
+}
 .more-info {
 	border-top: 1px solid #e5e5e5;
 	padding: 15px;
@@ -660,6 +713,83 @@
 		}
 	}
 }
+.object-desc-heading {
+	border-bottom: 2px solid #e1e1e1;
+	padding: 20px 0 10px;
+	display: table;
+	width: 100%;
+
+	.object-ttl {
+		width: 60%;
+		padding: 0 30px 0 0;
+		display: table-cell;
+		vertical-align: top;
+		border-right: 1px solid #e1e1e1;
+
+		h1 {
+			margin: 0 0 10px;
+
+			& + .location {
+				font-size: 18px;
+				line-height: 21px;
+				display: block;
+				font-weight: normal;
+				color: #000;
+			}
+		}
+	}
+
+	.recommended-for {
+		display: table-cell;
+		vertical-align: top;
+		width: 40%;
+		padding: 0 0 0 30px;
+
+		&-ttl {
+			display: block;
+			text-align: center;
+			font-size: 14px;
+			line-height: 17px;
+			font-weight: bold;
+			color: $secondTextColor;
+			margin: 0 0 15px;
+		}
+	}
+}
+.extra-info-line {
+	display: block;
+	opacity: .5;
+	font-size: 14px;
+	line-height: 17px;
+}
+.recommend-eval-wrap {
+	display: flex;
+}
+.recommend-eval {
+	color: #ffd85e;
+
+	.eval-percent {
+		border: 2px solid currentColor;
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		font-size: 20px;
+		line-height: 60px;
+		vertical-align: middle;
+		display: block;
+		text-align: center;
+		font-weight: bold;
+		color: #000;
+
+		sup {
+			font-size: 10px;
+		}
+	}
+	.eval-name {
+
+	}
+}
+
 .block {
 	padding: 60px 0;
 

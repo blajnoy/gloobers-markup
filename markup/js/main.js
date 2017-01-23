@@ -19,6 +19,18 @@ $(document).ready(function() {
 		touchMove: false
 		//adaptiveHeight: true
 	});
+
+	$('.main-slider').slick({
+		slidesToShow: 1,
+		fade: true,
+		arrows: true,
+		prevArrow: '<a href="#" class="btn-prev"><i class="gl-ico gl-ico-arrow-left"></i></a>',
+		nextArrow: '<a href="#" class="btn-next"><i class="gl-ico gl-ico-arrow-right"></i></a>',
+		/*draggable: false,
+		swipe: false,
+		touchMove: false*/
+	});
+
 	$("[data-toggle=popover]").popover({
 		html: true,
 		content: function() {
