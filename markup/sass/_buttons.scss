@@ -63,3 +63,16 @@
 	@include button-gradient($secondTextColor, $gradientColorFrom, $gradientColorTo)
 }
 
+.btn-recommend {
+	background: url(../images/ico-gloobers.png) 0 0 no-repeat;
+	padding: 0 0 0 40px;
+}
+.ico-btn {
+	display: inline-block;
+	vertical-align: middle;
+	margin: -4px 10px -3px 0;
+
+	img	{
+		vertical-align: middle;
+	}
+}

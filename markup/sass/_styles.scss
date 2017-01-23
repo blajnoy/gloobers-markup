@@ -518,6 +518,10 @@
 				object-fit: cover;
 				border-radius: 10px 10px 0 0;
 			}
+
+			.result-list & {
+				@include aspect-ratio(446, 256);
+			}
 		}
 		.price {
 			background-color: rgba(80, 30, 0, .8);
@@ -540,6 +544,18 @@
 				line-height: 15px;
 				opacity: .5;
 			}
+
+			.result-list & {
+				text-align: right;
+				padding: 7px 15px 12px 17px;
+
+				strong {
+
+				}
+				span {
+					padding: 0 0 5px;
+				}
+			}
 		}
 	}
 	.avatar {
@@ -559,6 +575,10 @@
 		font-weight: bold;
 		color: $secondTextColor;
 		padding: 0 0 8px;
+
+		a {
+			color: currentColor;
+		}
 	}
 	footer {
 		font-size: 16px;
@@ -569,6 +589,7 @@
 		.category {
 			opacity: .5;
 		}
+		.recommend,
 		.reviews {
 			float: right;
 
@@ -576,14 +597,68 @@
 				font-weight: bold;
 			}
 		}
+		.result-list & {
+			padding-bottom: 20px;
+		}
 	}
 
 	.result-list & {
 		margin: 0 0 30px;
 	}
 }
+.card-rate-info {
+	float: right;
+	text-align: right;
+	padding: 4px 0 0;
+}
+.rating {
+
+	.rating-ttl {
+		display: inline-block;
+		font-weight: bold;
+	}
+
+	.stars {
+		display: inline-block;
+
+		.star {
+			color: #1e97d8;
+
+			&.full {
+				color : #bbe0f3;
+			}
+		}
+	}
+}
+
+
 .result-list {
 
+}
+.more-info {
+	border-top: 1px solid #e5e5e5;
+	padding: 15px;
+	margin: 0 -15px -12px;
+}
+.show-more-row {
+	font-size: 14px;
+	line-height: 17px;
+	cursor: pointer;
+
+	.expander-ttl {
+		text-transform: uppercase;
+		color: $linkColor;
+		display: block;
+		position: relative;
+
+		.gl-ico {
+			color: #000;
+			position: absolute;
+			top: 50%;
+			right: 10px;
+			transform: translateY(-50%);
+		}
+	}
 }
 .block {
 	padding: 60px 0;

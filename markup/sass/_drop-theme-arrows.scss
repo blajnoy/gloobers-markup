@@ -366,7 +366,8 @@ $drop-color: $mainTextColor;
 		}
 	}
 
-	&.drop-out-of-bounds {
+	&.drop-out-of-bounds,
+	&.drop-theme-arrows-bounce.drop-out-of-bounds {
 		display: none;
 
 		&.drop-out-of-bounds-bottom {

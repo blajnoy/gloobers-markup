@@ -28,7 +28,7 @@
 	}
 }
 
-@mixin aspect-ratio($width, $height, $offset:0px) {
+@mixin aspect-ratio($width, $height, $offset: 0px) {
 	display: block;
 	position: relative;
 
