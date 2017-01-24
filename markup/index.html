@@ -11,6 +11,9 @@
 	<link href="css/sprite.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.css" rel="stylesheet">
 	<link href="css/daterangepicker.css" rel="stylesheet">
+
+	<link href="css/drop-theme-arrows.css" rel="stylesheet">
+
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
@@ -64,31 +67,28 @@
 								<div class="col col03">
 									<span class="ttl">What?</span>
 									<div class="person-num">
-										<span class="chosen" data-toggle="popover" data-popover-html-id="#popover-content" data-placement="bottomRight" data-html="true">6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
-									</div>
-									<div id="popover-content" class="hide">
-										<div class="person-num-holder">
-											<div class="person-row">
-												<div class="operation-btns pull-right">
-													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+										<span class="chosen open-drop" data-offset="-25px -15px" data-theme="drop-theme-arrows-bounce" data-position="bottom right" >6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
+										<div class="drop-content hide">
+											<div class="person-num-holder">
+												<div class="person-row">
+													<div class="operation-btns pull-right">
+														<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+														<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+													</div>
+													<div class="text-h">
+														<strong><span>2</span>Adult</strong>
+													</div>
 												</div>
-												<div class="text-h">
-													<strong><span>2</span>Adult</strong>
+												<div class="person-row">
+													<div class="operation-btns pull-right">
+														<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+														<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+													</div>
+													<div class="text-h">
+														<strong class=""><span class="">1</span>Childrens</strong>
+														<em class="person-info">Age 2 -12 </em>
+													</div>
 												</div>
-											</div>
-											<div class="person-row">
-												<div class="operation-btns pull-right">
-													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-												</div>
-												<div class="text-h">
-													<strong class=""><span class="">1</span>Childrens</strong>
-													<em class="person-info">Age 2 -12 </em>
-												</div>
-											</div>
-											<div class="lnk-row clearfix">
-												<a href="#" class="lnk-close pull-right">Close</a>
 											</div>
 										</div>
 									</div>
@@ -108,21 +108,18 @@
 								<div class="col col03">
 									<span class="ttl">What2?</span>
 									<div class="person-num">
-										<span class="chosen" data-toggle="popover" data-popover-html-id="#popover-content01" data-placement="bottomRight" id="open-person-popover01" data-container="body" data-html="true">6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
-									</div>
-									<div id="popover-content01" class="hide">
-										<div class="person-num-holder">
-											<div class="person-row">
-												<div class="operation-btns pull-right">
-													<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-													<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+										<span class="chosen open-drop" data-offset="-25px -15px" data-theme="drop-theme-arrows-bounce" data-position="bottom right" >6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
+										<div class="drop-content hide">
+											<div class="person-num-holder">
+												<div class="person-row">
+													<div class="operation-btns pull-right">
+														<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+														<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+													</div>
+													<div class="text-h">
+														<strong><span>2</span>Adult</strong>
+													</div>
 												</div>
-												<div class="text-h">
-													<strong><span>1</span>Persons</strong>
-												</div>
-											</div>
-											<div class="lnk-row clearfix">
-												<a id="close-person-popover01" href="#" class="lnk-close pull-right">Close</a>
 											</div>
 										</div>
 									</div>
@@ -163,7 +160,7 @@
 			</div>
 		</header>
 		<main class="main">
-			<section class="block coloured">
+			<section class="block">
 				<div class="container">
 					<div class="block-title">
 						<h2>Last followed recommendations</h2>
@@ -305,7 +302,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="block">
+			<section class="block coloured">
 				<div class="container">
 					<div class="block-title">
 						<h2>Cities we support</h2>
@@ -362,7 +359,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="block coloured">
+			<section class="block">
 				<div class="container">
 					<div class="block-title">
 						<h2>Testimonials</h2>
@@ -517,7 +514,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="block">
+			<section class="block coloured">
 				<div class="container">
 					<div class="block-title left">
 						<h2>FAQ</h2>
@@ -546,7 +543,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="block coloured">
+			<section class="block">
 				<div class="features">
 					<div class="container">
 						<div class="text-col">
@@ -641,6 +638,9 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script type="text/javascript" src="js/popover-extra-placements.min.js"></script>
+
+	<script src="js/tether.min.js"></script>
+	<script src="js/drop.min.js"></script>
 
 	<script src="js/main.js"></script>
 </body>

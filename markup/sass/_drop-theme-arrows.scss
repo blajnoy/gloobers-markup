@@ -6,6 +6,7 @@ $black_20: rgba(0, 0, 0, 0.2);
 	box-sizing: border-box;
 	position: absolute;
   	display: none;
+	z-index: 999;
 
 	&:after {
 		box-sizing: border-box;

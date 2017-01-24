@@ -79,7 +79,7 @@ $(document).ready(function() {
 	});
 
 	(function() {
-		var init, setupDrop, setupHero, _Drop;
+		var init, setupDrop, _Drop;
 
 		_Drop = Drop.createContext({
 			classPrefix: 'drop'

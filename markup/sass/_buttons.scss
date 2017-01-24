@@ -6,7 +6,7 @@
 	touch-action: manipulation;
 	cursor: pointer;
 	white-space: nowrap;
-	padding: 10px 10px;
+	padding: 10px;
 	border: 2px solid currentColor;
 	font-size: 14px;
 	line-height: 18px;
@@ -32,8 +32,13 @@
 	&.disabled,
 	&[disabled],
 	fieldset[disabled] & {
-		cursor: pointer;
-		opacity: .6;
+		cursor: default;
+		color: #c9c9c9;
+		border-color: #c9c9c9;
+	}
+	&-sm {
+		font-size: 12px;
+		padding: 6px 10px 5px;
 	}
 }
 .btn-default {

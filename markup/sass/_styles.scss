@@ -274,7 +274,6 @@
 	border-radius: 0 10px 10px 10px;
 }
 .search-bar {
-	@include clearfix();
 	background: #fff;
 	border-radius: 10px;
 	box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.62);
@@ -283,14 +282,14 @@
 	margin: 0 0 10px;
 	font-size: 0;
 	padding: 10px 0;
+	display: flex;
 
 	.tab-content {
-		float: left;
-		width: 100%;
+		flex: 1;
 	}
 	.btn-search {
 		float: left;
-		margin: -10px 0 -10px -74px;
+		margin: -10px 0;
 	}
 
 	input[type = "text"] {
@@ -310,14 +309,14 @@
 		padding: 10px 15px;
 
 		&.col01 {
-			width: 58.25%;
+			flex: 58.25%;
 			border: 0;
 		}
 		&.col02 {
-			width: 22.62%;
+			flex: 22.62%;
 		}
 		&.col03 {
-			width: 12.14%;
+			flex: 12.14%;
 		}
 	}
 	.ttl {
@@ -326,6 +325,12 @@
 		font-size: 14px;
 		line-height: 17px;
 		color: $secondTextColor;
+	}
+	.tab-content > .tab-pane {
+		display: none;
+	}
+	.tab-content > .active {
+		display: flex;
 	}
 }
 .person-num-holder {
@@ -338,8 +343,7 @@
 	.person-row {
 		@include clearfix();
 
-		padding: 15px 0 23px;
-		margin: 0 0 10px;
+		padding: 15px 0;
 
 		.operation-btns {
 			margin: 0 -9px 0 0;
@@ -369,9 +373,12 @@
 			font-size: 12px;
 			opacity: .5;
 		}
-	}
-	+ .person-row {
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+		+ .person-row {
+			border-top: 1px solid rgba(0, 0, 0, 0.1);
+			padding: 25px 0 15px;
+			margin-top: 8px;
+		}
 	}
 }
 .lnk-row {
@@ -466,7 +473,7 @@
 	z-index: 2;
 }
 .main {
-	background: #fff;
+
 }
 .recommendations {
 	font-size: 0;
@@ -716,14 +723,12 @@
 .object-desc-heading {
 	border-bottom: 2px solid #e1e1e1;
 	padding: 20px 0 10px;
-	display: table;
-	width: 100%;
+	margin: 0 0 30px;
+	display: flex;
 
 	.object-ttl {
 		width: 60%;
 		padding: 0 30px 0 0;
-		display: table-cell;
-		vertical-align: top;
 		border-right: 1px solid #e1e1e1;
 
 		h1 {
@@ -740,8 +745,6 @@
 	}
 
 	.recommended-for {
-		display: table-cell;
-		vertical-align: top;
 		width: 40%;
 		padding: 0 0 0 30px;
 
@@ -756,45 +759,126 @@
 		}
 	}
 }
+.ttl-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+
+	.type {
+		font-size: 18px;
+		opacity: .5;
+	}
+
+	.object-rate-info {
+		font-size: 16px;
+	}
+}
 .extra-info-line {
 	display: block;
 	opacity: .5;
 	font-size: 14px;
 	line-height: 17px;
+	text-align: center;
 }
 .recommend-eval-wrap {
 	display: flex;
+	justify-content: space-between;
+	margin: 0 0 5px;
+
+	.recommend-eval {
+		display: inline-block;
+	}
 }
 .recommend-eval {
-	color: #ffd85e;
+	width: 78px;
 
 	.eval-percent {
-		border: 2px solid currentColor;
 		width: 70px;
 		height: 70px;
+		margin: 0 auto;
 		border-radius: 50%;
-		font-size: 20px;
-		line-height: 60px;
 		vertical-align: middle;
 		display: block;
 		text-align: center;
-		font-weight: bold;
-		color: #000;
+		border: 2px solid #ffd85e;
+		color: darken(#ffd85e, 30%);
+		font: 700 20px/60px 'PT Sans';
 
 		sup {
 			font-size: 10px;
 		}
 	}
 	.eval-name {
-
+		background: #ffd85e;
+		color: #fff;
+		display: block;
+		border-radius: 10px;
+		text-align: center;
+		text-transform: uppercase;
+		height: 20px;
+		font-size: 12px;
+		line-height: 19px;
+		position: relative;
+		margin: -20px 0 0;
+	}
+	&.eval-luxury {
+		.eval-percent {
+			border: 2px solid #6bcbff;
+			color: darken(#6bcbff, 30%);
+		}
+		.eval-name {
+			background: #6bcbff;
+		}
+	}
+	&.eval-budget {
+		.eval-percent {
+			border: 2px solid #8f786b;
+			color: darken(#8f786b, 30%);
+		}
+		.eval-name {
+			background: #8f786b;
+		}
 	}
 }
+.recommendations-from {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0 20px;
 
+	.recommendations-from-ttl {
+		color: $secondTextColor;
+		font-weight: bold;
+		display: inline-block;
+	}
+	.recommendations-btns {
+		display: flex;
+
+		.btn {
+			margin: 0 0 0 20px;
+		}
+	}
+
+}
+.content-box {
+	border-bottom: 2px solid #e1e1e1;
+	padding: 50px 0 25px;
+
+	+ .content-box {
+		margin-top: 25px;
+	}
+	
+	.ttl {
+		color: $secondTextColor;
+		font-weight: bold;
+		display: block;
+		padding: 0 0 15px;
+	}
+}
 .block {
 	padding: 60px 0;
 
 	&.coloured {
-		background: #fbfbfb;
+		background: #fff;
 	}
 	&.wood {
 		background: url(../images/bg-wood.jpg) 50% 0 no-repeat;
@@ -1085,8 +1169,6 @@
 		}
 	}
 }
-.pull-left {float: left;}
-.pull-right {float: right;}
 
 .marketing {
 	background: url(../images/bg-footer.jpg) 50% 0 no-repeat;
@@ -1106,8 +1188,6 @@
 }
 
 .how-it-works-slider {
-
-
 	.slider-tabs {
 		@extend .nav;
 		padding: 0 0 60px;
