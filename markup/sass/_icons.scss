@@ -17,8 +17,9 @@
 	font-weight: normal;
 	text-decoration: none;
 	text-transform: none;
+	font-size: inherit;
+	line-height: 1;
 	display: inline-block;
-	vertical-align: middle;
 }
 
 %gl-ico {
@@ -28,23 +29,38 @@
 @function gl-ico-char($filename) {
 	$char: "";
 	
-	@if $filename == arrow-down {
+	@if $filename == airplane {
 		$char: \E001;
 	}
-	@if $filename == arrow-left {
+	@if $filename == arrow-down {
 		$char: \E002;
 	}
-	@if $filename == arrow-right {
+	@if $filename == arrow-left {
 		$char: \E003;
 	}
-	@if $filename == arrow-up {
+	@if $filename == arrow-right {
 		$char: \E004;
 	}
-	@if $filename == minus {
+	@if $filename == arrow-up {
 		$char: \E005;
 	}
-	@if $filename == plus {
+	@if $filename == calendar {
 		$char: \E006;
+	}
+	@if $filename == check {
+		$char: \E007;
+	}
+	@if $filename == like {
+		$char: \E008;
+	}
+	@if $filename == minus {
+		$char: \E009;
+	}
+	@if $filename == plus {
+		$char: \E00A;
+	}
+	@if $filename == star {
+		$char: \E00B;
 	}
 
 	@return $char;
@@ -64,6 +80,9 @@
 	}
 }
 
+.gl-ico-airplane {
+	@include gl-ico(airplane);
+}
 .gl-ico-arrow-down {
 	@include gl-ico(arrow-down);
 }
@@ -76,9 +95,21 @@
 .gl-ico-arrow-up {
 	@include gl-ico(arrow-up);
 }
+.gl-ico-calendar {
+	@include gl-ico(calendar);
+}
+.gl-ico-check {
+	@include gl-ico(check);
+}
+.gl-ico-like {
+	@include gl-ico(like);
+}
 .gl-ico-minus {
 	@include gl-ico(minus);
 }
 .gl-ico-plus {
 	@include gl-ico(plus);
+}
+.gl-ico-star {
+	@include gl-ico(star);
 }

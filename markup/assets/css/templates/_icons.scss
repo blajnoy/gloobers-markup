@@ -17,8 +17,9 @@
 	font-weight: normal;
 	text-decoration: none;
 	text-transform: none;
+	font-size: inherit;
+	line-height: 1;
 	display: inline-block;
-	vertical-align: middle;
 }
 
 %<%= cssClass%> {

@@ -126,6 +126,25 @@ $(document).ready(function() {
 
 	}).call(this);
 
+	$(function() {
+
+		var eventDate = moment();
+
+		function setDate(eventDate) {
+			$('#eventCalendar span').html(eventDate.format('DD/MM/YYYY'));
+		}
+
+		$('#eventCalendar').daterangepicker({
+			singleDatePicker: true
+		}, setDate)
+			.on("click", function () {
+				return false;
+			});
+
+		setDate(eventDate);
+
+	});
+
 
 	/*(function () {
 
@@ -268,6 +287,7 @@ $(document).ready(function() {
 
 
 /* start map init */
+/*
 
 var map,
 	desktopScreen = Modernizr.mq( "only screen and (min-width:1024px)" ),
@@ -315,5 +335,6 @@ function initMap() {
 	});
 
 }
+*/
 
 /* end map init */

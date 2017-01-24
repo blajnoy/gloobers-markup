@@ -20,11 +20,17 @@
 	color: $color;
 	background: linear-gradient(to bottom, $gradientColorStart 0%, $gradientColorEnd 100%);
 
+	&.btn-sm {
+		padding-top: 8px;
+		padding-bottom: 6px;
+	}
+
 	&:hover,
 	&:focus,
 	&.focus {
 		color: $color;
 		background: linear-gradient(to bottom, $gradientColorEnd 0%, $gradientColorStart 100%);
+		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
 	}
 }
 

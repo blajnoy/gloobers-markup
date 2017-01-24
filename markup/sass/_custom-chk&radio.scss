@@ -1,25 +1,26 @@
 .checkbox {
 	padding-left: 20px;
-	line-height: 21px;
+	line-height: 24px;
 
 	label {
 		display: inline-block;
 		vertical-align: middle;
 		position: relative;
-		padding-left: 5px;
-		font-size: 14px;
+		padding-left: 20px;
+		font-size: 18px;
 		color: #333;
 
 		&:before {
 			content: "";
 			display: inline-block;
 			position: absolute;
-			width: 17px;
-			height: 17px;
+			width: 24px;
+			height: 24px;
 			left: 0;
-			top: 3px;
+			top: 0;
 			margin-left: -20px;
-			border: 2px solid #e1e1e1;
+			border: 2px solid #dbdbdb;
+			border-radius: 10px;
 			background-color: #fff;
 			transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
 		}
@@ -27,11 +28,11 @@
 			font-style: normal;
 			display: inline-block;
 			position: absolute;
-			width: 16px;
-			height: 16px;
+			width: 24px;
+			height: 24px;
 			left: 0;
-			top: 0;
-			margin-left: -20px;
+			top: -3px;
+			margin-left: -18px;
 			padding-left: 2px;
 			padding-top: 1px;
 			font-size: 13px;
@@ -48,14 +49,14 @@
 
 		&[type="checkbox"]:focus + label:before,
 		&[type="radio"]:focus + label:before {
-			outline: thin dotted;
-			outline: 5px auto -webkit-focus-ring-color;
-			outline-offset: -2px;
+			outline: 0;
 		}
 		&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
-			font-family: "FontAwesome";
-			content: "\f00c";
-			color: #f8521e;
+			font-size: 19px;
+			font-family: "gloobers-icons";
+			content: "\E007";
+			color: #1f97d7;
+			text-shadow: 0 3px 2px rgba(0, 0, 0, .4);
 		}
 		&[type="checkbox"]:disabled + label, &[type="radio"]:disabled + label {
 			opacity: 0.65;
@@ -125,14 +126,14 @@
 }
 
 .radio {
-	padding-left: 30px;
+	padding-left: 24px;
 	line-height: 24px;
 
 	label {
 		display: inline-block;
 		vertical-align: middle;
 		position: relative;
-		padding-left: 5px;
+		padding-left: 11px;
 		font-size: 14px;
 		color: $secondTextColor;
 		text-transform: uppercase;
@@ -146,7 +147,7 @@
 			height: 24px;
 			left: 0;
 			top: 0;
-			margin-left: -30px;
+			margin-left: -24px;
 			border: 2px solid rgb(219, 219, 219);
 			border-radius: 50%;
 			background-color: #fff;
@@ -160,7 +161,7 @@
 			height: 14px;
 			left: 5px;
 			top: 5px;
-			margin-left: -30px;
+			margin-left: -24px;
 			border-radius: 50%;
 			background-color: rgb(0,126,194);
 			background-image: linear-gradient( 90deg, rgb(0,126,194) 0%, rgb(30,151,216) 100%);

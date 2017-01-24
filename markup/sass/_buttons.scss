@@ -40,10 +40,18 @@
 		font-size: 12px;
 		padding: 6px 10px 5px;
 	}
+	.gl-ico {
+		vertical-align: middle;
+	}
 }
 .btn-default {
 	@include button-gradient($secondTextColor, $gradientColorFrom, $gradientColorTo)
 }
+.btn-primary {
+	@include button-gradient(#fff, #1e97d8, #007fc2)
+}
+
+
 
 .btn-search {
 	border-radius: 0 10px 10px 0;
