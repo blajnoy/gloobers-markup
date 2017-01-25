@@ -50,17 +50,26 @@
 	@if $filename == check {
 		$char: \E007;
 	}
-	@if $filename == like {
+	@if $filename == facebook {
 		$char: \E008;
 	}
-	@if $filename == minus {
+	@if $filename == like {
 		$char: \E009;
 	}
-	@if $filename == plus {
+	@if $filename == logo {
 		$char: \E00A;
 	}
-	@if $filename == star {
+	@if $filename == mail {
 		$char: \E00B;
+	}
+	@if $filename == minus {
+		$char: \E00C;
+	}
+	@if $filename == plus {
+		$char: \E00D;
+	}
+	@if $filename == star {
+		$char: \E00E;
 	}
 
 	@return $char;
@@ -101,8 +110,17 @@
 .gl-ico-check {
 	@include gl-ico(check);
 }
+.gl-ico-facebook {
+	@include gl-ico(facebook);
+}
 .gl-ico-like {
 	@include gl-ico(like);
+}
+.gl-ico-logo {
+	@include gl-ico(logo);
+}
+.gl-ico-mail {
+	@include gl-ico(mail);
 }
 .gl-ico-minus {
 	@include gl-ico(minus);

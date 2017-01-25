@@ -43,7 +43,24 @@
 	.gl-ico {
 		vertical-align: middle;
 	}
+	.gl-ico-facebook,
+	.gl-ico-mail{
+		font-size: 20px;
+		line-height: inherit;
+		margin: -1px 5px;
+	}
+	.gl-ico-logo {
+		font-size: 22px;
+		line-height: inherit;
+		margin: -1px 10px -1px 0;
+
+		& + .btn:after {
+			content: '';
+			margin-left: -10px;
+		}
+	}
 }
+
 .btn-default {
 	@include button-gradient($secondTextColor, $gradientColorFrom, $gradientColorTo)
 }
@@ -75,17 +92,11 @@
 .btn-marketing-b {
 	@include button-gradient($secondTextColor, $gradientColorFrom, $gradientColorTo)
 }
-
 .btn-recommend {
-	background: url(../images/ico-gloobers.png) 0 0 no-repeat;
-	padding: 0 0 0 40px;
-}
-.ico-btn {
-	display: inline-block;
-	vertical-align: middle;
-	margin: -4px 10px -3px 0;
+	min-width: 90px;
 
-	img	{
-		vertical-align: middle;
+	.gl-ico {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
