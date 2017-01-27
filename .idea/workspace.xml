@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/markup.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/assets/icons/google-plus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/assets/icons/instagram.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/assets/icons/push-pin.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/assets/icons/street-map.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/assets/icons/twitter.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/images/arrow01.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.eot" afterPath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.ttf" afterPath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.woff" afterPath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.woff2" afterPath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/images/img03.jpg" afterPath="$PROJECT_DIR$/markup/images/img03.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/css/all.css" afterPath="$PROJECT_DIR$/markup/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.svg" afterPath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/index.html" afterPath="$PROJECT_DIR$/markup/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/js/main.js" afterPath="$PROJECT_DIR$/markup/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_buttons.scss" afterPath="$PROJECT_DIR$/markup/sass/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_global.scss" afterPath="$PROJECT_DIR$/markup/sass/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_icons.scss" afterPath="$PROJECT_DIR$/markup/sass/_icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_mixins-sassy-form.scss" afterPath="$PROJECT_DIR$/markup/sass/_mixins-sassy-form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_mixins.scss" afterPath="$PROJECT_DIR$/markup/sass/_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/_styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/search-results.html" afterPath="$PROJECT_DIR$/markup/search-results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/single.html" afterPath="$PROJECT_DIR$/markup/single.html" />
     </list>
     <ignored path="gloobers-markup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="207" column="54" selection-start-line="207" selection-start-column="54" selection-end-line="207" selection-end-column="54" />
+            <state relative-caret-position="252">
+              <caret line="136" column="59" selection-start-line="136" selection-start-column="59" selection-end-line="136" selection-end-column="59" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -79,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_styles.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_styles.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="1866" column="23" selection-start-line="1866" selection-start-column="23" selection-end-line="1867" selection-end-column="16" />
+            <state relative-caret-position="342">
+              <caret line="1655" column="19" selection-start-line="1655" selection-start-column="19" selection-end-line="1655" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -186,8 +164,8 @@
         <option value="$PROJECT_DIR$/markup/sass/_global.scss" />
         <option value="$PROJECT_DIR$/markup/index.html" />
         <option value="$PROJECT_DIR$/markup/js/main.js" />
-        <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
         <option value="$PROJECT_DIR$/markup/single.html" />
+        <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
       </list>
     </option>
   </component>
@@ -410,7 +388,7 @@
       <workItem from="1484432897532" duration="1313000" />
       <workItem from="1484629636064" duration="8736000" />
       <workItem from="1485161509282" duration="39867000" />
-      <workItem from="1485335223352" duration="38755000" />
+      <workItem from="1485335223352" duration="39878000" />
     </task>
     <task id="LOCAL-00001" summary="calendar">
       <created>1482820108284</created>
@@ -440,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485359849842</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="calendar">
+      <created>1485529768784</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1485529768784</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117018000" />
+    <option name="totallyTimeSpent" value="118141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -953,18 +938,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="1866" column="23" selection-start-line="1866" selection-start-column="23" selection-end-line="1867" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="207" column="54" selection-start-line="207" selection-start-column="54" selection-end-line="207" selection-end-column="54" />
+        <state relative-caret-position="252">
+          <caret line="136" column="59" selection-start-line="136" selection-start-column="59" selection-end-line="136" selection-end-column="59" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -975,6 +952,14 @@
             <element signature="n#div#2;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="1655" column="19" selection-start-line="1655" selection-start-column="19" selection-end-line="1655" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

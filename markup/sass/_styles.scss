@@ -1006,19 +1006,22 @@
 }
 .recommendations-from {
 	display: flex;
-	justify-content: space-between;
-	padding: 0 0 20px;
+	padding: 0 0 10px;
 
 	.recommendations-from-ttl {
 		color: $secondTextColor;
 		font-weight: bold;
 		display: inline-block;
+		flex: auto;
+		padding: 0 0 10px;
 	}
 	.recommendations-btns {
 		display: flex;
+		flex-wrap: wrap;
 
 		.btn {
-			margin: 0 0 0 20px;
+			margin: 0 0 10px 20px;
+			flex: auto;
 		}
 	}
 
@@ -1640,20 +1643,20 @@
 }
 .share-group {
 	display: flex;
-	margin: 0 -10px 20px;
+	margin: 0 -10px;
 	flex-wrap: wrap;
 
 	.btn {
 		flex: auto;
-		margin: 0 10px;
+		margin: 0 10px 20px;
 	}
 }
 .soc-btns-row {
 	@extend .share-group;
-	margin: 0 -20px 20px;
+	margin: 0 -20px;
 
 	.btn {
-		margin: 0 20px;
+		margin: 0 20px 20px;
 		flex: 1;
 	}
 }
