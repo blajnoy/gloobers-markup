@@ -4,16 +4,17 @@ $sassy-disabled-color: #eee !default;
 
 @mixin sassy-text {
 	box-sizing: border-box;
-	min-height: 60px;
+	min-height: 42px;
 	width: 100%;
-	padding: 17px 32px;
-	font-family: inherit;
-	font-size: 16px;
+	padding: 5px 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 	vertical-align: middle;
-	border-radius: 5px;
+	border-radius: 10px;
 	outline: none;
-	background-color: #fff;
-	border: 0;
+	background: none;
+	border: 2px solid #a1a1a1;
+
 	&:focus {}
 	&:disabled {
 		background-color: $sassy-disabled-color;

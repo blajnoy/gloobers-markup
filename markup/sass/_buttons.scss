@@ -42,23 +42,36 @@
 	}
 	.gl-ico {
 		vertical-align: middle;
-	}
-	.gl-ico-facebook,
-	.gl-ico-mail{
 		font-size: 20px;
 		line-height: inherit;
+		margin: -1px 5px -1px 0;
+	}
+	.gl-ico-arrow-down,
+	.gl-ico-arrow-up,
+	.gl-ico-arrow-left,
+	.gl-ico-arrow-right {
+		font-size: inherit;
+	}
+
+
+	.gl-ico-twitter,
+	.gl-ico-instagram,
+	.gl-ico-google-plus,
+	.gl-ico-facebook {
+		font-size: 22px;
+		line-height: inherit;
 		margin: -1px 5px;
+	}
+	.gl-ico-google-plus,
+	.gl-ico-twitter {
+		font-size: 16px;
 	}
 	.gl-ico-logo {
 		font-size: 22px;
 		line-height: inherit;
 		margin: -1px 10px -1px 0;
-
-		& + .btn:after {
-			content: '';
-			margin-left: -10px;
-		}
 	}
+
 }
 
 .btn-default {
@@ -67,8 +80,21 @@
 .btn-primary {
 	@include button-gradient(#fff, #1e97d8, #007fc2)
 }
-
-
+.btn-facebook {
+	@include button-variant($color: #fff, $background: #3b5998, $borderColor: #3b5998, $needShadow: true);
+}
+.btn-google-plus {
+	@include button-variant($color: #fff, $background: #dc4a38, $borderColor: #dc4a38, $needShadow: true);
+}
+.btn-instagram {
+	@include button-variant($color: #fff, $background: #7354d3, $borderColor: #7354d3, $needShadow: true);
+}
+.btn-twitter {
+	@include button-variant($color: #fff, $background: #64a8f2, $borderColor: #64a8f2, $needShadow: true);
+}
+.btn-second-color {
+	@include button-variant($color: $secondTextColor, $background: none, $borderColor: $secondTextColor);
+}
 
 .btn-search {
 	border-radius: 0 10px 10px 0;

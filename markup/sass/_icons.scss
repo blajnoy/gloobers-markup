@@ -53,23 +53,38 @@
 	@if $filename == facebook {
 		$char: \E008;
 	}
-	@if $filename == like {
+	@if $filename == google-plus {
 		$char: \E009;
 	}
-	@if $filename == logo {
+	@if $filename == instagram {
 		$char: \E00A;
 	}
-	@if $filename == mail {
+	@if $filename == like {
 		$char: \E00B;
 	}
-	@if $filename == minus {
+	@if $filename == logo {
 		$char: \E00C;
 	}
-	@if $filename == plus {
+	@if $filename == mail {
 		$char: \E00D;
 	}
-	@if $filename == star {
+	@if $filename == minus {
 		$char: \E00E;
+	}
+	@if $filename == plus {
+		$char: \E00F;
+	}
+	@if $filename == push-pin {
+		$char: \E010;
+	}
+	@if $filename == star {
+		$char: \E011;
+	}
+	@if $filename == street-map {
+		$char: \E012;
+	}
+	@if $filename == twitter {
+		$char: \E013;
 	}
 
 	@return $char;
@@ -113,6 +128,12 @@
 .gl-ico-facebook {
 	@include gl-ico(facebook);
 }
+.gl-ico-google-plus {
+	@include gl-ico(google-plus);
+}
+.gl-ico-instagram {
+	@include gl-ico(instagram);
+}
 .gl-ico-like {
 	@include gl-ico(like);
 }
@@ -128,6 +149,15 @@
 .gl-ico-plus {
 	@include gl-ico(plus);
 }
+.gl-ico-push-pin {
+	@include gl-ico(push-pin);
+}
 .gl-ico-star {
 	@include gl-ico(star);
+}
+.gl-ico-street-map {
+	@include gl-ico(street-map);
+}
+.gl-ico-twitter {
+	@include gl-ico(twitter);
 }

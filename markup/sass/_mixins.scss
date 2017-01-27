@@ -5,10 +5,22 @@
 		clear: both;
 	}
 }
-@mixin button-variant($color: #60b5e2, $background: none, $border: "2px solid currentColor") {
+@mixin button-variant($color: #60b5e2, $background: none, $borderWidth: "2px", $borderStyle: "solid", $borderColor: "currentColor", $needShadow: false) {
 	color: #{$color};
 	background: #{$background};
-	border: #{$border};
+	border: #{$borderWidth} #{$borderStyle} #{$borderColor};
+	@if $needShadow != false {
+		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+	}
+
+
+	&:hover {
+		color: #{$color};
+		@if $background != none {
+			background: darken($background, 10%);
+		}
+		border-color: darken($borderColor, 10%);
+	}
 }
 @mixin button-gradient($color, $gradientColorStart, $gradientColorEnd) {
 	border: 0;
