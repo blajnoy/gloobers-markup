@@ -31,7 +31,7 @@ $(document).ready(function() {
 		touchMove: false*/
 	});
 
-	$("[data-toggle=popover]").popover({
+	/*$("[data-toggle=popover]").popover({
 		html: true,
 		content: function() {
 			return $($(this).data("popoverHtmlId")).html();
@@ -44,10 +44,10 @@ $(document).ready(function() {
 			return false;
 		});
 
-	});
+	});*/
 
 	$('.search-tabs .radio').click(function () {
-		$("[data-toggle=popover]").popover('hide');
+		/*$("[data-toggle=popover]").popover('hide');*/
 		$(this).tab('show');
 	});
 
@@ -73,23 +73,28 @@ $(document).ready(function() {
 		"autoApply": true,
 		"showCustomRangeLabel": false,
 		"startDate": "12/16/2016",
-		"endDate": "12/22/2016"
+		"endDate": "12/22/2016",
+		"alwaysShowCalendars": true
 	}, function(start, end, label) {
 		console.log("New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')");
 	});
 
+
+
 	(function() {
 
-		new Tether({
-			element: '#b',
-			target: '#a',
-			attachment: 'bottom center',
-			targetAttachment: 'top center',
-			constraints: [{
-				to: 'window',
-				pin: ['top']
-			}]
-		});
+		if ( $("#tether-elm").length && $("#tether-target").length ) {
+			new Tether({
+				element: '#tether-elm',
+				target: '#tether-target',
+				attachment: 'bottom center',
+				targetAttachment: 'top center',
+				constraints: [{
+					to: 'window',
+					pin: ['top']
+				}]
+			});
+		}
 
 	}).call(this);
 
@@ -105,17 +110,16 @@ $(document).ready(function() {
 		};
 
 		setupDrop = function() {
+
+
 			return $('.open-drop').each(function() {
 
 				var $elm, content, drop, openOn, theme, position, offset;
 
 				$elm = $(this);
-
 				theme = $elm.data('theme');
 				openOn = $elm.data('open-on') || 'click';
-
 				offset = $elm.data('offset') || '0 0';
-
 				position = $elm.data('position')  || 'bottom center';
 
 				$elm.addClass(theme);
@@ -134,12 +138,80 @@ $(document).ready(function() {
 						offset: offset
 					}
 				});
+
 			});
 		};
 
 		init();
 
 	}).call(this);
+
+/**/
+	/*$(function() {
+		var target = $('.date-input'),
+	 	elm;
+
+
+		new Tether({
+			element: elm,
+			target: target,
+			attachment: 'top center',
+			targetAttachment: 'top center'
+		});
+	});*/
+
+
+	(function() {
+
+		var target = $('.date-input'),
+			elm;
+
+		var init, setupDrop;
+
+		target.daterangepicker({
+			singleDatePicker: true,
+			startDate: "12/16/2016",
+			alwaysShowCalendars: true
+		});
+
+		elm = target.data('daterangepicker').container;
+
+		init = function() {
+			return setupDrop();
+		};
+
+		setupDrop = function() {
+
+			return target.each(function() {
+
+				var $elm, content, drop, theme, position, offset;
+
+				$elm = $(this);
+				theme = $elm.data('theme');
+				offset = $elm.data('offset') || '0 0';
+				position = $elm.data('position')  || 'bottom center';
+
+				console.log(target);
+				console.log($elm);
+
+				elm.addClass(theme).wrapInner( "<div class='drop-content'></div>");
+
+				return drop = new Tether({
+					classPrefix: 'drop',
+					element: elm,
+					target: target,
+					attachment: 'top center',
+					targetAttachment: position,
+					offset: offset
+				});
+
+			});
+		};
+
+		init();
+
+	}).call(this);
+/**/
 
 	$(function() {
 

@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans:400,700" rel="stylesheet">
 	<link href="css/sprite.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.css" rel="stylesheet">
-	<link href="css/daterangepicker.css" rel="stylesheet">
+
 	<link href="css/drop-theme-arrows.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
@@ -60,21 +60,21 @@
 				<div class="item"><img src="images/img03.jpg" width="1920" height="550" alt="image"></div>
 				<div class="item"><img src="images/img03-rotate.jpg" width="1920" height="550" alt="image"></div>
 			</div>
-			<div id="a" class="object-desc">
+			<div id="tether-target" class="object-desc">
 				<div class="container">
 					<div class="row">
-					<aside id="b" class="sidebar">
+					<aside id="tether-elm" class="sidebar">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-8">
-									<ul class="headings-menu">
-										<li><a href="#">Description</a></li>
-										<li><a href="#">Requirements</a></li>
-										<li><a href="#">Calendar</a></li>
-										<li><a href="#">Policies</a></li>
-										<li><a href="#">Map</a></li>
-										<li><a href="#">REview</a></li>
-										<li><a href="#">creator</a></li>
+									<ul id="anchor-menu" class="headings-menu">
+										<li><a href="#anchor-description">Description</a></li>
+										<li><a href="#anchor-requirements">Requirements</a></li>
+										<li><a href="#anchor-calendar">Calendar</a></li>
+										<li><a href="#anchor-policies">Policies</a></li>
+										<li><a href="#anchor-map">Map</a></li>
+										<li><a href="#anchor-review">REview</a></li>
+										<li><a href="#anchor-creator">creator</a></li>
 									</ul>
 								</div>
 								<div class="aside col-sm-4">
@@ -86,7 +86,15 @@
 										</div>
 									</div>
 									<div class="sidebar-holder">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque beatae delectus, dignissimos, dolores ducimus expedita facilis id impedit inventore officiis praesentium quia quibusdam rem reprehenderit, temporibus tenetur! Quod, repudiandae?
+										<div class="search-nav-row">
+											<div class="col">
+												<span class="ttl">Event date</span>
+												<div class="date-set">
+													<input id="date-tether-target" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" name="date" class="date-input" type="text" data-opens="right" value="12/16/2016">
+												</div>
+											</div>
+
+										</div>
 									</div>
 								</div>
 							</div>
@@ -196,7 +204,7 @@
 							</div>
 						</div>
 						<div class="content-box">
-							<h2 class="">Description</h2>
+							<h2 id="anchor-description">Description</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 							<p>Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, </p>
@@ -240,7 +248,7 @@
 							</ul>
 						</div>
 						<div class="content-box">
-							<h2>Experience requirements</h2>
+							<h2 id="anchor-requirements">Experience requirements</h2>
 							<div class="condition-list">
 								<div class="condition-list-row clearfix">
 									<div class="checkbox checkbox-inline">
@@ -265,7 +273,7 @@
 									</div>
 								</div>
 							</div>
-							<h2>Calendar</h2>
+							<h2 id="anchor-calendar">Calendar</h2>
 							<div class="clearfix">
 								<a id="eventCalendar" href="#" class="btn btn-sm btn-primary"><i class="gl-ico gl-ico-calendar"></i> <span class="date-field">31/12/2016</span> <i class="gl-ico gl-ico-arrow-down"></i></a>
 								<div class="switch-toggle pull-right custom">
@@ -280,11 +288,10 @@
 							</div>
 						</div>
 						<div class="content-box">
-							<h2>Cancellation policies</h2>
+							<h2 id="anchor-policies">Cancellation policies</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 							<p>Lorem Ipsum has been the industry's standard dummy. Text ever since the unknown printer took a galley of type and </p>
 							<p>scrambled Lorem Ipsum is simply dummy text of the printing and </p>
-
 							<div class="cancellation-polocies-graph">
 								<div class="point first-range">
 									<div class="point-bubble"></div>
@@ -306,7 +313,7 @@
 									<span class="point-label">Arrival date</span>
 								</div>
 							</div>
-							<div class="map">
+							<div id="anchor-map" class="map">
 								<h1>map</h1>
 							</div>
 							<h2>Ratings</h2>
@@ -354,7 +361,7 @@
 							</div>
 						</div>
 						<div class="content-box">
-							<h2>Reviews (56)</h2>
+							<h2 id="anchor-review">Reviews (56)</h2>
 							<div class="reviews-list">
 								<div class="review">
 									<div class="img-h">
@@ -447,7 +454,7 @@
 							</div>
 						</div>
 						<div class="content-box">
-							<h2>About</h2>
+							<h2 id="anchor-creator">About</h2>
 							<div class="person-card">
 								<div class="aside">
 									<div class="avatar"><img src="images/photo01-big.jpg" width="170" height="170" alt="image"></div>
@@ -662,6 +669,8 @@
 	<script src="js/drop.min.js"></script>
 
 	<script src="js/star-rating.min.js"></script>
+
+	<script src="js/scroll-menu.js"></script>
 
 	<script src="js/main.js"></script>
 

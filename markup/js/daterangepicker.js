@@ -1118,6 +1118,10 @@
             this.move();
             this.element.trigger('show.daterangepicker', this);
             this.isShowing = true;
+
+            /* temporary solution */
+            $(this.container).addClass('drop-open drop-open-transitionend drop-after-open');
+            /* end ts */
         },
 
         hide: function(e) {
@@ -1141,6 +1145,9 @@
             this.container.hide();
             this.element.trigger('hide.daterangepicker', this);
             this.isShowing = false;
+            /* temporary solution */
+            $(this.container).removeClass('drop-open drop-open-transitionend drop-after-open');
+            /* end ts */
         },
 
         toggle: function(e) {

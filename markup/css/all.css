@@ -1232,85 +1232,97 @@ fieldset[disabled] .btn {
   position: absolute;
   color: inherit;
   background-color: #fff;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  /*border-radius: $daterangepicker-border-radius;*/
   width: 278px;
   padding: 4px;
-  margin-top: 1px;
+  /*margin-top: $daterangepicker-border-size;*/
   top: 100px;
   left: 20px;
+  /*&:before, &:after {
+    position: absolute;
+    display: inline-block;
+
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+  }
+
+  &:before {
+    top: -$arrow-prefix-size;
+
+    border-right: $arrow-prefix-size solid transparent;
+    border-left: $arrow-prefix-size solid transparent;
+    border-bottom: $arrow-prefix-size solid $daterangepicker-border-color;
+  }
+
+  &:after {
+    top: -$arrow-suffix-size;
+
+    border-right: $arrow-suffix-size solid transparent;
+    border-bottom: $arrow-suffix-size solid $daterangepicker-bg-color;
+    border-left: $arrow-suffix-size solid transparent;
+  }
+
+  &.opensleft {
+    &:before {
+      // TODO: Make this relative to prefix size.
+      right: $arrow-prefix-size + 2px;
+    }
+
+    &:after {
+      // TODO: Make this relative to suffix size.
+      right: $arrow-suffix-size + 4px;
+    }
+  }
+
+  &.openscenter {
+    &:before {
+      left: 0;
+      right: 0;
+      width: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &:after {
+      left: 0;
+      right: 0;
+      width: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &.opensright {
+    &:before {
+      // TODO: Make this relative to prefix size.
+      left: $arrow-prefix-size + 2px;
+    }
+
+    &:after {
+      // TODO: Make this relative to suffix size.
+      left: $arrow-suffix-size + 4px;
+    }
+  }
+
+  &.dropup {
+    margin-top: -5px;
+
+    // NOTE: Note sure why these are special-cased.
+    &:before {
+      top: initial;
+      bottom: -$arrow-prefix-size;
+      border-bottom: initial;
+      border-top: $arrow-prefix-size solid $daterangepicker-border-color;
+    }
+
+    &:after {
+      top: initial;
+      bottom:-$arrow-suffix-size;
+      border-bottom: initial;
+      border-top: $arrow-suffix-size solid $daterangepicker-bg-color;
+    }
+  }*/
   /* Calendars */
-}
-
-.daterangepicker:before, .daterangepicker:after {
-  position: absolute;
-  display: inline-block;
-  border-bottom-color: rgba(0, 0, 0, 0.2);
-  content: '';
-}
-
-.daterangepicker:before {
-  top: -10px;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-bottom: 10px solid #ccc;
-}
-
-.daterangepicker:after {
-  top: -9px;
-  border-right: 9px solid transparent;
-  border-bottom: 9px solid #fff;
-  border-left: 9px solid transparent;
-}
-
-.daterangepicker.opensleft:before {
-  right: 12px;
-}
-
-.daterangepicker.opensleft:after {
-  right: 13px;
-}
-
-.daterangepicker.openscenter:before {
-  left: 0;
-  right: 0;
-  width: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.daterangepicker.openscenter:after {
-  left: 0;
-  right: 0;
-  width: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.daterangepicker.opensright:before {
-  left: 12px;
-}
-
-.daterangepicker.opensright:after {
-  left: 13px;
-}
-
-.daterangepicker.dropup {
-  margin-top: -5px;
-}
-
-.daterangepicker.dropup:before {
-  top: initial;
-  bottom: -10px;
-  border-bottom: initial;
-  border-top: 10px solid #ccc;
-}
-
-.daterangepicker.dropup:after {
-  top: initial;
-  bottom: -9px;
-  border-bottom: initial;
-  border-top: 9px solid #fff;
 }
 
 .daterangepicker.dropdown-menu {
@@ -4852,8 +4864,21 @@ fieldset[disabled] .btn {
   margin: 0 0 0 40px;
 }
 
+/* start remove */
+.show-calendar {
+  /*left: 0 !important;
+
+
+	bottom: auto !important;*/
+  top: 0 !important;
+  right: auto !important;
+}
+
+/* end remove */
 .sidebar {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   font-size: 16px;
   line-height: 19px;
@@ -4879,6 +4904,24 @@ fieldset[disabled] .btn {
   -webkit-flex: auto;
   -ms-flex: auto;
   flex: auto;
+}
+
+.sidebar .special-condition .price-holder {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.sidebar .special-condition .price-holder span {
+  display: block;
+  opacity: .5;
+  text-align: right;
+}
+
+.sidebar .special-condition .price-holder strong {
+  display: block;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
 }
 
 .sidebar .sidebar-holder {
@@ -4943,6 +4986,10 @@ fieldset[disabled] .btn {
 .headings-menu li a {
   color: #fff;
   display: inline-block;
+}
+
+.headings-menu li.active a {
+  text-decoration: underline;
 }
 
 .hp .how-it-works-slider .slider-tabs {
@@ -5025,13 +5072,25 @@ fieldset[disabled] .btn {
 .daterangepicker {
   font-size: 14px;
   line-height: 30px;
-  -webkit-box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.62);
-  box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.62);
+  /*box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.62);*/
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background: none;
 }
 
 .daterangepicker.dropdown-menu {
-  display: none;
-  margin-top: 30px;
+  /*display: none;
+		margin-top: 30px;*/
+  margin-top: 0;
+}
+
+.daterangepicker .drop-content:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .daterangepicker .daterangepicker_input {

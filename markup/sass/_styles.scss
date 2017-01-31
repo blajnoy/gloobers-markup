@@ -1866,8 +1866,24 @@
 .object-desc-target {
 
 }
+
+/* start remove */
+
+.show-calendar {
+	/*left: 0 !important;
+
+
+	bottom: auto !important;*/
+	top: 0 !important;
+	right: auto !important;
+}
+
+/* end remove */
+
 .sidebar {
 	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
 	font-size: 16px;
 	line-height: 19px;
@@ -1884,7 +1900,21 @@
 			flex: auto;
 		}
 		.price-holder {
+			font-size: 16px;
+			line-height: 19px;
 
+			span {
+				display: block;
+				opacity: .5;
+				text-align: right;
+			}
+
+			strong {
+				display: block;
+				font-size: 30px;
+				line-height: 30px;
+				font-weight: bold;
+			}
 		}
 	}
 	
@@ -1937,6 +1967,12 @@
 		a {
 			color: #fff;
 			display: inline-block;
+		}
+
+		&.active {
+			a {
+				text-decoration: underline;
+			}
 		}
 	}
 }
@@ -2026,11 +2062,21 @@
 .daterangepicker {
 	font-size: 14px;
 	line-height: 30px;
-	box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.62);
+	/*box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.62);*/
+	box-shadow: none;
+	border: 0;
+	border-radius: 0;
+	background: none;
 
 	&.dropdown-menu {
-		display: none;
-		margin-top: 30px;
+		/*display: none;
+		margin-top: 30px;*/
+
+		margin-top: 0;
+	}
+
+	.drop-content {
+		@include clearfix();
 	}
 
 	.daterangepicker_input {
