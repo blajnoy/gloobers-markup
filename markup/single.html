@@ -90,10 +90,58 @@
 											<div class="col">
 												<span class="ttl">Event date</span>
 												<div class="date-set">
-													<input id="date-tether-target" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" name="date" class="date-input" type="text" data-opens="right" value="12/16/2016">
+													<input class="daterange-input linked-calendars" data-single-date-picker="true" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" name="date" type="text" data-start-date="12/16/2016" value="12/16/2016">
 												</div>
 											</div>
-
+											<div class="col">
+												<span class="ttl">Session</span>
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >24:59 PM <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="drop-list rooms-drop">
+															<ul>
+																<li><a href="#">1</a></li>
+																<li><a href="#">2</a></li>
+																<li><a href="#">3</a></li>
+																<li><a href="#">4</a></li>
+																<li><a href="#">5</a></li>
+																<li><a href="#">6</a></li>
+																<li><a href="#">7</a></li>
+																<li class="active"><a href="#">8</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col">
+												<span class="ttl">Travelers</span>
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >DefaulSet value <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">1</span>Childrens</strong>
+																	<em class="person-info">Age 2 -12 </em>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -275,7 +323,7 @@
 							</div>
 							<h2 id="anchor-calendar">Calendar</h2>
 							<div class="clearfix">
-								<a id="eventCalendar" href="#" class="btn btn-sm btn-primary"><i class="gl-ico gl-ico-calendar"></i> <span class="date-field">31/12/2016</span> <i class="gl-ico gl-ico-arrow-down"></i></a>
+								<a href="#" class="btn btn-sm btn-primary daterange-input linked-calendars" data-single-date-picker="true" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce z-index-998" data-start-date="12/16/2016"><i class="gl-ico gl-ico-calendar"></i> <span class="date-field"></span> <i class="gl-ico gl-ico-arrow-down"></i></a>
 								<div class="switch-toggle pull-right custom">
 									<input id="week" name="view" type="radio" checked>
 									<label for="week" onclick="">5 Days</label>

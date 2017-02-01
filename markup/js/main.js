@@ -31,26 +31,9 @@ $(document).ready(function() {
 		touchMove: false*/
 	});
 
-	/*$("[data-toggle=popover]").popover({
-		html: true,
-		content: function() {
-			return $($(this).data("popoverHtmlId")).html();
-		}
-	}).on('shown.bs.popover', function(e){
-		var popover = $(this);
-
-		$(document).on( "click", '.popover .lnk-close', function(){
-			popover.popover('hide');
-			return false;
-		});
-
-	});*/
-
 	$('.search-tabs .radio').click(function () {
-		/*$("[data-toggle=popover]").popover('hide');*/
 		$(this).tab('show');
 	});
-
 
 	$('.how-slider')
 		.slick({
@@ -65,21 +48,9 @@ $(document).ready(function() {
 		$(this).click(function(){
 			$('.slider-tabs li').removeClass("active");
 			$(this).addClass("active");
-			$('.slider').slick('slickGoTo', i);
+			$('.how-slider').slick('slickGoTo', i);
 		})
 	});
-
-	$('.date-range-input').daterangepicker({
-		"autoApply": true,
-		"showCustomRangeLabel": false,
-		"startDate": "12/16/2016",
-		"endDate": "12/22/2016",
-		"alwaysShowCalendars": true
-	}, function(start, end, label) {
-		console.log("New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')");
-	});
-
-
 
 	(function() {
 
@@ -163,74 +134,95 @@ $(document).ready(function() {
 
 	(function() {
 
-		var target = $('.date-input'),
-			elm;
+		function datapickerDropEmbedding(target) {
 
-		var init, setupDrop;
+			$(target).each(function () {
 
-		target.daterangepicker({
-			singleDatePicker: true,
-			startDate: "12/16/2016",
-			alwaysShowCalendars: true
-		});
+				var dropElm,
+					$elm,
+					content,
+					drop,
+					theme,
+					position,
+					offset,
+					dropDatapicker,
+					_this = $(this);
 
-		elm = target.data('daterangepicker').container;
+				if( _this[0].nodeName != "A" ) {
+					_this.daterangepicker({
+						"autoApply": true,
+						"showCustomRangeLabel": false,
+						"alwaysShowCalendars": true
+					});
+				} else {
 
-		init = function() {
-			return setupDrop();
-		};
 
-		setupDrop = function() {
+					_this.daterangepicker({
+						"autoApply": true,
+						"showCustomRangeLabel": false,
+						"alwaysShowCalendars": true
+					}).on("click", function () {
+						return false;
+					});
 
-			return target.each(function() {
+					_this.data('daterangepicker').updateElement = function(){
+						if (this.element.is('input') && !this.singleDatePicker && this.autoUpdateInput) {
+							this.element.val(this.startDate.format(this.locale.format) + this.locale.separator + this.endDate.format(this.locale.format));
+							this.element.trigger('change');
+						} else if (this.element.is('input') && this.autoUpdateInput) {
+							this.element.val(this.startDate.format(this.locale.format));
+							this.element.trigger('change');
+						} else if (this.element.is('a') && this.autoUpdateInput) {
+							this.element.children(".date-field").html(this.startDate.format(this.locale.format));
+						}
+					};
 
-				var $elm, content, drop, theme, position, offset;
+					_this.children(".date-field").html(_this.data("startDate"));
+				}
 
-				$elm = $(this);
+				_this.on('show.daterangepicker', function() {
+					dropDatapicker.position();
+				});
+
+				dropElm = _this.data('daterangepicker').container;
+
+				$elm = _this;
 				theme = $elm.data('theme');
 				offset = $elm.data('offset') || '0 0';
 				position = $elm.data('position')  || 'bottom center';
 
-				console.log(target);
-				console.log($elm);
+				dropElm.addClass(theme).wrapInner( "<div class='drop-content'></div>");
 
-				elm.addClass(theme).wrapInner( "<div class='drop-content'></div>");
-
-				return drop = new Tether({
+				dropDatapicker = new Tether({
 					classPrefix: 'drop',
-					element: elm,
-					target: target,
+					element: dropElm,
+					target: _this,
 					attachment: 'top center',
 					targetAttachment: position,
 					offset: offset
 				});
 
+
 			});
-		};
 
-		init();
 
-	}).call(this);
-/**/
-
-	$(function() {
-
-		var eventDate = moment();
-
-		function setDate(eventDate) {
-			$('#eventCalendar span').html(eventDate.format('DD/MM/YYYY'));
 		}
 
-		$('#eventCalendar').daterangepicker({
-			singleDatePicker: true
-		}, setDate)
-			.on("click", function () {
-				return false;
-			});
+		datapickerDropEmbedding('.daterange-input');
 
-		setDate(eventDate);
+	}).call(this);
 
-	});
+	(function () {
+
+		$(".date-set .daterange-input").on('apply.daterangepicker', function(ev, picker) {
+
+			$(".btn-primary.daterange-input").data('daterangepicker').setStartDate(picker.startDate);
+			$(".btn-primary.daterange-input").data('daterangepicker').setEndDate(picker.endDate);
+
+		});
+
+	})();
+
 
 
 	/*(function () {
@@ -267,14 +259,18 @@ $(document).ready(function() {
 
 	})();*/
 
-	$('#ex2').slider({
-		tooltip: 'hide'
-	});
-	$("#ex2").on("slide", function(slideEvt) {
-		$("#price-min span").text(slideEvt.value[0]);
-		$("#price-max span").text(slideEvt.value[1]);
+	if( $('#ex2').length ) {
 
-	});
+		$('#ex2').slider({
+			tooltip: 'hide'
+		});
+		$("#ex2").on("slide", function(slideEvt) {
+			$("#price-min span").text(slideEvt.value[0]);
+			$("#price-max span").text(slideEvt.value[1]);
+
+		});
+
+	}
 
 
 	(function(){
