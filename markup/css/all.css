@@ -4882,6 +4882,7 @@ fieldset[disabled] .btn {
   width: 100%;
   font-size: 16px;
   line-height: 19px;
+  overflow: hidden;
 }
 
 .sidebar .special-condition {
@@ -4964,7 +4965,7 @@ fieldset[disabled] .btn {
 }
 
 .headings-menu {
-  margin: 0;
+  margin: 0 -10px;
   padding: 0;
   list-style: none;
   text-transform: uppercase;
@@ -4981,15 +4982,47 @@ fieldset[disabled] .btn {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  position: relative;
+  z-index: 2;
 }
 
 .headings-menu li a {
   color: #fff;
   display: inline-block;
+  height: 73px;
+  line-height: 74px;
+  position: relative;
+  padding: 0 10px;
+  vertical-align: middle;
 }
 
-.headings-menu li.active a {
-  text-decoration: underline;
+.headings-menu li a:after {
+  content: '';
+  width: 500px;
+  height: 500px;
+  background: #371400;
+  background: #1e97d8;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-100%) rotate(45deg);
+  -ms-transform: translateX(-100%) rotate(45deg);
+  transform: translateX(-100%) rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.headings-menu li a:hover, .headings-menu li a:focus, .headings-menu li a:active {
+  text-decoration: none;
+}
+
+.headings-menu li.active a:after {
+  opacity: 1;
 }
 
 .hp .how-it-works-slider .slider-tabs {
