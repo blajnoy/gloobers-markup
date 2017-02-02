@@ -916,7 +916,6 @@
 }
 .tags-wrap {
 	padding: 20px 0 0;
-	font-size: 0;
 
 	.tags-ttl {
 		display: block;
@@ -929,6 +928,7 @@
 	.tags-list {
 		display: flex;
 		flex-wrap: wrap;
+		margin: 0 -5px;
 
 		.tag {
 			flex: auto;
@@ -1869,14 +1869,39 @@
 
 }
 
-/* start remove */
+/* start rating-container */
 
-.show-calendar {
-
+.rating-gloobers {
+	font-family: "gloobers-icons";
 }
 
+.rating-lg {
+	font-size: 31px;
+	line-height: 34px;
+}
 
-/* end remove */
+.rating-container {
+	letter-spacing: 8px;
+	color: #bbe0f3;
+
+	.rating-stars {
+		color: $linkColor;
+
+		&:before {
+			text-shadow: none;
+		}
+	}
+}
+.star-rating{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px 0 0;
+}
+.star-rating .clear-rating,
+.star-rating .caption{display: none;}
+
+
+/* end rating-container */
 
 .sidebar {
 	position: absolute;
@@ -2154,6 +2179,17 @@
 // end daterangepicker
 //
 
+
+/* modal windows */
+
+.modal-custom-lg {
+	width: 90%;
+	max-width: 1170px;
+
+
+}
+
+/* end modal windows */
 
 .histo-slider {
 	overflow: hidden;

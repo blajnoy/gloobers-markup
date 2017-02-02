@@ -27,12 +27,13 @@ $sassy-disabled-color: #eee !default;
 	@include sassy-text;
 	display: block;
 	overflow: auto;
+	min-height: 100px;
 }
 
 @mixin sassy-button {
 	box-sizing: border-box;
 	cursor: pointer;
-	min-height: 60px;
+	min-height: 42px;
 	padding: 17px 34px;
 	font-family: inherit;
 	font-size: 20px;

@@ -640,7 +640,7 @@
 							<div class="recommendation-block">
 								<div class="recommendation-heading">
 									<h2>How do you want to recommend this activity?</h2>
-									<a href="#" class="btn btn-second-color"><i class="gl-ico gl-ico-logo"></i>RECOMMEND</a>
+									<a href="#" class="btn btn-second-color" data-toggle="modal" data-target="#exampleModal"><i class="gl-ico gl-ico-logo"></i>RECOMMEND</a>
 								</div>
 								<div class="share-area">
 									<strong class="share-ttl">Share this link</strong>
@@ -692,6 +692,58 @@
 			</div>
 		</footer>
 	</div>
+
+	<!-- start modal window recommendation -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+		<div class="modal-dialog modal-custom-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Recommend this activity</h4>
+					<strong class="sub-ttl">And get rewarded when other travelers follow your recommendatuion</strong>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-sm-6">
+							<textarea class="form-control" id="message-text">Write your recommendation here</textarea>
+						</div>
+						<div class="col-sm-6">
+							<div class="tags-wrap">
+								<div class="tags-box">
+									<strong class="tags-ttl">Set a rating </strong>
+									<input class="rating" value="3" data-step=1 data-size="lg" data-symbol="&#xe011;" data-glyphicon="false" data-rating-class="rating-gloobers" >
+								</div>
+								<div class="tags-box">
+									<strong class="tags-ttl">Recomends this activity for</strong>
+									<div class="tags-list">
+										<span class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</span>
+										<span class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</span>
+										<span class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</span>
+										<span class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</span>
+									</div>
+								</div>
+								<div class="tags-box">
+									<strong class="tags-ttl">Travelers passionate about</strong>
+									<div class="tags-list">
+										<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</span>
+										<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla bla</span>
+										<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla bla</span>
+										<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</span>
+										<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</span>
+										<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla</span>
+									</div>
+								</div>
+								<div class="text-right">
+									<a href="#" class="cancel">Cancel</a>
+									<a href="#" class="btn btn-default">SAVE</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal window recommendation -->
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

@@ -188,6 +188,7 @@ sup {
   top: -0.65em;
 }
 
+.form-control,
 input[type=text],
 input[type=url],
 input[type=email],
@@ -208,6 +209,7 @@ input[type=number] {
   border: 2px solid #a1a1a1;
 }
 
+.form-control:disabled,
 input[type=text]:disabled,
 input[type=url]:disabled,
 input[type=email]:disabled,
@@ -217,6 +219,7 @@ input[type=number]:disabled {
   cursor: not-allowed;
 }
 
+.form-control::-webkit-input-placeholder,
 input[type=text]::-webkit-input-placeholder,
 input[type=url]::-webkit-input-placeholder,
 input[type=email]::-webkit-input-placeholder,
@@ -225,6 +228,7 @@ input[type=number]::-webkit-input-placeholder {
   color: #666;
 }
 
+.form-control:-moz-placeholder,
 input[type=text]:-moz-placeholder,
 input[type=url]:-moz-placeholder,
 input[type=email]:-moz-placeholder,
@@ -233,6 +237,7 @@ input[type=number]:-moz-placeholder {
   color: #666;
 }
 
+.form-control::-moz-placeholder,
 input[type=text]::-moz-placeholder,
 input[type=url]::-moz-placeholder,
 input[type=email]::-moz-placeholder,
@@ -241,6 +246,7 @@ input[type=number]::-moz-placeholder {
   color: #666;
 }
 
+.form-control:-ms-input-placeholder,
 input[type=text]:-ms-input-placeholder,
 input[type=url]:-ms-input-placeholder,
 input[type=email]:-ms-input-placeholder,
@@ -249,6 +255,7 @@ input[type=number]:-ms-input-placeholder {
   color: #666;
 }
 
+.form-control,
 textarea {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -265,25 +272,31 @@ textarea {
   border: 2px solid #a1a1a1;
   display: block;
   overflow: auto;
+  min-height: 100px;
 }
 
+.form-control:disabled,
 textarea:disabled {
   background-color: #eee;
   cursor: not-allowed;
 }
 
+.form-control::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #666;
 }
 
+.form-control:-moz-placeholder,
 textarea:-moz-placeholder {
   color: #666;
 }
 
+.form-control::-moz-placeholder,
 textarea::-moz-placeholder {
   color: #666;
 }
 
+.form-control:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   color: #666;
 }
@@ -294,7 +307,7 @@ button {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   cursor: pointer;
-  min-height: 60px;
+  min-height: 42px;
   padding: 17px 34px;
   font-family: inherit;
   font-size: 20px;
@@ -3667,7 +3680,6 @@ fieldset[disabled] .btn {
 
 .tags-wrap {
   padding: 20px 0 0;
-  font-size: 0;
 }
 
 .tags-wrap .tags-ttl {
@@ -3687,6 +3699,7 @@ fieldset[disabled] .btn {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin: 0 -5px;
 }
 
 .tags-wrap .tags-list .tag {
@@ -4866,8 +4879,41 @@ fieldset[disabled] .btn {
   margin: 0 0 0 40px;
 }
 
-/* start remove */
-/* end remove */
+/* start rating-container */
+.rating-gloobers {
+  font-family: "gloobers-icons";
+}
+
+.rating-lg {
+  font-size: 31px;
+  line-height: 34px;
+}
+
+.rating-container {
+  letter-spacing: 8px;
+  color: #bbe0f3;
+}
+
+.rating-container .rating-stars {
+  color: #1e97d8;
+}
+
+.rating-container .rating-stars:before {
+  text-shadow: none;
+}
+
+.star-rating {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+
+.star-rating .clear-rating,
+.star-rating .caption {
+  display: none;
+}
+
+/* end rating-container */
 .sidebar {
   position: absolute;
   top: 0;
@@ -5154,6 +5200,13 @@ fieldset[disabled] .btn {
   font-size: inherit;
 }
 
+/* modal windows */
+.modal-custom-lg {
+  width: 90%;
+  max-width: 1170px;
+}
+
+/* end modal windows */
 .histo-slider {
   overflow: hidden;
   height: 80px;
