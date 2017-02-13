@@ -275,6 +275,14 @@
 .search-tabs + .search-bar {
 	border-radius: 0 10px 10px 10px;
 }
+input.daterange-input {
+	background: none;
+	padding: 0;
+	height: auto;
+	width: 100%;
+	min-height: 0;
+	border: 0;
+}
 .search-bar {
 	background: #fff;
 	border-radius: 10px;
@@ -294,7 +302,7 @@
 		margin: -10px 0;
 	}
 
-	input[type = "text"] {
+	input[type="text"] {
 		background: none;
 		padding: 0;
 		height: auto;
@@ -928,18 +936,25 @@
 	.tags-list {
 		display: flex;
 		flex-wrap: wrap;
-		margin: 0 -5px;
+		margin: 0 -5px -10px;
 
 		.tag {
 			flex: auto;
 			color: #1e97d8;
 			margin: 0 5px 10px;
-			cursor: default;
-			pointer-events: none;
+
+			&.selected {
+				color: greenyellow;
+			}
 
 			.gl-ico {
 				margin: 0 7px 0 0;
 			}
+		}
+
+		span.tag {
+			cursor: default;
+			pointer-events: none;
 		}
 	}
 }
@@ -2126,6 +2141,10 @@
 
 		margin-top: 0;
 	}
+	&.drop-out-of-bounds,
+	&.drop-theme-arrows-bounce.drop-out-of-bounds {
+		display: none !important;
+	}
 	&.z-index-998 {
 		z-index: 998;
 	}
@@ -2183,10 +2202,78 @@
 /* modal windows */
 
 .modal-custom-lg {
-	width: 90%;
+	width: 100%;
 	max-width: 1170px;
+}
+.modal-content {
+	padding: 25px;
+}
+.modal-header {
+	border: 0;
+	text-align: center;
+	padding-bottom: 30px;
 
+	h4 {
+		margin: 0 0 10px;
+		line-height: 43px;
+	}
+	.sub-ttl {
+		display: block;
+		opacity: .5;
+	}
+}
+.edit-recommendation-holder {
+	display: flex;
+	margin: 0 -10px 40px;
 
+	.column {
+		flex: 1;
+		padding: 0 10px;
+
+		textarea {
+			min-height: 100%;
+		}
+	}
+
+	.tags-wrap {
+		padding: 0;
+		margin: -10px 0 0;
+
+		.tags-box {
+			padding: 0 0 30px;
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+.tags-ttl-holder {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	line-height: 21px;
+	padding: 0 0 15px;
+
+	&.rating-wrap-ttl {
+		padding: 0;
+	}
+
+	.tags-ttl {
+		flex: auto;
+		font-size: 18px;
+		line-height: 21px;
+		margin: 0;
+
+	}
+
+	.ttl-extra-info {
+		opacity: .5;
+	}
+
+	.star-rating {
+		margin: 0;
+	}
 }
 
 /* end modal windows */

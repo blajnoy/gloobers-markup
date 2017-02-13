@@ -95,7 +95,13 @@
 .btn-second-color {
 	@include button-variant($color: $secondTextColor, $background: none, $borderColor: $secondTextColor);
 }
+.btn-link {
+	@include button-variant($color: $secondTextColor, $background: none, $borderColor: "transparent");
 
+	&:hover {
+		text-decoration: underline;
+	}
+}
 .btn-search {
 	border-radius: 0 10px 10px 0;
 	float: right;

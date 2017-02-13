@@ -197,9 +197,14 @@ $(document).ready(function() {
 					classPrefix: 'drop',
 					element: dropElm,
 					target: _this,
-					attachment: 'top center',
+					attachment: 'top left',
 					targetAttachment: position,
-					offset: offset
+					offset: offset,
+					constraints: [
+						{
+							to: 'scrollParent'
+						}
+					]
 				});
 
 
@@ -224,6 +229,10 @@ $(document).ready(function() {
 	})();
 
 
+	$('.tags-list').find('a.tag').on('click', function () {
+		$(this).toggleClass('selected');
+		return false;
+	});
 
 	/*(function () {
 

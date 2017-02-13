@@ -1085,6 +1085,20 @@ fieldset[disabled] .btn {
   border-color: #1d0b00;
 }
 
+.btn-link {
+  color: #501e00;
+  background: none;
+  border: 2px solid transparent;
+}
+
+.btn-link:hover {
+  color: #501e00;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
 .btn-search {
   -webkit-border-radius: 0 10px 10px 0;
   border-radius: 0 10px 10px 0;
@@ -2920,6 +2934,15 @@ fieldset[disabled] .btn {
   border-radius: 0 10px 10px 10px;
 }
 
+input.daterange-input {
+  background: none;
+  padding: 0;
+  height: auto;
+  width: 100%;
+  min-height: 0;
+  border: 0;
+}
+
 .search-bar {
   background: #fff;
   -webkit-border-radius: 10px;
@@ -3699,7 +3722,7 @@ fieldset[disabled] .btn {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: 0 -5px;
+  margin: 0 -5px -10px;
 }
 
 .tags-wrap .tags-list .tag {
@@ -3709,12 +3732,19 @@ fieldset[disabled] .btn {
   flex: auto;
   color: #1e97d8;
   margin: 0 5px 10px;
-  cursor: default;
-  pointer-events: none;
+}
+
+.tags-wrap .tags-list .tag.selected {
+  color: greenyellow;
 }
 
 .tags-wrap .tags-list .tag .gl-ico {
   margin: 0 7px 0 0;
+}
+
+.tags-wrap .tags-list span.tag {
+  cursor: default;
+  pointer-events: none;
 }
 
 .recommend-eval-wrap {
@@ -5154,6 +5184,10 @@ fieldset[disabled] .btn {
   margin-top: 0;
 }
 
+.daterangepicker.drop-out-of-bounds, .daterangepicker.drop-theme-arrows-bounce.drop-out-of-bounds {
+  display: none !important;
+}
+
 .daterangepicker.z-index-998 {
   z-index: 998;
 }
@@ -5202,8 +5236,97 @@ fieldset[disabled] .btn {
 
 /* modal windows */
 .modal-custom-lg {
-  width: 90%;
+  width: 100%;
   max-width: 1170px;
+}
+
+.modal-content {
+  padding: 25px;
+}
+
+.modal-header {
+  border: 0;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.modal-header h4 {
+  margin: 0 0 10px;
+  line-height: 43px;
+}
+
+.modal-header .sub-ttl {
+  display: block;
+  opacity: .5;
+}
+
+.edit-recommendation-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px 40px;
+}
+
+.edit-recommendation-holder .column {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.edit-recommendation-holder .column textarea {
+  min-height: 100%;
+}
+
+.edit-recommendation-holder .tags-wrap {
+  padding: 0;
+  margin: -10px 0 0;
+}
+
+.edit-recommendation-holder .tags-wrap .tags-box {
+  padding: 0 0 30px;
+}
+
+.edit-recommendation-holder .tags-wrap .tags-box:last-child {
+  padding-bottom: 0;
+}
+
+.tags-ttl-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 21px;
+  padding: 0 0 15px;
+}
+
+.tags-ttl-holder.rating-wrap-ttl {
+  padding: 0;
+}
+
+.tags-ttl-holder .tags-ttl {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.tags-ttl-holder .ttl-extra-info {
+  opacity: .5;
+}
+
+.tags-ttl-holder .star-rating {
+  margin: 0;
 }
 
 /* end modal windows */

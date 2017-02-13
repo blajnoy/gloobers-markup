@@ -19,7 +19,9 @@
 		@if $background != none {
 			background: darken($background, 10%);
 		}
-		border-color: darken($borderColor, 10%);
+		@if $borderColor != 'transparent' {
+			border-color: darken($borderColor, 10%);
+		}
 	}
 }
 @mixin button-gradient($color, $gradientColorStart, $gradientColorEnd) {
