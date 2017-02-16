@@ -2701,17 +2701,17 @@ fieldset[disabled] .btn {
 }
 
 .search-nav-row {
-  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   padding: 0 0 32px;
+  margin: 0 -30px;
 }
 
 .search-nav-row .col {
   display: inline-block;
-  margin: 0 80px 0 0;
+  padding: 0 30px;
   font-size: 16px;
   line-height: 19px;
 }
@@ -3513,10 +3513,10 @@ input.daterange-input {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .card.card-advisor .card-ttl .card-rate-info {
@@ -3525,6 +3525,11 @@ input.daterange-input {
   -ms-flex: auto;
   flex: auto;
   text-align: right;
+}
+
+.card.card-advisor .card-ttl .recommend {
+  display: block;
+  white-space: nowrap;
 }
 
 .card.card-advisor .adv-desc-info {

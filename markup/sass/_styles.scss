@@ -73,13 +73,13 @@
 
 }
 .search-nav-row {
-	width: 100%;
 	display: flex;
 	padding: 0 0 32px;
+	margin: 0 -30px;
 
 	.col {
 		display: inline-block;
-		margin: 0 80px 0 0;
+		padding: 0 30px;
 		font-size: 16px;
 		line-height: 19px;
 
@@ -744,11 +744,16 @@ input.daterange-input {
 
 		.card-ttl {
 			display: flex;
-			align-items: center;
+			align-items: flex-end;
 
 			.card-rate-info {
 				flex: auto;
 				text-align: right;
+			}
+
+			.recommend {
+				display: block;
+				white-space: nowrap;
 			}
 		}
 
@@ -930,7 +935,6 @@ input.daterange-input {
 .more-drop {
 	font-size: 14px;
 	line-height: 17px;
-
 
 	.more-drop-area {
 		padding: 20px 0 0;

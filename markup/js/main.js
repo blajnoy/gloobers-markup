@@ -425,3 +425,8 @@ function initMap() {
 }
 
 /* end map init */
+
+Select.init({
+	selector: '.sel'
+});
+
