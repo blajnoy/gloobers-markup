@@ -96,7 +96,7 @@
 	@include button-variant($color: $secondTextColor, $background: none, $borderColor: $secondTextColor);
 }
 .btn-link {
-	@include button-variant($color: $secondTextColor, $background: none, $borderColor: "transparent");
+	border-color: transparent;
 
 	&:hover {
 		text-decoration: underline;

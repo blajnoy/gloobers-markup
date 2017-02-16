@@ -79,23 +79,25 @@
 
 	.col {
 		display: inline-block;
-		flex: auto;
 		margin: 0 80px 0 0;
-		padding: 0 0 13px;
-		position: relative;
-
-		&:after {
-			content: '';
-			position: absolute;
-			height: 1px;
-			width: 100%;
-			bottom: 0;
-			left: 0;
-			background: #e1e1e1;
-		}
-
 		font-size: 16px;
 		line-height: 19px;
+
+		.date-range,
+		.person-num {
+			padding: 0 0 13px;
+			position: relative;
+
+			&:after {
+				content: '';
+				position: absolute;
+				height: 1px;
+				width: 100%;
+				bottom: 0;
+				left: 0;
+				background: #e1e1e1;
+			}
+		}
 
 		.date-range-input {
 			padding: 0;
@@ -112,8 +114,109 @@
 		font-weight: bold;
 	}
 }
+.advansed-filter {
+
+	.ttl-row {
+		display: flex;
+		padding: 0 0 10px;
+
+		.ttl {
+			flex: auto;
+			font-size: 14px;
+			line-height: 17px;
+			color: #501e00;
+			font-weight: bold;
+		}
+	}
+}
+.filter-dropdown {
+	.filter-section {
+		display: flex;
+		border-bottom: 1px solid #e5e5e5;
+		padding: 15px 0;
+
+		.filter-section-ttl {
+			flex: 0 235px;
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 21px;
+			color: $secondTextColor;
+		}
+
+		.filter-area {
+			flex: auto;
+		}
+	}
+	.recommendations-btns {
+		display: flex;
+		margin: 0 -40px;
+
+		.btn {
+			margin: 0 40px;
+		}
+	}
+
+	.btns-row {
+		display: flex;
+		margin: 0 -10px;
+		padding: 30px 0;
+
+		.flex-auto-width {
+			flex: auto;
+		}
+		.btn {
+			margin: 0 10px;
+
+			&.btn-link {
+				margin-left: 0;
+			}
+		}
+	}
+}
+.filter-check-list {
+	display: flex;
+	margin: 0 -10px;
+
+	.check-col {
+		flex: 1;
+		margin: 0 10px;
+	}
+}
+.check-list {
+
+	li {
+		padding: 0 0 15px;
+	}
+
+	label {
+		font-size: 18px;
+	}
+}
+.lnk-expand {
+
+	&:before {
+		content: attr(data-lnk-expand-text-hide);
+	}
+
+	&.collapsed {
+		&:before {
+			content: attr(data-lnk-expand-text-show);
+		}
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: darken( $linkColor, 10%);
+		text-decoration: none;
+	}
+}
+
+
 .results-found-info {
 	color: #000;
+	padding: 20px 0;
+	border-top: 1px solid #e5e5e5;
 
 	strong {
 		font-weight: bold;
@@ -280,6 +383,7 @@ input.daterange-input {
 	padding: 0;
 	height: auto;
 	width: 100%;
+	min-width: 165px;
 	min-height: 0;
 	border: 0;
 }
@@ -454,7 +558,6 @@ input.daterange-input {
 .person-num {
 	vertical-align: middle;
 	display: inline-block;
-	cursor: pointer;
 
 	.gl-ico {
 		vertical-align: middle;
@@ -559,6 +662,18 @@ input.daterange-input {
 			&:before {
 				padding-top: 163px;
 			}
+
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: rgba(#501e00, .1%);
+				border-radius: 10px 10px 0 0;
+			}
+
 			img	{
 				overflow: hidden;
 				object-fit: cover;
@@ -602,6 +717,45 @@ input.daterange-input {
 					padding: 0 0 5px;
 				}
 			}
+		}
+	}
+	&.card-advisor {
+
+		.img-h {
+
+			.img-wrap {
+				@include aspect-ratio(370, 133);
+			}
+		}
+
+		.photo-adv {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+
+			img {
+				display: block;
+				border-radius: 10px 0 0;
+				height: 100%;
+				width: auto;
+			}
+		}
+
+		.card-ttl {
+			display: flex;
+			align-items: center;
+
+			.card-rate-info {
+				flex: auto;
+				text-align: right;
+			}
+		}
+
+		.adv-desc-info {
+			font-size: 14px;
+			line-height: 18px;
+			opacity: .5;
 		}
 	}
 	.avatar {
@@ -653,6 +807,12 @@ input.daterange-input {
 
 	.result-list & {
 		margin: 0 0 30px;
+	}
+}
+.recommend,
+.reviews {
+	strong {
+		font-weight: bold;
 	}
 }
 .object-rate-info {
@@ -752,7 +912,7 @@ input.daterange-input {
 	line-height: 17px;
 	cursor: pointer;
 
-	.expander-ttl {
+	.lnk-expand {
 		text-transform: uppercase;
 		color: $linkColor;
 		display: block;
@@ -765,6 +925,14 @@ input.daterange-input {
 			right: 0;
 			transform: translateY(-50%);
 		}
+	}
+}
+.more-drop {
+	font-size: 14px;
+	line-height: 17px;
+
+	.more-drop-area {
+		padding: 20px 0 0;
 	}
 }
 .object-desc {
@@ -1893,6 +2061,10 @@ input.daterange-input {
 .rating-lg {
 	font-size: 31px;
 	line-height: 34px;
+}
+.rating-md {
+	font-size: 27px;
+	line-height: 30px;
 }
 
 .rating-container {

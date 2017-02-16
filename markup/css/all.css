@@ -1086,13 +1086,7 @@ fieldset[disabled] .btn {
 }
 
 .btn-link {
-  color: #501e00;
-  background: none;
-  border: 2px solid transparent;
-}
-
-.btn-link:hover {
-  color: #501e00;
+  border-color: transparent;
 }
 
 .btn-link:hover {
@@ -2717,18 +2711,19 @@ fieldset[disabled] .btn {
 
 .search-nav-row .col {
   display: inline-block;
-  -webkit-box-flex: 1;
-  -webkit-flex: auto;
-  -ms-flex: auto;
-  flex: auto;
   margin: 0 80px 0 0;
-  padding: 0 0 13px;
-  position: relative;
   font-size: 16px;
   line-height: 19px;
 }
 
-.search-nav-row .col:after {
+.search-nav-row .col .date-range,
+.search-nav-row .col .person-num {
+  padding: 0 0 13px;
+  position: relative;
+}
+
+.search-nav-row .col .date-range:after,
+.search-nav-row .col .person-num:after {
   content: '';
   position: absolute;
   height: 1px;
@@ -2753,8 +2748,129 @@ fieldset[disabled] .btn {
   font-weight: bold;
 }
 
+.advansed-filter .ttl-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 10px;
+}
+
+.advansed-filter .ttl-row .ttl {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  font-size: 14px;
+  line-height: 17px;
+  color: #501e00;
+  font-weight: bold;
+}
+
+.filter-dropdown .filter-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 0;
+}
+
+.filter-dropdown .filter-section .filter-section-ttl {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 235px;
+  -ms-flex: 0 235px;
+  flex: 0 235px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #501e00;
+}
+
+.filter-dropdown .filter-section .filter-area {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.filter-dropdown .recommendations-btns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -40px;
+}
+
+.filter-dropdown .recommendations-btns .btn {
+  margin: 0 40px;
+}
+
+.filter-dropdown .btns-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px;
+  padding: 30px 0;
+}
+
+.filter-dropdown .btns-row .flex-auto-width {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.filter-dropdown .btns-row .btn {
+  margin: 0 10px;
+}
+
+.filter-dropdown .btns-row .btn.btn-link {
+  margin-left: 0;
+}
+
+.filter-check-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px;
+}
+
+.filter-check-list .check-col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.check-list li {
+  padding: 0 0 15px;
+}
+
+.check-list label {
+  font-size: 18px;
+}
+
+.lnk-expand:before {
+  content: attr(data-lnk-expand-text-hide);
+}
+
+.lnk-expand.collapsed:before {
+  content: attr(data-lnk-expand-text-show);
+}
+
+.lnk-expand:hover, .lnk-expand:focus, .lnk-expand:active {
+  color: #1878ab;
+  text-decoration: none;
+}
+
 .results-found-info {
   color: #000;
+  padding: 20px 0;
+  border-top: 1px solid #e5e5e5;
 }
 
 .results-found-info strong {
@@ -2939,6 +3055,7 @@ input.daterange-input {
   padding: 0;
   height: auto;
   width: 100%;
+  min-width: 165px;
   min-height: 0;
   border: 0;
 }
@@ -3148,7 +3265,6 @@ input.daterange-input {
 .person-num {
   vertical-align: middle;
   display: inline-block;
-  cursor: pointer;
 }
 
 .person-num .gl-ico {
@@ -3283,6 +3399,18 @@ input.daterange-input {
   padding-top: 163px;
 }
 
+.card .img-h .img-wrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(80, 30, 0, 0.1);
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
 .card .img-h .img-wrap img {
   overflow: hidden;
   object-fit: cover;
@@ -3342,6 +3470,67 @@ input.daterange-input {
 
 .result-list .card .img-h .price span {
   padding: 0 0 5px;
+}
+
+.card.card-advisor .img-h .img-wrap {
+  display: block;
+  position: relative;
+}
+
+.card.card-advisor .img-h .img-wrap:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: -webkit-calc( ( 133 / 370 ) * 100% - 0px);
+  padding-top: calc( ( 133 / 370 ) * 100% - 0px);
+}
+
+.card.card-advisor .img-h .img-wrap > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card.card-advisor .photo-adv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.card.card-advisor .photo-adv img {
+  display: block;
+  -webkit-border-radius: 10px 0 0;
+  border-radius: 10px 0 0;
+  height: 100%;
+  width: auto;
+}
+
+.card.card-advisor .card-ttl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card.card-advisor .card-ttl .card-rate-info {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  text-align: right;
+}
+
+.card.card-advisor .adv-desc-info {
+  font-size: 14px;
+  line-height: 18px;
+  opacity: .5;
 }
 
 .card .avatar {
@@ -3404,6 +3593,11 @@ input.daterange-input {
 
 .result-list .card {
   margin: 0 0 30px;
+}
+
+.recommend strong,
+.reviews strong {
+  font-weight: bold;
 }
 
 .object-rate-info {
@@ -3497,14 +3691,14 @@ input.daterange-input {
   cursor: pointer;
 }
 
-.show-more-row .expander-ttl {
+.show-more-row .lnk-expand {
   text-transform: uppercase;
   color: #1e97d8;
   display: block;
   position: relative;
 }
 
-.show-more-row .expander-ttl .gl-ico {
+.show-more-row .lnk-expand .gl-ico {
   color: #000;
   position: absolute;
   top: 50%;
@@ -3512,6 +3706,15 @@ input.daterange-input {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.more-drop {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.more-drop .more-drop-area {
+  padding: 20px 0 0;
 }
 
 .object-desc {
@@ -4917,6 +5120,11 @@ input.daterange-input {
 .rating-lg {
   font-size: 31px;
   line-height: 34px;
+}
+
+.rating-md {
+  font-size: 27px;
+  line-height: 30px;
 }
 
 .rating-container {

@@ -379,41 +379,36 @@ $(document).ready(function() {
 
 
 /* start map init */
-/*
+
 
 var map,
 	desktopScreen = Modernizr.mq( "only screen and (min-width:1024px)" ),
-	zoom = desktopScreen ? 18 : 17,
+	zoom = desktopScreen ? 10 : 8,
 	scrollable = draggable = !Modernizr.hiddenscroll || desktopScreen,
-	isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/));
+	isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/)),
+	customStyles = [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}]
 
 function initMap() {
-	var myLatLng = {lat: 50.00443710942676, lng: 36.23346689339087};
+	var myLatLng = {lat: 40.768525, lng: -74.075736};
 	map = new google.maps.Map(document.getElementById('map'), {
 		zoom: zoom,
 		center: myLatLng,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		scrollwheel: scrollable,
-		draggable: draggable
+		draggable: draggable,
+		styles: customStyles
 	});
 
 	var locations = [
 		{
-			title: 'точка раз',
-			position: {lat: 50.00374184280692, lng: 36.23352648315631},
+			title: 'point1',
+			position: {lat: 40.768525, lng: -74.075736},
+			label: '22'/*,
 			icon: {
 				url: isIE11 ? "images/ico-map-marker.png" : "images/ico-map-marker.png",//svg
 				scaledSize: new google.maps.Size(53, 69)
-			}
+			}*/
 
-		},
-		{
-			title: 'точка два',
-			position: {lat: 50.00506754709841, lng: 36.233161702730285},
-			icon: {
-				url: isIE11 ? "images/ico-map-marker.png" : "images/ico-map-marker.png",//svg
-				scaledSize: new google.maps.Size(53, 69)
-			}
 		}
 	];
 
@@ -423,10 +418,10 @@ function initMap() {
 			map: map,
 			title: element.title,
 			icon: element.icon,
+			label: element.label
 		});
 	});
 
 }
-*/
 
 /* end map init */
