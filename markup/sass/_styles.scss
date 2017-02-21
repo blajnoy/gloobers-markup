@@ -839,6 +839,23 @@ input.daterange-input {
 		width: 100%;
 	}
 }
+.socials-connected {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px;
+	padding: 20px 0 0;
+
+	.cell {
+		flex: 1 0 50%;
+		padding: 0 10px;
+
+		.btn {
+			display: block;
+			width: 100%;
+			margin-bottom: 30px;
+		}
+	}
+}
 
 .recommend,
 .reviews {
@@ -890,9 +907,13 @@ input.daterange-input {
 	}
 
 }
+.card {
+	.reviews-list {
+		max-height: 155px;
+		overflow: auto;
+	}
+}
 .reviews-list {
-	max-height: 155px;
-	overflow: auto;
 
 	.item {
 		padding: 0 0 10px;
@@ -1109,6 +1130,7 @@ input.daterange-input {
 		width: 40%;
 		padding: 0 0 0 30px;
 
+
 		&-ttl {
 			display: block;
 			text-align: center;
@@ -1118,6 +1140,18 @@ input.daterange-input {
 			color: $secondTextColor;
 			margin: 0 0 15px;
 		}
+	}
+
+	&.profile-desc-heading {
+
+		.object-ttl {
+			width: 40%;
+		}
+
+		.recommended-for {
+			width: 60%;
+		}
+
 	}
 }
 .ttl-info {
@@ -2237,6 +2271,7 @@ input.daterange-input {
 
 		.special-ttl {
 			flex: auto;
+			opacity: .5;
 		}
 		.price-holder {
 			font-size: 16px;
@@ -2288,6 +2323,28 @@ input.daterange-input {
 		}
 	}
 }
+.fill-width {
+	width: 100%;
+}
+.price-row {
+	display: flex;
+	align-items: flex-end;
+
+	.total-price-col {
+
+		.sup-ttl {
+
+		}
+
+		.total-price {
+
+		}
+
+	}
+
+}
+
+
 .tether-element {
 	z-index: 999;
 }

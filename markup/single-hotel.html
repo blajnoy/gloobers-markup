@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gloobers</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans:400,700" rel="stylesheet">
+	<link href="css/sprite.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.css" rel="stylesheet">
+
+	<link href="css/drop-theme-arrows.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/star-rating.min.css" rel="stylesheet">
+	<link href="css/toggle-switch-px.css" rel="stylesheet">
+	<link href="css/all.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header-holder container-fluid">
+				<a href="#" class="logo"><img src="images/logo-inner.png" alt="Gloobers" height="60" width="49"></a>
+				<nav class="nav">
+					<ul class="main-nav">
+						<li><a href="#">About <i class="gl-ico gl-ico-arrow-down"></i></a></li>
+						<li class="active"><a href="#">Professionals</a></li>
+						<li><a href="#">Log in</a></li>
+					</ul>
+					<a href="#" class="btn btn-default">Refer a professional</a>
+				</nav>
+				<div class="object-type">
+					<a href="#" class="open-drop" data-offset="-10px 0" data-theme="drop-theme-arrows-bounce">
+						Hotels <i class="gl-ico gl-ico-arrow-down"></i>
+					</a>
+					<div class="drop-content hide">
+						<div class="drop-list">
+							<ul>
+								<li class="active"><a href="#">Hotels</a></li>
+								<li><a href="#">Activites</a></li>
+								<li><a href="#">Advisors</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="search-row">
+					<i class="fa fa-search" aria-hidden="true"></i>
+					<input class="search-field" type="text" placeholder="Start searching">
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main-slider">
+				<div class="item"><img src="images/img03.jpg" width="1920" height="550" alt="image"></div>
+				<div class="item"><img src="images/img03-rotate.jpg" width="1920" height="550" alt="image"></div>
+				<div class="item"><img src="images/img03.jpg" width="1920" height="550" alt="image"></div>
+				<div class="item"><img src="images/img03-rotate.jpg" width="1920" height="550" alt="image"></div>
+				<div class="item"><img src="images/img03.jpg" width="1920" height="550" alt="image"></div>
+				<div class="item"><img src="images/img03-rotate.jpg" width="1920" height="550" alt="image"></div>
+			</div>
+			<div id="tether-target" class="object-desc">
+				<div class="container">
+					<div class="row">
+					<aside id="tether-elm" class="sidebar">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-8">
+									<ul id="anchor-menu" class="headings-menu">
+										<li><a href="#anchor-description">Description</a></li>
+										<li><a href="#anchor-requirements">Requirements</a></li>
+										<li><a href="#anchor-calendar">Calendar</a></li>
+										<li><a href="#anchor-policies">Policies</a></li>
+										<li><a href="#anchor-map">Map</a></li>
+										<li><a href="#anchor-review">REview</a></li>
+										<li><a href="#anchor-creator">creator</a></li>
+									</ul>
+								</div>
+								<div class="aside col-sm-4">
+									<div class="special-condition">
+										<span class="special-ttl">Special conditions</span>
+										<div class="price-holder">
+											<span class="price-ttl">From</span>
+											<strong>$345</strong>
+										</div>
+									</div>
+									<div class="sidebar-holder">
+										<div class="search-nav-row">
+											<div class="col">
+												<span class="ttl">Event date</span>
+												<div class="date-set">
+													<input class="daterange-input linked-calendars" data-position="bottom left" data-single-date-picker="true" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" name="date" type="text" data-start-date="12/16/2016" value="12/16/2016">
+												</div>
+											</div>
+											<div class="col">
+												<span class="ttl">Session</span>
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >24:59 PM <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="drop-list rooms-drop">
+															<ul>
+																<li><a href="#">1</a></li>
+																<li><a href="#">2</a></li>
+																<li><a href="#">3</a></li>
+																<li><a href="#">4</a></li>
+																<li><a href="#">5</a></li>
+																<li><a href="#">6</a></li>
+																<li><a href="#">7</a></li>
+																<li class="active"><a href="#">8</a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col">
+												<span class="ttl">Travelers</span>
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >DefaulSet value <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">1</span>Childrens</strong>
+																	<em class="person-info">Age 2 -12 </em>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="price-row">
+											<div class="total-price-col">
+												<span class="sup-ttl">Actual price</span>
+												<strong class="total-price">$675</strong>
+											</div>
+											<div class="use-credit-price">
+												<span>Pay only</span>
+												<strong>$675</strong>
+												<span>using credits</span>
+											</div>
+										</div>
+										<a href="#" class="btn btn-primary fill-width">Book now</a>
+										<a href="#" class="btn btn-default fill-width"><i class="gl-ico gl-ico-logo"></i>Recommend</a>
+										<span class="special-info">Special conditions for service usage</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</aside>
+					<div class="col-xs-12 col-sm-8 object-desc-target">
+						<div class="object-desc-heading">
+							<div class="object-ttl">
+								<h1>Heading (place name)</h1>
+								<span class="location">Long location name</span>
+								<div class="ttl-info">
+									<span class="type">Adrenalyne</span>
+									<div class="object-rate-info">
+										<div class="rating">
+											<strong class="rating-ttl">7</strong>
+											<div class="stars">
+												<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												<span class="star full"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+											</div>
+										</div>
+										<em class="recommend"><strong>25</strong> Recommendations</em>
+									</div>
+								</div>
+							</div>
+							<div class="recommended-for">
+								<span class="recommended-for-ttl">Recommended for:</span>
+								<div class="recommend-eval-wrap">
+									<div class="recommend-eval">
+										<strong class="eval-percent">100<sup>%</sup></strong>
+										<span class="eval-name">Campaign</span>
+									</div>
+									<div class="recommend-eval eval-luxury">
+										<strong class="eval-percent">56<sup>%</sup></strong>
+										<span class="eval-name">Luxury</span>
+									</div>
+									<div class="recommend-eval eval-budget">
+										<strong class="eval-percent">83<sup>%</sup></strong>
+										<span class="eval-name">Budget</span>
+									</div>
+								</div>
+								<i class="extra-info-line">Based on travelers experience</i>
+							</div>
+						</div>
+						<div class="content-box">
+							<div class="recommendations-from">
+								<strong class="recommendations-from-ttl">Daily recommendations from</strong>
+								<div class="recommendations-btns pull-right">
+									<a href="#" class="btn btn-sm">Facebook friends</a>
+									<a href="#" class="btn btn-sm disabled">With mutual interests</a>
+									<a href="#" class="btn btn-sm">Local experts</a>
+								</div>
+							</div>
+							<div class="person-card">
+								<div class="aside">
+									<div class="avatar"><img src="images/photo01-big.jpg" width="170" height="170" alt="image"></div>
+									<h2 class="name">Marcus Fenix</h2>
+									<strong class="sub-ttl">Profession, location</strong>
+									<div class="rating">
+										<strong class="rating-ttl">7</strong>
+										<div class="stars">
+											<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+											<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+											<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+											<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+											<span class="star full"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										</div>
+									</div>
+									<div class="friends-row">
+										<span class="friends-ttl">+20</span>
+										<ul class="friends-avatars-list">
+											<li><img src="images/photo01.jpg" width="70" height="70" alt="image"></li>
+											<li><img src="images/photo01.jpg" width="70" height="70" alt="image"></li>
+											<li><img src="images/photo01.jpg" width="70" height="70" alt="image"></li>
+											<li><img src="images/photo01.jpg" width="70" height="70" alt="image"></li>
+										</ul>
+									</div>
+
+								</div>
+								<div class="text-h">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									<div class="tags-wrap row">
+										<div class="col-sm-6">
+											<strong class="tags-ttl">Recomends this activity for</strong>
+											<div class="tags-list">
+												<span class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</span>
+												<span class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</span>
+												<span class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</span>
+												<span class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</span>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<strong class="tags-ttl">Travelers passionate about</strong>
+											<div class="tags-list">
+												<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</span>
+												<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla bla</span>
+												<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla bla</span>
+												<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</span>
+												<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</span>
+												<span class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-box">
+							<h2 id="anchor-description">Description</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, </p>
+							<ul class="requirements-list">
+								<li>
+									<span class="img-h">
+										<img src="images/ico-bed.png" width="40" height="20" alt="image">
+									</span>
+									<p>Requirement</p>
+								</li>
+								<li>
+									<span class="img-h">
+										<img src="images/ico-bed.png" width="40" height="20" alt="image">
+									</span>
+									<p>Requirement</p>
+								</li>
+								<li>
+									<span class="img-h">
+										<img src="images/ico-bed.png" width="40" height="20" alt="image">
+									</span>
+									<p>Requirement</p>
+								</li>
+								<li>
+									<span class="img-h">
+										<img src="images/ico-bed.png" width="40" height="20" alt="image">
+									</span>
+									<p>Requirement</p>
+								</li>
+								<li>
+									<span class="img-h">
+										<img src="images/ico-bed.png" width="40" height="20" alt="image">
+									</span>
+									<p>Requirement</p>
+								</li>
+								<li>
+									<span class="img-h">
+										<img src="images/ico-bed.png" width="40" height="20" alt="image">
+									</span>
+									<p>Requirement</p>
+								</li>
+							</ul>
+						</div>
+						<div class="content-box">
+							<h2 id="anchor-requirements">Experience requirements</h2>
+							<div class="condition-list">
+								<div class="condition-list-row clearfix">
+									<div class="checkbox checkbox-inline">
+										<input id="chk01" type="checkbox" checked="checked" name="conditions">
+										<label for="chk01">Condition 1</label>
+									</div>
+									<div class="operation-btns pull-right">
+										<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+										<span class="btns-col"><strong class="num">2</strong></span>
+										<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+									</div>
+								</div>
+								<div class="condition-list-row clearfix">
+									<div class="checkbox checkbox-inline">
+										<input id="chk02" type="checkbox" checked="checked" name="conditions">
+										<label for="chk02">Condition 2</label>
+									</div>
+									<div class="operation-btns pull-right">
+										<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+										<span class="btns-col"><strong class="num">2</strong></span>
+										<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+									</div>
+								</div>
+							</div>
+							<h2 id="anchor-calendar">Calendar</h2>
+							<div class="clearfix">
+								<a href="#" class="btn btn-sm btn-primary daterange-input linked-calendars" data-single-date-picker="true" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce z-index-998" data-start-date="12/16/2016"><i class="gl-ico gl-ico-calendar"></i> <span class="date-field"></span> <i class="gl-ico gl-ico-arrow-down"></i></a>
+								<div class="switch-toggle pull-right custom">
+									<input id="week" name="view" type="radio" checked>
+									<label for="week" onclick="">5 Days</label>
+
+									<input id="month" name="view" type="radio">
+									<label for="month" onclick="">week</label>
+
+									<a class="btn btn-sm btn-primary"></a>
+								</div>
+							</div>
+						</div>
+						<div class="content-box">
+							<h2 id="anchor-policies">Cancellation policies</h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+							<p>Lorem Ipsum has been the industry's standard dummy. Text ever since the unknown printer took a galley of type and </p>
+							<p>scrambled Lorem Ipsum is simply dummy text of the printing and </p>
+							<div class="cancellation-polocies-graph">
+								<div class="point first-range">
+									<div class="point-bubble"></div>
+									<span class="percent-refund">100%</span>
+									<span class="point-label">Booking date</span>
+								</div>
+								<div class="point second-range">
+									<div class="point-bubble"></div>
+									<span class="percent-refund">50%</span>
+									<span class="point-label">15 days to arrival</span>
+								</div>
+								<div class="point third-range">
+									<div class="point-bubble"></div>
+									<span class="percent-refund">0%</span>
+									<span class="point-label">7 days to arrival</span>
+								</div>
+								<div class="point end-date">
+									<div class="point-bubble"></div>
+									<span class="point-label">Arrival date</span>
+								</div>
+							</div>
+							<div id="anchor-map" class="map">
+								<h1>map</h1>
+							</div>
+							<h2>Ratings</h2>
+							<div class="ratings">
+								<div class="rating">
+									<strong class="rating-ttl">Overall experience</strong>
+									<div class="stars">
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star full"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+									</div>
+								</div>
+								<div class="rating">
+									<strong class="rating-ttl">Communication</strong>
+									<div class="stars">
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star full"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+									</div>
+								</div>
+								<div class="rating">
+									<strong class="rating-ttl">Professionalism</strong>
+									<div class="stars">
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star full"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+									</div>
+								</div>
+								<div class="rating">
+									<strong class="rating-ttl">Safety</strong>
+									<div class="stars">
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+										<span class="star full"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-box">
+							<h2 id="anchor-review">Reviews (56)</h2>
+							<div class="reviews-list">
+								<div class="review">
+									<div class="img-h">
+										<img src="images/photo01.jpg" width="70" height="70" alt="image">
+										<strong class="name">Marcus Fenix</strong>
+										<span class="status">Profession</span>
+									</div>
+									<div class="review-holder">
+										<div class="review-text">
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer too a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+											<p>Text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing</p>
+										</div>
+										<div class="review-details">
+											<em class="date">12. 11. 2016</em>
+											<div class="rating">
+												<div class="stars">
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star full"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="review">
+									<div class="img-h">
+										<img src="images/photo01.jpg" width="70" height="70" alt="image">
+										<strong class="name">Marcus Fenix</strong>
+										<span class="status">Profession</span>
+									</div>
+									<div class="review-holder">
+										<div class="review-text">
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer too a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+											<p>Text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing</p>
+										</div>
+										<div class="review-details">
+											<em class="date">12. 11. 2016</em>
+											<div class="rating">
+												<div class="stars">
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star full"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="review">
+									<div class="img-h">
+										<img src="images/photo01.jpg" width="70" height="70" alt="image">
+										<strong class="name">Marcus Fenix</strong>
+										<span class="status">Profession</span>
+									</div>
+									<div class="review-holder">
+										<div class="review-text">
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer too a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+											<p>Text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing</p>
+										</div>
+										<div class="review-details">
+											<em class="date">12. 11. 2016</em>
+											<div class="rating">
+												<div class="stars">
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star full"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<p class="review-pages-info">Rewiews <strong>6</strong> from <strong>106</strong></p>
+							<div class="text-center">
+								<ul class="pagination">
+									<li class="disabled"><a href="#" aria-label="Previous"><i aria-hidden="true" class="gl-ico gl-ico-arrow-left"></i></a></li>
+									<li class="active"><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><span>...</span></li>
+									<li><a href="#">12</a></li>
+									<li><a href="#" aria-label="Next"><i aria-hidden="true" class="gl-ico gl-ico-arrow-right"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="content-box">
+							<h2 id="anchor-creator">About</h2>
+							<div class="person-card">
+								<div class="aside">
+									<div class="avatar"><img src="images/photo01-big.jpg" width="170" height="170" alt="image"></div>
+									<h2 class="name">Marcus Fenix</h2>
+									<strong class="sub-ttl">Profession, location</strong>
+									<a href="#" class="btn btn-primary">Profile</a>
+									<a href="#" class="btn"><i class="gl-ico gl-ico-facebook"></i> Facebook</a>
+									<span class="connection-status">Connected</span>
+									<a href="#" class="btn disabled"><i class="gl-ico gl-ico-mail"></i> E-mail</a>
+									<span class="connection-status disabled">Not verified</span>
+								</div>
+								<div class="text-h">
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									<div class="about-desc">
+										<div class="desc">
+											<dl>
+												<dt>Languages:</dt>
+												<dd>English, german, ukrainian, russian.</dd>
+												<dt>Occupation:</dt>
+												<dd>IT engeneer @ Deftsoft</dd>
+											</dl>
+										</div>
+										<div class="listings-img">
+											<a href="#">
+												<div class="text-h">
+													<strong class="img-ttl">7 listings</strong>
+													<span class="tap-info">Tap to see all</span>
+												</div>
+												<img src="images/img02.jpg" alt="images">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-box">
+							<h2>Last followed recommendations</h2>
+							<div class="recommendations">
+								<div class="card">
+									<div class="img-h">
+										<span class="img-wrap">
+											<img src="images/img01.jpg" alt="image">
+										</span>
+										<div class="price">
+											<strong>230<sup>TC</sup></strong>
+											<span>You earn</span>
+										</div>
+									</div>
+									<strong class="ttl">Lorem Ipsum is simply </strong>
+									<span class="sub-ttl">Long  location name</span>
+									<footer>
+										<a href="#" class="btn btn-default btn-recommend"><i class="gl-ico gl-ico-logo"></i></a>
+										<div class="card-rate-info">
+											<div class="rating">
+												<strong class="rating-ttl">7</strong>
+												<div class="stars">
+													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star full"><i class="fa fa-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+											<em class="recommend"><strong>25</strong> Recommendations</em>
+										</div>
+									</footer>
+									<div class="more-info">
+										<div class="show-more-row">
+											<a href="#" class="expander-ttl">SHOW MORE <i class="gl-ico gl-ico-arrow-down"></i></a>
+										</div>
+										<div class="more-drop hide">
+											<div class="recommend-row">
+												<div class="recommend-avatar">
+													<img src="images/photo01.jpg" alt="">
+												</div>
+												<strong class="recommend-author-name">Very long username recommends this hotel for:</strong>
+												<div class="tags">
+													Golf, Music, Scuba diving, Road trip
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="img-h">
+										<span class="img-wrap">
+											<img src="images/bg-main.jpg" alt="image">
+										</span>
+										<div class="price">
+											<strong>230<sup>TC</sup></strong>
+											<span>You earn</span>
+										</div>
+									</div>
+									<strong class="ttl">Lorem Ipsum is simply </strong>
+									<span class="sub-ttl">Long  location name</span>
+									<footer>
+										<a href="#" class="btn btn-default btn-recommend"><i class="gl-ico gl-ico-logo"></i></a>
+										<div class="card-rate-info">
+											<div class="rating">
+												<strong class="rating-ttl">7</strong>
+												<div class="stars">
+													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star full"><i class="fa fa-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+											<em class="recommend"><strong>25</strong> Recommendations</em>
+										</div>
+									</footer>
+									<div class="more-info">
+										<div class="show-more-row">
+											<a href="#" class="expander-ttl">SHOW MORE <i class="gl-ico gl-ico-arrow-down"></i></a>
+										</div>
+										<div class="more-drop hide">
+											<div class="recommend-row">
+												<div class="recommend-avatar">
+													<img src="images/photo01.jpg" alt="">
+												</div>
+												<strong class="recommend-author-name">Very long username recommends this hotel for:</strong>
+												<div class="tags">
+													Golf, Music, Scuba diving, Road trip
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="btn-row center">
+								<a href="#" class="btn btn-more">See more</a>
+							</div>
+						</div>
+						<div class="content-box">
+							<div class="recommendation-block">
+								<div class="recommendation-heading">
+									<h2>How do you want to recommend this activity?</h2>
+									<a href="#" class="btn btn-second-color" data-toggle="modal" data-target="#exampleModal"><i class="gl-ico gl-ico-logo"></i>RECOMMEND</a>
+								</div>
+								<div class="share-area">
+									<strong class="share-ttl">Share this link</strong>
+									<div class="form-group">
+										<input class="form-control" type="text" value="www.gloobers.com/share">
+									</div>
+									<div class="share-group">
+										<a href="#" class="btn"><i class="gl-ico gl-ico-push-pin"></i> Embed</a>
+										<a href="#" class="btn"><i class="gl-ico gl-ico-street-map"></i> Add to travel guide</a>
+										<a href="#" class="btn"><i class="gl-ico gl-ico-mail"></i> Send via Email</a>
+									</div>
+								</div>
+								<div class="share-soc">
+									<strong class="share-ttl">Revommend on your socials</strong>
+									<div class="soc-btns-row">
+										<a href="#" class="btn btn-facebook"><i class="gl-ico gl-ico-facebook"></i> Facebook</a>
+										<a href="#" class="btn btn-google-plus"><i class="gl-ico gl-ico-google-plus"></i> Google +</a>
+										<a href="#" class="btn btn-instagram"><i class="gl-ico gl-ico-instagram"></i> Instagram</a>
+										<a href="#" class="btn btn-twitter"><i class="gl-ico gl-ico-twitter"></i> Twitter</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<a href="#" class="logo"><img src="images/logo.png" alt="Gloobers" height="59" width="160"></a>
+				<div class="soc-list">
+					<a class="item" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a class="item" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a class="item" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+				</div>
+				<ul class="footer-nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Gloobers for professionals</a></li>
+				</ul>
+			</div>
+			<div class="footer-row container">
+				<p class="copy"><strong>Gloobers Global Ltd.</strong> 2016. All rights reserved</p>
+				<ul class="extra-nav">
+					<li><a href="#">Help center</a></li>
+					<li><a href="#">Terms and Conditions</a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+
+	<!-- start modal window recommendation -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+		<div class="modal-dialog modal-custom-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Recommend this activity</h4>
+					<strong class="sub-ttl">And get rewarded when other travelers follow your recommendatuion</strong>
+				</div>
+				<div class="modal-body">
+					<div class="edit-recommendation-holder">
+						<div class="column">
+							<textarea class="form-control" id="message-text">Write your recommendation here</textarea>
+						</div>
+						<div class="column">
+							<div class="tags-wrap">
+								<div class="tags-box">
+									<div class="tags-ttl-holder rating-wrap-ttl">
+										<strong class="tags-ttl">Set a rating </strong>
+										<input class="rating" value="3" data-step=1 data-size="lg" data-symbol="&#xe011;" data-glyphicon="false" data-rating-class="rating-gloobers" >
+									</div>
+								</div>
+								<div class="tags-box">
+									<div class="tags-ttl-holder">
+										<strong class="tags-ttl">Recomends this activity for</strong>
+										<i class="ttl-extra-info">Tap to select</i>
+									</div>
+									<div class="tags-list">
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
+									</div>
+								</div>
+								<div class="tags-box">
+									<div class="tags-ttl-holder">
+										<strong class="tags-ttl">Travelers passionate about</strong>
+										<i class="ttl-extra-info">Tap to select</i>
+									</div>
+									<div class="tags-list">
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla bla</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla bla</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="btns-row text-right">
+						<a href="#" class="btn btn-link">Cancel</a>
+						<a href="#" class="btn btn-default">SAVE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal window recommendation -->
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/36fe5b07c5.js"></script>
+
+	<script src="js/custom-file-input.js"></script>
+
+	<script src="js/moment.js"></script>
+	<script src="js/daterangepicker.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/popover-extra-placements.min.js"></script>
+	<script src="js/bootstrap-slider.min.js"></script>
+
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+	<script src="https://d3js.org/d3-ease.v1.min.js"></script>
+
+	<script src="js/modernizr.js"></script>
+
+
+	<script src="js/tether.min.js"></script>
+	<script src="js/drop.min.js"></script>
+
+	<script src="js/star-rating.min.js"></script>
+
+	<script src="js/scroll-menu.js"></script>
+
+	<script src="js/main.js"></script>
+
+	<!--<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>-->
+
+</body>
+</html>
