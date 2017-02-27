@@ -52,7 +52,7 @@ table {
   src: url("../fonts/icons/gloobers-icons.eot?#iefix") format("eot"), url("../fonts/icons/gloobers-icons.woff2") format("woff2"), url("../fonts/icons/gloobers-icons.woff") format("woff"), url("../fonts/icons/gloobers-icons.ttf") format("truetype"), url("../fonts/icons/gloobers-icons.svg#gloobers-icons") format("svg");
 }
 
-.gl-ico {
+.gl-ico, .slick-slider .slick-arrow {
   font-family: "gloobers-icons";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -931,7 +931,7 @@ fieldset[disabled] .btn {
   padding: 6px 10px 5px;
 }
 
-.btn .gl-ico {
+.btn .gl-ico, .btn .slick-slider .slick-arrow, .slick-slider .btn .slick-arrow {
   vertical-align: middle;
   font-size: 20px;
   line-height: inherit;
@@ -1144,7 +1144,7 @@ fieldset[disabled] .btn {
   min-width: 90px;
 }
 
-.btn-recommend .gl-ico {
+.btn-recommend .gl-ico, .btn-recommend .slick-slider .slick-arrow, .slick-slider .btn-recommend .slick-arrow {
   margin-left: 0;
   margin-right: 0;
 }
@@ -2935,7 +2935,7 @@ fieldset[disabled] .btn {
   transition: all 100ms ease-in;
 }
 
-.nav ul li a .gl-ico, .how-it-works-slider .slider-tabs ul li a .gl-ico {
+.nav ul li a .gl-ico, .how-it-works-slider .slider-tabs ul li a .gl-ico, .nav ul li a .slick-slider .slick-arrow, .slick-slider .nav ul li a .slick-arrow, .how-it-works-slider .slider-tabs ul li a .slick-slider .slick-arrow, .slick-slider .how-it-works-slider .slider-tabs ul li a .slick-arrow {
   vertical-align: middle;
   margin: 0 0 0 5px;
 }
@@ -2999,7 +2999,7 @@ fieldset[disabled] .btn {
   transition: all 100ms ease-in;
 }
 
-.object-type > a .gl-ico {
+.object-type > a .gl-ico, .object-type > a .slick-slider .slick-arrow, .slick-slider .object-type > a .slick-arrow {
   vertical-align: middle;
   margin: 0 0 0 5px;
 }
@@ -3216,7 +3216,7 @@ input.daterange-input {
   color: #1e97d8;
 }
 
-.operation-btns .gl-ico {
+.operation-btns .gl-ico, .operation-btns .slick-slider .slick-arrow, .slick-slider .operation-btns .slick-arrow {
   vertical-align: middle;
 }
 
@@ -3279,7 +3279,7 @@ input.daterange-input {
   display: inline-block;
 }
 
-.person-num .gl-ico {
+.person-num .gl-ico, .person-num .slick-slider .slick-arrow, .slick-slider .person-num .slick-arrow {
   vertical-align: middle;
   margin-top: -1px;
 }
@@ -3616,17 +3616,16 @@ input.daterange-input {
   margin: 0 0 30px;
 }
 
-.review-card .img-slider {
+.img-slider {
   width: 100%;
-  height: 148px;
 }
 
-.review-card .img-slider .item {
+.img-slider .item {
   display: block;
   position: relative;
 }
 
-.review-card .img-slider .item:before {
+.img-slider .item:before {
   display: block;
   content: "";
   width: 100%;
@@ -3634,12 +3633,55 @@ input.daterange-input {
   padding-top: calc( ( 148 / 580 ) * 100% - 0px);
 }
 
-.review-card .img-slider .item > img {
+.img-slider .item > img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.img-slider .item img {
+  object-fit: cover;
+}
+
+.slick-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 10;
+  text-indent: -9999px;
+  overflow: hidden;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  background: none !important;
+}
+
+.slick-slider .slick-arrow:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-indent: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.slick-slider .slick-arrow.slick-prev:before {
+  content: "\E003";
+}
+
+.slick-slider .slick-arrow.slick-next {
+  left: auto;
+  right: 0;
+}
+
+.slick-slider .slick-arrow.slick-next:before {
+  content: "\E004";
 }
 
 .visual {
@@ -3863,8 +3905,10 @@ input.daterange-input {
   width: 25%;
 }
 
-.main-slider .btn-prev .gl-ico,
-.main-slider .btn-next .gl-ico {
+.main-slider .btn-prev .gl-ico, .main-slider .btn-prev .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev .slick-arrow,
+.main-slider .btn-next .gl-ico,
+.main-slider .btn-next .slick-slider .slick-arrow, .slick-slider
+.main-slider .btn-next .slick-arrow {
   position: absolute;
   top: 50%;
   left: 40px;
@@ -3875,8 +3919,10 @@ input.daterange-input {
   transform: translateY(-50%) scale(1);
 }
 
-.main-slider .btn-prev:hover .gl-ico,
-.main-slider .btn-next:hover .gl-ico {
+.main-slider .btn-prev:hover .gl-ico, .main-slider .btn-prev:hover .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev:hover .slick-arrow,
+.main-slider .btn-next:hover .gl-ico,
+.main-slider .btn-next:hover .slick-slider .slick-arrow, .slick-slider
+.main-slider .btn-next:hover .slick-arrow {
   -webkit-transform: translateY(-50%) scale(1.5);
   -ms-transform: translateY(-50%) scale(1.5);
   transform: translateY(-50%) scale(1.5);
@@ -3887,7 +3933,7 @@ input.daterange-input {
   right: 0;
 }
 
-.main-slider .btn-next .gl-ico {
+.main-slider .btn-next .gl-ico, .main-slider .btn-next .slick-slider .slick-arrow, .slick-slider .main-slider .btn-next .slick-arrow {
   left: auto;
   right: 40px;
 }
@@ -3914,7 +3960,7 @@ input.daterange-input {
   position: relative;
 }
 
-.show-more-row .lnk-expand .gl-ico {
+.show-more-row .lnk-expand .gl-ico, .show-more-row .lnk-expand .slick-slider .slick-arrow, .slick-slider .show-more-row .lnk-expand .slick-arrow {
   color: #000;
   position: absolute;
   top: 50%;
@@ -3924,7 +3970,7 @@ input.daterange-input {
   transform: translateY(-50%) rotate(180deg);
 }
 
-.show-more-row .lnk-expand.collapsed .gl-ico {
+.show-more-row .lnk-expand.collapsed .gl-ico, .show-more-row .lnk-expand.collapsed .slick-slider .slick-arrow, .slick-slider .show-more-row .lnk-expand.collapsed .slick-arrow {
   -webkit-transform: translateY(-50%) rotate(0);
   -ms-transform: translateY(-50%) rotate(0);
   transform: translateY(-50%) rotate(0);
@@ -4171,7 +4217,7 @@ input.daterange-input {
   color: greenyellow;
 }
 
-.tags-wrap .tags-list .tag .gl-ico {
+.tags-wrap .tags-list .tag .gl-ico, .tags-wrap .tags-list .tag .slick-slider .slick-arrow, .slick-slider .tags-wrap .tags-list .tag .slick-arrow {
   margin: 0 7px 0 0;
 }
 
@@ -4911,7 +4957,7 @@ input.daterange-input {
   background: none;
 }
 
-.pagination li .gl-ico {
+.pagination li .gl-ico, .pagination li .slick-slider .slick-arrow, .slick-slider .pagination li .slick-arrow {
   vertical-align: middle;
   margin: -1px 0 0;
 }

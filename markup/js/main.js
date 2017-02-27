@@ -448,6 +448,7 @@ var locations = [
 ];
 
 var markers = [];
+var infoWindows = [];
 
 
 var map,
@@ -507,6 +508,47 @@ map = new google.maps.Map(document.getElementById('map'), {
 locations.forEach(function (element, index) {
 	var position = {lat: parseFloat(element.advisor_latitude), lng: parseFloat(element.advisor_longitude)};
 
+	var contentString = '<div class="review-card">'+
+						'<div class="img-slider">'+
+						'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+						'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+						'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+						'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+						'</div>'+
+						'<div class="card-ttl">'+
+						'<div  class="card-ttl-col">'+
+						'<strong class="ttl"><a href="#">Lorem Ipsum is simply </a></strong>'+
+						'<span class="sub-ttl">Long  location name</span>'+
+						'</div>'+
+						'<div class="card-rate-info">'+
+						'<div class="rating">'+
+						'<div class="stars">'+
+						'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
+						'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
+						'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
+						'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
+						'<span class="star full"><i class="fa fa-star" aria-hidden="true"></i></span>'+
+						'</div>'+
+						'</div>'+
+						'</div>'+
+						'</div>'+
+						'<br>'+
+						'<div class="content-holder">'+
+						'<strong class="ttl">Recomendation</strong>'+
+						'<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid, aspernatur aut consequatur consequuntur dolor, doloremque dolorum error, et eveniet expedita labore minima nam natus necessitatibus pariatur saepe sunt voluptates? </p>'+
+						'</div>'+
+						'</div>';
+
+	var infowindow = new google.maps.InfoWindow({
+		content: "holding ..."
+	});
+
+	infoWindows.push(infowindow);
+
+
+
+
+
 	var star = '<i class="fa fa-star"></i>';
 	var rating = Array(element.rate + 1).join(star);
 
@@ -519,19 +561,42 @@ locations.forEach(function (element, index) {
 
 	var markerLabel = '<div class="marker-h">'+ rating +'</div>';
 
+	var WIDTHOFONESTAR = 20.72;
+	var offsetAnchorX =  (( WIDTHOFONESTAR * element.rate) + 16)/2;
+
 	var marker = new MarkerWithLabel({
 		map: map,
 		animation: google.maps.Animation.DROP,
 		position: position,
 		icon: markerIcon,
 		labelContent: markerLabel,
-		labelAnchor: new google.maps.Point(60, 40),
+		labelAnchor: new google.maps.Point(offsetAnchorX, 40),
 		labelClass: "my-custom-class-for-label",
 		labelInBackground: true
 	});
 
+
+
+	marker.addListener('click', function() {
+		infowindow.setContent(contentString);
+
+		closeAllInfoWindows();
+		infowindow.open(map, marker);
+
+		$('.img-slider').slick({
+			slidesToShow: 1,
+			swipeToSlide: true
+		});
+	});
+
 	markers.push(marker);
 });
+
+function closeAllInfoWindows() {
+	for (var i=0; i<infoWindows.length; i++) {
+		infoWindows[i].close();
+	}
+}
 
 var bounds = new google.maps.LatLngBounds();
 //  Go through each...
@@ -543,9 +608,3 @@ map.fitBounds(bounds);
 
 /**/
 
-
-
-$('.img-slider').slick({
-	slidesToShow: 1,
-	swipeToSlide: true
-});

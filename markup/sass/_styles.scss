@@ -823,13 +823,61 @@ input.daterange-input {
 .review-card {
 	@extend .card;
 
-	.img-slider {
-		width: 100%;
-		height: 148px;
+}
+.img-slider {
+	width: 100%;
 
-		.item {
-			@include aspect-ratio(580, 148);
+	.item {
+		@include aspect-ratio(580, 148);
 
+		img {
+			object-fit: cover;
+		}
+	}
+}
+
+.slick-slider {
+
+
+	.slick-arrow {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+		z-index: 10;
+		text-indent: -9999px;
+		overflow: hidden;
+
+		padding: 0;
+		width: 40px;
+		height: 40px;
+
+		background: none !important;
+
+		@extend .gl-ico;
+
+		&:before {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			text-indent: 0;
+			transform: translate(-50%, -50%);
+		}
+
+		&.slick-prev {
+
+			&:before {
+				content: "\E003";
+			}
+		}
+
+		&.slick-next {
+			left: auto;
+			right: 0;
+
+			&:before {
+				content: "\E004";
+			}
 		}
 	}
 }
@@ -2132,20 +2180,6 @@ input.daterange-input {
 					font-size: 14px;
 				}
 			}
-		}
-	}
-}
-.slick-slider {
-
-	.slick-arrow {
-
-
-		.slick-prev {
-
-		}
-
-		.slick-next {
-
 		}
 	}
 }
