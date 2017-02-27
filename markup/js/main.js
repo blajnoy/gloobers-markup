@@ -378,55 +378,174 @@ $(document).ready(function() {
 });
 
 
-/* start map init */
-
-
-var map,
-	desktopScreen = Modernizr.mq( "only screen and (min-width:1024px)" ),
-	zoom = desktopScreen ? 10 : 8,
-	scrollable = draggable = !Modernizr.hiddenscroll || desktopScreen,
-	isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/)),
-	customStyles = [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}]
-
-function initMap() {
-	var myLatLng = {lat: 40.768525, lng: -74.075736};
-	map = new google.maps.Map(document.getElementById('map'), {
-		zoom: zoom,
-		center: myLatLng,
-		mapTypeId: google.maps.MapTypeId.ROADMAP,
-		scrollwheel: scrollable,
-		draggable: draggable,
-		styles: customStyles
-	});
-
-	var locations = [
-		{
-			title: 'point1',
-			position: {lat: 40.768525, lng: -74.075736},
-			label: '22'/*,
-			icon: {
-				url: isIE11 ? "images/ico-map-marker.png" : "images/ico-map-marker.png",//svg
-				scaledSize: new google.maps.Size(53, 69)
-			}*/
-
-		}
-	];
-
-	locations.forEach( function( element, index ){
-		var marker = new google.maps.Marker({
-			position: element.position,
-			map: map,
-			title: element.title,
-			icon: element.icon,
-			label: element.label
-		});
-	});
-
-}
-
-/* end map init */
-
 Select.init({
 	selector: '.sel'
 });
 
+
+
+/* */
+
+/*
+
+	var markerLatLng = new google.maps.LatLng(-33.91727341958453, 151.23348314155578);
+
+	var mapOptions = {
+		zoom: 16,
+		center: markerLatLng,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+	var markerIcon = {
+		url: 'images/transparent.png',
+		scaledSize: new google.maps.Size(0, 0),
+		origin: new google.maps.Point(0, 0),
+		anchor: new google.maps.Point(0, 0)
+	};
+
+	var markerLabel = '<div class="marker-h"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>';
+
+	var marker = new MarkerWithLabel({
+		map: map,
+		animation: google.maps.Animation.DROP,
+		position: markerLatLng,
+		icon: markerIcon,
+		labelContent: markerLabel,
+		labelAnchor: new google.maps.Point(60, 40),
+		labelClass: "my-custom-class-for-label",
+		labelInBackground: true
+	});
+*/
+
+/* */
+
+
+
+
+/**/
+
+var locations = [
+	{
+		"content": "bla bla bla",
+		'advisor_latitude': 49.768525,
+		"advisor_longitude": -70.075736,
+		"rate": 3
+	},
+	{
+		"content": "bla bla bla",
+		"advisor_latitude": 50.768525,
+		"advisor_longitude": -74.075736,
+		"rate": 1
+	},
+	{
+		"content": "bla bla bla",
+		"advisor_latitude": 51.768525,
+		"advisor_longitude": -76.075736,
+		"rate": 5
+	}
+];
+
+var markers = [];
+
+
+var map,
+	desktopScreen = Modernizr.mq("only screen and (min-width:1024px)"),
+	zoom = desktopScreen ? 10 : 8,
+	scrollable = draggable = !Modernizr.hiddenscroll || desktopScreen,
+	isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/)),
+	customStyles = [
+		{
+			"featureType": "administrative",
+			"elementType": "labels.text.fill",
+			"stylers": [{"color": "#444444"}]
+		}, {
+			"featureType": "landscape",
+			"elementType": "all",
+			"stylers": [{"color": "#f2f2f2"}]
+		}, {
+			"featureType": "poi",
+			"elementType": "all",
+			"stylers": [{"visibility": "off"}]
+		}, {
+			"featureType": "road",
+			"elementType": "all",
+			"stylers": [{"saturation": -100}, {"lightness": 45}]
+		}, {
+			"featureType": "road.highway",
+			"elementType": "all",
+			"stylers": [{"visibility": "simplified"}]
+		}, {
+			"featureType": "road.arterial",
+			"elementType": "labels.icon",
+			"stylers": [{"visibility": "off"}]
+		}, {
+			"featureType": "transit",
+			"elementType": "all",
+			"stylers": [{"visibility": "off"}]
+		}, {
+			"featureType": "water",
+			"elementType": "all",
+			"stylers": [{"color": "#46bcec"}, {"visibility": "on"}]
+		}];
+
+var myLatLng = {
+	lat: 50.768525, lng: -74.075736
+};
+
+map = new google.maps.Map(document.getElementById('map'), {
+	zoom: zoom,
+	center: myLatLng,
+	mapTypeId: google.maps.MapTypeId.ROADMAP,
+	scrollwheel: scrollable,
+	draggable: draggable,
+	styles: customStyles
+});
+
+
+locations.forEach(function (element, index) {
+	var position = {lat: parseFloat(element.advisor_latitude), lng: parseFloat(element.advisor_longitude)};
+
+	var star = '<i class="fa fa-star"></i>';
+	var rating = Array(element.rate + 1).join(star);
+
+	var markerIcon = {
+		url: 'images/transparent.png',
+		scaledSize: new google.maps.Size(0, 0),
+		origin: new google.maps.Point(0, 0),
+		anchor: new google.maps.Point(0, 0)
+	};
+
+	var markerLabel = '<div class="marker-h">'+ rating +'</div>';
+
+	var marker = new MarkerWithLabel({
+		map: map,
+		animation: google.maps.Animation.DROP,
+		position: position,
+		icon: markerIcon,
+		labelContent: markerLabel,
+		labelAnchor: new google.maps.Point(60, 40),
+		labelClass: "my-custom-class-for-label",
+		labelInBackground: true
+	});
+
+	markers.push(marker);
+});
+
+var bounds = new google.maps.LatLngBounds();
+//  Go through each...
+for (var i = 0; i < markers.length; i++) {
+	bounds.extend(markers[i].position);
+}
+//  Fit these bounds to the map
+map.fitBounds(bounds);
+
+/**/
+
+
+
+$('.img-slider').slick({
+	slidesToShow: 1,
+	swipeToSlide: true
+});

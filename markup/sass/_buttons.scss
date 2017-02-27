@@ -18,7 +18,7 @@
 	transition: all 100ms linear;
 
 	&:hover,
-	&:focus,
+	&:active,
 	&.focus {
 		color: darken(#60b5e2, 10%);
 		text-decoration: none;
@@ -35,17 +35,21 @@
 		cursor: default;
 		color: #c9c9c9;
 		border-color: #c9c9c9;
+		pointer-events: auto !important;
 	}
+
 	&-sm {
 		font-size: 12px;
 		padding: 6px 10px 5px;
 	}
+
 	.gl-ico {
 		vertical-align: middle;
 		font-size: 20px;
 		line-height: inherit;
 		margin: -1px 5px -1px 0;
 	}
+
 	.gl-ico-arrow-down,
 	.gl-ico-arrow-up,
 	.gl-ico-arrow-left,
