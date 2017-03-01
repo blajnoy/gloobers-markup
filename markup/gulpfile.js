@@ -50,6 +50,22 @@ gulp.task('sass:watch', function() {
 	gulp.watch('sass/**/*.scss', ['sass']);
 });
 
+gulp.task('coming', function() {
+	return gulp.src('sass/**/*.scss')
+		.pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
+		.pipe(autoprefixer({
+			browsers: ['last 20 versions'],
+			cascade: false
+		}))
+		//.pipe(cleanCSS(''))
+		.pipe(rename('coming-soon.css'))
+		.pipe(gulp.dest('css'));
+});
+
+gulp.task('coming:watch', function() {
+	gulp.watch('sass/**/*.scss', ['coming']);
+});
+
 gulp.task('sprite', function () {
 	var spriteData = gulp.src('assets/png/*.png').pipe(spritesmith({
 		imgPath: '../images/sprite.png',

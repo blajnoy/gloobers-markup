@@ -387,47 +387,68 @@ Select.init({
 /**/
 
 var contentString = '<div class="review-card">'+
-	'<div class="img-slider">'+
-	'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
-	'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
-	'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
-	'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
-	'</div>'+
-	'<div class="card-ttl">'+
-	'<div  class="card-ttl-col">'+
-	'<strong class="ttl"><a href="#">Lorem Ipsum is simply </a></strong>'+
-	'<span class="sub-ttl">Long  location name</span>'+
-	'</div>'+
-	'<div class="card-rate-info">'+
-	'<div class="rating">'+
-	'<div class="stars">'+
-	'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
-	'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
-	'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
-	'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
-	'<span class="star full"><i class="fa fa-star" aria-hidden="true"></i></span>'+
-	'</div>'+
-	'</div>'+
-	'</div>'+
-	'</div>'+
-	'<br>'+
-	'<div class="content-holder">'+
-	'<strong class="ttl">Recomendation</strong>'+
-	'<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid, aspernatur aut consequatur consequuntur dolor, doloremque dolorum error, et eveniet expedita labore minima nam natus necessitatibus pariatur saepe sunt voluptates? </p>'+
-	'</div>'+
-	'</div>';
+					'<div class="img-slider">'+
+					'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+					'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+					'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+					'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+					'</div>'+
+					'<div class="card-ttl">'+
+					'<div  class="card-ttl-col">'+
+					'<strong class="ttl"><a href="#">Lorem Ipsum is simply </a></strong>'+
+					'<span class="sub-ttl">Long  location name</span>'+
+					'</div>'+
+					'<div class="card-rate-info">'+
+					'<div class="rating">'+
+					'<div class="stars">'+
+					'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
+					'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
+					'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
+					'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
+					'<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>'+
+					'</div>'+
+					'</div>'+
+					'</div>'+
+					'</div>'+
+					'<br>'+
+					'<div class="content-holder">'+
+					'<strong class="ttl">Recomendation</strong>'+
+					'<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid, aspernatur aut consequatur consequuntur dolor, doloremque dolorum error, et eveniet expedita labore minima nam natus necessitatibus pariatur saepe sunt voluptates? </p>'+
+					'</div>'+
+					'</div>';
 
 
+
+var locations = [
+	{
+		"content": "bla bla bla",
+		'advisor_latitude': 49.768525,
+		"advisor_longitude": -70.075736,
+		"rate": 3
+	},
+	{
+		"content": "bla bla bla",
+		"advisor_latitude": 50.768525,
+		"advisor_longitude": -74.075736,
+		"rate": 1
+	},
+	{
+		"content": "bla bla bla",
+		"advisor_latitude": 51.768525,
+		"advisor_longitude": -76.075736,
+		"rate": 5
+	}
+];
+var map;
+
+var markers = [],
+	infoWindows = [];
 
 function initMap() {
 
-	var markers = [],
-		infoWindows = [],
-		map,
-		desktopScreen = Modernizr.mq("only screen and (min-width:1024px)"),
+	var desktopScreen = Modernizr.mq("only screen and (min-width:1024px)"),
 		zoom = desktopScreen ? 10 : 8,
 		scrollable = draggable = !Modernizr.hiddenscroll || desktopScreen,
-		isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/)),
 		myLatLng = {lat: 50.768525, lng: -74.075736},
 		customStyles = [
 			{
@@ -464,148 +485,96 @@ function initMap() {
 				"stylers": [{"color": "#46bcec"}, {"visibility": "on"}]
 			}];
 
-	/* map generation */
-	map = new google.maps.Map(document.getElementById('map'), {
-		zoom: zoom,
-		center: myLatLng,
-		mapTypeId: google.maps.MapTypeId.ROADMAP,
-		scrollwheel: scrollable,
-		draggable: draggable,
-		styles: customStyles
-	});
-
-
-	return map;
+	return new google.maps.Map(document.getElementById('map'), {
+					zoom: zoom,
+					center: myLatLng,
+					mapTypeId: google.maps.MapTypeId.ROADMAP,
+					scrollwheel: scrollable,
+					draggable: draggable,
+					styles: customStyles
+				});
 }
 
 
+function getRatingMarker(element) {
+
+	var markerIcon = {
+		url: 'images/transparent.png',
+		scaledSize: new google.maps.Size(0, 0),
+		origin: new google.maps.Point(0, 0),
+		anchor: new google.maps.Point(0, 0)
+	};
+
+	var position = {
+		lat: parseFloat(element.advisor_latitude),
+		lng: parseFloat(element.advisor_longitude)
+	};
+
+	var star = '<i class="fa fa-star"></i>',
+		rating = Array(element.rate + 1).join(star),
+		markerLabel = '<div class="marker-h">'+ rating +'</div>';
+
+	var STARWIDTH = 20.72;
+
+	var offsetAnchorX =  (( STARWIDTH * element.rate) + 16)/2;
+
+	var marker = new MarkerWithLabel({
+		map: map,
+		animation: google.maps.Animation.DROP,
+		position: position,
+		icon: markerIcon,
+		labelContent: markerLabel,
+		labelAnchor: new google.maps.Point(offsetAnchorX, 40),
+		labelClass: "my-custom-class-for-label",
+		labelInBackground: true
+	});
+
+	return marker;
+
+};
 
 
-(re)generate objects on map
-
-(re)bounds
 
 
+map = initMap();
+initMarkers(locations, getRatingMarker);
+
+
+function getAdvisorMarker(element) {
+
+}
+
+function getHotelMarker(element) {
+
+}
+
+
+function initMarkers(objects, markerTemplate) {
+
+	var marker,
+		infowindow;
+
+	objects.forEach(function (element) {
 
 
 
-
-
-
-
-
-
-
-
-
-function generationObjectsOnMap(objects, markerTemplate, infoWindowTemplate) {
-	var locations = [
-		{
-			"content": "bla bla bla",
-			'advisor_latitude': 49.768525,
-			"advisor_longitude": -70.075736,
-			"rate": 3
-		},
-		{
-			"content": "bla bla bla",
-			"advisor_latitude": 50.768525,
-			"advisor_longitude": -74.075736,
-			"rate": 1
-		},
-		{
-			"content": "bla bla bla",
-			"advisor_latitude": 51.768525,
-			"advisor_longitude": -76.075736,
-			"rate": 5
-		}
-	];
-
-	var markers = [],
-		infoWindows = [],
-		map,
-		desktopScreen = Modernizr.mq("only screen and (min-width:1024px)"),
-		zoom = desktopScreen ? 10 : 8,
-		scrollable = draggable = !Modernizr.hiddenscroll || desktopScreen,
-		isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/)),
-		myLatLng = {lat: 50.768525, lng: -74.075736},
-		customStyles = [
-		{
-			"featureType": "administrative",
-			"elementType": "labels.text.fill",
-			"stylers": [{"color": "#444444"}]
-		}, {
-			"featureType": "landscape",
-			"elementType": "all",
-			"stylers": [{"color": "#f2f2f2"}]
-		}, {
-			"featureType": "poi",
-			"elementType": "all",
-			"stylers": [{"visibility": "off"}]
-		}, {
-			"featureType": "road",
-			"elementType": "all",
-			"stylers": [{"saturation": -100}, {"lightness": 45}]
-		}, {
-			"featureType": "road.highway",
-			"elementType": "all",
-			"stylers": [{"visibility": "simplified"}]
-		}, {
-			"featureType": "road.arterial",
-			"elementType": "labels.icon",
-			"stylers": [{"visibility": "off"}]
-		}, {
-			"featureType": "transit",
-			"elementType": "all",
-			"stylers": [{"visibility": "off"}]
-		}, {
-			"featureType": "water",
-			"elementType": "all",
-			"stylers": [{"color": "#46bcec"}, {"visibility": "on"}]
-		}],
-
-	/* generation objects on map */
-
-
-	objects.forEach(function (element, index) {
-		var position = {lat: parseFloat(element.advisor_latitude), lng: parseFloat(element.advisor_longitude)};
-
-		var infowindow = new google.maps.InfoWindow({
+		infowindow = new google.maps.InfoWindow({
 			content: "holding ..."
 		});
 
 		infoWindows.push(infowindow);
 
-		var star = '<i class="fa fa-star"></i>';
-		var rating = Array(element.rate + 1).join(star);
+		marker = markerTemplate(element);
 
-		var markerIcon = {
-			url: 'images/transparent.png',
-			scaledSize: new google.maps.Size(0, 0),
-			origin: new google.maps.Point(0, 0),
-			anchor: new google.maps.Point(0, 0)
-		};
 
-		var markerLabel = '<div class="marker-h">'+ rating +'</div>';
-
-		var WIDTHOFONESTAR = 20.72;
-		var offsetAnchorX =  (( 20.72 * element.rate) + 16)/2;
-
-		var marker = new MarkerWithLabel({
-			map: map,
-			animation: google.maps.Animation.DROP,
-			position: position,
-			icon: markerIcon,
-			labelContent: markerTemplate,
-			labelAnchor: new google.maps.Point(offsetAnchorX, 40),
-			labelClass: "my-custom-class-for-label",
-			labelInBackground: true
-		});
 
 		marker.addListener('click', function() {
-			infowindow.setContent(infoWindowTemplate);
 
-			closeAllInfoWindows();
-			infowindow.open(map, marker);
+			infowindow.setContent(contentString);
+
+			closeAllInfoWindows(infoWindows);
+
+			infowindow.open(map, this);
 
 			$('.img-slider').slick({
 				slidesToShow: 1,
@@ -615,13 +584,11 @@ function generationObjectsOnMap(objects, markerTemplate, infoWindowTemplate) {
 
 		markers.push(marker);
 	});
-
-
 }
 
 
-function closeAllInfoWindows() {
-	for (var i=0; i<infoWindows.length; i++) {
+function closeAllInfoWindows(infoWindows) {
+	for (var i=0; i < infoWindows.length; i++) {
 		infoWindows[i].close();
 	}
 }

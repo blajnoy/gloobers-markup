@@ -2,6 +2,7 @@
 	@include clearfix();
 	background-size: cover;
 	position: relative;
+	z-index: 99;
 
 	.header-holder {
 		padding-top: 14px;
@@ -12,7 +13,7 @@
 
 		.hp & {
 			background: none;
-			border: 0;
+			box-shadow: none;
 			padding-top: 28px;
 			padding-bottom: 0;
 		}
@@ -619,7 +620,7 @@ input.daterange-input {
 	z-index: 2;
 }
 .main {
-	padding: 2px 0 0;
+	//padding: 2px 0 0;
 }
 .recommendations {
 	display: flex;
@@ -883,7 +884,7 @@ input.daterange-input {
 }
 .visual {
 	width: 100%;
-	margin: -2px 0 0;
+	//margin: -2px 0 0;
 	position: relative;
 
 	img {
@@ -1043,13 +1044,12 @@ input.daterange-input {
 		.star {
 			color: #1e97d8;
 
-			&.full {
+			&.empty {
 				color : #bbe0f3;
 			}
 		}
 	}
 }
-
 
 .result-list {
 
@@ -1078,8 +1078,10 @@ input.daterange-input {
 		line-height: 39px;
 		height: 100%;
 		width: 25%;
+		transform: translateY(0);
 
 		.gl-ico {
+			text-indent: 0;
 			position: absolute;
 			top: 50%;
 			left: 40px;

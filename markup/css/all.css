@@ -2612,6 +2612,7 @@ fieldset[disabled] .btn {
 .header {
   background-size: cover;
   position: relative;
+  z-index: 99;
 }
 
 .header:after {
@@ -2636,7 +2637,8 @@ fieldset[disabled] .btn {
 
 .hp .header .header-holder {
   background: none;
-  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
   padding-top: 28px;
   padding-bottom: 0;
 }
@@ -3333,10 +3335,6 @@ input.daterange-input {
   z-index: 2;
 }
 
-.main {
-  padding: 2px 0 0;
-}
-
 .recommendations {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3686,7 +3684,6 @@ input.daterange-input {
 
 .visual {
   width: 100%;
-  margin: -2px 0 0;
   position: relative;
 }
 
@@ -3879,7 +3876,7 @@ input.daterange-input {
   color: #1e97d8;
 }
 
-.rating .stars .star.full {
+.rating .stars .star.empty {
   color: #bbe0f3;
 }
 
@@ -3903,12 +3900,16 @@ input.daterange-input {
   line-height: 39px;
   height: 100%;
   width: 25%;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
 }
 
 .main-slider .btn-prev .gl-ico, .main-slider .btn-prev .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev .slick-arrow,
 .main-slider .btn-next .gl-ico,
 .main-slider .btn-next .slick-slider .slick-arrow, .slick-slider
 .main-slider .btn-next .slick-arrow {
+  text-indent: 0;
   position: absolute;
   top: 50%;
   left: 40px;
