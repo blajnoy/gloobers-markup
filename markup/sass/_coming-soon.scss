@@ -1,0 +1,98 @@
+html, body {
+	height: 100%;
+}
+body {
+	background: url(../images/bg-coming-soon.jpg) 50% 0 no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100%;
+
+	@include breakpoint(769px) {
+		background-position: 100% 0;
+	}
+}
+.logo {
+	margin: -3vh 0 3vh;
+	display: inline-block;
+	vertical-align: top;
+
+	img {
+		display: block;
+	}
+}
+.wrapper {
+	max-width: 1750px;
+	height: 100vh;
+	padding: 10vh 25px;
+	margin: auto;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.intro-holder {
+
+}
+h1 {
+	font-size: 35px;
+	line-height: 38px;
+	margin: 0 0 10px;
+	color: #fff;
+
+	@include breakpoint(769px) {
+		font-size: 70px;
+		line-height: 73px;
+	}
+}
+h2 {
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: normal;
+	margin: 0 0 10vh;
+	color: #fff;
+
+	@include breakpoint(769px) {
+		font-size: 30px;
+		line-height: 33px;
+	}
+}
+.subscribe-form {
+	label {
+		display: block;
+		font-size: 17px;
+		line-height: 21px;
+		margin: 0 0 2.5vh;
+		font-weight: bold;
+		color: #fff;
+
+		@include breakpoint(769px) {
+			font-size: 18px;
+			line-height: 21px;
+		}
+	}
+}
+.search-group {
+	display: flex;
+	max-width: 500px;
+
+	input[type="text"] {
+		border-radius: 10px 0 0 10px;
+		border-right-width: 0;
+		border-color: #fff;
+		color: #fff;
+		font-size: 18px;
+
+		@include input-placeholder(#fff);
+
+	}
+
+	.btn {
+		border-radius: 0 10px 10px 0;
+		color: $secondTextColor;
+		padding: 17px 15px;
+
+		@include breakpoint(769px) {
+			padding: 17px 34px;
+		}
+	}
+}
