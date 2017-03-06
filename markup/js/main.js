@@ -387,62 +387,92 @@ Select.init({
 /**/
 
 var contentString = '<div class="review-card">'+
-					'<div class="img-slider">'+
-					'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
-					'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
-					'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
-					'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
-					'</div>'+
-					'<div class="card-ttl">'+
-					'<div  class="card-ttl-col">'+
-					'<strong class="ttl"><a href="#">Lorem Ipsum is simply </a></strong>'+
-					'<span class="sub-ttl">Long  location name</span>'+
-					'</div>'+
-					'<div class="card-rate-info">'+
-					'<div class="rating">'+
-					'<div class="stars">'+
-					'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
-					'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
-					'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
-					'<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>'+
-					'<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>'+
-					'</div>'+
-					'</div>'+
-					'</div>'+
-					'</div>'+
-					'<br>'+
-					'<div class="content-holder">'+
-					'<strong class="ttl">Recomendation</strong>'+
-					'<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid, aspernatur aut consequatur consequuntur dolor, doloremque dolorum error, et eveniet expedita labore minima nam natus necessitatibus pariatur saepe sunt voluptates? </p>'+
-					'</div>'+
+						                                                                                                           '<div class="img-slider-wrap">'+
+							'<div class="img-slider">'+
+								'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+								'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+								'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+								'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
+							'</div>'+
+						'</div>'+
+						'<div class="card-ttl">'+
+							'<div  class="card-ttl-col">'+
+								'<strong class="ttl"><a href="#">Lorem Ipsum is simply </a></strong>'+
+								'<span class="sub-ttl">Long  location name</span>'+
+							'</div>'+
+							'<div class="card-rate-wrap">'+
+								'<div class="recommend-avatar">'+
+									'<img src="images/photo01.jpg" alt="">'+
+								'</div>'+
+								'<div class="card-rate-info">'+
+									'<div class="rating">'+
+										'<div class="stars">'+
+											'<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>'+
+											'<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>'+
+											'<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>'+
+											'<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>'+
+											'<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>'+
+										'</div>'+
+									'</div>'+
+								'</div>'+
+							'</div>'+
+						'</div>'+
+						'<div class="recommendation-types">'+
+							'<div class="col">'+
+								'<strong class="ttl">Username recommends this activity for:</strong>'+
+								'<div class="tags">Golf, Music, Scuba diving, Road trip </div>'+
+							'</div>'+
+							'<div class="col">'+
+								'<strong class="ttl">Type of trip</strong>'+
+								'<div class="tags">Trip with a friend</div>'+
+							'</div>'+
+						'</div>'+
+						'<div class="content-holder">'+
+							'<strong class="ttl">Recommendation</strong>'+
+							'<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustrys standard dummy text ever since the unknown printer too a galley of type and scrambled Lorem sum is simply dummy text of the printing and. typesetting industry. Lorem Ipsum has been the industry standard dummy. Text ever since the unknown printer took a galley of type and scrambled Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the unknown printer took a galley of type and scrambled. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>'+
+						'</div>'+
 					'</div>';
 
-
+//contentString = '<div class="card card-advisor"><div class="img-h"><span class="img-wrap"><img src="images/bg-main.jpg" alt="image"></span><span class="photo-adv"><img src="images/photo01-big.jpg" alt="avatar"></span><div class="categories-adv"><span class="category"></span></div></div><div class="card-ttl"><div  class="card-ttl-col"><strong class="ttl"><a href="#">Lorem Ipsum is simply </a></strong><span class="sub-ttl">Long  location name</span></div><div class="card-rate-info"><div class="rating"><strong class="rating-ttl">7</strong><div class="stars"><span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span><span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span><span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span><span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span><span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span></div></div><em class="recommend"><strong>25</strong> Recommendations</em></div></div><footer><span class="adv-desc-info">21 years, <br>IT engeneer in Deftsoft</span><a href="#" class="btn">Recommendations on map</a></footer><div class="more-info"><div class="show-more-row"><a class="lnk-expand collapsed" href="#adv-drop100" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample" data-lnk-expand-text-show="Show interests (25)" data-lnk-expand-text-hide="Hide interests"><i class="gl-ico gl-ico-arrow-down"></i></a></div><div class="more-drop collapse" id="adv-drop100"><div class="more-drop-area"><div class="interests-tags">Golf, Music, Scuba diving, Road trip</div></div></div></div></div>';
 
 var locations = [
 	{
 		"content": "bla bla bla",
 		'advisor_latitude': 49.768525,
 		"advisor_longitude": -70.075736,
-		"rate": 3
+		"rate": 3,
+		"currency": "$",
+		"price": 88,
+		"reviews": 8
 	},
 	{
 		"content": "bla bla bla",
 		"advisor_latitude": 50.768525,
 		"advisor_longitude": -74.075736,
-		"rate": 1
+		"rate": 1,
+		"currency": "$",
+		"price": 8,
+		"reviews": 1
 	},
 	{
 		"content": "bla bla bla",
 		"advisor_latitude": 51.768525,
 		"advisor_longitude": -76.075736,
-		"rate": 5
+		"rate": 5,
+		"currency": "$",
+		"price": 104,
+		"reviews": 20
 	}
 ];
 var map;
 
 var markers = [],
 	infoWindows = [];
+
+map = initMap();
+initMarkers(locations, getRatingMarker);
+
+
 
 function initMap() {
 
@@ -495,7 +525,6 @@ function initMap() {
 				});
 }
 
-
 function getRatingMarker(element) {
 
 	var markerIcon = {
@@ -510,13 +539,15 @@ function getRatingMarker(element) {
 		lng: parseFloat(element.advisor_longitude)
 	};
 
-	var star = '<i class="fa fa-star"></i>',
-		rating = Array(element.rate + 1).join(star),
-		markerLabel = '<div class="marker-h">'+ rating +'</div>';
+	var star = '<i class="gl-ico gl-ico-star"></i>',
+		markerText = Array(element.rate + 1).join(star),
+		markerLabel = '<div class="marker-h">'+ markerText +'</div>';
 
-	var STARWIDTH = 20.72;
+	$('.calcMarkerWidthElm').find('.custom-marker').remove();
 
-	var offsetAnchorX =  (( STARWIDTH * element.rate) + 16)/2;
+	var calcWidthElm = '<div class="custom-marker rating-marker">'+ markerLabel +'</div>';
+
+	var offsetAnchorX = ($('.calcMarkerWidthElm').append(calcWidthElm).width())/2;
 
 	var marker = new MarkerWithLabel({
 		map: map,
@@ -525,7 +556,83 @@ function getRatingMarker(element) {
 		icon: markerIcon,
 		labelContent: markerLabel,
 		labelAnchor: new google.maps.Point(offsetAnchorX, 40),
-		labelClass: "my-custom-class-for-label",
+		labelClass: "custom-marker rating-marker",
+		labelInBackground: true
+	});
+
+	return marker;
+
+};
+
+function getHotelMarker(element) {
+
+	var markerIcon = {
+		url: 'images/transparent.png',
+		scaledSize: new google.maps.Size(0, 0),
+		origin: new google.maps.Point(0, 0),
+		anchor: new google.maps.Point(0, 0)
+	};
+
+	var position = {
+		lat: parseFloat(element.advisor_latitude),
+		lng: parseFloat(element.advisor_longitude)
+	};
+
+	var markerText = element.currency + element.price,
+		markerLabel = '<div class="marker-h">'+ markerText +'</div>';
+
+	$('.calcMarkerWidthElm').find('.custom-marker').remove();
+
+	var calcWidthElm = '<div class="custom-marker">'+ markerLabel +'</div>';
+
+	var offsetAnchorX = ($('.calcMarkerWidthElm').append(calcWidthElm).width())/2;
+
+	var marker = new MarkerWithLabel({
+		map: map,
+		animation: google.maps.Animation.DROP,
+		position: position,
+		icon: markerIcon,
+		labelContent: markerLabel,
+		labelAnchor: new google.maps.Point(offsetAnchorX, 40),
+		labelClass: "custom-marker",
+		labelInBackground: true
+	});
+
+	return marker;
+
+};
+
+function getAdvisorMarker(element) {
+
+	var markerIcon = {
+		url: 'images/transparent.png',
+		scaledSize: new google.maps.Size(0, 0),
+		origin: new google.maps.Point(0, 0),
+		anchor: new google.maps.Point(0, 0)
+	};
+
+	var position = {
+		lat: parseFloat(element.advisor_latitude),
+		lng: parseFloat(element.advisor_longitude)
+	};
+
+	var markerText = '<i class="gl-ico gl-ico-user"></i>' + element.reviews,
+		markerLabel = '<div class="marker-h">'+ markerText +'</div>';
+
+	$('.calcMarkerWidthElm').find('.custom-marker').remove();
+
+	var calcWidthElm = '<div class="custom-marker">'+ markerLabel +'</div>';
+
+	var offsetAnchorX = ($('.calcMarkerWidthElm').append(calcWidthElm).width())/2;
+
+	var marker = new MarkerWithLabel({
+		map: map,
+		animation: google.maps.Animation.DROP,
+		position: position,
+		icon: markerIcon,
+		labelContent: markerLabel,
+		labelAnchor: new google.maps.Point(offsetAnchorX, 40),
+		labelClass: "custom-marker advisor-marker",
 		labelInBackground: true
 	});
 
@@ -535,24 +642,12 @@ function getRatingMarker(element) {
 
 
 
-
-map = initMap();
-initMarkers(locations, getRatingMarker);
-
-
-function getAdvisorMarker(element) {
-
-}
-
-function getHotelMarker(element) {
-
-}
-
-
 function initMarkers(objects, markerTemplate) {
 
 	var marker,
 		infowindow;
+
+	$('body').append('<div class="calcMarkerWidthElm"></div>');
 
 	objects.forEach(function (element) {
 
@@ -566,19 +661,66 @@ function initMarkers(objects, markerTemplate) {
 
 		marker = markerTemplate(element);
 
-
-
 		marker.addListener('click', function() {
 
 			infowindow.setContent(contentString);
+
+			google.maps.event.addListener(infowindow, 'domready', function() {
+
+				// Reference to the DIV that wraps the bottom of infowindow
+				var iwOuter = $('.gm-style-iw');
+				var iwBackground = iwOuter.prev();
+				// Removes background shadow DIV
+				iwBackground.children(':nth-child(1)').css({'display' : 'none'});
+
+				// Removes background shadow DIV
+				iwBackground.children(':nth-child(2)').css({'display' : 'none'});
+
+				// Removes white background DIV
+				iwBackground.children(':nth-child(4)').css({'display' : 'none'});
+
+				iwBackground.children(':nth-child(3)').css({
+					marginTop: '-9px'
+				});
+
+				iwBackground.children(':nth-child(3)').children(':nth-child(1)').css({
+					width: '20px',
+					height: '20px',
+					left: '-11px'
+				});
+				iwBackground.children(':nth-child(3)').children(':nth-child(2)').css({
+					width: '20px',
+					height: '20px',
+					left: '9px'
+				});
+
+
+				iwBackground.children(':nth-child(3)').children(':nth-child(1)').children().css({'left': 0, 'width': '100%', 'height': '100%', 'box-shadow': 'none', 'z-index' : '1', opacity: '1', transform: 'skewX(45deg)'});
+				iwBackground.children(':nth-child(3)').children(':nth-child(2)').children().css({'left': 0, 'width': '100%', 'height': '100%', 'box-shadow': 'none', 'z-index' : '1', opacity: '1', transform: 'skewX(-45deg)'});
+
+				// Reference to the div that groups the close button elements.
+				var iwCloseBtn = iwOuter.next();
+
+				// Apply the desired effect to the close button
+				//iwCloseBtn.css({opacity: '1', right: '38px', top: '3px', border: '7px solid #48b5e9', 'border-radius': '13px', 'box-shadow': '0 0 5px #3990B9'});
+
+				// If the content of infowindow not exceed the set maximum height, then the gradient is removed.
+				$('.iw-bottom-gradient').css({display: 'none'});
+
+				// The API automatically applies 0.7 opacity to the button after the mouseout event. This function reverses this event to the desired value.
+				iwCloseBtn.mouseout(function(){
+					$(this).css({opacity: '1'});
+				});
+			});
 
 			closeAllInfoWindows(infoWindows);
 
 			infowindow.open(map, this);
 
-			$('.img-slider').slick({
+			$('.map').find('.img-slider').slick({
 				slidesToShow: 1,
-				swipeToSlide: true
+				swipeToSlide: true,
+				fade: true
 			});
 		});
 
