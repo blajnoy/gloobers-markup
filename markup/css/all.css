@@ -86,64 +86,100 @@ table {
   content: "\E005";
 }
 
-.gl-ico-calendar:before {
+.gl-ico-briefcase:before {
   content: "\E006";
 }
 
-.gl-ico-check:before {
+.gl-ico-calendar:before {
   content: "\E007";
 }
 
-.gl-ico-facebook:before {
+.gl-ico-check:before {
   content: "\E008";
 }
 
-.gl-ico-google-plus:before {
+.gl-ico-facebook:before {
   content: "\E009";
 }
 
-.gl-ico-instagram:before {
+.gl-ico-family:before {
   content: "\E00A";
 }
 
-.gl-ico-like:before {
+.gl-ico-google-plus:before {
   content: "\E00B";
 }
 
-.gl-ico-logo:before {
+.gl-ico-heart:before {
   content: "\E00C";
 }
 
-.gl-ico-mail:before {
+.gl-ico-home-user:before {
   content: "\E00D";
 }
 
-.gl-ico-minus:before {
+.gl-ico-home:before {
   content: "\E00E";
 }
 
-.gl-ico-plus:before {
+.gl-ico-instagram:before {
   content: "\E00F";
 }
 
-.gl-ico-push-pin:before {
+.gl-ico-like:before {
   content: "\E010";
 }
 
-.gl-ico-star:before {
+.gl-ico-logo:before {
   content: "\E011";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-mail:before {
   content: "\E012";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-marker:before {
   content: "\E013";
 }
 
-.gl-ico-user:before {
+.gl-ico-minus:before {
   content: "\E014";
+}
+
+.gl-ico-plus:before {
+  content: "\E015";
+}
+
+.gl-ico-push-pin:before {
+  content: "\E016";
+}
+
+.gl-ico-school-book-bag:before {
+  content: "\E017";
+}
+
+.gl-ico-star:before {
+  content: "\E018";
+}
+
+.gl-ico-street-map:before {
+  content: "\E019";
+}
+
+.gl-ico-twitter:before {
+  content: "\E01A";
+}
+
+.gl-ico-user:before {
+  content: "\E01B";
+}
+
+.gl-ico-users-group:before {
+  content: "\E01C";
+}
+
+.gl-ico-users:before {
+  content: "\E01D";
 }
 
 body {
@@ -3827,13 +3863,26 @@ input.daterange-input {
   position: relative;
 }
 
-.visual img {
+.visual .visual-img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.profile-aside-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.profile-aside-area .profile-aside {
+  pointer-events: all;
 }
 
 .aspect {
@@ -3855,6 +3904,30 @@ input.daterange-input {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.profile-aside {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.profile-aside .profile-avatar {
+  margin: -16px -16px 25px;
+}
+
+.profile-aside .booking-btns {
+  padding: 15px 0;
+}
+
+.profile-aside h2 {
+  font-size: 30px;
+  line-height: 33px;
+  margin: 0 0 10px;
 }
 
 .profile-avatar img {
@@ -6356,4 +6429,8 @@ input.daterange-input {
 
 .gm-style .card, .gm-style .review-card {
   min-width: 450px;
+}
+
+.gmnoprint svg {
+  fill: #fdc000;
 }

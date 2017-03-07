@@ -44,50 +44,77 @@
 	@if $filename == arrow-up {
 		$char: \E005;
 	}
-	@if $filename == calendar {
+	@if $filename == briefcase {
 		$char: \E006;
 	}
-	@if $filename == check {
+	@if $filename == calendar {
 		$char: \E007;
 	}
-	@if $filename == facebook {
+	@if $filename == check {
 		$char: \E008;
 	}
-	@if $filename == google-plus {
+	@if $filename == facebook {
 		$char: \E009;
 	}
-	@if $filename == instagram {
+	@if $filename == family {
 		$char: \E00A;
 	}
-	@if $filename == like {
+	@if $filename == google-plus {
 		$char: \E00B;
 	}
-	@if $filename == logo {
+	@if $filename == heart {
 		$char: \E00C;
 	}
-	@if $filename == mail {
+	@if $filename == home-user {
 		$char: \E00D;
 	}
-	@if $filename == minus {
+	@if $filename == home {
 		$char: \E00E;
 	}
-	@if $filename == plus {
+	@if $filename == instagram {
 		$char: \E00F;
 	}
-	@if $filename == push-pin {
+	@if $filename == like {
 		$char: \E010;
 	}
-	@if $filename == star {
+	@if $filename == logo {
 		$char: \E011;
 	}
-	@if $filename == street-map {
+	@if $filename == mail {
 		$char: \E012;
 	}
-	@if $filename == twitter {
+	@if $filename == marker {
 		$char: \E013;
 	}
-	@if $filename == user {
+	@if $filename == minus {
 		$char: \E014;
+	}
+	@if $filename == plus {
+		$char: \E015;
+	}
+	@if $filename == push-pin {
+		$char: \E016;
+	}
+	@if $filename == school-book-bag {
+		$char: \E017;
+	}
+	@if $filename == star {
+		$char: \E018;
+	}
+	@if $filename == street-map {
+		$char: \E019;
+	}
+	@if $filename == twitter {
+		$char: \E01A;
+	}
+	@if $filename == user {
+		$char: \E01B;
+	}
+	@if $filename == users-group {
+		$char: \E01C;
+	}
+	@if $filename == users {
+		$char: \E01D;
 	}
 
 	@return $char;
@@ -122,6 +149,9 @@
 .gl-ico-arrow-up {
 	@include gl-ico(arrow-up);
 }
+.gl-ico-briefcase {
+	@include gl-ico(briefcase);
+}
 .gl-ico-calendar {
 	@include gl-ico(calendar);
 }
@@ -131,8 +161,20 @@
 .gl-ico-facebook {
 	@include gl-ico(facebook);
 }
+.gl-ico-family {
+	@include gl-ico(family);
+}
 .gl-ico-google-plus {
 	@include gl-ico(google-plus);
+}
+.gl-ico-heart {
+	@include gl-ico(heart);
+}
+.gl-ico-home-user {
+	@include gl-ico(home-user);
+}
+.gl-ico-home {
+	@include gl-ico(home);
 }
 .gl-ico-instagram {
 	@include gl-ico(instagram);
@@ -146,6 +188,9 @@
 .gl-ico-mail {
 	@include gl-ico(mail);
 }
+.gl-ico-marker {
+	@include gl-ico(marker);
+}
 .gl-ico-minus {
 	@include gl-ico(minus);
 }
@@ -154,6 +199,9 @@
 }
 .gl-ico-push-pin {
 	@include gl-ico(push-pin);
+}
+.gl-ico-school-book-bag {
+	@include gl-ico(school-book-bag);
 }
 .gl-ico-star {
 	@include gl-ico(star);
@@ -166,4 +214,10 @@
 }
 .gl-ico-user {
 	@include gl-ico(user);
+}
+.gl-ico-users-group {
+	@include gl-ico(users-group);
+}
+.gl-ico-users {
+	@include gl-ico(users);
 }

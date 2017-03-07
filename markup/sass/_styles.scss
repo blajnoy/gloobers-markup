@@ -383,7 +383,6 @@
 		text-shadow: 0.276px 0.961px 2px rgba(60, 60, 60, 0.44);
 		margin: 0 0 30px;
 	}
-
 }
 .search-tabs {
 	display: inline-block;
@@ -989,7 +988,7 @@ input.daterange-input {
 	//margin: -2px 0 0;
 	position: relative;
 
-	img {
+	.visual-img {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -998,9 +997,50 @@ input.daterange-input {
 		object-fit: cover;
 	}
 }
+.profile-aside-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	pointer-events: none;
+
+	.profile-aside {
+		pointer-events: all;
+	}
+}
 .aspect {
 	@include aspect-ratio(370, 370);
 }
+.profile-aside {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 0 0 10px 10px;
+	padding: 15px;
+	font-size: 18px;
+	line-height: 21px;
+
+	.profile-avatar {
+		margin: -16px -16px 25px;
+	}
+
+	.booking-btns {
+		padding: 15px 0;
+	}
+
+	h2 {
+		font-size: 30px;
+		line-height: 33px;
+		margin: 0 0 10px;
+
+	}
+
+	.sub-ttl {
+
+	}
+
+}
+
 .profile-avatar {
 	img {
 		display: block;
@@ -3144,4 +3184,10 @@ input.daterange-input {
 }
 .gm-style .card {
 	min-width: 450px;
+}
+.gmnoprint {
+
+	svg {
+		fill: #fdc000;
+	}
 }

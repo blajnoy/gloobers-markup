@@ -67,6 +67,21 @@ $(document).ready(function() {
 			});
 		}
 
+		if ( $("#profile-tether-elm").length && $("#profile-tether-target").length ) {
+			new Tether({
+				element: '#profile-tether-elm',
+				target: '#profile-tether-target',
+				attachment: 'top center',
+				targetAttachment: 'top center',
+				constraints: [
+					{
+						to: 'window',
+						pin: ['top']
+					}
+				]
+			});
+		}
+
 	}).call(this);
 
 	(function() {
@@ -443,7 +458,21 @@ var locations = [
 		"rate": 3,
 		"currency": "$",
 		"price": 88,
-		"reviews": 8
+		"reviews": 8,
+		"type_of_trip": 1
+		/*
+		 	**** types of trip: ****
+
+		 	#1: I live there
+		 	#2: I've been living there
+		 	#3: I've been there in a business trip
+		 	#4: I've been there in a romantic trip
+		 	#5: I've been there with a group
+		 	#6: I've been there alone
+		 	#7: I've been there with the friend
+		 	#8: I've been in a family trip
+
+		*/
 	},
 	{
 		"content": "bla bla bla",
@@ -452,7 +481,8 @@ var locations = [
 		"rate": 1,
 		"currency": "$",
 		"price": 8,
-		"reviews": 1
+		"reviews": 1,
+		"type_of_trip": 2
 	},
 	{
 		"content": "bla bla bla",
@@ -461,7 +491,8 @@ var locations = [
 		"rate": 5,
 		"currency": "$",
 		"price": 104,
-		"reviews": 20
+		"reviews": 20,
+		"type_of_trip": 3
 	}
 ];
 var map;
@@ -470,7 +501,7 @@ var markers = [],
 	infoWindows = [];
 
 map = initMap();
-initMarkers(locations, getRatingMarker);
+initMarkers(locations, getDefaultMarker);
 
 
 
@@ -633,6 +664,88 @@ function getAdvisorMarker(element) {
 		labelContent: markerLabel,
 		labelAnchor: new google.maps.Point(offsetAnchorX, 40),
 		labelClass: "custom-marker advisor-marker",
+		labelInBackground: true
+	});
+
+	return marker;
+
+};
+
+function getDefaultMarker(element) {
+
+	var markerIcon = {
+		url: 'images/marker.svg',
+		scaledSize: new google.maps.Size(30, 40),
+		origin: new google.maps.Point(0, 0),
+		anchor: new google.maps.Point(15, 40)
+	};
+
+	var position = {
+		lat: parseFloat(element.advisor_latitude),
+		lng: parseFloat(element.advisor_longitude)
+	};
+
+	var icon,
+		type = element.type_of_trip;
+
+
+	/*
+	 **** types of trip: ****
+
+	 #1: I live there
+	 #2: I've been living there
+	 #3: I've been there in a business trip
+	 #4: I've been there in a romantic trip
+	 #5: I've been there with a group
+	 #6: I've been there alone
+	 #7: I've been there with the friend
+	 #8: I've been in a family trip
+
+	 */
+
+	switch (type) {
+		case 1:
+			icon = '<i class="gl-ico gl-ico-home-user"></i>';
+			break;
+		case 2:
+			icon = '<i class="gl-ico gl-ico-home"></i>';
+			break;
+		case 3:
+			icon = '<i class="gl-ico gl-ico-briefcase"></i>';
+			break;
+		case 4:
+			icon = '<i class="gl-ico gl-ico-heart"></i>';
+			break;
+		case 5:
+			icon = '<i class="gl-ico gl-ico-users-group"></i>';
+			break;
+		case 6:
+			icon = '<i class="gl-ico gl-ico-school-book-bag"></i>';
+			break;
+		case 7:
+			icon = '<i class="gl-ico gl-ico-users"></i>';
+			break;
+		case 8:
+			icon = '<i class="gl-ico gl-ico-family"></i>';
+			break;
+		default:
+			console.log("no icon for this type")
+	}
+
+	$('.calcMarkerWidthElm').find('.custom-marker-icon').remove();
+
+	var calcWidthElm = '<div class="custom-marker-icon">'+ icon +'</div>';
+
+	var offsetAnchorX = ( $('.calcMarkerWidthElm').append(calcWidthElm).width() )/2;
+
+	var marker = new MarkerWithLabel({
+		map: map,
+		animation: google.maps.Animation.DROP,
+		position: position,
+		icon: markerIcon,
+		labelContent: icon,
+		labelAnchor: new google.maps.Point(offsetAnchorX, 40),
+		labelClass: "custom-marker-icon",
 		labelInBackground: true
 	});
 
