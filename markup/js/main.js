@@ -515,36 +515,82 @@ function initMap() {
 			{
 				"featureType": "administrative",
 				"elementType": "labels.text.fill",
-				"stylers": [{"color": "#444444"}]
-			}, {
+				"stylers": [
+					{
+						"color": "#444444"
+					}
+				]
+			},
+			{
 				"featureType": "landscape",
 				"elementType": "all",
-				"stylers": [{"color": "#f2f2f2"}]
-			}, {
+				"stylers": [
+					{
+						"color": "#f2f2f2"
+					}
+				]
+			},
+			{
 				"featureType": "poi",
 				"elementType": "all",
-				"stylers": [{"visibility": "off"}]
-			}, {
+				"stylers": [
+					{
+						"visibility": "off"
+					}
+				]
+			},
+			{
 				"featureType": "road",
 				"elementType": "all",
-				"stylers": [{"saturation": -100}, {"lightness": 45}]
-			}, {
+				"stylers": [
+					{
+						"saturation": -100
+					},
+					{
+						"lightness": 45
+					}
+				]
+			},
+			{
 				"featureType": "road.highway",
 				"elementType": "all",
-				"stylers": [{"visibility": "simplified"}]
-			}, {
+				"stylers": [
+					{
+						"visibility": "simplified"
+					}
+				]
+			},
+			{
 				"featureType": "road.arterial",
 				"elementType": "labels.icon",
-				"stylers": [{"visibility": "off"}]
-			}, {
+				"stylers": [
+					{
+						"visibility": "off"
+					}
+				]
+			},
+			{
 				"featureType": "transit",
 				"elementType": "all",
-				"stylers": [{"visibility": "off"}]
-			}, {
+				"stylers": [
+					{
+						"visibility": "off"
+					}
+				]
+			},
+			{
 				"featureType": "water",
 				"elementType": "all",
-				"stylers": [{"color": "#46bcec"}, {"visibility": "on"}]
-			}];
+				"stylers": [
+					{
+						"color": "#46bcec"
+					},
+					{
+						"visibility": "on"
+					}
+				]
+			}
+		];
 
 	return new google.maps.Map(document.getElementById('map'), {
 					zoom: zoom,
@@ -740,11 +786,11 @@ function getDefaultMarker(element) {
 
 	var marker = new MarkerWithLabel({
 		map: map,
-		animation: google.maps.Animation.DROP,
+		animation: false, //google.maps.Animation.DROP,
 		position: position,
 		icon: markerIcon,
 		labelContent: icon,
-		labelAnchor: new google.maps.Point(offsetAnchorX, 40),
+		labelAnchor: new google.maps.Point(offsetAnchorX, 34),
 		labelClass: "custom-marker-icon",
 		labelInBackground: true
 	});

@@ -119,7 +119,7 @@
 		font-weight: bold;
 	}
 }
-.advansed-filter {
+.advanced-filter {
 
 	.ttl-row {
 		display: flex;
@@ -150,6 +150,10 @@
 
 		.filter-area {
 			flex: auto;
+		}
+
+		.histo-slider {
+			flex: 1;
 		}
 	}
 	.recommendations-btns {
@@ -233,6 +237,7 @@
 }
 .passport-map {
 	position: relative;
+	margin: 0 0 20px;
 	@include aspect-ratio(813, 612);
 
 	.map {
@@ -642,7 +647,7 @@ input.daterange-input {
 	z-index: 2;
 }
 .main {
-	//padding: 2px 0 0;
+	//padding: 0 0 20px;
 }
 .recommendations {
 	display: flex;
@@ -1185,7 +1190,7 @@ input.daterange-input {
 
 		.star {
 			color: #1e97d8;
-			margin: 0 2px;
+			//margin: 0 2px;
 
 			&.empty {
 				color : #bbe0f3;
@@ -3186,8 +3191,15 @@ input.daterange-input {
 	min-width: 450px;
 }
 .gmnoprint {
-
-	svg {
-		fill: #fdc000;
+	img {
+		-webkit-filter: drop-shadow(5px 5px 5px #222);
+		filter: drop-shadow(5px 5px 5px #222);
 	}
+}
+.custom-marker-icon {
+	font-size: 16px;
+	line-height: 19px;
+	color: $secondTextColor;
+	width: 16px;
+	text-align: center;
 }

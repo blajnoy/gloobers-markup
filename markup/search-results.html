@@ -122,24 +122,292 @@
 							</div>
 							<div class="col">
 								<span class="ttl">Rating</span>
-								<input class="rating" value="3" data-step=1 data-size="md" data-symbol="&#xe011;" data-glyphicon="false" data-rating-class="rating-gloobers" >
+								<input class="rating" value="3" data-step=1 data-size="md" data-symbol="&#xe018;" data-glyphicon="false" data-rating-class="rating-gloobers" >
 							</div>
 						</div>
-						<div class="advansed-filter">
+						<div class="advanced-filter">
 							<div class="ttl-row">
 								<strong class="ttl">Advanced options</strong>
-								<a href="#" class="expand">Show more</a>
+								<a class="lnk-expand collapsed" href="#filterDropdown" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample" data-lnk-expand-text-show="Show more" data-lnk-expand-text-hide="Hide"></a>
 							</div>
 						</div>
-						<div class="filter-dropdown" id="filter-dropdown">
-							<div class="histo-slider">
-								<div id="chart" class="histo-chart"></div>
-								<input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[10, 1000]"/>
-								<b class="price-min" id="price-min">$ <span>10</span></b>
-								<b class="price-max" id="price-max">$ <span>1000</span></b>
+						<div class="filter-dropdown collapse" id="filterDropdown">
+							<div class="filter-section">
+								<strong class="filter-section-ttl">Type of trips:</strong>
+								<div class="filter-area">
+									<div class="filter-check-list">
+										<div class="check-col">
+											<ul class="check-list">
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="chk01" type="checkbox" checked="checked" name="conditions">
+														<label for="chk01">I live there</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="chk02" type="checkbox" checked="checked" name="conditions">
+														<label for="chk02">I’ve been living there</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="chk03" type="checkbox" checked="checked" name="conditions">
+														<label for="chk03">I’ve been there with the friend</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="chk04" type="checkbox" checked="checked" name="conditions">
+														<label for="chk04">I’ve been there with a group</label>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="check-col">
+											<ul class="check-list">
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="chk05" type="checkbox" checked="checked" name="conditions">
+														<label for="chk05">I’ve been in a family trip</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="chk06" type="checkbox" checked="checked" name="conditions">
+														<label for="chk06">I’ve been there in a romantic trip</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="chk07" type="checkbox" checked="checked" name="conditions">
+														<label for="chk07">I’ve been there alone</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="chk08" type="checkbox" checked="checked" name="conditions">
+														<label for="chk08">I’ve been there in business trip</label>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="filter-section">
+								<strong class="filter-section-ttl">Categories of adisor:</strong>
+								<div class="recommendations-btns">
+									<a href="#" class="btn btn-sm disabled">Facebook friends</a>
+									<a href="#" class="btn btn-sm">With mutual interests</a>
+									<a href="#" class="btn btn-sm disabled">Local experts</a>
+								</div>
+							</div>
+							<div class="filter-section">
+								<strong class="filter-section-ttl">Rates per room:</strong>
+								<div class="filter-area">
+									<div class="filter-check-list">
+										<div class="check-col">
+											<div class="radio radio-inline">
+												<input id="rad01" type="radio" checked="checked" name="rates">
+												<label for="rad01">1-3</label>
+											</div>
+										</div>
+										<div class="check-col">
+											<div class="radio radio-inline">
+												<input id="rad02" type="radio" name="rates">
+												<label for="rad02">4-6</label>
+											</div>
+										</div>
+										<div class="check-col">
+											<div class="radio radio-inline">
+												<input id="rad03" type="radio" name="rates">
+												<label for="rad03">7-10</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="filter-section">
+								<strong class="filter-section-ttl">Passionate about:</strong>
+								<div class="filter-area">
+									<div class="filter-check-list">
+										<div class="check-col">
+											<ul class="check-list">
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb10" type="checkbox" checked="checked" name="conditions">
+														<label for="lb10">Local culture</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb11" type="checkbox" checked="checked" name="conditions">
+														<label for="lb11">Art & culture</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb12" type="checkbox" checked="checked" name="conditions">
+														<label for="lb12">Sightseeing</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb13" type="checkbox" checked="checked" name="conditions">
+														<label for="lb13">Wildlife</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb14" type="checkbox" checked="checked" name="conditions">
+														<label for="lb14">Sailing</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb15" type="checkbox" checked="checked" name="conditions">
+														<label for="lb15">Wellness</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb16" type="checkbox" checked="checked" name="conditions">
+														<label for="lb16">Fitness</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb17" type="checkbox" checked="checked" name="conditions">
+														<label for="lb17">Beach</label>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="check-col">
+											<ul class="check-list">
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb20" type="checkbox" checked="checked" name="conditions">
+														<label for="lb20">Nightlife</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb21" type="checkbox" checked="checked" name="conditions">
+														<label for="lb21">Luxury</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb22" type="checkbox" checked="checked" name="conditions">
+														<label for="lb22">Trekking</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb23" type="checkbox" checked="checked" name="conditions">
+														<label for="lb23">Camping</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb24" type="checkbox" checked="checked" name="conditions">
+														<label for="lb24">Fishing</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb25" type="checkbox" checked="checked" name="conditions">
+														<label for="lb25">Road trips</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb26" type="checkbox" checked="checked" name="conditions">
+														<label for="lb26">Kids activities</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb27" type="checkbox" checked="checked" name="conditions">
+														<label for="lb27">Shopping</label>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="check-col">
+											<ul class="check-list">
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb30" type="checkbox" checked="checked" name="conditions">
+														<label for="lb30">Wine</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb31" type="checkbox" checked="checked" name="conditions">
+														<label for="lb31">Motor sports</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb32" type="checkbox" checked="checked" name="conditions">
+														<label for="lb32">Water sports</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb33" type="checkbox" checked="checked" name="conditions">
+														<label for="lb33">Scuba diving</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb34" type="checkbox" checked="checked" name="conditions">
+														<label for="lb34">Photograpy</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb35" type="checkbox" checked="checked" name="conditions">
+														<label for="lb35">Golf</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb36" type="checkbox" checked="checked" name="conditions">
+														<label for="lb36">Music</label>
+													</div>
+												</li>
+												<li>
+													<div class="checkbox checkbox-inline">
+														<input id="lb37" type="checkbox" checked="checked" name="conditions">
+														<label for="lb37">Fooding</label>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="filter-section">
+								<div class="histo-slider">
+									<div id="chart" class="histo-chart"></div>
+									<input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[10, 1000]"/>
+									<b class="price-min" id="price-min">$ <span>10</span></b>
+									<b class="price-max" id="price-max">$ <span>1000</span></b>
+								</div>
+							</div>
+							<div class="btns-row">
+								<div class="flex-auto-width">
+									<a href="#" class="btn btn-link">CLEAR SEARCH FILTERS</a>
+								</div>
+								<a href="#" class="btn">Cancel</a>
+								<a href="#" class="btn btn-primary">Confirm search</a>
 							</div>
 						</div>
-						<div class="results-found-info text-right"><strong>300+ Events</strong> search results</div>
+						<div class="results-found-info text-right"><strong>35+ Advisors</strong> search results</div>
 					</div>
 					<div class="result-wrapper">
 						<div class="result-list row">
@@ -157,16 +425,16 @@
 									<strong class="ttl"><a href="#">Lorem Ipsum is simply </a></strong>
 									<span class="sub-ttl">Long  location name</span>
 									<footer>
-										<a href="#" class="btn btn-default"><i class="gl-ico gl-ico-logo"></i>Recommend</a>
+										<a href="#" class="btn btn-default" data-toggle="modal" data-target="#exampleModal"><i class="gl-ico gl-ico-logo"></i>Recommend</a>
 										<div class="card-rate-info">
 											<div class="rating">
 												<strong class="rating-ttl">7</strong>
 												<div class="stars">
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 												</div>
 											</div>
 											<em class="recommend"><strong>25</strong> Recommendations</em>
@@ -200,11 +468,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -220,11 +488,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -256,11 +524,11 @@
 											<div class="rating">
 												<strong class="rating-ttl">7</strong>
 												<div class="stars">
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 												</div>
 											</div>
 											<em class="recommend"><strong>25</strong> Recommendations</em>
@@ -294,11 +562,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -314,11 +582,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -350,11 +618,11 @@
 											<div class="rating">
 												<strong class="rating-ttl">7</strong>
 												<div class="stars">
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 												</div>
 											</div>
 											<em class="recommend"><strong>25</strong> Recommendations</em>
@@ -388,11 +656,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -408,11 +676,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -446,11 +714,11 @@
 											<div class="rating">
 												<strong class="rating-ttl">7</strong>
 												<div class="stars">
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 												</div>
 											</div>
 											<em class="recommend"><strong>25</strong> Recommendations</em>
@@ -494,11 +762,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -514,11 +782,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -550,11 +818,11 @@
 											<div class="rating">
 												<strong class="rating-ttl">7</strong>
 												<div class="stars">
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 												</div>
 											</div>
 											<em class="recommend"><strong>25</strong> Recommendations</em>
@@ -588,11 +856,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -608,11 +876,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -644,11 +912,11 @@
 											<div class="rating">
 												<strong class="rating-ttl">7</strong>
 												<div class="stars">
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-													<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 												</div>
 											</div>
 											<em class="recommend"><strong>25</strong> Recommendations</em>
@@ -682,11 +950,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -702,11 +970,11 @@
 																</div>
 																<div class="rating">
 																	<div class="stars">
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
-																		<span class="star empty"><i class="fa fa-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+																		<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
 																	</div>
 																</div>
 															</div>
@@ -740,7 +1008,74 @@
 			</section>
 		</main>
 	</div>
-
+	<!-- start modal window recommendation -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+		<div class="modal-dialog modal-custom-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Recommend this activity</h4>
+					<strong class="sub-ttl">And get rewarded when other travelers follow your recommendatuion</strong>
+				</div>
+				<div class="modal-body">
+					<div class="edit-recommendation-holder">
+						<div class="column">
+							<textarea class="form-control" id="message-text">Write your recommendation here</textarea>
+						</div>
+						<div class="column">
+							<div class="tags-wrap">
+								<div class="tags-box">
+									<div class="tags-ttl-holder rating-wrap-ttl">
+										<strong class="tags-ttl">Set a rating </strong>
+										<input class="rating" value="3" data-step=1 data-size="lg" data-symbol="&#xe018;" data-glyphicon="false" data-rating-class="rating-gloobers" >
+									</div>
+								</div>
+								<div class="tags-box">
+									<div class="tags-ttl-holder">
+										<strong class="tags-ttl">Recomends this activity for</strong>
+										<i class="ttl-extra-info">Tap to select</i>
+									</div>
+									<div class="tags-list">
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
+									</div>
+								</div>
+								<div class="tags-box">
+									<div class="tags-ttl-holder">
+										<strong class="tags-ttl">Travelers passionate about</strong>
+										<i class="ttl-extra-info">Tap to select</i>
+									</div>
+									<div class="tags-list">
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla bla</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla bla</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="btns-row text-right">
+						<a href="#" class="btn btn-link">Cancel</a>
+						<a href="#" class="btn btn-default">SAVE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal window recommendation -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/36fe5b07c5.js"></script>
