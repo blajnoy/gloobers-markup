@@ -196,6 +196,7 @@ $(document).ready(function() {
 				}
 
 				_this.on('show.daterangepicker', function() {
+					console.log("1");
 					dropDatapicker.position();
 				});
 
@@ -402,7 +403,7 @@ Select.init({
 /**/
 
 var contentString = '<div class="review-card">'+
-						                                                                                                           '<div class="img-slider-wrap">'+
+						'<div class="img-slider-wrap">'+
 							'<div class="img-slider">'+
 								'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
 								'<div class="item"><img src="images/bg-main.jpg" alt=""></div>'+
