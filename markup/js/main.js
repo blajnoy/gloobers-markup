@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+
+	$('.result-list').find('.img-slider').slick({
+		slidesToShow: 1,
+		swipeToSlide: true,
+		fade: true
+	});
+
 	$('.testimonials-carousel').slick({
 		centerMode: true,
 		slidesToShow: 5,
@@ -394,9 +401,11 @@ $(document).ready(function() {
 });
 
 
-Select.init({
-	selector: '.sel'
-});
+if($('.sel').length != 0) {
+	Select.init({
+		selector: '.sel'
+	});
+}
 
 
 
@@ -904,4 +913,3 @@ for (var i = 0; i < markers.length; i++) {
 map.fitBounds(bounds);
 
 /**/
-
