@@ -2589,11 +2589,11 @@ input.daterange-input {
 }
 .columns {
 	display: flex;
-	margin: 0 -30px;
+	margin: 0 -15px;
 
 	.col {
 		flex: 1;
-		padding: 0 30px;
+		padding: 0 15px;
 	}
 }
 .faq {
@@ -2618,7 +2618,7 @@ input.daterange-input {
 
 		& > .row {
 			display: flex;
-			margin: 0 -30px;
+			margin: 0 -15px;
 			align-items: center;
 		}
 
@@ -2630,17 +2630,48 @@ input.daterange-input {
 
 	.text-col {
 		flex: 1;
-		padding: 0 30px;
+		padding: 0 15px;
 	}
 	.img-col {
 		flex: 1;
-		padding: 0 30px;
+		padding: 0 15px;
 
 		img {
 			display: block;
 			margin: 0 -1000px 0 100px;
 			border-radius: 10px;
 			box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.62);
+		}
+	}
+}
+.statistics {
+	margin: -60px 0;
+
+	.container {
+
+		& > .row {
+			display: flex;
+			margin: 0 -15px;
+			align-items: center;
+		}
+
+		&:before,
+		&:after {
+			content: none;
+		}
+	}
+
+	.text-col {
+		flex: 1;
+		padding: 0 15px;
+	}
+	.img-col {
+		flex: 1;
+		padding: 0 15px;
+
+		img {
+			float: right;
+			margin: 0 70px 0 -1000px;
 		}
 	}
 }
@@ -2675,6 +2706,31 @@ input.daterange-input {
 		}
 		p {
 			margin: 0;
+		}
+	}
+}
+.counters {
+	display: flex;
+	margin: 0 -44px 25px;
+
+	.col {
+		color: #ffc200;
+		text-align: center;
+		padding: 0 44px;
+
+		span {
+			display: block;
+			font-size: 60px;
+			line-height: 60px;
+			font-weight: 300;
+			padding: 0 0 5px;
+		}
+
+		strong {
+			display: block;
+			font-size: 18px;
+			line-height: 21px;
+			font-weight: bold;
 		}
 	}
 }
@@ -2929,6 +2985,67 @@ input.daterange-input {
 		}
 	}
 }
+.pricing-list {
+
+}
+
+.pricing-card {
+	position: relative;
+	border: 2px solid #ffc200;
+	border-radius: 10px;
+
+	.card-bg-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		overflow: hidden;
+	}
+
+	.card-holder {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.markered-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -30px;
+	padding: 35px 0 0;
+
+	font-size: 18px;
+	line-height: 28px;
+
+	li {
+		display: flex;
+		padding: 0 30px 30px;
+		flex: 1 50%;
+
+		.ico {
+			flex: 0 0 40px;
+			display: inline-block;
+			margin: 0 30px 0 0;
+		}
+
+		.text-h {
+			flex: auto;
+			margin: -7px 0 0;
+
+			.list-ttl {
+				display: block;
+				color: $secondTextColor;
+				font-weight: bold;
+			}
+
+			p {
+				margin: 0;
+			}
+		}
+	}
+}
 .how-it-works-slider {
 	.slider-tabs {
 		@extend .nav;
@@ -2969,6 +3086,7 @@ input.daterange-input {
 
 			.steps {
 				margin: 0 -3%;
+				text-align: center;
 			}
 
 			.step {

@@ -296,10 +296,9 @@ $(document).ready(function() {
 		$('#ex2').slider({
 			tooltip: 'hide'
 		});
-		$("#ex2").on("slide", function(slideEvt) {
+		$("#ex2").on("slideStop", function(slideEvt) {
 			$("#price-min span").text(slideEvt.value[0]);
 			$("#price-max span").text(slideEvt.value[1]);
-
 		});
 
 	}
