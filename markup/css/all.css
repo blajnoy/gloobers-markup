@@ -1026,9 +1026,9 @@ fieldset[disabled] .btn {
 
 .btn-default:hover, .btn-default:focus, .btn-default.focus {
   color: #501e00;
-  background: -webkit-gradient(linear, left top, left bottom, from(#d5a200), to(#ffc200));
-  background: -webkit-linear-gradient(top, #d5a200 0%, #ffc200 100%);
-  background: linear-gradient(to bottom, #d5a200 0%, #ffc200 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffce33), to(#d5a200));
+  background: -webkit-linear-gradient(top, #ffce33 0%, #d5a200 100%);
+  background: linear-gradient(to bottom, #ffce33 0%, #d5a200 100%);
   -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
 }
@@ -1053,9 +1053,9 @@ fieldset[disabled] .btn {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#007fc2), to(#1e97d8));
-  background: -webkit-linear-gradient(top, #007fc2 0%, #1e97d8 100%);
-  background: linear-gradient(to bottom, #007fc2 0%, #1e97d8 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#44ade5), to(#007fc2));
+  background: -webkit-linear-gradient(top, #44ade5 0%, #007fc2 100%);
+  background: linear-gradient(to bottom, #44ade5 0%, #007fc2 100%);
   -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
 }
@@ -1174,9 +1174,9 @@ fieldset[disabled] .btn {
 
 .btn-marketing-b:hover, .btn-marketing-b:focus, .btn-marketing-b.focus {
   color: #501e00;
-  background: -webkit-gradient(linear, left top, left bottom, from(#d5a200), to(#ffc200));
-  background: -webkit-linear-gradient(top, #d5a200 0%, #ffc200 100%);
-  background: linear-gradient(to bottom, #d5a200 0%, #ffc200 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffce33), to(#d5a200));
+  background: -webkit-linear-gradient(top, #ffce33 0%, #d5a200 100%);
+  background: linear-gradient(to bottom, #ffce33 0%, #d5a200 100%);
   -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
 }
@@ -6275,19 +6275,70 @@ input.daterange-input {
   opacity: 1;
 }
 
+.pricing-list {
+  padding: 25px 70px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.pricing-list .pricing-card {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 270px;
+  -ms-flex: 0 1 270px;
+  flex: 0 1 270px;
+}
+
 .pricing-card {
+  display: block;
   position: relative;
   border: 2px solid #ffc200;
   -webkit-border-radius: 10px;
   border-radius: 10px;
+  min-height: 355px;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
 }
 
 .pricing-card .card-bg-image {
   position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background: #ffc200;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  opacity: 0;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
+
+.pricing-card .card-bg-image:after {
+  content: "";
+  position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(72, 27, 0, 0.5);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
+
+.pricing-card .card-bg-image img {
+  display: block;
   width: 100%;
   height: 100%;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   object-fit: cover;
   overflow: hidden;
 }
@@ -6295,6 +6346,88 @@ input.daterange-input {
 .pricing-card .card-holder {
   position: relative;
   z-index: 2;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 35px 20px 50px;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
+
+.pricing-card .card-holder strong {
+  display: block;
+  font-weight: bold;
+}
+
+.pricing-card .card-holder p {
+  margin: 0;
+}
+
+.pricing-card .card-holder .name {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.pricing-card .card-holder .price {
+  font: bold 69px/69px "PT Sans";
+  color: #501e00;
+}
+
+.pricing-card .card-holder .price .cur {
+  font-weight: normal;
+}
+
+.pricing-card .card-holder .price .month {
+  font-size: 12px;
+}
+
+.pricing-card .choice-plan {
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  background: #ffc200;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 42px;
+}
+
+.pricing-card .choice-plan .hover-text {
+  display: none;
+}
+
+.pricing-card .choice-plan:active, .pricing-card .choice-plan:focus, .pricing-card .choice-plan:hover {
+  text-decoration: none;
+}
+
+.pricing-card .choice-plan:active span, .pricing-card .choice-plan:focus span, .pricing-card .choice-plan:hover span {
+  display: none;
+}
+
+.pricing-card .choice-plan:active span.hover-text, .pricing-card .choice-plan:focus span.hover-text, .pricing-card .choice-plan:hover span.hover-text {
+  display: block;
+}
+
+.pricing-card:hover {
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.pricing-card:hover .card-bg-image {
+  opacity: 1;
+}
+
+.pricing-card:hover .card-holder {
+  color: #fff;
+}
+
+.pricing-card:hover .card-holder .price {
+  color: currentColor;
 }
 
 .markered-list {

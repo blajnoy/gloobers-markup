@@ -2144,6 +2144,7 @@ input.daterange-input {
 				@include aspect-ratio(74, 35, 15px);
 			}
 		}
+
 		> a {
 			color: #fff;
 			display: block;
@@ -2165,6 +2166,7 @@ input.daterange-input {
 				border-radius: 10px;
 				transition: all 100ms ease-in;
 			}
+
 			&:hover {
 				box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 
@@ -2986,27 +2988,141 @@ input.daterange-input {
 	}
 }
 .pricing-list {
+	padding: 25px 70px 0;
+	display: flex;
+	justify-content: space-between;
 
+	.pricing-card {
+		flex: 0 1 270px;
+	}
 }
 
 .pricing-card {
+	display: block;
 	position: relative;
 	border: 2px solid #ffc200;
 	border-radius: 10px;
+	min-height: 355px;
+	transition: all 100ms ease-in;
 
 	.card-bg-image {
 		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		overflow: hidden;
+		top: -2px;
+		left: -2px;
+		bottom: -2px;
+		right: -2px;
+		background: #ffc200;
+		border-radius: 10px;
+		opacity: 0;
+		transition: all 100ms ease-in;
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background-color: rgba(72, 27, 0, .5);
+			border-radius: 10px;
+			transition: all 100ms ease-in;
+		}
+
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			border-radius: 10px;
+			object-fit: cover;
+			overflow: hidden;
+		}
 	}
 
 	.card-holder {
 		position: relative;
 		z-index: 2;
+		font-size: 16px;
+		line-height: 25px;
+		color: rgba(#000, 0.5);
+		text-align: center;
+		padding: 35px 20px 50px;
+		transition: all 100ms ease-in;
+
+		strong {
+			display: block;
+			font-weight: bold;
+		}
+
+		p {
+			margin: 0;
+		}
+
+		.name {
+			text-transform: uppercase;
+			font-size: 12px;
+		}
+
+		.price {
+			font: bold 69px/69px "PT Sans";
+			color: $secondTextColor;
+
+			.cur {
+				font-weight: normal;
+			}
+
+			.month {
+				font-size: 12px;
+			}
+		}
+	}
+
+	.choice-plan {
+		position: absolute;
+		bottom: -2px;
+		left: -2px;
+		right: -2px;
+		background: #ffc200;
+		border-radius: 0 0 10px 10px;
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 14px;
+		line-height: 42px;
+
+		.hover-text {
+			display: none;
+		}
+
+		&:active,
+		&:focus,
+		&:hover {
+			text-decoration: none;
+
+			span {
+				display: none;
+
+				&.hover-text {
+					display: block;
+				}
+			}
+
+		}
+	}
+
+	&:hover {
+		box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+
+		.card-bg-image {
+			opacity: 1;
+		}
+
+		.card-holder {
+			color: #fff;
+
+			.price {
+				color: currentColor;
+			}
+		}
 	}
 }
 
