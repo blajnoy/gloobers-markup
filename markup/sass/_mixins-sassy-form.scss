@@ -51,10 +51,10 @@ $sassy-disabled-color: #eee !default;
 	}
 	&:hover,
 	&:focus {
-		background: linear-gradient(to bottom, $gradientColorTo 0%, $gradientColorFrom 100%);
+		background: linear-gradient(to bottom, lighten($gradientColorFrom, 10%) 0%, $gradientColorTo 100%);
 	}
 	&:active {
-		background: linear-gradient(to bottom, $gradientColorTo 0%, $gradientColorFrom 100%);
+		background: linear-gradient(to bottom, lighten($gradientColorFrom, 10%) 0%, $gradientColorTo 100%);
 	}
 }
 @mixin input-placeholder($color) {

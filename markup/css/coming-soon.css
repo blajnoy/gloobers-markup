@@ -52,6 +52,7 @@ body {
   font: 18px/28px 'Open Sans', sans-serif;
 }
 
+body .prof-page,
 body .hp {
   background: #262626;
 }
@@ -239,17 +240,17 @@ input[type=button]:hover,
 input[type=button]:focus,
 button:hover,
 button:focus {
-  background: -webkit-gradient(linear, left top, left bottom, from(#d5a200), to(#ffc200));
-  background: -webkit-linear-gradient(top, #d5a200 0%, #ffc200 100%);
-  background: linear-gradient(to bottom, #d5a200 0%, #ffc200 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffce33), to(#d5a200));
+  background: -webkit-linear-gradient(top, #ffce33 0%, #d5a200 100%);
+  background: linear-gradient(to bottom, #ffce33 0%, #d5a200 100%);
 }
 
 input[type=submit]:active,
 input[type=button]:active,
 button:active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#d5a200), to(#ffc200));
-  background: -webkit-linear-gradient(top, #d5a200 0%, #ffc200 100%);
-  background: linear-gradient(to bottom, #d5a200 0%, #ffc200 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffce33), to(#d5a200));
+  background: -webkit-linear-gradient(top, #ffce33 0%, #d5a200 100%);
+  background: linear-gradient(to bottom, #ffce33 0%, #d5a200 100%);
 }
 
 svg {

@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
 	$('.result-list').find('.img-slider').slick({
 		slidesToShow: 1,
 		swipeToSlide: true,

@@ -1629,7 +1629,7 @@ input.daterange-input {
 	}
 }
 .recommend-eval {
-	width: 78px;
+	//width: 78px;
 
 	.eval-percent {
 		width: 70px;
@@ -1648,6 +1648,7 @@ input.daterange-input {
 			margin: 0 -6px 0 0;
 		}
 	}
+
 	.eval-name {
 		background: #ffd85e;
 		color: #fff;
@@ -1660,6 +1661,7 @@ input.daterange-input {
 		line-height: 19px;
 		position: relative;
 		margin: -20px 0 0;
+		padding: 0 5px;
 	}
 	&.eval-luxury {
 		.eval-percent {
@@ -2868,6 +2870,9 @@ input.daterange-input {
 .fill-width {
 	width: 100%;
 }
+.fill-height {
+	height: 100%;
+}
 .price-row {
 	display: flex;
 	align-items: flex-end;
@@ -3583,4 +3588,246 @@ input.daterange-input {
 	color: $secondTextColor;
 	width: 16px;
 	text-align: center;
+}
+.room-types {
+
+}
+.room-type-ttl {
+	display: flex;
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	background: #fff;
+}
+.personal-nav {
+	background: rgba( 80, 30, 0, 1);
+	color: #fff;
+	font-size: 14px;
+	line-height: 17px;
+	margin: 0 0 30px;
+
+	a {
+		color: currentColor;
+	}
+}
+.flex-row {
+	display: flex;
+
+	&:after,
+	&:before {
+		content: none;
+	}
+}
+.personal-nav-list {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1024px;
+	margin: 0 auto;
+
+	li {
+
+		a {
+			display: flex;
+			align-items: center;
+			height: 73px;
+			padding: 0 30px;
+			transition: .1s all linear;
+
+			&:focus,
+			&:active,
+			&:hover {
+				background: rgba(#000, .25);
+				text-decoration: none;
+			}
+		}
+
+		&.active {
+
+			a {
+				background: rgba(#000, .25);
+			}
+		}
+	}
+}
+.personal-box {
+	background: #fff;
+	border-radius: 10px;
+	border: 1px solid #e5e5e5;
+	padding: 15px;
+	margin: 0 0 30px;
+
+
+	.flex-row & {
+		min-height: calc(100% - 30px);
+	}
+
+	.ttl {
+		display: flex;
+		margin: 0 0 20px;
+
+		h2 {
+			margin: 0;
+			font-size: 18px;
+			line-height: 21px;
+			font-family: 'Open Sans';
+			flex: auto;
+		}
+	}
+
+	.socials-connected {
+		padding: 0;
+		margin-bottom: -15px;
+
+		.cell {
+			flex: 1;
+		}
+	}
+
+}
+
+.personal-photo {
+	@extend .personal-box;
+
+	.photo {
+		margin: -16px -16px 20px;
+		@include aspect-ratio(270, 270);
+
+		img {
+			border-radius: 10px 10px 0 0;
+			object-fit: cover;
+		}
+	}
+	.btn {
+		margin-bottom: 10px;
+	}
+}
+.info-desc {
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 600;
+	color: rgba(#000, .5);
+	display: block;
+}
+.personal-bg-picture {
+	@extend .personal-box;
+
+	.bg-picture {
+		margin: -16px -16px 20px;
+		@include aspect-ratio(870, 270);
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background-color: rgba(80, 30, 0, .2);
+			border-radius: 10px;
+			transition: all 100ms ease-in;
+		}
+
+		img {
+			border-radius: 10px 10px 0 0;
+			object-fit: cover;
+		}
+
+		.change-picture {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: 2;
+			transform: translate(-50%, -50%);
+		}
+	}
+
+	.picture-desc {
+		display: flex;
+		align-items: flex-end;
+
+		p {
+			flex: auto;
+			margin: 0;
+		}
+
+		.info-desc {
+			white-space: nowrap;
+			margin: 0 0 0 40px;
+		}
+	}
+}
+.change-picture {
+	color: rgba(#fff, .6);
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+
+	&:hover,
+	&:active,
+	&:focus {
+		text-decoration: none;
+	}
+
+	.gl-ico {
+		display: block;
+		font-size: 40px;
+		margin: 0 0 10px;
+	}
+}
+.personal-info-form {
+	display: flex;
+	margin: 0 -15px;
+
+	.col {
+		padding: 0 15px;
+		width: 25%;
+
+		&.col-large {
+			flex-grow: 1;
+		}
+	}
+
+	label {
+		font-size: 18px;
+		line-height: 21px;
+		display: block;
+		color: $secondTextColor;
+		font-weight: bold;
+		margin: 0 0 15px;
+	}
+
+	.input-row {
+
+		+ .input-row {
+			margin-top: 37px;
+		}
+	}
+
+	input {
+		font-size: 16px;
+	}
+
+	textarea {
+		height: 157px;
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.textarea-desc {
+		display: flex;
+		align-items: baseline;
+
+		.info-desc {
+			flex: auto;
+		}
+
+		.btn-link {
+			text-transform: none;
+
+			&.btn-cancel {
+				color: #818181;
+			}
+		}
+	}
 }
