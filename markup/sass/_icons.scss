@@ -50,74 +50,89 @@
 	@if $filename == calendar {
 		$char: \E007;
 	}
-	@if $filename == check {
+	@if $filename == check-mark-button {
 		$char: \E008;
 	}
-	@if $filename == facebook {
+	@if $filename == check {
 		$char: \E009;
 	}
-	@if $filename == family {
+	@if $filename == facebook {
 		$char: \E00A;
 	}
-	@if $filename == google-plus {
+	@if $filename == family {
 		$char: \E00B;
 	}
-	@if $filename == heart {
+	@if $filename == google-plus {
 		$char: \E00C;
 	}
-	@if $filename == home-user {
+	@if $filename == heart {
 		$char: \E00D;
 	}
-	@if $filename == home {
+	@if $filename == home-user {
 		$char: \E00E;
 	}
-	@if $filename == instagram {
+	@if $filename == home {
 		$char: \E00F;
 	}
-	@if $filename == like {
+	@if $filename == instagram {
 		$char: \E010;
 	}
-	@if $filename == logo {
+	@if $filename == like {
 		$char: \E011;
 	}
-	@if $filename == mail {
+	@if $filename == logo {
 		$char: \E012;
 	}
-	@if $filename == marker {
+	@if $filename == mail {
 		$char: \E013;
 	}
-	@if $filename == minus {
+	@if $filename == marker {
 		$char: \E014;
 	}
-	@if $filename == photo-camera {
+	@if $filename == minus {
 		$char: \E015;
 	}
-	@if $filename == plus {
+	@if $filename == person {
 		$char: \E016;
 	}
-	@if $filename == push-pin {
+	@if $filename == photo-camera {
 		$char: \E017;
 	}
-	@if $filename == school-book-bag {
+	@if $filename == plus-rounded {
 		$char: \E018;
 	}
-	@if $filename == star {
+	@if $filename == plus {
 		$char: \E019;
 	}
-	@if $filename == street-map {
+	@if $filename == push-pin {
 		$char: \E01A;
 	}
-	@if $filename == twitter {
+	@if $filename == school-book-bag {
 		$char: \E01B;
 	}
-	@if $filename == user {
+	@if $filename == star {
 		$char: \E01C;
 	}
-	@if $filename == users-group {
+	@if $filename == street-map {
 		$char: \E01D;
 	}
-	@if $filename == users {
+	@if $filename == tv {
 		$char: \E01E;
+	}
+	@if $filename == twitter {
+		$char: \E01F;
+	}
+	@if $filename == user {
+		$char: \E020;
+	}
+	@if $filename == users-group {
+		$char: \E021;
+	}
+	@if $filename == users {
+		$char: \E022;
+	}
+	@if $filename == wifi {
+		$char: \E023;
 	}
 
 	@return $char;
@@ -158,6 +173,9 @@
 .gl-ico-calendar {
 	@include gl-ico(calendar);
 }
+.gl-ico-check-mark-button {
+	@include gl-ico(check-mark-button);
+}
 .gl-ico-check {
 	@include gl-ico(check);
 }
@@ -197,8 +215,14 @@
 .gl-ico-minus {
 	@include gl-ico(minus);
 }
+.gl-ico-person {
+	@include gl-ico(person);
+}
 .gl-ico-photo-camera {
 	@include gl-ico(photo-camera);
+}
+.gl-ico-plus-rounded {
+	@include gl-ico(plus-rounded);
 }
 .gl-ico-plus {
 	@include gl-ico(plus);
@@ -215,6 +239,9 @@
 .gl-ico-street-map {
 	@include gl-ico(street-map);
 }
+.gl-ico-tv {
+	@include gl-ico(tv);
+}
 .gl-ico-twitter {
 	@include gl-ico(twitter);
 }
@@ -226,4 +253,7 @@
 }
 .gl-ico-users {
 	@include gl-ico(users);
+}
+.gl-ico-wifi {
+	@include gl-ico(wifi);
 }

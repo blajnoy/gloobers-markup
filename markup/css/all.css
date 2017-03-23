@@ -94,96 +94,116 @@ table {
   content: "\E007";
 }
 
-.gl-ico-check:before {
+.gl-ico-check-mark-button:before {
   content: "\E008";
 }
 
-.gl-ico-facebook:before {
+.gl-ico-check:before {
   content: "\E009";
 }
 
-.gl-ico-family:before {
+.gl-ico-facebook:before {
   content: "\E00A";
 }
 
-.gl-ico-google-plus:before {
+.gl-ico-family:before {
   content: "\E00B";
 }
 
-.gl-ico-heart:before {
+.gl-ico-google-plus:before {
   content: "\E00C";
 }
 
-.gl-ico-home-user:before {
+.gl-ico-heart:before {
   content: "\E00D";
 }
 
-.gl-ico-home:before {
+.gl-ico-home-user:before {
   content: "\E00E";
 }
 
-.gl-ico-instagram:before {
+.gl-ico-home:before {
   content: "\E00F";
 }
 
-.gl-ico-like:before {
+.gl-ico-instagram:before {
   content: "\E010";
 }
 
-.gl-ico-logo:before {
+.gl-ico-like:before {
   content: "\E011";
 }
 
-.gl-ico-mail:before {
+.gl-ico-logo:before {
   content: "\E012";
 }
 
-.gl-ico-marker:before {
+.gl-ico-mail:before {
   content: "\E013";
 }
 
-.gl-ico-minus:before {
+.gl-ico-marker:before {
   content: "\E014";
 }
 
-.gl-ico-photo-camera:before {
+.gl-ico-minus:before {
   content: "\E015";
 }
 
-.gl-ico-plus:before {
+.gl-ico-person:before {
   content: "\E016";
 }
 
-.gl-ico-push-pin:before {
+.gl-ico-photo-camera:before {
   content: "\E017";
 }
 
-.gl-ico-school-book-bag:before {
+.gl-ico-plus-rounded:before {
   content: "\E018";
 }
 
-.gl-ico-star:before {
+.gl-ico-plus:before {
   content: "\E019";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-push-pin:before {
   content: "\E01A";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-school-book-bag:before {
   content: "\E01B";
 }
 
-.gl-ico-user:before {
+.gl-ico-star:before {
   content: "\E01C";
 }
 
-.gl-ico-users-group:before {
+.gl-ico-street-map:before {
   content: "\E01D";
 }
 
-.gl-ico-users:before {
+.gl-ico-tv:before {
   content: "\E01E";
+}
+
+.gl-ico-twitter:before {
+  content: "\E01F";
+}
+
+.gl-ico-user:before {
+  content: "\E020";
+}
+
+.gl-ico-users-group:before {
+  content: "\E021";
+}
+
+.gl-ico-users:before {
+  content: "\E022";
+}
+
+.gl-ico-wifi:before {
+  content: "\E023";
 }
 
 body {
@@ -510,7 +530,7 @@ svg {
 .checkbox input[type="checkbox"]:checked + label:after, .checkbox input[type="radio"]:checked + label:after {
   font-size: 19px;
   font-family: "gloobers-icons";
-  content: "\E008";
+  content: "\E009";
   color: #1f97d7;
   text-shadow: 0 3px 2px rgba(0, 0, 0, 0.4);
 }
@@ -6934,15 +6954,323 @@ input.daterange-input {
   text-align: center;
 }
 
-.room-type-ttl {
+.marked-list {
+  color: #1e97d8;
+  font-size: 13px;
+  line-height: 14px;
+  margin: 0 0 20px;
+}
+
+.marked-list li {
+  padding: 0 0 0 30px;
+}
+
+.marked-list li + li {
+  padding-top: 9px;
+}
+
+.marked-list .gl-ico, .marked-list .slick-slider .slick-arrow, .slick-slider .marked-list .slick-arrow {
+  float: left;
+  vertical-align: top;
+  font-size: 14px;
+  margin: 0 0 0 -24px;
+}
+
+.room-type-section .room-type-ttl {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #e5e5e5;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 10px 10px 0 10px;
+  border-radius: 10px 10px 0 10px;
   background: #fff;
+  min-height: 60px;
+}
+
+.room-type-section .room-type-ttl.opened-drop {
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.room-type-section .room-type-ttl .name {
+  display: inline-block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.room-type-section .room-type-ttl .persons-col {
+  font-size: 12px;
+  line-height: 15px;
+  color: #501e00;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 15px;
+  border: 1px solid #e5e5e5;
+  border-width: 0 1px;
+  margin: 8px 0;
+}
+
+.room-type-section .room-type-ttl .persons-col .adults {
+  font-size: 12px;
+}
+
+.room-type-section .room-type-ttl .persons-col .children {
+  font-size: 8px;
+}
+
+.room-type-section .room-type-ttl .discount-col {
+  font-size: 0;
+  padding: 0 20px;
+  position: relative;
+}
+
+.room-type-section .room-type-ttl .discount-col .discount-labels {
+  float: right;
+  margin: 0 -100% 0 0;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.room-type-section .room-type-ttl .discount-col .discount-label {
+  background: #f00;
+  color: #fff;
+  float: left;
+  clear: left;
+  vertical-align: top;
+  font-size: 9px;
+  line-height: 10px;
+  text-transform: uppercase;
+  padding: 3px 5px;
+  -webkit-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  margin: 0 0 5px;
+}
+
+.room-type-section .room-type-ttl .room-type-price {
+  background: #734b33;
+  color: #fff;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: -1px 0 -1px 0;
+}
+
+.room-type-section .room-type-ttl .room-type-price span {
+  display: block;
+  font-size: 12px;
+  line-height: 15px;
+  opacity: .5;
+  text-align: right;
+}
+
+.room-type-section .room-type-ttl .room-type-price strong {
+  display: block;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.room-type-section .room-type-ttl .btn {
+  -webkit-border-radius: 0 10px 0 0;
+  border-radius: 0 10px 0 0;
+  padding-left: 6px;
+  padding-right: 6px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin: -1px -1px -1px 0;
+}
+
+.room-type-section .room-type-ttl .btn .gl-ico, .room-type-section .room-type-ttl .btn .slick-slider .slick-arrow, .slick-slider .room-type-section .room-type-ttl .btn .slick-arrow {
+  margin: 0;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
+
+.room-type-section .room-type-ttl .btn.collapsed .gl-ico, .room-type-section .room-type-ttl .btn.collapsed .slick-slider .slick-arrow, .slick-slider .room-type-section .room-type-ttl .btn.collapsed .slick-arrow {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.room-type-section .categories-drop {
+  background: #fff;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid #e5e5e5;
+  border-top-width: 0;
+}
+
+.room-type-section .categories-drop .categories-area {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+}
+
+.room-type-section .categories-drop .categories-area .col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.room-type-section .categories-drop .categories-area .col .marked-list {
+  margin: 0;
+}
+
+.room-type-section .categories-drop .categories-area .col .marked-list + .category-name {
+  margin-top: 20px;
+}
+
+.room-type-section .categories-drop .category-name {
+  display: block;
+  padding: 0 0 10px 30px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #501e00;
+  font-weight: bold;
+}
+
+.room-type-section .categories-drop .category-name:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.room-type-section .categories-drop .category-name .gl-ico, .room-type-section .categories-drop .category-name .slick-slider .slick-arrow, .slick-slider .room-type-section .categories-drop .category-name .slick-arrow {
+  margin: 0 0 0 -30px;
+  float: left;
+  font-size: 19px;
+  line-height: 22px;
+  vertical-align: middle;
+}
+
+.room-type-section .categories-drop .category-name .gl-ico.gl-ico-wifi, .room-type-section .categories-drop .category-name .slick-slider .gl-ico-wifi.slick-arrow, .slick-slider .room-type-section .categories-drop .category-name .gl-ico-wifi.slick-arrow {
+  font-size: 16px;
+}
+
+.boarding-selection {
+  padding: 0 0 0 30px;
+}
+
+.boarding-selection .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  margin-top: -1px;
+  padding: 0 0 0 25px;
+  min-height: 45px;
+}
+
+.boarding-selection .item:last-child {
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.boarding-selection .item .check-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.boarding-selection .item .check-col label {
+  font-size: 14px;
+}
+
+.boarding-selection .item .person-num-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 15px;
+  border: 1px solid #e5e5e5;
+  border-width: 0 1px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.boarding-selection .item .total-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 25px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.boarding-selection .item .total-col .total {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.boarding-selection .item .total-col .total span {
+  color: #000;
 }
 
 .personal-nav {

@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+	$('.categories-drop').on('show.bs.collapse', function () {
+		$(this).prev().addClass('opened-drop');
+	});
+	$('.categories-drop').on('hidden.bs.collapse', function () {
+		$(this).prev().removeClass('opened-drop');
+	});
+
 	$('.result-list').find('.img-slider').slick({
 		slidesToShow: 1,
 		swipeToSlide: true,
