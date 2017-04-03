@@ -1,5 +1,70 @@
 $(document).ready(function() {
 
+	/* SPINNER */
+	$("#book").on("click", function(event){
+		$('#person-card').LoadingOverlay("show", {
+			image       : "",
+			color: "rgba(80, 30, 0, 0.8)",
+			fontawesome : "gl-ico gl-ico-logo fa-spin"
+		});
+
+		setTimeout(function(){
+			$('#person-card').LoadingOverlay("hide");
+		}, 5000);
+
+		return false;
+	});
+
+	/* END SPINNER */
+	
+
+	/* Progress of upload file */
+	/*$(function() {
+
+		var bar = $('.bar');
+		var percent = $('.percent');
+		var status = $('#status');
+
+		$('form').ajaxForm({
+			beforeSend: function() {
+				status.empty();
+				var percentVal = '0%';
+				bar.width(percentVal);
+				percent.html(percentVal);
+			},
+			uploadProgress: function(event, position, total, percentComplete) {
+				var percentVal = percentComplete + '%';
+				bar.width(percentVal);
+				percent.html(percentVal);
+			},
+			complete: function(xhr) {
+				status.html(xhr.responseText);
+			}
+		});
+	});*/
+	/* End Progress of upload file */
+
+	$('.scroll-to-elm').click(function(e){
+		var href = jQuery(this).attr("href"),
+			id = href.substring(href.indexOf('#'));
+
+		offsetTop = href === "#" ? 0 : jQuery(id).offset().top  - 100;
+
+		jQuery('html, body').stop().animate({
+			scrollTop: offsetTop
+		}, 300);
+
+		e.preventDefault();
+	});
+
+	$('.boarding-selection').on('change', '.checkbox input', function () {
+		if ( $(this).is(':checked') ) {
+			$(this).parents('.item:first').addClass('selected');
+		} else {
+			$(this).parents('.item:first').removeClass('selected');
+		}
+	});
+
 	$('.categories-drop').on('show.bs.collapse', function () {
 		$(this).prev().addClass('opened-drop');
 	});

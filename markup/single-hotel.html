@@ -70,7 +70,7 @@
 								<div class="col-sm-8">
 									<ul id="anchor-menu" class="headings-menu">
 										<li><a href="#anchor-description">Description</a></li>
-										<li><a href="#anchor-requirements">Requirements</a></li>
+										<li><a href="#anchor-room-type">Room type</a></li>
 										<li><a href="#anchor-calendar">Calendar</a></li>
 										<li><a href="#anchor-policies">Policies</a></li>
 										<li><a href="#anchor-map">Map</a></li>
@@ -89,15 +89,56 @@
 									<div class="sidebar-holder">
 										<div class="search-nav-row">
 											<div class="col">
-												<span class="ttl">Event date</span>
-												<div class="date-set">
-													<input class="daterange-input linked-calendars" data-position="bottom left" data-single-date-picker="true" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" name="date" type="text" data-start-date="12/16/2016" value="12/16/2016">
+												<span class="ttl">Arriving - Departure</span>
+												<div class="date-range">
+													<input class="daterange-input" data-position="bottom left" data-single-date-picker="false" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" name="date" type="text" data-start-date="12/16/2016" data-end-date="12/16/2016" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
+												</div>
+											</div>
+											<a href="#anchor-room-type" class="btn scroll-to-elm">Choose <br>room type</a>
+										</div>
+										<div class="search-nav-row">
+											<div class="col">
+												<span class="ttl">Adult</span>
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >3 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+														</div>
+													</div>
 												</div>
 											</div>
 											<div class="col">
-												<span class="ttl">Session</span>
+												<span class="ttl">Children</span>
 												<div class="person-num">
-													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >24:59 PM <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >2 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Children</strong>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col">
+												<span class="ttl">No. of rooms</span>
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >2 Rooms <i class="gl-ico gl-ico-arrow-down"></i></span>
 													<div class="drop-content hide">
 														<div class="drop-list rooms-drop">
 															<ul>
@@ -114,37 +155,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="col">
-												<span class="ttl">Travelers</span>
-												<div class="person-num">
-													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >DefaulSet value <i class="gl-ico gl-ico-arrow-down"></i></span>
-													<div class="drop-content hide">
-														<div class="person-num-holder">
-															<div class="person-row">
-																<div class="operation-btns pull-right">
-																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-																</div>
-																<div class="text-h">
-																	<strong class=""><span class="">2</span>Adult</strong>
-																</div>
-															</div>
-															<div class="person-row">
-																<div class="operation-btns pull-right">
-																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-																</div>
-																<div class="text-h">
-																	<strong class=""><span class="">1</span>Childrens</strong>
-																	<em class="person-info">Age 2 -12 </em>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
 										</div>
-
 										<div class="price-row">
 											<div class="total-price-col">
 												<span class="sup-ttl">Actual price</span>
@@ -157,7 +168,7 @@
 											</div>
 										</div>
 										<div class="booking-btns">
-											<a href="#" class="btn btn-primary fill-width">Book now</a>
+											<a id="book" href="#" class="btn btn-primary fill-width">Book now</a>
 											<a href="#" class="btn btn-default fill-width"><i class="gl-ico gl-ico-logo"></i>Recommend</a>
 											<span class="special-info">Special conditions for service usage</span>
 										</div>
@@ -216,7 +227,7 @@
 									<a href="#" class="btn btn-sm">Local experts</a>
 								</div>
 							</div>
-							<div class="person-card">
+							<div class="person-card" id="person-card">
 								<div class="aside">
 									<div class="avatar"><img src="images/photo01-big.jpg" width="170" height="170" alt="image"></div>
 									<h2 class="name">Marcus Fenix</h2>
@@ -318,7 +329,7 @@
 							<div class="condition-list">
 								<div class="condition-list-row clearfix">
 									<div class="checkbox checkbox-inline">
-										<input id="chk01" type="checkbox" checked="checked" name="conditions">
+										<input id="chk01" type="checkbox" name="conditions">
 										<label for="chk01">Condition 1</label>
 									</div>
 									<div class="operation-btns pull-right">
@@ -329,7 +340,7 @@
 								</div>
 								<div class="condition-list-row clearfix">
 									<div class="checkbox checkbox-inline">
-										<input id="chk02" type="checkbox" checked="checked" name="conditions">
+										<input id="chk02" type="checkbox" name="conditions">
 										<label for="chk02">Condition 2</label>
 									</div>
 									<div class="operation-btns pull-right">
@@ -340,13 +351,19 @@
 								</div>
 							</div>
 							<div class="title">
-								<h2 id="anchor-calendar">Room type</h2>
+								<h2 id="anchor-room-type">Room type</h2>
 								<span class="title-info">Choose your type of room</span>
 							</div>
 							<div class="room-types">
 								<div class="room-type-section">
 									<div class="room-type-ttl">
 										<strong class="name">Standard room type</strong>
+										<div class="discount-col">
+											<div class="discount-labels">
+												<div class="discount-label">50%</div>
+												<div class="discount-label">Special <br>price</div>
+											</div>
+										</div>
 										<div class="persons-col">
 											<div class="persons-h">
 												<div class="adults">
@@ -354,17 +371,10 @@
 													<i class="gl-ico gl-ico-person"></i>
 													<i class="gl-ico gl-ico-person"></i>
 												</div>
-												<i class="gl-ico gl-ico-plus"></i>
 												<div class="children">
 													<i class="gl-ico gl-ico-person"></i>
 													<i class="gl-ico gl-ico-person"></i>
 												</div>
-											</div>
-										</div>
-										<div class="discount-col">
-											<div class="discount-labels">
-												<div class="discount-label">50%</div>
-												<div class="discount-label">Special <br>price</div>
 											</div>
 										</div>
 										<div class="room-type-price">
@@ -376,6 +386,204 @@
 										<a data-toggle="collapse" href="#types01" aria-expanded="false" class="btn btn-primary collapsed"><i class="gl-ico gl-ico-arrow-up"></i></a>
 									</div>
 									<div id="types01" class="categories-drop collapse">
+										<div class="categories-area">
+											<div class="col">
+												<strong class="category-name"><i class="gl-ico gl-ico-wifi"></i>Category name</strong>
+												<ul class="marked-list">
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+												</ul>
+												<strong class="category-name"><i class="gl-ico gl-ico-tv"></i>Category name</strong>
+												<ul class="marked-list">
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+												</ul>
+											</div>
+											<div class="col">
+												<strong class="category-name"><i class="gl-ico gl-ico-bathroom"></i>bathroom name</strong>
+												<strong class="category-name"><i class="gl-ico gl-ico-balcony"></i>balcony name</strong>
+												<strong class="category-name"><i class="gl-ico gl-ico-bar"></i>bar name</strong>
+												<strong class="category-name"><i class="gl-ico gl-ico-conditioning"></i>conditioning name</strong>
+												<strong class="category-name"><i class="gl-ico gl-ico-dinner"></i>dinner name</strong>
+												<strong class="category-name"><i class="gl-ico gl-ico-disability"></i>disability name</strong>
+												<strong class="category-name"><i class="gl-ico gl-ico-internet"></i>internet name</strong>
+												<strong class="category-name"><i class="gl-ico gl-ico-kitchen"></i>kitchen name</strong>
+												<strong class="category-name"><i class="gl-ico gl-ico-washing"></i>washing name</strong>
+												<strong class="category-name"><i class="gl-ico gl-ico-bedroom"></i>bedroom name</strong>
+
+											</div>
+											<div class="col">
+												<strong class="category-name"><i class="gl-ico gl-ico-wifi"></i>Category name</strong>
+												<ul class="marked-list">
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+												</ul>
+												<strong class="category-name"><i class="gl-ico gl-ico-tv"></i>Category name</strong>
+												<ul class="marked-list">
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="boarding-selection">
+										<div class="item">
+											<div class="check-col">
+												<div class="checkbox checkbox-inline">
+													<input id="chk10" type="checkbox" name="conditions">
+													<label for="chk10">No boarding</label>
+												</div>
+											</div>
+											<div class="person-num-col">
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >1 Room <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">1</span>Childrens</strong>
+																	<em class="person-info">Age 2 -12 </em>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="total-col">
+												<strong class="total">TOTAL <span>$34</span></strong>
+											</div>
+										</div>
+										<div class="item disabled">
+											<div class="check-col">
+												<div class="checkbox checkbox-inline">
+													<input id="chk11" type="checkbox" name="conditions">
+													<label for="chk11">Half boarding</label>
+												</div>
+												<span class="availability-info">sorry, room not available on this period</span>
+											</div>
+											<div class="person-num-col">
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >1 Room <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">1</span>Childrens</strong>
+																	<em class="person-info">Age 2 -12 </em>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="total-col">
+												<strong class="total">TOTAL <span>$34</span></strong>
+											</div>
+										</div>
+										<div class="item">
+											<div class="check-col">
+												<div class="checkbox checkbox-inline">
+													<input id="chk12" type="checkbox" name="conditions">
+													<label for="chk12">Full boarding</label>
+												</div>
+											</div>
+											<div class="person-num-col">
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >1 Room <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">1</span>Childrens</strong>
+																	<em class="person-info">Age 2 -12 </em>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="total-col">
+												<strong class="total">TOTAL <span>$34</span></strong>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="room-type-section">
+									<div class="room-type-ttl">
+										<strong class="name">Double standard super comfort</strong>
+										<div class="discount-col">
+											<div class="discount-labels">
+												<div class="discount-label">50%</div>
+											</div>
+										</div>
+										<div class="persons-col">
+											<div class="persons-h">
+												<div class="adults">
+													<i class="gl-ico gl-ico-person"></i>
+													<span class="num">x <strong>999</strong></span>
+												</div>
+												<div class="children">
+													<i class="gl-ico gl-ico-person"></i>
+													<span class="num">x <strong>999</strong></span>
+												</div>
+											</div>
+										</div>
+										<div class="room-type-price">
+											<div class="room-type-price-h">
+												<span>From</span>
+												<strong>$34</strong>
+											</div>
+										</div>
+										<a data-toggle="collapse" href="#types02" aria-expanded="false" class="btn btn-primary collapsed"><i class="gl-ico gl-ico-arrow-up"></i></a>
+									</div>
+									<div id="types02" class="categories-drop collapse">
 										<div class="categories-area">
 											<div class="col">
 												<strong class="category-name"><i class="gl-ico gl-ico-wifi"></i>Category name</strong>
@@ -428,8 +636,8 @@
 										<div class="item">
 											<div class="check-col">
 												<div class="checkbox checkbox-inline">
-													<input id="chk10" type="checkbox" checked="checked" name="conditions">
-													<label for="chk10">No boarding</label>
+													<input id="chk20" type="checkbox" name="conditions">
+													<label for="chk20">No boarding</label>
 												</div>
 											</div>
 											<div class="person-num-col">
@@ -467,47 +675,8 @@
 										<div class="item">
 											<div class="check-col">
 												<div class="checkbox checkbox-inline">
-													<input id="chk11" type="checkbox" checked="checked" name="conditions">
-													<label for="chk11">No boarding</label>
-												</div>
-											</div>
-											<div class="person-num-col">
-												<div class="person-num">
-													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >1 Room <i class="gl-ico gl-ico-arrow-down"></i></span>
-													<div class="drop-content hide">
-														<div class="person-num-holder">
-															<div class="person-row">
-																<div class="operation-btns pull-right">
-																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-																</div>
-																<div class="text-h">
-																	<strong class=""><span class="">2</span>Adult</strong>
-																</div>
-															</div>
-															<div class="person-row">
-																<div class="operation-btns pull-right">
-																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-																</div>
-																<div class="text-h">
-																	<strong class=""><span class="">1</span>Childrens</strong>
-																	<em class="person-info">Age 2 -12 </em>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="total-col">
-												<strong class="total">TOTAL <span>$34</span></strong>
-											</div>
-										</div>
-										<div class="item">
-											<div class="check-col">
-												<div class="checkbox checkbox-inline">
-													<input id="chk12" type="checkbox" checked="checked" name="conditions">
-													<label for="chk12">No boarding</label>
+													<input id="chk21" type="checkbox" name="conditions">
+													<label for="chk21">Full boarding</label>
 												</div>
 											</div>
 											<div class="person-num-col">
@@ -544,6 +713,290 @@
 										</div>
 									</div>
 								</div>
+								<div class="room-type-section">
+									<div class="room-type-ttl">
+										<strong class="name">Super luxury comfort plus</strong>
+										<div class="discount-col">
+											<div class="discount-labels">
+												<div class="discount-label">50%</div>
+											</div>
+										</div>
+										<div class="persons-col">
+											<div class="persons-h">
+												<div class="adults">
+													<i class="gl-ico gl-ico-person"></i>
+													<i class="gl-ico gl-ico-person"></i>
+													<i class="gl-ico gl-ico-person"></i>
+													<i class="gl-ico gl-ico-person"></i>
+													<i class="gl-ico gl-ico-person"></i>
+													<i class="gl-ico gl-ico-person"></i>
+													<i class="gl-ico gl-ico-person"></i>
+												</div>
+												<div class="children">
+													<i class="gl-ico gl-ico-person"></i>
+													<i class="gl-ico gl-ico-person"></i>
+													<i class="gl-ico gl-ico-person"></i>
+													<i class="gl-ico gl-ico-person"></i>
+													<i class="gl-ico gl-ico-person"></i>
+												</div>
+											</div>
+										</div>
+										<div class="room-type-price">
+											<div class="room-type-price-h">
+												<span>From</span>
+												<strong>$34</strong>
+											</div>
+										</div>
+										<a data-toggle="collapse" href="#types03" aria-expanded="false" class="btn btn-primary collapsed"><i class="gl-ico gl-ico-arrow-up"></i></a>
+									</div>
+									<div id="types03" class="categories-drop collapse">
+										<div class="categories-area">
+											<div class="col">
+												<strong class="category-name"><i class="gl-ico gl-ico-wifi"></i>Category name</strong>
+												<ul class="marked-list">
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+												</ul>
+												<strong class="category-name"><i class="gl-ico gl-ico-tv"></i>Category name</strong>
+												<ul class="marked-list">
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+												</ul>
+											</div>
+											<div class="col">
+												<strong class="category-name"><i class="gl-ico gl-ico-wifi"></i>Category name</strong>
+												<ul class="marked-list">
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+												</ul>
+											</div>
+											<div class="col">
+												<strong class="category-name"><i class="gl-ico gl-ico-wifi"></i>Category name</strong>
+												<ul class="marked-list">
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+												</ul>
+												<strong class="category-name"><i class="gl-ico gl-ico-tv"></i>Category name</strong>
+												<ul class="marked-list">
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+													<li><i class="gl-ico gl-ico-check-mark-button"></i> Lorem Ipsum is simply</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="boarding-selection">
+										<div class="item">
+											<div class="check-col">
+												<div class="checkbox checkbox-inline">
+													<input id="chk30" type="checkbox" name="conditions">
+													<label for="chk30">No boarding</label>
+												</div>
+											</div>
+											<div class="person-num-col">
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >1 Room <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">1</span>Childrens</strong>
+																	<em class="person-info">Age 2 -12 </em>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="total-col">
+												<strong class="total">TOTAL <span>$34</span></strong>
+											</div>
+										</div>
+										<div class="item">
+											<div class="check-col">
+												<div class="checkbox checkbox-inline">
+													<input id="chk31" type="checkbox" name="conditions">
+													<label for="chk31">Half boarding</label>
+												</div>
+											</div>
+											<div class="person-num-col">
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >1 Room <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">1</span>Childrens</strong>
+																	<em class="person-info">Age 2 -12 </em>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="total-col">
+												<strong class="total">TOTAL <span>$34</span></strong>
+											</div>
+										</div>
+										<div class="item">
+											<div class="check-col">
+												<div class="checkbox checkbox-inline">
+													<input id="chk32" type="checkbox" name="conditions">
+													<label for="chk32">Full boarding</label>
+												</div>
+											</div>
+											<div class="person-num-col">
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >1 Room <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">1</span>Childrens</strong>
+																	<em class="person-info">Age 2 -12 </em>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="total-col">
+												<strong class="total">TOTAL <span>$34</span></strong>
+											</div>
+										</div>
+										<div class="item">
+											<div class="check-col">
+												<div class="checkbox checkbox-inline">
+													<input id="chk33" type="checkbox" name="conditions">
+													<label for="chk33">Self catering</label>
+												</div>
+											</div>
+											<div class="person-num-col">
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >1 Room <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">1</span>Childrens</strong>
+																	<em class="person-info">Age 2 -12 </em>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="total-col">
+												<strong class="total">TOTAL <span>$34</span></strong>
+											</div>
+										</div>
+										<div class="item">
+											<div class="check-col">
+												<div class="checkbox checkbox-inline">
+													<input id="chk34" type="checkbox" name="conditions">
+													<label for="chk34">Buffet breakfast</label>
+												</div>
+											</div>
+											<div class="person-num-col">
+												<div class="person-num">
+													<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >1 Room <i class="gl-ico gl-ico-arrow-down"></i></span>
+													<div class="drop-content hide">
+														<div class="person-num-holder">
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">2</span>Adult</strong>
+																</div>
+															</div>
+															<div class="person-row">
+																<div class="operation-btns pull-right">
+																	<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
+																	<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																</div>
+																<div class="text-h">
+																	<strong class=""><span class="">1</span>Childrens</strong>
+																	<em class="person-info">Age 2 -12 </em>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="total-col">
+												<strong class="total">TOTAL <span>$34</span></strong>
+											</div>
+										</div>
+									</div>
+								</div>
+								<span class="info-desc">* Price only for <strong>5 adult</strong> &amp; <strong>3 room</strong>. More details view on payment page.</span>
 							</div>
 						</div>
 						<div class="content-box">
@@ -922,7 +1375,7 @@
 								<div class="tags-box">
 									<div class="tags-ttl-holder rating-wrap-ttl">
 										<strong class="tags-ttl">Set a rating </strong>
-										<input class="rating" value="3" data-step=1 data-size="lg" data-symbol="&#xe018;" data-glyphicon="false" data-rating-class="rating-gloobers" >
+										<input class="rating" value="3" data-step=1 data-size="lg" data-symbol="&#xe026;" data-glyphicon="false" data-rating-class="rating-gloobers" >
 									</div>
 								</div>
 								<div class="tags-box">
@@ -999,6 +1452,7 @@
 	<script src="js/star-rating.min.js"></script>
 
 	<script src="js/scroll-menu.js"></script>
+	<script src="js/loadingoverlay.min.js"></script>
 
 	<script src="js/main.js"></script>
 

@@ -44,95 +44,128 @@
 	@if $filename == arrow-up {
 		$char: \E005;
 	}
-	@if $filename == briefcase {
+	@if $filename == balcony {
 		$char: \E006;
 	}
-	@if $filename == calendar {
+	@if $filename == bar {
 		$char: \E007;
 	}
-	@if $filename == check-mark-button {
+	@if $filename == bathroom {
 		$char: \E008;
 	}
-	@if $filename == check {
+	@if $filename == bedroom {
 		$char: \E009;
 	}
-	@if $filename == facebook {
+	@if $filename == briefcase {
 		$char: \E00A;
 	}
-	@if $filename == family {
+	@if $filename == calendar {
 		$char: \E00B;
 	}
-	@if $filename == google-plus {
+	@if $filename == check-mark-button {
 		$char: \E00C;
 	}
-	@if $filename == heart {
+	@if $filename == check {
 		$char: \E00D;
 	}
-	@if $filename == home-user {
+	@if $filename == close-cross {
 		$char: \E00E;
 	}
-	@if $filename == home {
+	@if $filename == conditioning {
 		$char: \E00F;
 	}
-	@if $filename == instagram {
+	@if $filename == dinner {
 		$char: \E010;
 	}
-	@if $filename == like {
+	@if $filename == disability {
 		$char: \E011;
 	}
-	@if $filename == logo {
+	@if $filename == facebook {
 		$char: \E012;
 	}
-	@if $filename == mail {
+	@if $filename == family {
 		$char: \E013;
 	}
-	@if $filename == marker {
+	@if $filename == google-plus {
 		$char: \E014;
 	}
-	@if $filename == minus {
+	@if $filename == heart {
 		$char: \E015;
 	}
-	@if $filename == person {
+	@if $filename == home-user {
 		$char: \E016;
 	}
-	@if $filename == photo-camera {
+	@if $filename == home {
 		$char: \E017;
 	}
-	@if $filename == plus-rounded {
+	@if $filename == instagram {
 		$char: \E018;
 	}
-	@if $filename == plus {
+	@if $filename == internet {
 		$char: \E019;
 	}
-	@if $filename == push-pin {
+	@if $filename == kitchen {
 		$char: \E01A;
 	}
-	@if $filename == school-book-bag {
+	@if $filename == like {
 		$char: \E01B;
 	}
-	@if $filename == star {
+	@if $filename == logo {
 		$char: \E01C;
 	}
-	@if $filename == street-map {
+	@if $filename == mail {
 		$char: \E01D;
 	}
-	@if $filename == tv {
+	@if $filename == marker {
 		$char: \E01E;
 	}
-	@if $filename == twitter {
+	@if $filename == minus {
 		$char: \E01F;
 	}
-	@if $filename == user {
+	@if $filename == person {
 		$char: \E020;
 	}
-	@if $filename == users-group {
+	@if $filename == photo-camera {
 		$char: \E021;
 	}
-	@if $filename == users {
+	@if $filename == plus-rounded {
 		$char: \E022;
 	}
-	@if $filename == wifi {
+	@if $filename == plus {
 		$char: \E023;
+	}
+	@if $filename == push-pin {
+		$char: \E024;
+	}
+	@if $filename == school-book-bag {
+		$char: \E025;
+	}
+	@if $filename == star {
+		$char: \E026;
+	}
+	@if $filename == street-map {
+		$char: \E027;
+	}
+	@if $filename == tv {
+		$char: \E028;
+	}
+	@if $filename == twitter {
+		$char: \E029;
+	}
+	@if $filename == user {
+		$char: \E02A;
+	}
+	@if $filename == users-group {
+		$char: \E02B;
+	}
+	@if $filename == users {
+		$char: \E02C;
+	}
+	@if $filename == washing {
+		$char: \E02D;
+	}
+	@if $filename == wifi {
+		$char: \E02E;
 	}
 
 	@return $char;
@@ -167,6 +200,18 @@
 .gl-ico-arrow-up {
 	@include gl-ico(arrow-up);
 }
+.gl-ico-balcony {
+	@include gl-ico(balcony);
+}
+.gl-ico-bar {
+	@include gl-ico(bar);
+}
+.gl-ico-bathroom {
+	@include gl-ico(bathroom);
+}
+.gl-ico-bedroom {
+	@include gl-ico(bedroom);
+}
 .gl-ico-briefcase {
 	@include gl-ico(briefcase);
 }
@@ -178,6 +223,18 @@
 }
 .gl-ico-check {
 	@include gl-ico(check);
+}
+.gl-ico-close-cross {
+	@include gl-ico(close-cross);
+}
+.gl-ico-conditioning {
+	@include gl-ico(conditioning);
+}
+.gl-ico-dinner {
+	@include gl-ico(dinner);
+}
+.gl-ico-disability {
+	@include gl-ico(disability);
 }
 .gl-ico-facebook {
 	@include gl-ico(facebook);
@@ -199,6 +256,12 @@
 }
 .gl-ico-instagram {
 	@include gl-ico(instagram);
+}
+.gl-ico-internet {
+	@include gl-ico(internet);
+}
+.gl-ico-kitchen {
+	@include gl-ico(kitchen);
 }
 .gl-ico-like {
 	@include gl-ico(like);
@@ -253,6 +316,9 @@
 }
 .gl-ico-users {
 	@include gl-ico(users);
+}
+.gl-ico-washing {
+	@include gl-ico(washing);
 }
 .gl-ico-wifi {
 	@include gl-ico(wifi);
