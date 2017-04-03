@@ -473,7 +473,8 @@ $(document).ready(function() {
 
 if($('.sel').length != 0) {
 	Select.init({
-		selector: '.sel'
+		selector: '.sel',
+		className: 'select-theme-default pass-sel'
 	});
 }
 

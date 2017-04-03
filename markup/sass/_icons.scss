@@ -29,143 +29,323 @@
 @function gl-ico-char($filename) {
 	$char: "";
 	
-	@if $filename == airplane {
+	@if $filename == africa {
 		$char: \E001;
 	}
-	@if $filename == arrow-down {
+	@if $filename == airplane {
 		$char: \E002;
 	}
-	@if $filename == arrow-left {
+	@if $filename == ambiance {
 		$char: \E003;
 	}
-	@if $filename == arrow-right {
+	@if $filename == americas {
 		$char: \E004;
 	}
-	@if $filename == arrow-up {
+	@if $filename == arrow-down {
 		$char: \E005;
 	}
-	@if $filename == balcony {
+	@if $filename == arrow-left {
 		$char: \E006;
 	}
-	@if $filename == bar {
+	@if $filename == arrow-right {
 		$char: \E007;
 	}
-	@if $filename == bathroom {
+	@if $filename == arrow-up {
 		$char: \E008;
 	}
-	@if $filename == bedroom {
+	@if $filename == art-culture {
 		$char: \E009;
 	}
-	@if $filename == briefcase {
+	@if $filename == asia-pacific {
 		$char: \E00A;
 	}
-	@if $filename == calendar {
+	@if $filename == balcony {
 		$char: \E00B;
 	}
-	@if $filename == check-mark-button {
+	@if $filename == bar {
 		$char: \E00C;
 	}
-	@if $filename == check {
+	@if $filename == bathroom {
 		$char: \E00D;
 	}
-	@if $filename == close-cross {
+	@if $filename == beach {
 		$char: \E00E;
 	}
-	@if $filename == conditioning {
+	@if $filename == bedroom {
 		$char: \E00F;
 	}
-	@if $filename == dinner {
+	@if $filename == bike {
 		$char: \E010;
 	}
-	@if $filename == disability {
+	@if $filename == boutique {
 		$char: \E011;
 	}
-	@if $filename == facebook {
+	@if $filename == briefcase {
 		$char: \E012;
 	}
-	@if $filename == family {
+	@if $filename == business {
 		$char: \E013;
 	}
-	@if $filename == google-plus {
+	@if $filename == calendar {
 		$char: \E014;
 	}
-	@if $filename == heart {
+	@if $filename == campaign {
 		$char: \E015;
 	}
-	@if $filename == home-user {
+	@if $filename == casino {
 		$char: \E016;
 	}
-	@if $filename == home {
+	@if $filename == catering {
 		$char: \E017;
 	}
-	@if $filename == instagram {
+	@if $filename == check-mark-button {
 		$char: \E018;
 	}
-	@if $filename == internet {
+	@if $filename == check {
 		$char: \E019;
 	}
-	@if $filename == kitchen {
+	@if $filename == close-cross {
 		$char: \E01A;
 	}
-	@if $filename == like {
+	@if $filename == conceptual {
 		$char: \E01B;
 	}
-	@if $filename == logo {
+	@if $filename == conditioning {
 		$char: \E01C;
 	}
-	@if $filename == mail {
+	@if $filename == dinner {
 		$char: \E01D;
 	}
-	@if $filename == marker {
+	@if $filename == disability {
 		$char: \E01E;
 	}
-	@if $filename == minus {
+	@if $filename == distances {
 		$char: \E01F;
 	}
-	@if $filename == person {
+	@if $filename == entertainment {
 		$char: \E020;
 	}
-	@if $filename == photo-camera {
+	@if $filename == europe {
 		$char: \E021;
 	}
-	@if $filename == plus-rounded {
+	@if $filename == facebook {
 		$char: \E022;
 	}
-	@if $filename == plus {
+	@if $filename == facilities {
 		$char: \E023;
 	}
-	@if $filename == push-pin {
+	@if $filename == facilities01 {
 		$char: \E024;
 	}
-	@if $filename == school-book-bag {
+	@if $filename == family {
 		$char: \E025;
 	}
-	@if $filename == star {
+	@if $filename == fishing {
 		$char: \E026;
 	}
-	@if $filename == street-map {
+	@if $filename == fitness {
 		$char: \E027;
 	}
-	@if $filename == tv {
+	@if $filename == fooding {
 		$char: \E028;
 	}
-	@if $filename == twitter {
+	@if $filename == golf {
 		$char: \E029;
 	}
-	@if $filename == user {
+	@if $filename == google-plus {
 		$char: \E02A;
 	}
-	@if $filename == users-group {
+	@if $filename == health {
 		$char: \E02B;
 	}
-	@if $filename == users {
+	@if $filename == heart {
 		$char: \E02C;
 	}
-	@if $filename == washing {
+	@if $filename == historic {
 		$char: \E02D;
 	}
-	@if $filename == wifi {
+	@if $filename == home-user {
 		$char: \E02E;
+	}
+	@if $filename == home {
+		$char: \E02F;
+	}
+	@if $filename == hotel-type {
+		$char: \E030;
+	}
+	@if $filename == instagram {
+		$char: \E031;
+	}
+	@if $filename == internet {
+		$char: \E032;
+	}
+	@if $filename == kids-activities {
+		$char: \E033;
+	}
+	@if $filename == kitchen {
+		$char: \E034;
+	}
+	@if $filename == like {
+		$char: \E035;
+	}
+	@if $filename == local-culture {
+		$char: \E036;
+	}
+	@if $filename == location {
+		$char: \E037;
+	}
+	@if $filename == logo {
+		$char: \E038;
+	}
+	@if $filename == luxury {
+		$char: \E039;
+	}
+	@if $filename == mail {
+		$char: \E03A;
+	}
+	@if $filename == marker-add {
+		$char: \E03B;
+	}
+	@if $filename == marker {
+		$char: \E03C;
+	}
+	@if $filename == meals {
+		$char: \E03D;
+	}
+	@if $filename == methods-of-payment {
+		$char: \E03E;
+	}
+	@if $filename == minus {
+		$char: \E03F;
+	}
+	@if $filename == motor-sports {
+		$char: \E040;
+	}
+	@if $filename == music {
+		$char: \E041;
+	}
+	@if $filename == nightlife  {
+		$char: \E042;
+	}
+	@if $filename == nightlife {
+		$char: \E043;
+	}
+	@if $filename == person {
+		$char: \E044;
+	}
+	@if $filename == photo-camera {
+		$char: \E045;
+	}
+	@if $filename == photography {
+		$char: \E046;
+	}
+	@if $filename == plus-rounded {
+		$char: \E047;
+	}
+	@if $filename == plus {
+		$char: \E048;
+	}
+	@if $filename == points-of-interest {
+		$char: \E049;
+	}
+	@if $filename == pool {
+		$char: \E04A;
+	}
+	@if $filename == push-pin {
+		$char: \E04B;
+	}
+	@if $filename == road-trips {
+		$char: \E04C;
+	}
+	@if $filename == room-distribution-alt {
+		$char: \E04D;
+	}
+	@if $filename == room-distribution {
+		$char: \E04E;
+	}
+	@if $filename == room-facilities {
+		$char: \E04F;
+	}
+	@if $filename == sailing {
+		$char: \E050;
+	}
+	@if $filename == school-book-bag {
+		$char: \E051;
+	}
+	@if $filename == scuba-diving {
+		$char: \E052;
+	}
+	@if $filename == sea-view {
+		$char: \E053;
+	}
+	@if $filename == shopping {
+		$char: \E054;
+	}
+	@if $filename == sightseeing {
+		$char: \E055;
+	}
+	@if $filename == ski {
+		$char: \E056;
+	}
+	@if $filename == spa {
+		$char: \E057;
+	}
+	@if $filename == sports {
+		$char: \E058;
+	}
+	@if $filename == staff {
+		$char: \E059;
+	}
+	@if $filename == star {
+		$char: \E05A;
+	}
+	@if $filename == street-map {
+		$char: \E05B;
+	}
+	@if $filename == things-to-keep-in-mind {
+		$char: \E05C;
+	}
+	@if $filename == transportation {
+		$char: \E05D;
+	}
+	@if $filename == trekking {
+		$char: \E05E;
+	}
+	@if $filename == tv {
+		$char: \E05F;
+	}
+	@if $filename == twitter {
+		$char: \E060;
+	}
+	@if $filename == user {
+		$char: \E061;
+	}
+	@if $filename == users-group {
+		$char: \E062;
+	}
+	@if $filename == users {
+		$char: \E063;
+	}
+	@if $filename == washing {
+		$char: \E064;
+	}
+	@if $filename == water-sports {
+		$char: \E065;
+	}
+	@if $filename == wellness {
+		$char: \E066;
+	}
+	@if $filename == wifi {
+		$char: \E067;
+	}
+	@if $filename == wildlife {
+		$char: \E068;
+	}
+	@if $filename == wine {
+		$char: \E069;
+	}
+	@if $filename == worldwide {
+		$char: \E06A;
 	}
 
 	@return $char;
@@ -185,8 +365,17 @@
 	}
 }
 
+.gl-ico-africa {
+	@include gl-ico(africa);
+}
 .gl-ico-airplane {
 	@include gl-ico(airplane);
+}
+.gl-ico-ambiance {
+	@include gl-ico(ambiance);
+}
+.gl-ico-americas {
+	@include gl-ico(americas);
 }
 .gl-ico-arrow-down {
 	@include gl-ico(arrow-down);
@@ -200,6 +389,12 @@
 .gl-ico-arrow-up {
 	@include gl-ico(arrow-up);
 }
+.gl-ico-art-culture {
+	@include gl-ico(art-culture);
+}
+.gl-ico-asia-pacific {
+	@include gl-ico(asia-pacific);
+}
 .gl-ico-balcony {
 	@include gl-ico(balcony);
 }
@@ -209,14 +404,35 @@
 .gl-ico-bathroom {
 	@include gl-ico(bathroom);
 }
+.gl-ico-beach {
+	@include gl-ico(beach);
+}
 .gl-ico-bedroom {
 	@include gl-ico(bedroom);
+}
+.gl-ico-bike {
+	@include gl-ico(bike);
+}
+.gl-ico-boutique {
+	@include gl-ico(boutique);
 }
 .gl-ico-briefcase {
 	@include gl-ico(briefcase);
 }
+.gl-ico-business {
+	@include gl-ico(business);
+}
 .gl-ico-calendar {
 	@include gl-ico(calendar);
+}
+.gl-ico-campaign {
+	@include gl-ico(campaign);
+}
+.gl-ico-casino {
+	@include gl-ico(casino);
+}
+.gl-ico-catering {
+	@include gl-ico(catering);
 }
 .gl-ico-check-mark-button {
 	@include gl-ico(check-mark-button);
@@ -227,6 +443,9 @@
 .gl-ico-close-cross {
 	@include gl-ico(close-cross);
 }
+.gl-ico-conceptual {
+	@include gl-ico(conceptual);
+}
 .gl-ico-conditioning {
 	@include gl-ico(conditioning);
 }
@@ -236,17 +455,50 @@
 .gl-ico-disability {
 	@include gl-ico(disability);
 }
+.gl-ico-distances {
+	@include gl-ico(distances);
+}
+.gl-ico-entertainment {
+	@include gl-ico(entertainment);
+}
+.gl-ico-europe {
+	@include gl-ico(europe);
+}
 .gl-ico-facebook {
 	@include gl-ico(facebook);
+}
+.gl-ico-facilities {
+	@include gl-ico(facilities);
+}
+.gl-ico-facilities01 {
+	@include gl-ico(facilities01);
 }
 .gl-ico-family {
 	@include gl-ico(family);
 }
+.gl-ico-fishing {
+	@include gl-ico(fishing);
+}
+.gl-ico-fitness {
+	@include gl-ico(fitness);
+}
+.gl-ico-fooding {
+	@include gl-ico(fooding);
+}
+.gl-ico-golf {
+	@include gl-ico(golf);
+}
 .gl-ico-google-plus {
 	@include gl-ico(google-plus);
 }
+.gl-ico-health {
+	@include gl-ico(health);
+}
 .gl-ico-heart {
 	@include gl-ico(heart);
+}
+.gl-ico-historic {
+	@include gl-ico(historic);
 }
 .gl-ico-home-user {
 	@include gl-ico(home-user);
@@ -254,11 +506,17 @@
 .gl-ico-home {
 	@include gl-ico(home);
 }
+.gl-ico-hotel-type {
+	@include gl-ico(hotel-type);
+}
 .gl-ico-instagram {
 	@include gl-ico(instagram);
 }
 .gl-ico-internet {
 	@include gl-ico(internet);
+}
+.gl-ico-kids-activities {
+	@include gl-ico(kids-activities);
 }
 .gl-ico-kitchen {
 	@include gl-ico(kitchen);
@@ -266,17 +524,47 @@
 .gl-ico-like {
 	@include gl-ico(like);
 }
+.gl-ico-local-culture {
+	@include gl-ico(local-culture);
+}
+.gl-ico-location {
+	@include gl-ico(location);
+}
 .gl-ico-logo {
 	@include gl-ico(logo);
+}
+.gl-ico-luxury {
+	@include gl-ico(luxury);
 }
 .gl-ico-mail {
 	@include gl-ico(mail);
 }
+.gl-ico-marker-add {
+	@include gl-ico(marker-add);
+}
 .gl-ico-marker {
 	@include gl-ico(marker);
 }
+.gl-ico-meals {
+	@include gl-ico(meals);
+}
+.gl-ico-methods-of-payment {
+	@include gl-ico(methods-of-payment);
+}
 .gl-ico-minus {
 	@include gl-ico(minus);
+}
+.gl-ico-motor-sports {
+	@include gl-ico(motor-sports);
+}
+.gl-ico-music {
+	@include gl-ico(music);
+}
+.gl-ico-nightlife  {
+	@include gl-ico(nightlife );
+}
+.gl-ico-nightlife {
+	@include gl-ico(nightlife);
 }
 .gl-ico-person {
 	@include gl-ico(person);
@@ -284,23 +572,80 @@
 .gl-ico-photo-camera {
 	@include gl-ico(photo-camera);
 }
+.gl-ico-photography {
+	@include gl-ico(photography);
+}
 .gl-ico-plus-rounded {
 	@include gl-ico(plus-rounded);
 }
 .gl-ico-plus {
 	@include gl-ico(plus);
 }
+.gl-ico-points-of-interest {
+	@include gl-ico(points-of-interest);
+}
+.gl-ico-pool {
+	@include gl-ico(pool);
+}
 .gl-ico-push-pin {
 	@include gl-ico(push-pin);
 }
+.gl-ico-road-trips {
+	@include gl-ico(road-trips);
+}
+.gl-ico-room-distribution-alt {
+	@include gl-ico(room-distribution-alt);
+}
+.gl-ico-room-distribution {
+	@include gl-ico(room-distribution);
+}
+.gl-ico-room-facilities {
+	@include gl-ico(room-facilities);
+}
+.gl-ico-sailing {
+	@include gl-ico(sailing);
+}
 .gl-ico-school-book-bag {
 	@include gl-ico(school-book-bag);
+}
+.gl-ico-scuba-diving {
+	@include gl-ico(scuba-diving);
+}
+.gl-ico-sea-view {
+	@include gl-ico(sea-view);
+}
+.gl-ico-shopping {
+	@include gl-ico(shopping);
+}
+.gl-ico-sightseeing {
+	@include gl-ico(sightseeing);
+}
+.gl-ico-ski {
+	@include gl-ico(ski);
+}
+.gl-ico-spa {
+	@include gl-ico(spa);
+}
+.gl-ico-sports {
+	@include gl-ico(sports);
+}
+.gl-ico-staff {
+	@include gl-ico(staff);
 }
 .gl-ico-star {
 	@include gl-ico(star);
 }
 .gl-ico-street-map {
 	@include gl-ico(street-map);
+}
+.gl-ico-things-to-keep-in-mind {
+	@include gl-ico(things-to-keep-in-mind);
+}
+.gl-ico-transportation {
+	@include gl-ico(transportation);
+}
+.gl-ico-trekking {
+	@include gl-ico(trekking);
 }
 .gl-ico-tv {
 	@include gl-ico(tv);
@@ -320,6 +665,21 @@
 .gl-ico-washing {
 	@include gl-ico(washing);
 }
+.gl-ico-water-sports {
+	@include gl-ico(water-sports);
+}
+.gl-ico-wellness {
+	@include gl-ico(wellness);
+}
 .gl-ico-wifi {
 	@include gl-ico(wifi);
+}
+.gl-ico-wildlife {
+	@include gl-ico(wildlife);
+}
+.gl-ico-wine {
+	@include gl-ico(wine);
+}
+.gl-ico-worldwide {
+	@include gl-ico(worldwide);
 }

@@ -66,188 +66,428 @@ table {
   display: inline-block;
 }
 
-.gl-ico-airplane:before {
+.gl-ico-africa:before {
   content: "\E001";
 }
 
-.gl-ico-arrow-down:before {
+.gl-ico-airplane:before {
   content: "\E002";
 }
 
-.gl-ico-arrow-left:before {
+.gl-ico-ambiance:before {
   content: "\E003";
 }
 
-.gl-ico-arrow-right:before {
+.gl-ico-americas:before {
   content: "\E004";
 }
 
-.gl-ico-arrow-up:before {
+.gl-ico-arrow-down:before {
   content: "\E005";
 }
 
-.gl-ico-balcony:before {
+.gl-ico-arrow-left:before {
   content: "\E006";
 }
 
-.gl-ico-bar:before {
+.gl-ico-arrow-right:before {
   content: "\E007";
 }
 
-.gl-ico-bathroom:before {
+.gl-ico-arrow-up:before {
   content: "\E008";
 }
 
-.gl-ico-bedroom:before {
+.gl-ico-art-culture:before {
   content: "\E009";
 }
 
-.gl-ico-briefcase:before {
+.gl-ico-asia-pacific:before {
   content: "\E00A";
 }
 
-.gl-ico-calendar:before {
+.gl-ico-balcony:before {
   content: "\E00B";
 }
 
-.gl-ico-check-mark-button:before {
+.gl-ico-bar:before {
   content: "\E00C";
 }
 
-.gl-ico-check:before {
+.gl-ico-bathroom:before {
   content: "\E00D";
 }
 
-.gl-ico-close-cross:before {
+.gl-ico-beach:before {
   content: "\E00E";
 }
 
-.gl-ico-conditioning:before {
+.gl-ico-bedroom:before {
   content: "\E00F";
 }
 
-.gl-ico-dinner:before {
+.gl-ico-bike:before {
   content: "\E010";
 }
 
-.gl-ico-disability:before {
+.gl-ico-boutique:before {
   content: "\E011";
 }
 
-.gl-ico-facebook:before {
+.gl-ico-briefcase:before {
   content: "\E012";
 }
 
-.gl-ico-family:before {
+.gl-ico-business:before {
   content: "\E013";
 }
 
-.gl-ico-google-plus:before {
+.gl-ico-calendar:before {
   content: "\E014";
 }
 
-.gl-ico-heart:before {
+.gl-ico-campaign:before {
   content: "\E015";
 }
 
-.gl-ico-home-user:before {
+.gl-ico-casino:before {
   content: "\E016";
 }
 
-.gl-ico-home:before {
+.gl-ico-catering:before {
   content: "\E017";
 }
 
-.gl-ico-instagram:before {
+.gl-ico-check-mark-button:before {
   content: "\E018";
 }
 
-.gl-ico-internet:before {
+.gl-ico-check:before {
   content: "\E019";
 }
 
-.gl-ico-kitchen:before {
+.gl-ico-close-cross:before {
   content: "\E01A";
 }
 
-.gl-ico-like:before {
+.gl-ico-conceptual:before {
   content: "\E01B";
 }
 
-.gl-ico-logo:before {
+.gl-ico-conditioning:before {
   content: "\E01C";
 }
 
-.gl-ico-mail:before {
+.gl-ico-dinner:before {
   content: "\E01D";
 }
 
-.gl-ico-marker:before {
+.gl-ico-disability:before {
   content: "\E01E";
 }
 
-.gl-ico-minus:before {
+.gl-ico-distances:before {
   content: "\E01F";
 }
 
-.gl-ico-person:before {
+.gl-ico-entertainment:before {
   content: "\E020";
 }
 
-.gl-ico-photo-camera:before {
+.gl-ico-europe:before {
   content: "\E021";
 }
 
-.gl-ico-plus-rounded:before {
+.gl-ico-facebook:before {
   content: "\E022";
 }
 
-.gl-ico-plus:before {
+.gl-ico-facilities:before {
   content: "\E023";
 }
 
-.gl-ico-push-pin:before {
+.gl-ico-facilities01:before {
   content: "\E024";
 }
 
-.gl-ico-school-book-bag:before {
+.gl-ico-family:before {
   content: "\E025";
 }
 
-.gl-ico-star:before {
+.gl-ico-fishing:before {
   content: "\E026";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-fitness:before {
   content: "\E027";
 }
 
-.gl-ico-tv:before {
+.gl-ico-fooding:before {
   content: "\E028";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-golf:before {
   content: "\E029";
 }
 
-.gl-ico-user:before {
+.gl-ico-google-plus:before {
   content: "\E02A";
 }
 
-.gl-ico-users-group:before {
+.gl-ico-health:before {
   content: "\E02B";
 }
 
-.gl-ico-users:before {
+.gl-ico-heart:before {
   content: "\E02C";
 }
 
-.gl-ico-washing:before {
+.gl-ico-historic:before {
   content: "\E02D";
 }
 
-.gl-ico-wifi:before {
+.gl-ico-home-user:before {
   content: "\E02E";
+}
+
+.gl-ico-home:before {
+  content: "\E02F";
+}
+
+.gl-ico-hotel-type:before {
+  content: "\E030";
+}
+
+.gl-ico-instagram:before {
+  content: "\E031";
+}
+
+.gl-ico-internet:before {
+  content: "\E032";
+}
+
+.gl-ico-kids-activities:before {
+  content: "\E033";
+}
+
+.gl-ico-kitchen:before {
+  content: "\E034";
+}
+
+.gl-ico-like:before {
+  content: "\E035";
+}
+
+.gl-ico-local-culture:before {
+  content: "\E036";
+}
+
+.gl-ico-location:before {
+  content: "\E037";
+}
+
+.gl-ico-logo:before {
+  content: "\E038";
+}
+
+.gl-ico-luxury:before {
+  content: "\E039";
+}
+
+.gl-ico-mail:before {
+  content: "\E03A";
+}
+
+.gl-ico-marker-add:before {
+  content: "\E03B";
+}
+
+.gl-ico-marker:before {
+  content: "\E03C";
+}
+
+.gl-ico-meals:before {
+  content: "\E03D";
+}
+
+.gl-ico-methods-of-payment:before {
+  content: "\E03E";
+}
+
+.gl-ico-minus:before {
+  content: "\E03F";
+}
+
+.gl-ico-motor-sports:before {
+  content: "\E040";
+}
+
+.gl-ico-music:before {
+  content: "\E041";
+}
+
+.gl-ico-nightlife:before {
+  content: "\E043";
+}
+
+.gl-ico-nightlife:before {
+  content: "\E043";
+}
+
+.gl-ico-person:before {
+  content: "\E044";
+}
+
+.gl-ico-photo-camera:before {
+  content: "\E045";
+}
+
+.gl-ico-photography:before {
+  content: "\E046";
+}
+
+.gl-ico-plus-rounded:before {
+  content: "\E047";
+}
+
+.gl-ico-plus:before {
+  content: "\E048";
+}
+
+.gl-ico-points-of-interest:before {
+  content: "\E049";
+}
+
+.gl-ico-pool:before {
+  content: "\E04A";
+}
+
+.gl-ico-push-pin:before {
+  content: "\E04B";
+}
+
+.gl-ico-road-trips:before {
+  content: "\E04C";
+}
+
+.gl-ico-room-distribution-alt:before {
+  content: "\E04D";
+}
+
+.gl-ico-room-distribution:before {
+  content: "\E04E";
+}
+
+.gl-ico-room-facilities:before {
+  content: "\E04F";
+}
+
+.gl-ico-sailing:before {
+  content: "\E050";
+}
+
+.gl-ico-school-book-bag:before {
+  content: "\E051";
+}
+
+.gl-ico-scuba-diving:before {
+  content: "\E052";
+}
+
+.gl-ico-sea-view:before {
+  content: "\E053";
+}
+
+.gl-ico-shopping:before {
+  content: "\E054";
+}
+
+.gl-ico-sightseeing:before {
+  content: "\E055";
+}
+
+.gl-ico-ski:before {
+  content: "\E056";
+}
+
+.gl-ico-spa:before {
+  content: "\E057";
+}
+
+.gl-ico-sports:before {
+  content: "\E058";
+}
+
+.gl-ico-staff:before {
+  content: "\E059";
+}
+
+.gl-ico-star:before {
+  content: "\E05A";
+}
+
+.gl-ico-street-map:before {
+  content: "\E05B";
+}
+
+.gl-ico-things-to-keep-in-mind:before {
+  content: "\E05C";
+}
+
+.gl-ico-transportation:before {
+  content: "\E05D";
+}
+
+.gl-ico-trekking:before {
+  content: "\E05E";
+}
+
+.gl-ico-tv:before {
+  content: "\E05F";
+}
+
+.gl-ico-twitter:before {
+  content: "\E060";
+}
+
+.gl-ico-user:before {
+  content: "\E061";
+}
+
+.gl-ico-users-group:before {
+  content: "\E062";
+}
+
+.gl-ico-users:before {
+  content: "\E063";
+}
+
+.gl-ico-washing:before {
+  content: "\E064";
+}
+
+.gl-ico-water-sports:before {
+  content: "\E065";
+}
+
+.gl-ico-wellness:before {
+  content: "\E066";
+}
+
+.gl-ico-wifi:before {
+  content: "\E067";
+}
+
+.gl-ico-wildlife:before {
+  content: "\E068";
+}
+
+.gl-ico-wine:before {
+  content: "\E069";
+}
+
+.gl-ico-worldwide:before {
+  content: "\E06A";
 }
 
 body {
@@ -3347,6 +3587,10 @@ input.daterange-input {
   margin: -10px 0;
 }
 
+.search-bar .btn-search .gl-ico-marker-add {
+  font-size: 26px;
+}
+
 .search-bar input[type="text"] {
   background: none;
   padding: 0;
@@ -3387,6 +3631,10 @@ input.daterange-input {
   font-size: 14px;
   line-height: 17px;
   color: #501e00;
+}
+
+.personal-box .search-bar .ttl, .personal-content-block .search-bar .ttl, .personal-photo .search-bar .ttl, .personal-bg-picture .search-bar .ttl {
+  margin: 0;
 }
 
 .search-bar .tab-content > .tab-pane {
@@ -6344,6 +6592,10 @@ input.daterange-input {
   z-index: 99999;
 }
 
+.drop-element.daterangepicker.dropdown-menu {
+  z-index: 99999;
+}
+
 .headings-menu {
   margin: 0 -15px;
   padding: 0;
@@ -7584,6 +7836,40 @@ input.daterange-input {
   flex: 1;
 }
 
+.passport-map-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.passport-map-nav .search-bar {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #e5e5e5;
+}
+
+.passport-map-nav .ttl {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 40px 0 0;
+}
+
 .personal-content-block {
   padding: 30px;
 }
@@ -7993,4 +8279,9 @@ input.daterange-input {
 /* spinner */
 .loadingoverlay {
   color: #fff;
+}
+
+/* sel */
+.pass-sel {
+  min-width: 265px;
 }

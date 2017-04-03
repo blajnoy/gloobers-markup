@@ -17,6 +17,7 @@
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="css/star-rating.min.css" rel="stylesheet">
 	<link href="css/toggle-switch-px.css" rel="stylesheet">
+	<link href="css/select-theme-default.css" rel="stylesheet">
 
 	<link href="css/cropper.css" rel="stylesheet">
 
@@ -324,49 +325,33 @@
 					</div>
 				</div>
 				<div class="personal-box">
-					<div class="ttl">
-						<h2>Passport</h2>
-						<span class="info-desc">* Add a destination to your passport</span>
-					</div>
-					<div class="search-bar">
-						<div class="tab-content">
-							<div class="tab-pane active" id="tab01">
-								<div class="col col01">
-									<span class="ttl">Where?</span>
-									<input type="text" placeholder="Enter your destination" value="">
-								</div>
-								<div class="col col03">
-									<span class="ttl">Type of trip</span>
-									<div class="person-num">
-										<span class="chosen open-drop" data-offset="-25px -15px" data-theme="drop-theme-arrows-bounce" data-position="bottom left" >6 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
-										<div class="drop-content hide">
-											<div class="person-num-holder">
-												<div class="person-row">
-													<div class="operation-btns pull-right">
-														<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-														<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-													</div>
-													<div class="text-h">
-														<strong><span>2</span>Adult</strong>
-													</div>
-												</div>
-												<div class="person-row">
-													<div class="operation-btns pull-right">
-														<span class="btns-col"><a href="#" class="btn-sub"><i class="gl-ico gl-ico-minus"></i></a></span>
-														<span class="btns-col"><a href="#" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
-													</div>
-													<div class="text-h">
-														<strong class=""><span class="">1</span>Childrens</strong>
-														<em class="person-info">Age 2 -12 </em>
-													</div>
-												</div>
-											</div>
-										</div>
+					<div class="passport-map-nav">
+						<div class="ttl">
+							<h2>Passport</h2>
+							<span class="info-desc">* Add a destination to your passport</span>
+						</div>
+						<div class="search-bar">
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab01">
+									<div class="col col01">
+										<span class="ttl">Where?</span>
+										<input type="text" placeholder="Enter your destination" value="">
+									</div>
+									<div class="col">
+										<span class="ttl">Type of trip</span>
+										<select class="sel" name="" id="wwww">
+											<option>Select category</option>
+											<option>Category #1</option>
+											<option>Category #2</option>
+											<option>Category #3</option>
+											<option>Category #4</option>
+											<option>Category #5</option>
+										</select>
 									</div>
 								</div>
 							</div>
+							<button class="btn-search"><i class="gl-ico gl-ico-marker-add" aria-hidden="true"></i></button>
 						</div>
-						<button class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
 					</div>
 					<div class="passport-map-edit" id="map"></div>
 				</div>
@@ -754,6 +739,8 @@
 	<script src="js/cropper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js" integrity="sha384-tIwI8+qJdZBtYYCKwRkjxBGQVZS3gGozr3CtI+5JF/oL1JmPEHzCEnIKbDbLTCer" crossorigin="anonymous"></script>
 
+
+	<script src="js/select.js"></script>
 
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
 	<script src="https://cdn.sobekrepository.org/includes/gmaps-markerwithlabel/1.9.1/gmaps-markerwithlabel-1.9.1.min.js"></script>
