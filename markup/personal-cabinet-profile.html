@@ -335,22 +335,26 @@
 								<div class="tab-pane active" id="tab01">
 									<div class="col col01">
 										<span class="ttl">Where?</span>
-										<input type="text" placeholder="Enter your destination" value="">
+										<!--<input type="text" placeholder="Enter your destination" value="">-->
+										<input type="text" id="destination-hotel" placeholder="Enter your destination" value="" onclick="hometowngeocode('destination-hotel')" name="destination">
 									</div>
 									<div class="col">
 										<span class="ttl">Type of trip</span>
-										<select class="sel" name="" id="wwww">
+										<select class="sel" name="" id="typeOfTrip">
 											<option>Select category</option>
-											<option>Category #1</option>
-											<option>Category #2</option>
-											<option>Category #3</option>
-											<option>Category #4</option>
-											<option>Category #5</option>
+											<option value="1">I live there</option>
+											<option value="2">I've been living there</option>
+											<option value="3">I've been there in a business trip</option>
+											<option value="4">I've been there in a romantic trip</option>
+											<option value="5">I've been there with a group</option>
+											<option value="6">I've been there alone</option>
+											<option value="7">I've been there with the friend</option>
+											<option value="8">I've been in a family trip</option>
 										</select>
 									</div>
 								</div>
 							</div>
-							<button class="btn-search"><i class="gl-ico gl-ico-marker-add" aria-hidden="true"></i></button>
+							<button class="btn-search" id="addPlace"><i class="gl-ico gl-ico-marker-add" aria-hidden="true"></i></button>
 						</div>
 					</div>
 					<div class="passport-map-edit" id="map"></div>
@@ -742,7 +746,10 @@
 
 	<script src="js/select.js"></script>
 
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false &libraries=places&language=en"></script>
+	<!--<script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyA9ZXW_xxCYbGV5hAN13jO2yquESD3MY10 &libraries=places&language=en" async defer></script>-->
+
+
 	<script src="https://cdn.sobekrepository.org/includes/gmaps-markerwithlabel/1.9.1/gmaps-markerwithlabel-1.9.1.min.js"></script>
 
 	<script src="js/main.js"></script>
