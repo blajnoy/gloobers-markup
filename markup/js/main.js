@@ -1,5 +1,54 @@
 $(document).ready(function () {
 
+
+    /* PASSIONS SELECTING */
+
+    var passionsList = [];
+
+
+    $('#passions-selecting').on('click', '.item', function () {
+        var elm = $(this);
+        var id = elm.data('itemId');
+
+        if( !elm.hasClass('selected') ) {
+            elm.addClass('selected');
+            addPassionInArray(id);
+        } else {
+            elm.removeClass('selected');
+            removePassionInArray(id);
+        }
+
+        return false;
+    });
+
+    $('#savePS').on("click", function () {
+
+        $('#passions-selected .item').removeClass('show');
+
+        $('#passions-selected .item').filter(function(){
+            return passionsList.indexOf( $(this).data('itemId') ) != -1;
+        }).addClass('show');
+
+        $('#PassionsModal').modal('hide');
+
+        return false;
+    });
+
+
+
+
+
+    function addPassionInArray(id) {
+        passionsList.push(id);
+    }
+
+    function removePassionInArray(id) {
+        passionsList = passionsList.filter(function(number) {
+            return number !== id;
+        });
+    }
+
+
     /* SPINNER */
     $("#book").on("click", function (event) {
         $('#person-card').LoadingOverlay("show", {

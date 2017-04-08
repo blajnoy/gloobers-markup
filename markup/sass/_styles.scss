@@ -1767,6 +1767,7 @@ input.daterange-input {
 		transition: all 100ms ease-in;
 		display: inline-block;
 		height: 88px;
+		cursor: pointer;
 
 		&:after {
 			content: "";
@@ -1781,12 +1782,36 @@ input.daterange-input {
 		}
 
 		&:hover {
-			//transform: scale(1.01);
-			box-shadow: 10px 20px 20px 0 rgba(0, 0, 0, 0.4);
+			//box-shadow: 10px 20px 20px 0 rgba(0, 0, 0, 0.4);
 			text-decoration: none;
 
 			&:after {
-				background-color: rgba(30, 151, 216, .5);
+				background-color: rgba(80, 30, 0, .6);
+			}
+		}
+
+		&.selected {
+			&:after {
+				background-color: rgba(30, 151, 216, .6);
+				border: 2px solid #1e97d8;
+			}
+
+			&:before {
+				font-family: "gloobers-icons";
+				content: "\E019";
+				position: absolute;
+				top: -8px;
+				right: -8px;
+				z-index: 10;
+				border: 2px solid #1e97d8;
+				background: #fff;
+				width: 21px;
+				height: 21px;
+				border-radius: 50%;
+				font-size: 10px;
+				line-height: 18px;
+				color: #1e97d8;
+				text-align: center;
 			}
 		}
 
@@ -1855,6 +1880,16 @@ input.daterange-input {
 
 		}
 
+	}
+
+}
+#passions-selected {
+	.item:not(.btn) {
+		display: none;
+
+		&.show {
+			display: inline-block;
+		}
 	}
 }
 
@@ -3665,6 +3700,9 @@ input.daterange-input {
 	width: 16px;
 	text-align: center;
 }
+.marker-h {
+	white-space: nowrap;
+}
 .marked-list {
 	color: $linkColor;
 	font-size: 13px;
@@ -4460,4 +4498,106 @@ input.daterange-input {
 /* sel */
 .pass-sel {
 	min-width: 265px;
+}
+
+
+
+/************* drag-n-drop adding marker to map **************/
+
+
+#alloc {
+	position:absolute;
+	top:160px;
+	left:70.4%;
+	width:200px;
+	height:110px;
+}
+
+#markers {
+	position:absolute;
+	top:230px;
+	left:70.4%;
+	width:200px;
+	height:110px;
+}
+
+.drag {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+}
+
+.infowindow {
+	margin-top: 20px;
+	width: 180px;
+	height: 60px;
+}
+
+@media screen and (max-width: 1000px) {
+
+	body, html, #map {
+		margin: 0;
+	}
+
+	#map {
+		width: 100%;
+		height: 52%;
+		margin-top: -10px;
+	}
+
+	h3 {
+		margin-top: 0;
+		margin-left: 7px;
+	}
+
+	#desc {
+		position: absolute;
+		bottom: 2px;
+		left: 10px;
+		width: 87%;
+	}
+
+	.include >b {
+		float: right;
+		margin-top: 17px;
+	}
+
+	#alloc {
+		position: absolute;
+		top: 70%; left: 18%;
+		width: 140px;
+		height: 60px;
+		/* border: 1px solid red; */
+	}
+
+	#markers {
+		position: absolute;
+		top: 70%;
+		left: 60%;
+		width: 200px;
+		height: 50px;
+		/*  border: 1px solid blue; */
+	}
+
+	#markers > p {
+		margin-top: 0;
+		font-size: 80%;
+	}
+
+	.infowindow {
+		margin-top: 10px;
+		width: 150px;
+		height: 25px;
+	}
+}
+
+@media screen and (orientation: portrait) {
+
+	#alloc {
+		left: 3%;
+	}
+
+	#markers {
+		left: 46%;
+	}
 }
