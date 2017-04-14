@@ -1155,6 +1155,77 @@ input.daterange-input {
 		object-fit: cover;
 	}
 }
+.calendar-nav {
+	padding: 0 0 30px;
+}
+.schedule {
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	border-radius: 10px 10px 0 0;
+
+	.period-nav {
+		padding: 15px;
+		display: flex;
+		align-items: center;
+		font-size: 13px;
+		line-height: 21px;
+
+		.period-ttl {
+			flex: auto;
+			text-align: center;
+			font-size: 18px;
+			line-height: 21px;
+			font-weight: bold;
+			color: $secondTextColor;
+		}
+
+		.btn-prev,
+		.btn-next {
+			padding: 15px;
+			margin: -15px;
+			color: #000;
+			display: inline-block;
+			position: relative;
+
+			&:hover {
+				color: $linkColor;
+			}
+		}
+	}
+
+	.schedule-calendar {
+		.schedule-thead {
+			background: #501e00;
+			color: #fff;
+			display: flex;
+			font-size: 10px;
+			line-height: 13px;
+
+			.cell {
+				padding: 4px;
+				flex: 1;
+				text-align: center;
+				border-left: 1px solid rgba(#fff, .3);
+
+				&:first-child {
+					border: none;
+					flex: 0 0 73px;
+				}
+			}
+		}
+		.schedule-trow {
+			display: flex;
+
+			.cell {
+				height: 120px;
+			}
+		}
+	}
+}
+
+
+
+
 .profile-aside-area {
 	position: absolute;
 	top: 0;
@@ -1324,7 +1395,57 @@ input.daterange-input {
 		}
 	}
 }
+.my-reviews-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -15px;
 
+	.card {
+		margin: 15px;
+		flex: 0 0 calc(50% - 30px);
+
+		.img-wrap {
+			@include aspect-ratio(390, 198);
+		}
+	}
+}
+.review-footer-info {
+	display: flex;
+	padding: 15px 0 0;
+
+	.rating {
+		flex: auto;
+		padding: 5px 0;
+	}
+
+	.date {
+		border-left: 1px solid #e5e5e5;
+		padding: 5px 0 5px 15px;
+		font-size: 12px;
+		color: rgba(#000, .5);
+		font-weight: bold;
+		font-style: normal;
+	}
+}
+.search-ttl {
+	display: flex;
+	padding: 0 0 30px;
+
+	.selects-wrap {
+		display: flex;
+		flex: auto;
+
+		.col {
+
+			+ .col {
+				margin-left: 30px;
+			}
+		}
+	}
+	.search-txt {
+		width: 325px;
+	}
+}
 .object-rate-info {
 	float: right;
 	text-align: right;
@@ -4496,7 +4617,7 @@ input.daterange-input {
 }
 
 /* sel */
-.pass-sel {
+.sel-pass {
 	min-width: 265px;
 }
 

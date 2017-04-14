@@ -814,7 +814,7 @@ svg {
 .checkbox input[type="checkbox"]:checked + label:after, .checkbox input[type="radio"]:checked + label:after {
   font-size: 19px;
   font-family: "gloobers-icons";
-  content: "\E00D";
+  content: "\E019";
   color: #1f97d7;
   text-shadow: 0 3px 2px rgba(0, 0, 0, 0.4);
 }
@@ -4377,6 +4377,97 @@ input.daterange-input {
   object-fit: cover;
 }
 
+.calendar-nav {
+  padding: 0 0 30px;
+}
+
+.schedule {
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.schedule .period-nav {
+  padding: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.schedule .period-nav .period-ttl {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #501e00;
+}
+
+.schedule .period-nav .btn-prev,
+.schedule .period-nav .btn-next {
+  padding: 15px;
+  margin: -15px;
+  color: #000;
+  display: inline-block;
+  position: relative;
+}
+
+.schedule .period-nav .btn-prev:hover,
+.schedule .period-nav .btn-next:hover {
+  color: #1e97d8;
+}
+
+.schedule .schedule-calendar .schedule-thead {
+  background: #501e00;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.schedule .schedule-calendar .schedule-thead .cell {
+  padding: 4px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.schedule .schedule-calendar .schedule-thead .cell:first-child {
+  border: none;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 73px;
+  -ms-flex: 0 0 73px;
+  flex: 0 0 73px;
+}
+
+.schedule .schedule-calendar .schedule-trow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.schedule .schedule-calendar .schedule-trow .cell {
+  height: 120px;
+}
+
 .profile-aside-area {
   position: absolute;
   top: 0;
@@ -4572,6 +4663,98 @@ input.daterange-input {
 
 .reviews-list .review-area p {
   margin: 0;
+}
+
+.my-reviews-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.my-reviews-list .card, .my-reviews-list .review-card {
+  margin: 15px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 -webkit-calc(50% - 30px);
+  -ms-flex: 0 0 calc(50% - 30px);
+  flex: 0 0 calc(50% - 30px);
+}
+
+.my-reviews-list .card .img-wrap, .my-reviews-list .review-card .img-wrap {
+  display: block;
+  position: relative;
+}
+
+.my-reviews-list .card .img-wrap:before, .my-reviews-list .review-card .img-wrap:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: -webkit-calc( ( 198 / 390 ) * 100% - 0px);
+  padding-top: calc( ( 198 / 390 ) * 100% - 0px);
+}
+
+.my-reviews-list .card .img-wrap > img, .my-reviews-list .review-card .img-wrap > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.review-footer-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0 0;
+}
+
+.review-footer-info .rating {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  padding: 5px 0;
+}
+
+.review-footer-info .date {
+  border-left: 1px solid #e5e5e5;
+  padding: 5px 0 5px 15px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-style: normal;
+}
+
+.search-ttl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 30px;
+}
+
+.search-ttl .selects-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.search-ttl .selects-wrap .col + .col {
+  margin-left: 30px;
+}
+
+.search-ttl .search-txt {
+  width: 325px;
 }
 
 .object-rate-info {
@@ -8317,7 +8500,7 @@ input.daterange-input {
 }
 
 /* sel */
-.pass-sel {
+.sel-pass {
   min-width: 265px;
 }
 

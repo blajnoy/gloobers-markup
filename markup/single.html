@@ -17,6 +17,7 @@
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="css/star-rating.min.css" rel="stylesheet">
 	<link href="css/toggle-switch-px.css" rel="stylesheet">
+	<link href="css/fullcalendar.min.css" rel="stylesheet">
 	<link href="css/all.css" rel="stylesheet">
 </head>
 <body>
@@ -117,7 +118,7 @@
 												<div class="col">
 													<span class="ttl">Travelers</span>
 													<div class="person-num">
-														<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >DefaulSet value <i class="gl-ico gl-ico-arrow-down"></i></span>
+														<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >2 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
 														<div class="drop-content hide">
 															<div class="person-num-holder">
 																<div class="person-row">
@@ -143,6 +144,22 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="price-row">
+												<div class="total-price-col">
+													<span class="sup-ttl">Actual price</span>
+													<strong class="total-price">$675</strong>
+												</div>
+												<div class="use-credit-price">
+													<span>Pay only</span>
+													<strong>$675</strong>
+													<span>using credits</span>
+												</div>
+											</div>
+											<div class="booking-btns">
+												<a id="book" href="#" class="btn btn-primary fill-width">Book now</a>
+												<a href="#" class="btn btn-default fill-width"><i class="gl-ico gl-ico-logo"></i>Recommend</a>
+												<span class="special-info">Special conditions for service usage</span>
 											</div>
 										</div>
 									</div>
@@ -323,16 +340,56 @@
 									</div>
 								</div>
 								<h2 id="anchor-calendar">Calendar</h2>
-								<div class="clearfix">
+								<div class="calendar-nav clearfix">
 									<a href="#" class="btn btn-sm btn-primary daterange-input linked-calendars" data-single-date-picker="true" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce z-index-998" data-start-date="12/16/2016"><i class="gl-ico gl-ico-calendar"></i> <span class="date-field"></span> <i class="gl-ico gl-ico-arrow-down"></i></a>
 									<div class="switch-toggle pull-right custom">
 										<input id="week" name="view" type="radio" checked>
 										<label for="week" onclick="">5 Days</label>
-
 										<input id="month" name="view" type="radio">
 										<label for="month" onclick="">week</label>
-
 										<a class="btn btn-sm btn-primary"></a>
+									</div>
+								</div>
+								<div id="calendar" class="schedule1"></div>
+
+								<div class="schedule">
+									<div class="period-nav">
+										<a href="#" class="btn-prev"><span class="gl-ico gl-ico-arrow-left"></span></a>
+										<strong class="period-ttl">1st - 5th January 2017</strong>
+										<a href="#" class="btn-next"><span class="gl-ico gl-ico-arrow-right"></span></a>
+									</div>
+									<div class="schedule-calendar">
+										<div class="schedule-thead">
+											<div class="cell">Su	Mo	Tu	We	Th	Fr	Sa</div>
+											<div class="cell">Mon 1st</div>
+											<div class="cell">Mon 1st</div>
+											<div class="cell">Mon 1st</div>
+											<div class="cell">Mon 1st</div>
+											<div class="cell">Mon 1st</div>
+										</div>
+										<div class="schedule-trow">
+											<div class="cell">12.00</div>
+											<div class="cell"></div>
+											<div class="cell"></div>
+											<div class="cell">
+												<div class="spots-available">
+													<strong class="num">5</strong>
+													<span>Spots available</span>
+												</div>
+												<div class="prices">
+													<div class="col">
+														<strong class="price-ttl">Adults</strong>
+														<span class="price">$50.00</span>
+													</div>
+													<div class="col">
+														<strong class="price-ttl">Adults</strong>
+														<span class="price">$50.00</span>
+													</div>
+												</div>
+											</div>
+											<div class="cell"></div>
+											<div class="cell"></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -789,6 +846,8 @@
 	<script src="js/star-rating.min.js"></script>
 
 	<script src="js/scroll-menu.js"></script>
+
+	<script src="js/fullcalendar.min.js"></script>
 
 	<script src="js/main.js"></script>
 

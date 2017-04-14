@@ -1,17 +1,510 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/markup/sass/_styles.scss" line="3116" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/markup/sass/_styles.scss" line="3187" mnemonic="5" />
     <bookmark url="file://$PROJECT_DIR$/markup/professionals.html" line="188" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/markup.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/css/fullcalendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ar-dz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ar-ly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ar-ma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ar-sa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ar-tn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/de-at.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/en-ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/en-nz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/es-do.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/fr-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/lb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ms-my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/nl-be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/nn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/sr-cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/js/locale/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.print.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/gcal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/gcal.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-dz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-ly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-ma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-sa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-tn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/de-at.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-nz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/es-do.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fr-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/lb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ms-my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nl-be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sr-cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fullcalendar/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/ender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ar-dz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ar-kw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ar-ly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ar-ma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ar-sa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ar-tn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/bo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/cv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/de-at.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/dv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/en-ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/en-nz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/es-do.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/fr-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/fy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/gd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/gom-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/hy-am.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/jv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/kn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/lb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/lo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/mi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/mr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ms-my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/nl-be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/nn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/pa-in.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/sd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/se.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/sr-cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/te.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/tet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/tl-ph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/tlh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/tzl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/tzm-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/tzm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/ur.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/uz-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/uz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/x-pseudo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/yo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/zh-hk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/locale/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/min/locales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/min/locales.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/min/moment-with-locales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/min/moment-with-locales.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/min/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/moment.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/check-overflow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/date-from-array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-anything.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-string-and-array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-string-and-format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/local.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/parsing-flags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/utc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/valid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/abs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/add-subtract.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/as.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/bubble.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/duration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/get.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/humanize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/iso-string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/valid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/format/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/base-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/formats.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/invalid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/lists.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/locale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/locales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/ordinal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/pre-post-format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/relative.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/add-subtract.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/clone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/compare.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/creation-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/diff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/from.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/get-set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/locale.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/min-max.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/now.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/start-end-of.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/to-type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/to.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/valid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/parse/regex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/parse/token.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/aliases.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/day-of-month.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/day-of-week.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/day-of-year.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/hour.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/millisecond.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/minute.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/month.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/priorities.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/quarter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/second.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/timestamp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/timezone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/units.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/week-calendar-utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/week-year.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/week.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/year.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/abs-ceil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/abs-floor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/abs-round.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/compare-arrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/defaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/deprecate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/has-own-prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/hooks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/index-of.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-object-empty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-undefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/keys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/some.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/to-int.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/zero-fill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-dz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-kw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-ly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-ma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-sa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-tn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/bo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/cv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/de-at.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/dv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/en-ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/en-nz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/es-do.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/fr-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/fy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/gd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/gom-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/hy-am.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/jv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/kn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/lb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/lo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/mi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/mr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ms-my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/nl-be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/nn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/pa-in.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/sd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/se.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/sr-cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/te.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/tet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/tl-ph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/tlh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/tzl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/tzm-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/tzm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/ur.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/uz-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/uz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/x-pseudo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/yo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/zh-hk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/locale/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/moment/src/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/personal-recommendations.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/css/all.css" afterPath="$PROJECT_DIR$/markup/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/js/main.js" afterPath="$PROJECT_DIR$/markup/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/personal-cabinet-profile.html" afterPath="$PROJECT_DIR$/markup/personal-cabinet-profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_custom-chk&amp;radio.scss" afterPath="$PROJECT_DIR$/markup/sass/_custom-chk&amp;radio.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/_styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/single.html" afterPath="$PROJECT_DIR$/markup/single.html" />
     </list>
     <ignored path="gloobers-markup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,61 +527,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="search-results.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/search-results.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="106" column="134" selection-start-line="106" selection-start-column="134" selection-end-line="106" selection-end-column="134" />
-              <folding>
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_custom-chk&amp;radio.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/sass/_custom-chk&amp;radio.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="718" column="65" selection-start-line="718" selection-start-column="65" selection-end-line="718" selection-end-column="65" />
+            <state relative-caret-position="320">
+              <caret line="352" column="69" selection-start-line="352" selection-start-column="69" selection-end-line="352" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personal-cabinet-profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/personal-cabinet-profile.html">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/markup/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="342" column="55" selection-start-line="342" selection-start-column="55" selection-end-line="342" selection-end-column="63" />
+            <state relative-caret-position="180">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#2;n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#4574#4773#0" expanded="false" />
+                <element signature="e#4804#4983#0" expanded="false" />
+                <element signature="e#5015#5361#0" expanded="false" />
+                <element signature="e#5412#5448#0" expanded="false" />
+                <element signature="e#5488#5554#0" expanded="false" />
+                <element signature="e#5782#5984#0" expanded="false" />
+                <element signature="e#21440#23610#0" expanded="false" />
+                <element signature="n#!!block;n#getRatingMarker#0" expanded="false" />
+                <element signature="n#!!block;n#getHotelMarker#0" expanded="false" />
+                <element signature="n#!!block;n#getAdvisorMarker#0" expanded="false" />
+                <element signature="e#31839#34546#0" expanded="false" />
+                <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
+                <marker date="1492165645461" expanded="false" signature="15696:18230" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="16108:17044" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="16108:18230" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="16329:17029" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="16329:17044" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="16368:16414" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="16368:16415" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="18284:19884" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="18284:19890" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="18284:19896" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="19446:19884" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="19792:19884" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="19820:19884" placeholder="..." />
+                <marker date="1492165645461" expanded="true" signature="19848:19884" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personal-recommendations.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/personal-recommendations.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="272" column="34" selection-start-line="272" selection-start-column="34" selection-end-line="272" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,97 +577,10 @@
       <file leaf-file-name="_styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3566">
-              <caret line="1336" column="42" selection-start-line="1336" selection-start-column="42" selection-end-line="1336" selection-end-column="42" />
+            <state relative-caret-position="453">
+              <caret line="1217" column="0" selection-start-line="1217" selection-start-column="0" selection-end-line="1217" selection-end-column="0" />
               <folding>
-                <element signature="e#45987#46407#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="select.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/markup/js/select.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#6040#6216#0" expanded="false" />
-                <element signature="e#6278#7437#0" expanded="false" />
-                <element signature="e#7499#8412#0" expanded="false" />
-                <element signature="e#8464#10102#0" expanded="false" />
-                <element signature="e#10108#10419#0" expanded="false" />
-                <element signature="e#10156#10415#0" expanded="false" />
-                <element signature="e#10471#10571#0" expanded="false" />
-                <element signature="e#10627#10683#0" expanded="false" />
-                <element signature="e#10745#11351#0" expanded="false" />
-                <element signature="e#11417#11756#0" expanded="false" />
-                <element signature="e#12251#12906#0" expanded="false" />
-                <element signature="e#12962#13021#0" expanded="false" />
-                <element signature="e#13087#13242#0" expanded="false" />
-                <element signature="e#13322#13711#0" expanded="false" />
-                <element signature="e#13797#14064#0" expanded="false" />
-                <element signature="e#14147#14359#0" expanded="false" />
-                <element signature="e#14421#14596#0" expanded="false" />
-                <element signature="e#14670#14853#0" expanded="false" />
-                <element signature="e#14925#15000#0" expanded="false" />
-                <element signature="e#15080#15364#0" expanded="false" />
-                <element signature="e#15450#16236#0" expanded="false" />
-                <element signature="e#16336#16755#0" expanded="false" />
-                <element signature="e#16845#16928#0" expanded="false" />
-                <element signature="e#16998#17334#0" expanded="false" />
-                <element signature="e#17404#17612#0" expanded="false" />
-                <element signature="e#17671#17905#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drop.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/node_modules/tether-drop/dist/js/drop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="523" column="41" selection-start-line="523" selection-start-column="41" selection-end-line="523" selection-end-column="49" />
-              <folding>
-                <element signature="e#3141#3340#0" expanded="false" />
-                <element signature="e#3371#3550#0" expanded="false" />
-                <element signature="e#3582#3928#0" expanded="false" />
-                <element signature="e#3979#4015#0" expanded="false" />
-                <element signature="e#4055#4121#0" expanded="false" />
-                <element signature="e#4349#4551#0" expanded="false" />
-                <element signature="e#20007#22177#0" expanded="false" />
-                <element signature="n#!!block;n#getRatingMarker#0" expanded="false" />
-                <element signature="n#!!block;n#getHotelMarker#0" expanded="false" />
-                <element signature="n#!!block;n#getAdvisorMarker#0" expanded="false" />
-                <element signature="e#30406#33113#0" expanded="false" />
-                <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
-                <marker date="1491919230635" expanded="false" signature="14263:16797" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="14675:15611" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="14675:16797" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="14896:15596" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="14896:15611" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="14935:14981" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="14935:14982" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="16851:18451" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="16851:18457" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="16851:18463" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="18013:18451" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="18359:18451" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="18387:18451" placeholder="..." />
-                <marker date="1491919230635" expanded="true" signature="18415:18451" placeholder="..." />
+                <element signature="e#46972#47392#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -233,12 +627,12 @@
         <option value="$PROJECT_DIR$/markup/search-results-advisors.html" />
         <option value="$PROJECT_DIR$/markup/search-results.html" />
         <option value="$PROJECT_DIR$/markup/single-hotel.html" />
-        <option value="$PROJECT_DIR$/markup/single.html" />
         <option value="$PROJECT_DIR$/markup/personal-cabinet-profile.html" />
-        <option value="$PROJECT_DIR$/markup/js/main.js" />
         <option value="$PROJECT_DIR$/markup/personal-recommendations.html" />
-        <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
         <option value="$PROJECT_DIR$/markup/sass/_custom-chk&amp;radio.scss" />
+        <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
+        <option value="$PROJECT_DIR$/markup/single.html" />
+        <option value="$PROJECT_DIR$/markup/js/main.js" />
       </list>
     </option>
   </component>
@@ -371,7 +765,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,6 +802,9 @@
     <property name="jsx.switch.disabled" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\projects\gloobers\gloobers-markup\markup\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\projects\gloobers\gloobers-markup\markup\js" />
       <recent name="D:\work\projects\gloobers\gloobers-markup\markup\css" />
@@ -485,7 +882,8 @@
       <workItem from="1489745180548" duration="43427000" />
       <workItem from="1490346278155" duration="24736000" />
       <workItem from="1490878655561" duration="859000" />
-      <workItem from="1490883110213" duration="67774000" />
+      <workItem from="1490883110213" duration="69792000" />
+      <workItem from="1492158504774" duration="4899000" />
     </task>
     <task id="LOCAL-00001" summary="calendar">
       <created>1482820108284</created>
@@ -753,11 +1151,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491666598678</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="calendar">
+      <created>1492093600349</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1492093600349</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="527600000" />
+    <option name="totallyTimeSpent" value="534517000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -772,20 +1177,20 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18093175" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40086675" sideWeight="0.5063966" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28277355" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19826652" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1971831" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -832,13 +1237,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/markup/node_modules/tether/docs/welcome/sass/browser-demo.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/sass/_global.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -1007,9 +1405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="143" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#1;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,7 +1412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +1419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="1686" column="0" selection-start-line="1686" selection-start-column="0" selection-end-line="1686" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,9 +1426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="749" column="40" selection-start-line="749" selection-start-column="40" selection-end-line="749" selection-end-column="40" />
-          <folding>
-            <marker date="1491296246302" expanded="true" signature="18619:18659" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,7 +1433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,9 +1459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="275" column="99" selection-start-line="275" selection-start-column="99" selection-end-line="275" selection-end-column="99" />
-          <folding>
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,28 +1470,6 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/single-hotel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="1377" column="99" selection-start-line="1377" selection-start-column="99" selection-end-line="1377" selection-end-column="99" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#4;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="718" column="65" selection-start-line="718" selection-start-column="65" selection-end-line="718" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,7 +1485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
           <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,7 +1492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="2153" column="31" selection-start-line="2153" selection-start-column="31" selection-end-line="2153" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,18 +1500,6 @@
         <state relative-caret-position="589">
           <caret line="124" column="16" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/personal-cabinet-profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="342" column="55" selection-start-line="342" selection-start-column="55" selection-end-line="342" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,44 +1523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="523" column="41" selection-start-line="523" selection-start-column="41" selection-end-line="523" selection-end-column="49" />
-          <folding>
-            <element signature="e#3141#3340#0" expanded="false" />
-            <element signature="e#3371#3550#0" expanded="false" />
-            <element signature="e#3582#3928#0" expanded="false" />
-            <element signature="e#3979#4015#0" expanded="false" />
-            <element signature="e#4055#4121#0" expanded="false" />
-            <element signature="e#4349#4551#0" expanded="false" />
-            <element signature="e#20007#22177#0" expanded="false" />
-            <element signature="n#!!block;n#getRatingMarker#0" expanded="false" />
-            <element signature="n#!!block;n#getHotelMarker#0" expanded="false" />
-            <element signature="n#!!block;n#getAdvisorMarker#0" expanded="false" />
-            <element signature="e#30406#33113#0" expanded="false" />
-            <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
-            <marker date="1491919230635" expanded="false" signature="14263:16797" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="14675:15611" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="14675:16797" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="14896:15596" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="14896:15611" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="14935:14981" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="14935:14982" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="16851:18451" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="16851:18457" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="16851:18463" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="18013:18451" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="18359:18451" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="18387:18451" placeholder="..." />
-            <marker date="1491919230635" expanded="true" signature="18415:18451" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1226,7 +1538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,7 +1553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,17 +1573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3566">
-          <caret line="1336" column="42" selection-start-line="1336" selection-start-column="42" selection-end-line="1336" selection-end-column="42" />
-          <folding>
-            <element signature="e#45987#46407#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1282,17 +1581,45 @@
         <state relative-caret-position="306">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/single-hotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+          <folding>
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#3;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#4;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/personal-cabinet-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="342" column="55" selection-start-line="342" selection-start-column="55" selection-end-line="342" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/markup/js/select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="180">
           <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <element signature="e#6040#6216#0" expanded="false" />
             <element signature="e#6278#7437#0" expanded="false" />
             <element signature="e#7499#8412#0" expanded="false" />
@@ -1319,6 +1646,67 @@
             <element signature="e#16998#17334#0" expanded="false" />
             <element signature="e#17404#17612#0" expanded="false" />
             <element signature="e#17671#17905#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_custom-input-file.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="1217" column="0" selection-start-line="1217" selection-start-column="0" selection-end-line="1217" selection-end-column="0" />
+          <folding>
+            <element signature="e#46972#47392#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="352" column="69" selection-start-line="352" selection-start-column="69" selection-end-line="352" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#4574#4773#0" expanded="false" />
+            <element signature="e#4804#4983#0" expanded="false" />
+            <element signature="e#5015#5361#0" expanded="false" />
+            <element signature="e#5412#5448#0" expanded="false" />
+            <element signature="e#5488#5554#0" expanded="false" />
+            <element signature="e#5782#5984#0" expanded="false" />
+            <element signature="e#21440#23610#0" expanded="false" />
+            <element signature="n#!!block;n#getRatingMarker#0" expanded="false" />
+            <element signature="n#!!block;n#getHotelMarker#0" expanded="false" />
+            <element signature="n#!!block;n#getAdvisorMarker#0" expanded="false" />
+            <element signature="e#31839#34546#0" expanded="false" />
+            <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
+            <marker date="1492165645461" expanded="false" signature="15696:18230" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="16108:17044" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="16108:18230" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="16329:17029" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="16329:17044" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="16368:16414" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="16368:16415" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="18284:19884" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="18284:19890" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="18284:19896" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="19446:19884" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="19792:19884" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="19820:19884" placeholder="..." />
+            <marker date="1492165645461" expanded="true" signature="19848:19884" placeholder="..." />
           </folding>
         </state>
       </provider>
