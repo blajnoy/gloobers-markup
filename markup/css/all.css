@@ -2958,6 +2958,75 @@ fieldset[disabled] .btn {
   background: red;
 }
 
+.fc-toolbar.fc-header-toolbar {
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  border-width: 1px 1px 0 1px;
+  background: #fff;
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.fc-toolbar .fc-center {
+  vertical-align: top;
+}
+
+.fc .fc-prev-button,
+.fc .fc-next-button {
+  height: auto;
+  padding: 15px;
+  margin: -15px !important;
+  font-size: 1em;
+  border: 0;
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.fc .fc-prev-button .fc-icon,
+.fc .fc-next-button .fc-icon {
+  top: 0;
+  margin: 0;
+  vertical-align: middle;
+  height: auto;
+  line-height: 1;
+  font-size: 13px;
+  overflow: visible;
+  font-family: "gloobers-icons";
+}
+
+.fc .fc-prev-button .fc-icon.fc-icon-left-single-arrow:after,
+.fc .fc-next-button .fc-icon.fc-icon-left-single-arrow:after {
+  content: "\E006";
+  font-weight: normal;
+  font-size: 1em;
+  top: 0;
+}
+
+.fc .fc-prev-button .fc-icon.fc-icon-right-single-arrow:after,
+.fc .fc-next-button .fc-icon.fc-icon-right-single-arrow:after {
+  content: "\E007";
+  font-weight: normal;
+  font-size: 1em;
+  top: 0;
+}
+
+.fc th {
+  background: #501e00;
+  color: #fff;
+  font-size: 10px;
+}
+
+.content-box .fc-toolbar h2 {
+  margin: 0;
+  padding: 5px 0 0;
+}
+
+.fc-view-container {
+  background: #fff;
+}
+
 .header {
   background-size: cover;
   position: relative;
@@ -4382,50 +4451,7 @@ input.daterange-input {
 }
 
 .schedule {
-  border: 1px solid #e5e5e5;
-  background: #fff;
-  -webkit-border-radius: 10px 10px 0 0;
-  border-radius: 10px 10px 0 0;
-}
-
-.schedule .period-nav {
-  padding: 15px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   font-size: 13px;
-  line-height: 21px;
-}
-
-.schedule .period-nav .period-ttl {
-  -webkit-box-flex: 1;
-  -webkit-flex: auto;
-  -ms-flex: auto;
-  flex: auto;
-  text-align: center;
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: bold;
-  color: #501e00;
-}
-
-.schedule .period-nav .btn-prev,
-.schedule .period-nav .btn-next {
-  padding: 15px;
-  margin: -15px;
-  color: #000;
-  display: inline-block;
-  position: relative;
-}
-
-.schedule .period-nav .btn-prev:hover,
-.schedule .period-nav .btn-next:hover {
-  color: #1e97d8;
 }
 
 .schedule .schedule-calendar .schedule-thead {

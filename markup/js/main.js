@@ -4,13 +4,13 @@ $(document).ready(function () {
 
     $('#calendar').fullCalendar({
         header: {
-            left: 'prev,next today',
+            left: 'prev',
             center: 'title',
-            right: 'month,agendaWeek,agendaDay'
+            right: 'next'
         },
         defaultDate: '2014-06-12',
         defaultView: 'month',
-        editable: true,
+        editable: false,
         events: [
             {
                 title: 'All Day Event',
@@ -53,6 +53,37 @@ $(document).ready(function () {
         ]
     });
 
+    /*$('#my-prev-button').click(function() {
+        $('#calendar').fullCalendar('prev');
+
+        var view = $('#calendar').fullCalendar('getView');
+        changeCalendarTitle(view.title);
+
+        return false;
+    });
+
+    $('#my-prev-next').click(function() {
+        $('#calendar').fullCalendar('next');
+
+        var view = $('#calendar').fullCalendar('getView');
+        changeCalendarTitle(view.title);
+
+        return false;
+    });*/
+
+    $('#switchPeriodView input').on('change', function () {
+        var view = $(this).prop('id');
+        changeCalendarView(view);
+    });
+
+
+    function changeCalendarView(view) {
+        $('#calendar').fullCalendar('changeView', view);
+    }
+
+    function changeCalendarTitle(titleText) {
+        $('.period-ttl').html(titleText);
+    }
 
 
     /* PASSIONS SELECTING */
@@ -171,6 +202,7 @@ $(document).ready(function () {
     $('.categories-drop').on('show.bs.collapse', function () {
         $(this).prev().addClass('opened-drop');
     });
+
     $('.categories-drop').on('hidden.bs.collapse', function () {
         $(this).prev().removeClass('opened-drop');
     });
@@ -351,8 +383,6 @@ $(document).ready(function () {
                         "alwaysShowCalendars": true
                     });
                 } else {
-
-
                     _this.daterangepicker({
                         "autoApply": true,
                         "showCustomRangeLabel": false,
@@ -377,7 +407,6 @@ $(document).ready(function () {
                 }
 
                 _this.on('show.daterangepicker', function () {
-                    console.log("1");
                     dropDatapicker.position();
                 });
 
@@ -403,8 +432,6 @@ $(document).ready(function () {
                         }
                     ]
                 });
-
-
             });
 
 
@@ -1196,7 +1223,5 @@ function hometowngeocode(id) {
         autocomleteField.setAttribute("data-location-lat", place.geometry.location.lat());
         autocomleteField.setAttribute("data-location-lng", place.geometry.location.lng());
     });
-
-
 }
 

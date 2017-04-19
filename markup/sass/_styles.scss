@@ -1159,39 +1159,7 @@ input.daterange-input {
 	padding: 0 0 30px;
 }
 .schedule {
-	border: 1px solid #e5e5e5;
-	background: #fff;
-	border-radius: 10px 10px 0 0;
-
-	.period-nav {
-		padding: 15px;
-		display: flex;
-		align-items: center;
-		font-size: 13px;
-		line-height: 21px;
-
-		.period-ttl {
-			flex: auto;
-			text-align: center;
-			font-size: 18px;
-			line-height: 21px;
-			font-weight: bold;
-			color: $secondTextColor;
-		}
-
-		.btn-prev,
-		.btn-next {
-			padding: 15px;
-			margin: -15px;
-			color: #000;
-			display: inline-block;
-			position: relative;
-
-			&:hover {
-				color: $linkColor;
-			}
-		}
-	}
+	font-size: 13px;
 
 	.schedule-calendar {
 		.schedule-thead {
@@ -1222,9 +1190,6 @@ input.daterange-input {
 		}
 	}
 }
-
-
-
 
 .profile-aside-area {
 	position: absolute;
@@ -4722,3 +4687,4 @@ input.daterange-input {
 		left: 46%;
 	}
 }
+
