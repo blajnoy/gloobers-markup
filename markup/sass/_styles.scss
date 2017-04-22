@@ -427,6 +427,61 @@
 		}
 	}
 }
+.back-header-lnk {
+	float: right;
+	margin: 18px 40px 0 0;
+	position: relative;
+	font-size: 14px;
+	line-height: 19px;
+	text-transform: uppercase;
+
+	& > a {
+		color: $secondTextColor;
+
+		&:after {
+			content: "";
+			position: absolute;
+			width: 0;
+			height: 2px;
+			background: $linkColor;
+			bottom: -2px;
+			left: 50%;
+			transform: translateX(-50%);
+			opacity: 0;
+			transition: all 100ms ease-in;
+		}
+
+		.gl-ico {
+			vertical-align: middle;
+			margin: -2px 5px 0 0;
+		}
+
+		&:hover,
+		&:active,
+		&:focus {
+			text-decoration: none;
+			color: $secondTextColor;
+		}
+
+		&:hover:after {
+			opacity: 1;
+			width: 100%;
+		}
+	}
+}
+.header-ttl {
+	border-left: 2px solid #e5e5e5;
+	padding: 16px 0 0 28px;
+	float: left;
+	min-height: 58px;
+
+	h1 {
+		margin: 0;
+		font-size: 20px;
+		line-height: 23px;
+		font-family: "Open Sans";
+	}
+}
 .search-area {
 	padding: 20vh 13% 0;
 
@@ -3446,6 +3501,8 @@ input.daterange-input {
 	border: 0;
 	border-radius: 0;
 	background: none;
+	left: 0 !important;
+	top: 0 !important;
 
 	&.dropdown-menu {
 		/*display: none;

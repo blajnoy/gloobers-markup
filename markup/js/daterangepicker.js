@@ -617,10 +617,10 @@
             if (this.endDate == null) return;
 
             this.calculateChosenLabel();
+
         },
 
         renderCalendar: function(side) {
-
             //
             // Build the matrix of dates that will populate the calendar
             //
@@ -763,7 +763,6 @@
             html += '</tr>';
             html += '</thead>';
             html += '<tbody>';
-
             //adjust maxDate to reflect the dateLimit setting in order to
             //grey out end dates beyond the dateLimit
             if (this.endDate == null && this.dateLimit) {
@@ -850,7 +849,6 @@
             html += '</table>';
 
             this.container.find('.calendar.' + side + ' .calendar-table').html(html);
-
         },
 
         renderTimePicker: function(side) {

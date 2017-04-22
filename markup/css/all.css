@@ -3551,6 +3551,64 @@ fieldset[disabled] .btn {
   width: 100%;
 }
 
+.back-header-lnk {
+  float: right;
+  margin: 18px 40px 0 0;
+  position: relative;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.back-header-lnk > a {
+  color: #501e00;
+}
+
+.back-header-lnk > a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #1e97d8;
+  bottom: -2px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  opacity: 0;
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+}
+
+.back-header-lnk > a .gl-ico, .back-header-lnk > a .slick-slider .slick-arrow, .slick-slider .back-header-lnk > a .slick-arrow {
+  vertical-align: middle;
+  margin: -2px 5px 0 0;
+}
+
+.back-header-lnk > a:hover, .back-header-lnk > a:active, .back-header-lnk > a:focus {
+  text-decoration: none;
+  color: #501e00;
+}
+
+.back-header-lnk > a:hover:after {
+  opacity: 1;
+  width: 100%;
+}
+
+.header-ttl {
+  border-left: 2px solid #e5e5e5;
+  padding: 16px 0 0 28px;
+  float: left;
+  min-height: 58px;
+}
+
+.header-ttl h1 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: "Open Sans";
+}
+
 .search-area {
   padding: 20vh 13% 0;
 }
@@ -7190,6 +7248,8 @@ input.daterange-input {
   -webkit-border-radius: 0;
   border-radius: 0;
   background: none;
+  left: 0 !important;
+  top: 0 !important;
 }
 
 .daterangepicker.dropdown-menu {

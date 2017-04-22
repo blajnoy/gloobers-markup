@@ -409,6 +409,10 @@ $(document).ready(function () {
                 _this.on('show.daterangepicker', function () {
                     dropDatapicker.position();
                 });
+                
+                _this.on('change.daterangepicker', function () {
+                    dropDatapicker.position();
+                });
 
                 dropElm = _this.data('daterangepicker').container;
 
