@@ -3170,13 +3170,13 @@ input.daterange-input {
 }
 
 .tether-element {
-	z-index: 99998;
+	z-index: 9998;
 }
 .drop-element {
-	z-index: 99999;
+	z-index: 9999;
 
 	&.daterangepicker.dropdown-menu {
-		z-index: 99999;
+		z-index: 9999;
 	}
 }
 
@@ -3571,6 +3571,7 @@ input.daterange-input {
 /* modal windows */
 
 .modal {
+	z-index: 99992;
 
 	.btns-row {
 		display: flex;
@@ -3580,13 +3581,24 @@ input.daterange-input {
 			flex: auto;
 		}
 	}
+
+	.info-desc {
+		line-height: 20px;
+	}
+}
+.modal-backdrop {
+	z-index: 99991;
 }
 .modal-custom-lg {
 	width: 100%;
 	max-width: 1170px;
 }
+.modal-custom-md {
+	width: 100%;
+	max-width: 780px;
+}
 .modal-content {
-	padding: 25px;
+	padding: 24px;
 }
 .modal-header {
 	border: 0;
@@ -4508,6 +4520,79 @@ input.daterange-input {
 				color: #818181;
 			}
 		}
+	}
+}
+/* steps recommendation & review */
+.steps-nav {
+
+	.steps-nav-btns {
+		display: flex;
+		padding: 0 0 39px;
+
+		.btn {
+			min-width: 120px;
+		}
+	}
+	.steps-counter {
+		display: flex;
+		flex: auto;
+		font-size: 40px;
+		line-height: 40px;
+		color: rgba(#000, .2);
+		align-items: center;
+
+		.current-step {
+			font-weight: 800;
+			color: #1e97d8;
+		}
+
+		.separator {
+			font-weight: 300;
+		}
+
+		.total-steps {
+			font-size: 14px;
+			line-height: 17px;
+			font-weight: 700;
+			text-transform: uppercase;
+			padding: 0 0 0 3px;
+
+			span {
+				display: block;
+			}
+		}
+	}
+}
+
+.progress {
+	border-radius: 0;
+	height: 9px;
+	border-bottom: 2px solid #e1e1e1;
+	background: #e5e5e5;
+	box-shadow: none;
+	margin: 0 0 25px;
+
+	.progress-bar {
+		background: #1e97d8;
+		box-shadow: none;
+	}
+}
+.modal-block-ttl {
+	display: flex;
+	align-items: center;
+	padding: 0 0 18px;
+
+	h2 {
+		flex: auto;
+		margin: 0;
+		font-family: 'Open Sans';
+		font-size: 18px;
+		line-height: 21px;
+	}
+
+	.info-desc {
+		font-size: 12px;
+		margin: 0;
 	}
 }
 
