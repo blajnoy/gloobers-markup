@@ -3599,6 +3599,7 @@ input.daterange-input {
 }
 .modal-content {
 	padding: 24px;
+	border-radius: 10px;
 }
 .modal-header {
 	border: 0;
@@ -4564,13 +4565,152 @@ input.daterange-input {
 	}
 }
 
+.recommend-wrap {
+	margin: 0 0 25px;
+}
+
+.recommend-edit-area {
+	padding: 0 0 40px;
+}
+
+.map-types {
+	position: relative;
+
+	.map-types-img {
+		display: block;
+		margin: 0 -18px;
+	}
+
+	.marker {
+		position: absolute;
+		top: 50px;
+		left: 50px;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		.marker-txt {
+			font-size: 14px;
+			line-height: 20px;
+			text-transform: uppercase;
+			height: 25px;
+			border: 2px solid #1e97d8;
+			border-width: 2px 2px 2px 0;
+			display: inline-block;
+			border-radius: 0 5px 5px 0;
+			padding: 0 20px 0 10px;
+			position: absolute;
+			left: 35px;
+			bottom: 6px;
+			white-space: nowrap;
+
+			&:before {
+				content: '';
+				position: absolute;
+				bottom: -2px;
+				left: -12px;
+				height: 2px;
+				width: 12px;
+				background: #1e97d8;
+			}
+		}
+
+		&:hover {
+
+			.marker-ico {
+				&:before {
+					content: "\E03D";
+
+					background: -webkit-gradient(linear, left top, left bottom, from(#1e97d8), to(#5795b6));
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+
+					text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+				}
+
+				.gl-ico {
+					color: #fff;
+				}
+			}
+
+			.marker-txt {
+				background: #1e97d8;
+				color: #fff;
+				padding-left: 22px;
+				left: 23px;
+				box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+
+				&:before {
+					content: none;
+				}
+			}
+		}
+
+
+		.marker-ico {
+			font-size: 50px;
+			line-height: 50px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 2;
+
+			.gl-ico {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 16px;
+				line-height: 16px;
+				margin-top: -5px;
+			}
+		}
+
+		&.selected {
+
+			.marker-ico {
+				&:before {
+					content: "\E03D";
+
+					background: -webkit-gradient(linear, left top, left bottom, from(#ffc200), to(#d6a300));
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+
+					text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+				}
+
+				.gl-ico {
+					color: #501e00;
+				}
+			}
+
+			.marker-txt {
+				background: #1e97d8;
+				color: #fff;
+				padding-left: 22px;
+				left: 23px;
+				box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+
+				&:before {
+					content: none;
+				}
+			}
+		}
+
+	}
+}
+
 .progress {
 	border-radius: 0;
 	height: 9px;
 	border-bottom: 2px solid #e1e1e1;
 	background: #e5e5e5;
 	box-shadow: none;
-	margin: 0 0 25px;
+
+	.recommend-wrap & {
+		margin: 0 -39px;
+	}
 
 	.progress-bar {
 		background: #1e97d8;

@@ -302,192 +302,200 @@ table {
   content: "\E03B";
 }
 
-.gl-ico-marker:before {
+.gl-ico-marker-empty:before {
   content: "\E03C";
 }
 
-.gl-ico-meals:before {
+.gl-ico-marker-full:before {
   content: "\E03D";
 }
 
-.gl-ico-methods-of-payment:before {
+.gl-ico-marker:before {
   content: "\E03E";
 }
 
-.gl-ico-minus:before {
+.gl-ico-meals:before {
   content: "\E03F";
 }
 
-.gl-ico-motor-sports:before {
+.gl-ico-methods-of-payment:before {
   content: "\E040";
 }
 
-.gl-ico-music:before {
+.gl-ico-minus:before {
   content: "\E041";
 }
 
-.gl-ico-nightlife:before {
+.gl-ico-motor-sports:before {
+  content: "\E042";
+}
+
+.gl-ico-music:before {
   content: "\E043";
 }
 
 .gl-ico-nightlife:before {
-  content: "\E043";
-}
-
-.gl-ico-person:before {
-  content: "\E044";
-}
-
-.gl-ico-photo-camera:before {
   content: "\E045";
 }
 
-.gl-ico-photography:before {
+.gl-ico-nightlife:before {
+  content: "\E045";
+}
+
+.gl-ico-person:before {
   content: "\E046";
 }
 
-.gl-ico-plus-rounded:before {
+.gl-ico-photo-camera:before {
   content: "\E047";
 }
 
-.gl-ico-plus:before {
+.gl-ico-photography:before {
   content: "\E048";
 }
 
-.gl-ico-points-of-interest:before {
+.gl-ico-plus-rounded:before {
   content: "\E049";
 }
 
-.gl-ico-pool:before {
+.gl-ico-plus:before {
   content: "\E04A";
 }
 
-.gl-ico-push-pin:before {
+.gl-ico-points-of-interest:before {
   content: "\E04B";
 }
 
-.gl-ico-road-trips:before {
+.gl-ico-pool:before {
   content: "\E04C";
 }
 
-.gl-ico-room-distribution-alt:before {
+.gl-ico-push-pin:before {
   content: "\E04D";
 }
 
-.gl-ico-room-distribution:before {
+.gl-ico-road-trips:before {
   content: "\E04E";
 }
 
-.gl-ico-room-facilities:before {
+.gl-ico-room-distribution-alt:before {
   content: "\E04F";
 }
 
-.gl-ico-sailing:before {
+.gl-ico-room-distribution:before {
   content: "\E050";
 }
 
-.gl-ico-school-book-bag:before {
+.gl-ico-room-facilities:before {
   content: "\E051";
 }
 
-.gl-ico-scuba-diving:before {
+.gl-ico-sailing:before {
   content: "\E052";
 }
 
-.gl-ico-sea-view:before {
+.gl-ico-school-book-bag:before {
   content: "\E053";
 }
 
-.gl-ico-shopping:before {
+.gl-ico-scuba-diving:before {
   content: "\E054";
 }
 
-.gl-ico-sightseeing:before {
+.gl-ico-sea-view:before {
   content: "\E055";
 }
 
-.gl-ico-ski:before {
+.gl-ico-shopping:before {
   content: "\E056";
 }
 
-.gl-ico-spa:before {
+.gl-ico-sightseeing:before {
   content: "\E057";
 }
 
-.gl-ico-sports:before {
+.gl-ico-ski:before {
   content: "\E058";
 }
 
-.gl-ico-staff:before {
+.gl-ico-spa:before {
   content: "\E059";
 }
 
-.gl-ico-star:before {
+.gl-ico-sports:before {
   content: "\E05A";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-staff:before {
   content: "\E05B";
 }
 
-.gl-ico-things-to-keep-in-mind:before {
+.gl-ico-star:before {
   content: "\E05C";
 }
 
-.gl-ico-transportation:before {
+.gl-ico-street-map:before {
   content: "\E05D";
 }
 
-.gl-ico-trekking:before {
+.gl-ico-things-to-keep-in-mind:before {
   content: "\E05E";
 }
 
-.gl-ico-tv:before {
+.gl-ico-transportation:before {
   content: "\E05F";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-trekking:before {
   content: "\E060";
 }
 
-.gl-ico-user:before {
+.gl-ico-tv:before {
   content: "\E061";
 }
 
-.gl-ico-users-group:before {
+.gl-ico-twitter:before {
   content: "\E062";
 }
 
-.gl-ico-users:before {
+.gl-ico-user:before {
   content: "\E063";
 }
 
-.gl-ico-washing:before {
+.gl-ico-users-group:before {
   content: "\E064";
 }
 
-.gl-ico-water-sports:before {
+.gl-ico-users:before {
   content: "\E065";
 }
 
-.gl-ico-wellness:before {
+.gl-ico-washing:before {
   content: "\E066";
 }
 
-.gl-ico-wifi:before {
+.gl-ico-water-sports:before {
   content: "\E067";
 }
 
-.gl-ico-wildlife:before {
+.gl-ico-wellness:before {
   content: "\E068";
 }
 
-.gl-ico-wine:before {
+.gl-ico-wifi:before {
   content: "\E069";
 }
 
-.gl-ico-worldwide:before {
+.gl-ico-wildlife:before {
   content: "\E06A";
+}
+
+.gl-ico-wine:before {
+  content: "\E06B";
+}
+
+.gl-ico-worldwide:before {
+  content: "\E06C";
 }
 
 body {
@@ -7353,6 +7361,8 @@ input.daterange-input {
 
 .modal-content {
   padding: 24px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .modal-header {
@@ -8525,6 +8535,131 @@ input.daterange-input {
   display: block;
 }
 
+.recommend-wrap {
+  margin: 0 0 25px;
+}
+
+.recommend-edit-area {
+  padding: 0 0 40px;
+}
+
+.map-types {
+  position: relative;
+}
+
+.map-types .map-types-img {
+  display: block;
+  margin: 0 -18px;
+}
+
+.map-types .marker {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.map-types .marker:hover {
+  text-decoration: none;
+}
+
+.map-types .marker .marker-txt {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  height: 25px;
+  border: 2px solid #1e97d8;
+  border-width: 2px 2px 2px 0;
+  display: inline-block;
+  -webkit-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  padding: 0 20px 0 10px;
+  position: absolute;
+  left: 35px;
+  bottom: 6px;
+  white-space: nowrap;
+}
+
+.map-types .marker .marker-txt:before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: -12px;
+  height: 2px;
+  width: 12px;
+  background: #1e97d8;
+}
+
+.map-types .marker:hover .marker-ico:before {
+  content: "\E03D";
+  background: -webkit-gradient(linear, left top, left bottom, from(#1e97d8), to(#5795b6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.map-types .marker:hover .marker-ico .gl-ico, .map-types .marker:hover .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker:hover .marker-ico .slick-arrow {
+  color: #fff;
+}
+
+.map-types .marker:hover .marker-txt {
+  background: #1e97d8;
+  color: #fff;
+  padding-left: 22px;
+  left: 23px;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.map-types .marker:hover .marker-txt:before {
+  content: none;
+}
+
+.map-types .marker .marker-ico {
+  font-size: 50px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.map-types .marker .marker-ico .gl-ico, .map-types .marker .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker .marker-ico .slick-arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: -5px;
+}
+
+.map-types .marker.selected .marker-ico:before {
+  content: "\E03D";
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffc200), to(#d6a300));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.map-types .marker.selected .marker-ico .gl-ico, .map-types .marker.selected .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker.selected .marker-ico .slick-arrow {
+  color: #501e00;
+}
+
+.map-types .marker.selected .marker-txt {
+  background: #1e97d8;
+  color: #fff;
+  padding-left: 22px;
+  left: 23px;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.map-types .marker.selected .marker-txt:before {
+  content: none;
+}
+
 .progress {
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -8533,7 +8668,10 @@ input.daterange-input {
   background: #e5e5e5;
   -webkit-box-shadow: none;
   box-shadow: none;
-  margin: 0 0 25px;
+}
+
+.recommend-wrap .progress {
+  margin: 0 -39px;
 }
 
 .progress .progress-bar {

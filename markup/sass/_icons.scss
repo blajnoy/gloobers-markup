@@ -206,146 +206,152 @@
 	@if $filename == marker-add {
 		$char: \E03B;
 	}
-	@if $filename == marker {
+	@if $filename == marker-empty {
 		$char: \E03C;
 	}
-	@if $filename == meals {
+	@if $filename == marker-full {
 		$char: \E03D;
 	}
-	@if $filename == methods-of-payment {
+	@if $filename == marker {
 		$char: \E03E;
 	}
-	@if $filename == minus {
+	@if $filename == meals {
 		$char: \E03F;
 	}
-	@if $filename == motor-sports {
+	@if $filename == methods-of-payment {
 		$char: \E040;
 	}
-	@if $filename == music {
+	@if $filename == minus {
 		$char: \E041;
 	}
-	@if $filename == nightlife  {
+	@if $filename == motor-sports {
 		$char: \E042;
 	}
-	@if $filename == nightlife {
+	@if $filename == music {
 		$char: \E043;
 	}
-	@if $filename == person {
+	@if $filename == nightlife  {
 		$char: \E044;
 	}
-	@if $filename == photo-camera {
+	@if $filename == nightlife {
 		$char: \E045;
 	}
-	@if $filename == photography {
+	@if $filename == person {
 		$char: \E046;
 	}
-	@if $filename == plus-rounded {
+	@if $filename == photo-camera {
 		$char: \E047;
 	}
-	@if $filename == plus {
+	@if $filename == photography {
 		$char: \E048;
 	}
-	@if $filename == points-of-interest {
+	@if $filename == plus-rounded {
 		$char: \E049;
 	}
-	@if $filename == pool {
+	@if $filename == plus {
 		$char: \E04A;
 	}
-	@if $filename == push-pin {
+	@if $filename == points-of-interest {
 		$char: \E04B;
 	}
-	@if $filename == road-trips {
+	@if $filename == pool {
 		$char: \E04C;
 	}
-	@if $filename == room-distribution-alt {
+	@if $filename == push-pin {
 		$char: \E04D;
 	}
-	@if $filename == room-distribution {
+	@if $filename == road-trips {
 		$char: \E04E;
 	}
-	@if $filename == room-facilities {
+	@if $filename == room-distribution-alt {
 		$char: \E04F;
 	}
-	@if $filename == sailing {
+	@if $filename == room-distribution {
 		$char: \E050;
 	}
-	@if $filename == school-book-bag {
+	@if $filename == room-facilities {
 		$char: \E051;
 	}
-	@if $filename == scuba-diving {
+	@if $filename == sailing {
 		$char: \E052;
 	}
-	@if $filename == sea-view {
+	@if $filename == school-book-bag {
 		$char: \E053;
 	}
-	@if $filename == shopping {
+	@if $filename == scuba-diving {
 		$char: \E054;
 	}
-	@if $filename == sightseeing {
+	@if $filename == sea-view {
 		$char: \E055;
 	}
-	@if $filename == ski {
+	@if $filename == shopping {
 		$char: \E056;
 	}
-	@if $filename == spa {
+	@if $filename == sightseeing {
 		$char: \E057;
 	}
-	@if $filename == sports {
+	@if $filename == ski {
 		$char: \E058;
 	}
-	@if $filename == staff {
+	@if $filename == spa {
 		$char: \E059;
 	}
-	@if $filename == star {
+	@if $filename == sports {
 		$char: \E05A;
 	}
-	@if $filename == street-map {
+	@if $filename == staff {
 		$char: \E05B;
 	}
-	@if $filename == things-to-keep-in-mind {
+	@if $filename == star {
 		$char: \E05C;
 	}
-	@if $filename == transportation {
+	@if $filename == street-map {
 		$char: \E05D;
 	}
-	@if $filename == trekking {
+	@if $filename == things-to-keep-in-mind {
 		$char: \E05E;
 	}
-	@if $filename == tv {
+	@if $filename == transportation {
 		$char: \E05F;
 	}
-	@if $filename == twitter {
+	@if $filename == trekking {
 		$char: \E060;
 	}
-	@if $filename == user {
+	@if $filename == tv {
 		$char: \E061;
 	}
-	@if $filename == users-group {
+	@if $filename == twitter {
 		$char: \E062;
 	}
-	@if $filename == users {
+	@if $filename == user {
 		$char: \E063;
 	}
-	@if $filename == washing {
+	@if $filename == users-group {
 		$char: \E064;
 	}
-	@if $filename == water-sports {
+	@if $filename == users {
 		$char: \E065;
 	}
-	@if $filename == wellness {
+	@if $filename == washing {
 		$char: \E066;
 	}
-	@if $filename == wifi {
+	@if $filename == water-sports {
 		$char: \E067;
 	}
-	@if $filename == wildlife {
+	@if $filename == wellness {
 		$char: \E068;
 	}
-	@if $filename == wine {
+	@if $filename == wifi {
 		$char: \E069;
 	}
-	@if $filename == worldwide {
+	@if $filename == wildlife {
 		$char: \E06A;
+	}
+	@if $filename == wine {
+		$char: \E06B;
+	}
+	@if $filename == worldwide {
+		$char: \E06C;
 	}
 
 	@return $char;
@@ -541,6 +547,12 @@
 }
 .gl-ico-marker-add {
 	@include gl-ico(marker-add);
+}
+.gl-ico-marker-empty {
+	@include gl-ico(marker-empty);
+}
+.gl-ico-marker-full {
+	@include gl-ico(marker-full);
 }
 .gl-ico-marker {
 	@include gl-ico(marker);
