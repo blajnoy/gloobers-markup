@@ -4566,11 +4566,31 @@ input.daterange-input {
 }
 
 .recommend-wrap {
-	margin: 0 0 25px;
+	margin: -24px -24px 40px;
+	padding: 24px 39px 0;
+	border-radius: 10px 10px 0 0;
+
+	@for $i from 1 through 6 {
+		&.recommend-type0#{$i} {
+			background: url('../images/recommendations-types/bg-type0#{$i}.jpg') 0 0 no-repeat / cover;
+		}
+	}
+
+	.modal-body {
+		padding: 15px 0 0;
+	}
 }
 
 .recommend-edit-area {
 	padding: 0 0 40px;
+
+	textarea {
+		border-color: #c3cacb;
+		font-size: 16px;
+		color: #000;
+		min-height: 370px;
+		background: rgba(#fff, .2);
+	}
 }
 
 .map-types {
@@ -4621,12 +4641,20 @@ input.daterange-input {
 			.marker-ico {
 				&:before {
 					content: "\E03D";
+					-webkit-text-fill-color: transparent;
+					text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+				}
 
+				&:after {
+					content: "\E03D";
 					background: -webkit-gradient(linear, left top, left bottom, from(#1e97d8), to(#5795b6));
 					-webkit-background-clip: text;
 					-webkit-text-fill-color: transparent;
 
-					text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 1;
 				}
 
 				.gl-ico {
@@ -4660,6 +4688,7 @@ input.daterange-input {
 				position: absolute;
 				top: 50%;
 				left: 50%;
+				z-index: 2;
 				transform: translate(-50%, -50%);
 				font-size: 16px;
 				line-height: 16px;
@@ -4672,12 +4701,20 @@ input.daterange-input {
 			.marker-ico {
 				&:before {
 					content: "\E03D";
+					-webkit-text-fill-color: transparent;
+					text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+				}
 
+				&:after {
+					content: "\E03D";
 					background: -webkit-gradient(linear, left top, left bottom, from(#ffc200), to(#d6a300));
 					-webkit-background-clip: text;
 					-webkit-text-fill-color: transparent;
 
-					text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+					position: absolute;
+					top: 0;
+					left: 0;
+					z-index: 1;
 				}
 
 				.gl-ico {

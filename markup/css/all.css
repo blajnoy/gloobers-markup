@@ -1410,6 +1410,12 @@ fieldset[disabled] .btn {
   border: 2px solid #7354d3;
   -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+  background-color: #f9ec32;
+  background: -webkit-gradient(linear, left bottom, right top, from(#f9ec32), color-stop(20%, #f9ec32), color-stop(75%, #ee2a7c), to(#ee2a7c));
+  background: -webkit-linear-gradient(left bottom, #f9ec32 0%, #f9ec32 20%, #ee2a7c 75%, #ee2a7c 100%);
+  background: linear-gradient(left bottom, #f9ec32 0%, #f9ec32 20%, #ee2a7c 75%, #ee2a7c 100%);
+  border: 0;
+  padding: 12px;
 }
 
 .btn-instagram:hover {
@@ -8536,11 +8542,50 @@ input.daterange-input {
 }
 
 .recommend-wrap {
-  margin: 0 0 25px;
+  margin: -24px -24px 40px;
+  padding: 24px 39px 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.recommend-wrap.recommend-type01 {
+  background: url("../images/recommendations-types/bg-type01.jpg") 0 0 no-repeat/cover;
+}
+
+.recommend-wrap.recommend-type02 {
+  background: url("../images/recommendations-types/bg-type02.jpg") 0 0 no-repeat/cover;
+}
+
+.recommend-wrap.recommend-type03 {
+  background: url("../images/recommendations-types/bg-type03.jpg") 0 0 no-repeat/cover;
+}
+
+.recommend-wrap.recommend-type04 {
+  background: url("../images/recommendations-types/bg-type04.jpg") 0 0 no-repeat/cover;
+}
+
+.recommend-wrap.recommend-type05 {
+  background: url("../images/recommendations-types/bg-type05.jpg") 0 0 no-repeat/cover;
+}
+
+.recommend-wrap.recommend-type06 {
+  background: url("../images/recommendations-types/bg-type06.jpg") 0 0 no-repeat/cover;
+}
+
+.recommend-wrap .modal-body {
+  padding: 15px 0 0;
 }
 
 .recommend-edit-area {
   padding: 0 0 40px;
+}
+
+.recommend-edit-area textarea {
+  border-color: #c3cacb;
+  font-size: 16px;
+  color: #000;
+  min-height: 370px;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .map-types {
@@ -8591,10 +8636,19 @@ input.daterange-input {
 
 .map-types .marker:hover .marker-ico:before {
   content: "\E03D";
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.map-types .marker:hover .marker-ico:after {
+  content: "\E03D";
   background: -webkit-gradient(linear, left top, left bottom, from(#1e97d8), to(#5795b6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .map-types .marker:hover .marker-ico .gl-ico, .map-types .marker:hover .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker:hover .marker-ico .slick-arrow {
@@ -8627,6 +8681,7 @@ input.daterange-input {
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 2;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -8637,10 +8692,19 @@ input.daterange-input {
 
 .map-types .marker.selected .marker-ico:before {
   content: "\E03D";
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.map-types .marker.selected .marker-ico:after {
+  content: "\E03D";
   background: -webkit-gradient(linear, left top, left bottom, from(#ffc200), to(#d6a300));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .map-types .marker.selected .marker-ico .gl-ico, .map-types .marker.selected .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker.selected .marker-ico .slick-arrow {
