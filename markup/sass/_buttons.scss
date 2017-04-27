@@ -92,9 +92,16 @@
 .btn-instagram {
 	@include button-variant($color: #fff, $background: #7354d3, $borderColor: #7354d3, $needShadow: true);
 	background-color: rgba(249,236,50,1);
-	background: linear-gradient(left bottom, rgba(249,236,50,1) 0%, rgba(249,236,50,1) 20%, rgba(238,42,124,1) 75%, rgba(238,42,124,1) 100%);
+	background-image: linear-gradient( 25deg, rgb(249,237,50) 0%, rgb(238,42,123) 100%);
 	border: 0;
 	padding: 12px;
+
+	&:hover {
+		$darkenGradientColorFrom: darken(rgb(249,237,50), 10%);
+		$darkenGradientColorTo: darken(rgb(238,42,123), 10%);
+		background-image: linear-gradient( 25deg, $darkenGradientColorFrom 0%, $darkenGradientColorTo 100%);
+	}
+
 }
 .btn-twitter {
 	@include button-variant($color: #fff, $background: #64a8f2, $borderColor: #64a8f2, $needShadow: true);

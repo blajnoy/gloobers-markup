@@ -3698,6 +3698,106 @@ input.daterange-input {
 		float: right;
 	}
 }
+
+.payment-area {
+	padding: 25px 0 0;
+
+	h2 {
+		font-size: 30px;
+		line-height: 33px;
+		margin: 0 0 10px;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 21px;
+		margin: 0 0 10px;
+	}
+
+}
+
+.payment-ttl {
+	display: flex;
+	padding: 0 0 10px;
+
+	h2, h3 {
+		margin: 0;
+		flex: auto;
+		font-family: 'Open Sans';
+		font-weight: bold;
+	}
+}
+.lnk-question {
+	font-size: 18px;
+	line-height: 21px;
+	color: #e1e1e1;
+
+	&:hover {
+		text-decoration: none;
+		color: $linkColor;
+	}
+}
+
+.payment-types {
+	font-size: 0;
+
+	a {
+		display: inline;
+		opacity: .5;
+
+		&:not(:first-child) {
+			margin-left: 30px;
+		}
+
+		&.selected {
+			opacity: 1;
+		}
+	}
+	img {
+		vertical-align: middle;
+	}
+}
+.cardholder {
+	height: 272px;
+	background: url('../images/bg-payment-card.jpg') 0 0 no-repeat / cover;
+	border: 2px solid #a1a1a1;
+	border-radius: 10px;
+	padding: 35px;
+
+	input[type="text"] {
+		background: #fff;
+	}
+
+	.col-ttl {
+		color: $secondTextColor;
+		font-size: 18px;
+		line-height: 21px;
+		font-weight: bold;
+		display: block;
+		padding: 0 0 10px;
+	}
+
+	.cardholder-row {
+		display: flex;
+		margin: 0 -15px;
+
+		&:not(:first-child) {
+			margin-top: 30px;
+		}
+
+		.col {
+			flex: 1;
+			padding: 0 15px;
+		}
+
+		.cvv-col {
+			flex: 0 0 100px;
+		}
+	}
+
+}
+
+
 .footer {
 	background: #282828;
 	color: #fff;
@@ -5004,6 +5104,42 @@ input.daterange-input {
 
 	#markers {
 		left: 46%;
+	}
+}
+
+/* select customization */
+
+.select2-container--bootstrap {
+
+
+
+	.select2-selection {
+		background: #fff;
+		border: 2px solid #a1a1a1;
+		border-radius: 10px;
+		font-size: 16px;
+		height: 42px;
+		padding: 7px 24px 7px 15px;
+	}
+
+	.select2-selection--single {
+		.select2-selection__arrow {
+			b {
+				display: none;
+			}
+		}
+	}
+
+	.select2-dropdown {
+		background: #fff;
+		border-width: 0 2px 2px 2px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		font-size: 16px;
+	}
+
+	.select2-results__option {
+		padding: 6px 15px;
 	}
 }
 

@@ -614,9 +614,10 @@ if ($('.sel-pass').length != 0) {
 }
 
 if ($('.sel').length != 0) {
-    Select.init({
-        selector: '.sel',
-        className: 'select-theme-default'
+    $( ".sel" ).select2({
+        width: '100%',
+        minimumResultsForSearch: -1,
+        theme: "bootstrap"
     });
 }
 

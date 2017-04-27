@@ -374,128 +374,132 @@ table {
   content: "\E04D";
 }
 
-.gl-ico-road-trips:before {
+.gl-ico-question-mark:before {
   content: "\E04E";
 }
 
-.gl-ico-room-distribution-alt:before {
+.gl-ico-road-trips:before {
   content: "\E04F";
 }
 
-.gl-ico-room-distribution:before {
+.gl-ico-room-distribution-alt:before {
   content: "\E050";
 }
 
-.gl-ico-room-facilities:before {
+.gl-ico-room-distribution:before {
   content: "\E051";
 }
 
-.gl-ico-sailing:before {
+.gl-ico-room-facilities:before {
   content: "\E052";
 }
 
-.gl-ico-school-book-bag:before {
+.gl-ico-sailing:before {
   content: "\E053";
 }
 
-.gl-ico-scuba-diving:before {
+.gl-ico-school-book-bag:before {
   content: "\E054";
 }
 
-.gl-ico-sea-view:before {
+.gl-ico-scuba-diving:before {
   content: "\E055";
 }
 
-.gl-ico-shopping:before {
+.gl-ico-sea-view:before {
   content: "\E056";
 }
 
-.gl-ico-sightseeing:before {
+.gl-ico-shopping:before {
   content: "\E057";
 }
 
-.gl-ico-ski:before {
+.gl-ico-sightseeing:before {
   content: "\E058";
 }
 
-.gl-ico-spa:before {
+.gl-ico-ski:before {
   content: "\E059";
 }
 
-.gl-ico-sports:before {
+.gl-ico-spa:before {
   content: "\E05A";
 }
 
-.gl-ico-staff:before {
+.gl-ico-sports:before {
   content: "\E05B";
 }
 
-.gl-ico-star:before {
+.gl-ico-staff:before {
   content: "\E05C";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-star:before {
   content: "\E05D";
 }
 
-.gl-ico-things-to-keep-in-mind:before {
+.gl-ico-street-map:before {
   content: "\E05E";
 }
 
-.gl-ico-transportation:before {
+.gl-ico-things-to-keep-in-mind:before {
   content: "\E05F";
 }
 
-.gl-ico-trekking:before {
+.gl-ico-transportation:before {
   content: "\E060";
 }
 
-.gl-ico-tv:before {
+.gl-ico-trekking:before {
   content: "\E061";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-tv:before {
   content: "\E062";
 }
 
-.gl-ico-user:before {
+.gl-ico-twitter:before {
   content: "\E063";
 }
 
-.gl-ico-users-group:before {
+.gl-ico-user:before {
   content: "\E064";
 }
 
-.gl-ico-users:before {
+.gl-ico-users-group:before {
   content: "\E065";
 }
 
-.gl-ico-washing:before {
+.gl-ico-users:before {
   content: "\E066";
 }
 
-.gl-ico-water-sports:before {
+.gl-ico-washing:before {
   content: "\E067";
 }
 
-.gl-ico-wellness:before {
+.gl-ico-water-sports:before {
   content: "\E068";
 }
 
-.gl-ico-wifi:before {
+.gl-ico-wellness:before {
   content: "\E069";
 }
 
-.gl-ico-wildlife:before {
+.gl-ico-wifi:before {
   content: "\E06A";
 }
 
-.gl-ico-wine:before {
+.gl-ico-wildlife:before {
   content: "\E06B";
 }
 
-.gl-ico-worldwide:before {
+.gl-ico-wine:before {
   content: "\E06C";
+}
+
+.gl-ico-worldwide:before {
+  content: "\E06D";
 }
 
 body {
@@ -1411,9 +1415,8 @@ fieldset[disabled] .btn {
   -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
   background-color: #f9ec32;
-  background: -webkit-gradient(linear, left bottom, right top, from(#f9ec32), color-stop(20%, #f9ec32), color-stop(75%, #ee2a7c), to(#ee2a7c));
-  background: -webkit-linear-gradient(left bottom, #f9ec32 0%, #f9ec32 20%, #ee2a7c 75%, #ee2a7c 100%);
-  background: linear-gradient(left bottom, #f9ec32 0%, #f9ec32 20%, #ee2a7c 75%, #ee2a7c 100%);
+  background-image: -webkit-linear-gradient(65deg, #f9ed32 0%, #ee2a7b 100%);
+  background-image: linear-gradient(25deg, #f9ed32 0%, #ee2a7b 100%);
   border: 0;
   padding: 12px;
 }
@@ -1422,6 +1425,11 @@ fieldset[disabled] .btn {
   color: #fff;
   background: #5532c2;
   border-color: #5532c2;
+}
+
+.btn-instagram:hover {
+  background-image: -webkit-linear-gradient(65deg, #f1e307 0%, #d41162 100%);
+  background-image: linear-gradient(25deg, #f1e307 0%, #d41162 100%);
 }
 
 .btn-twitter {
@@ -7486,6 +7494,121 @@ input.daterange-input {
   float: right;
 }
 
+.payment-area {
+  padding: 25px 0 0;
+}
+
+.payment-area h2 {
+  font-size: 30px;
+  line-height: 33px;
+  margin: 0 0 10px;
+}
+
+.payment-area h3 {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 10px;
+}
+
+.payment-ttl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 10px;
+}
+
+.payment-ttl h2, .payment-ttl h3 {
+  margin: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+.lnk-question {
+  font-size: 18px;
+  line-height: 21px;
+  color: #e1e1e1;
+}
+
+.lnk-question:hover {
+  text-decoration: none;
+  color: #1e97d8;
+}
+
+.payment-types {
+  font-size: 0;
+}
+
+.payment-types a {
+  display: inline;
+  opacity: .5;
+}
+
+.payment-types a:not(:first-child) {
+  margin-left: 30px;
+}
+
+.payment-types a.selected {
+  opacity: 1;
+}
+
+.payment-types img {
+  vertical-align: middle;
+}
+
+.cardholder {
+  height: 272px;
+  background: url("../images/bg-payment-card.jpg") 0 0 no-repeat/cover;
+  border: 2px solid #a1a1a1;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.cardholder input[type="text"] {
+  background: #fff;
+}
+
+.cardholder .col-ttl {
+  color: #501e00;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+  display: block;
+  padding: 0 0 10px;
+}
+
+.cardholder .cardholder-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+
+.cardholder .cardholder-row:not(:first-child) {
+  margin-top: 30px;
+}
+
+.cardholder .cardholder-row .col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 15px;
+}
+
+.cardholder .cardholder-row .cvv-col {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100px;
+  -ms-flex: 0 0 100px;
+  flex: 0 0 100px;
+}
+
 .footer {
   background: #282828;
   color: #fff;
@@ -8994,4 +9117,33 @@ input.daterange-input {
   #markers {
     left: 46%;
   }
+}
+
+/* select customization */
+.select2-container--bootstrap .select2-selection {
+  background: #fff;
+  border: 2px solid #a1a1a1;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  height: 42px;
+  padding: 7px 24px 7px 15px;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+  display: none;
+}
+
+.select2-container--bootstrap .select2-dropdown {
+  background: #fff;
+  border-width: 0 2px 2px 2px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 16px;
+}
+
+.select2-container--bootstrap .select2-results__option {
+  padding: 6px 15px;
 }
