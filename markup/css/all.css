@@ -586,7 +586,8 @@ input[type=url]::-webkit-input-placeholder,
 input[type=email]::-webkit-input-placeholder,
 input[type=password]::-webkit-input-placeholder,
 input[type=number]::-webkit-input-placeholder {
-  color: #666;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
 }
 
 .form-control:-moz-placeholder,
@@ -595,7 +596,8 @@ input[type=url]:-moz-placeholder,
 input[type=email]:-moz-placeholder,
 input[type=password]:-moz-placeholder,
 input[type=number]:-moz-placeholder {
-  color: #666;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
 }
 
 .form-control::-moz-placeholder,
@@ -604,7 +606,8 @@ input[type=url]::-moz-placeholder,
 input[type=email]::-moz-placeholder,
 input[type=password]::-moz-placeholder,
 input[type=number]::-moz-placeholder {
-  color: #666;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
 }
 
 .form-control:-ms-input-placeholder,
@@ -613,7 +616,8 @@ input[type=url]:-ms-input-placeholder,
 input[type=email]:-ms-input-placeholder,
 input[type=password]:-ms-input-placeholder,
 input[type=number]:-ms-input-placeholder {
-  color: #666;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
 }
 
 .form-control,
@@ -644,22 +648,26 @@ textarea:disabled {
 
 .form-control::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #666;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
 }
 
 .form-control:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #666;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
 }
 
 .form-control::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #666;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
 }
 
 .form-control:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #666;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
 }
 
 input[type=submit],
@@ -6350,12 +6358,27 @@ input.daterange-input {
   flex-wrap: wrap;
 }
 
+.share-group .form-group, .soc-btns-row .form-group {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  padding: 0 10px;
+}
+
 .share-group .btn, .soc-btns-row .btn {
   -webkit-box-flex: 1;
   -webkit-flex: auto;
   -ms-flex: auto;
   flex: auto;
   margin: 0 10px 20px;
+}
+
+.share-area .share-group .btn, .share-area .soc-btns-row .btn {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 -webkit-calc(30% - 20px);
+  -ms-flex: 0 0 calc(30% - 20px);
+  flex: 0 0 calc(30% - 20px);
 }
 
 .soc-btns-row {
@@ -6368,6 +6391,71 @@ input.daterange-input {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+}
+
+.recommend-embed {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px;
+}
+
+.recommend-embed .share-soc {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 -webkit-calc(30% - 20px);
+  -ms-flex: 0 0 calc(30% - 20px);
+  flex: 0 0 calc(30% - 20px);
+  margin: 0 10px;
+}
+
+.recommend-embed .embed-wrap {
+  width: 170px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 170px;
+  -ms-flex: 0 0 170px;
+  flex: 0 0 170px;
+  margin: 0 10px;
+}
+
+.recommend-embed .embed-edit-area {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.card-embed {
+  text-align: center;
+  width: 300px;
+  -webkit-transform: scale(0.566);
+  -ms-transform: scale(0.566);
+  transform: scale(0.566);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.card-embed .img-h .img-wrap {
+  display: block;
+  position: relative;
+}
+
+.card-embed .img-h .img-wrap:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: -webkit-calc( ( 98 / 170 ) * 100% - 0px);
+  padding-top: calc( ( 98 / 170 ) * 100% - 0px);
+}
+
+.card-embed .img-h .img-wrap > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .recommendation-heading {
@@ -7510,12 +7598,21 @@ input.daterange-input {
   margin: 0 0 10px;
 }
 
+.payment-block {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 0 30px;
+}
+
+.payment-block:not(:first-child) {
+  padding-top: 30px;
+}
+
 .payment-ttl {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 0 10px;
+  padding: 0 0 15px;
 }
 
 .payment-ttl h2, .payment-ttl h3 {
@@ -7528,6 +7625,10 @@ input.daterange-input {
   font-weight: bold;
 }
 
+.payment-ttl h2 {
+  margin-bottom: 10px;
+}
+
 .lnk-question {
   font-size: 18px;
   line-height: 21px;
@@ -7537,6 +7638,22 @@ input.daterange-input {
 .lnk-question:hover {
   text-decoration: none;
   color: #1e97d8;
+}
+
+.form-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px;
+}
+
+.form-row .form-row-col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 10px;
 }
 
 .payment-types {
@@ -7571,6 +7688,7 @@ input.daterange-input {
 
 .cardholder input[type="text"] {
   background: #fff;
+  font-size: 16px;
 }
 
 .cardholder .col-ttl {
@@ -9130,12 +9248,9 @@ input.daterange-input {
   padding: 7px 24px 7px 15px;
 }
 
-.select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
-  display: none;
-}
-
 .select2-container--bootstrap .select2-dropdown {
   background: #fff;
+  margin-top: -2px;
   border-width: 0 2px 2px 2px;
   -webkit-border-bottom-left-radius: 10px;
   border-bottom-left-radius: 10px;

@@ -21,7 +21,7 @@ $sassy-disabled-color: #eee !default;
 		cursor: not-allowed;
 	}
 	
-	@include input-placeholder(#666);
+	@include input-placeholder(rgba(#000, .5));
 }
 @mixin sassy-textarea {
 	@include sassy-text;
@@ -60,14 +60,18 @@ $sassy-disabled-color: #eee !default;
 @mixin input-placeholder($color) {
 	&::-webkit-input-placeholder {
 		color: $color;
+		font-style: italic;
 	}
 	&:-moz-placeholder {
 		color: $color;
+		font-style: italic;
 	}
 	&::-moz-placeholder {
 		color: $color;
+		font-style: italic;
 	}
 	&:-ms-input-placeholder {
 		color: $color;
+		font-style: italic;
 	}
 }

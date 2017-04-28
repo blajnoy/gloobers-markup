@@ -1056,6 +1056,7 @@ input.daterange-input {
 		margin: 0 0 30px;
 	}
 }
+
 .review-card {
 	@extend .card;
 
@@ -2700,9 +2701,18 @@ input.daterange-input {
 	margin: 0 -10px;
 	flex-wrap: wrap;
 
+	.form-group {
+		flex: auto;
+		padding: 0 10px;
+	}
+
 	.btn {
 		flex: auto;
 		margin: 0 10px 20px;
+
+		.share-area & {
+			flex: 0 0 calc(30% - 20px);
+		}
 	}
 }
 .soc-btns-row {
@@ -2714,6 +2724,41 @@ input.daterange-input {
 		flex: 1;
 	}
 }
+
+.recommend-embed {
+	display: flex;
+	margin: 0 -10px;
+
+	.share-soc {
+		flex: 0 0 calc(30% - 20px);
+		margin: 0 10px;
+	}
+
+	.embed-wrap {
+		width: 170px;
+		flex: 0 0 170px;
+		margin: 0 10px;
+	}
+
+	.embed-edit-area {
+		flex: 1;
+		margin: 0 10px;
+	}
+}
+
+.card-embed {
+	text-align: center;
+	width: 300px;
+	transform: scale(0.566);
+	transform-origin: 0 0;
+
+	.img-h {
+		.img-wrap {
+			@include aspect-ratio(170, 98);
+		}
+	}
+}
+
 .recommendation-heading {
 	padding: 0 0 35px;
 	display: flex;
@@ -3716,15 +3761,28 @@ input.daterange-input {
 
 }
 
+.payment-block {
+	border-bottom: 1px solid #e1e1e1;
+	padding: 0 0 30px;
+
+	&:not(:first-child) {
+		padding-top: 30px;
+	}
+}
+
 .payment-ttl {
 	display: flex;
-	padding: 0 0 10px;
+	padding: 0 0 15px;
 
 	h2, h3 {
 		margin: 0;
 		flex: auto;
 		font-family: 'Open Sans';
 		font-weight: bold;
+	}
+
+	h2 {
+		margin-bottom: 10px;
 	}
 }
 .lnk-question {
@@ -3735,6 +3793,16 @@ input.daterange-input {
 	&:hover {
 		text-decoration: none;
 		color: $linkColor;
+	}
+}
+
+.form-row {
+	display: flex;
+	margin: 0 -10px;
+
+	.form-row-col {
+		flex: 1;
+		padding: 0 10px;
 	}
 }
 
@@ -3766,6 +3834,7 @@ input.daterange-input {
 
 	input[type="text"] {
 		background: #fff;
+		font-size: 16px;
 	}
 
 	.col-ttl {
@@ -5111,8 +5180,6 @@ input.daterange-input {
 
 .select2-container--bootstrap {
 
-
-
 	.select2-selection {
 		background: #fff;
 		border: 2px solid #a1a1a1;
@@ -5125,13 +5192,14 @@ input.daterange-input {
 	.select2-selection--single {
 		.select2-selection__arrow {
 			b {
-				display: none;
+				//display: none;
 			}
 		}
 	}
 
 	.select2-dropdown {
 		background: #fff;
+		margin-top: -2px;
 		border-width: 0 2px 2px 2px;
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 10px;
