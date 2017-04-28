@@ -4510,7 +4510,7 @@ input.daterange-input {
 }
 
 .slick-slider .slick-arrow.slick-prev:before {
-  content: "\E003";
+  content: "\E006";
 }
 
 .slick-slider .slick-arrow.slick-next {
@@ -4519,7 +4519,7 @@ input.daterange-input {
 }
 
 .slick-slider .slick-arrow.slick-next:before {
-  content: "\E004";
+  content: "\E007";
 }
 
 .visual {

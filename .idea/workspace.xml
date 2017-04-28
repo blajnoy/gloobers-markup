@@ -6,18 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/markup.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/css/all.css" afterPath="$PROJECT_DIR$/markup/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/payment.html" afterPath="$PROJECT_DIR$/markup/payment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/personal-recommendations.html" afterPath="$PROJECT_DIR$/markup/personal-recommendations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/profile-public.html" afterPath="$PROJECT_DIR$/markup/profile-public.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_mixins-sassy-form.scss" afterPath="$PROJECT_DIR$/markup/sass/_mixins-sassy-form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/_styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/search-results-advisors.html" afterPath="$PROJECT_DIR$/markup/search-results-advisors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/search-results.html" afterPath="$PROJECT_DIR$/markup/search-results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/single-hotel.html" afterPath="$PROJECT_DIR$/markup/single-hotel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/single.html" afterPath="$PROJECT_DIR$/markup/single.html" />
     </list>
     <ignored path="gloobers-markup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,11 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="payment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/payment.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="512">
               <caret line="176" column="38" selection-start-line="176" selection-start-column="38" selection-end-line="176" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/markup/css/all.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="4521" column="17" selection-start-line="4521" selection-start-column="17" selection-end-line="4521" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -204,7 +204,6 @@
         <option value="$PROJECT_DIR$/markup/js/scroll-menu.js" />
         <option value="$PROJECT_DIR$/markup/css/daterangepicker.css" />
         <option value="$PROJECT_DIR$/markup/sass/_daterangepicker.scss" />
-        <option value="$PROJECT_DIR$/markup/css/all.css" />
         <option value="$PROJECT_DIR$/markup/profile.html" />
         <option value="$PROJECT_DIR$/markup/sass/_global.scss" />
         <option value="$PROJECT_DIR$/markup/sass/main-soon.scss" />
@@ -238,6 +237,7 @@
         <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
         <option value="$PROJECT_DIR$/markup/personal-recommendations.html" />
         <option value="$PROJECT_DIR$/markup/payment.html" />
+        <option value="$PROJECT_DIR$/markup/css/all.css" />
       </list>
     </option>
   </component>
@@ -471,7 +471,7 @@
       <workItem from="1490878655561" duration="859000" />
       <workItem from="1490883110213" duration="69792000" />
       <workItem from="1492158504774" duration="5425000" />
-      <workItem from="1492592531038" duration="69068000" />
+      <workItem from="1492592531038" duration="69399000" />
     </task>
     <task id="LOCAL-00001" summary="calendar">
       <created>1482820108284</created>
@@ -795,11 +795,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493310815618</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="calendar">
+      <created>1493389248539</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1493389248539</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="604111000" />
+    <option name="totallyTimeSpent" value="604442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,7 +827,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40086675" sideWeight="0.5063966" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28169015" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22968581" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17659806" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -874,7 +881,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/markup/sass/main-soon.scss" />
     <entry file="file://$PROJECT_DIR$/markup/sass/_coming-soon.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1674">
@@ -1223,14 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="1411" column="22" selection-start-line="1411" selection-start-column="22" selection-end-line="1411" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/sass/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1354,10 +1352,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_slick.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/markup/payment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="176" column="38" selection-start-line="176" selection-start-column="38" selection-end-line="176" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="4521" column="17" selection-start-line="4521" selection-start-column="17" selection-end-line="4521" selection-end-column="17" />
           <folding />
         </state>
       </provider>
