@@ -4510,7 +4510,7 @@ input.daterange-input {
 }
 
 .slick-slider .slick-arrow.slick-prev:before {
-  content: "\E003";
+  content: "\E006";
 }
 
 .slick-slider .slick-arrow.slick-next {
@@ -4519,7 +4519,7 @@ input.daterange-input {
 }
 
 .slick-slider .slick-arrow.slick-next:before {
-  content: "\E004";
+  content: "\E007";
 }
 
 .visual {
@@ -8474,6 +8474,40 @@ input.daterange-input {
   padding: 30px;
 }
 
+.personal-content-block.trips-list-wrap {
+  border: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+  background: none;
+}
+
+.card-label {
+  position: absolute;
+  top: -21px;
+  right: -61px;
+  font-size: 10px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 135px;
+  color: #fff;
+  background: #fec200;
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  will-change: transform;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
 .personal-cabinet-tabs {
   position: relative;
   z-index: 2;
@@ -8535,6 +8569,25 @@ input.daterange-input {
   border-bottom-right-radius: 0;
   border-right-width: 0;
   color: #1e97d8;
+}
+
+.personal-cabinet-tabs .tab-label {
+  position: absolute;
+  top: 50%;
+  right: -webkit-calc(30px + 7%);
+  right: calc(30px + 7%);
+  font-size: 10px;
+  line-height: 13px;
+  -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09), 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09), 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  color: #501e00;
+  background: #fec200;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 6px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .personal-photo .photo {
@@ -8800,6 +8853,87 @@ input.daterange-input {
 
 .steps-nav .steps-counter .total-steps span {
   display: block;
+}
+
+.trips-list .card, .trips-list .review-card {
+  margin: 0 0 30px;
+}
+
+.trips-list .card .img-slider-wrap, .trips-list .review-card .img-slider-wrap {
+  overflow: hidden;
+}
+
+.trips-list .card .img-slider-wrap .img-slider, .trips-list .review-card .img-slider-wrap .img-slider {
+  width: 100%;
+}
+
+.trips-list .card .img-slider-wrap .img-slider .item, .trips-list .review-card .img-slider-wrap .img-slider .item {
+  display: block;
+  position: relative;
+}
+
+.trips-list .card .img-slider-wrap .img-slider .item:before, .trips-list .review-card .img-slider-wrap .img-slider .item:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: -webkit-calc( ( 250 / 870 ) * 100% - 0px);
+  padding-top: calc( ( 250 / 870 ) * 100% - 0px);
+}
+
+.trips-list .card .img-slider-wrap .img-slider .item > img, .trips-list .review-card .img-slider-wrap .img-slider .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.trips-list .card .img-slider-wrap .img-slider .item img, .trips-list .review-card .img-slider-wrap .img-slider .item img {
+  object-fit: cover;
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.trips-list .card:first-child, .trips-list .review-card:first-child {
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.trips-list .card:first-child .img-slider-wrap .img-slider .item img, .trips-list .review-card:first-child .img-slider-wrap .img-slider .item img {
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.trips-list .card .trip-card-footer, .trips-list .review-card .trip-card-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 17px;
+}
+
+.trips-list .card .trip-card-footer .trip-card-footer-text, .trips-list .review-card .trip-card-footer .trip-card-footer-text {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.trips-list .card .trip-card-footer .sub-ttl, .trips-list .review-card .trip-card-footer .sub-ttl {
+  display: block;
+  padding: 0 0 10px;
+}
+
+.trips-list .card .trip-card-footer .date, .trips-list .review-card .trip-card-footer .date {
+  font-style: normal;
+  font-size: 12px;
+  display: block;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.trips-list .card .trip-card-footer .btn, .trips-list .review-card .trip-card-footer .btn {
+  margin: 0 0 0 30px;
 }
 
 .recommend-wrap {

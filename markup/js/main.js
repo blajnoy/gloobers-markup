@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+    $('.trips-list').find('.img-slider').slick({
+        slidesToShow: 1,
+        swipeToSlide: true,
+        fade: true
+    });
+
     /* schedule calendar */
 
     if($('#calendar').length != 0) {

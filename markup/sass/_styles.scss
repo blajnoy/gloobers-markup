@@ -1183,7 +1183,7 @@ input.daterange-input {
 		&.slick-prev {
 
 			&:before {
-				content: "\E003";
+				content: "\E006";
 			}
 		}
 
@@ -1192,7 +1192,7 @@ input.daterange-input {
 			right: 0;
 
 			&:before {
-				content: "\E004";
+				content: "\E007";
 			}
 		}
 	}
@@ -4481,7 +4481,37 @@ input.daterange-input {
 .personal-content-block {
 	@extend .personal-box;
 	padding: 30px;
+
+	&.trips-list-wrap {
+		border: 0;
+		border-radius: 0;
+		padding: 0;
+		position: relative;
+		z-index: 10;
+		background: none;
+	}
 }
+
+.card-label {
+	position: absolute;
+	top: -21px;
+	right: -61px;
+	font-size: 10px;
+	line-height: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 135px;
+	color: #fff;
+	background: #fec200;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3);
+	transform-origin: 0 0;
+	transform: rotate(45deg);
+	will-change: transform;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
 .personal-cabinet-tabs {
 	position: relative;
 	z-index: 2;
@@ -4549,6 +4579,21 @@ input.daterange-input {
 			}
 		}
 	}
+
+	.tab-label {
+		position: absolute;
+		top: 50%;
+		right: calc(30px + 7%);
+		font-size: 10px;
+		line-height: 13px;
+		box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09),0 1px 4px 0 rgba(0, 0, 0, 0.25);
+		color: $secondTextColor;
+		background: #fec200;
+		border-radius: 5px;
+		padding: 0 6px;
+		transform: translateY(-50%);
+
+	}
 }
 .personal-photo {
 	@extend .personal-box;
@@ -4566,6 +4611,7 @@ input.daterange-input {
 		margin-bottom: 10px;
 	}
 }
+
 .info-desc {
 	font-size: 14px;
 	line-height: 17px;
@@ -4745,6 +4791,71 @@ input.daterange-input {
 			}
 		}
 	}
+}
+
+.trips-list {
+
+	.card {
+		margin: 0 0 30px;
+
+		.img-slider-wrap {
+			overflow: hidden;
+
+			.img-slider {
+				width: 100%;
+
+				.item {
+					@include aspect-ratio(870, 250);
+
+					img {
+						object-fit: cover;
+						border-radius: 10px 10px 0 0;
+					}
+				}
+			}
+		}
+
+		&:first-child {
+			border-top-left-radius: 0;
+
+			.img-slider-wrap {
+				.img-slider {
+					.item {
+						img {
+							border-top-left-radius: 0;
+						}
+					}
+				}
+			}
+		}
+
+		.trip-card-footer {
+			display: flex;
+			line-height: 17px;
+
+			.trip-card-footer-text {
+				flex: auto;
+			}
+
+			.sub-ttl {
+				display: block;
+				padding: 0 0 10px;
+			}
+
+			.date {
+				font-style: normal;
+				font-size: 12px;
+				display: block;
+				font-weight: bold;
+				color: rgba(#000, .5);
+			}
+
+			.btn {
+				margin: 0 0 0 30px;
+			}
+		}
+	}
+
 }
 
 .recommend-wrap {
