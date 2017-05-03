@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="hotels">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/personal-followed-recommendations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/markup.zip" afterPath="$PROJECT_DIR$/markup/markup.zip" />
+    <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/assets/icons/check.svg" afterPath="$PROJECT_DIR$/markup/assets/icons/check.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/css/all.css" afterPath="$PROJECT_DIR$/markup/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/personal-recommendations.html" afterPath="$PROJECT_DIR$/markup/personal-recommendations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/_styles.scss" />
     </list>
     <ignored path="gloobers-markup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -923,7 +917,7 @@
       <workItem from="1491340811458" duration="599000" />
       <workItem from="1491768279021" duration="1873000" />
       <workItem from="1491772364317" duration="3691000" />
-      <workItem from="1493790723195" duration="2551000" />
+      <workItem from="1493790723195" duration="2791000" />
     </task>
     <task id="LOCAL-00001" summary="calendar">
       <created>1482820108284</created>
@@ -960,11 +954,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485941521945</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hotels">
+      <created>1493794409202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1493794409202</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67455000" />
+    <option name="totallyTimeSpent" value="67695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1062,7 +1063,7 @@
         <state relative-caret-position="8265">
           <caret line="435" column="50" lean-forward="false" selection-start-line="432" selection-start-column="44" selection-end-line="435" selection-end-column="50" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1408,7 +1409,7 @@
         <state relative-caret-position="8265">
           <caret line="435" column="50" lean-forward="false" selection-start-line="432" selection-start-column="44" selection-end-line="435" selection-end-column="50" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
