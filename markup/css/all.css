@@ -4510,7 +4510,7 @@ input.daterange-input {
 }
 
 .slick-slider .slick-arrow.slick-prev:before {
-  content: "\E006";
+  content: "\E003";
 }
 
 .slick-slider .slick-arrow.slick-next {
@@ -4519,7 +4519,7 @@ input.daterange-input {
 }
 
 .slick-slider .slick-arrow.slick-next:before {
-  content: "\E007";
+  content: "\E004";
 }
 
 .visual {
@@ -4827,6 +4827,11 @@ input.daterange-input {
   display: -ms-flexbox;
   display: flex;
   padding: 15px 0 0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 17px;
 }
 
 .review-footer-info .rating {
@@ -4844,6 +4849,21 @@ input.daterange-input {
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
   font-style: normal;
+}
+
+.review-footer-info .date.followed-reco-date {
+  border-left: 0;
+  border-right: 1px solid #e5e5e5;
+  padding: 5px 15px 5px 0;
+}
+
+.review-footer-info .author-name {
+  font-size: 14px;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  text-align: right;
 }
 
 .search-ttl {

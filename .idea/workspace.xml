@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/markup/sass/_styles.scss" line="3252" mnemonic="5" />
-    <bookmark url="file://$PROJECT_DIR$/markup/professionals.html" line="188" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="">
+    <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="hotels">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/personal-followed-recommendations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/markup.zip" afterPath="$PROJECT_DIR$/markup/markup.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/assets/icons/check.svg" afterPath="$PROJECT_DIR$/markup/assets/icons/check.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/css/all.css" afterPath="$PROJECT_DIR$/markup/css/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/personal-recommendations.html" afterPath="$PROJECT_DIR$/markup/personal-recommendations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/_styles.scss" />
     </list>
     <ignored path="gloobers-markup.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
-    <ignored path="markup/markup.rar" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +20,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -30,30 +29,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="single-hotel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/single-hotel.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="440" column="137" selection-start-line="440" selection-start-column="137" selection-end-line="440" selection-end-column="137" />
+            <state relative-caret-position="551">
+              <caret line="186" column="30" lean-forward="true" selection-start-line="167" selection-start-column="24" selection-end-line="186" selection-end-column="30" />
               <folding>
-                <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#3;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#4;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1493791670579" expanded="true" signature="26546:26559" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personal-cabinet-profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/personal-cabinet-profile.html">
+      <file leaf-file-name="search-results.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/search-results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="740" column="4" selection-start-line="740" selection-start-column="4" selection-end-line="740" selection-end-column="44" />
-              <folding>
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="322">
+              <caret line="62" column="38" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="62" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,48 +54,11 @@
       <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="1019" column="0" selection-start-line="1019" selection-start-column="0" selection-end-line="1019" selection-end-column="0" />
+            <state relative-caret-position="5244">
+              <caret line="276" column="85" lean-forward="false" selection-start-line="276" selection-start-column="85" selection-end-line="276" selection-end-column="85" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#3;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#4;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#5;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#46560#50129#0" expanded="false" />
+                <marker date="1493791674234" expanded="true" signature="51149:51310" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/payment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="176" column="38" selection-start-line="176" selection-start-column="38" selection-end-line="176" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/markup/css/all.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="4521" column="17" selection-start-line="4521" selection-start-column="17" selection-end-line="4521" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -110,8 +66,18 @@
       <file leaf-file-name="personal-recommendations.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/personal-recommendations.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="101" column="60" selection-start-line="101" selection-start-column="60" selection-end-line="101" selection-end-column="60" />
+            <state relative-caret-position="265">
+              <caret line="115" column="51" lean-forward="false" selection-start-line="113" selection-start-column="44" selection-end-line="115" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personal-followed-recommendations.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/markup/personal-followed-recommendations.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="758">
+              <caret line="176" column="38" lean-forward="false" selection-start-line="176" selection-start-column="38" selection-end-line="176" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -120,74 +86,23 @@
       <file leaf-file-name="_styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="5189" column="0" selection-start-line="5189" selection-start-column="0" selection-end-line="5189" selection-end-column="0" />
+            <state relative-caret-position="702">
+              <caret line="1454" column="29" lean-forward="false" selection-start-line="1454" selection-start-column="29" selection-end-line="1454" selection-end-column="29" />
               <folding>
-                <element signature="e#47815#48235#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mixins-sassy-form.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/sass/_mixins-sassy-form.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single-page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/js/single-page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="615" column="11" selection-start-line="615" selection-start-column="11" selection-end-line="615" selection-end-column="11" />
-              <folding>
-                <element signature="e#135#1666#0" expanded="false" />
-                <element signature="e#5574#5773#0" expanded="false" />
-                <element signature="e#5804#5983#0" expanded="false" />
-                <element signature="e#6015#6361#0" expanded="false" />
-                <element signature="e#6412#6448#0" expanded="false" />
-                <element signature="e#6488#6554#0" expanded="false" />
-                <element signature="e#6782#6984#0" expanded="false" />
-                <element signature="e#22558#24728#0" expanded="false" />
-                <element signature="n#!!block;n#getRatingMarker#0" expanded="false" />
-                <element signature="n#!!block;n#getHotelMarker#0" expanded="false" />
-                <element signature="n#!!block;n#getAdvisorMarker#0" expanded="false" />
-                <element signature="e#32957#35664#0" expanded="false" />
-                <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
-                <marker date="1493388828134" expanded="false" signature="16814:19348" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="17226:18162" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="17226:19348" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="17447:18147" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="17447:18162" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="17486:17532" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="17486:17533" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="19402:21002" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="19402:21008" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="19402:21014" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="20564:21002" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="20910:21002" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="20938:21002" placeholder="..." />
-                <marker date="1493388828134" expanded="true" signature="20966:21002" placeholder="..." />
+                <marker date="1493792590311" expanded="true" signature="8:78" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>range</find>
+      <find>card</find>
+      <find>review-foo</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -196,100 +111,37 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/markup/sass/_drop-theme-arrows.scss" />
-        <option value="$PROJECT_DIR$/markup/sass/_icons.scss" />
-        <option value="$PROJECT_DIR$/markup/css/toggle-switch-px.css" />
-        <option value="$PROJECT_DIR$/markup/assets/css/templates/_icons.scss" />
-        <option value="$PROJECT_DIR$/markup/js/scroll-menu.js" />
-        <option value="$PROJECT_DIR$/markup/css/daterangepicker.css" />
         <option value="$PROJECT_DIR$/markup/sass/_daterangepicker.scss" />
-        <option value="$PROJECT_DIR$/markup/profile.html" />
-        <option value="$PROJECT_DIR$/markup/sass/_global.scss" />
-        <option value="$PROJECT_DIR$/markup/sass/main-soon.scss" />
-        <option value="$PROJECT_DIR$/markup/images/marker.svg" />
-        <option value="$PROJECT_DIR$/markup/fonts/glyphicons-halflings-regular.svg" />
-        <option value="$PROJECT_DIR$/markup/profile-edit.html" />
-        <option value="$PROJECT_DIR$/markup/professionals.html" />
-        <option value="$PROJECT_DIR$/markup/sass/_mixins.scss" />
-        <option value="$PROJECT_DIR$/markup/gulpfile.js" />
-        <option value="$PROJECT_DIR$/markup/sass/_coming-soon.scss" />
         <option value="$PROJECT_DIR$/markup/sass/_variables.scss" />
-        <option value="$PROJECT_DIR$/markup/personal-travel-credits.html" />
-        <option value="D:/OpenServer/domains/gloobers-old.com/sites/default/settings.php" />
-        <option value="$PROJECT_DIR$/markup/profile-public.html" />
-        <option value="$PROJECT_DIR$/markup/search-results-advisors.html" />
+        <option value="$PROJECT_DIR$/markup/sass/_mixins.scss" />
+        <option value="$PROJECT_DIR$/markup/sass/_global.scss" />
+        <option value="$PROJECT_DIR$/markup/sass/_drop-theme-arrows.scss" />
         <option value="$PROJECT_DIR$/markup/search-results.html" />
-        <option value="$PROJECT_DIR$/markup/sass/_custom-chk&amp;radio.scss" />
-        <option value="$PROJECT_DIR$/markup/sass/main.scss" />
-        <option value="$PROJECT_DIR$/markup/sass/_fonts.scss" />
-        <option value="$PROJECT_DIR$/markup/sass/_full-calendar-customization.scss" />
-        <option value="$PROJECT_DIR$/markup/single-hotel.html" />
-        <option value="$PROJECT_DIR$/markup/js/daterangepicker.js" />
-        <option value="$PROJECT_DIR$/markup/coming-soon.html" />
-        <option value="$PROJECT_DIR$/markup/index.html" />
-        <option value="$PROJECT_DIR$/markup/personal-cabinet-profile.html" />
-        <option value="$PROJECT_DIR$/markup/js/single-page.js" />
-        <option value="$PROJECT_DIR$/markup/sass/_buttons.scss" />
-        <option value="$PROJECT_DIR$/markup/sass/_mixins-sassy-form.scss" />
-        <option value="$PROJECT_DIR$/markup/single.html" />
         <option value="$PROJECT_DIR$/markup/js/main.js" />
-        <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
+        <option value="$PROJECT_DIR$/markup/index.html" />
+        <option value="$PROJECT_DIR$/markup/sass/_buttons.scss" />
+        <option value="$PROJECT_DIR$/markup/single.html" />
         <option value="$PROJECT_DIR$/markup/personal-recommendations.html" />
-        <option value="$PROJECT_DIR$/markup/payment.html" />
-        <option value="$PROJECT_DIR$/markup/css/all.css" />
+        <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
+        <option value="$PROJECT_DIR$/markup/personal-followed-recommendations.html" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/markup/node_modules" />
-  </component>
-  <component name="PhpServers">
-    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript validity issuesJavaScript</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>UnreachableCodeJS</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -308,12 +160,6 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloobers-markup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="gloobers-markup" />
@@ -356,24 +202,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloobers-markup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloobers-markup" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="markup" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -381,70 +209,691 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="D:/OpenServer/domains/gloobers-old.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Oleksiy_Kyrychenko/betterPT" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="jsx.switch.disabled" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\projects\gloobers\gloobers-markup\markup\js" />
-      <recent name="D:\work\projects\gloobers\gloobers-markup\markup\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\projects\gloobers\gloobers-markup\markup\css" />
-    </key>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/coming-soon.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/css/all.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/daterangepicker.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/main.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/personal-cabinet-profile.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/personal-travel-credits.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/professionals.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/profile-edit.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/profile-public.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/sass/_buttons.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/sass/_custom-chk&amp;radio.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/sass/_icons.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/sass/_mixins-sassy-form.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/sass/_styles.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/sass/main.scss</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/search-results-advisors.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/search-results.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/single-hotel.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/single.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/assets/icons/marker-empty.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/assets/icons/marker-full.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/assets/icons/question-mark.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/css/fullcalendar.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/bg-map.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/bg-payment-card.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/logo-payment01.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/logo-payment02.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/logo-payment03.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/logo-payment04.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/logo-payment05.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/recommendations-types/bg-type01.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/recommendations-types/bg-type02.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/recommendations-types/bg-type03.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/recommendations-types/bg-type04.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/recommendations-types/bg-type05.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/recommendations-types/bg-type06.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/beach.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/business.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/design.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/family.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/golf.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/green.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/historical.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/only-adults.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/pet-friendly.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/rural.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/ski.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/sport.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/with-charm.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/images/types-of-hotels/with-spa.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/fullcalendar.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/af.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ar-dz.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ar-ly.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ar-ma.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ar-sa.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ar-tn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/bg.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/cs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/da.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/de-at.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/de.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/el.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/en-au.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/en-ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/en-gb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/en-ie.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/en-nz.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/es-do.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/es.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/eu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/fa.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/fi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/fr-ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/fr-ch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/fr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/gl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/he.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/hi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/hr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/hu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/id.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/is.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/it.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ja.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/kk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ko.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/lb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/lt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/lv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/mk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ms-my.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ms.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/nb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/nl-be.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/nl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/nn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/pl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/pt-br.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/pt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ro.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/ru.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/sk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/sl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/sr-cyrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/sr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/sv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/th.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/tr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/uk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/vi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/zh-cn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/locale/zh-tw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/js/single-page.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/markup.zip</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/CHANGELOG.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/CONTRIBUTING.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.print.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.print.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/gcal.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/gcal.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale-all.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/af.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-dz.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-ly.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-ma.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-sa.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-tn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/bg.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/cs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/da.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/de-at.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/de.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/el.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-au.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-gb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-ie.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-nz.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/es-do.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/es.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/eu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fa.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fr-ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fr-ch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/gl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/he.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/hi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/hr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/hu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/id.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/is.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/it.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ja.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/kk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ko.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/lb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/lt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/lv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/mk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ms-my.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ms.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nl-be.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/pl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/pt-br.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/pt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ro.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ru.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sr-cyrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/th.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/tr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/uk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/vi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/zh-cn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/zh-tw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/fullcalendar/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/CHANGELOG.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/ender.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/af.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ar-dz.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ar-kw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ar-ly.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ar-ma.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ar-sa.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ar-tn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/az.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/be.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/bg.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/bn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/bo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/br.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/bs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/cs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/cv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/cy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/da.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/de-at.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/de-ch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/de.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/dv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/el.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/en-au.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/en-ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/en-gb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/en-ie.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/en-nz.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/eo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/es-do.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/es.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/et.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/eu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/fa.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/fi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/fo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/fr-ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/fr-ch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/fr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/fy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/gd.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/gl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/gom-latn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/he.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/hi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/hr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/hu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/hy-am.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/id.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/is.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/it.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ja.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/jv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ka.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/kk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/km.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/kn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ko.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ky.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/lb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/lo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/lt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/lv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/me.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/mi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/mk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ml.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/mr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ms-my.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ms.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/my.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/nb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ne.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/nl-be.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/nl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/nn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/pa-in.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/pl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/pt-br.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/pt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ro.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ru.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/sd.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/se.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/si.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/sk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/sl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/sq.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/sr-cyrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/sr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ss.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/sv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/sw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ta.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/te.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/tet.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/th.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/tl-ph.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/tlh.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/tr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/tzl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/tzm-latn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/tzm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/uk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/ur.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/uz-latn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/uz.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/vi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/x-pseudo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/yo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/zh-cn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/zh-hk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/locale/zh-tw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/min/locales.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/min/locales.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/min/moment-with-locales.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/min/moment-with-locales.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/min/moment.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/moment.d.ts</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/moment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/package.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/check-overflow.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/date-from-array.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-anything.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-array.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-object.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-string-and-array.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-string-and-format.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/from-string.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/local.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/parsing-flags.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/utc.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/create/valid.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/abs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/add-subtract.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/as.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/bubble.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/constructor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/create.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/duration.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/get.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/humanize.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/iso-string.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/prototype.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/duration/valid.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/format/format.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/base-config.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/calendar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/constructor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/en.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/formats.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/invalid.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/lists.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/locale.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/locales.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/ordinal.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/pre-post-format.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/prototype.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/relative.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/locale/set.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/add-subtract.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/calendar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/clone.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/compare.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/constructor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/creation-data.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/diff.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/format.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/from.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/get-set.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/locale.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/min-max.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/moment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/now.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/prototype.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/start-end-of.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/to-type.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/to.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/moment/valid.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/parse/regex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/parse/token.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/aliases.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/constants.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/day-of-month.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/day-of-week.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/day-of-year.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/hour.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/millisecond.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/minute.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/month.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/offset.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/priorities.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/quarter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/second.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/timestamp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/timezone.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/units.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/week-calendar-utils.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/week-year.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/week.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/units/year.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/abs-ceil.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/abs-floor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/abs-round.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/compare-arrays.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/defaults.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/deprecate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/extend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/has-own-prop.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/hooks.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/index-of.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-array.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-date.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-function.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-number.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-object-empty.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-object.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/is-undefined.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/keys.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/map.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/some.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/to-int.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/zero-fill.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/af.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-dz.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-kw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-ly.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-ma.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-sa.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar-tn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/az.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/be.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/bg.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/bn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/bo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/br.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/bs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/cs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/cv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/cy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/da.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/de-at.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/de-ch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/de.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/dv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/el.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/en-au.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/en-ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/en-gb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/en-ie.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/en-nz.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/eo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/es-do.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/es.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/et.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/eu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/fa.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/fi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/fo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/fr-ca.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/fr-ch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/fr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/fy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/gd.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/gl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/gom-latn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/he.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/hi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/hr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/hu.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/hy-am.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/id.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/is.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/it.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ja.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/jv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ka.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/kk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/km.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/kn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ko.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ky.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/lb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/lo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/lt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/lv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/me.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/mi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/mk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ml.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/mr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ms-my.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ms.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/my.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/nb.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ne.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/nl-be.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/nl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/nn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/pa-in.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/pl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/pt-br.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/pt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ro.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ru.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/sd.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/se.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/si.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/sk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/sl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/sq.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/sr-cyrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/sr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ss.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/sv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/sw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ta.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/te.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/tet.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/th.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/tl-ph.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/tlh.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/tr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/tzl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/tzm-latn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/tzm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/uk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/ur.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/uz-latn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/uz.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/vi.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/x-pseudo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/yo.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/zh-cn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/zh-hk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/locale/zh-tw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/node_modules/moment/src/moment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/payment.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/personal-recommendations.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/markup/sass/_full-calendar-customization.scss</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.search-results-advisors.html">
-    <configuration default="false" name="search-results-advisors.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/gloobers-markup/markup/search-results-advisors.html">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.search-results-advisors.html" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.search-results-advisors.html" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
-    </recent_temporary>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -458,20 +907,23 @@
       <workItem from="1483048443491" duration="165000" />
       <workItem from="1484173985134" duration="1295000" />
       <workItem from="1484432897532" duration="1313000" />
-      <workItem from="1484629636064" duration="8736000" />
-      <workItem from="1485161509282" duration="39867000" />
-      <workItem from="1485335223352" duration="103665000" />
-      <workItem from="1486649508037" duration="33431000" />
-      <workItem from="1487321082404" duration="32293000" />
-      <workItem from="1488188003727" duration="1479000" />
-      <workItem from="1488195323640" duration="65910000" />
-      <workItem from="1488536848831" duration="75763000" />
-      <workItem from="1489745180548" duration="43427000" />
-      <workItem from="1490346278155" duration="24736000" />
-      <workItem from="1490878655561" duration="859000" />
-      <workItem from="1490883110213" duration="69792000" />
-      <workItem from="1492158504774" duration="5425000" />
-      <workItem from="1492592531038" duration="69399000" />
+      <workItem from="1484629636064" duration="10164000" />
+      <workItem from="1485229942100" duration="7036000" />
+      <workItem from="1485709441117" duration="4582000" />
+      <workItem from="1486377948202" duration="36000" />
+      <workItem from="1488408232084" duration="640000" />
+      <workItem from="1489115238409" duration="190000" />
+      <workItem from="1489115448080" duration="1053000" />
+      <workItem from="1489117791777" duration="610000" />
+      <workItem from="1489119646558" duration="1801000" />
+      <workItem from="1489121825779" duration="1594000" />
+      <workItem from="1489124748413" duration="57000" />
+      <workItem from="1490223717230" duration="721000" />
+      <workItem from="1491244690053" duration="597000" />
+      <workItem from="1491340811458" duration="599000" />
+      <workItem from="1491768279021" duration="1873000" />
+      <workItem from="1491772364317" duration="3691000" />
+      <workItem from="1493790723195" duration="2551000" />
     </task>
     <task id="LOCAL-00001" summary="calendar">
       <created>1482820108284</created>
@@ -480,333 +932,39 @@
       <option name="project" value="LOCAL" />
       <updated>1482820108284</updated>
     </task>
-    <task id="LOCAL-00002" summary="calendar">
-      <created>1485192250059</created>
+    <task id="LOCAL-00002" summary="hotels">
+      <created>1485158072068</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1485192250059</updated>
+      <updated>1485158072068</updated>
     </task>
-    <task id="LOCAL-00003" summary="calendar">
-      <created>1485276028357</created>
+    <task id="LOCAL-00003" summary="hotels">
+      <created>1485161648507</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1485276028357</updated>
+      <updated>1485161648507</updated>
     </task>
-    <task id="LOCAL-00004" summary="calendar">
-      <created>1485359849842</created>
+    <task id="LOCAL-00004" summary="hotels">
+      <created>1485240341177</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1485359849842</updated>
+      <updated>1485240341177</updated>
     </task>
-    <task id="LOCAL-00005" summary="calendar">
-      <created>1485529768784</created>
+    <task id="LOCAL-00005" summary="hotels">
+      <created>1485941521945</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1485529768784</updated>
+      <updated>1485941521945</updated>
     </task>
-    <task id="LOCAL-00006" summary="calendar">
-      <created>1485530908413</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1485530908413</updated>
-    </task>
-    <task id="LOCAL-00007" summary="calendar">
-      <created>1485881823568</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1485881823568</updated>
-    </task>
-    <task id="LOCAL-00008" summary="calendar">
-      <created>1485963533440</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1485963533440</updated>
-    </task>
-    <task id="LOCAL-00009" summary="calendar">
-      <created>1486056119780</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1486056119781</updated>
-    </task>
-    <task id="LOCAL-00010" summary="calendar">
-      <created>1487005757621</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1487005757621</updated>
-    </task>
-    <task id="LOCAL-00011" summary="calendar">
-      <created>1487238386578</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1487238386578</updated>
-    </task>
-    <task id="LOCAL-00012" summary="calendar">
-      <created>1487238418756</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1487238418756</updated>
-    </task>
-    <task id="LOCAL-00013" summary="calendar">
-      <created>1487238467285</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1487238467285</updated>
-    </task>
-    <task id="LOCAL-00014" summary="calendar">
-      <created>1487262473769</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1487262473769</updated>
-    </task>
-    <task id="LOCAL-00015" summary="calendar">
-      <created>1487607847221</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1487607847221</updated>
-    </task>
-    <task id="LOCAL-00016" summary="calendar">
-      <created>1487696113260</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1487696113260</updated>
-    </task>
-    <task id="LOCAL-00017" summary="calendar">
-      <created>1488213121775</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1488213121775</updated>
-    </task>
-    <task id="LOCAL-00018" summary="calendar">
-      <created>1488216836112</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1488216836112</updated>
-    </task>
-    <task id="LOCAL-00019" summary="calendar">
-      <created>1488299719409</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1488299719409</updated>
-    </task>
-    <task id="LOCAL-00020" summary="calendar">
-      <created>1488387793966</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1488387793966</updated>
-    </task>
-    <task id="LOCAL-00021" summary="calendar">
-      <created>1488387809768</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1488387809768</updated>
-    </task>
-    <task id="LOCAL-00022" summary="calendar">
-      <created>1488815513809</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1488815513809</updated>
-    </task>
-    <task id="LOCAL-00023" summary="calendar">
-      <created>1488906266225</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1488906266225</updated>
-    </task>
-    <task id="LOCAL-00024" summary="calendar">
-      <created>1488906303560</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1488906303560</updated>
-    </task>
-    <task id="LOCAL-00025" summary="calendar">
-      <created>1488906369565</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1488906369565</updated>
-    </task>
-    <task id="LOCAL-00026" summary="calendar">
-      <created>1489115205615</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1489115205615</updated>
-    </task>
-    <task id="LOCAL-00027" summary="calendar">
-      <created>1489417984643</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1489417984643</updated>
-    </task>
-    <task id="LOCAL-00028" summary="calendar">
-      <created>1489506533056</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1489506533056</updated>
-    </task>
-    <task id="LOCAL-00029" summary="calendar">
-      <created>1489506559960</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1489506559960</updated>
-    </task>
-    <task id="LOCAL-00030" summary="calendar">
-      <created>1489593232632</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1489593232632</updated>
-    </task>
-    <task id="LOCAL-00031" summary="calendar">
-      <created>1489767499641</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1489767499641</updated>
-    </task>
-    <task id="LOCAL-00032" summary="calendar">
-      <created>1490222120980</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1490222120980</updated>
-    </task>
-    <task id="LOCAL-00033" summary="calendar">
-      <created>1490286059295</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1490286059295</updated>
-    </task>
-    <task id="LOCAL-00034" summary="calendar">
-      <created>1491224393495</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1491224393495</updated>
-    </task>
-    <task id="LOCAL-00035" summary="calendar">
-      <created>1491224484267</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1491224484267</updated>
-    </task>
-    <task id="LOCAL-00036" summary="calendar">
-      <created>1491233342110</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1491233342110</updated>
-    </task>
-    <task id="LOCAL-00037" summary="calendar">
-      <created>1491429717684</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1491429717684</updated>
-    </task>
-    <task id="LOCAL-00038" summary="calendar">
-      <created>1491666598678</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1491666598678</updated>
-    </task>
-    <task id="LOCAL-00039" summary="calendar">
-      <created>1492093600349</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1492093600349</updated>
-    </task>
-    <task id="LOCAL-00040" summary="calendar">
-      <created>1492167672861</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1492167672861</updated>
-    </task>
-    <task id="LOCAL-00041" summary="calendar">
-      <created>1492613549298</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1492613549298</updated>
-    </task>
-    <task id="LOCAL-00042" summary="calendar">
-      <created>1492888559091</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1492888559091</updated>
-    </task>
-    <task id="LOCAL-00043" summary="calendar">
-      <created>1493049328633</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1493049328633</updated>
-    </task>
-    <task id="LOCAL-00044" summary="calendar">
-      <created>1493132045581</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1493132045581</updated>
-    </task>
-    <task id="LOCAL-00045" summary="calendar">
-      <created>1493222773889</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1493222773889</updated>
-    </task>
-    <task id="LOCAL-00046" summary="calendar">
-      <created>1493310815618</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1493310815618</updated>
-    </task>
-    <task id="LOCAL-00047" summary="calendar">
-      <created>1493389248539</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1493389248539</updated>
-    </task>
-    <option name="localTasksCounter" value="48" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="604442000" />
+    <option name="totallyTimeSpent" value="67455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,28 +976,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18093175" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40086675" sideWeight="0.5063966" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18199234" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22968581" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976654" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22318007" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17659806" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18869732" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -852,6 +1011,14 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
               </option>
             </State>
           </value>
@@ -872,506 +1039,442 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="calendar" />
-    <option name="LAST_COMMIT_MESSAGE" value="calendar" />
+    <MESSAGE value="hotels" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotels" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="21" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/markup/sass/_coming-soon.scss">
+    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5398">
-          <caret line="590" column="16" selection-start-line="590" selection-start-column="16" selection-end-line="590" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1015">
-          <caret line="611" column="16" selection-start-line="611" selection-start-column="16" selection-end-line="611" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2950">
-          <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/scroll-menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/node_modules/cropit/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/node_modules/cropit/demo/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/node_modules/cropit/demo/image-background.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="1686" column="0" selection-start-line="1686" selection-start-column="0" selection-end-line="1686" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/user_profile_section.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="749" column="40" selection-start-line="749" selection-start-column="40" selection-end-line="749" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/OpenServer/domains/gloobers-old.com/sites/default/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/star-rating.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="9" column="6312" selection-start-line="9" selection-start-column="6312" selection-end-line="9" selection-end-column="6312" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/personal-travel-credits.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        <state relative-caret-position="14611">
+          <caret line="769" column="0" lean-forward="false" selection-start-line="769" selection-start-column="0" selection-end-line="769" selection-end-column="0" />
           <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1493792590311" expanded="true" signature="8:78" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/profile-public.html">
+    <entry file="file://$PROJECT_DIR$/../../../Vic/Kidsadvisor/markup/object-desc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="275" column="99" selection-start-line="275" selection-start-column="99" selection-end-line="275" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/search-results-advisors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="100" column="101" selection-start-line="100" selection-start-column="101" selection-end-line="100" selection-end-column="101" />
+        <state relative-caret-position="8265">
+          <caret line="435" column="50" lean-forward="false" selection-start-line="432" selection-start-column="44" selection-end-line="435" selection-end-column="50" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/assets/css/templates/_icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-229">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/node_modules/tether/docs/welcome/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="2153" column="31" selection-start-line="2153" selection-start-column="31" selection-end-line="2153" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/structural.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="124" column="16" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/drop.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/node_modules/tether-drop/src/js/drop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/css/drop-theme-arrows.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_custom-chk&amp;radio.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/node_modules/tether-drop/dist/js/drop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#6040#6216#0" expanded="false" />
-            <element signature="e#6278#7437#0" expanded="false" />
-            <element signature="e#7499#8412#0" expanded="false" />
-            <element signature="e#8464#10102#0" expanded="false" />
-            <element signature="e#10108#10419#0" expanded="false" />
-            <element signature="e#10156#10415#0" expanded="false" />
-            <element signature="e#10471#10571#0" expanded="false" />
-            <element signature="e#10627#10683#0" expanded="false" />
-            <element signature="e#10745#11351#0" expanded="false" />
-            <element signature="e#11417#11756#0" expanded="false" />
-            <element signature="e#12251#12906#0" expanded="false" />
-            <element signature="e#12962#13021#0" expanded="false" />
-            <element signature="e#13087#13242#0" expanded="false" />
-            <element signature="e#13322#13711#0" expanded="false" />
-            <element signature="e#13797#14064#0" expanded="false" />
-            <element signature="e#14147#14359#0" expanded="false" />
-            <element signature="e#14421#14596#0" expanded="false" />
-            <element signature="e#14670#14853#0" expanded="false" />
-            <element signature="e#14925#15000#0" expanded="false" />
-            <element signature="e#15080#15364#0" expanded="false" />
-            <element signature="e#15450#16236#0" expanded="false" />
-            <element signature="e#16336#16755#0" expanded="false" />
-            <element signature="e#16845#16928#0" expanded="false" />
-            <element signature="e#16998#17334#0" expanded="false" />
-            <element signature="e#17404#17612#0" expanded="false" />
-            <element signature="e#17671#17905#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_custom-input-file.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/css/fullcalendar.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_full-calendar-customization.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-          <folding>
-            <element signature="e#267#870#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3424">
-          <caret line="173" column="4" selection-start-line="173" selection-start-column="4" selection-end-line="181" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/daterangepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="831" column="0" selection-start-line="623" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/coming-soon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/single-hotel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="440" column="137" selection-start-line="440" selection-start-column="137" selection-end-line="440" selection-end-column="137" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#4;n#div#2;n#div#2;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/search-results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="125" column="113" selection-start-line="125" selection-start-column="91" selection-end-line="125" selection-end-column="113" />
-          <folding>
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#2;n#div#0;n#div#0;n#section#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/single-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/markup/sass/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="1368">
+          <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/personal-cabinet-profile.html">
+    <entry file="file://$PROJECT_DIR$/markup/sass/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="740" column="4" selection-start-line="740" selection-start-column="4" selection-end-line="740" selection-end-column="44" />
+        <state relative-caret-position="570">
+          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_drop-theme-arrows.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6916">
+          <caret line="364" column="50" lean-forward="false" selection-start-line="364" selection-start-column="50" selection-end-line="364" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10602">
+          <caret line="558" column="57" lean-forward="false" selection-start-line="558" selection-start-column="57" selection-end-line="558" selection-end-column="57" />
           <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/css/select-theme-default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1540">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_mixins-sassy-form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="1019" column="0" selection-start-line="1019" selection-start-column="0" selection-end-line="1019" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#4;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#5;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#46560#50129#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="615" column="11" selection-start-line="615" selection-start-column="11" selection-end-line="615" selection-end-column="11" />
-          <folding>
-            <element signature="e#135#1666#0" expanded="false" />
-            <element signature="e#5574#5773#0" expanded="false" />
-            <element signature="e#5804#5983#0" expanded="false" />
-            <element signature="e#6015#6361#0" expanded="false" />
-            <element signature="e#6412#6448#0" expanded="false" />
-            <element signature="e#6488#6554#0" expanded="false" />
-            <element signature="e#6782#6984#0" expanded="false" />
-            <element signature="e#22558#24728#0" expanded="false" />
-            <element signature="n#!!block;n#getRatingMarker#0" expanded="false" />
-            <element signature="n#!!block;n#getHotelMarker#0" expanded="false" />
-            <element signature="n#!!block;n#getAdvisorMarker#0" expanded="false" />
-            <element signature="e#32957#35664#0" expanded="false" />
-            <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
-            <marker date="1493388828134" expanded="false" signature="16814:19348" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="17226:18162" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="17226:19348" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="17447:18147" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="17447:18162" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="17486:17532" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="17486:17533" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="19402:21002" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="19402:21008" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="19402:21014" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="20564:21002" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="20910:21002" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="20938:21002" placeholder="..." />
-            <marker date="1493388828134" expanded="true" signature="20966:21002" placeholder="..." />
+            <marker date="1493791670579" expanded="true" signature="26546:26559" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="5189" column="0" selection-start-line="5189" selection-start-column="0" selection-end-line="5189" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#47815#48235#0" expanded="false" />
+            <marker date="1493792590311" expanded="true" signature="8:78" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_daterangepicker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3610">
+          <caret line="319" column="5" lean-forward="false" selection-start-line="309" selection-start-column="4" selection-end-line="319" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10602">
+          <caret line="558" column="57" lean-forward="false" selection-start-line="558" selection-start-column="57" selection-end-line="558" selection-end-column="57" />
+          <folding>
+            <marker date="1493791670579" expanded="true" signature="26546:26559" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493792590311" expanded="true" signature="8:78" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_daterangepicker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6061">
+          <caret line="319" column="5" lean-forward="false" selection-start-line="309" selection-start-column="4" selection-end-line="319" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9595">
+          <caret line="505" column="57" lean-forward="false" selection-start-line="505" selection-start-column="57" selection-end-line="505" selection-end-column="71" />
+          <folding>
+            <marker date="1493791670579" expanded="true" signature="26546:26559" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493792590311" expanded="true" signature="8:78" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_daterangepicker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6061">
+          <caret line="319" column="5" lean-forward="false" selection-start-line="309" selection-start-column="4" selection-end-line="319" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9424">
+          <caret line="496" column="57" lean-forward="false" selection-start-line="496" selection-start-column="57" selection-end-line="496" selection-end-column="71" />
+          <folding>
+            <marker date="1493791670579" expanded="true" signature="26546:26559" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493792590311" expanded="true" signature="8:78" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_daterangepicker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6061">
+          <caret line="319" column="5" lean-forward="false" selection-start-line="309" selection-start-column="4" selection-end-line="319" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9424">
+          <caret line="496" column="57" lean-forward="false" selection-start-line="496" selection-start-column="57" selection-end-line="496" selection-end-column="71" />
+          <folding>
+            <marker date="1493791670579" expanded="true" signature="26546:26559" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493792590311" expanded="true" signature="8:78" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_daterangepicker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6061">
+          <caret line="319" column="5" lean-forward="false" selection-start-line="309" selection-start-column="4" selection-end-line="319" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_daterangepicker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3610">
+          <caret line="319" column="5" lean-forward="false" selection-start-line="309" selection-start-column="4" selection-end-line="319" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="46" lean-forward="false" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_drop-theme-arrows.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8702">
+          <caret line="458" column="0" lean-forward="false" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
+          <folding>
+            <marker date="1493791671138" expanded="true" signature="30:33" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5244">
+          <caret line="276" column="85" lean-forward="false" selection-start-line="276" selection-start-column="85" selection-end-line="276" selection-end-column="85" />
+          <folding>
+            <marker date="1493791674234" expanded="true" signature="51149:51310" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="90" column="1" lean-forward="false" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/single-hotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1493791674228" expanded="true" signature="70768:70846" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70768:70861" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70768:73207" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70768:73220" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70768:73232" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70768:73395" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70768:73405" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70768:73414" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70768:73422" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70768:74561" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70892:71909" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="70931:71073" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="71106:71894" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="71940:73193" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="71979:72120" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="72153:73178" ph="..." />
+            <marker date="1493791674228" expanded="true" signature="73271:73384" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Oleksiy_Kyrychenko/betterPT/input/bpt-images/svg/apple-store-official.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Vic/Kidsadvisor/markup/object-desc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8265">
+          <caret line="435" column="50" lean-forward="false" selection-start-line="432" selection-start-column="44" selection-end-line="435" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/search-results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="62" column="38" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="62" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="186" column="30" lean-forward="true" selection-start-line="167" selection-start-column="24" selection-end-line="186" selection-end-column="30" />
+          <folding>
+            <marker date="1493791670579" expanded="true" signature="26546:26559" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/personal-cabinet-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/markup/personal-recommendations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="101" column="60" selection-start-line="101" selection-start-column="60" selection-end-line="101" selection-end-column="60" />
+        <state relative-caret-position="265">
+          <caret line="115" column="51" lean-forward="false" selection-start-line="113" selection-start-column="44" selection-end-line="115" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_slick.scss">
+    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="702">
+          <caret line="1454" column="29" lean-forward="false" selection-start-line="1454" selection-start-column="29" selection-end-line="1454" selection-end-column="29" />
+          <folding>
+            <marker date="1493792590311" expanded="true" signature="8:78" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/payment.html">
+    <entry file="file://$PROJECT_DIR$/markup/personal-followed-recommendations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="176" column="38" selection-start-line="176" selection-start-column="38" selection-end-line="176" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="4521" column="17" selection-start-line="4521" selection-start-column="17" selection-end-line="4521" selection-end-column="17" />
+        <state relative-caret-position="758">
+          <caret line="176" column="38" lean-forward="false" selection-start-line="176" selection-start-column="38" selection-end-line="176" selection-end-column="38" />
           <folding />
         </state>
       </provider>

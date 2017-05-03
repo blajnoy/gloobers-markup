@@ -1433,6 +1433,8 @@ input.daterange-input {
 .review-footer-info {
 	display: flex;
 	padding: 15px 0 0;
+	align-items: center;
+	line-height: 17px;
 
 	.rating {
 		flex: auto;
@@ -1446,6 +1448,18 @@ input.daterange-input {
 		color: rgba(#000, .5);
 		font-weight: bold;
 		font-style: normal;
+
+		&.followed-reco-date {
+			border-left: 0;
+			border-right: 1px solid #e5e5e5;
+			padding: 5px 15px 5px 0;
+		}
+	}
+
+	.author-name {
+		font-size: 14px;
+		flex: auto;
+		text-align: right;
 	}
 }
 .search-ttl {
@@ -3127,7 +3141,7 @@ input.daterange-input {
 	}
 
 	&.tether-pinned-top {
-		background: rgba( 80, 30, 0, 1);
+		background: rgba(80, 30, 0, 1);
 
 		.headings-menu {
 			display: flex;
@@ -3211,7 +3225,6 @@ input.daterange-input {
 		color: #000;
 		opacity: .5;
 	}
-
 }
 
 .tether-element {
