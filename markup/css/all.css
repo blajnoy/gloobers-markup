@@ -7456,11 +7456,22 @@ input.daterange-input {
   align-items: baseline;
 }
 
+.modal .btns-row .btn {
+  min-width: 120px;
+}
+
 .modal .btns-row .info-desc {
   -webkit-box-flex: 1;
   -webkit-flex: auto;
   -ms-flex: auto;
   flex: auto;
+}
+
+.modal .btns-row.text-right {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .modal .info-desc {
@@ -7534,6 +7545,52 @@ input.daterange-input {
 
 .edit-recommendation-holder .tags-wrap .tags-box:last-child {
   padding-bottom: 0;
+}
+
+.ttl-md-row {
+  padding: 0 0 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.ttl-md-row .ttl-md {
+  display: block;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #501e00;
+  padding: 0 0 10px;
+}
+
+.ttl-md-row .sub-ttl {
+  margin: 0;
+}
+
+.cancellation-fees {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #e5e5e5;
+  border-width: 1px 0;
+  padding: 15px 0;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0 0 30px;
+}
+
+.cancellation-fees .cancellation-fees-ttl {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.cancellation-fees .percent-num {
+  color: #f00;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .tags-ttl-holder {
@@ -7633,6 +7690,10 @@ input.daterange-input {
   display: -ms-flexbox;
   display: flex;
   padding: 0 0 15px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .payment-ttl h2, .payment-ttl h3 {
@@ -7645,10 +7706,6 @@ input.daterange-input {
   font-weight: bold;
 }
 
-.payment-ttl h2 {
-  margin-bottom: 10px;
-}
-
 .lnk-question {
   font-size: 18px;
   line-height: 21px;
@@ -7658,6 +7715,10 @@ input.daterange-input {
 .lnk-question:hover {
   text-decoration: none;
   color: #1e97d8;
+}
+
+.lnk-question .gl-ico, .lnk-question .slick-slider .slick-arrow, .slick-slider .lnk-question .slick-arrow {
+  vertical-align: middle;
 }
 
 .form-row {
@@ -8515,6 +8576,10 @@ input.daterange-input {
   line-height: 19px;
 }
 
+.personal-cabinet-tabs li {
+  position: relative;
+}
+
 .personal-cabinet-tabs li a {
   display: block;
   border: 1px solid #e5e5e5;
@@ -8547,10 +8612,6 @@ input.daterange-input {
   border-radius: 10px 0 0 10px;
 }
 
-.personal-cabinet-tabs li.active:first-child {
-  position: relative;
-}
-
 .personal-cabinet-tabs li.active:first-child:before {
   content: '';
   width: 10px;
@@ -8571,11 +8632,16 @@ input.daterange-input {
   color: #1e97d8;
 }
 
+.personal-cabinet-tabs li.active .tab-label {
+  right: -webkit-calc(30px + 7%);
+  right: calc(30px + 7%);
+}
+
 .personal-cabinet-tabs .tab-label {
   position: absolute;
   top: 50%;
-  right: -webkit-calc(30px + 7%);
-  right: calc(30px + 7%);
+  right: -webkit-calc(5%);
+  right: calc(5%);
   font-size: 10px;
   line-height: 13px;
   -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09), 0 1px 4px 0 rgba(0, 0, 0, 0.25);
@@ -8934,6 +9000,47 @@ input.daterange-input {
 
 .trips-list .card .trip-card-footer .btn, .trips-list .review-card .trip-card-footer .btn {
   margin: 0 0 0 30px;
+}
+
+.trips-list-done .card, .trips-list-done .review-card {
+  margin: 0 0 30px;
+}
+
+.trips-list-done .card:first-child, .trips-list-done .review-card:first-child {
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.trips-list-done .card:first-child .img-slider-wrap .img-slider .item img, .trips-list-done .review-card:first-child .img-slider-wrap .img-slider .item img {
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.ttl + .sub-ttl {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 30px;
+}
+
+.status-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(80, 30, 0, 0.8);
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.status-label img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .recommend-wrap {
@@ -9415,4 +9522,12 @@ input.daterange-input {
 
 .select2-container--bootstrap .select2-results__option {
   padding: 6px 15px;
+}
+
+.fc-toolbar h2 {
+  font-size: 18px;
+  line-height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  color: #501e00;
+  margin: 0;
 }

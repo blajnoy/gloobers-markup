@@ -3635,8 +3635,16 @@ input.daterange-input {
 		display: flex;
 		align-items: baseline;
 
+		.btn {
+			min-width: 120px;
+		}
+
 		.info-desc {
 			flex: auto;
+		}
+
+		&.text-right {
+			justify-content: flex-end;
 		}
 	}
 
@@ -3699,6 +3707,47 @@ input.daterange-input {
 		}
 	}
 }
+
+.ttl-md-row {
+	padding: 0 0 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(#000, .5);
+
+	.ttl-md {
+		display: block;
+		font-size: 18px;
+		line-height: 21px;
+		font-weight: bold;
+		color: $secondTextColor;
+		padding: 0 0 10px;
+	}
+
+	.sub-ttl {
+		margin: 0;
+	}
+}
+
+.cancellation-fees {
+	display: flex;
+	border: 1px solid #e5e5e5;
+	border-width: 1px 0;
+	padding: 15px 0;
+	font-size: 14px;
+	line-height: 21px;
+	margin: 0 0 30px;
+
+	.cancellation-fees-ttl {
+		flex: auto;
+	}
+
+	.percent-num {
+		color: #f00;
+		font-size: 20px;
+		font-weight: bold;
+	}
+}
+
 .tags-ttl-holder {
 	display: flex;
 	align-items: center;
@@ -3786,16 +3835,13 @@ input.daterange-input {
 .payment-ttl {
 	display: flex;
 	padding: 0 0 15px;
+	align-items: center;
 
 	h2, h3 {
 		margin: 0;
 		flex: auto;
 		font-family: 'Open Sans';
 		font-weight: bold;
-	}
-
-	h2 {
-		margin-bottom: 10px;
 	}
 }
 .lnk-question {
@@ -3806,6 +3852,10 @@ input.daterange-input {
 	&:hover {
 		text-decoration: none;
 		color: $linkColor;
+	}
+
+	.gl-ico {
+		vertical-align: middle;
 	}
 }
 
@@ -4519,6 +4569,7 @@ input.daterange-input {
 	line-height: 19px;
 
 	li {
+		position: relative;
 
 		a {
 			display: block;
@@ -4556,8 +4607,6 @@ input.daterange-input {
 			border-radius: 10px 0 0 10px;
 
 			&:first-child {
-				position: relative;
-
 				&:before {
 					content: '';
 					width: 10px;
@@ -4577,13 +4626,17 @@ input.daterange-input {
 				border-right-width: 0;
 				color: $linkColor;
 			}
+
+			.tab-label {
+				right: calc(30px + 7%);
+			}
 		}
 	}
 
 	.tab-label {
 		position: absolute;
 		top: 50%;
-		right: calc(30px + 7%);
+		right: calc(5%);
 		font-size: 10px;
 		line-height: 13px;
 		box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09),0 1px 4px 0 rgba(0, 0, 0, 0.25);
@@ -4592,7 +4645,6 @@ input.daterange-input {
 		border-radius: 5px;
 		padding: 0 6px;
 		transform: translateY(-50%);
-
 	}
 }
 .personal-photo {
@@ -4857,6 +4909,53 @@ input.daterange-input {
 	}
 
 }
+
+.trips-list-done {
+	.card {
+		margin: 0 0 30px;
+
+		&:first-child {
+			border-top-left-radius: 10px;
+
+			.img-slider-wrap {
+				.img-slider {
+					.item {
+						img {
+							border-top-left-radius: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.ttl {
+	+ .sub-ttl {
+		font-size: 18px;
+		line-height: 28px;
+		color: rgba(#000, 0.6);
+		margin: 0 0 30px;
+	}
+}
+
+.status-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(80, 30, 0, 0.8);
+	border-radius: 10px 10px 0 0;
+
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
 
 .recommend-wrap {
 	margin: -24px -24px 40px;
@@ -5335,3 +5434,12 @@ input.daterange-input {
 	}
 }
 
+.fc-toolbar {
+	h2 {
+		font-size: 18px;
+		line-height: 21px;
+		font-family: 'Open Sans', sans-serif;
+		color: #501e00;
+		margin: 0;
+	}
+}
