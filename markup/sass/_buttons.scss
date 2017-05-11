@@ -109,6 +109,11 @@
 .btn-second-color {
 	@include button-variant($color: $secondTextColor, $background: none, $borderColor: $secondTextColor);
 }
+.btn-address {
+	@include button-variant($color: $secondTextColor, $background: none, $borderColor: #ffc200);
+	text-transform: none;
+	text-align: left;
+}
 .btn-link {
 	text-transform: none;
 	border-color: transparent;

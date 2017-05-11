@@ -41,320 +41,329 @@
 	@if $filename == americas {
 		$char: \E004;
 	}
-	@if $filename == arrow-down {
+	@if $filename == arrow-back {
 		$char: \E005;
 	}
-	@if $filename == arrow-left {
+	@if $filename == arrow-down {
 		$char: \E006;
 	}
-	@if $filename == arrow-right {
+	@if $filename == arrow-left {
 		$char: \E007;
 	}
-	@if $filename == arrow-up {
+	@if $filename == arrow-right {
 		$char: \E008;
 	}
-	@if $filename == art-culture {
+	@if $filename == arrow-up {
 		$char: \E009;
 	}
-	@if $filename == asia-pacific {
+	@if $filename == art-culture {
 		$char: \E00A;
 	}
-	@if $filename == balcony {
+	@if $filename == asia-pacific {
 		$char: \E00B;
 	}
-	@if $filename == bar {
+	@if $filename == balcony {
 		$char: \E00C;
 	}
-	@if $filename == bathroom {
+	@if $filename == bar {
 		$char: \E00D;
 	}
-	@if $filename == beach {
+	@if $filename == bathroom {
 		$char: \E00E;
 	}
-	@if $filename == bedroom {
+	@if $filename == beach {
 		$char: \E00F;
 	}
-	@if $filename == bike {
+	@if $filename == bedroom {
 		$char: \E010;
 	}
-	@if $filename == boutique {
+	@if $filename == bike {
 		$char: \E011;
 	}
-	@if $filename == briefcase {
+	@if $filename == book {
 		$char: \E012;
 	}
-	@if $filename == business {
+	@if $filename == boutique {
 		$char: \E013;
 	}
-	@if $filename == calendar {
+	@if $filename == briefcase {
 		$char: \E014;
 	}
-	@if $filename == campaign {
+	@if $filename == business {
 		$char: \E015;
 	}
-	@if $filename == casino {
+	@if $filename == calendar {
 		$char: \E016;
 	}
-	@if $filename == catering {
+	@if $filename == campaign {
 		$char: \E017;
 	}
-	@if $filename == check-mark-button {
+	@if $filename == cart-delete {
 		$char: \E018;
 	}
-	@if $filename == check {
+	@if $filename == casino {
 		$char: \E019;
 	}
-	@if $filename == close-cross {
+	@if $filename == catering {
 		$char: \E01A;
 	}
-	@if $filename == conceptual {
+	@if $filename == check-mark-button {
 		$char: \E01B;
 	}
-	@if $filename == conditioning {
+	@if $filename == check {
 		$char: \E01C;
 	}
-	@if $filename == dinner {
+	@if $filename == close-cross {
 		$char: \E01D;
 	}
-	@if $filename == disability {
+	@if $filename == conceptual {
 		$char: \E01E;
 	}
-	@if $filename == distances {
+	@if $filename == conditioning {
 		$char: \E01F;
 	}
-	@if $filename == entertainment {
+	@if $filename == dinner {
 		$char: \E020;
 	}
-	@if $filename == europe {
+	@if $filename == disability {
 		$char: \E021;
 	}
-	@if $filename == facebook {
+	@if $filename == distances {
 		$char: \E022;
 	}
-	@if $filename == facilities {
+	@if $filename == entertainment {
 		$char: \E023;
 	}
-	@if $filename == facilities01 {
+	@if $filename == europe {
 		$char: \E024;
 	}
-	@if $filename == family {
+	@if $filename == facebook {
 		$char: \E025;
 	}
-	@if $filename == fishing {
+	@if $filename == facilities {
 		$char: \E026;
 	}
-	@if $filename == fitness {
+	@if $filename == facilities01 {
 		$char: \E027;
 	}
-	@if $filename == fooding {
+	@if $filename == family {
 		$char: \E028;
 	}
-	@if $filename == golf {
+	@if $filename == fishing {
 		$char: \E029;
 	}
-	@if $filename == google-plus {
+	@if $filename == fitness {
 		$char: \E02A;
 	}
-	@if $filename == health {
+	@if $filename == fooding {
 		$char: \E02B;
 	}
-	@if $filename == heart {
+	@if $filename == golf {
 		$char: \E02C;
 	}
-	@if $filename == historic {
+	@if $filename == google-plus {
 		$char: \E02D;
 	}
-	@if $filename == home-user {
+	@if $filename == health {
 		$char: \E02E;
 	}
-	@if $filename == home {
+	@if $filename == heart {
 		$char: \E02F;
 	}
-	@if $filename == hotel-type {
+	@if $filename == historic {
 		$char: \E030;
 	}
-	@if $filename == instagram {
+	@if $filename == home-user {
 		$char: \E031;
 	}
-	@if $filename == internet {
+	@if $filename == home {
 		$char: \E032;
 	}
-	@if $filename == kids-activities {
+	@if $filename == hotel-type {
 		$char: \E033;
 	}
-	@if $filename == kitchen {
+	@if $filename == instagram {
 		$char: \E034;
 	}
-	@if $filename == like {
+	@if $filename == internet {
 		$char: \E035;
 	}
-	@if $filename == local-culture {
+	@if $filename == kids-activities {
 		$char: \E036;
 	}
-	@if $filename == location {
+	@if $filename == kitchen {
 		$char: \E037;
 	}
-	@if $filename == logo {
+	@if $filename == like {
 		$char: \E038;
 	}
-	@if $filename == luxury {
+	@if $filename == local-culture {
 		$char: \E039;
 	}
-	@if $filename == mail {
+	@if $filename == location {
 		$char: \E03A;
 	}
-	@if $filename == marker-add {
+	@if $filename == logo {
 		$char: \E03B;
 	}
-	@if $filename == marker-empty {
+	@if $filename == luxury {
 		$char: \E03C;
 	}
-	@if $filename == marker-full {
+	@if $filename == mail {
 		$char: \E03D;
 	}
-	@if $filename == marker {
+	@if $filename == marker-add {
 		$char: \E03E;
 	}
-	@if $filename == meals {
+	@if $filename == marker-empty {
 		$char: \E03F;
 	}
-	@if $filename == methods-of-payment {
+	@if $filename == marker-full {
 		$char: \E040;
 	}
-	@if $filename == minus {
+	@if $filename == marker {
 		$char: \E041;
 	}
-	@if $filename == motor-sports {
+	@if $filename == meals {
 		$char: \E042;
 	}
-	@if $filename == music {
+	@if $filename == methods-of-payment {
 		$char: \E043;
 	}
-	@if $filename == nightlife  {
+	@if $filename == minus {
 		$char: \E044;
 	}
-	@if $filename == nightlife {
+	@if $filename == motor-sports {
 		$char: \E045;
 	}
-	@if $filename == person {
+	@if $filename == music {
 		$char: \E046;
 	}
-	@if $filename == photo-camera {
+	@if $filename == nightlife  {
 		$char: \E047;
 	}
-	@if $filename == photography {
+	@if $filename == nightlife {
 		$char: \E048;
 	}
-	@if $filename == plus-rounded {
+	@if $filename == person {
 		$char: \E049;
 	}
-	@if $filename == plus {
+	@if $filename == photo-camera {
 		$char: \E04A;
 	}
-	@if $filename == points-of-interest {
+	@if $filename == photography {
 		$char: \E04B;
 	}
-	@if $filename == pool {
+	@if $filename == plus-rounded {
 		$char: \E04C;
 	}
-	@if $filename == push-pin {
+	@if $filename == plus {
 		$char: \E04D;
 	}
-	@if $filename == question-mark {
+	@if $filename == points-of-interest {
 		$char: \E04E;
 	}
-	@if $filename == road-trips {
+	@if $filename == pool {
 		$char: \E04F;
 	}
-	@if $filename == room-distribution-alt {
+	@if $filename == push-pin {
 		$char: \E050;
 	}
-	@if $filename == room-distribution {
+	@if $filename == question-mark {
 		$char: \E051;
 	}
-	@if $filename == room-facilities {
+	@if $filename == road-trips {
 		$char: \E052;
 	}
-	@if $filename == sailing {
+	@if $filename == room-distribution-alt {
 		$char: \E053;
 	}
-	@if $filename == school-book-bag {
+	@if $filename == room-distribution {
 		$char: \E054;
 	}
-	@if $filename == scuba-diving {
+	@if $filename == room-facilities {
 		$char: \E055;
 	}
-	@if $filename == sea-view {
+	@if $filename == sailing {
 		$char: \E056;
 	}
-	@if $filename == shopping {
+	@if $filename == school-book-bag {
 		$char: \E057;
 	}
-	@if $filename == sightseeing {
+	@if $filename == scuba-diving {
 		$char: \E058;
 	}
-	@if $filename == ski {
+	@if $filename == sea-view {
 		$char: \E059;
 	}
-	@if $filename == spa {
+	@if $filename == shopping {
 		$char: \E05A;
 	}
-	@if $filename == sports {
+	@if $filename == sightseeing {
 		$char: \E05B;
 	}
-	@if $filename == staff {
+	@if $filename == ski {
 		$char: \E05C;
 	}
-	@if $filename == star {
+	@if $filename == spa {
 		$char: \E05D;
 	}
-	@if $filename == street-map {
+	@if $filename == sports {
 		$char: \E05E;
 	}
-	@if $filename == things-to-keep-in-mind {
+	@if $filename == staff {
 		$char: \E05F;
 	}
-	@if $filename == transportation {
+	@if $filename == star {
 		$char: \E060;
 	}
-	@if $filename == trekking {
+	@if $filename == street-map {
 		$char: \E061;
 	}
-	@if $filename == tv {
+	@if $filename == things-to-keep-in-mind {
 		$char: \E062;
 	}
-	@if $filename == twitter {
+	@if $filename == transportation {
 		$char: \E063;
 	}
-	@if $filename == user {
+	@if $filename == trekking {
 		$char: \E064;
 	}
-	@if $filename == users-group {
+	@if $filename == tv {
 		$char: \E065;
 	}
-	@if $filename == users {
+	@if $filename == twitter {
 		$char: \E066;
 	}
-	@if $filename == washing {
+	@if $filename == user {
 		$char: \E067;
 	}
-	@if $filename == water-sports {
+	@if $filename == users-group {
 		$char: \E068;
 	}
-	@if $filename == wellness {
+	@if $filename == users {
 		$char: \E069;
 	}
-	@if $filename == wifi {
+	@if $filename == washing {
 		$char: \E06A;
 	}
-	@if $filename == wildlife {
+	@if $filename == water-sports {
 		$char: \E06B;
 	}
-	@if $filename == wine {
+	@if $filename == wellness {
 		$char: \E06C;
 	}
-	@if $filename == worldwide {
+	@if $filename == wifi {
 		$char: \E06D;
+	}
+	@if $filename == wildlife {
+		$char: \E06E;
+	}
+	@if $filename == wine {
+		$char: \E06F;
+	}
+	@if $filename == worldwide {
+		$char: \E070;
 	}
 
 	@return $char;
@@ -385,6 +394,9 @@
 }
 .gl-ico-americas {
 	@include gl-ico(americas);
+}
+.gl-ico-arrow-back {
+	@include gl-ico(arrow-back);
 }
 .gl-ico-arrow-down {
 	@include gl-ico(arrow-down);
@@ -422,6 +434,9 @@
 .gl-ico-bike {
 	@include gl-ico(bike);
 }
+.gl-ico-book {
+	@include gl-ico(book);
+}
 .gl-ico-boutique {
 	@include gl-ico(boutique);
 }
@@ -436,6 +451,9 @@
 }
 .gl-ico-campaign {
 	@include gl-ico(campaign);
+}
+.gl-ico-cart-delete {
+	@include gl-ico(cart-delete);
 }
 .gl-ico-casino {
 	@include gl-ico(casino);

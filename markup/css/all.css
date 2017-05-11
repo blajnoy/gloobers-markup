@@ -52,7 +52,7 @@ table {
   src: url("../fonts/icons/gloobers-icons.eot?#iefix") format("eot"), url("../fonts/icons/gloobers-icons.woff2") format("woff2"), url("../fonts/icons/gloobers-icons.woff") format("woff"), url("../fonts/icons/gloobers-icons.ttf") format("truetype"), url("../fonts/icons/gloobers-icons.svg#gloobers-icons") format("svg");
 }
 
-.gl-ico, .slick-slider .slick-arrow {
+.gl-ico, .slick-slider .slick-arrow, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
   font-family: "gloobers-icons";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -82,424 +82,436 @@ table {
   content: "\E004";
 }
 
-.gl-ico-arrow-down:before {
+.gl-ico-arrow-back:before {
   content: "\E005";
 }
 
-.gl-ico-arrow-left:before {
+.gl-ico-arrow-down:before, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b:before {
   content: "\E006";
 }
 
-.gl-ico-arrow-right:before {
+.gl-ico-arrow-left:before {
   content: "\E007";
 }
 
-.gl-ico-arrow-up:before {
+.gl-ico-arrow-right:before {
   content: "\E008";
 }
 
-.gl-ico-art-culture:before {
+.gl-ico-arrow-up:before {
   content: "\E009";
 }
 
-.gl-ico-asia-pacific:before {
+.gl-ico-art-culture:before {
   content: "\E00A";
 }
 
-.gl-ico-balcony:before {
+.gl-ico-asia-pacific:before {
   content: "\E00B";
 }
 
-.gl-ico-bar:before {
+.gl-ico-balcony:before {
   content: "\E00C";
 }
 
-.gl-ico-bathroom:before {
+.gl-ico-bar:before {
   content: "\E00D";
 }
 
-.gl-ico-beach:before {
+.gl-ico-bathroom:before {
   content: "\E00E";
 }
 
-.gl-ico-bedroom:before {
+.gl-ico-beach:before {
   content: "\E00F";
 }
 
-.gl-ico-bike:before {
+.gl-ico-bedroom:before {
   content: "\E010";
 }
 
-.gl-ico-boutique:before {
+.gl-ico-bike:before {
   content: "\E011";
 }
 
-.gl-ico-briefcase:before {
+.gl-ico-book:before {
   content: "\E012";
 }
 
-.gl-ico-business:before {
+.gl-ico-boutique:before {
   content: "\E013";
 }
 
-.gl-ico-calendar:before {
+.gl-ico-briefcase:before {
   content: "\E014";
 }
 
-.gl-ico-campaign:before {
+.gl-ico-business:before {
   content: "\E015";
 }
 
-.gl-ico-casino:before {
+.gl-ico-calendar:before {
   content: "\E016";
 }
 
-.gl-ico-catering:before {
+.gl-ico-campaign:before {
   content: "\E017";
 }
 
-.gl-ico-check-mark-button:before {
+.gl-ico-cart-delete:before {
   content: "\E018";
 }
 
-.gl-ico-check:before {
+.gl-ico-casino:before {
   content: "\E019";
 }
 
-.gl-ico-close-cross:before {
+.gl-ico-catering:before {
   content: "\E01A";
 }
 
-.gl-ico-conceptual:before {
+.gl-ico-check-mark-button:before {
   content: "\E01B";
 }
 
-.gl-ico-conditioning:before {
+.gl-ico-check:before {
   content: "\E01C";
 }
 
-.gl-ico-dinner:before {
+.gl-ico-close-cross:before {
   content: "\E01D";
 }
 
-.gl-ico-disability:before {
+.gl-ico-conceptual:before {
   content: "\E01E";
 }
 
-.gl-ico-distances:before {
+.gl-ico-conditioning:before {
   content: "\E01F";
 }
 
-.gl-ico-entertainment:before {
+.gl-ico-dinner:before {
   content: "\E020";
 }
 
-.gl-ico-europe:before {
+.gl-ico-disability:before {
   content: "\E021";
 }
 
-.gl-ico-facebook:before {
+.gl-ico-distances:before {
   content: "\E022";
 }
 
-.gl-ico-facilities:before {
+.gl-ico-entertainment:before {
   content: "\E023";
 }
 
-.gl-ico-facilities01:before {
+.gl-ico-europe:before {
   content: "\E024";
 }
 
-.gl-ico-family:before {
+.gl-ico-facebook:before {
   content: "\E025";
 }
 
-.gl-ico-fishing:before {
+.gl-ico-facilities:before {
   content: "\E026";
 }
 
-.gl-ico-fitness:before {
+.gl-ico-facilities01:before {
   content: "\E027";
 }
 
-.gl-ico-fooding:before {
+.gl-ico-family:before {
   content: "\E028";
 }
 
-.gl-ico-golf:before {
+.gl-ico-fishing:before {
   content: "\E029";
 }
 
-.gl-ico-google-plus:before {
+.gl-ico-fitness:before {
   content: "\E02A";
 }
 
-.gl-ico-health:before {
+.gl-ico-fooding:before {
   content: "\E02B";
 }
 
-.gl-ico-heart:before {
+.gl-ico-golf:before {
   content: "\E02C";
 }
 
-.gl-ico-historic:before {
+.gl-ico-google-plus:before {
   content: "\E02D";
 }
 
-.gl-ico-home-user:before {
+.gl-ico-health:before {
   content: "\E02E";
 }
 
-.gl-ico-home:before {
+.gl-ico-heart:before {
   content: "\E02F";
 }
 
-.gl-ico-hotel-type:before {
+.gl-ico-historic:before {
   content: "\E030";
 }
 
-.gl-ico-instagram:before {
+.gl-ico-home-user:before {
   content: "\E031";
 }
 
-.gl-ico-internet:before {
+.gl-ico-home:before {
   content: "\E032";
 }
 
-.gl-ico-kids-activities:before {
+.gl-ico-hotel-type:before {
   content: "\E033";
 }
 
-.gl-ico-kitchen:before {
+.gl-ico-instagram:before {
   content: "\E034";
 }
 
-.gl-ico-like:before {
+.gl-ico-internet:before {
   content: "\E035";
 }
 
-.gl-ico-local-culture:before {
+.gl-ico-kids-activities:before {
   content: "\E036";
 }
 
-.gl-ico-location:before {
+.gl-ico-kitchen:before {
   content: "\E037";
 }
 
-.gl-ico-logo:before {
+.gl-ico-like:before {
   content: "\E038";
 }
 
-.gl-ico-luxury:before {
+.gl-ico-local-culture:before {
   content: "\E039";
 }
 
-.gl-ico-mail:before {
+.gl-ico-location:before {
   content: "\E03A";
 }
 
-.gl-ico-marker-add:before {
+.gl-ico-logo:before {
   content: "\E03B";
 }
 
-.gl-ico-marker-empty:before {
+.gl-ico-luxury:before {
   content: "\E03C";
 }
 
-.gl-ico-marker-full:before {
+.gl-ico-mail:before {
   content: "\E03D";
 }
 
-.gl-ico-marker:before {
+.gl-ico-marker-add:before {
   content: "\E03E";
 }
 
-.gl-ico-meals:before {
+.gl-ico-marker-empty:before {
   content: "\E03F";
 }
 
-.gl-ico-methods-of-payment:before {
+.gl-ico-marker-full:before {
   content: "\E040";
 }
 
-.gl-ico-minus:before {
+.gl-ico-marker:before {
   content: "\E041";
 }
 
-.gl-ico-motor-sports:before {
+.gl-ico-meals:before {
   content: "\E042";
 }
 
-.gl-ico-music:before {
+.gl-ico-methods-of-payment:before {
   content: "\E043";
 }
 
-.gl-ico-nightlife:before {
+.gl-ico-minus:before {
+  content: "\E044";
+}
+
+.gl-ico-motor-sports:before {
   content: "\E045";
 }
 
-.gl-ico-nightlife:before {
-  content: "\E045";
-}
-
-.gl-ico-person:before {
+.gl-ico-music:before {
   content: "\E046";
 }
 
-.gl-ico-photo-camera:before {
-  content: "\E047";
-}
-
-.gl-ico-photography:before {
+.gl-ico-nightlife:before {
   content: "\E048";
 }
 
-.gl-ico-plus-rounded:before {
+.gl-ico-nightlife:before {
+  content: "\E048";
+}
+
+.gl-ico-person:before {
   content: "\E049";
 }
 
-.gl-ico-plus:before {
+.gl-ico-photo-camera:before {
   content: "\E04A";
 }
 
-.gl-ico-points-of-interest:before {
+.gl-ico-photography:before {
   content: "\E04B";
 }
 
-.gl-ico-pool:before {
+.gl-ico-plus-rounded:before {
   content: "\E04C";
 }
 
-.gl-ico-push-pin:before {
+.gl-ico-plus:before {
   content: "\E04D";
 }
 
-.gl-ico-question-mark:before {
+.gl-ico-points-of-interest:before {
   content: "\E04E";
 }
 
-.gl-ico-road-trips:before {
+.gl-ico-pool:before {
   content: "\E04F";
 }
 
-.gl-ico-room-distribution-alt:before {
+.gl-ico-push-pin:before {
   content: "\E050";
 }
 
-.gl-ico-room-distribution:before {
+.gl-ico-question-mark:before {
   content: "\E051";
 }
 
-.gl-ico-room-facilities:before {
+.gl-ico-road-trips:before {
   content: "\E052";
 }
 
-.gl-ico-sailing:before {
+.gl-ico-room-distribution-alt:before {
   content: "\E053";
 }
 
-.gl-ico-school-book-bag:before {
+.gl-ico-room-distribution:before {
   content: "\E054";
 }
 
-.gl-ico-scuba-diving:before {
+.gl-ico-room-facilities:before {
   content: "\E055";
 }
 
-.gl-ico-sea-view:before {
+.gl-ico-sailing:before {
   content: "\E056";
 }
 
-.gl-ico-shopping:before {
+.gl-ico-school-book-bag:before {
   content: "\E057";
 }
 
-.gl-ico-sightseeing:before {
+.gl-ico-scuba-diving:before {
   content: "\E058";
 }
 
-.gl-ico-ski:before {
+.gl-ico-sea-view:before {
   content: "\E059";
 }
 
-.gl-ico-spa:before {
+.gl-ico-shopping:before {
   content: "\E05A";
 }
 
-.gl-ico-sports:before {
+.gl-ico-sightseeing:before {
   content: "\E05B";
 }
 
-.gl-ico-staff:before {
+.gl-ico-ski:before {
   content: "\E05C";
 }
 
-.gl-ico-star:before {
+.gl-ico-spa:before {
   content: "\E05D";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-sports:before {
   content: "\E05E";
 }
 
-.gl-ico-things-to-keep-in-mind:before {
+.gl-ico-staff:before {
   content: "\E05F";
 }
 
-.gl-ico-transportation:before {
+.gl-ico-star:before {
   content: "\E060";
 }
 
-.gl-ico-trekking:before {
+.gl-ico-street-map:before {
   content: "\E061";
 }
 
-.gl-ico-tv:before {
+.gl-ico-things-to-keep-in-mind:before {
   content: "\E062";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-transportation:before {
   content: "\E063";
 }
 
-.gl-ico-user:before {
+.gl-ico-trekking:before {
   content: "\E064";
 }
 
-.gl-ico-users-group:before {
+.gl-ico-tv:before {
   content: "\E065";
 }
 
-.gl-ico-users:before {
+.gl-ico-twitter:before {
   content: "\E066";
 }
 
-.gl-ico-washing:before {
+.gl-ico-user:before {
   content: "\E067";
 }
 
-.gl-ico-water-sports:before {
+.gl-ico-users-group:before {
   content: "\E068";
 }
 
-.gl-ico-wellness:before {
+.gl-ico-users:before {
   content: "\E069";
 }
 
-.gl-ico-wifi:before {
+.gl-ico-washing:before {
   content: "\E06A";
 }
 
-.gl-ico-wildlife:before {
+.gl-ico-water-sports:before {
   content: "\E06B";
 }
 
-.gl-ico-wine:before {
+.gl-ico-wellness:before {
   content: "\E06C";
 }
 
-.gl-ico-worldwide:before {
+.gl-ico-wifi:before {
   content: "\E06D";
+}
+
+.gl-ico-wildlife:before {
+  content: "\E06E";
+}
+
+.gl-ico-wine:before {
+  content: "\E06F";
+}
+
+.gl-ico-worldwide:before {
+  content: "\E070";
 }
 
 body {
@@ -834,7 +846,7 @@ svg {
 .checkbox input[type="checkbox"]:checked + label:after, .checkbox input[type="radio"]:checked + label:after {
   font-size: 19px;
   font-family: "gloobers-icons";
-  content: "\E019";
+  content: "\E01C";
   color: #1f97d7;
   text-shadow: 0 3px 2px rgba(0, 0, 0, 0.4);
 }
@@ -1300,14 +1312,14 @@ fieldset[disabled] .btn {
   padding: 6px 10px 5px;
 }
 
-.btn .gl-ico, .btn .slick-slider .slick-arrow, .slick-slider .btn .slick-arrow {
+.btn .gl-ico, .btn .slick-slider .slick-arrow, .slick-slider .btn .slick-arrow, .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn b {
   vertical-align: middle;
   font-size: 20px;
   line-height: inherit;
   margin: -1px 5px -1px 0;
 }
 
-.btn .gl-ico-arrow-down,
+.btn .gl-ico-arrow-down, .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn b,
 .btn .gl-ico-arrow-up,
 .btn .gl-ico-arrow-left,
 .btn .gl-ico-arrow-right {
@@ -1465,6 +1477,19 @@ fieldset[disabled] .btn {
   border-color: #1d0b00;
 }
 
+.btn-address {
+  color: #501e00;
+  background: none;
+  border: 2px solid #ffc200;
+  text-transform: none;
+  text-align: left;
+}
+
+.btn-address:hover {
+  color: #501e00;
+  border-color: #cc9b00;
+}
+
 .btn-link {
   text-transform: none;
   border-color: transparent;
@@ -1525,7 +1550,7 @@ fieldset[disabled] .btn {
   min-width: 90px;
 }
 
-.btn-recommend .gl-ico, .btn-recommend .slick-slider .slick-arrow, .slick-slider .btn-recommend .slick-arrow {
+.btn-recommend .gl-ico, .btn-recommend .slick-slider .slick-arrow, .slick-slider .btn-recommend .slick-arrow, .btn-recommend .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn-recommend b {
   margin-left: 0;
   margin-right: 0;
 }
@@ -3492,7 +3517,7 @@ fieldset[disabled] .btn {
   transition: all 100ms ease-in;
 }
 
-.nav ul li a .gl-ico, .how-it-works-slider .slider-tabs ul li a .gl-ico, .nav ul li a .slick-slider .slick-arrow, .slick-slider .nav ul li a .slick-arrow, .how-it-works-slider .slider-tabs ul li a .slick-slider .slick-arrow, .slick-slider .how-it-works-slider .slider-tabs ul li a .slick-arrow {
+.nav ul li a .gl-ico, .how-it-works-slider .slider-tabs ul li a .gl-ico, .nav ul li a .slick-slider .slick-arrow, .slick-slider .nav ul li a .slick-arrow, .how-it-works-slider .slider-tabs ul li a .slick-slider .slick-arrow, .slick-slider .how-it-works-slider .slider-tabs ul li a .slick-arrow, .nav ul li a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .nav ul li a b, .how-it-works-slider .slider-tabs ul li a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .how-it-works-slider .slider-tabs ul li a b {
   vertical-align: middle;
   margin: 0 0 0 5px;
 }
@@ -3568,7 +3593,7 @@ fieldset[disabled] .btn {
   transition: all 100ms ease-in;
 }
 
-.object-type > a .gl-ico, .object-type > a .slick-slider .slick-arrow, .slick-slider .object-type > a .slick-arrow {
+.object-type > a .gl-ico, .object-type > a .slick-slider .slick-arrow, .slick-slider .object-type > a .slick-arrow, .object-type > a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .object-type > a b {
   vertical-align: middle;
   margin: 0 0 0 5px;
 }
@@ -3612,7 +3637,7 @@ fieldset[disabled] .btn {
   transition: all 100ms ease-in;
 }
 
-.back-header-lnk > a .gl-ico, .back-header-lnk > a .slick-slider .slick-arrow, .slick-slider .back-header-lnk > a .slick-arrow {
+.back-header-lnk > a .gl-ico, .back-header-lnk > a .slick-slider .slick-arrow, .slick-slider .back-header-lnk > a .slick-arrow, .back-header-lnk > a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .back-header-lnk > a b {
   vertical-align: middle;
   margin: -2px 5px 0 0;
 }
@@ -3869,7 +3894,7 @@ input.daterange-input {
   color: #1e97d8;
 }
 
-.operation-btns .gl-ico, .operation-btns .slick-slider .slick-arrow, .slick-slider .operation-btns .slick-arrow {
+.operation-btns .gl-ico, .operation-btns .slick-slider .slick-arrow, .slick-slider .operation-btns .slick-arrow, .operation-btns .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .operation-btns b {
   vertical-align: middle;
 }
 
@@ -3932,7 +3957,7 @@ input.daterange-input {
   display: inline-block;
 }
 
-.person-num .gl-ico, .person-num .slick-slider .slick-arrow, .slick-slider .person-num .slick-arrow {
+.person-num .gl-ico, .person-num .slick-slider .slick-arrow, .slick-slider .person-num .slick-arrow, .person-num .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .person-num b {
   vertical-align: middle;
   margin-top: -1px;
 }
@@ -4942,10 +4967,12 @@ input.daterange-input {
   transform: translateY(0);
 }
 
-.main-slider .btn-prev .gl-ico, .main-slider .btn-prev .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev .slick-arrow,
+.main-slider .btn-prev .gl-ico, .main-slider .btn-prev .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev .slick-arrow, .main-slider .btn-prev .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .main-slider .btn-prev b,
 .main-slider .btn-next .gl-ico,
 .main-slider .btn-next .slick-slider .slick-arrow, .slick-slider
-.main-slider .btn-next .slick-arrow {
+.main-slider .btn-next .slick-arrow,
+.main-slider .btn-next .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
+.main-slider .btn-next b {
   text-indent: 0;
   position: absolute;
   top: 50%;
@@ -4957,10 +4984,12 @@ input.daterange-input {
   transform: translateY(-50%) scale(1);
 }
 
-.main-slider .btn-prev:hover .gl-ico, .main-slider .btn-prev:hover .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev:hover .slick-arrow,
+.main-slider .btn-prev:hover .gl-ico, .main-slider .btn-prev:hover .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev:hover .slick-arrow, .main-slider .btn-prev:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .main-slider .btn-prev:hover b,
 .main-slider .btn-next:hover .gl-ico,
 .main-slider .btn-next:hover .slick-slider .slick-arrow, .slick-slider
-.main-slider .btn-next:hover .slick-arrow {
+.main-slider .btn-next:hover .slick-arrow,
+.main-slider .btn-next:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
+.main-slider .btn-next:hover b {
   -webkit-transform: translateY(-50%) scale(1.5);
   -ms-transform: translateY(-50%) scale(1.5);
   transform: translateY(-50%) scale(1.5);
@@ -4971,7 +5000,7 @@ input.daterange-input {
   right: 0;
 }
 
-.main-slider .btn-next .gl-ico, .main-slider .btn-next .slick-slider .slick-arrow, .slick-slider .main-slider .btn-next .slick-arrow {
+.main-slider .btn-next .gl-ico, .main-slider .btn-next .slick-slider .slick-arrow, .slick-slider .main-slider .btn-next .slick-arrow, .main-slider .btn-next .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .main-slider .btn-next b {
   left: auto;
   right: 40px;
 }
@@ -4998,7 +5027,7 @@ input.daterange-input {
   position: relative;
 }
 
-.show-more-row .lnk-expand .gl-ico, .show-more-row .lnk-expand .slick-slider .slick-arrow, .slick-slider .show-more-row .lnk-expand .slick-arrow {
+.show-more-row .lnk-expand .gl-ico, .show-more-row .lnk-expand .slick-slider .slick-arrow, .slick-slider .show-more-row .lnk-expand .slick-arrow, .show-more-row .lnk-expand .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .show-more-row .lnk-expand b {
   color: #000;
   position: absolute;
   top: 50%;
@@ -5008,7 +5037,7 @@ input.daterange-input {
   transform: translateY(-50%) rotate(180deg);
 }
 
-.show-more-row .lnk-expand.collapsed .gl-ico, .show-more-row .lnk-expand.collapsed .slick-slider .slick-arrow, .slick-slider .show-more-row .lnk-expand.collapsed .slick-arrow {
+.show-more-row .lnk-expand.collapsed .gl-ico, .show-more-row .lnk-expand.collapsed .slick-slider .slick-arrow, .slick-slider .show-more-row .lnk-expand.collapsed .slick-arrow, .show-more-row .lnk-expand.collapsed .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .show-more-row .lnk-expand.collapsed b {
   -webkit-transform: translateY(-50%) rotate(0deg);
   -ms-transform: translateY(-50%) rotate(0deg);
   transform: translateY(-50%) rotate(0deg);
@@ -5255,7 +5284,7 @@ input.daterange-input {
   color: greenyellow;
 }
 
-.tags-wrap .tags-list .tag .gl-ico, .tags-wrap .tags-list .tag .slick-slider .slick-arrow, .slick-slider .tags-wrap .tags-list .tag .slick-arrow {
+.tags-wrap .tags-list .tag .gl-ico, .tags-wrap .tags-list .tag .slick-slider .slick-arrow, .slick-slider .tags-wrap .tags-list .tag .slick-arrow, .tags-wrap .tags-list .tag .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .tags-wrap .tags-list .tag b {
   margin: 0 7px 0 0;
 }
 
@@ -5508,7 +5537,7 @@ input.daterange-input {
   color: #1e97d8;
 }
 
-.passions-list .item.btn .passion-label .gl-ico, .passions-list .item.btn .passion-label .slick-slider .slick-arrow, .slick-slider .passions-list .item.btn .passion-label .slick-arrow {
+.passions-list .item.btn .passion-label .gl-ico, .passions-list .item.btn .passion-label .slick-slider .slick-arrow, .slick-slider .passions-list .item.btn .passion-label .slick-arrow, .passions-list .item.btn .passion-label .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .passions-list .item.btn .passion-label b {
   line-height: inherit;
 }
 
@@ -5645,7 +5674,7 @@ input.daterange-input {
   margin: -3px 6px 0 0;
 }
 
-.btn .gl-ico-arrow-down {
+.btn .gl-ico-arrow-down, .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn b {
   margin: -2px 0 0 5px;
 }
 
@@ -6205,7 +6234,7 @@ input.daterange-input {
   background: none;
 }
 
-.pagination li .gl-ico, .pagination li .slick-slider .slick-arrow, .slick-slider .pagination li .slick-arrow {
+.pagination li .gl-ico, .pagination li .slick-slider .slick-arrow, .slick-slider .pagination li .slick-arrow, .pagination li .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .pagination li b {
   vertical-align: middle;
   margin: -1px 0 0;
 }
@@ -7669,6 +7698,13 @@ input.daterange-input {
   margin: 0 0 10px;
 }
 
+.payment-area h2 + .sub-ttl {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 30px;
+}
+
 .payment-area h3 {
   font-size: 18px;
   line-height: 21px;
@@ -7676,12 +7712,12 @@ input.daterange-input {
 }
 
 .payment-block {
-  border-bottom: 1px solid #e1e1e1;
   padding: 0 0 30px;
 }
 
 .payment-block:not(:first-child) {
   padding-top: 30px;
+  border-top: 1px solid #e1e1e1;
 }
 
 .payment-ttl {
@@ -7706,6 +7742,57 @@ input.daterange-input {
   font-weight: bold;
 }
 
+.payment-ttl + .sub-ttl {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 30px;
+}
+
+.recommendation-message {
+  height: 220px;
+  font-size: 16px;
+  line-height: 28px;
+  background: #fff;
+}
+
+.stored-addresses {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 0 30px;
+  margin: 0 0 30px;
+}
+
+.stored-addresses .address-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.stored-addresses .address-row:not(:first-child) {
+  padding-top: 30px;
+}
+
+.stored-addresses .address-row .btn-address {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.stored-addresses .address-row .remove-btn {
+  display: inline-block;
+  margin: 0 0 0 30px;
+}
+
+.fill-color-white {
+  background: #fff;
+}
+
 .lnk-question {
   font-size: 18px;
   line-height: 21px;
@@ -7717,7 +7804,20 @@ input.daterange-input {
   color: #1e97d8;
 }
 
-.lnk-question .gl-ico, .lnk-question .slick-slider .slick-arrow, .slick-slider .lnk-question .slick-arrow {
+.lnk-question .gl-ico, .lnk-question .slick-slider .slick-arrow, .slick-slider .lnk-question .slick-arrow, .lnk-question .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .lnk-question b {
+  vertical-align: middle;
+}
+
+.lnk-back {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.lnk-back:hover {
+  text-decoration: none;
+}
+
+.lnk-back .gl-ico, .lnk-back .slick-slider .slick-arrow, .slick-slider .lnk-back .slick-arrow, .lnk-back .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .lnk-back b {
   vertical-align: middle;
 }
 
@@ -7735,6 +7835,34 @@ input.daterange-input {
   -ms-flex: 1;
   flex: 1;
   padding: 0 10px;
+}
+
+.billing-form .form-row:not(:first-child) {
+  padding-top: 30px;
+}
+
+.billing-form .form-control {
+  font-size: 16px;
+  background: #fff;
+}
+
+.billing-form label {
+  font-size: 18px;
+  line-height: 21px;
+  color: #501e00;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  padding-bottom: 15px;
+}
+
+.billing-form .checkbox {
+  padding-top: 20px;
+}
+
+.billing-form .checkbox label {
+  padding-bottom: 0;
+  font-weight: normal;
+  color: #000;
 }
 
 .payment-types {
@@ -7941,13 +8069,13 @@ input.daterange-input {
   border-top-color: #501e00;
 }
 
-.custom-marker.advisor-marker .gl-ico, .custom-marker.advisor-marker .slick-slider .slick-arrow, .slick-slider .custom-marker.advisor-marker .slick-arrow {
+.custom-marker.advisor-marker .gl-ico, .custom-marker.advisor-marker .slick-slider .slick-arrow, .slick-slider .custom-marker.advisor-marker .slick-arrow, .custom-marker.advisor-marker .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .custom-marker.advisor-marker b {
   margin: 0 4px 0 0;
   position: relative;
   bottom: -2px;
 }
 
-.custom-marker .gl-ico, .custom-marker .slick-slider .slick-arrow, .slick-slider .custom-marker .slick-arrow {
+.custom-marker .gl-ico, .custom-marker .slick-slider .slick-arrow, .slick-slider .custom-marker .slick-arrow, .custom-marker .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .custom-marker b {
   margin: 0 2px;
 }
 
@@ -8001,7 +8129,7 @@ input.daterange-input {
   padding-top: 9px;
 }
 
-.marked-list .gl-ico, .marked-list .slick-slider .slick-arrow, .slick-slider .marked-list .slick-arrow {
+.marked-list .gl-ico, .marked-list .slick-slider .slick-arrow, .slick-slider .marked-list .slick-arrow, .marked-list .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .marked-list b {
   float: left;
   vertical-align: top;
   font-size: 14px;
@@ -8170,13 +8298,13 @@ input.daterange-input {
   margin: -1px -1px -1px 0;
 }
 
-.room-type-section .room-type-ttl .btn .gl-ico, .room-type-section .room-type-ttl .btn .slick-slider .slick-arrow, .slick-slider .room-type-section .room-type-ttl .btn .slick-arrow {
+.room-type-section .room-type-ttl .btn .gl-ico, .room-type-section .room-type-ttl .btn .slick-slider .slick-arrow, .slick-slider .room-type-section .room-type-ttl .btn .slick-arrow, .room-type-section .room-type-ttl .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .room-type-ttl .btn b {
   margin: 0;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
 }
 
-.room-type-section .room-type-ttl .btn.collapsed .gl-ico, .room-type-section .room-type-ttl .btn.collapsed .slick-slider .slick-arrow, .slick-slider .room-type-section .room-type-ttl .btn.collapsed .slick-arrow {
+.room-type-section .room-type-ttl .btn.collapsed .gl-ico, .room-type-section .room-type-ttl .btn.collapsed .slick-slider .slick-arrow, .slick-slider .room-type-section .room-type-ttl .btn.collapsed .slick-arrow, .room-type-section .room-type-ttl .btn.collapsed .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .room-type-ttl .btn.collapsed b {
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -8231,7 +8359,7 @@ input.daterange-input {
   clear: both;
 }
 
-.room-type-section .categories-drop .category-name .gl-ico, .room-type-section .categories-drop .category-name .slick-slider .slick-arrow, .slick-slider .room-type-section .categories-drop .category-name .slick-arrow {
+.room-type-section .categories-drop .category-name .gl-ico, .room-type-section .categories-drop .category-name .slick-slider .slick-arrow, .slick-slider .room-type-section .categories-drop .category-name .slick-arrow, .room-type-section .categories-drop .category-name .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .categories-drop .category-name b {
   margin: 0 0 0 -30px;
   float: left;
   font-size: 19px;
@@ -8239,7 +8367,7 @@ input.daterange-input {
   vertical-align: middle;
 }
 
-.room-type-section .categories-drop .category-name .gl-ico.gl-ico-wifi, .room-type-section .categories-drop .category-name .slick-slider .gl-ico-wifi.slick-arrow, .slick-slider .room-type-section .categories-drop .category-name .gl-ico-wifi.slick-arrow {
+.room-type-section .categories-drop .category-name .gl-ico.gl-ico-wifi, .room-type-section .categories-drop .category-name .slick-slider .gl-ico-wifi.slick-arrow, .slick-slider .room-type-section .categories-drop .category-name .gl-ico-wifi.slick-arrow, .room-type-section .categories-drop .category-name .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b.gl-ico-wifi, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .categories-drop .category-name b.gl-ico-wifi {
   font-size: 16px;
 }
 
@@ -8794,7 +8922,7 @@ input.daterange-input {
   text-decoration: none;
 }
 
-.change-picture .gl-ico, .change-picture .slick-slider .slick-arrow, .slick-slider .change-picture .slick-arrow {
+.change-picture .gl-ico, .change-picture .slick-slider .slick-arrow, .slick-slider .change-picture .slick-arrow, .change-picture .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .change-picture b {
   display: block;
   font-size: 40px;
   margin: 0 0 10px;
@@ -9153,7 +9281,7 @@ input.daterange-input {
   z-index: 1;
 }
 
-.map-types .marker:hover .marker-ico .gl-ico, .map-types .marker:hover .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker:hover .marker-ico .slick-arrow {
+.map-types .marker:hover .marker-ico .gl-ico, .map-types .marker:hover .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker:hover .marker-ico .slick-arrow, .map-types .marker:hover .marker-ico .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .map-types .marker:hover .marker-ico b {
   color: #fff;
 }
 
@@ -9179,7 +9307,7 @@ input.daterange-input {
   z-index: 2;
 }
 
-.map-types .marker .marker-ico .gl-ico, .map-types .marker .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker .marker-ico .slick-arrow {
+.map-types .marker .marker-ico .gl-ico, .map-types .marker .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker .marker-ico .slick-arrow, .map-types .marker .marker-ico .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .map-types .marker .marker-ico b {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -9209,7 +9337,7 @@ input.daterange-input {
   z-index: 1;
 }
 
-.map-types .marker.selected .marker-ico .gl-ico, .map-types .marker.selected .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker.selected .marker-ico .slick-arrow {
+.map-types .marker.selected .marker-ico .gl-ico, .map-types .marker.selected .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker.selected .marker-ico .slick-arrow, .map-types .marker.selected .marker-ico .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .map-types .marker.selected .marker-ico b {
   color: #501e00;
 }
 
@@ -9530,4 +9658,35 @@ input.daterange-input {
   font-family: 'Open Sans', sans-serif;
   color: #501e00;
   margin: 0;
+}
+
+/* Select2 customization */
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+  top: 0;
+  width: 4px;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+  font-size: 14px;
+  border: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: 0;
+  margin-left: -5px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.select2-container--bootstrap.select2-container--open .select2-selection .select2-selection__arrow b {
+  -webkit-transform: translate(-50%, -50%) rotate3d(1, 0, 0, 180deg);
+  transform: translate(-50%, -50%) rotate3d(1, 0, 0, 180deg);
 }

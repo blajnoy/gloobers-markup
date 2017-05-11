@@ -3813,6 +3813,13 @@ input.daterange-input {
 		font-size: 30px;
 		line-height: 33px;
 		margin: 0 0 10px;
+
+		+ .sub-ttl {
+			font-size: 14px;
+			line-height: 20px;
+			color: rgba(#000, 0.6);
+			margin: 0 0 30px;
+		}
 	}
 
 	h3 {
@@ -3824,11 +3831,11 @@ input.daterange-input {
 }
 
 .payment-block {
-	border-bottom: 1px solid #e1e1e1;
 	padding: 0 0 30px;
 
 	&:not(:first-child) {
 		padding-top: 30px;
+		border-top: 1px solid #e1e1e1;
 	}
 }
 
@@ -3843,7 +3850,50 @@ input.daterange-input {
 		font-family: 'Open Sans';
 		font-weight: bold;
 	}
+
+	+ .sub-ttl {
+		font-size: 14px;
+		line-height: 20px;
+		color: rgba(#000, 0.6);
+		margin: 0 0 30px;
+	}
 }
+
+.recommendation-message {
+	height: 220px;
+	font-size: 16px;
+	line-height: 28px;
+	background: #fff;
+}
+
+.stored-addresses {
+	border-bottom: 1px solid #e1e1e1;
+	padding: 0 0 30px;
+	margin: 0 0 30px;
+
+	.address-row {
+		display: flex;
+		align-items: center;
+
+		&:not(:first-child) {
+			padding-top: 30px;
+		}
+
+		.btn-address {
+			flex: auto;
+		}
+
+		.remove-btn {
+			display: inline-block;
+			margin: 0 0 0 30px;
+		}
+	}
+}
+
+.fill-color-white {
+	background: #fff;
+}
+
 .lnk-question {
 	font-size: 18px;
 	line-height: 21px;
@@ -3859,6 +3909,19 @@ input.daterange-input {
 	}
 }
 
+.lnk-back {
+	font-size: 17px;
+	line-height: 21px;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	.gl-ico {
+		vertical-align: middle;
+	}
+}
+
 .form-row {
 	display: flex;
 	margin: 0 -10px;
@@ -3866,6 +3929,41 @@ input.daterange-input {
 	.form-row-col {
 		flex: 1;
 		padding: 0 10px;
+	}
+}
+
+.billing-form {
+
+	.form-row {
+
+		&:not(:first-child) {
+			padding-top: 30px;
+		}
+	}
+
+	.form-control {
+		font-size: 16px;
+		background: #fff;
+	}
+
+	label {
+		font-size: 18px;
+		line-height: 21px;
+		color: $secondTextColor;
+		font-weight: bold;
+		font-family: 'Open Sans';
+		padding-bottom: 15px;
+	}
+
+	.checkbox {
+
+		padding-top: 20px;
+
+		label {
+			padding-bottom: 0;
+			font-weight: normal;
+			color: #000;
+		}
 	}
 }
 
@@ -5442,4 +5540,36 @@ input.daterange-input {
 		color: #501e00;
 		margin: 0;
 	}
+}
+
+/* Select2 customization */
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+	position: absolute;
+	bottom: 0;
+	right: 12px;
+	top: 0;
+	width: 4px;
+}
+
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+	@extend .gl-ico;
+	@extend .gl-ico-arrow-down;
+
+	font-size: 14px;
+
+	border: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: auto;
+	height: auto;
+	transform: translate(-50%, -50%);
+	margin-top: 0;
+	margin-left: -5px;
+	transition: all 0.2s ease-out;
+}
+.select2-container--bootstrap.select2-container--open .select2-selection .select2-selection__arrow b {
+	//@extend .gl-ico-arrow-up;
+	transform: translate(-50%, -50%) rotate3d(1,0,0,180deg);
 }
