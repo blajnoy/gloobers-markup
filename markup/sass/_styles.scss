@@ -1954,7 +1954,7 @@ input.daterange-input {
 
 			&:before {
 				font-family: "gloobers-icons";
-				content: "\E019";
+				content: "\E01C";
 				position: absolute;
 				top: -8px;
 				right: -8px;
@@ -2034,6 +2034,10 @@ input.daterange-input {
 				}
 			}
 
+		}
+
+		.passion-check {
+			opacity: 0;
 		}
 
 	}
@@ -4396,9 +4400,10 @@ input.daterange-input {
 		}
 
 	}
-
-
 }
+
+
+
 .availability-info {
 	color: #fff;
 	background: $linkColor;
@@ -4533,6 +4538,149 @@ input.daterange-input {
 		content: none;
 	}
 }
+
+.statistic-counters {
+	display: flex;
+
+	.statistic-counters-col {
+		flex: 1;
+		text-align: center;
+		border-left: 2px solid #e5e5e5;
+		padding: 30px 0;
+
+		&:first-child {
+			border: 0;
+		}
+
+		.counter-ttl {
+			display: block;
+			color: rgba(#000, .25);
+			text-transform: uppercase;
+			font-size: 14px;
+			line-height: 17px;
+			font-weight: bold;
+		}
+
+		.st-counter {
+			display: flex;
+			align-items: baseline;
+			justify-content: center;
+			line-height: 91px;
+
+			strong {
+				font-size: 91px;
+				color: #1e97d8;
+			}
+
+			span {
+				line-height: 30px;
+				font-size: 30px;
+				color: #fec200;
+				font-weight: 800;
+			}
+		}
+
+		.cur-equivalent {
+			display: block;
+			font-size: 20px;
+			line-height: 23px;
+			color: $secondTextColor;
+			font-weight: 600;
+		}
+
+		.st-from {
+			display: block;
+			font-size: 14px;
+			line-height: 23px;
+			color: #1e97d8;
+			font-weight: 600;
+		}
+	}
+}
+.credits-statistics {
+	display: flex;
+	font-size: 18px;
+	line-height: 25px;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 0 15px;
+	margin: 0 0 15px;
+
+	.credits-statistics-ttl {
+		flex: auto;
+	}
+
+	.total {
+		color: $secondTextColor;
+		font-weight: bold;
+		font-size: 24px;
+	}
+}
+.total-spend-row {
+	display: flex;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 0 0 120px;
+	color: #1e97d8;
+
+	.total-spend-ttl {
+		flex: auto;
+	}
+
+	.total-spend-num {
+		font-weight: bold;
+		font-size: 40px;
+	}
+}
+
+.statistics-chart-row {
+	display: flex;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 0 0 30px;
+	color: #1e97d8;
+	align-items: center;
+
+	.statistics-chart-ttl {
+		flex: auto;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 21px;
+		color: $secondTextColor;
+	}
+
+	.select-date-range {
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		font-size: 15px;
+		line-height: 18px;
+
+		a {
+			display: inline-block;
+		}
+
+		span {
+			display: inline-block;
+			font-size: 12px;
+			color: $secondTextColor;
+			padding: 0 10px;
+		}
+	}
+}
+
+.statistics-chart-ttl {
+	display: flex;
+
+	h2 {
+		flex: auto;
+		font-size: 18px;
+		line-height: 21px;
+		margin: 0;
+		color: #000;
+	}
+}
+
+
 .personal-nav-list {
 	display: flex;
 	justify-content: space-between;
@@ -4778,6 +4926,35 @@ input.daterange-input {
 		padding: 15px 0 0;
 	}
 }
+.info-desc-wrap {
+	text-align: right;
+	padding: 25px 0 70px;
+
+
+	&.history-row {
+		text-align: left;
+		display: flex;
+		align-items: center;
+		padding: 30px 0 0;
+
+		.info-desc {
+			flex: auto;
+		}
+
+		.lnk-history {
+			font-size: 15px;
+		}
+	}
+}
+
+.chart-wrapper {
+	width: 100%;
+
+	canvas {
+		width: 100%;
+	}
+}
+
 .personal-bg-picture {
 	@extend .personal-box;
 

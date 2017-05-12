@@ -23,6 +23,7 @@
     "tether-drop": "^1.4.2"
   },
   "dependencies": {
+    "chart.js": "^2.5.0",
     "css-toggle-switch": "^4.0.2"
   },
   "description": ""
