@@ -723,7 +723,7 @@
 						<strong class="sub-ttl">And get rewarded when other travelers follow your recommendatuion</strong>
 					</div>
 					<div class="modal-body">
-						<div class="step-block " id="recommend-step01">
+						<div class="step-block hidden" id="recommend-step01">
 							<div class="modal-block-ttl">
 								<h2>Travellers' centers of interest:</h2>
 								<p class="info-desc">Please select at least one type of hotel</p>
@@ -829,37 +829,43 @@
 								</div>
 							</div>
 						</div>
-						<div class="step-block hidden" id="recommend-step02">
+						<div class="step-block" id="recommend-step02">
 							<div class="modal-block-ttl">
 								<h2>Travelers interested in:</h2>
 								<p class="info-desc">Please select at least one type of hotel</p>
 							</div>
 							<div class="map-types">
 								<img class="map-types-img" src="images/bg-map.png" alt="">
-								<a href="#" class="marker" style="left: 60px; top: 80px;">
+								<label for="markerId01" class="marker" style="left: 60px; top: 80px;">
+									<input type="radio" name="markerTypes" id="markerId01" checked="checked">
 									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-school-book-bag"></i></span>
 									<strong class="marker-txt">Alone trip</strong>
-								</a>
-								<a href="#" class="marker selected" style="left: 210px; top: 140px;">
+								</label>
+								<label for="markerId02" class="marker selected" style="left: 210px; top: 140px;">
+									<input type="radio" name="markerTypes" id="markerId02">
 									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-users"></i></span>
 									<strong class="marker-txt">Trip with the friend</strong>
-								</a>
-								<a href="#" class="marker" style="left: 480px; top: 110px;">
+								</label>
+								<label for="markerId03" class="marker" style="left: 480px; top: 110px;">
+									<input type="radio" name="markerTypes" id="markerId03">
 									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-users-group"></i></span>
 									<strong class="marker-txt">Trip with a group</strong>
-								</a>
-								<a href="#" class="marker" style="left: 140px; top: 210px;">
+								</label>
+								<label for="markerId04" class="marker" style="left: 140px; top: 210px;">
+									<input type="radio" name="markerTypes" id="markerId04">
 									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-family"></i></span>
 									<strong class="marker-txt">Family trip</strong>
-								</a>
-								<a href="#" class="marker" style="left: 100px; top: 280px;">
+								</label>
+								<label for="markerId05" class="marker" style="left: 100px; top: 280px;">
+									<input type="radio" name="markerTypes" id="markerId05">
 									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-business"></i></span>
 									<strong class="marker-txt">Business trip</strong>
-								</a>
-								<a href="#" class="marker" style="left: 400px; top: 250px;">
+								</label>
+								<label for="markerId06" class="marker" style="left: 400px; top: 250px;">
+									<input type="radio" name="markerTypes" id="markerId06">
 									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-heart"></i></span>
 									<strong class="marker-txt">Romantic trip</strong>
-								</a>
+								</label>
 							</div>
 						</div>
 						<div class="step-block hidden" id="recommend-step03">

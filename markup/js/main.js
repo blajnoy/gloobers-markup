@@ -2,44 +2,46 @@ $(document).ready(function () {
 
     /* start statistics chart */
     (function () {
+        if($('#chart').length != 0) {
+            var ctx = document.getElementById("chart").getContext("2d");
 
-        var ctx = document.getElementById("chart").getContext("2d");
+            /*** Gradient ***/
+            var gradient = ctx.createLinearGradient(0, 0, 0, 400);
+            gradient.addColorStop(0, 'rgba(250,174,50,1)');
+            gradient.addColorStop(1, 'rgba(250,174,50,0)');
+            /***************/
 
-        /*** Gradient ***/
-        var gradient = ctx.createLinearGradient(0, 0, 0, 400);
-        gradient.addColorStop(0, 'rgba(250,174,50,1)');
-        gradient.addColorStop(1, 'rgba(250,174,50,0)');
-        /***************/
+            var data = {
+                labels : ["January","February","March","April","May","June","July","August","September","October","November","December"],
+                datasets: [
+                    {
+                        fillColor : gradient, // Put the gradient here as a fill color
+                        strokeColor : "#ff6c23",
+                        pointColor : "#fff",
+                        pointStrokeColor : "#ff6c23",
+                        pointHighlightFill: "#fff",
+                        pointHighlightStroke: "#ff6c23",
+                        data : [1000, 2000, 666, 6000, 777, 500, 1000, 3000, 5000, 6000, 2000, 4000]
+                    }
+                ]
+            };
 
-        var data = {
-            labels : ["January","February","March","April","May","June","July","August","September","October","November","December"],
-            datasets: [
-                {
-                    fillColor : gradient, // Put the gradient here as a fill color
-                    strokeColor : "#ff6c23",
-                    pointColor : "#fff",
-                    pointStrokeColor : "#ff6c23",
-                    pointHighlightFill: "#fff",
-                    pointHighlightStroke: "#ff6c23",
-                    data : [1000, 2000, 666, 6000, 777, 500, 1000, 3000, 5000, 6000, 2000, 4000]
-                }
-            ]
-        };
-
-        var options = {
-            responsive: true,
-            datasetStrokeWidth : 1,
-            pointDotStrokeWidth : 1,
-            tooltipFillColor: "rgba(0,0,0,0.8)",
-            tooltipFontStyle: "regular",
-            tooltipTemplate: "<%if (label){%><%='In ' + label + ' was earned' %>: <%}%><%= '$' + value %>",
-            scaleLabel : "<%=  '$' + Number(value).toFixed(0).replace('.', ',')%>"
-        };
-
-
+            var options = {
+                responsive: true,
+                datasetStrokeWidth : 1,
+                pointDotStrokeWidth : 1,
+                tooltipFillColor: "rgba(0,0,0,0.8)",
+                tooltipFontStyle: "regular",
+                tooltipTemplate: "<%if (label){%><%='In ' + label + ' was earned' %>: <%}%><%= '$' + value %>",
+                scaleLabel : "<%=  '$' + Number(value).toFixed(0).replace('.', ',')%>"
+            };
 
 
-        var myLineChart = new Chart(ctx).Line(data, options);
+
+
+            var myLineChart = new Chart(ctx).Line(data, options);
+
+        }
 
     }).call(this);
 
