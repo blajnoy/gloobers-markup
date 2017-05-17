@@ -24,7 +24,7 @@
 	.hp & {
 		min-height: 100vh;
 		padding: 0 0 115px;
-		background: url(../images/bg-main.jpg) 50% 0 no-repeat fixed / cover;
+		background: url(../public/images/bg-main.jpg) 50% 0 no-repeat fixed / cover;
 		position: relative;
 
 		.container {
@@ -55,7 +55,7 @@
 		}
 	}
 	.prof-page & {
-		background: url(../images/bg-professionals.jpg) 50% 0 no-repeat fixed / cover;
+		background: url(../public/images/bg-professionals.jpg) 50% 0 no-repeat fixed / cover;
 
 		&:after {
 			background: rgba(#501e00, .5);
@@ -296,7 +296,7 @@
 	}
 
 	.mask {
-		background: url(../images/map-mask.png) 0 0 no-repeat;
+		background: url(../public/images/map-mask.png) 0 0 no-repeat;
 		background-size: cover;
 		position: absolute;
 		top: 0;
@@ -2331,7 +2331,7 @@ input.daterange-input {
 		background: #fff;
 	}
 	&.wood {
-		background: url(../images/bg-wood.jpg) 50% 0 no-repeat;
+		background: url(../public/images/bg-wood.jpg) 50% 0 no-repeat;
 		background-size: cover;
 
 	}
@@ -3036,7 +3036,7 @@ input.daterange-input {
 }
 
 .marketing {
-	background: url(../images/bg-footer.jpg) 50% 0 no-repeat;
+	background: url(../public/images/bg-footer.jpg) 50% 0 no-repeat;
 	background-size: cover;
 	color: #fff;
 
@@ -3863,6 +3863,44 @@ input.daterange-input {
 	}
 }
 
+.payment-aside {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	padding: 15px;
+
+	.payment-aside-img {
+		margin: -16px -16px 15px;
+
+		@include aspect-ratio(400, 163);
+
+		img {
+			border-radius: 10px 10px 0 0;
+			overflow: hidden;
+			object-fit: cover;
+		}
+	}
+
+	.payment-aside-ttl {
+		margin: 0 -15px 10px;
+		padding: 0 15px 10px;
+		border-bottom: 1px solid #e5e5e5;
+
+		h3 {
+			font-family: 'Open Sans';
+			margin: 0 0 5px;
+		}
+
+		.sub-ttl {
+			font-size: 18px;
+			line-height: 21px;
+			display: block;
+		}
+	}
+}
+
+
+
 .recommendation-message {
 	height: 220px;
 	font-size: 16px;
@@ -3992,7 +4030,7 @@ input.daterange-input {
 }
 .cardholder {
 	height: 272px;
-	background: url('../images/bg-payment-card.jpg') 0 0 no-repeat / cover;
+	background: url('../public/images/bg-payment-card.jpg') 0 0 no-repeat / cover;
 	border: 2px solid #a1a1a1;
 	border-radius: 10px;
 	padding: 35px;
@@ -5563,7 +5601,7 @@ input.daterange-input {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #fff url("../images/loading.gif") no-repeat center center;
+	background: #fff url("../public/images/loading.gif") no-repeat center center;
 	opacity: .75;
 	filter: alpha(opacity=75);
 	z-index: 20140628;

@@ -22,7 +22,7 @@ gulp.task('iconfont', function(){
 			cssClass: cssClass,
 			path: 'assets/css/templates/_icons.scss',
 			targetPath: '../../sass/_icons.scss',
-			fontPath: '../fonts/icons/'
+			fontPath: '../public/fonts/icons/'
 		}))
 		.pipe(iconfont({
 			prependUnicode: true,
@@ -30,7 +30,7 @@ gulp.task('iconfont', function(){
 			fontName: fontName,
 			normalize: true
 		}))
-		.pipe(gulp.dest('fonts/icons/'));
+		.pipe(gulp.dest('public/fonts/icons/'));
 });
 
 
@@ -43,7 +43,7 @@ gulp.task('sass', function() {
 		}))
 		//.pipe(cleanCSS(''))
 		.pipe(rename('all.css'))
-		.pipe(gulp.dest('css'));
+		.pipe(gulp.dest('public/css'));
 });
 
 gulp.task('sass:watch', function() {
@@ -59,7 +59,7 @@ gulp.task('coming', function() {
 		}))
 		//.pipe(cleanCSS(''))
 		.pipe(rename('coming-soon.css'))
-		.pipe(gulp.dest('css'));
+		.pipe(gulp.dest('public/css'));
 });
 
 gulp.task('coming:watch', function() {
@@ -68,7 +68,7 @@ gulp.task('coming:watch', function() {
 
 gulp.task('sprite', function () {
 	var spriteData = gulp.src('assets/png/*.png').pipe(spritesmith({
-		imgPath: '../images/sprite.png',
+		imgPath: '../public/images/sprite.png',
 		imgName: 'sprite.png',
 		cssName: 'sprite.css'
 	}));
@@ -76,7 +76,7 @@ gulp.task('sprite', function () {
 		.pipe(gulp.dest('images'));
 
 	var cssStream = spriteData.css
-		.pipe(gulp.dest('css'));
+		.pipe(gulp.dest('public/css'));
 
 	return cssStream, imgStream;
 

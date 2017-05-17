@@ -2,17 +2,643 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/markup/sass/_styles.scss" line="3269" mnemonic="5" />
-    <bookmark url="file://$PROJECT_DIR$/markup/professionals.html" line="188" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/jsons/myfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/mime" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/mime.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/accepts/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/accepts/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/accepts/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/accepts/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/accepts/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/array-flatten/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/array-flatten/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/array-flatten/array-flatten.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/array-flatten/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/content-disposition/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/content-disposition/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/content-disposition/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/content-disposition/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/content-disposition/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/content-type/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/content-type/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/content-type/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/content-type/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/content-type/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cookie-signature/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cookie-signature/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cookie-signature/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cookie-signature/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cookie-signature/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cookie/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cookie/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cookie/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cookie/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cookie/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/depd/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/depd/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/depd/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/depd/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/depd/lib/browser/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/depd/lib/compat/buffer-concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/depd/lib/compat/callsite-tostring.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/depd/lib/compat/event-listener-count.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/depd/lib/compat/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/depd/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/destroy/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/destroy/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/destroy/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/destroy/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ee-first/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ee-first/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ee-first/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ee-first/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/encodeurl/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/encodeurl/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/encodeurl/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/encodeurl/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/encodeurl/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/escape-html/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/escape-html/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/escape-html/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/escape-html/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/etag/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/etag/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/etag/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/etag/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/etag/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/express.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/middleware/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/middleware/query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/response.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/router/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/router/route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/lib/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/.coveralls.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/src/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/src/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/debug/src/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/ms/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/ms/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/ms/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/ms/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/.eslintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/.jscs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/dist/qs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/lib/formats.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/lib/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/lib/stringify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/test/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/test/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/test/stringify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/node_modules/qs/test/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/express/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/.coveralls.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/src/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/src/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/debug/src/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/ms/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/ms/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/ms/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/node_modules/ms/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/finalhandler/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/forwarded/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/forwarded/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/forwarded/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/forwarded/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/forwarded/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fresh/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fresh/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fresh/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fresh/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/fresh/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/http-errors/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/http-errors/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/http-errors/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/http-errors/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/http-errors/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/Cakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/ipaddr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/lib/ipaddr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/src/ipaddr.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/ipaddr.js/test/ipaddr.test.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/media-typer/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/media-typer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/media-typer/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/media-typer/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/media-typer/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/merge-descriptors/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/merge-descriptors/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/merge-descriptors/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/merge-descriptors/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/merge-descriptors/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/methods/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/methods/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/methods/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/methods/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/methods/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/mime/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/mime/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/mime/build/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/mime/build/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/mime/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/mime/mime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/mime/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/mime/types.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/negotiator/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/negotiator/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/negotiator/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/negotiator/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/negotiator/lib/charset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/negotiator/lib/encoding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/negotiator/lib/language.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/negotiator/lib/mediaType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/negotiator/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/on-finished/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/on-finished/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/on-finished/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/on-finished/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/on-finished/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/parseurl/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/parseurl/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/parseurl/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/parseurl/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/parseurl/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/path-to-regexp/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/path-to-regexp/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/path-to-regexp/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/path-to-regexp/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/path-to-regexp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/path/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/path/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/path/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/path/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/path/path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/process/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/process/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/process/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/process/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/process/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/process/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/process/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/proxy-addr/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/proxy-addr/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/proxy-addr/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/proxy-addr/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/proxy-addr/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/range-parser/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/range-parser/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/range-parser/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/range-parser/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/range-parser/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/.coveralls.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/src/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/src/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/debug/src/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/ms/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/ms/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/ms/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/node_modules/ms/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/send/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/serve-static/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/serve-static/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/serve-static/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/serve-static/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/serve-static/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/setprototypeof/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/setprototypeof/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/setprototypeof/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/setprototypeof/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/statuses/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/statuses/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/statuses/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/statuses/codes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/statuses/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/statuses/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-db/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-db/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-db/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-db/db.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-db/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-db/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-types/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-types/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-types/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-types/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/node_modules/mime-types/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/type-is/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unpipe/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unpipe/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unpipe/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unpipe/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unpipe/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/.zuul.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/node_modules/inherits/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/node_modules/inherits/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/node_modules/inherits/inherits.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/node_modules/inherits/inherits_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/node_modules/inherits/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/node_modules/inherits/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/support/isBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/support/isBufferBrowser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/test/browser/inspect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/test/browser/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/test/node/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/test/node/format.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/test/node/inspect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/test/node/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/test/node/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/util/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/utils-merge/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/utils-merge/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/utils-merge/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/utils-merge/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/utils-merge/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/vary/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/vary/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/vary/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/vary/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/vary/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/coming-soon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/css/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/ico01.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/payment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/personal-cabinet-profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/personal-followed-recommendations.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/personal-payment-history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/personal-recommendations.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/personal-travel-credits — копия.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/personal-travel-credits.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/personal-trips-comming-soon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/personal-trips-done.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/personal-trips-planer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/professionals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/profile-edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/profile-public.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/search-results-advisors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/search-results.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/single-hotel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/single.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/coming-soon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/css/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/payment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/personal-cabinet-profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/personal-followed-recommendations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/personal-payment-history.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/personal-recommendations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/personal-travel-credits — копия.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/personal-travel-credits.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/personal-trips-comming-soon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/personal-trips-done.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/personal-trips-planer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/professionals.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/profile-edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/profile-public.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/search-results-advisors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/search-results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/single-hotel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/single.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/css/all.css" afterPath="$PROJECT_DIR$/markup/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/js/main.js" afterPath="$PROJECT_DIR$/markup/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/js/single-page.js" afterPath="$PROJECT_DIR$/markup/js/single-page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_full-calendar-customization.scss" afterPath="$PROJECT_DIR$/markup/sass/_full-calendar-customization.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/gulpfile.js" afterPath="$PROJECT_DIR$/markup/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/package.json" afterPath="$PROJECT_DIR$/markup/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_coming-soon.scss" afterPath="$PROJECT_DIR$/markup/sass/_coming-soon.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_icons.scss" afterPath="$PROJECT_DIR$/markup/sass/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_menu.scss" afterPath="$PROJECT_DIR$/markup/sass/_menu.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/_styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/single.html" afterPath="$PROJECT_DIR$/markup/single.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/markup/public/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/markup/public/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/coming-soon.css" afterPath="$PROJECT_DIR$/markup/public/css/coming-soon.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/cropper.css" afterPath="$PROJECT_DIR$/markup/public/css/cropper.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/daterangepicker.css" afterPath="$PROJECT_DIR$/markup/public/css/daterangepicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/drop-theme-arrows.css" afterPath="$PROJECT_DIR$/markup/public/css/drop-theme-arrows.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/fullcalendar.min.css" afterPath="$PROJECT_DIR$/markup/public/css/fullcalendar.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/jquery.fancybox.css" afterPath="$PROJECT_DIR$/markup/public/css/jquery.fancybox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/select-theme-default.css" afterPath="$PROJECT_DIR$/markup/public/css/select-theme-default.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/sprite.css" afterPath="$PROJECT_DIR$/markup/public/css/sprite.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/star-rating.min.css" afterPath="$PROJECT_DIR$/markup/public/css/star-rating.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/css/toggle-switch-px.css" afterPath="$PROJECT_DIR$/markup/public/css/toggle-switch-px.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/markup/public/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/markup/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/markup/public/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/markup/public/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/markup/public/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.eot" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.svg" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.ttf" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.woff" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/fonts/icons/gloobers-icons.woff2" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/anormal.png" afterPath="$PROJECT_DIR$/markup/public/images/anormal.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/archive.png" afterPath="$PROJECT_DIR$/markup/public/images/archive.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/archive_001.png" afterPath="$PROJECT_DIR$/markup/public/images/archive_001.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/art-culture.jpg" afterPath="$PROJECT_DIR$/markup/public/images/art-culture.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/basicbtn.png" afterPath="$PROJECT_DIR$/markup/public/images/basicbtn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/basket.png" afterPath="$PROJECT_DIR$/markup/public/images/basket.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/bg-coming-soon.jpg" afterPath="$PROJECT_DIR$/markup/public/images/bg-coming-soon.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/bg-coming-soon1.jpg" afterPath="$PROJECT_DIR$/markup/public/images/bg-coming-soon1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/bg-footer.jpg" afterPath="$PROJECT_DIR$/markup/public/images/bg-footer.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/bg-main.jpg" afterPath="$PROJECT_DIR$/markup/public/images/bg-main.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/bg-map.png" afterPath="$PROJECT_DIR$/markup/public/images/bg-map.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/bg-payment-card.jpg" afterPath="$PROJECT_DIR$/markup/public/images/bg-payment-card.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/bg-professionals.jpg" afterPath="$PROJECT_DIR$/markup/public/images/bg-professionals.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/bg-wood.jpg" afterPath="$PROJECT_DIR$/markup/public/images/bg-wood.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/bluebtn.png" afterPath="$PROJECT_DIR$/markup/public/images/bluebtn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/bodybg.jpg" afterPath="$PROJECT_DIR$/markup/public/images/bodybg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/chosenselect.png" afterPath="$PROJECT_DIR$/markup/public/images/chosenselect.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/create.png" afterPath="$PROJECT_DIR$/markup/public/images/create.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/create_001.png" afterPath="$PROJECT_DIR$/markup/public/images/create_001.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/darkbg.jpg" afterPath="$PROJECT_DIR$/markup/public/images/darkbg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/download.png" afterPath="$PROJECT_DIR$/markup/public/images/download.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/fancybox/blank.gif" afterPath="$PROJECT_DIR$/markup/public/images/fancybox/blank.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/fancybox/fancybox_loading.gif" afterPath="$PROJECT_DIR$/markup/public/images/fancybox/fancybox_loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/fancybox/fancybox_loading@2x.gif" afterPath="$PROJECT_DIR$/markup/public/images/fancybox/fancybox_loading@2x.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/fancybox/fancybox_overlay.png" afterPath="$PROJECT_DIR$/markup/public/images/fancybox/fancybox_overlay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/fancybox/fancybox_sprite.png" afterPath="$PROJECT_DIR$/markup/public/images/fancybox/fancybox_sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/fancybox/fancybox_sprite@2x.png" afterPath="$PROJECT_DIR$/markup/public/images/fancybox/fancybox_sprite@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/favicon.ico" afterPath="$PROJECT_DIR$/markup/public/images/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/green.png" afterPath="$PROJECT_DIR$/markup/public/images/green.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/help.png" afterPath="$PROJECT_DIR$/markup/public/images/help.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-bed.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-bed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-bookings.svg" afterPath="$PROJECT_DIR$/markup/public/images/ico-bookings.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-check.svg" afterPath="$PROJECT_DIR$/markup/public/images/ico-check.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-get-rewarded.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-get-rewarded.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-gloobers.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-gloobers.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-hand.svg" afterPath="$PROJECT_DIR$/markup/public/images/ico-hand.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-help-other.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-help-other.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-help-travelers.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-help-travelers.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-money.svg" afterPath="$PROJECT_DIR$/markup/public/images/ico-money.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-people.svg" afterPath="$PROJECT_DIR$/markup/public/images/ico-people.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-refer-prof.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-refer-prof.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-refer-travelers.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-refer-travelers.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-tailor-made.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-tailor-made.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-travel-credits.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-travel-credits.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-travel-free.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-travel-free.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico-trustful.png" afterPath="$PROJECT_DIR$/markup/public/images/ico-trustful.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ico01.svg" afterPath="$PROJECT_DIR$/markup/node_modules/mime/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img-cancelled.png" afterPath="$PROJECT_DIR$/markup/public/images/img-cancelled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img-done.png" afterPath="$PROJECT_DIR$/markup/public/images/img-done.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img-masked-map.png" afterPath="$PROJECT_DIR$/markup/public/images/img-masked-map.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img-passion01.jpg" afterPath="$PROJECT_DIR$/markup/public/images/img-passion01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img-passion02.jpg" afterPath="$PROJECT_DIR$/markup/public/images/img-passion02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img-screenshot.jpg" afterPath="$PROJECT_DIR$/markup/public/images/img-screenshot.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img-screenshot.png" afterPath="$PROJECT_DIR$/markup/public/images/img-screenshot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img01.jpg" afterPath="$PROJECT_DIR$/markup/public/images/img01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img02.jpg" afterPath="$PROJECT_DIR$/markup/public/images/img02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img03-rotate.jpg" afterPath="$PROJECT_DIR$/markup/public/images/img03-rotate.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img03.jpg" afterPath="$PROJECT_DIR$/markup/public/images/img03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img04.jpg" afterPath="$PROJECT_DIR$/markup/public/images/img04.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img05.jpg" afterPath="$PROJECT_DIR$/markup/public/images/img05.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/img06.jpg" afterPath="$PROJECT_DIR$/markup/public/images/img06.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/info.png" afterPath="$PROJECT_DIR$/markup/public/images/info.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/leftnavbg.png" afterPath="$PROJECT_DIR$/markup/public/images/leftnavbg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/linessep.png" afterPath="$PROJECT_DIR$/markup/public/images/linessep.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/logo-inner.png" afterPath="$PROJECT_DIR$/markup/public/images/logo-inner.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/logo-payment01.png" afterPath="$PROJECT_DIR$/markup/public/images/logo-payment01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/logo-payment02.png" afterPath="$PROJECT_DIR$/markup/public/images/logo-payment02.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/logo-payment03.png" afterPath="$PROJECT_DIR$/markup/public/images/logo-payment03.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/logo-payment04.png" afterPath="$PROJECT_DIR$/markup/public/images/logo-payment04.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/logo-payment05.png" afterPath="$PROJECT_DIR$/markup/public/images/logo-payment05.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/logo.png" afterPath="$PROJECT_DIR$/markup/public/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/logo01.png" afterPath="$PROJECT_DIR$/markup/public/images/logo01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/logout.png" afterPath="$PROJECT_DIR$/markup/public/images/logout.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/mainwebsite.png" afterPath="$PROJECT_DIR$/markup/public/images/mainwebsite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/map-mask.png" afterPath="$PROJECT_DIR$/markup/public/images/map-mask.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/marker.svg" afterPath="$PROJECT_DIR$/markup/public/images/marker.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/marker1.svg" afterPath="$PROJECT_DIR$/markup/public/images/marker1.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/middlebg.png" afterPath="$PROJECT_DIR$/markup/public/images/middlebg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passiond.png" afterPath="$PROJECT_DIR$/markup/public/images/passiond.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/Art&amp;culture.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/Art&amp;culture.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/Scuba-diving.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/Scuba-diving.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/archeology.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/archeology.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/beach.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/beach.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/camping.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/camping.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/extreme.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/extreme.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/fishing-new.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/fishing-new.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/fitness-passion.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/fitness-passion.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/food_new.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/food_new.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/golf.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/golf.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/kids.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/kids.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/local-culture.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/local-culture.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/luxury-passion.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/luxury-passion.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/motor-sports.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/motor-sports.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/music.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/music.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/nightlife.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/nightlife.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/paris-large.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/paris-large.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/photo.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/photo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/road-trips.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/road-trips.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/sailing-passion.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/sailing-passion.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/shopping.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/shopping.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/trekking.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/trekking.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/water-sports.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/water-sports.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/wellness.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/wellness.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/wildlife.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/wildlife.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/passions/wine.jpg" afterPath="$PROJECT_DIR$/markup/public/images/passions/wine.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/pencil.png" afterPath="$PROJECT_DIR$/markup/public/images/pencil.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/photo01-big.jpg" afterPath="$PROJECT_DIR$/markup/public/images/photo01-big.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/photo01.jpg" afterPath="$PROJECT_DIR$/markup/public/images/photo01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/photo02.jpg" afterPath="$PROJECT_DIR$/markup/public/images/photo02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/photo03.jpg" afterPath="$PROJECT_DIR$/markup/public/images/photo03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/photo04.jpg" afterPath="$PROJECT_DIR$/markup/public/images/photo04.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/photo05.jpg" afterPath="$PROJECT_DIR$/markup/public/images/photo05.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/photo06.jpg" afterPath="$PROJECT_DIR$/markup/public/images/photo06.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/recommendations-types/bg-type01.jpg" afterPath="$PROJECT_DIR$/markup/public/images/recommendations-types/bg-type01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/recommendations-types/bg-type02.jpg" afterPath="$PROJECT_DIR$/markup/public/images/recommendations-types/bg-type02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/recommendations-types/bg-type03.jpg" afterPath="$PROJECT_DIR$/markup/public/images/recommendations-types/bg-type03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/recommendations-types/bg-type04.jpg" afterPath="$PROJECT_DIR$/markup/public/images/recommendations-types/bg-type04.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/recommendations-types/bg-type05.jpg" afterPath="$PROJECT_DIR$/markup/public/images/recommendations-types/bg-type05.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/recommendations-types/bg-type06.jpg" afterPath="$PROJECT_DIR$/markup/public/images/recommendations-types/bg-type06.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/right-arrow.svg" afterPath="$PROJECT_DIR$/markup/public/images/right-arrow.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/select_right.png" afterPath="$PROJECT_DIR$/markup/public/images/select_right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/select_right_datatable.png" afterPath="$PROJECT_DIR$/markup/public/images/select_right_datatable.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/sprite.png" afterPath="$PROJECT_DIR$/markup/public/images/sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/tabssepr.png" afterPath="$PROJECT_DIR$/markup/public/images/tabssepr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/topnav.jpg" afterPath="$PROJECT_DIR$/markup/public/images/topnav.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/transparent.png" afterPath="$PROJECT_DIR$/markup/public/images/transparent.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/beach.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/beach.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/business.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/business.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/design.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/design.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/family.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/family.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/golf.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/golf.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/green.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/green.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/historical.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/historical.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/only-adults.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/only-adults.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/pet-friendly.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/pet-friendly.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/rural.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/rural.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/ski.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/ski.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/sport.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/sport.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/with-charm.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/with-charm.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/types-of-hotels/with-spa.jpg" afterPath="$PROJECT_DIR$/markup/public/images/types-of-hotels/with-spa.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/markup/public/images/ui-icons_222222_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/markup/public/images/ui-icons_888888_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/userpic.png" afterPath="$PROJECT_DIR$/markup/public/images/userpic.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/zipfiles.png" afterPath="$PROJECT_DIR$/markup/public/images/zipfiles.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/images/zipfiles_001.png" afterPath="$PROJECT_DIR$/markup/public/images/zipfiles_001.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/index.html" afterPath="$PROJECT_DIR$/markup/public/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/Chart.min.js" afterPath="$PROJECT_DIR$/markup/public/js/Chart.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/bootstrap-slider.min.js" afterPath="$PROJECT_DIR$/markup/public/js/bootstrap-slider.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/markup/public/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/cropper-main-custom.js" afterPath="$PROJECT_DIR$/markup/public/js/cropper-main-custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/cropper.min.js" afterPath="$PROJECT_DIR$/markup/public/js/cropper.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/custom-file-input.js" afterPath="$PROJECT_DIR$/markup/public/js/custom-file-input.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/daterangepicker.js" afterPath="$PROJECT_DIR$/markup/public/js/daterangepicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/drop.min.js" afterPath="$PROJECT_DIR$/markup/public/js/drop.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/fullcalendar.min.js" afterPath="$PROJECT_DIR$/markup/public/js/fullcalendar.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/jquery.cropit.js" afterPath="$PROJECT_DIR$/markup/public/js/jquery.cropit.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/jquery.datetimepicker.js" afterPath="$PROJECT_DIR$/markup/public/js/jquery.datetimepicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/jquery.fancybox.pack.js" afterPath="$PROJECT_DIR$/markup/public/js/jquery.fancybox.pack.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/loadingoverlay.min.js" afterPath="$PROJECT_DIR$/markup/public/js/loadingoverlay.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/af.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/af.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ar-dz.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ar-dz.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ar-ly.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ar-ly.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ar-ma.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ar-ma.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ar-sa.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ar-sa.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ar-tn.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ar-tn.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ar.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/bg.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/bg.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ca.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ca.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/cs.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/cs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/da.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/da.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/de-at.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/de-at.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/de.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/de.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/el.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/el.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/en-au.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/en-au.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/en-ca.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/en-ca.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/en-gb.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/en-gb.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/en-ie.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/en-ie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/en-nz.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/en-nz.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/es-do.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/es-do.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/es.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/es.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/eu.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/eu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/fa.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/fa.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/fi.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/fi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/fr-ca.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/fr-ca.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/fr-ch.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/fr-ch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/fr.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/fr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/gl.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/gl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/he.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/he.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/hi.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/hi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/hr.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/hr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/hu.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/hu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/id.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/id.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/is.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/is.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/it.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/it.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ja.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ja.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/kk.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/kk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ko.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ko.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/lb.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/lb.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/lt.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/lt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/lv.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/lv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/mk.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/mk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ms-my.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ms-my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ms.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ms.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/nb.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/nb.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/nl-be.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/nl-be.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/nl.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/nl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/nn.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/nn.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/pl.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/pl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/pt-br.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/pt-br.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/pt.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/pt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ro.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ro.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/ru.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/ru.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/sk.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/sk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/sl.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/sl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/sr-cyrl.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/sr-cyrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/sr.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/sr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/sv.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/sv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/th.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/th.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/tr.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/tr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/uk.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/uk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/vi.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/vi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/zh-cn.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/zh-cn.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/locale/zh-tw.js" afterPath="$PROJECT_DIR$/markup/public/js/locale/zh-tw.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/modernizr.js" afterPath="$PROJECT_DIR$/markup/public/js/modernizr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/moment.js" afterPath="$PROJECT_DIR$/markup/public/js/moment.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/popover-extra-placements.min.js" afterPath="$PROJECT_DIR$/markup/public/js/popover-extra-placements.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/scroll-menu.js" afterPath="$PROJECT_DIR$/markup/public/js/scroll-menu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/select.js" afterPath="$PROJECT_DIR$/markup/public/js/select.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/single-page.js" afterPath="$PROJECT_DIR$/markup/public/js/single-page.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/slick.min.js" afterPath="$PROJECT_DIR$/markup/public/js/slick.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/star-rating.min.js" afterPath="$PROJECT_DIR$/markup/public/js/star-rating.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/markup/js/tether.min.js" afterPath="$PROJECT_DIR$/markup/public/js/tether.min.js" />
     </list>
     <ignored path="gloobers-markup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,161 +661,149 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="personal-trips-done.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/personal-trips-done.html">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="76" column="60" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+            <state relative-caret-position="384">
+              <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personal-trips-planer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/personal-trips-planer.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="158" column="50" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="50" />
+            <state relative-caret-position="180">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding>
+                <marker date="1495033504136" expanded="true" signature="0:753" placeholder="{&quot;name&quot;: &quot;gloobers&quot;...}" />
+                <marker date="1495033504136" expanded="true" signature="81:144" placeholder="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
+                <marker date="1495033504136" expanded="true" signature="203:596" placeholder="{&quot;gulp&quot;: &quot;^3.9.1&quot;...}" />
+                <marker date="1495033504136" expanded="true" signature="616:730" placeholder="{&quot;chart.js&quot;: &quot;^2.5.0&quot;...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/jsons/myfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/public/css/all.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="payment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/payment.html">
+        <entry file="file://$PROJECT_DIR$/markup/public/payment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="207" column="32" selection-start-line="207" selection-start-column="32" selection-end-line="207" selection-end-column="32" />
-              <folding>
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personal-travel-credits.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/personal-travel-credits.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="112" column="60" selection-start-line="112" selection-start-column="60" selection-end-line="112" selection-end-column="60" />
-              <folding>
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/single.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="839" column="91" selection-start-line="839" selection-start-column="91" selection-end-line="839" selection-end-column="91" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#label#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#2;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#3;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#4;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#5;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1494850096851" expanded="false" signature="44602:47520" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single-page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/js/single-page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="121">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_styles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+      <file leaf-file-name="personal-travel-credits — копия.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/public/personal-travel-credits — копия.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="2729" column="0" selection-start-line="2729" selection-start-column="0" selection-end-line="2729" selection-end-column="0" />
-              <folding>
-                <element signature="e#2769#3056#0" expanded="false" />
-                <element signature="e#48081#48501#0" expanded="false" />
-                <element signature="e#71750#71953#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-378">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personal-payment-history.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/markup/personal-payment-history.html">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/markup/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="113" column="34" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+            <state relative-caret-position="108">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#7;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="975" column="14" selection-start-line="975" selection-start-column="14" selection-end-line="975" selection-end-column="14" />
-              <folding>
-                <element signature="e#83#1702#0" expanded="false" />
-                <element signature="e#1983#3514#0" expanded="false" />
-                <element signature="e#7854#8053#0" expanded="false" />
-                <element signature="e#8084#8263#0" expanded="false" />
-                <element signature="e#8295#8641#0" expanded="false" />
-                <element signature="e#8692#8728#0" expanded="false" />
-                <element signature="e#8768#8834#0" expanded="false" />
-                <element signature="e#9062#9264#0" expanded="false" />
-                <element signature="e#9285#10200#0" expanded="false" />
-                <element signature="e#10232#11486#0" expanded="false" />
-                <element signature="e#24839#27009#0" expanded="false" />
+                <element signature="e#2212#3743#0" expanded="false" />
+                <element signature="e#8083#8282#0" expanded="false" />
+                <element signature="e#8313#8492#0" expanded="false" />
+                <element signature="e#8524#8870#0" expanded="false" />
+                <element signature="e#8921#8957#0" expanded="false" />
+                <element signature="e#8997#9063#0" expanded="false" />
+                <element signature="e#9291#9493#0" expanded="false" />
+                <element signature="e#9514#10429#0" expanded="false" />
+                <element signature="e#10461#11715#0" expanded="false" />
+                <element signature="e#25068#27238#0" expanded="false" />
                 <element signature="n#!!block;n#getRatingMarker#0" expanded="false" />
                 <element signature="n#!!block;n#addPassportMarker#0" expanded="false" />
                 <element signature="n#!!block;n#initMarkers#0" expanded="false" />
-                <element signature="e#35238#37945#0" expanded="false" />
+                <element signature="e#35467#38174#0" expanded="false" />
                 <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
-                <marker date="1494849165801" expanded="false" signature="19094:21628" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="19506:20442" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="19506:21628" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="19727:20427" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="19727:20442" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="19766:19812" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="19766:19813" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="21682:23282" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="21682:23288" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="21682:23294" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="22844:23282" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="23190:23282" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="23218:23282" placeholder="..." />
-                <marker date="1494849165801" expanded="true" signature="23246:23282" placeholder="..." />
+                <marker date="1495036538276" expanded="false" signature="19323:21857" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="19735:20671" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="19735:21857" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="19956:20656" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="19956:20671" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="19995:20041" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="19995:20042" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="21911:23511" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="21911:23517" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="21911:23523" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="23073:23511" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="23419:23511" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="23447:23511" placeholder="..." />
+                <marker date="1495036538276" expanded="true" signature="23475:23511" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coming-soon.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/public/coming-soon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -198,11 +812,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/markup/sass/_drop-theme-arrows.scss" />
-        <option value="$PROJECT_DIR$/markup/sass/_icons.scss" />
-        <option value="$PROJECT_DIR$/markup/css/toggle-switch-px.css" />
-        <option value="$PROJECT_DIR$/markup/assets/css/templates/_icons.scss" />
         <option value="$PROJECT_DIR$/markup/js/scroll-menu.js" />
         <option value="$PROJECT_DIR$/markup/css/daterangepicker.css" />
         <option value="$PROJECT_DIR$/markup/sass/_daterangepicker.scss" />
@@ -214,7 +823,6 @@
         <option value="$PROJECT_DIR$/markup/profile-edit.html" />
         <option value="$PROJECT_DIR$/markup/professionals.html" />
         <option value="$PROJECT_DIR$/markup/sass/_mixins.scss" />
-        <option value="$PROJECT_DIR$/markup/gulpfile.js" />
         <option value="$PROJECT_DIR$/markup/sass/_coming-soon.scss" />
         <option value="$PROJECT_DIR$/markup/sass/_variables.scss" />
         <option value="D:/OpenServer/domains/gloobers-old.com/sites/default/settings.php" />
@@ -237,16 +845,24 @@
         <option value="$PROJECT_DIR$/markup/personal-trips-comming-soon.html" />
         <option value="$PROJECT_DIR$/markup/personal-trips-planer.html" />
         <option value="$PROJECT_DIR$/markup/sass/_buttons.scss" />
-        <option value="$PROJECT_DIR$/markup/payment.html" />
         <option value="$PROJECT_DIR$/markup/sass/_custom-chk&amp;radio.scss" />
         <option value="$PROJECT_DIR$/markup/js/Chart.min.js" />
         <option value="$PROJECT_DIR$/markup/personal-travel-credits.html" />
-        <option value="$PROJECT_DIR$/markup/js/main.js" />
         <option value="$PROJECT_DIR$/markup/single.html" />
-        <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
         <option value="$PROJECT_DIR$/markup/js/single-page.js" />
         <option value="$PROJECT_DIR$/markup/sass/_full-calendar-customization.scss" />
         <option value="$PROJECT_DIR$/markup/personal-payment-history.html" />
+        <option value="$PROJECT_DIR$/markup/js/main.js" />
+        <option value="$PROJECT_DIR$/markup/payment.html" />
+        <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
+        <option value="$PROJECT_DIR$/markup/package.json" />
+        <option value="$PROJECT_DIR$/markup/gulpfile.js" />
+        <option value="$PROJECT_DIR$/markup/public/payment.html" />
+        <option value="$PROJECT_DIR$/markup/public/coming-soon.html" />
+        <option value="$PROJECT_DIR$/markup/public/css/all.css" />
+        <option value="$PROJECT_DIR$/markup/app.js" />
+        <option value="$PROJECT_DIR$/markup/jsons/myfile.js" />
+        <option value="$PROJECT_DIR$/markup/public/js/main.js" />
       </list>
     </option>
   </component>
@@ -362,51 +978,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloobers-markup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloobers-markup" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="markup" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloobers-markup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloobers-markup" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="markup" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="jsons" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -418,22 +990,28 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sem/repo/SEM_music_backend" />
+    <property name="last_opened_file_path" value="D:/research/server" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="jsx.switch.disabled" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\projects\gloobers\gloobers-markup\markup\public" />
+      <recent name="D:\work\projects\gloobers\gloobers-markup\markup\public\css" />
       <recent name="D:\work\projects\gloobers\gloobers-markup\markup\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\projects\gloobers\gloobers-markup\markup\public" />
       <recent name="D:\work\projects\gloobers\gloobers-markup\markup\js" />
       <recent name="D:\work\projects\gloobers\gloobers-markup\markup\css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.search-results-advisors.html">
+  <component name="RunManager" selected="JavaScript Debug.personal-payment-history.html">
     <configuration default="false" name="search-results-advisors.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/gloobers-markup/markup/search-results-advisors.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="personal-payment-history.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/gloobers-markup/markup/personal-payment-history.html">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -466,12 +1044,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.search-results-advisors.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.personal-payment-history.html" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.search-results-advisors.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.personal-payment-history.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.search-results-advisors.html" />
       </list>
     </recent_temporary>
   </component>
@@ -511,21 +1091,7 @@
       <workItem from="1493974559512" duration="3258000" />
       <workItem from="1493989412707" duration="597000" />
       <workItem from="1493992266286" duration="14029000" />
-      <workItem from="1494577613711" duration="17676000" />
-    </task>
-    <task id="LOCAL-00005" summary="calendar">
-      <created>1485529768784</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1485529768784</updated>
-    </task>
-    <task id="LOCAL-00006" summary="calendar">
-      <created>1485530908413</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1485530908413</updated>
+      <workItem from="1494577613711" duration="29584000" />
     </task>
     <task id="LOCAL-00007" summary="calendar">
       <created>1485881823568</created>
@@ -856,11 +1422,25 @@
       <option name="project" value="LOCAL" />
       <updated>1494609436436</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="calendar">
+      <created>1494873979801</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1494873979801</updated>
+    </task>
+    <task id="LOCAL-00055" summary="calendar">
+      <created>1494874528972</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1494874528972</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="657610000" />
+    <option name="totallyTimeSpent" value="669518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -873,26 +1453,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19349681" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18093175" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36403033" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40086675" sideWeight="0.5063966" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22968581" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5005417" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17659806" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3391116" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -935,41 +1515,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="1686" column="0" selection-start-line="1686" selection-start-column="0" selection-end-line="1686" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/user_profile_section.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="749" column="40" selection-start-line="749" selection-start-column="40" selection-end-line="749" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/OpenServer/domains/gloobers-old.com/sites/default/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/star-rating.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="9" column="6312" selection-start-line="9" selection-start-column="6312" selection-end-line="9" selection-end-column="6312" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/profile-public.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="275" column="99" selection-start-line="275" selection-start-column="99" selection-end-line="275" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/search-results-advisors.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -992,7 +1537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/drop.min.js">
+    <entry file="file://$PROJECT_DIR$/markup/public/js/drop.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1006,7 +1551,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/css/drop-theme-arrows.css">
+    <entry file="file://$PROJECT_DIR$/markup/public/css/drop-theme-arrows.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1020,7 +1565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/select.js">
+    <entry file="file://$PROJECT_DIR$/markup/public/js/select.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
@@ -1035,7 +1580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/css/fullcalendar.min.css">
+    <entry file="file://$PROJECT_DIR$/markup/public/css/fullcalendar.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1113">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1063,24 +1608,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/daterangepicker.js">
+    <entry file="file://$PROJECT_DIR$/markup/public/js/daterangepicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="831" column="0" selection-start-line="623" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/coming-soon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1091,14 +1622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/personal-cabinet-profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10494">
@@ -1106,7 +1629,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/css/select-theme-default.css">
+    <entry file="file://$PROJECT_DIR$/markup/public/css/select-theme-default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1540">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1150,14 +1673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/personal-trips-comming-soon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4050">
-          <caret line="225" column="28" selection-start-line="225" selection-start-column="28" selection-end-line="225" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/personal-trips-done.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
@@ -1170,14 +1685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="114" column="21" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="7747" column="19" selection-start-line="7747" selection-start-column="19" selection-end-line="7747" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1204,24 +1711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/payment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="207" column="32" selection-start-line="207" selection-start-column="32" selection-end-line="207" selection-end-column="32" />
-          <folding>
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/personal-travel-credits — копия.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -1238,7 +1727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/Chart.min.js">
+    <entry file="file://$PROJECT_DIR$/markup/public/js/Chart.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="8" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="24340" />
@@ -1251,7 +1740,7 @@
         <state relative-caret-position="235">
           <caret line="574" column="1" selection-start-line="574" selection-start-column="1" selection-end-line="574" selection-end-column="1" />
           <folding>
-            <element signature="e#798#6280#0" expanded="false" />
+            <element signature="e#840#6322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1260,55 +1749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="112" column="60" selection-start-line="112" selection-start-column="60" selection-end-line="112" selection-end-column="60" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="975" column="14" selection-start-line="975" selection-start-column="14" selection-end-line="975" selection-end-column="14" />
-          <folding>
-            <element signature="e#83#1702#0" expanded="false" />
-            <element signature="e#1983#3514#0" expanded="false" />
-            <element signature="e#7854#8053#0" expanded="false" />
-            <element signature="e#8084#8263#0" expanded="false" />
-            <element signature="e#8295#8641#0" expanded="false" />
-            <element signature="e#8692#8728#0" expanded="false" />
-            <element signature="e#8768#8834#0" expanded="false" />
-            <element signature="e#9062#9264#0" expanded="false" />
-            <element signature="e#9285#10200#0" expanded="false" />
-            <element signature="e#10232#11486#0" expanded="false" />
-            <element signature="e#24839#27009#0" expanded="false" />
-            <element signature="n#!!block;n#getRatingMarker#0" expanded="false" />
-            <element signature="n#!!block;n#addPassportMarker#0" expanded="false" />
-            <element signature="n#!!block;n#initMarkers#0" expanded="false" />
-            <element signature="e#35238#37945#0" expanded="false" />
-            <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
-            <marker date="1494849165801" expanded="false" signature="19094:21628" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="19506:20442" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="19506:21628" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="19727:20427" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="19727:20442" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="19766:19812" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="19766:19813" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="21682:23282" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="21682:23288" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="21682:23294" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="22844:23282" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="23190:23282" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="23218:23282" placeholder="..." />
-            <marker date="1494849165801" expanded="true" signature="23246:23282" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/js/single-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1321,55 +1761,178 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/markup/personal-payment-history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="344" column="0" selection-start-line="344" selection-start-column="0" selection-end-line="344" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/js/single-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/markup/single.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="839" column="91" selection-start-line="839" selection-start-column="91" selection-end-line="839" selection-end-column="91" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#2;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#3;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#4;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#5;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#textarea#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1494850096851" expanded="false" signature="44602:47520" placeholder="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="209" column="40" selection-start-line="209" selection-start-column="40" selection-end-line="209" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="2729" column="0" selection-start-line="2729" selection-start-column="0" selection-end-line="2729" selection-end-column="0" />
+        <state relative-caret-position="-2">
+          <caret line="3884" column="28" selection-start-line="3884" selection-start-column="28" selection-end-line="3884" selection-end-column="28" />
           <folding>
-            <element signature="e#2769#3056#0" expanded="false" />
-            <element signature="e#48081#48501#0" expanded="false" />
-            <element signature="e#71750#71953#0" expanded="false" />
+            <element signature="e#2783#3070#0" expanded="false" />
+            <element signature="e#48116#48536#0" expanded="false" />
+            <element signature="e#53561#53835#0" expanded="false" />
+            <element signature="e#72328#72531#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/personal-payment-history.html">
+    <entry file="file://$PROJECT_DIR$/markup/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="113" column="34" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+        <state relative-caret-position="180">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1495033504136" expanded="true" signature="0:753" placeholder="{&quot;name&quot;: &quot;gloobers&quot;...}" />
+            <marker date="1495033504136" expanded="true" signature="81:144" placeholder="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
+            <marker date="1495033504136" expanded="true" signature="203:596" placeholder="{&quot;gulp&quot;: &quot;^3.9.1&quot;...}" />
+            <marker date="1495033504136" expanded="true" signature="616:730" placeholder="{&quot;chart.js&quot;: &quot;^2.5.0&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/personal-trips-comming-soon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/coming-soon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/personal-travel-credits — копия.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/jsons/myfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#2212#3743#0" expanded="false" />
+            <element signature="e#8083#8282#0" expanded="false" />
+            <element signature="e#8313#8492#0" expanded="false" />
+            <element signature="e#8524#8870#0" expanded="false" />
+            <element signature="e#8921#8957#0" expanded="false" />
+            <element signature="e#8997#9063#0" expanded="false" />
+            <element signature="e#9291#9493#0" expanded="false" />
+            <element signature="e#9514#10429#0" expanded="false" />
+            <element signature="e#10461#11715#0" expanded="false" />
+            <element signature="e#25068#27238#0" expanded="false" />
+            <element signature="n#!!block;n#getRatingMarker#0" expanded="false" />
+            <element signature="n#!!block;n#addPassportMarker#0" expanded="false" />
+            <element signature="n#!!block;n#initMarkers#0" expanded="false" />
+            <element signature="e#35467#38174#0" expanded="false" />
+            <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
+            <marker date="1495036538276" expanded="false" signature="19323:21857" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="19735:20671" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="19735:21857" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="19956:20656" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="19956:20671" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="19995:20041" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="19995:20042" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="21911:23511" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="21911:23517" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="21911:23523" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="23073:23511" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="23419:23511" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="23447:23511" placeholder="..." />
+            <marker date="1495036538276" expanded="true" signature="23475:23511" placeholder="..." />
           </folding>
         </state>
       </provider>

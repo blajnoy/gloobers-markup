@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "gloobers-icons";
-	src: url('../fonts/icons/gloobers-icons.eot');
-	src: url('../fonts/icons/gloobers-icons.eot?#iefix') format('eot'),
-	url('../fonts/icons/gloobers-icons.woff2') format('woff2'),
-	url('../fonts/icons/gloobers-icons.woff') format('woff'),
-	url('../fonts/icons/gloobers-icons.ttf') format('truetype'),
-	url('../fonts/icons/gloobers-icons.svg#gloobers-icons') format('svg');
+	src: url('../public/fonts/icons/gloobers-icons.eot');
+	src: url('../public/fonts/icons/gloobers-icons.eot?#iefix') format('eot'),
+	url('../public/fonts/icons/gloobers-icons.woff2') format('woff2'),
+	url('../public/fonts/icons/gloobers-icons.woff') format('woff'),
+	url('../public/fonts/icons/gloobers-icons.ttf') format('truetype'),
+	url('../public/fonts/icons/gloobers-icons.svg#gloobers-icons') format('svg');
 }
 
 @mixin gl-ico-styles {
@@ -718,4 +718,4 @@
 }
 .gl-ico-worldwide {
 	@include gl-ico(worldwide);
-}
+}
