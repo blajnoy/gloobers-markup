@@ -4054,6 +4054,7 @@ input.daterange-input {
 
 		.btn-address {
 			flex: auto;
+
 		}
 
 		.remove-btn {
@@ -4062,6 +4063,24 @@ input.daterange-input {
 		}
 	}
 }
+
+.chosen-lb {
+	font-size: 12px;
+
+	transform: scale(0);
+	color: green;
+	transition: all .1s ease;
+
+	.gl-ico-check {
+		font-size: 14px;
+		margin: 0 0 0 5px;
+	}
+
+	.selected & {
+		transform: scale(1);
+	}
+}
+
 
 .fill-color-white {
 	background: #fff;

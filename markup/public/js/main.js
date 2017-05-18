@@ -1,4 +1,13 @@
 $(document).ready(function () {
+
+    $('.stored-addresses').find('.btn-address').on('click', function (e) {
+        $('.stored-addresses').find('.btn-address').removeClass('selected');
+        $(this).addClass('selected');
+
+        return false;
+    });
+
+    /* JSON samples */
     /*$('.test').on('click', function(e) {
         e.preventDefault();
 

@@ -8047,6 +8047,27 @@ input.daterange-input {
   margin: 0 0 0 30px;
 }
 
+.chosen-lb {
+  font-size: 12px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  color: green;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+.chosen-lb .gl-ico-check {
+  font-size: 14px;
+  margin: 0 0 0 5px;
+}
+
+.selected .chosen-lb {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
 .fill-color-white {
   background: #fff;
 }
