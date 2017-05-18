@@ -1131,7 +1131,7 @@ input[type="checkbox"] .styled:checked + label:before, input[type="radio"] .styl
 }
 
 .mobile-nav li.has-drop > a:after {
-  content: url(../images/ico01.svg);
+  content: url(../public/images/ico01.svg);
   position: absolute;
   top: 14px;
   right: 15px;
@@ -1396,6 +1396,33 @@ fieldset[disabled] .btn {
   background: -webkit-gradient(linear, left top, left bottom, from(#44ade5), to(#007fc2));
   background: -webkit-linear-gradient(top, #44ade5 0%, #007fc2 100%);
   background: linear-gradient(to bottom, #44ade5 0%, #007fc2 100%);
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-gray {
+  border: 0;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#919191), to(#626262));
+  background: -webkit-linear-gradient(top, #919191 0%, #626262 100%);
+  background: linear-gradient(to bottom, #919191 0%, #626262 100%);
+}
+
+.btn-gray.btn-sm {
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+.btn-gray:hover, .btn-gray:focus, .btn-gray.focus {
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ababab), to(#626262));
+  background: -webkit-linear-gradient(top, #ababab 0%, #626262 100%);
+  background: linear-gradient(to bottom, #ababab 0%, #626262 100%);
   -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
 }
@@ -7807,6 +7834,179 @@ input.daterange-input {
   display: block;
 }
 
+.payment-aside .aside-block {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 0 10px;
+}
+
+.payment-aside .aside-block ~ .aside-block {
+  padding-top: 10px;
+}
+
+.payment-aside .show-more-row {
+  padding: 10px 0;
+}
+
+.payment-aside .info-row {
+  background: #e5e5e5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 -15px 25px;
+  padding: 5px 15px 7px;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.payment-aside .info-row dl:first-child {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.payment-aside .info-row dl dt, .payment-aside .info-row dl dd {
+  display: inline-block;
+}
+
+.payment-aside .info-row dl dd {
+  font-weight: bold;
+}
+
+.payment-aside .info-row dl .lnk-question {
+  margin-left: 5px;
+}
+
+.more-drop-list-wrap {
+  padding: 0 0 20px;
+}
+
+.payment-total-price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  line-height: 50px;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  margin: 0 0 25px;
+}
+
+.payment-total-price-ttl {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.payment-total-price-val {
+  font-weight: bold;
+  color: #501e00;
+  font-size: 50px;
+}
+
+.payment-order-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 -20px;
+}
+
+.payment-order-info .col-wrap {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.payment-order-info .col {
+  padding: 5px 20px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
+
+.payment-order-info .col .col-ttl {
+  display: block;
+  color: #501e00;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.payment-order-info .col .col-text {
+  display: block;
+}
+
+.payment-order-info .col.col-bd-l {
+  border-left: 1px solid #e5e5e5;
+}
+
+.payment-confirm-btns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px 20px;
+}
+
+.payment-confirm-btns .btn {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  margin: 0 10px;
+}
+
+.data-info-list {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.data-info-list-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 0;
+}
+
+.data-info-list-ttl {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.data-info-list-val {
+  display: inline-block;
+  padding: 0 0 0 20px;
+  font-weight: bold;
+  color: #501e00;
+}
+
+.data-info-list-val.val-fz-lg {
+  font-size: 20px;
+}
+
 .recommendation-message {
   height: 220px;
   font-size: 16px;
@@ -7854,7 +8054,7 @@ input.daterange-input {
 .lnk-question {
   font-size: 18px;
   line-height: 21px;
-  color: #e1e1e1;
+  color: rgba(145, 145, 145, 0.3);
 }
 
 .lnk-question:hover {
@@ -9080,6 +9280,14 @@ input.daterange-input {
 .room-types .info-desc {
   text-align: right;
   padding: 15px 0 0;
+}
+
+.info-desc a {
+  text-decoration: underline;
+}
+
+.info-desc a:hover {
+  text-decoration: none;
 }
 
 .info-desc-wrap {

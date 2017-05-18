@@ -83,6 +83,9 @@
 .btn-primary {
 	@include button-gradient(#fff, #1e97d8, #007fc2)
 }
+.btn-gray {
+	@include button-gradient(#fff, #919191, #626262)
+}
 .btn-facebook {
 	@include button-variant($color: #fff, $background: #3b5998, $borderColor: #3b5998, $needShadow: true);
 }

@@ -24,7 +24,7 @@
 	.hp & {
 		min-height: 100vh;
 		padding: 0 0 115px;
-		background: url(../public/images/bg-main.jpg) 50% 0 no-repeat fixed / cover;
+		background: url(../images/bg-main.jpg) 50% 0 no-repeat fixed / cover;
 		position: relative;
 
 		.container {
@@ -55,7 +55,7 @@
 		}
 	}
 	.prof-page & {
-		background: url(../public/images/bg-professionals.jpg) 50% 0 no-repeat fixed / cover;
+		background: url(../images/bg-professionals.jpg) 50% 0 no-repeat fixed / cover;
 
 		&:after {
 			background: rgba(#501e00, .5);
@@ -296,7 +296,7 @@
 	}
 
 	.mask {
-		background: url(../public/images/map-mask.png) 0 0 no-repeat;
+		background: url(../images/map-mask.png) 0 0 no-repeat;
 		background-size: cover;
 		position: absolute;
 		top: 0;
@@ -2331,7 +2331,7 @@ input.daterange-input {
 		background: #fff;
 	}
 	&.wood {
-		background: url(../public/images/bg-wood.jpg) 50% 0 no-repeat;
+		background: url(../images/bg-wood.jpg) 50% 0 no-repeat;
 		background-size: cover;
 
 	}
@@ -3036,7 +3036,7 @@ input.daterange-input {
 }
 
 .marketing {
-	background: url(../public/images/bg-footer.jpg) 50% 0 no-repeat;
+	background: url(../images/bg-footer.jpg) 50% 0 no-repeat;
 	background-size: cover;
 	color: #fff;
 
@@ -3897,9 +3897,140 @@ input.daterange-input {
 			display: block;
 		}
 	}
+
+	.aside-block {
+		border-bottom: 1px solid #e5e5e5;
+		padding: 0 0 10px;
+
+		& ~ .aside-block {
+			padding-top: 10px;
+		}
+	}
+
+	.show-more-row {
+		padding: 10px 0;
+	}
+
+	.info-row {
+		background: #e5e5e5;
+		display: flex;
+		align-items: center;
+		margin: 0 -15px 25px;
+		padding: 5px 15px 7px;
+		font-size: 14px;
+		line-height: 18px;
+		color: rgba(#000, 0.5);
+
+		dl {
+			&:first-child {
+				flex: auto;
+			}
+
+			dt, dd {
+				display: inline-block;
+			}
+
+			dd {
+				font-weight: bold;
+			}
+
+			.lnk-question {
+				margin-left: 5px;
+			}
+		}
+	}
+}
+.more-drop-list-wrap {
+	padding: 0 0 20px;
 }
 
+.payment-total-price {
+	display: flex;
+	font-size: 18px;
+	line-height: 50px;
+	align-items: baseline;
+	margin: 0 0 25px;
 
+	&-ttl {
+		flex: auto;
+	}
+
+	&-val {
+		font-weight: bold;
+		color: $secondTextColor;
+		font-size: 50px;
+	}
+}
+
+.payment-order-info {
+	display: flex;
+	align-items: center;
+	margin: 0 -20px;
+
+	.col-wrap {
+		flex: auto;
+		display: flex;
+	}
+
+	.col {
+		padding: 5px 20px;
+		font-size: 16px;
+		line-height: 19px;
+		color: #000;
+		
+		.col-ttl {
+			display: block;
+			color: $secondTextColor;
+			font-size: 14px;
+			font-weight: bold;
+			padding-bottom: 3px;
+		}
+
+		.col-text {
+			display: block;
+		}
+
+		&.col-bd-l {
+			border-left: 1px solid #e5e5e5;
+		}
+	}
+}
+
+.payment-confirm-btns {
+	display: flex;
+	margin: 0 -10px 20px;
+
+	.btn {
+		flex: auto;
+		margin: 0 10px;
+	}
+}
+
+.data-info-list {
+	font-size: 14px;
+	line-height: 20px;
+
+	&-row {
+		display: flex;
+		padding: 5px 0;
+	}
+
+	&-ttl {
+		flex: auto;
+
+	}
+
+	&-val {
+		display: inline-block;
+		padding: 0 0 0 20px;
+		font-weight: bold;
+		color: $secondTextColor;
+
+		&.val-fz-lg {
+			font-size: 20px;
+		}
+	}
+}
 
 .recommendation-message {
 	height: 220px;
@@ -3939,7 +4070,7 @@ input.daterange-input {
 .lnk-question {
 	font-size: 18px;
 	line-height: 21px;
-	color: #e1e1e1;
+	color: rgba(#919191, .3);
 
 	&:hover {
 		text-decoration: none;
@@ -4030,7 +4161,7 @@ input.daterange-input {
 }
 .cardholder {
 	height: 272px;
-	background: url('../public/images/bg-payment-card.jpg') 0 0 no-repeat / cover;
+	background: url('../images/bg-payment-card.jpg') 0 0 no-repeat / cover;
 	border: 2px solid #a1a1a1;
 	border-radius: 10px;
 	padding: 35px;
@@ -4963,6 +5094,14 @@ input.daterange-input {
 		text-align: right;
 		padding: 15px 0 0;
 	}
+
+	a {
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }
 .info-desc-wrap {
 	text-align: right;
@@ -5601,7 +5740,7 @@ input.daterange-input {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #fff url("../public/images/loading.gif") no-repeat center center;
+	background: #fff url("../images/loading.gif") no-repeat center center;
 	opacity: .75;
 	filter: alpha(opacity=75);
 	z-index: 20140628;

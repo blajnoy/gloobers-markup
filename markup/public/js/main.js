@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.test').on('click', function(e) {
+    /*$('.test').on('click', function(e) {
         e.preventDefault();
 
         $.ajax('/test', {
@@ -9,11 +9,16 @@ $(document).ready(function () {
             }
         });
 
+    });*/
+
+    $("#payment-aside").sticky({
+        topSpacing: 25,
+        bottomSpacing: $('.footer').outerHeight() + 30
     });
 
 
     /* start statistics chart */
-    ;(function () {
+    (function () {
         if($('#chart').length != 0) {
             var ctx = document.getElementById("chart").getContext("2d");
 
