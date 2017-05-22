@@ -27,7 +27,6 @@ $sassy-disabled-color: #eee !default;
 	@include sassy-text;
 	display: block;
 	overflow: auto;
-	min-height: 100px;
 }
 
 @mixin sassy-button {

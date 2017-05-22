@@ -52,7 +52,7 @@ table {
   src: url("../fonts/icons/gloobers-icons.eot?#iefix") format("eot"), url("../fonts/icons/gloobers-icons.woff2") format("woff2"), url("../fonts/icons/gloobers-icons.woff") format("woff"), url("../fonts/icons/gloobers-icons.ttf") format("truetype"), url("../fonts/icons/gloobers-icons.svg#gloobers-icons") format("svg");
 }
 
-.gl-ico, .slick-slider .slick-arrow, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+.gl-ico, .slick-slider .slick-arrow, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .intl-tel-input .selected-flag .iti-arrow {
   font-family: "gloobers-icons";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -86,7 +86,7 @@ table {
   content: "\E005";
 }
 
-.gl-ico-arrow-down:before, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b:before {
+.gl-ico-arrow-down:before, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b:before, .intl-tel-input .selected-flag .iti-arrow:before {
   content: "\E006";
 }
 
@@ -566,7 +566,8 @@ input[type=text],
 input[type=url],
 input[type=email],
 input[type=password],
-input[type=number] {
+input[type=number],
+input[type=tel] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 42px;
@@ -587,7 +588,8 @@ input[type=text]:disabled,
 input[type=url]:disabled,
 input[type=email]:disabled,
 input[type=password]:disabled,
-input[type=number]:disabled {
+input[type=number]:disabled,
+input[type=tel]:disabled {
   background-color: #eee;
   cursor: not-allowed;
 }
@@ -597,7 +599,8 @@ input[type=text]::-webkit-input-placeholder,
 input[type=url]::-webkit-input-placeholder,
 input[type=email]::-webkit-input-placeholder,
 input[type=password]::-webkit-input-placeholder,
-input[type=number]::-webkit-input-placeholder {
+input[type=number]::-webkit-input-placeholder,
+input[type=tel]::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   font-style: italic;
 }
@@ -607,7 +610,8 @@ input[type=text]:-moz-placeholder,
 input[type=url]:-moz-placeholder,
 input[type=email]:-moz-placeholder,
 input[type=password]:-moz-placeholder,
-input[type=number]:-moz-placeholder {
+input[type=number]:-moz-placeholder,
+input[type=tel]:-moz-placeholder {
   color: rgba(0, 0, 0, 0.5);
   font-style: italic;
 }
@@ -617,7 +621,8 @@ input[type=text]::-moz-placeholder,
 input[type=url]::-moz-placeholder,
 input[type=email]::-moz-placeholder,
 input[type=password]::-moz-placeholder,
-input[type=number]::-moz-placeholder {
+input[type=number]::-moz-placeholder,
+input[type=tel]::-moz-placeholder {
   color: rgba(0, 0, 0, 0.5);
   font-style: italic;
 }
@@ -627,9 +632,20 @@ input[type=text]:-ms-input-placeholder,
 input[type=url]:-ms-input-placeholder,
 input[type=email]:-ms-input-placeholder,
 input[type=password]:-ms-input-placeholder,
-input[type=number]:-ms-input-placeholder {
+input[type=number]:-ms-input-placeholder,
+input[type=tel]:-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   font-style: italic;
+}
+
+.form-control.error,
+input[type=text].error,
+input[type=url].error,
+input[type=email].error,
+input[type=password].error,
+input[type=number].error,
+input[type=tel].error {
+  border-color: red;
 }
 
 .form-control,
@@ -649,7 +665,6 @@ textarea {
   border: 2px solid #a1a1a1;
   display: block;
   overflow: auto;
-  min-height: 100px;
 }
 
 .form-control:disabled,
@@ -1304,7 +1319,7 @@ fieldset[disabled] .btn {
   cursor: default;
   color: #c9c9c9;
   border-color: #c9c9c9;
-  pointer-events: auto !important;
+  /*pointer-events: auto !important;*/
 }
 
 .btn-sm {
@@ -1312,14 +1327,14 @@ fieldset[disabled] .btn {
   padding: 6px 10px 5px;
 }
 
-.btn .gl-ico, .btn .slick-slider .slick-arrow, .slick-slider .btn .slick-arrow, .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn b {
+.btn .gl-ico, .btn .slick-slider .slick-arrow, .slick-slider .btn .slick-arrow, .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn b, .btn .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .btn .iti-arrow {
   vertical-align: middle;
   font-size: 20px;
   line-height: inherit;
   margin: -1px 5px -1px 0;
 }
 
-.btn .gl-ico-arrow-down, .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn b,
+.btn .gl-ico-arrow-down, .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn b, .btn .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .btn .iti-arrow,
 .btn .gl-ico-arrow-up,
 .btn .gl-ico-arrow-left,
 .btn .gl-ico-arrow-right {
@@ -1577,7 +1592,7 @@ fieldset[disabled] .btn {
   min-width: 90px;
 }
 
-.btn-recommend .gl-ico, .btn-recommend .slick-slider .slick-arrow, .slick-slider .btn-recommend .slick-arrow, .btn-recommend .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn-recommend b {
+.btn-recommend .gl-ico, .btn-recommend .slick-slider .slick-arrow, .slick-slider .btn-recommend .slick-arrow, .btn-recommend .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn-recommend b, .btn-recommend .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .btn-recommend .iti-arrow {
   margin-left: 0;
   margin-right: 0;
 }
@@ -3544,7 +3559,7 @@ fieldset[disabled] .btn {
   transition: all 100ms ease-in;
 }
 
-.nav ul li a .gl-ico, .how-it-works-slider .slider-tabs ul li a .gl-ico, .nav ul li a .slick-slider .slick-arrow, .slick-slider .nav ul li a .slick-arrow, .how-it-works-slider .slider-tabs ul li a .slick-slider .slick-arrow, .slick-slider .how-it-works-slider .slider-tabs ul li a .slick-arrow, .nav ul li a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .nav ul li a b, .how-it-works-slider .slider-tabs ul li a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .how-it-works-slider .slider-tabs ul li a b {
+.nav ul li a .gl-ico, .how-it-works-slider .slider-tabs ul li a .gl-ico, .nav ul li a .slick-slider .slick-arrow, .slick-slider .nav ul li a .slick-arrow, .how-it-works-slider .slider-tabs ul li a .slick-slider .slick-arrow, .slick-slider .how-it-works-slider .slider-tabs ul li a .slick-arrow, .nav ul li a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .nav ul li a b, .how-it-works-slider .slider-tabs ul li a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .how-it-works-slider .slider-tabs ul li a b, .nav ul li a .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .nav ul li a .iti-arrow, .how-it-works-slider .slider-tabs ul li a .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .how-it-works-slider .slider-tabs ul li a .iti-arrow {
   vertical-align: middle;
   margin: 0 0 0 5px;
 }
@@ -3620,7 +3635,7 @@ fieldset[disabled] .btn {
   transition: all 100ms ease-in;
 }
 
-.object-type > a .gl-ico, .object-type > a .slick-slider .slick-arrow, .slick-slider .object-type > a .slick-arrow, .object-type > a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .object-type > a b {
+.object-type > a .gl-ico, .object-type > a .slick-slider .slick-arrow, .slick-slider .object-type > a .slick-arrow, .object-type > a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .object-type > a b, .object-type > a .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .object-type > a .iti-arrow {
   vertical-align: middle;
   margin: 0 0 0 5px;
 }
@@ -3664,7 +3679,7 @@ fieldset[disabled] .btn {
   transition: all 100ms ease-in;
 }
 
-.back-header-lnk > a .gl-ico, .back-header-lnk > a .slick-slider .slick-arrow, .slick-slider .back-header-lnk > a .slick-arrow, .back-header-lnk > a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .back-header-lnk > a b {
+.back-header-lnk > a .gl-ico, .back-header-lnk > a .slick-slider .slick-arrow, .slick-slider .back-header-lnk > a .slick-arrow, .back-header-lnk > a .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .back-header-lnk > a b, .back-header-lnk > a .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .back-header-lnk > a .iti-arrow {
   vertical-align: middle;
   margin: -2px 5px 0 0;
 }
@@ -3921,7 +3936,7 @@ input.daterange-input {
   color: #1e97d8;
 }
 
-.operation-btns .gl-ico, .operation-btns .slick-slider .slick-arrow, .slick-slider .operation-btns .slick-arrow, .operation-btns .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .operation-btns b {
+.operation-btns .gl-ico, .operation-btns .slick-slider .slick-arrow, .slick-slider .operation-btns .slick-arrow, .operation-btns .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .operation-btns b, .operation-btns .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .operation-btns .iti-arrow {
   vertical-align: middle;
 }
 
@@ -3984,7 +3999,7 @@ input.daterange-input {
   display: inline-block;
 }
 
-.person-num .gl-ico, .person-num .slick-slider .slick-arrow, .slick-slider .person-num .slick-arrow, .person-num .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .person-num b {
+.person-num .gl-ico, .person-num .slick-slider .slick-arrow, .slick-slider .person-num .slick-arrow, .person-num .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .person-num b, .person-num .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .person-num .iti-arrow {
   vertical-align: middle;
   margin-top: -1px;
 }
@@ -4994,12 +5009,14 @@ input.daterange-input {
   transform: translateY(0);
 }
 
-.main-slider .btn-prev .gl-ico, .main-slider .btn-prev .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev .slick-arrow, .main-slider .btn-prev .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .main-slider .btn-prev b,
+.main-slider .btn-prev .gl-ico, .main-slider .btn-prev .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev .slick-arrow, .main-slider .btn-prev .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .main-slider .btn-prev b, .main-slider .btn-prev .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .main-slider .btn-prev .iti-arrow,
 .main-slider .btn-next .gl-ico,
 .main-slider .btn-next .slick-slider .slick-arrow, .slick-slider
 .main-slider .btn-next .slick-arrow,
 .main-slider .btn-next .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
-.main-slider .btn-next b {
+.main-slider .btn-next b,
+.main-slider .btn-next .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
+.main-slider .btn-next .iti-arrow {
   text-indent: 0;
   position: absolute;
   top: 50%;
@@ -5011,12 +5028,14 @@ input.daterange-input {
   transform: translateY(-50%) scale(1);
 }
 
-.main-slider .btn-prev:hover .gl-ico, .main-slider .btn-prev:hover .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev:hover .slick-arrow, .main-slider .btn-prev:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .main-slider .btn-prev:hover b,
+.main-slider .btn-prev:hover .gl-ico, .main-slider .btn-prev:hover .slick-slider .slick-arrow, .slick-slider .main-slider .btn-prev:hover .slick-arrow, .main-slider .btn-prev:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .main-slider .btn-prev:hover b, .main-slider .btn-prev:hover .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .main-slider .btn-prev:hover .iti-arrow,
 .main-slider .btn-next:hover .gl-ico,
 .main-slider .btn-next:hover .slick-slider .slick-arrow, .slick-slider
 .main-slider .btn-next:hover .slick-arrow,
 .main-slider .btn-next:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
-.main-slider .btn-next:hover b {
+.main-slider .btn-next:hover b,
+.main-slider .btn-next:hover .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
+.main-slider .btn-next:hover .iti-arrow {
   -webkit-transform: translateY(-50%) scale(1.5);
   -ms-transform: translateY(-50%) scale(1.5);
   transform: translateY(-50%) scale(1.5);
@@ -5027,7 +5046,7 @@ input.daterange-input {
   right: 0;
 }
 
-.main-slider .btn-next .gl-ico, .main-slider .btn-next .slick-slider .slick-arrow, .slick-slider .main-slider .btn-next .slick-arrow, .main-slider .btn-next .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .main-slider .btn-next b {
+.main-slider .btn-next .gl-ico, .main-slider .btn-next .slick-slider .slick-arrow, .slick-slider .main-slider .btn-next .slick-arrow, .main-slider .btn-next .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .main-slider .btn-next b, .main-slider .btn-next .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .main-slider .btn-next .iti-arrow {
   left: auto;
   right: 40px;
 }
@@ -5054,7 +5073,7 @@ input.daterange-input {
   position: relative;
 }
 
-.show-more-row .lnk-expand .gl-ico, .show-more-row .lnk-expand .slick-slider .slick-arrow, .slick-slider .show-more-row .lnk-expand .slick-arrow, .show-more-row .lnk-expand .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .show-more-row .lnk-expand b {
+.show-more-row .lnk-expand .gl-ico, .show-more-row .lnk-expand .slick-slider .slick-arrow, .slick-slider .show-more-row .lnk-expand .slick-arrow, .show-more-row .lnk-expand .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .show-more-row .lnk-expand b, .show-more-row .lnk-expand .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .show-more-row .lnk-expand .iti-arrow {
   color: #000;
   position: absolute;
   top: 50%;
@@ -5064,7 +5083,7 @@ input.daterange-input {
   transform: translateY(-50%) rotate(180deg);
 }
 
-.show-more-row .lnk-expand.collapsed .gl-ico, .show-more-row .lnk-expand.collapsed .slick-slider .slick-arrow, .slick-slider .show-more-row .lnk-expand.collapsed .slick-arrow, .show-more-row .lnk-expand.collapsed .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .show-more-row .lnk-expand.collapsed b {
+.show-more-row .lnk-expand.collapsed .gl-ico, .show-more-row .lnk-expand.collapsed .slick-slider .slick-arrow, .slick-slider .show-more-row .lnk-expand.collapsed .slick-arrow, .show-more-row .lnk-expand.collapsed .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .show-more-row .lnk-expand.collapsed b, .show-more-row .lnk-expand.collapsed .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .show-more-row .lnk-expand.collapsed .iti-arrow {
   -webkit-transform: translateY(-50%) rotate(0deg);
   -ms-transform: translateY(-50%) rotate(0deg);
   transform: translateY(-50%) rotate(0deg);
@@ -5311,7 +5330,7 @@ input.daterange-input {
   color: greenyellow;
 }
 
-.tags-wrap .tags-list .tag .gl-ico, .tags-wrap .tags-list .tag .slick-slider .slick-arrow, .slick-slider .tags-wrap .tags-list .tag .slick-arrow, .tags-wrap .tags-list .tag .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .tags-wrap .tags-list .tag b {
+.tags-wrap .tags-list .tag .gl-ico, .tags-wrap .tags-list .tag .slick-slider .slick-arrow, .slick-slider .tags-wrap .tags-list .tag .slick-arrow, .tags-wrap .tags-list .tag .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .tags-wrap .tags-list .tag b, .tags-wrap .tags-list .tag .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .tags-wrap .tags-list .tag .iti-arrow {
   margin: 0 7px 0 0;
 }
 
@@ -5564,7 +5583,7 @@ input.daterange-input {
   color: #1e97d8;
 }
 
-.passions-list .item.btn .passion-label .gl-ico, .passions-list .item.btn .passion-label .slick-slider .slick-arrow, .slick-slider .passions-list .item.btn .passion-label .slick-arrow, .passions-list .item.btn .passion-label .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .passions-list .item.btn .passion-label b {
+.passions-list .item.btn .passion-label .gl-ico, .passions-list .item.btn .passion-label .slick-slider .slick-arrow, .slick-slider .passions-list .item.btn .passion-label .slick-arrow, .passions-list .item.btn .passion-label .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .passions-list .item.btn .passion-label b, .passions-list .item.btn .passion-label .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .passions-list .item.btn .passion-label .iti-arrow {
   line-height: inherit;
 }
 
@@ -5705,7 +5724,7 @@ input.daterange-input {
   margin: -3px 6px 0 0;
 }
 
-.btn .gl-ico-arrow-down, .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn b {
+.btn .gl-ico-arrow-down, .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .btn b, .btn .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .btn .iti-arrow {
   margin: -2px 0 0 5px;
 }
 
@@ -6265,7 +6284,7 @@ input.daterange-input {
   background: none;
 }
 
-.pagination li .gl-ico, .pagination li .slick-slider .slick-arrow, .slick-slider .pagination li .slick-arrow, .pagination li .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .pagination li b {
+.pagination li .gl-ico, .pagination li .slick-slider .slick-arrow, .slick-slider .pagination li .slick-arrow, .pagination li .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .pagination li b, .pagination li .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .pagination li .iti-arrow {
   vertical-align: middle;
   margin: -1px 0 0;
 }
@@ -7751,6 +7770,23 @@ input.daterange-input {
   border-top: 1px solid #e1e1e1;
 }
 
+.payment-form-wrap .payment-block:first-child {
+  padding-top: 30px;
+  border-top: 1px solid #e1e1e1;
+}
+
+.payment-form-wrap {
+  display: none;
+}
+
+.adding-billing-address .payment-form-wrap {
+  display: block;
+}
+
+.adding-billing-address #billingAddressesWrap {
+  display: none;
+}
+
 .payment-ttl {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7912,6 +7948,63 @@ input.daterange-input {
   font-weight: bold;
   color: #501e00;
   font-size: 50px;
+  font-family: 'PT Sans';
+}
+
+.input-tc {
+  min-height: 42px;
+  font: 16px 'Open Sans', sans-serif;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid #a1a1a1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.input-tc .input-tc-ttl {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.input-tc .input-tc-val-wrap {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: -2px;
+}
+
+.input-tc .input-tc-val-wrap .input-tc-val {
+  background: #fff;
+  -webkit-border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
+  text-align: center;
+  padding: 0;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.input-tc .input-tc-val-wrap .input-tc-val:active, .input-tc .input-tc-val-wrap .input-tc-val:focus {
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.28), 0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.28), 0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+}
+
+.input-tc:hover .input-tc-val-wrap .input-tc-val {
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.28), 0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.28), 0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
 }
 
 .payment-order-info {
@@ -7965,6 +8058,9 @@ input.daterange-input {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0 -10px 20px;
 }
 
@@ -7979,6 +8075,10 @@ input.daterange-input {
 .data-info-list {
   font-size: 14px;
   line-height: 20px;
+}
+
+.data-info-list.available-ttl {
+  margin: 0 0 10px;
 }
 
 .data-info-list-row {
@@ -8007,11 +8107,89 @@ input.daterange-input {
   font-size: 20px;
 }
 
+.data-info-list-val.price-paid-tc {
+  color: #1e97d8;
+}
+
+.pay-gloobies {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -24px;
+}
+
+.pay-gloobies-aside {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 295px;
+  -ms-flex: 0 0 295px;
+  flex: 0 0 295px;
+  background: url(../images/bg-checkout-pay-tc.jpg) 0 0 no-repeat/cover;
+  padding: 55px 40px 40px;
+  -webkit-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.pay-gloobies-aside h4 {
+  font-size: 22px;
+  line-height: 25px;
+  margin: 0 0 10px;
+}
+
+.pay-gloobies-aside p {
+  margin: 0 0 10px;
+}
+
+.pay-gloobies-aside-ttl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0 0 15px;
+}
+
+.pay-gloobies-aside-ttl strong {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  font-weight: bold;
+  color: #501e00;
+  font-family: 'Open Sans';
+}
+
+.pay-gloobies-area {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 40px;
+}
+
+.pay-gloobies-area .pay-gloobies-block {
+  border: 1px solid #e5e5e5;
+  border-width: 1px 0;
+  padding: 10px 0;
+  margin: 0 0 30px;
+}
+
+.pay-gloobies-area .payment-total-price {
+  margin: 0 0 37px;
+}
+
+.input-tc-val {
+  font-family: 'gloobers-icons';
+}
+
 .recommendation-message {
   height: 220px;
   font-size: 16px;
   line-height: 28px;
-  background: #fff;
 }
 
 .stored-addresses {
@@ -8049,12 +8227,12 @@ input.daterange-input {
 
 .chosen-lb {
   font-size: 12px;
+  color: #1e97d8;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  color: green;
-  -webkit-transition: all .1s ease;
-  transition: all .1s ease;
 }
 
 .chosen-lb .gl-ico-check {
@@ -8083,7 +8261,7 @@ input.daterange-input {
   color: #1e97d8;
 }
 
-.lnk-question .gl-ico, .lnk-question .slick-slider .slick-arrow, .slick-slider .lnk-question .slick-arrow, .lnk-question .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .lnk-question b {
+.lnk-question .gl-ico, .lnk-question .slick-slider .slick-arrow, .slick-slider .lnk-question .slick-arrow, .lnk-question .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .lnk-question b, .lnk-question .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .lnk-question .iti-arrow {
   vertical-align: middle;
 }
 
@@ -8096,7 +8274,7 @@ input.daterange-input {
   text-decoration: none;
 }
 
-.lnk-back .gl-ico, .lnk-back .slick-slider .slick-arrow, .slick-slider .lnk-back .slick-arrow, .lnk-back .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .lnk-back b {
+.lnk-back .gl-ico, .lnk-back .slick-slider .slick-arrow, .slick-slider .lnk-back .slick-arrow, .lnk-back .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .lnk-back b, .lnk-back .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .lnk-back .iti-arrow {
   vertical-align: middle;
 }
 
@@ -8108,12 +8286,16 @@ input.daterange-input {
   margin: 0 -10px;
 }
 
-.form-row .form-row-col {
+.form-row-col {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   padding: 0 10px;
+}
+
+.form-row .intl-tel-input {
+  width: 100%;
 }
 
 .billing-form .form-row:not(:first-child) {
@@ -8348,13 +8530,13 @@ input.daterange-input {
   border-top-color: #501e00;
 }
 
-.custom-marker.advisor-marker .gl-ico, .custom-marker.advisor-marker .slick-slider .slick-arrow, .slick-slider .custom-marker.advisor-marker .slick-arrow, .custom-marker.advisor-marker .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .custom-marker.advisor-marker b {
+.custom-marker.advisor-marker .gl-ico, .custom-marker.advisor-marker .slick-slider .slick-arrow, .slick-slider .custom-marker.advisor-marker .slick-arrow, .custom-marker.advisor-marker .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .custom-marker.advisor-marker b, .custom-marker.advisor-marker .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .custom-marker.advisor-marker .iti-arrow {
   margin: 0 4px 0 0;
   position: relative;
   bottom: -2px;
 }
 
-.custom-marker .gl-ico, .custom-marker .slick-slider .slick-arrow, .slick-slider .custom-marker .slick-arrow, .custom-marker .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .custom-marker b {
+.custom-marker .gl-ico, .custom-marker .slick-slider .slick-arrow, .slick-slider .custom-marker .slick-arrow, .custom-marker .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .custom-marker b, .custom-marker .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .custom-marker .iti-arrow {
   margin: 0 2px;
 }
 
@@ -8408,7 +8590,7 @@ input.daterange-input {
   padding-top: 9px;
 }
 
-.marked-list .gl-ico, .marked-list .slick-slider .slick-arrow, .slick-slider .marked-list .slick-arrow, .marked-list .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .marked-list b {
+.marked-list .gl-ico, .marked-list .slick-slider .slick-arrow, .slick-slider .marked-list .slick-arrow, .marked-list .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .marked-list b, .marked-list .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .marked-list .iti-arrow {
   float: left;
   vertical-align: top;
   font-size: 14px;
@@ -8577,13 +8759,13 @@ input.daterange-input {
   margin: -1px -1px -1px 0;
 }
 
-.room-type-section .room-type-ttl .btn .gl-ico, .room-type-section .room-type-ttl .btn .slick-slider .slick-arrow, .slick-slider .room-type-section .room-type-ttl .btn .slick-arrow, .room-type-section .room-type-ttl .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .room-type-ttl .btn b {
+.room-type-section .room-type-ttl .btn .gl-ico, .room-type-section .room-type-ttl .btn .slick-slider .slick-arrow, .slick-slider .room-type-section .room-type-ttl .btn .slick-arrow, .room-type-section .room-type-ttl .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .room-type-ttl .btn b, .room-type-section .room-type-ttl .btn .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .room-type-section .room-type-ttl .btn .iti-arrow {
   margin: 0;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
 }
 
-.room-type-section .room-type-ttl .btn.collapsed .gl-ico, .room-type-section .room-type-ttl .btn.collapsed .slick-slider .slick-arrow, .slick-slider .room-type-section .room-type-ttl .btn.collapsed .slick-arrow, .room-type-section .room-type-ttl .btn.collapsed .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .room-type-ttl .btn.collapsed b {
+.room-type-section .room-type-ttl .btn.collapsed .gl-ico, .room-type-section .room-type-ttl .btn.collapsed .slick-slider .slick-arrow, .slick-slider .room-type-section .room-type-ttl .btn.collapsed .slick-arrow, .room-type-section .room-type-ttl .btn.collapsed .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .room-type-ttl .btn.collapsed b, .room-type-section .room-type-ttl .btn.collapsed .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .room-type-section .room-type-ttl .btn.collapsed .iti-arrow {
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -8638,7 +8820,7 @@ input.daterange-input {
   clear: both;
 }
 
-.room-type-section .categories-drop .category-name .gl-ico, .room-type-section .categories-drop .category-name .slick-slider .slick-arrow, .slick-slider .room-type-section .categories-drop .category-name .slick-arrow, .room-type-section .categories-drop .category-name .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .categories-drop .category-name b {
+.room-type-section .categories-drop .category-name .gl-ico, .room-type-section .categories-drop .category-name .slick-slider .slick-arrow, .slick-slider .room-type-section .categories-drop .category-name .slick-arrow, .room-type-section .categories-drop .category-name .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .categories-drop .category-name b, .room-type-section .categories-drop .category-name .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .room-type-section .categories-drop .category-name .iti-arrow {
   margin: 0 0 0 -30px;
   float: left;
   font-size: 19px;
@@ -8646,7 +8828,7 @@ input.daterange-input {
   vertical-align: middle;
 }
 
-.room-type-section .categories-drop .category-name .gl-ico.gl-ico-wifi, .room-type-section .categories-drop .category-name .slick-slider .gl-ico-wifi.slick-arrow, .slick-slider .room-type-section .categories-drop .category-name .gl-ico-wifi.slick-arrow, .room-type-section .categories-drop .category-name .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b.gl-ico-wifi, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .categories-drop .category-name b.gl-ico-wifi {
+.room-type-section .categories-drop .category-name .gl-ico.gl-ico-wifi, .room-type-section .categories-drop .category-name .slick-slider .gl-ico-wifi.slick-arrow, .slick-slider .room-type-section .categories-drop .category-name .gl-ico-wifi.slick-arrow, .room-type-section .categories-drop .category-name .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b.gl-ico-wifi, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .room-type-section .categories-drop .category-name b.gl-ico-wifi, .room-type-section .categories-drop .category-name .intl-tel-input .selected-flag .gl-ico-wifi.iti-arrow, .intl-tel-input .selected-flag .room-type-section .categories-drop .category-name .gl-ico-wifi.iti-arrow {
   font-size: 16px;
 }
 
@@ -9437,7 +9619,7 @@ input.daterange-input {
   text-decoration: none;
 }
 
-.change-picture .gl-ico, .change-picture .slick-slider .slick-arrow, .slick-slider .change-picture .slick-arrow, .change-picture .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .change-picture b {
+.change-picture .gl-ico, .change-picture .slick-slider .slick-arrow, .slick-slider .change-picture .slick-arrow, .change-picture .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .change-picture b, .change-picture .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .change-picture .iti-arrow {
   display: block;
   font-size: 40px;
   margin: 0 0 10px;
@@ -9798,7 +9980,7 @@ input.daterange-input {
   z-index: 1;
 }
 
-.map-types .marker:hover .marker-ico .gl-ico, .map-types .marker:hover .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker:hover .marker-ico .slick-arrow, .map-types .marker:hover .marker-ico .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .map-types .marker:hover .marker-ico b {
+.map-types .marker:hover .marker-ico .gl-ico, .map-types .marker:hover .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker:hover .marker-ico .slick-arrow, .map-types .marker:hover .marker-ico .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .map-types .marker:hover .marker-ico b, .map-types .marker:hover .marker-ico .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .map-types .marker:hover .marker-ico .iti-arrow {
   color: #fff;
 }
 
@@ -9825,7 +10007,7 @@ input.daterange-input {
   color: inherit;
 }
 
-.map-types .marker .marker-ico .gl-ico, .map-types .marker .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker .marker-ico .slick-arrow, .map-types .marker .marker-ico .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .map-types .marker .marker-ico b {
+.map-types .marker .marker-ico .gl-ico, .map-types .marker .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker .marker-ico .slick-arrow, .map-types .marker .marker-ico .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .map-types .marker .marker-ico b, .map-types .marker .marker-ico .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .map-types .marker .marker-ico .iti-arrow {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -9860,7 +10042,7 @@ input.daterange-input {
   z-index: 1;
 }
 
-.map-types .marker input[type=radio]:checked ~ .marker-ico .gl-ico, .map-types .marker input[type=radio]:checked ~ .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker input[type=radio]:checked ~ .marker-ico .slick-arrow, .map-types .marker input[type=radio]:checked ~ .marker-ico .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .map-types .marker input[type=radio]:checked ~ .marker-ico b {
+.map-types .marker input[type=radio]:checked ~ .marker-ico .gl-ico, .map-types .marker input[type=radio]:checked ~ .marker-ico .slick-slider .slick-arrow, .slick-slider .map-types .marker input[type=radio]:checked ~ .marker-ico .slick-arrow, .map-types .marker input[type=radio]:checked ~ .marker-ico .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .map-types .marker input[type=radio]:checked ~ .marker-ico b, .map-types .marker input[type=radio]:checked ~ .marker-ico .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .map-types .marker input[type=radio]:checked ~ .marker-ico .iti-arrow {
   color: #501e00;
 }
 
@@ -10162,17 +10344,36 @@ input.daterange-input {
 
 .select2-container--bootstrap .select2-dropdown {
   background: #fff;
-  margin-top: -2px;
   border-width: 0 2px 2px 2px;
   -webkit-border-bottom-left-radius: 10px;
   border-bottom-left-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
   border-bottom-right-radius: 10px;
   font-size: 16px;
+  margin-top: -2px;
+}
+
+.select2-container--bootstrap .select2-dropdown.select2-dropdown--above {
+  border-width: 2px 2px 0 2px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-top: 2px;
 }
 
 .select2-container--bootstrap .select2-results__option {
   padding: 6px 15px;
+}
+
+.select2-container--bootstrap.select2-container--focus .select2-selection,
+.select2-container--bootstrap.select2-container--open .select2-selection {
+  -webkit-box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
 }
 
 .fc-toolbar h2 {
@@ -10212,4 +10413,44 @@ input.daterange-input {
 .select2-container--bootstrap.select2-container--open .select2-selection .select2-selection__arrow b {
   -webkit-transform: translate(-50%, -50%) rotate3d(1, 0, 0, 180deg);
   transform: translate(-50%, -50%) rotate3d(1, 0, 0, 180deg);
+}
+
+/* intl-tel-input customization */
+.intl-tel-input.allow-dropdown .selected-flag,
+.intl-tel-input.separate-dial-code .selected-flag {
+  width: 55px;
+}
+
+.intl-tel-input .selected-flag .iti-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: 0;
+  right: 6px;
+  width: auto;
+  height: auto;
+  border: 0 !important;
+  color: #555;
+  font-size: 14px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.intl-tel-input .selected-flag .iti-arrow.up {
+  -webkit-transform: translateY(-50%) rotate3d(1, 0, 0, 180deg);
+  transform: translateY(-50%) rotate3d(1, 0, 0, 180deg);
+}
+
+.intl-tel-input.allow-dropdown input,
+.intl-tel-input.allow-dropdown input[type=text],
+.intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input,
+.intl-tel-input.separate-dial-code input[type=text],
+.intl-tel-input.separate-dial-code input[type=tel] {
+  padding-left: 60px;
+}
+
+.intl-tel-input .country-list {
+  font-size: 13px;
 }

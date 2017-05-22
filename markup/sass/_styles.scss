@@ -3841,6 +3841,29 @@ input.daterange-input {
 		padding-top: 30px;
 		border-top: 1px solid #e1e1e1;
 	}
+
+	.payment-form-wrap & {
+
+		&:first-child {
+			padding-top: 30px;
+			border-top: 1px solid #e1e1e1;
+		}
+	}
+}
+
+.payment-form-wrap {
+	display: none;
+}
+
+.adding-billing-address {
+
+	.payment-form-wrap {
+		display: block;
+	}
+
+	#billingAddressesWrap {
+		display: none;
+	}
 }
 
 .payment-ttl {
@@ -3959,7 +3982,56 @@ input.daterange-input {
 		font-weight: bold;
 		color: $secondTextColor;
 		font-size: 50px;
+		font-family: 'PT Sans';
 	}
+}
+
+.input-tc {
+	min-height: 42px;
+	font: 16px 'Open Sans', sans-serif;
+	border-radius: 10px;
+	background: none;
+	border: 2px solid #a1a1a1;
+	display: flex;
+	align-items: center;
+
+	.input-tc-ttl {
+		flex: 1;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.input-tc-val-wrap {
+		flex: 1;
+		margin: -2px;
+
+		.input-tc-val {
+			background: #fff;
+			border-radius: 0 10px 10px 0;
+			text-align: center;
+			padding: 0;
+			font-size: 16px;
+			color: rgba(#000, .5);
+
+			&:active,
+			&:focus {
+				box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.28),0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+				color: #000;
+			}
+		}
+	}
+
+	&:hover {
+		.input-tc-val-wrap {
+
+			.input-tc-val {
+				box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.28),0px 10px 15px 0px rgba(0, 0, 0, 0.25);
+				color: #000;
+			}
+		}
+	}
+
+
 }
 
 .payment-order-info {
@@ -3998,6 +4070,7 @@ input.daterange-input {
 
 .payment-confirm-btns {
 	display: flex;
+	flex-wrap: wrap;
 	margin: 0 -10px 20px;
 
 	.btn {
@@ -4009,6 +4082,10 @@ input.daterange-input {
 .data-info-list {
 	font-size: 14px;
 	line-height: 20px;
+
+	&.available-ttl {
+		margin: 0 0 10px;
+	}
 
 	&-row {
 		display: flex;
@@ -4029,14 +4106,76 @@ input.daterange-input {
 		&.val-fz-lg {
 			font-size: 20px;
 		}
+
+		&.price-paid-tc {
+			color: #1e97d8;
+		}
 	}
+}
+
+.pay-gloobies {
+	display: flex;
+	margin: -24px;
+
+	&-aside {
+		flex: 0 0 295px;
+		background: url(../images/bg-checkout-pay-tc.jpg) 0 0 no-repeat / cover;
+		padding: 55px 40px 40px;
+		border-radius: 10px 0 0 10px;
+		font-size: 14px;
+		line-height: 20px;
+		color: rgba(#000, .5);
+
+		h4 {
+			font-size: 22px;
+			line-height: 25px;
+			margin: 0 0 10px;
+		}
+
+		p {
+			margin: 0 0 10px;
+		}
+
+		&-ttl {
+			display: flex;
+			font-size: 18px;
+			line-height: 21px;
+			padding: 0 0 15px;
+
+			strong {
+				flex: auto;
+				font-weight: bold;
+				color: $secondTextColor;
+				font-family: 'Open Sans';
+			}
+
+		}
+	}
+
+	&-area {
+		flex: 1;
+		padding: 40px;
+
+		.pay-gloobies-block {
+			border: 1px solid #e5e5e5;
+			border-width: 1px 0;
+			padding: 10px 0;
+			margin: 0 0 30px;
+		}
+
+		.payment-total-price {
+			margin: 0 0 37px;
+		}
+	}
+}
+.input-tc-val {
+	font-family: 'gloobers-icons';
 }
 
 .recommendation-message {
 	height: 220px;
 	font-size: 16px;
 	line-height: 28px;
-	background: #fff;
 }
 
 .stored-addresses {
@@ -4066,10 +4205,9 @@ input.daterange-input {
 
 .chosen-lb {
 	font-size: 12px;
-
-	transform: scale(0);
-	color: green;
+	color: #1e97d8;
 	transition: all .1s ease;
+	transform: scale(0);
 
 	.gl-ico-check {
 		font-size: 14px;
@@ -4080,7 +4218,6 @@ input.daterange-input {
 		transform: scale(1);
 	}
 }
-
 
 .fill-color-white {
 	background: #fff;
@@ -4118,9 +4255,13 @@ input.daterange-input {
 	display: flex;
 	margin: 0 -10px;
 
-	.form-row-col {
+	&-col {
 		flex: 1;
 		padding: 0 10px;
+	}
+
+	.intl-tel-input {
+		width: 100%;
 	}
 }
 
@@ -4216,7 +4357,6 @@ input.daterange-input {
 			flex: 0 0 100px;
 		}
 	}
-
 }
 
 
@@ -5899,15 +6039,30 @@ input.daterange-input {
 
 	.select2-dropdown {
 		background: #fff;
-		margin-top: -2px;
 		border-width: 0 2px 2px 2px;
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 10px;
 		font-size: 16px;
+		margin-top: -2px;
+
+		&.select2-dropdown--above {
+			border-width: 2px 2px 0 2px;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+			margin-top: 2px;
+		}
 	}
 
 	.select2-results__option {
 		padding: 6px 15px;
+	}
+}
+.select2-selection {
+	.select2-container--bootstrap.select2-container--focus &,
+	.select2-container--bootstrap.select2-container--open & {
+		box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
 	}
 }
 
@@ -5949,6 +6104,56 @@ input.daterange-input {
 	transition: all 0.2s ease-out;
 }
 .select2-container--bootstrap.select2-container--open .select2-selection .select2-selection__arrow b {
-	//@extend .gl-ico-arrow-up;
 	transform: translate(-50%, -50%) rotate3d(1,0,0,180deg);
 }
+
+
+/* intl-tel-input customization */
+
+.intl-tel-input {
+
+	&.allow-dropdown .selected-flag,
+	&.separate-dial-code .selected-flag {
+		width: 55px;
+	}
+
+	.selected-flag {
+
+		.iti-arrow {
+			position: absolute;
+			top: 50%;
+			margin-top: 0;
+			right: 6px;
+			width: auto;
+			height: auto;
+			border: 0 !important;
+			color: #555;
+			font-size: 14px;
+
+			transform: translateY(-50%);
+			transition: all 0.2s ease-out;
+
+			@extend .gl-ico;
+			@extend .gl-ico-arrow-down;
+
+			&.up {
+				transform: translateY(-50%) rotate3d(1,0,0,180deg);
+			}
+		}
+	}
+
+	&.allow-dropdown,
+	&.separate-dial-code{
+		input,
+		input[type=text],
+		input[type=tel] {
+			padding-left: 60px;
+		}
+	}
+
+	.country-list {
+		font-size: 13px;
+	}
+}
+
+

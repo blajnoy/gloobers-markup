@@ -21,6 +21,7 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.css" rel="stylesheet" />
 
+	<link href="css/intlTelInput.css" rel="stylesheet">
 
 	<link href="css/all.css" rel="stylesheet">
 </head>
@@ -48,7 +49,7 @@
 		<main class="main">
 			<div class="payment-area">
 				<div class="container">
-					<div class="col-xs-7">
+					<div class="payment-edit-holder col-xs-7">
 						<div class="payment-block">
 							<h2>Payment</h2>
 							<p class="sub-ttl">Even If You Can Pay The Entire Reservation Amount With Your Credits, <br>We Will Need To Verify You Credit Card For The Deposit Amount.</p>
@@ -107,7 +108,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="payment-block">
+						<div id="billingAddressesWrap" class="payment-block">
 							<div class="payment-ttl">
 								<h2>Choose billing address or create a new</h2>
 								<a class="lnk-question" href="#"><i class="gl-ico gl-ico-question-mark"></i></a>
@@ -125,83 +126,88 @@
 									<a href="#" class="remove-btn"><i class="gl-ico gl-ico-cart-delete"></i></a>
 								</div>
 							</div>
-							<a href="#" class="btn btn-more fill-width fill-color-white"><i class="gl-ico gl-ico-plus-rounded"></i>Add new billing address</a>
+							<a id="addBillingAddress" href="#" class="btn btn-more fill-width"><i class="gl-ico gl-ico-plus-rounded"></i>Add new billing address</a>
 						</div>
-						<div class="payment-block">
-							<div class="payment-ttl">
-								<h2>Billing address</h2>
-								<a class="lnk-back" href="#"><i class="gl-ico gl-ico-arrow-back"></i></a>
+						<div class="payment-form-wrap">
+							<div class="payment-block">
+								<div class="payment-ttl">
+									<h2>Billing address</h2>
+									<a id="backToAddressesList" class="lnk-back" href="#"><i class="gl-ico gl-ico-arrow-back"></i></a>
+								</div>
+								<div class="billing-form">
+									<div class="form-row">
+										<div class="form-row-col">
+											<label for="">First name</label>
+											<input type="text" class="form-control" placeholder="Example text">
+										</div>
+										<div class="form-row-col">
+											<label for="">Last name</label>
+											<input type="text" class="form-control" placeholder="Example text">
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-row-col">
+											<label for="">E-mail</label>
+											<input type="text" class="form-control" placeholder="Example text">
+										</div>
+										<div class="form-row-col">
+											<label for="">Phone number</label>
+											<input id="phone" type="tel" class="form-control" placeholder="00-000-00-00">
+											<!--validation notifications-->
+											<!--<span id="valid-msg" class="hide">✓ Valid</span>
+											<span id="error-msg" class="hide">Invalid number</span>-->
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-row-col">
+											<label for="">Address</label>
+											<input type="text" class="form-control" placeholder="Default type">
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-row-col">
+											<label for="">City</label>
+											<select name="" id="" class="sel">
+												<option value="">Example text</option>
+												<option value="">Example text</option>
+											</select>
+										</div>
+										<div class="form-row-col">
+											<label for="">ZIP code</label>
+											<input type="text" class="form-control" placeholder="Example text">
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-row-col">
+											<label for="">State</label>
+											<select name="" id="" class="sel">
+												<option value="">Example text</option>
+												<option value="">Example text</option>
+											</select>
+										</div>
+										<div class="form-row-col">
+											<label for="">Country</label>
+											<select name="" id="" class="sel">
+												<option value="">Example text</option>
+												<option value="">Example text</option>
+											</select>
+										</div>
+									</div>
+									<div class="check-row">
+										<div class="checkbox checkbox-inline">
+											<input id="chk01" type="checkbox" checked="checked" name="conditions">
+											<label for="chk01">Remember my billing adres settings</label>
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="billing-form">
-								<div class="form-row">
-									<div class="form-row-col">
-										<label for="">First name</label>
-										<input type="text" class="form-control" placeholder="Example text">
-									</div>
-									<div class="form-row-col">
-										<label for="">Last name</label>
-										<input type="text" class="form-control" placeholder="Example text">
-									</div>
-								</div>
-								<div class="form-row">
-									<div class="form-row-col">
-										<label for="">E-mail</label>
-										<input type="text" class="form-control" placeholder="Example text">
-									</div>
-									<div class="form-row-col">
-										<label for="">Phone number</label>
-										<input type="text" class="form-control" placeholder="00-000-00-00">
-									</div>
-								</div>
-								<div class="form-row">
-									<div class="form-row-col">
-										<label for="">Address</label>
-										<input type="text" class="form-control" placeholder="Default type">
-									</div>
-								</div>
-								<div class="form-row">
-									<div class="form-row-col">
-										<label for="">City</label>
-										<select name="" id="" class="sel">
-											<option value="">Example text</option>
-											<option value="">Example text</option>
-										</select>
-									</div>
-									<div class="form-row-col">
-										<label for="">ZIP code</label>
-										<input type="text" class="form-control" placeholder="Example text">
-									</div>
-								</div>
-								<div class="form-row">
-									<div class="form-row-col">
-										<label for="">State</label>
-										<select name="" id="" class="sel">
-											<option value="">Example text</option>
-											<option value="">Example text</option>
-										</select>
-									</div>
-									<div class="form-row-col">
-										<label for="">Country</label>
-										<select name="" id="" class="sel">
-											<option value="">Example text</option>
-											<option value="">Example text</option>
-										</select>
-									</div>
-								</div>
-								<div class="check-row">
-									<div class="checkbox checkbox-inline">
-										<input id="chk01" type="checkbox" checked="checked" name="conditions">
-										<label for="chk01">Remember my billing adres settings</label>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="payment-block">
+							<div class="payment-block">
 							<div class="payment-ttl">
 								<h2>Leave the message</h2>
 							</div>
 							<p class="sub-ttl">Any Other Information You Would Like To Share With The Owner. <br>Special Request Or Information About Your Arrival.</p>
 							<textarea name="" class="recommendation-message" cols="30" rows="10">Write your recommendation here</textarea>
+						</div>
 						</div>
 					</div>
 					<div class="col-xs-5">
@@ -301,8 +307,8 @@
 								<span class="payment-total-price-val">$61.80</span>
 							</div>
 							<div class="payment-confirm-btns">
-								<a href="#" class="btn btn-gray">Modify</a>
-								<a href="#" class="btn btn-primary">Confirm your order</a>
+								<a href="#" class="btn btn-gray disabled">Modify</a>
+								<a href="#" class="btn btn-primary disabled">Confirm your order</a>
 							</div>
 							<p class="info-desc text-center">I agree on Gloobers <a href="#">Terms &amp; Conditions</a></p>
 						</div>
@@ -335,69 +341,54 @@
 	</div>
 
 	<!-- start modal window recommendation -->
-	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-		<div class="modal-dialog modal-custom-lg" role="document">
+	<div class="modal fade" id="payInGloobiesModal" tabindex="-1" role="dialog" aria-labelledby="payInGloobiesModalLabel">
+		<div class="modal-dialog modal-custom-md" role="document">
 			<div class="modal-content">
-				<div class="modal-header">
-					<h4 class="modal-title">Recommend this activity</h4>
-					<strong class="sub-ttl">And get rewarded when other travelers follow your recommendatuion</strong>
-				</div>
-				<div class="modal-body">
-					<div class="edit-recommendation-holder">
-						<div class="column">
-							<textarea class="form-control" id="message-text">Write your recommendation here</textarea>
-						</div>
-						<div class="column">
-							<div class="tags-wrap">
-								<div class="tags-box">
-									<div class="tags-ttl-holder rating-wrap-ttl">
-										<strong class="tags-ttl">Set a rating </strong>
-										<input class="rating" value="3" data-step=1 data-size="lg" data-symbol="&#xE060;" data-glyphicon="false" data-rating-class="rating-gloobers" >
-									</div>
-								</div>
-								<div class="tags-box">
-									<div class="tags-ttl-holder">
-										<strong class="tags-ttl">Recomends this activity for</strong>
-										<i class="ttl-extra-info">Tap to select</i>
-									</div>
-									<div class="tags-list">
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip type 1</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-airplane"></i>Trip 1</a>
-									</div>
-								</div>
-								<div class="tags-box">
-									<div class="tags-ttl-holder">
-										<strong class="tags-ttl">Travelers passionate about</strong>
-										<i class="ttl-extra-info">Tap to select</i>
-									</div>
-									<div class="tags-list">
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla bla</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla bla</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>bla bla</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
-										<a href="#" class="tag btn btn-sm"><i class="gl-ico gl-ico-like"></i>Passion</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="btns-row text-right">
-						<a href="#" class="btn btn-link">Cancel</a>
-						<a href="#" class="btn btn-default">SAVE</a>
-					</div>
-				</div>
+                <div class="pay-gloobies">
+                    <div class="pay-gloobies-aside">
+                        <h4>Pay in Gloobies</h4>
+                        <p>You are about to book this listing. You can use your gloobies to get an exclusive discount. Choose the amount of gloobies you want to use and confirm your reservation. Your credit card details may be needed for deposit purposes.</p>
+                        <div class="data-info-list available-ttl">
+                            <div class="data-info-list-row">
+                                <span class="data-info-list-ttl">Available gloobies:</span>
+                                <strong class="data-info-list-val val-fz-lg">$30</strong>
+                            </div>
+                        </div>
+                        <div class="pay-gloobies-aside-ttl">
+                            <strong>Set travel credits</strong>
+                            <a class="lnk-question" href="#"><i class="gl-ico gl-ico-question-mark"></i></a>
+                        </div>
+                        <div class="input-tc">
+                            <strong class="input-tc-ttl">TC</strong>
+                            <div class="input-tc-val-wrap">
+                                <input class="input-tc-val" type="text" value="0">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pay-gloobies-area">
+                        <h3>Book this listing</h3>
+                        <div class="pay-gloobies-block">
+                            <div class="data-info-list">
+                                <div class="data-info-list-row">
+                                    <span class="data-info-list-ttl">Total:</span>
+                                    <strong class="data-info-list-val val-fz-lg">$30</strong>
+                                </div>
+                                <div class="data-info-list-row">
+                                    <span class="data-info-list-ttl">Paid in Gloobies:</span>
+                                    <strong class="data-info-list-val val-fz-lg price-paid-tc">0</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment-total-price">
+                            <span class="payment-total-price-ttl">Total price</span>
+                            <span class="payment-total-price-val">$30</span>
+                        </div>
+                        <div class="btns-row text-right">
+                            <a href="#" class="btn btn-link">Cancel</a>
+                            <a href="#" class="btn btn-primary">CONFIRM</a>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</div>
 	</div>
@@ -435,6 +426,10 @@
 
 	<script src="js/jquery.sticky.js"></script>
 
+	<script src="js/intlTelInput.min.js"></script>
+
+
+	<script src="js/payment.js"></script>
 	<script src="js/main.js"></script>
 
 	<!--<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>-->

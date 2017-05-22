@@ -40,9 +40,15 @@ input[type=text],
 input[type=url],
 input[type=email],
 input[type=password],
-input[type=number] {
+input[type=number],
+input[type=tel]{
 	@include sassy-text;
+
+	&.error {
+		border-color: red;
+	}
 }
+
 .form-control,
 textarea {
 	@include sassy-textarea;

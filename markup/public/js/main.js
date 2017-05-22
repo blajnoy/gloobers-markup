@@ -7,28 +7,42 @@ $(document).ready(function () {
         return false;
     });
 
+    $('#addBillingAddress').on('click', function () {
+        $('.payment-edit-holder').addClass('adding-billing-address');
+
+        return false;
+    });
+
+    $('#backToAddressesList').on('click', function () {
+        $('.payment-edit-holder').removeClass('adding-billing-address');
+
+        return false;
+    });
+
     /* JSON samples */
     /*$('.test').on('click', function(e) {
-        e.preventDefault();
+     e.preventDefault();
 
-        $.ajax('/test', {
-            method: 'POST',
-            success:  function(res) {
-                alert(res.hi)
-            }
+     $.ajax('/test', {
+     method: 'POST',
+     success:  function(res) {
+     alert(res.hi)
+     }
+     });
+
+     });*/
+
+    if ($("#payment-aside").length != 0) {
+        $("#payment-aside").sticky({
+            topSpacing: 25,
+            bottomSpacing: $('.footer').outerHeight() + 30
         });
-
-    });*/
-
-    $("#payment-aside").sticky({
-        topSpacing: 25,
-        bottomSpacing: $('.footer').outerHeight() + 30
-    });
+    }
 
 
     /* start statistics chart */
     (function () {
-        if($('#chart').length != 0) {
+        if ($('#chart').length != 0) {
             var ctx = document.getElementById("chart").getContext("2d");
 
             /*** Gradient ***/
@@ -38,31 +52,29 @@ $(document).ready(function () {
             /***************/
 
             var data = {
-                labels : ["January","February","March","April","May","June","July","August","September","October","November","December"],
+                labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
                 datasets: [
                     {
-                        fillColor : gradient, // Put the gradient here as a fill color
-                        strokeColor : "#ff6c23",
-                        pointColor : "#fff",
-                        pointStrokeColor : "#ff6c23",
+                        fillColor: gradient, // Put the gradient here as a fill color
+                        strokeColor: "#ff6c23",
+                        pointColor: "#fff",
+                        pointStrokeColor: "#ff6c23",
                         pointHighlightFill: "#fff",
                         pointHighlightStroke: "#ff6c23",
-                        data : [1000, 2000, 666, 6000, 777, 500, 1000, 3000, 5000, 6000, 2000, 4000]
+                        data: [1000, 2000, 666, 6000, 777, 500, 1000, 3000, 5000, 6000, 2000, 4000]
                     }
                 ]
             };
 
             var options = {
                 responsive: true,
-                datasetStrokeWidth : 1,
-                pointDotStrokeWidth : 1,
+                datasetStrokeWidth: 1,
+                pointDotStrokeWidth: 1,
                 tooltipFillColor: "rgba(0,0,0,0.8)",
                 tooltipFontStyle: "regular",
                 tooltipTemplate: "<%if (label){%><%='In ' + label + ' was earned' %>: <%}%><%= '$' + value %>",
-                scaleLabel : "<%=  '$' + Number(value).toFixed(0).replace('.', ',')%>"
+                scaleLabel: "<%=  '$' + Number(value).toFixed(0).replace('.', ',')%>"
             };
-
-
 
 
             var myLineChart = new Chart(ctx).Line(data, options);
@@ -83,7 +95,7 @@ $(document).ready(function () {
 
     /* schedule calendar */
 
-    if($('#calendar').length != 0) {
+    if ($('#calendar').length != 0) {
         $('#calendar').fullCalendar({
             header: {
                 left: 'prev',
@@ -138,22 +150,22 @@ $(document).ready(function () {
 
 
     /*$('#my-prev-button').click(function() {
-        $('#calendar').fullCalendar('prev');
+     $('#calendar').fullCalendar('prev');
 
-        var view = $('#calendar').fullCalendar('getView');
-        changeCalendarTitle(view.title);
+     var view = $('#calendar').fullCalendar('getView');
+     changeCalendarTitle(view.title);
 
-        return false;
-    });
+     return false;
+     });
 
-    $('#my-prev-next').click(function() {
-        $('#calendar').fullCalendar('next');
+     $('#my-prev-next').click(function() {
+     $('#calendar').fullCalendar('next');
 
-        var view = $('#calendar').fullCalendar('getView');
-        changeCalendarTitle(view.title);
+     var view = $('#calendar').fullCalendar('getView');
+     changeCalendarTitle(view.title);
 
-        return false;
-    });*/
+     return false;
+     });*/
 
     $('#switchPeriodView input').on('change', function () {
         var view = $(this).prop('id');
@@ -179,7 +191,7 @@ $(document).ready(function () {
         var elm = $(this);
         var id = elm.data('itemId');
 
-        if( !elm.hasClass('selected') ) {
+        if (!elm.hasClass('selected')) {
             elm.addClass('selected');
             addPassionInArray(id);
         } else {
@@ -194,8 +206,8 @@ $(document).ready(function () {
 
         $('#passions-selected .item').removeClass('show');
 
-        $('#passions-selected .item').filter(function(){
-            return passionsList.indexOf( $(this).data('itemId') ) != -1;
+        $('#passions-selected .item').filter(function () {
+            return passionsList.indexOf($(this).data('itemId')) != -1;
         }).addClass('show');
 
         $('#PassionsModal').modal('hide');
@@ -209,7 +221,7 @@ $(document).ready(function () {
     }
 
     function removePassionInArray(id) {
-        passionsList = passionsList.filter(function(number) {
+        passionsList = passionsList.filter(function (number) {
             return number !== id;
         });
     }
@@ -220,7 +232,7 @@ $(document).ready(function () {
         var elm = $(this);
         var check = elm.find('.passion-check');
 
-        if( !elm.hasClass('selected') ) {
+        if (!elm.hasClass('selected')) {
             elm.addClass('selected');
             check.prop('checked', true);
         } else {
@@ -422,6 +434,10 @@ $(document).ready(function () {
                 $elm.addClass(theme);
 
                 content = $($elm.data('drop-content')).html() || $elm.next('.drop-content').html();
+
+                content = content.replace(/(id=")(.*)(\")/g, function (match, prefix, handler, suffix) {
+                    return prefix + handler + '_dropID' + suffix;
+                });
 
                 return drop = new _Drop({
                     target: $elm[0],
@@ -709,7 +725,7 @@ if ($('.sel-pass').length != 0) {
 }
 
 if ($('.sel').length != 0) {
-    $( ".sel" ).select2({
+    $(".sel").select2({
         width: '100%',
         minimumResultsForSearch: -1,
         theme: "bootstrap"
