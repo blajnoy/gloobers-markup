@@ -4359,6 +4359,99 @@ input.daterange-input {
 	}
 }
 
+.children-wrap {
+	margin: 0 -20px;
+	max-height: 215px;
+	overflow: auto;
+
+	.item {
+		display: flex;
+		align-items: center;
+		padding: 0 22px 0 20px;
+		color: #fff;
+		background: lighten(#1e97d8, 5%);
+		margin-top: 1px;
+	}
+
+	.input-wrap {
+		flex: auto;
+
+		input {
+			width: 50%;
+		}
+	}
+
+	.gl-ico-user {
+		font-size: 10px;
+		transition: all 0.1s ease-out;
+	}
+
+	.btn,
+	.remove-chid-item {
+		color: #fff;
+
+		.gl-ico {
+			transform: scale(1);
+			transition: all 0.1s ease-out;
+		}
+
+
+		&:hover {
+			color: #fff;
+
+			.gl-ico {
+				transform: scale(1.2);
+			}
+
+			&.disabled {
+				border-color: transparent !important;
+			}
+		}
+
+		&.disabled {
+			.gl-ico {
+				transform: scale(1.2);
+			}
+
+			border-color: transparent !important;
+		}
+	}
+
+	.number-spinner {
+
+		.form-control {
+			border: 0;
+			box-shadow: none !important;
+			color: #fff;
+		}
+	}
+
+}
+
+/* start number-spinner */
+
+.number-spinner {
+	flex: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #fff;
+	border-width: 0 1px;
+	margin: 0 20px;
+
+	.form-control {
+		width: 40px;
+		padding-left: 5px;
+		padding-right: 5px;
+		min-height: 30px;
+	}
+
+	.gl-ico {
+		font-size: 14px;
+	}
+}
+
+/* end number-spinner */
 
 .footer {
 	background: #282828;

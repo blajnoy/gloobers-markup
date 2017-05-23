@@ -8397,6 +8397,147 @@ input.daterange-input {
   flex: 0 0 100px;
 }
 
+.children-wrap {
+  margin: 0 -20px;
+  max-height: 215px;
+  overflow: auto;
+}
+
+.children-wrap .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 22px 0 20px;
+  color: #fff;
+  background: #2ea3e2;
+  margin-top: 1px;
+}
+
+.children-wrap .input-wrap {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.children-wrap .input-wrap input {
+  width: 50%;
+}
+
+.children-wrap .gl-ico-user {
+  font-size: 10px;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.children-wrap .btn,
+.children-wrap .remove-chid-item {
+  color: #fff;
+}
+
+.children-wrap .btn .gl-ico, .children-wrap .btn .slick-slider .slick-arrow, .slick-slider .children-wrap .btn .slick-arrow, .children-wrap .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .children-wrap .btn b, .children-wrap .btn .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .children-wrap .btn .iti-arrow,
+.children-wrap .remove-chid-item .gl-ico,
+.children-wrap .remove-chid-item .slick-slider .slick-arrow, .slick-slider
+.children-wrap .remove-chid-item .slick-arrow,
+.children-wrap .remove-chid-item .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
+.children-wrap .remove-chid-item b,
+.children-wrap .remove-chid-item .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
+.children-wrap .remove-chid-item .iti-arrow {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.children-wrap .btn:hover,
+.children-wrap .remove-chid-item:hover {
+  color: #fff;
+}
+
+.children-wrap .btn:hover .gl-ico, .children-wrap .btn:hover .slick-slider .slick-arrow, .slick-slider .children-wrap .btn:hover .slick-arrow, .children-wrap .btn:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .children-wrap .btn:hover b, .children-wrap .btn:hover .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .children-wrap .btn:hover .iti-arrow,
+.children-wrap .remove-chid-item:hover .gl-ico,
+.children-wrap .remove-chid-item:hover .slick-slider .slick-arrow, .slick-slider
+.children-wrap .remove-chid-item:hover .slick-arrow,
+.children-wrap .remove-chid-item:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
+.children-wrap .remove-chid-item:hover b,
+.children-wrap .remove-chid-item:hover .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
+.children-wrap .remove-chid-item:hover .iti-arrow {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.children-wrap .btn:hover.disabled,
+.children-wrap .remove-chid-item:hover.disabled {
+  border-color: transparent !important;
+}
+
+.children-wrap .btn.disabled,
+.children-wrap .remove-chid-item.disabled {
+  border-color: transparent !important;
+}
+
+.children-wrap .btn.disabled .gl-ico, .children-wrap .btn.disabled .slick-slider .slick-arrow, .slick-slider .children-wrap .btn.disabled .slick-arrow, .children-wrap .btn.disabled .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .children-wrap .btn.disabled b, .children-wrap .btn.disabled .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .children-wrap .btn.disabled .iti-arrow,
+.children-wrap .remove-chid-item.disabled .gl-ico,
+.children-wrap .remove-chid-item.disabled .slick-slider .slick-arrow, .slick-slider
+.children-wrap .remove-chid-item.disabled .slick-arrow,
+.children-wrap .remove-chid-item.disabled .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
+.children-wrap .remove-chid-item.disabled b,
+.children-wrap .remove-chid-item.disabled .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
+.children-wrap .remove-chid-item.disabled .iti-arrow {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.children-wrap .number-spinner .form-control {
+  border: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  color: #fff;
+}
+
+/* start number-spinner */
+.number-spinner {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-width: 0 1px;
+  margin: 0 20px;
+}
+
+.number-spinner .form-control {
+  width: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-height: 30px;
+}
+
+.number-spinner .gl-ico, .number-spinner .slick-slider .slick-arrow, .slick-slider .number-spinner .slick-arrow, .number-spinner .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .number-spinner b, .number-spinner .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .number-spinner .iti-arrow {
+  font-size: 14px;
+}
+
+/* end number-spinner */
 .footer {
   background: #282828;
   color: #fff;
