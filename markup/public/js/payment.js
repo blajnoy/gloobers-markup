@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 
     $('#payInGloobiesModal').modal({
-        backdrop: 'static',
+        //backdrop: 'static',
         show: true
     });
 

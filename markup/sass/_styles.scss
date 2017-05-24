@@ -4360,17 +4360,17 @@ input.daterange-input {
 }
 
 .children-wrap {
-	margin: 0 -20px;
 	max-height: 215px;
 	overflow: auto;
+	margin: 0 -20px;
+	padding: 0 20px;
 
 	.item {
 		display: flex;
 		align-items: center;
-		padding: 0 22px 0 20px;
-		color: #fff;
-		background: lighten(#1e97d8, 5%);
-		margin-top: 1px;
+		color: #7d7d7d;
+		padding: 0 2px 0 1px;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
 
 	.input-wrap {
@@ -4387,8 +4387,8 @@ input.daterange-input {
 	}
 
 	.btn,
-	.remove-chid-item {
-		color: #fff;
+	.remove-child-item {
+		color: #7d7d7d;
 
 		.gl-ico {
 			transform: scale(1);
@@ -4397,7 +4397,7 @@ input.daterange-input {
 
 
 		&:hover {
-			color: #fff;
+			color: #7d7d7d;
 
 			.gl-ico {
 				transform: scale(1.2);
@@ -4420,9 +4420,9 @@ input.daterange-input {
 	.number-spinner {
 
 		.form-control {
-			border: 0;
+			border: 1px solid rgba(0, 0, 0, 0.1);
 			box-shadow: none !important;
-			color: #fff;
+			color: #7d7d7d;
 		}
 	}
 
