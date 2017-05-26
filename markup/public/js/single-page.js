@@ -14,22 +14,21 @@ $(document).ready(function () {
         persons: personsDefault
     });
 
+
+
     function PersonCounter(options) { //element, persons
 
         var $element = options.element;
         var persons = options.persons || [];
-        var personExample = {
+        var personDefault = {
             'min': 1,
             'max': 20,
             'val': 10
         };
+
         $element.after( '<div class="children-wrap"></div>' );
 
         var $wrapper = $($element.next('.children-wrap'));
-
-        this.getPersons = function () {
-            return persons;
-        };
 
         function addPerson(person) {
 
@@ -62,70 +61,70 @@ $(document).ready(function () {
             var action;
 
             $(document).on('mousedown', ".number-spinner .btn", function () {
-                    var btn = $(this);
-                    var input = btn.closest('.number-spinner').find('input');
-                    var icoUser = btn.closest('.number-spinner').prev('.gl-ico-user');
+                var btn = $(this);
+                var input = btn.closest('.number-spinner').find('input');
+                var icoUser = btn.closest('.number-spinner').prev('.gl-ico-user');
 
-                    btn.closest('.number-spinner').find('.btn').removeClass("disabled");
+                btn.closest('.number-spinner').find('.btn').removeClass("disabled");
 
-                    if (btn.attr('data-dir') == 'up') {
-                        action = setInterval(function () {
-                            if (input.attr('max') == undefined || parseInt(input.val()) < parseInt(input.attr('max'))) {
-                                input.val(parseInt(input.val()) + 1);
+                if (btn.attr('data-dir') == 'up') {
+                    action = setInterval(function () {
+                        if (input.attr('max') == undefined || parseInt(input.val()) < parseInt(input.attr('max'))) {
+                            input.val(parseInt(input.val()) + 1);
 
-                                if (icoUser.length != 0) {
-                                    icoUser.css({
-                                        '-webkit-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                        '-moz-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                        '-ms-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                        '-o-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                        'transform': 'scale(' + stepIconRise(input.val()) + ')'
-                                    });
-                                }
-
-                            } else {
-                                btn.addClass("disabled");
-                                clearInterval(action);
+                            if (icoUser.length != 0) {
+                                icoUser.css({
+                                    '-webkit-transform': 'scale(' + stepIconRise(input.val()) + ')',
+                                    '-moz-transform': 'scale(' + stepIconRise(input.val()) + ')',
+                                    '-ms-transform': 'scale(' + stepIconRise(input.val()) + ')',
+                                    '-o-transform': 'scale(' + stepIconRise(input.val()) + ')',
+                                    'transform': 'scale(' + stepIconRise(input.val()) + ')'
+                                });
                             }
-                        }, 70);
-                    } else {
-                        action = setInterval(function () {
-                            if (input.attr('min') == undefined || parseInt(input.val()) > parseInt(input.attr('min'))) {
-                                input.val(parseInt(input.val()) - 1);
 
-                                if (icoUser.length != 0) {
-                                    icoUser.css({
-                                        '-webkit-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                        '-moz-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                        '-ms-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                        '-o-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                        'transform': 'scale(' + stepIconRise(input.val()) + ')'
-                                    });
-                                }
+                        } else {
+                            btn.addClass("disabled");
+                            clearInterval(action);
+                        }
+                    }, 70);
+                } else {
+                    action = setInterval(function () {
+                        if (input.attr('min') == undefined || parseInt(input.val()) > parseInt(input.attr('min'))) {
+                            input.val(parseInt(input.val()) - 1);
 
-                            } else {
-                                btn.addClass("disabled");
-                                clearInterval(action);
+                            if (icoUser.length != 0) {
+                                icoUser.css({
+                                    '-webkit-transform': 'scale(' + stepIconRise(input.val()) + ')',
+                                    '-moz-transform': 'scale(' + stepIconRise(input.val()) + ')',
+                                    '-ms-transform': 'scale(' + stepIconRise(input.val()) + ')',
+                                    '-o-transform': 'scale(' + stepIconRise(input.val()) + ')',
+                                    'transform': 'scale(' + stepIconRise(input.val()) + ')'
+                                });
                             }
-                        }, 70);
-                    }
 
-                    var index = input.closest('.item').index();
-                    persons[index].val = parseInt(input.val());
+                        } else {
+                            btn.addClass("disabled");
+                            clearInterval(action);
+                        }
+                    }, 70);
+                }
 
-                    return false;
-                })
-                .on('mouseup', ".number-spinner .btn", function () {
-                    var btn = $(this);
-                    var input = btn.closest('.number-spinner').find('input');
+                var index = input.closest('.item').index();
+                persons[index].val = parseInt(input.val());
 
-                    clearInterval(action);
+                return false;
+            })
+            .on('mouseup', ".number-spinner .btn", function () {
+                var btn = $(this);
+                var input = btn.closest('.number-spinner').find('input');
 
-                    var index = input.closest('.item').index();
-                    persons[index].val = parseInt(input.val());
+                clearInterval(action);
 
-                    return false;
-                });
+                var index = input.closest('.item').index();
+                persons[index].val = parseInt(input.val());
+
+                return false;
+            });
 
             $(document).on('keyup', ".number-spinner input", function () {
                 var input = $(this);
@@ -201,8 +200,13 @@ $(document).ready(function () {
         }
 
         $(document).on('click', ".btn-add", function () {
-            addPerson(Object.assign({}, personExample));
+            addPerson(Object.assign({}, personDefault));
         });
+
+        this.getPersons = function () {
+            return persons;
+        };
+
 
         render();
 

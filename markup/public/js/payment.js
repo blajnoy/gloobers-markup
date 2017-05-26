@@ -1,8 +1,12 @@
 $(document).ready(function () {
 
 
-    $('#payInGloobiesModal').modal({
-        //backdrop: 'static',
+    /*$('#payInGloobiesModal').modal({
+        backdrop: 'static',
+        show: true
+    });*/
+
+    $('#availableError').modal({
         show: true
     });
 

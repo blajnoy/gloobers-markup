@@ -4083,6 +4083,19 @@ input.daterange-input {
 	font-size: 14px;
 	line-height: 20px;
 
+	.modal & {
+		border: 1px solid #e5e5e5;
+		border-width: 1px 0;
+		padding: 5px 0 10px;
+		margin: 0 0 30px;
+	}
+
+	&-block-ttl {
+		display: block;
+		font-weight: bold;
+		padding: 10px 0 3px;
+	}
+
 	&.available-ttl {
 		margin: 0 0 10px;
 	}
@@ -4094,7 +4107,10 @@ input.daterange-input {
 
 	&-ttl {
 		flex: auto;
+	}
 
+	&-extra-ttl {
+		color: rgba(#000, .3);
 	}
 
 	&-val {
@@ -4107,10 +4123,18 @@ input.daterange-input {
 			font-size: 20px;
 		}
 
+		&.val-fz-md {
+			font-size: 16px;
+		}
+
 		&.price-paid-tc {
 			color: #1e97d8;
 		}
 	}
+}
+
+.error-color {
+	color: #f00;
 }
 
 .pay-gloobies {
@@ -4192,8 +4216,19 @@ input.daterange-input {
 		}
 
 		.btn-address {
-			flex: auto;
+			flex: 1;
+			min-width: 0;
+			white-space: normal;
+			display: flex;
 
+			.btn-text {
+				display: inline-block;
+				flex: auto;
+				vertical-align: middle;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
 		}
 
 		.remove-btn {
@@ -4208,6 +4243,8 @@ input.daterange-input {
 	color: #1e97d8;
 	transition: all .1s ease;
 	transform: scale(0);
+	white-space: nowrap;
+	margin: 0 0 0 10px;
 
 	.gl-ico-check {
 		font-size: 14px;

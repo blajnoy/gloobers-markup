@@ -118,11 +118,11 @@
 							</div>
 							<div class="stored-addresses">
 								<div class="address-row">
-									<a href="#" class="btn btn-address fill-color-white selected"><i class="gl-ico gl-ico-book"></i> Billing address details here 1 <span class="chosen-lb pull-right">chosen <i class="gl-ico gl-ico-check"></i></span></a>
+									<a href="#" class="btn btn-address fill-color-white selected"><i class="gl-ico gl-ico-book"></i> <span class="btn-text">Billing address details here 1</span> <span class="chosen-lb pull-right">chosen <i class="gl-ico gl-ico-check"></i></span></a>
 									<a href="#" class="remove-btn"><i class="gl-ico gl-ico-cart-delete"></i></a>
 								</div>
 								<div class="address-row">
-									<a href="#" class="btn btn-address fill-color-white"><i class="gl-ico gl-ico-book"></i> Billing address details here 2 Billing address details here 2 Billing address details here 2 Billing address details here 2 Billing address details here 2<span class="chosen-lb pull-right">chosen <i class="gl-ico gl-ico-check"></i></span></a>
+									<a href="#" class="btn btn-address fill-color-white"><i class="gl-ico gl-ico-book"></i> <span class="btn-text">Billing address details here 2 Billing address details here 2 Billing address details here 2 Billing address details here 2 Billing address details here 2</span> <span class="chosen-lb pull-right">chosen <i class="gl-ico gl-ico-check"></i></span></a>
 									<a href="#" class="remove-btn"><i class="gl-ico gl-ico-cart-delete"></i></a>
 								</div>
 							</div>
@@ -340,7 +340,7 @@
 		</footer>
 	</div>
 
-	<!-- start modal window recommendation -->
+	<!-- start modal window payInGloobiesModal -->
 	<div class="modal fade" id="payInGloobiesModal" tabindex="-1" role="dialog" aria-labelledby="payInGloobiesModalLabel">
 		<div class="modal-dialog modal-custom-md" role="document">
 			<div class="modal-content">
@@ -392,7 +392,42 @@
 			</div>
 		</div>
 	</div>
-	<!-- end modal window recommendation -->
+	<!-- end modal window payInGloobiesModal -->
+
+	<!-- start modal availableError -->
+	<div class="modal fade" id="availableError" tabindex="-1" role="dialog" aria-labelledby="availableErrorLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="ttl-md-row">
+					<strong class="ttl-md">Sad, but some rooms are not available:(</strong>
+					<p class="sub-ttl">Here will be description about the availability problem. its so important to display here.</p>
+				</div>
+				<div class="data-info-list">
+					<strong class="data-info-list-block-ttl">Room type name one</strong>
+					<div class="data-info-list-row">
+						<span class="data-info-list-ttl">Boarding type of room type one</span>
+						<span class="data-info-list-extra-ttl">Room QTY 1</span>
+						<strong class="data-info-list-val val-fz-md error-color">NOT AVAILABLE</strong>
+					</div>
+					<div class="data-info-list-row">
+						<span class="data-info-list-ttl">Boarding type of room type one</span>
+						<span class="data-info-list-extra-ttl">Room QTY 1</span>
+						<strong class="data-info-list-val val-fz-md error-color">NOT AVAILABLE</strong>
+					</div>
+					<strong class="data-info-list-block-ttl">Room type very long name two</strong>
+					<div class="data-info-list-row">
+						<span class="data-info-list-ttl">Cancellation fees:</span>
+						<span class="data-info-list-extra-ttl">Room QTY 1</span>
+						<strong class="data-info-list-val val-fz-md error-color">NOT AVAILABLE</strong>
+					</div>
+				</div>
+				<div class="btns-row text-right">
+					<a href="#" class="btn btn-default">Back to activity page</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- start modal availableError -->
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

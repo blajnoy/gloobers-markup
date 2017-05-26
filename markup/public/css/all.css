@@ -8077,6 +8077,19 @@ input.daterange-input {
   line-height: 20px;
 }
 
+.modal .data-info-list {
+  border: 1px solid #e5e5e5;
+  border-width: 1px 0;
+  padding: 5px 0 10px;
+  margin: 0 0 30px;
+}
+
+.data-info-list-block-ttl {
+  display: block;
+  font-weight: bold;
+  padding: 10px 0 3px;
+}
+
 .data-info-list.available-ttl {
   margin: 0 0 10px;
 }
@@ -8096,6 +8109,10 @@ input.daterange-input {
   flex: auto;
 }
 
+.data-info-list-extra-ttl {
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .data-info-list-val {
   display: inline-block;
   padding: 0 0 0 20px;
@@ -8107,8 +8124,16 @@ input.daterange-input {
   font-size: 20px;
 }
 
+.data-info-list-val.val-fz-md {
+  font-size: 16px;
+}
+
 .data-info-list-val.price-paid-tc {
   color: #1e97d8;
+}
+
+.error-color {
+  color: #f00;
 }
 
 .pay-gloobies {
@@ -8215,9 +8240,27 @@ input.daterange-input {
 
 .stored-addresses .address-row .btn-address {
   -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  white-space: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stored-addresses .address-row .btn-address .btn-text {
+  display: inline-block;
+  -webkit-box-flex: 1;
   -webkit-flex: auto;
   -ms-flex: auto;
   flex: auto;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .stored-addresses .address-row .remove-btn {
@@ -8233,6 +8276,8 @@ input.daterange-input {
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
+  white-space: nowrap;
+  margin: 0 0 0 10px;
 }
 
 .chosen-lb .gl-ico-check {
