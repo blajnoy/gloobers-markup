@@ -11,6 +11,17 @@ function PersonCounter(options) { //element, persons
     $element.after( '<div class="children-wrap"></div>' );
 
     var $wrapper = $($element.next('.children-wrap'));
+    var action;
+
+    function addPerson(person) {
+        persons.unshift(person);
+        render();
+    }
+
+    function removePerson(index) {
+        persons.splice(index, 1);
+        render();
+    }
 
     function render() {
         var personsList = persons.map(function (person) {
@@ -28,136 +39,31 @@ function PersonCounter(options) { //element, persons
         personsList = personsList.join('');
         $wrapper.html( personsList );
 
-        /* bind events */
-        var action;
+        $wrapper.find('.item').each(function () {
+            var input = $(this).find('.number-spinner input');
+            var icoUser = $(this).find('.number-spinner').prev('.gl-ico-user');
 
-        $(document).on('mousedown', ".number-spinner .btn", function () {
-                var btn = $(this);
-                var input = btn.closest('.number-spinner').find('input');
-                var icoUser = btn.closest('.number-spinner').prev('.gl-ico-user');
-
-                btn.closest('.number-spinner').find('.btn').removeClass("disabled");
-
-                if (btn.attr('data-dir') == 'up') {
-                    action = setInterval(function () {
-                        if (input.attr('max') == undefined || parseInt(input.val()) < parseInt(input.attr('max'))) {
-                            input.val(parseInt(input.val()) + 1);
-
-                            if (icoUser.length != 0) {
-                                icoUser.css({
-                                    '-webkit-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                    '-moz-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                    '-ms-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                    '-o-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                    'transform': 'scale(' + stepIconRise(input.val()) + ')'
-                                });
-                            }
-
-                        } else {
-                            btn.addClass("disabled");
-                            clearInterval(action);
-                        }
-                    }, 70);
-                } else {
-                    action = setInterval(function () {
-                        if (input.attr('min') == undefined || parseInt(input.val()) > parseInt(input.attr('min'))) {
-                            input.val(parseInt(input.val()) - 1);
-
-                            if (icoUser.length != 0) {
-                                icoUser.css({
-                                    '-webkit-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                    '-moz-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                    '-ms-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                    '-o-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                                    'transform': 'scale(' + stepIconRise(input.val()) + ')'
-                                });
-                            }
-
-                        } else {
-                            btn.addClass("disabled");
-                            clearInterval(action);
-                        }
-                    }, 70);
-                }
-
-                var index = input.closest('.item').index();
-                persons[index].val = parseInt(input.val());
-
-                return false;
-            })
-            .on('mouseup', ".number-spinner .btn", function () {
-                var btn = $(this);
-                var input = btn.closest('.number-spinner').find('input');
-
-                clearInterval(action);
-
-                var index = input.closest('.item').index();
-                persons[index].val = parseInt(input.val());
-
-                return false;
-            });
-
-        $(document).on('keyup', ".number-spinner input", function () {
-                var input = $(this);
-                var icoUser = input.closest('.number-spinner').prev('.gl-ico-user');
-                var value = input.val();
-                var min = input.attr('min');
-                var max = input.attr('max');
-
-                input.val(minMax(value, min, max));
-
-                var index = input.closest('.item').index();
-                persons[index].val = parseInt(input.val());
-
-                if (icoUser.length != 0) {
-                    icoUser.css({
-                        '-webkit-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                        '-moz-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                        '-ms-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                        '-o-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                        'transform': 'scale(' + stepIconRise(input.val()) + ')'
-                    });
-                }
-
-            })
-            .on('blur', ".number-spinner input", function () {
-                var input = $(this);
-                var icoUser = input.closest('.number-spinner').prev('.gl-ico-user');
-
-                if ($(this).val() == '') {
-                    var min = input.attr('min');
-                    input.val(min);
-                }
-
-                var index = input.closest('.item').index();
-                persons[index].val = parseInt(input.val());
-
-                if (icoUser.length != 0) {
-                    icoUser.css({
-                        '-webkit-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                        '-moz-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                        '-ms-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                        '-o-transform': 'scale(' + stepIconRise(input.val()) + ')',
-                        'transform': 'scale(' + stepIconRise(input.val()) + ')'
-                    });
-                }
-            });
-
-        $(document).on('click', ".remove-child-item", function (e) {
-
-            var elm = $(this).closest('.item');
-            var index = parseInt(elm.index());
-
-            removePerson(index);
-
-            e.stopImmediatePropagation();
-
+            redrawIconRise(icoUser, parseInt(input.val()));
         });
+
     }
 
     function stepIconRise(val) {
         var step = 1 + parseInt(val / 2) / 10;
         return step > 2 ? 2 : step;
+    }
+
+    function redrawIconRise(icon, val) {
+
+        if (icon.length != 0) {
+            icon.css({
+                '-webkit-transform': 'scale(' + stepIconRise(val) + ')',
+                '-moz-transform': 'scale(' + stepIconRise(val) + ')',
+                '-ms-transform': 'scale(' + stepIconRise(val) + ')',
+                '-o-transform': 'scale(' + stepIconRise(val) + ')',
+                'transform': 'scale(' + stepIconRise(val) + ')'
+            });
+        }
     }
 
     function minMax(value, min, max) {
@@ -170,19 +76,111 @@ function PersonCounter(options) { //element, persons
         else return value;
     }
 
-    function addPerson(person) {
-        persons.push(person);
-        render();
-    }
 
-    function removePerson(index) {
-        persons.splice(index, 1);
-        render();
-    }
+    /* bind events */
+
+
+    $(document).on('mousedown', ".number-spinner .btn", function () {
+
+            var btn = $(this);
+            var input = btn.closest('.number-spinner').find('input');
+            var icoUser = btn.closest('.number-spinner').prev('.gl-ico-user');
+
+            btn.closest('.number-spinner').find('.btn').removeClass("disabled");
+
+            if (btn.attr('data-dir') == 'up') {
+                action = setInterval(function () {
+
+                    if (input.attr('max') == undefined || parseInt(input.val()) < parseInt(input.attr('max'))) {
+                        input.val(parseInt(input.val()) + 1);
+
+                        redrawIconRise(icoUser, parseInt(input.val()));
+
+                    } else {
+                        btn.addClass("disabled");
+                        clearInterval(action);
+                    }
+                }, 70);
+            } else {
+                action = setInterval(function () {
+                    if (input.attr('min') == undefined || parseInt(input.val()) > parseInt(input.attr('min'))) {
+                        input.val(parseInt(input.val()) - 1);
+
+                        redrawIconRise(icoUser, parseInt(input.val()));
+
+                    } else {
+                        btn.addClass("disabled");
+                        clearInterval(action);
+                    }
+                }, 70);
+            }
+
+            var index = input.closest('.item').index();
+            persons[index].val = parseInt(input.val());
+
+
+            return false;
+        })
+        .on('mouseup', ".number-spinner .btn", function () {
+
+            var btn = $(this);
+            var input = btn.closest('.number-spinner').find('input');
+
+            var index = input.closest('.item').index();
+            persons[index].val = parseInt(input.val());
+
+            clearInterval(action);
+
+            return false;
+        });
+
+    $(document).on('keyup', ".number-spinner input", function () {
+            var input = $(this);
+            var icoUser = input.closest('.number-spinner').prev('.gl-ico-user');
+            var value = input.val();
+            var min = input.attr('min');
+            var max = input.attr('max');
+
+            input.val(minMax(value, min, max));
+
+            var index = input.closest('.item').index();
+            persons[index].val = parseInt(input.val());
+
+            redrawIconRise(icoUser, parseInt(input.val()));
+
+        })
+        .on('blur', ".number-spinner input", function () {
+            var input = $(this);
+            var icoUser = input.closest('.number-spinner').prev('.gl-ico-user');
+
+            if ($(this).val() == '') {
+                var min = input.attr('min');
+                input.val(min);
+            }
+
+            var index = input.closest('.item').index();
+            persons[index].val = parseInt(input.val());
+
+            redrawIconRise(icoUser, parseInt(input.val()));
+        });
+
+    $(document).on('click', ".remove-child-item", function (e) {
+
+        var elm = $(this).closest('.item');
+        var index = parseInt(elm.index());
+
+        removePerson(index);
+
+        e.stopImmediatePropagation();
+
+    });
 
     $(document).on('click', ".btn-add", function () {
         addPerson(Object.assign({}, personDefault));
     });
+
+
+
 
     this.getPersons = function () {
         return persons;
@@ -197,8 +195,7 @@ function PersonCounter(options) { //element, persons
 
 
 
-
-
+/*
 (function ($) {
 
     var settings = {
@@ -216,3 +213,4 @@ function PersonCounter(options) { //element, persons
     }
 
 })(jQuery);
+*/

@@ -407,7 +407,7 @@ $(document).ready(function () {
 
     }).call(this);
 
-    (function () {
+
         var init, setupDrop, _Drop;
 
         _Drop = Drop.createContext({
@@ -419,7 +419,6 @@ $(document).ready(function () {
         };
 
         setupDrop = function () {
-
 
             return $('.open-drop').each(function () {
 
@@ -433,13 +432,15 @@ $(document).ready(function () {
 
                 $elm.addClass(theme);
 
-                content = $($elm.data('drop-content')).html() || $elm.next('.drop-content').html();
+                content = $($elm.data('drop-content'))[0] || $elm.next('.drop-area')[0];
+
+                /*content = $($elm.data('drop-content')).html() || $elm.next('.drop-content').html();
 
                 content = content.replace(/(id=")(.*)(\")/g, function (match, prefix, handler, suffix) {
                     return prefix + handler + '_dropID' + suffix;
-                });
+                });*/
 
-                return drop = new _Drop({
+                drop = new _Drop({
                     target: $elm[0],
                     classes: theme,
                     position: position,
@@ -452,12 +453,14 @@ $(document).ready(function () {
                     }
                 });
 
+                return drop;
+
             });
         };
 
         init();
 
-    }).call(this);
+
 
     /**/
     /*$(function() {
@@ -551,7 +554,6 @@ $(document).ready(function () {
                     ]
                 });
             });
-
 
         }
 

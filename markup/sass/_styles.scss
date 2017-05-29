@@ -3242,6 +3242,14 @@ input.daterange-input {
 	}
 }
 
+.drop {
+	.drop-area {
+		&.hide {
+			display: block !important;
+		}
+	}
+}
+
 .headings-menu {
 	margin: 0 -15px;
 	padding: 0;
@@ -4401,6 +4409,11 @@ input.daterange-input {
 	overflow: auto;
 	margin: 0 -20px;
 	padding: 0 20px;
+
+	.person-row + & {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
 
 	.item {
 		display: flex;

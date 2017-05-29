@@ -7105,6 +7105,10 @@ input.daterange-input {
   z-index: 9999;
 }
 
+.drop .drop-area.hide {
+  display: block !important;
+}
+
 .headings-menu {
   margin: 0 -15px;
   padding: 0;
@@ -8447,6 +8451,11 @@ input.daterange-input {
   overflow: auto;
   margin: 0 -20px;
   padding: 0 20px;
+}
+
+.person-row + .children-wrap {
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .children-wrap .item {
