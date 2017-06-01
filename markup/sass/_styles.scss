@@ -1,3 +1,8 @@
+.wrapper {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
 .header {
 	@include clearfix();
 	background-size: cover;
@@ -789,7 +794,7 @@ input.daterange-input {
 	z-index: 2;
 }
 .main {
-	//padding: 0 0 20px;
+	flex: 1;
 }
 .recommendations {
 	display: flex;
@@ -844,6 +849,7 @@ input.daterange-input {
 		}
 	}
 	.img-h {
+		overflow: hidden;
 		position: relative;
 		margin: -16px -16px 13px;
 
@@ -2052,7 +2058,38 @@ input.daterange-input {
 		}
 	}
 }
+.review-top-nav {
+	display: flex;
+	font-size: 14px;
+	line-height: 17px;
+	height: 50px;
 
+	.personal-content-block & {
+		margin: -30px -30px 0 -30px;
+		padding: 18px 30px 30px 30px;
+	}
+
+	.lnk-back {
+		text-transform: uppercase;
+		font-size: 14px;
+		line-height: 17px;
+		margin: -25px;
+		padding: 25px;
+
+		.gl-ico {
+			margin-right: 5px;
+		}
+	}
+
+	.reviews-nav {
+		margin: -25px -25px -25px auto;
+
+		a {
+			display: inline-block;
+			padding: 25px;
+		}
+	}
+}
 
 .recommendations-from {
 	display: flex;
@@ -3900,6 +3937,11 @@ input.daterange-input {
 	border-radius: 10px;
 	padding: 15px;
 
+	.modal & {
+		border: 0;
+		margin: -23px;
+	}
+
 	.payment-aside-img {
 		margin: -16px -16px 15px;
 
@@ -3920,6 +3962,8 @@ input.daterange-input {
 		h3 {
 			font-family: 'Open Sans';
 			margin: 0 0 5px;
+			font-size: 18px;
+			line-height: 21px;
 		}
 
 		.sub-ttl {
@@ -4091,7 +4135,7 @@ input.daterange-input {
 	font-size: 14px;
 	line-height: 20px;
 
-	.modal & {
+	&.room-types-list {
 		border: 1px solid #e5e5e5;
 		border-width: 1px 0;
 		padding: 5px 0 10px;
@@ -4404,15 +4448,21 @@ input.daterange-input {
 	}
 }
 
-.children-wrap {
+.persons-list-wrap {
 	max-height: 215px;
 	overflow: auto;
 	margin: 0 -20px;
 	padding: 0 20px;
 
 	.person-row + & {
-		padding-top: 10px;
-		padding-bottom: 20px;
+		.item {
+			&:first-child {
+				padding-top: 10px;
+			}
+			&:last-child {
+				padding-bottom: 20px;
+			}
+		}
 	}
 
 	.item {
@@ -5244,10 +5294,10 @@ input.daterange-input {
 	}
 }
 
-
 .personal-content-block {
 	@extend .personal-box;
 	padding: 30px;
+	width: 100%;
 
 	&.trips-list-wrap {
 		border: 0;
@@ -5278,6 +5328,38 @@ input.daterange-input {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
+.first-trip {
+	display: flex;
+	align-items: center;
+	padding: 70px;
+
+	.text-h {
+		font-size: 18px;
+		line-height: 28px;
+
+		h2 {
+			font-size: 56px;
+			line-height: 60px;
+			margin: 0 0 25px;
+		}
+
+		p {
+
+		}
+
+	}
+
+	.img-h {
+		margin: 0 0 0 50px;
+		flex: 1 0 335px;
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+}
 
 .personal-cabinet-tabs {
 	position: relative;
@@ -5291,7 +5373,8 @@ input.daterange-input {
 		a {
 			display: block;
 			border: 1px solid #e5e5e5;
-			padding: 15px 19px;
+			padding: 15px 19px 0;
+			min-height: 51px;
 			margin-bottom: -1px;
 			color: $secondTextColor;
 

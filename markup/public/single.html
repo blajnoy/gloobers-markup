@@ -119,11 +119,20 @@
 												<div class="col">
 													<span class="ttl">Travelers</span>
 													<div class="person-num">
-														<span class="chosen open-drop" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" >2 Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
-														<div class="drop-area hide">
+														<span class="chosen open-drop" data-function-on-open="initPersonsCounter" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" ><span id="personsNum">2</span> Persons <i class="gl-ico gl-ico-arrow-down"></i></span>
+														<div class="drop-content hide">
 															<div class="person-num-holder">
-																<!--****start****-->
-																<div class="person-row persona">
+																<div class="person-row adults-counter">
+																	<div class="operation-btns pull-right">
+																		<span class="btns-col"><a href="javascript:void(0);" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
+																	</div>
+																	<div class="text-h">
+																		<strong class=""><span class="items-count">0</span>Adults</strong>
+																	</div>
+																</div>
+															</div>
+															<div class="person-num-holder">
+																<div class="person-row children-counter">
 																	<div class="operation-btns pull-right">
 																		<span class="btns-col"><a href="javascript:void(0);" class="btn-add"><i class="gl-ico gl-ico-plus"></i></a></span>
 																	</div>
@@ -131,7 +140,6 @@
 																		<strong class=""><span class="items-count">0</span>Children</strong>
 																	</div>
 																</div>
-																<!--****end****-->
 															</div>
 														</div>
 													</div>

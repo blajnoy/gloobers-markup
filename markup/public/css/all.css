@@ -3126,6 +3126,19 @@ fieldset[disabled] .btn {
   background: #fff;
 }
 
+.wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .header {
   background-size: cover;
   position: relative;
@@ -4053,6 +4066,13 @@ input.daterange-input {
   z-index: 2;
 }
 
+.main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
 .recommendations {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4123,6 +4143,7 @@ input.daterange-input {
 }
 
 .card .img-h, .review-card .img-h {
+  overflow: hidden;
   position: relative;
   margin: -16px -16px 13px;
 }
@@ -5597,6 +5618,42 @@ input.daterange-input {
 
 #passions-selected .item:not(.btn).show {
   display: inline-block;
+}
+
+.review-top-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  line-height: 17px;
+  height: 50px;
+}
+
+.personal-content-block .review-top-nav {
+  margin: -30px -30px 0 -30px;
+  padding: 18px 30px 30px 30px;
+}
+
+.review-top-nav .lnk-back {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  margin: -25px;
+  padding: 25px;
+}
+
+.review-top-nav .lnk-back .gl-ico, .review-top-nav .lnk-back .slick-slider .slick-arrow, .slick-slider .review-top-nav .lnk-back .slick-arrow, .review-top-nav .lnk-back .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .review-top-nav .lnk-back b, .review-top-nav .lnk-back .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .review-top-nav .lnk-back .iti-arrow {
+  margin-right: 5px;
+}
+
+.review-top-nav .reviews-nav {
+  margin: -25px -25px -25px auto;
+}
+
+.review-top-nav .reviews-nav a {
+  display: inline-block;
+  padding: 25px;
 }
 
 .recommendations-from {
@@ -7828,6 +7885,11 @@ input.daterange-input {
   padding: 15px;
 }
 
+.modal .payment-aside {
+  border: 0;
+  margin: -23px;
+}
+
 .payment-aside .payment-aside-img {
   margin: -16px -16px 15px;
   display: block;
@@ -7866,6 +7928,8 @@ input.daterange-input {
 .payment-aside .payment-aside-ttl h3 {
   font-family: 'Open Sans';
   margin: 0 0 5px;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .payment-aside .payment-aside-ttl .sub-ttl {
@@ -8081,7 +8145,7 @@ input.daterange-input {
   line-height: 20px;
 }
 
-.modal .data-info-list {
+.data-info-list.room-types-list {
   border: 1px solid #e5e5e5;
   border-width: 1px 0;
   padding: 5px 0 10px;
@@ -8446,19 +8510,22 @@ input.daterange-input {
   flex: 0 0 100px;
 }
 
-.children-wrap {
+.persons-list-wrap {
   max-height: 215px;
   overflow: auto;
   margin: 0 -20px;
   padding: 0 20px;
 }
 
-.person-row + .children-wrap {
+.person-row + .persons-list-wrap .item:first-child {
   padding-top: 10px;
+}
+
+.person-row + .persons-list-wrap .item:last-child {
   padding-bottom: 20px;
 }
 
-.children-wrap .item {
+.persons-list-wrap .item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8472,36 +8539,36 @@ input.daterange-input {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.children-wrap .input-wrap {
+.persons-list-wrap .input-wrap {
   -webkit-box-flex: 1;
   -webkit-flex: auto;
   -ms-flex: auto;
   flex: auto;
 }
 
-.children-wrap .input-wrap input {
+.persons-list-wrap .input-wrap input {
   width: 50%;
 }
 
-.children-wrap .gl-ico-user {
+.persons-list-wrap .gl-ico-user {
   font-size: 10px;
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
 }
 
-.children-wrap .btn,
-.children-wrap .remove-child-item {
+.persons-list-wrap .btn,
+.persons-list-wrap .remove-child-item {
   color: #7d7d7d;
 }
 
-.children-wrap .btn .gl-ico, .children-wrap .btn .slick-slider .slick-arrow, .slick-slider .children-wrap .btn .slick-arrow, .children-wrap .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .children-wrap .btn b, .children-wrap .btn .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .children-wrap .btn .iti-arrow,
-.children-wrap .remove-child-item .gl-ico,
-.children-wrap .remove-child-item .slick-slider .slick-arrow, .slick-slider
-.children-wrap .remove-child-item .slick-arrow,
-.children-wrap .remove-child-item .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
-.children-wrap .remove-child-item b,
-.children-wrap .remove-child-item .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
-.children-wrap .remove-child-item .iti-arrow {
+.persons-list-wrap .btn .gl-ico, .persons-list-wrap .btn .slick-slider .slick-arrow, .slick-slider .persons-list-wrap .btn .slick-arrow, .persons-list-wrap .btn .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .persons-list-wrap .btn b, .persons-list-wrap .btn .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .persons-list-wrap .btn .iti-arrow,
+.persons-list-wrap .remove-child-item .gl-ico,
+.persons-list-wrap .remove-child-item .slick-slider .slick-arrow, .slick-slider
+.persons-list-wrap .remove-child-item .slick-arrow,
+.persons-list-wrap .remove-child-item .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
+.persons-list-wrap .remove-child-item b,
+.persons-list-wrap .remove-child-item .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
+.persons-list-wrap .remove-child-item .iti-arrow {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -8509,48 +8576,48 @@ input.daterange-input {
   transition: all 0.1s ease-out;
 }
 
-.children-wrap .btn:hover,
-.children-wrap .remove-child-item:hover {
+.persons-list-wrap .btn:hover,
+.persons-list-wrap .remove-child-item:hover {
   color: #7d7d7d;
 }
 
-.children-wrap .btn:hover .gl-ico, .children-wrap .btn:hover .slick-slider .slick-arrow, .slick-slider .children-wrap .btn:hover .slick-arrow, .children-wrap .btn:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .children-wrap .btn:hover b, .children-wrap .btn:hover .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .children-wrap .btn:hover .iti-arrow,
-.children-wrap .remove-child-item:hover .gl-ico,
-.children-wrap .remove-child-item:hover .slick-slider .slick-arrow, .slick-slider
-.children-wrap .remove-child-item:hover .slick-arrow,
-.children-wrap .remove-child-item:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
-.children-wrap .remove-child-item:hover b,
-.children-wrap .remove-child-item:hover .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
-.children-wrap .remove-child-item:hover .iti-arrow {
+.persons-list-wrap .btn:hover .gl-ico, .persons-list-wrap .btn:hover .slick-slider .slick-arrow, .slick-slider .persons-list-wrap .btn:hover .slick-arrow, .persons-list-wrap .btn:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .persons-list-wrap .btn:hover b, .persons-list-wrap .btn:hover .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .persons-list-wrap .btn:hover .iti-arrow,
+.persons-list-wrap .remove-child-item:hover .gl-ico,
+.persons-list-wrap .remove-child-item:hover .slick-slider .slick-arrow, .slick-slider
+.persons-list-wrap .remove-child-item:hover .slick-arrow,
+.persons-list-wrap .remove-child-item:hover .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
+.persons-list-wrap .remove-child-item:hover b,
+.persons-list-wrap .remove-child-item:hover .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
+.persons-list-wrap .remove-child-item:hover .iti-arrow {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.children-wrap .btn:hover.disabled,
-.children-wrap .remove-child-item:hover.disabled {
+.persons-list-wrap .btn:hover.disabled,
+.persons-list-wrap .remove-child-item:hover.disabled {
   border-color: transparent !important;
 }
 
-.children-wrap .btn.disabled,
-.children-wrap .remove-child-item.disabled {
+.persons-list-wrap .btn.disabled,
+.persons-list-wrap .remove-child-item.disabled {
   border-color: transparent !important;
 }
 
-.children-wrap .btn.disabled .gl-ico, .children-wrap .btn.disabled .slick-slider .slick-arrow, .slick-slider .children-wrap .btn.disabled .slick-arrow, .children-wrap .btn.disabled .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .children-wrap .btn.disabled b, .children-wrap .btn.disabled .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .children-wrap .btn.disabled .iti-arrow,
-.children-wrap .remove-child-item.disabled .gl-ico,
-.children-wrap .remove-child-item.disabled .slick-slider .slick-arrow, .slick-slider
-.children-wrap .remove-child-item.disabled .slick-arrow,
-.children-wrap .remove-child-item.disabled .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
-.children-wrap .remove-child-item.disabled b,
-.children-wrap .remove-child-item.disabled .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
-.children-wrap .remove-child-item.disabled .iti-arrow {
+.persons-list-wrap .btn.disabled .gl-ico, .persons-list-wrap .btn.disabled .slick-slider .slick-arrow, .slick-slider .persons-list-wrap .btn.disabled .slick-arrow, .persons-list-wrap .btn.disabled .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .persons-list-wrap .btn.disabled b, .persons-list-wrap .btn.disabled .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .persons-list-wrap .btn.disabled .iti-arrow,
+.persons-list-wrap .remove-child-item.disabled .gl-ico,
+.persons-list-wrap .remove-child-item.disabled .slick-slider .slick-arrow, .slick-slider
+.persons-list-wrap .remove-child-item.disabled .slick-arrow,
+.persons-list-wrap .remove-child-item.disabled .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow
+.persons-list-wrap .remove-child-item.disabled b,
+.persons-list-wrap .remove-child-item.disabled .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag
+.persons-list-wrap .remove-child-item.disabled .iti-arrow {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.children-wrap .number-spinner .form-control {
+.persons-list-wrap .number-spinner .form-control {
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
@@ -9508,6 +9575,7 @@ input.daterange-input {
 
 .personal-content-block {
   padding: 30px;
+  width: 100%;
 }
 
 .personal-content-block.trips-list-wrap {
@@ -9544,6 +9612,43 @@ input.daterange-input {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
+.first-trip {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 70px;
+}
+
+.first-trip .text-h {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.first-trip .text-h h2 {
+  font-size: 56px;
+  line-height: 60px;
+  margin: 0 0 25px;
+}
+
+.first-trip .img-h {
+  margin: 0 0 0 50px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 335px;
+  -ms-flex: 1 0 335px;
+  flex: 1 0 335px;
+}
+
+.first-trip .img-h img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .personal-cabinet-tabs {
   position: relative;
   z-index: 2;
@@ -9558,7 +9663,8 @@ input.daterange-input {
 .personal-cabinet-tabs li a {
   display: block;
   border: 1px solid #e5e5e5;
-  padding: 15px 19px;
+  padding: 15px 19px 0;
+  min-height: 51px;
   margin-bottom: -1px;
   color: #501e00;
 }

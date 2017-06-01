@@ -1,17 +1,24 @@
-function PersonCounter(options) { //element, persons
+function PersonCounter(options) { //element, persons, personDefault
 
     var $element = options.element;
     var persons = options.persons || [];
-    var personDefault = {
-        'min': 1,
-        'max': 20,
-        'val': 10
-    };
+    var personDefault = options.personsDefault || {
+            'min': 1,
+            'max': 20,
+            'val': 10
+        };
+    var itemsCount = $element.find('.items-count');
 
-    $element.after( '<div class="children-wrap"></div>' );
+    $element.after('<div class="persons-list-wrap"></div>');
 
-    var $wrapper = $($element.next('.children-wrap'));
+    var $wrapper = $($element.next('.persons-list-wrap'));
     var action;
+
+    var that = $(this);
+
+
+    render();
+
 
     function addPerson(person) {
         persons.unshift(person);
@@ -29,7 +36,7 @@ function PersonCounter(options) { //element, persons
                 '<i class="gl-ico gl-ico-user"></i>' +
                 '<div class="number-spinner">' +
                 '<a href="javascript:void(0);" class="btn btn-link data-down" data-dir="dwn"><i class="gl-ico gl-ico-minus"></i></a>' +
-                '<input type="text" class="form-control text-center" value="' + person.val + '" min="' + person.min + '" max="' + person.max + '">' +
+                '<input type="text" class="form-control text-center" value="' + (person.val || 1) + '" min="' + (person.min || 1) + '" max="' + (person.max || 100) + '">' +
                 '<a href="javascript:void(0);" class="btn btn-link data-up" data-dir="up"><i class="gl-ico gl-ico-plus"></i></a>' +
                 '</div>' +
                 '<a class="remove-child-item" href="javascript:void(0);"><i class="gl-ico gl-ico-cart-delete"></i></a>' +
@@ -37,7 +44,7 @@ function PersonCounter(options) { //element, persons
         });
 
         personsList = personsList.join('');
-        $wrapper.html( personsList );
+        $wrapper.html(personsList);
 
         $wrapper.find('.item').each(function () {
             var input = $(this).find('.number-spinner input');
@@ -45,6 +52,10 @@ function PersonCounter(options) { //element, persons
 
             redrawIconRise(icoUser, parseInt(input.val()));
         });
+
+        itemsCount.text(persons.length);
+
+        that.trigger('change');
 
     }
 
@@ -67,20 +78,19 @@ function PersonCounter(options) { //element, persons
     }
 
     function minMax(value, min, max) {
-        if (value == '')
-            return value;
-        else if (parseInt(value) < min || isNaN(parseInt(value)))
-            return min;
-        else if (parseInt(value) > max)
+        if (value > max) {
             return max;
-        else return value;
+        }
+        else if (value < min || isNaN(parseInt(value))) {
+            return min;
+        }
+
+        return value;
     }
 
 
     /* bind events */
-
-
-    $(document).on('mousedown', ".number-spinner .btn", function () {
+    $wrapper.on('mousedown', ".number-spinner .btn", function () {
 
             var btn = $(this);
             var input = btn.closest('.number-spinner').find('input');
@@ -134,12 +144,18 @@ function PersonCounter(options) { //element, persons
             return false;
         });
 
-    $(document).on('keyup', ".number-spinner input", function () {
+    $wrapper.on('keypress', ".number-spinner input", function (e) {
+            if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                //display error message
+                return false;
+            }
+        })
+        .on('change', ".number-spinner input", function () {
             var input = $(this);
             var icoUser = input.closest('.number-spinner').prev('.gl-ico-user');
-            var value = input.val();
-            var min = input.attr('min');
-            var max = input.attr('max');
+            var value = parseInt(input.val());
+            var min = parseInt(input.attr('min'));
+            var max = parseInt(input.attr('max'));
 
             input.val(minMax(value, min, max));
 
@@ -164,9 +180,12 @@ function PersonCounter(options) { //element, persons
             redrawIconRise(icoUser, parseInt(input.val()));
         });
 
-    $(document).on('click', ".remove-child-item", function (e) {
+
+    $wrapper.on('click', ".remove-child-item", function (e) {
+
 
         var elm = $(this).closest('.item');
+
         var index = parseInt(elm.index());
 
         removePerson(index);
@@ -175,42 +194,14 @@ function PersonCounter(options) { //element, persons
 
     });
 
-    $(document).on('click', ".btn-add", function () {
+    $element.on('click', ".btn-add", function () {
         addPerson(Object.assign({}, personDefault));
     });
-
-
 
 
     this.getPersons = function () {
         return persons;
     };
 
-    render();
 
 }
-
-
-
-
-
-
-/*
-(function ($) {
-
-    var settings = {
-
-    };
-
-    $.fn.personCounter = function(options){
-        settings = $.extend(settings, options);
-
-        this.each(function () {
-            $(this).
-        });
-
-        return this;
-    }
-
-})(jQuery);
-*/

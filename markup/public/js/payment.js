@@ -6,7 +6,11 @@ $(document).ready(function () {
         show: true
     });*/
 
-    $('#availableError').modal({
+    /*$('#availableError').modal({
+        show: true
+    });*/
+
+    $('#paymentModal').modal({
         show: true
     });
 

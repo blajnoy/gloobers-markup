@@ -408,58 +408,66 @@ $(document).ready(function () {
     }).call(this);
 
 
-        var init, setupDrop, _Drop;
+    /*  start changes persons counter  */
+    var init, setupDrop, _Drop;
 
-        _Drop = Drop.createContext({
-            classPrefix: 'drop'
+    _Drop = Drop.createContext({
+        classPrefix: 'drop'
+    });
+
+    setupDrop = function () {
+
+        var drops = $('.open-drop').map(function () {
+
+            var $elm, content, drop, openOn, theme, position, offset, functionOnOpen;
+
+            $elm = $(this);
+            theme = $elm.data('theme');
+            openOn = $elm.data('open-on') || 'click';
+            offset = $elm.data('offset') || '0 0';
+            position = $elm.data('position') || 'bottom center';
+
+            functionOnOpen = $elm.data('function-on-open');
+
+            $elm.addClass(theme);
+
+            content = $($elm.data('drop-content')).html() || $elm.next('.drop-content').html();
+
+            content = content.replace(/(id=")(.*)(\")/g, function (match, prefix, handler, suffix) {
+                return prefix + handler + '_dropID' + suffix;
+            });
+
+            drop = new _Drop({
+                target: $elm[0],
+                classes: theme,
+                position: position,
+                constrainToWindow: true,
+                constrainToScrollParent: false,
+                openOn: openOn,
+                content: content,
+                tetherOptions: {
+                    offset: offset
+                }
+            });
+
+            drop.on("open", function () {
+                if(functionOnOpen) {
+                    eval(functionOnOpen)();
+                }
+            });
+
+            return drop;
         });
 
-        init = function () {
-            return setupDrop();
-        };
+        return drops;
+    };
 
-        setupDrop = function () {
+    setupDrop();
 
-            return $('.open-drop').each(function () {
+    /* end changes persons counter  */
 
-                var $elm, content, drop, openOn, theme, position, offset;
 
-                $elm = $(this);
-                theme = $elm.data('theme');
-                openOn = $elm.data('open-on') || 'click';
-                offset = $elm.data('offset') || '0 0';
-                position = $elm.data('position') || 'bottom center';
-
-                $elm.addClass(theme);
-
-                content = $($elm.data('drop-content'))[0] || $elm.next('.drop-area')[0];
-
-                /*content = $($elm.data('drop-content')).html() || $elm.next('.drop-content').html();
-
-                content = content.replace(/(id=")(.*)(\")/g, function (match, prefix, handler, suffix) {
-                    return prefix + handler + '_dropID' + suffix;
-                });*/
-
-                drop = new _Drop({
-                    target: $elm[0],
-                    classes: theme,
-                    position: position,
-                    constrainToWindow: true,
-                    constrainToScrollParent: false,
-                    openOn: openOn,
-                    content: content,
-                    tetherOptions: {
-                        offset: offset
-                    }
-                });
-
-                return drop;
-
-            });
-        };
-
-        init();
-
+    
 
 
     /**/
