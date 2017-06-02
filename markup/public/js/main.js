@@ -32,12 +32,7 @@ $(document).ready(function () {
 
      });*/
 
-    if ($("#payment-aside").length != 0) {
-        $("#payment-aside").sticky({
-            topSpacing: 25,
-            bottomSpacing: $('.footer').outerHeight() + 30
-        });
-    }
+
 
 
     /* start statistics chart */

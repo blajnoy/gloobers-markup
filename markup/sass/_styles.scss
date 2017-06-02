@@ -12,6 +12,8 @@
 	.header-holder {
 		padding-top: 14px;
 		padding-bottom: 14px;
+		padding-right: 40px;
+
 		@include clearfix();
 		background: #fff;
 		box-shadow: 0 2px 0 0 rgba(#000, .1);
@@ -321,9 +323,11 @@
 	float: right;
 	font-size: 14px;
 	line-height: 18px;
-	padding: 7px 0 0 40px;
+	padding: 0 0 0 40px;
 	height: 60px;
 	border-left: 2px solid #e5e5e5;
+	display: flex;
+	align-items: center;
 
 	ul {
 		display: inline-block;
@@ -390,6 +394,47 @@
 		height: auto;
 	}
 }
+
+.user-avatar {
+	display: inline-block;
+	vertical-align: middle;
+
+	.avatar {
+		border-radius: 50%;
+		width: 35px;
+		height: 35px;
+		object-fit: cover;
+	}
+}
+
+.notifications-indicator {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	line-height: 21px;
+	position: relative;
+	margin: 0 30px 0 0;
+
+	.gl-ico {
+		color: $secondTextColor;
+		font-size: 18px;
+	}
+
+	.notifications-count {
+		position: absolute;
+		top: -2px;
+		left: 7px;
+		font-size: 10px;
+		line-height: 12px;
+		height: 13px;
+		box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09),0 1px 4px 0 rgba(0, 0, 0, 0.25);
+		color: #fff;
+		background: #1e97d8;
+		border-radius: 5px;
+		padding: 0 6px;
+	}
+}
+
 .object-type {
 	float: right;
 	margin: 18px 40px 0 0;
@@ -1122,6 +1167,32 @@ input.daterange-input {
 	
 }
 
+.pages-nav {
+	display: flex;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 17px;
+	align-items: center;
+	padding: 0 0 35px;
+
+	.lnk-prev,
+	.lnk-next {
+
+		.gl-ico {
+			vertical-align: middle;
+			margin: 0 5px 0 0;
+		}
+	}
+
+	.lnk-next {
+		margin-left: auto;
+
+		.gl-ico {
+			margin: 0 0 0 5px;
+		}
+	}
+}
+
 .recommendation-types {
 	display: flex;
 	opacity: .5;
@@ -1477,7 +1548,6 @@ input.daterange-input {
 		flex: auto;
 
 		.col {
-
 			+ .col {
 				margin-left: 30px;
 			}
@@ -1502,6 +1572,10 @@ input.daterange-input {
 	.stars {
 		display: inline-block;
 		vertical-align: middle;
+
+		.review-content & {
+			font-size: 21px;
+		}
 
 		.star {
 			color: #1e97d8;
@@ -1783,6 +1857,30 @@ input.daterange-input {
 		flex: 1;
 	}
 }
+
+.aside-box {
+	background: #e5e5e5;
+	padding: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(#000, .5);
+	text-align: center;
+	border-radius: 10px;
+
+	.ttl {
+		font: bold 18px/20px 'Open Sans';
+		color: $secondTextColor;
+		display: block;
+		margin: 0 0 17px;
+	}
+
+	.btn {
+		+ .btn {
+			margin-top: 20px;
+		}
+	}
+}
+
 .tags-wrap {
 	padding: 20px 0 0;
 
@@ -1794,29 +1892,35 @@ input.daterange-input {
 		font-weight: bold;
 		margin: 0 0 15px;
 	}
+
 	.tags-list {
-		display: flex;
-		flex-wrap: wrap;
 		margin: 0 -5px -10px;
+		padding: 0;
+	}
+}
+.tags-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -5px 0;
+	padding: 10px 0 30px;
 
-		.tag {
-			flex: auto;
-			color: #1e97d8;
-			margin: 0 5px 10px;
+	.tag {
+		flex: auto;
+		color: #1e97d8;
+		margin: 0 5px 10px;
 
-			&.selected {
-				color: greenyellow;
-			}
-
-			.gl-ico {
-				margin: 0 7px 0 0;
-			}
+		&.selected {
+			color: greenyellow;
 		}
 
-		span.tag {
-			cursor: default;
-			pointer-events: none;
+		.gl-ico {
+			margin: 0 7px 0 0;
 		}
+	}
+
+	span.tag {
+		cursor: default;
+		pointer-events: none;
 	}
 }
 .recommend-eval-wrap {
@@ -2062,7 +2166,7 @@ input.daterange-input {
 	display: flex;
 	font-size: 14px;
 	line-height: 17px;
-	height: 50px;
+	height: 49px;
 
 	.personal-content-block & {
 		margin: -30px -30px 0 -30px;
@@ -2090,6 +2194,89 @@ input.daterange-input {
 		}
 	}
 }
+.review-desc {
+
+	&-img {
+		@include aspect-ratio(870, 250);
+		margin: 0 -31px 15px;
+
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&-ttl {
+		display: flex;
+		align-items: center;
+		padding: 0 30px 10px;
+		border-bottom: 1px solid #e5e5e5;
+		margin: 0 -30px 25px;
+
+		&-wrap {
+			font-size: 18px;
+			line-height: 21px;
+
+			.review-ttl {
+				display: block;
+				font-weight: bold;
+				color: $secondTextColor;
+				padding: 0 0 10px;
+			}
+			.review-sub-ttl {
+				display: block;
+			}
+		}
+
+		&-info {
+			margin-left: auto;
+			text-align: right;
+			font-size: 14px;
+			line-height: 17px;
+
+			.date {
+				font-style: normal;
+				font-weight: bold;
+				color: rgba(#000, .5);
+				font-size: 12px;
+				display: block;
+				padding: 2px 0;
+			}
+
+			.recommendators-name {
+				display: flex;
+				align-items: center;
+
+				.avatar {
+					border-radius: 50%;
+					margin: 0 10px 0 0;
+					width: 35px;
+					height: 35px;
+					object-fit: cover;
+				}
+			}
+		}
+	}
+
+	.review-content {
+		font-size: 18px;
+		line-height: 28px;
+		color: #000;
+
+		h2 {
+			font: bold 18px/28px 'Open Sans';
+			color: #000;
+			margin: 0 0 5px;
+		}
+
+		p {
+			margin: 0 0 25px;
+		}
+	}
+}
+
 
 .recommendations-from {
 	display: flex;
@@ -2355,9 +2542,18 @@ input.daterange-input {
 	.rating {
 		padding: 15px 0;
 
+		.review-content & {
+			padding: 10px 0;
+		}
+
 		.rating-ttl {
 			width: 190px;
 			font-size: 16px;
+
+			.review-content & {
+				font-size: 18px;
+				font-weight: normal;
+			}
 		}
 	}
 }
@@ -4579,7 +4775,13 @@ input.daterange-input {
 
 		a {
 			color: currentColor;
+
+			&:hover {
+				color: #fff;
+				text-decoration: none;
+			}
 		}
+
 		.copy {
 			float: left;
 			margin: 0;
@@ -4632,6 +4834,39 @@ input.daterange-input {
 	padding-left: 0;
 	padding-right: 0;
 }
+
+.terms-wrap {
+	padding: 65px 0;
+}
+
+.text-block {
+	font-size: 18px;
+	line-height: 28px;
+
+	h1 {
+		font: bold 40px/43px 'Open Sans';
+		margin: 0 0 40px;
+	}
+
+	h2 {
+		font: bold 25px/28px 'Open Sans';
+		margin: 0 0 25px;
+
+		&.section-heading {
+			color: rgba(#000, .3);
+		}
+	}
+
+	h3 {
+		font: bold 18px/21px 'Open Sans';
+		margin: 0 0 15px;
+	}
+
+	p {
+		margin: 0 0 20px;
+	}
+}
+
 
 .custom-marker {
 	height: 34px;
@@ -5298,6 +5533,7 @@ input.daterange-input {
 	@extend .personal-box;
 	padding: 30px;
 	width: 100%;
+	min-height: 1px !important;
 
 	&.trips-list-wrap {
 		border: 0;
@@ -5366,6 +5602,7 @@ input.daterange-input {
 	z-index: 2;
 	font-size: 14px;
 	line-height: 19px;
+	margin: 0 0 30px;
 
 	li {
 		position: relative;
