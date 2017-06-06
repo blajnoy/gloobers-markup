@@ -72,9 +72,9 @@
 				<div class="row flex-row">
 					<div class="col-xs-3">
 						<ul class="personal-cabinet-tabs">
-							<li><a href="#">My reviews</a></li>
-							<li><a href="#">My recommendations</a></li>
-							<li class="active"><a href="#">Followed recommendations</a></li>
+							<li><a href="personal-my-reviews">My reviews</a></li>
+							<li class="active"><a href="personal-my-recommendations">My recommendations</a></li>
+							<li><a href="personal-followed-recommendations">Followed recommendations</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-9">
@@ -82,15 +82,24 @@
 							<div class="search-ttl">
 								<div class="selects-wrap">
 									<div class="col">
-										<div class="date-range">
-											<input class="daterange-input" data-position="bottom left" data-single-date-picker="false" data-offset="-15px 0" data-theme="drop-theme-arrows-bounce" name="date" type="text" data-start-date="12/16/2016" data-end-date="12/16/2016" placeholder="30/11/2016 - 31/12/2016" value="01/01/2015 - 01/31/2015">
-										</div>
+										<select name="vv" id="vv" class="sel">
+											<option>Country</option>
+											<option>Country1</option>
+											<option>Country2</option>
+										</select>
 									</div>
 									<div class="col">
 										<select name="vv1" id="vv1" class="sel">
-											<option>>500</option>
-											<option>>100</option>
-											<option>>20</option>
+											<option>City</option>
+											<option>City1</option>
+											<option>City2</option>
+										</select>
+									</div>
+									<div class="col">
+										<select name="vv2" id="vv2" class="sel">
+											<option>Passion</option>
+											<option>Passion1</option>
+											<option>Passion2</option>
 										</select>
 									</div>
 								</div>
@@ -105,16 +114,25 @@
 											<span class="img-wrap">
 												<img src="images/img01.jpg" alt="image">
 											</span>
-											<div class="price">
-												<strong>230<sup>TC</sup></strong>
-												<span>You earn</span>
-											</div>
 										</div>
-										<img class="avatar" src="images/photo01.jpg" alt="image">
 										<strong class="ttl">Lorem Ipsum is simply </strong>
+										<div class="sub-ttl">
+											<span class="name">Long location name</span>
+										</div>
 										<div class="review-footer-info">
-											<em class="date followed-reco-date">12.02.17</em>
-											<span class="author-name">Author name</span>
+											<div class="rating">
+												<div class="stars">
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+											<div class="footer-info-col">
+												<a href="#" class="lnk-edit"><i class="gl-ico gl-ico-edit"></i> Edit</a>
+											</div>
+											<em class="date">12.02.17</em>
 										</div>
 									</a>
 								</div>
@@ -124,16 +142,25 @@
 									<span class="img-wrap">
 										<img src="images/img01.jpg" alt="image">
 									</span>
-											<div class="price">
-												<strong>230<sup>TC</sup></strong>
-												<span>You earn</span>
-											</div>
 										</div>
-										<img class="avatar" src="images/photo01.jpg" alt="image">
 										<strong class="ttl">Lorem Ipsum is simply </strong>
+										<div class="sub-ttl">
+											<span class="name">Long location name</span>
+										</div>
 										<div class="review-footer-info">
-											<em class="date followed-reco-date">12.02.17</em>
-											<span class="author-name">Author name</span>
+											<div class="rating">
+												<div class="stars">
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+											<div class="footer-info-col">
+												<a href="#" class="lnk-edit"><i class="gl-ico gl-ico-edit"></i> Edit</a>
+											</div>
+											<em class="date">12.02.17</em>
 										</div>
 									</a>
 								</div>
@@ -143,16 +170,25 @@
 									<span class="img-wrap">
 										<img src="images/img01.jpg" alt="image">
 									</span>
-											<div class="price">
-												<strong>230<sup>TC</sup></strong>
-												<span>You earn</span>
-											</div>
 										</div>
-										<img class="avatar" src="images/photo01.jpg" alt="image">
 										<strong class="ttl">Lorem Ipsum is simply </strong>
+										<div class="sub-ttl">
+											<span class="name">Long location name</span>
+										</div>
 										<div class="review-footer-info">
-											<em class="date followed-reco-date">12.02.17</em>
-											<span class="author-name">Author name</span>
+											<div class="rating">
+												<div class="stars">
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+											<div class="footer-info-col">
+												<a href="#" class="lnk-edit"><i class="gl-ico gl-ico-edit"></i> Edit</a>
+											</div>
+											<em class="date">12.02.17</em>
 										</div>
 									</a>
 								</div>
@@ -162,16 +198,81 @@
 									<span class="img-wrap">
 										<img src="images/img01.jpg" alt="image">
 									</span>
-											<div class="price">
-												<strong>230<sup>TC</sup></strong>
-												<span>You earn</span>
-											</div>
 										</div>
-										<img class="avatar" src="images/photo01.jpg" alt="image">
 										<strong class="ttl">Lorem Ipsum is simply </strong>
+										<div class="sub-ttl">
+											<span class="name">Long location name</span>
+										</div>
 										<div class="review-footer-info">
-											<em class="date followed-reco-date">12.02.17</em>
-											<span class="author-name">Author name</span>
+											<div class="rating">
+												<div class="stars">
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+											<div class="footer-info-col">
+												<a href="#" class="lnk-edit"><i class="gl-ico gl-ico-edit"></i> Edit</a>
+											</div>
+											<em class="date">12.02.17</em>
+										</div>
+									</a>
+								</div>
+								<div class="card">
+									<a href="#" class="card-holder">
+										<div class="img-h">
+									<span class="img-wrap">
+										<img src="images/img01.jpg" alt="image">
+									</span>
+										</div>
+										<strong class="ttl">Lorem Ipsum is simply </strong>
+										<div class="sub-ttl">
+											<span class="name">Long location name</span>
+										</div>
+										<div class="review-footer-info">
+											<div class="rating">
+												<div class="stars">
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+											<div class="footer-info-col">
+												<a href="#" class="lnk-edit"><i class="gl-ico gl-ico-edit"></i> Edit</a>
+											</div>
+											<em class="date">12.02.17</em>
+										</div>
+									</a>
+								</div>
+								<div class="card">
+									<a href="#" class="card-holder">
+										<div class="img-h">
+									<span class="img-wrap">
+										<img src="images/img01.jpg" alt="image">
+									</span>
+										</div>
+										<strong class="ttl">Lorem Ipsum is simply </strong>
+										<div class="sub-ttl">
+											<span class="name">Long location name</span>
+										</div>
+										<div class="review-footer-info">
+											<div class="rating">
+												<div class="stars">
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+													<span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span>
+												</div>
+											</div>
+											<div class="footer-info-col">
+												<a href="#" class="lnk-edit"><i class="gl-ico gl-ico-edit"></i> Edit</a>
+											</div>
+											<em class="date">12.02.17</em>
 										</div>
 									</a>
 								</div>
