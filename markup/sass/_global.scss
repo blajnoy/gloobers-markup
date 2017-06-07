@@ -12,8 +12,11 @@ p {margin: 0 0 20px;}
 a {
 	color: $linkColor;
 	text-decoration: none;
+
+	&:focus,
+	&:active,
 	&:hover {
-		text-decoration: underline;
+		text-decoration: none;
 	}
 }
 h1, h2, h3, h4 {
@@ -62,4 +65,88 @@ svg {
 	vertical-align: middle;
 	max-width: 100%;
 	overflow: hidden;
+}
+
+/* table custom styles */
+.table {
+	font-size: 14px;
+	line-height: 24px;
+
+	thead {
+
+		tr {
+			font-weight: bold;
+			color: $secondTextColor;
+
+			th {
+				padding: 15px;
+				&:first-child {padding-left: 0;}
+				&:last-child {padding-right: 0;}
+			}
+		}
+	}
+
+	tbody {
+		tr {
+
+			td {
+				padding: 15px;
+				&:first-child {padding-left: 0;}
+				&:last-child {padding-right: 0;}
+			}
+		}
+	}
+
+	tfoot {
+		tr {
+
+			td {
+				padding: 15px;
+				&:first-child {padding-left: 0;}
+				&:last-child {padding-right: 0;}
+			}
+		}
+	}
+
+	strong {
+		font-weight: bold;
+	}
+}
+
+.text-success {color: #33c500;}
+.text-danger {color: #f00;}
+.text-muted {color: rgba(#000, .3);}
+.text-indicator {
+	position: relative;
+	padding: 0 11px 0 0;
+	display: inline-block;
+
+	&:after {
+		content: "";
+		width: 0;
+		height: 0;
+		border: 0 solid transparent;
+		border-left-width: 4px;
+		border-right-width: 4px;
+		border-top: 6px solid currentColor;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	&.down {
+		@extend .text-danger;
+	}
+
+	&.up {
+		@extend .text-success;
+
+		&:after {
+			border: 0 solid transparent;
+			border-left-width: 4px;
+			border-right-width: 4px;
+			border-bottom: 6px solid currentColor;
+		}
+	}
 }

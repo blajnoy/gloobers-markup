@@ -17,6 +17,10 @@
 	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="css/star-rating.min.css" rel="stylesheet">
 	<link href="css/toggle-switch-px.css" rel="stylesheet">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.css" rel="stylesheet" />
+
 	<link href="css/all.css" rel="stylesheet">
 </head>
 <body>
@@ -68,54 +72,380 @@
 				<div class="row flex-row">
 					<div class="col-xs-3">
 						<ul class="personal-cabinet-tabs">
-							<li><a href="#">Current satistics</a></li>
-							<li class="active"><a href="#">Payment history</a></li>
-							<li><a  class="test" href="#">Payment policy</a></li>
-
+							<li><a href="personal-current-statistics">Current satistics</a></li>
+							<li class="active"><a href="personal-payment-history">Payment history</a></li>
+							<li><a href="personal-payment-policy">Payment policy</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-9">
 						<div class="personal-content-block">
-							<div class="statistic-counters">
-								<div class="statistic-counters-col">
-									<strong class="counter-ttl">Now in purce</strong>
-									<div class="st-counter"><strong>3600</strong><span>TC</span></div>
-									<div class="cur-equivalent">$ 574.30</div>
+							<ul class="operations-tab-nav" role="tablist">
+								<li role="presentation"><a aria-controls="completeOperations" role="tab" data-toggle="tab" href="#completeOperations">Complete operations</a></li>
+								<li role="presentation" class="active"><a aria-controls="upcomingOperations" role="tab" data-toggle="tab" href="#upcomingOperations">Upcoming operations</a></li>
+							</ul>
+							<div class="tab-content">
+								<div id="completeOperations" role="tabpanel" class="tab-pane fade">
+									<h2>All payments <span class="text-muted">(356)</span></h2>
+									<div class="search-ttl">
+										<div class="selects-wrap">
+											<div class="col">
+												<select name="vv" id="vv" class="sel">
+													<option>Filter 1</option>
+													<option>Filter 2</option>
+													<option>Filter 3</option>
+												</select>
+											</div>
+											<div class="col">
+												<select name="vv1" id="vv1" class="sel">
+													<option>Special filter 1</option>
+													<option>Special filter 2</option>
+													<option>Special filter 3</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-txt">
+											<input type="text" value="" placeholder="Search">
+										</div>
+									</div>
+									<div class="table-responsive">
+										<table class="table table-hover">
+											<thead>
+												<tr>
+													<th>Data</th>
+													<th>Type</th>
+													<th>Details</th>
+													<th>Name</th>
+													<th>Total</th>
+													<th></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator down">Spent</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-danger">-2000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator up">Earned</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-success">+1000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator down">Spent</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-danger">-2000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator up">Cancellation</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-success">+700</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator down">Spent</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-danger">-2000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator up">Earned</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-success">+1000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator down">Spent</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-danger">-2000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator up">Earned</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-success">+1000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator down">Spent</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-danger">-2000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator up">Earned</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-success">+1000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator down">Spent</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-danger">-2000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator up">Cancellation</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-success">+700</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator down">Spent</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-danger">-2000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator up">Earned</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-success">+1000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator down">Spent</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-danger">-2000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+												<tr>
+													<td>08.02.17</td>
+													<td><span class="text-indicator up">Earned</span></td>
+													<td>Lorem ipsum Lorem ipsum</td>
+													<td>Listing name here...</td>
+													<td><strong class="text-success">+1000</strong></td>
+													<td><a href="#">View</a></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="table-pagination">
+										<span class="info-desc">* Description about statistics</span>
+										<ul class="pagination">
+											<li class="disabled"><a href="#" aria-label="Previous"><i aria-hidden="true" class="gl-ico gl-ico-arrow-left"></i></a></li>
+											<li class="active"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><span>...</span></li>
+											<li><a href="#">12</a></li>
+											<li><a href="#" aria-label="Next"><i aria-hidden="true" class="gl-ico gl-ico-arrow-right"></i></a></li>
+										</ul>
+									</div>
 								</div>
-								<div class="statistic-counters-col">
-									<strong class="counter-ttl">Now in purce</strong>
-									<div class="st-counter"><strong>785</strong><span>TC</span></div>
-									<span class="st-from">from 12.02.2017</span>
+								<div id="upcomingOperations" role="tabpanel" class="tab-pane fade in active">
+									<h2>All payments <span class="text-muted">(356)</span></h2>
+									<div class="search-ttl">
+										<div class="selects-wrap">
+											<div class="col">
+												<select name="vv" id="vv" class="sel">
+													<option>Filter 1</option>
+													<option>Filter 2</option>
+													<option>Filter 3</option>
+												</select>
+											</div>
+											<div class="col">
+												<select name="vv1" id="vv1" class="sel">
+													<option>Special filter 1</option>
+													<option>Special filter 2</option>
+													<option>Special filter 3</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-txt">
+											<input type="text" value="" placeholder="Search">
+										</div>
+									</div>
+									<div class="table-responsive">
+										<table class="table table-hover">
+											<thead>
+											<tr>
+												<th>Data</th>
+												<th>Type</th>
+												<th>Details</th>
+												<th>Name</th>
+												<th>Total</th>
+												<th></th>
+											</tr>
+											</thead>
+											<tbody>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator down">Spent</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-danger">-2000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator up">Earned</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-success">+1000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator down">Spent</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-danger">-2000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator up">Cancellation</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-success">+700</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator down">Spent</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-danger">-2000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator up">Earned</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-success">+1000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator down">Spent</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-danger">-2000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator up">Earned</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-success">+1000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator down">Spent</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-danger">-2000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator up">Earned</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-success">+1000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator down">Spent</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-danger">-2000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator up">Cancellation</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-success">+700</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator down">Spent</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-danger">-2000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator up">Earned</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-success">+1000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator down">Spent</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-danger">-2000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											<tr>
+												<td>08.02.17</td>
+												<td><span class="text-indicator up">Earned</span></td>
+												<td>Lorem ipsum Lorem ipsum</td>
+												<td>Listing name here...</td>
+												<td><strong class="text-success">+1000</strong></td>
+												<td><a href="#">View</a></td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="table-pagination">
+										<span class="info-desc">* Description about statistics</span>
+										<ul class="pagination">
+											<li class="disabled"><a href="#" aria-label="Previous"><i aria-hidden="true" class="gl-ico gl-ico-arrow-left"></i></a></li>
+											<li class="active"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><span>...</span></li>
+											<li><a href="#">12</a></li>
+											<li><a href="#" aria-label="Next"><i aria-hidden="true" class="gl-ico gl-ico-arrow-right"></i></a></li>
+										</ul>
+									</div>
 								</div>
-							</div>
-							<div class="info-desc-wrap">
-								<span class="info-desc">* Description for counters</span>
-							</div>
-							<div class="ttl">
-								<h2>Total trevel credits statistics on Gloobers</h2>
-							</div>
-							<div class="credits-statistics">
-								<strong class="credits-statistics-ttl">Total earned</strong>
-								<strong class="total">12000</strong>
-							</div>
-							<div class="total-spend-row">
-								<span class="total-spend-ttl">Total spend</span>
-								<strong class="total-spend-num">3560</strong>
-							</div>
-							<div class="statistics-chart-row">
-								<strong class="statistics-chart-ttl">Earning process on Gloobers</strong>
-								<div class="select-date-range">
-									<a href="#"><i class="gl-ico gl-ico-arrow-left"></i></a>
-									<span>Year 2017</span>
-									<a href="#"><i class="gl-ico gl-ico-arrow-right"></i></a>
-								</div>
-							</div>
-							<div class="chart-wrapper">
-								<canvas id="chart"></canvas>
-							</div>
-							<div class="info-desc-wrap history-row">
-								<span class="info-desc">* Description for counters</span>
-								<a href="#" class="lnk-history">Open history</a>
 							</div>
 						</div>
 					</div>
@@ -352,6 +682,8 @@
 	<script src="js/scroll-menu.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 
 	<script src="js/main.js"></script>
 
