@@ -88,11 +88,13 @@
 	border-left: 2px solid #e5e5e5;
 	padding: 0 0 0 28px;
 
-	.fa {
+	.gl-ico {
 		vertical-align: middle;
 		margin: 0 -22px 0 0;
 		position: relative;
 		z-index: 2;
+		font-size: 16px;
+		color: $secondTextColor;
 	}
 
 	.search-field {
@@ -619,6 +621,11 @@ input.daterange-input {
 	.btn-search {
 		float: left;
 		margin: -10px 0;
+
+		.gl-ico-search {
+			font-size: 18px;
+			vertical-align: middle;
+		}
 
 		.gl-ico-marker-add {
 			font-size: 26px;
@@ -1594,8 +1601,35 @@ input.daterange-input {
 	}
 }
 
+.filters-wrap {
+	font-size: 14px;
+}
+.lnk-filter {
+	margin-right: 55px;
+	color: rgba(#000, .6);
+
+	&:focus,
+	&:active,
+	&:hover {
+		text-decoration: none;
+	}
+
+	.gl-ico {
+		vertical-align: -15%;
+		margin-left: 5px;
+		transition: all 0.2s ease-out;
+	}
+
+	&.up {
+		.gl-ico {
+			transform: rotate3d(1,0,0,180deg);
+		}
+	}
+}
+
 .search-ttl {
 	display: flex;
+	align-items: center;
 	padding: 0 0 30px;
 
 	.selects-wrap {
@@ -1613,6 +1647,28 @@ input.daterange-input {
 		margin-left: auto;
 	}
 }
+
+.search-txt {
+	position: relative;
+
+	input {
+		border-color: #dbdbdb;
+		padding: 1px 15px 0 40px;
+		min-height: 33px;
+		font-size: 12px;
+		font-family: 'Open Sans';
+	}
+
+	.gl-ico-search {
+		position: absolute;
+		left: 21px;
+		top: 50%;
+		transform: translateY(-50%);
+		font-size: 12px;
+		color: #ccc;
+	}
+}
+
 .object-rate-info {
 	float: right;
 	text-align: right;

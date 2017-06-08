@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/markup/sass/_styles.scss" line="3621" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/markup/sass/_styles.scss" line="3677" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/js/personal-payment-history.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.eot" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.ttf" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.woff" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.woff2" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.woff2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/css/all.css" afterPath="$PROJECT_DIR$/markup/public/css/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.svg" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/index.html" afterPath="$PROJECT_DIR$/markup/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-cabinet-profile.html" afterPath="$PROJECT_DIR$/markup/public/personal-cabinet-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-followed-recommendations.html" afterPath="$PROJECT_DIR$/markup/public/personal-followed-recommendations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-my-recommendations.html" afterPath="$PROJECT_DIR$/markup/public/personal-my-recommendations.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-payment-history.html" afterPath="$PROJECT_DIR$/markup/public/personal-payment-history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_global.scss" afterPath="$PROJECT_DIR$/markup/sass/_global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-review-single.html" afterPath="$PROJECT_DIR$/markup/public/personal-review-single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-travel-credits.html" afterPath="$PROJECT_DIR$/markup/public/personal-travel-credits.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-trips-comming-soon.html" afterPath="$PROJECT_DIR$/markup/public/personal-trips-comming-soon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-trips-done.html" afterPath="$PROJECT_DIR$/markup/public/personal-trips-done.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-trips-first-usage.html" afterPath="$PROJECT_DIR$/markup/public/personal-trips-first-usage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-trips-planer.html" afterPath="$PROJECT_DIR$/markup/public/personal-trips-planer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/profile-edit.html" afterPath="$PROJECT_DIR$/markup/public/profile-edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/profile-public.html" afterPath="$PROJECT_DIR$/markup/public/profile-public.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/search-results-advisors.html" afterPath="$PROJECT_DIR$/markup/public/search-results-advisors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/search-results.html" afterPath="$PROJECT_DIR$/markup/public/search-results.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/single-hotel.html" afterPath="$PROJECT_DIR$/markup/public/single-hotel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/single.html" afterPath="$PROJECT_DIR$/markup/public/single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_icons.scss" afterPath="$PROJECT_DIR$/markup/sass/_icons.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/_styles.scss" />
     </list>
     <ignored path="gloobers-markup.iws" />
@@ -32,6 +54,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="142" column="81" selection-start-line="142" selection-start-column="61" selection-end-line="142" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="personal-current-statistics.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/public/personal-current-statistics.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,7 +78,17 @@
         <entry file="file://$PROJECT_DIR$/markup/public/personal-payment-policy.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="78" column="54" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="54" />
+              <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search-results.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/markup/public/search-results.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="1043" column="123" selection-start-line="1043" selection-start-column="123" selection-end-line="1043" selection-end-column="123" />
               <folding />
             </state>
           </provider>
@@ -55,27 +97,35 @@
       <file leaf-file-name="personal-payment-history.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/public/personal-payment-history.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="108" column="42" selection-start-line="88" selection-start-column="36" selection-end-line="108" selection-end-column="42" />
+            <state relative-caret-position="79">
+              <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="1666" column="21" selection-start-line="1666" selection-start-column="21" selection-end-line="1666" selection-end-column="21" />
               <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#2917#3204#0" expanded="false" />
+                <element signature="e#16132#17012#0" expanded="false" />
+                <element signature="e#53666#54086#0" expanded="false" />
+                <element signature="e#82886#83181#0" expanded="false" />
+                <element signature="e#86284#86487#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_styles.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+      <file leaf-file-name="personal-payment-history.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/public/js/personal-payment-history.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="1612" column="26" selection-start-line="1612" selection-start-column="26" selection-end-line="1612" selection-end-column="26" />
-              <folding>
-                <element signature="e#2867#3154#0" expanded="false" />
-                <element signature="e#16011#16891#0" expanded="false" />
-                <element signature="e#52899#53319#0" expanded="false" />
-                <element signature="e#82119#82414#0" expanded="false" />
-                <element signature="e#85517#85720#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,6 +135,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/public/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -106,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/markup/personal-recommendations.html" />
-        <option value="$PROJECT_DIR$/markup/css/all.css" />
         <option value="$PROJECT_DIR$/markup/personal-trips.html" />
         <option value="$PROJECT_DIR$/markup/personal-trips-done.html" />
         <option value="$PROJECT_DIR$/markup/personal-followed-recommendations.html" />
@@ -145,7 +203,6 @@
         <option value="$PROJECT_DIR$/markup/public/personal-review-single.html" />
         <option value="$PROJECT_DIR$/markup/public/js/personal-review-single.js" />
         <option value="$PROJECT_DIR$/markup/public/payment.html" />
-        <option value="$PROJECT_DIR$/markup/public/js/main.js" />
         <option value="$PROJECT_DIR$/markup/public/js/terms&amp;conditions.js" />
         <option value="$PROJECT_DIR$/markup/public/terms&amp;conditions.html" />
         <option value="$PROJECT_DIR$/markup/public/personal-followed-recommendations.html" />
@@ -153,10 +210,13 @@
         <option value="$PROJECT_DIR$/markup/public/personal-my-recommendations.html" />
         <option value="$PROJECT_DIR$/markup/public/personal-recommendation-single.html" />
         <option value="$PROJECT_DIR$/markup/public/personal-current-statistics.html" />
-        <option value="$PROJECT_DIR$/markup/public/personal-payment-history.html" />
         <option value="$PROJECT_DIR$/markup/sass/_global.scss" />
-        <option value="$PROJECT_DIR$/markup/public/personal-payment-policy.html" />
+        <option value="$PROJECT_DIR$/markup/public/index.html" />
+        <option value="$PROJECT_DIR$/markup/public/js/main.js" />
+        <option value="$PROJECT_DIR$/markup/public/js/personal-payment-history.js" />
         <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
+        <option value="$PROJECT_DIR$/markup/public/personal-payment-policy.html" />
+        <option value="$PROJECT_DIR$/markup/public/personal-payment-history.html" />
       </list>
     </option>
   </component>
@@ -277,6 +337,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gloobers-markup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gloobers-markup" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markup" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -389,14 +471,7 @@
       <workItem from="1495108206584" duration="8016000" />
       <workItem from="1495122532331" duration="19197000" />
       <workItem from="1495447092203" duration="46219000" />
-      <workItem from="1495637657203" duration="113926000" />
-    </task>
-    <task id="LOCAL-00022" summary="calendar">
-      <created>1488815513809</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1488815513809</updated>
+      <workItem from="1495637657203" duration="121333000" />
     </task>
     <task id="LOCAL-00023" summary="calendar">
       <created>1488906266225</created>
@@ -734,11 +809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496764163482</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="person counter">
+      <created>1496848842087</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1496848842088</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="863964000" />
+    <option name="totallyTimeSpent" value="871371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -835,21 +917,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/markup/sass/_icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/assets/css/templates/_icons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1116,26 +1183,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4996">
-          <caret line="429" column="0" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/node_modules/moment/src/lib/utils/index-of.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="70" column="75" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
           <folding />
         </state>
       </provider>
@@ -1198,14 +1249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/search-results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="758" column="54" selection-start-line="749" selection-start-column="48" selection-end-line="758" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/public/personal-recommendation-single.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -1254,12 +1297,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/personal-payment-history.html">
+    <entry file="file://$PROJECT_DIR$/markup/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="108" column="42" selection-start-line="88" selection-start-column="36" selection-end-line="108" selection-end-column="42" />
+        <state relative-caret-position="458">
+          <caret line="142" column="81" selection-start-line="142" selection-start-column="61" selection-end-line="142" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/js/personal-payment-history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="1666" column="21" selection-start-line="1666" selection-start-column="21" selection-end-line="1666" selection-end-column="21" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2917#3204#0" expanded="false" />
+            <element signature="e#16132#17012#0" expanded="false" />
+            <element signature="e#53666#54086#0" expanded="false" />
+            <element signature="e#82886#83181#0" expanded="false" />
+            <element signature="e#86284#86487#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1267,22 +1338,32 @@
     <entry file="file://$PROJECT_DIR$/markup/public/personal-payment-policy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="78" column="54" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="54" />
+          <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/sass/_styles.scss">
+    <entry file="file://$PROJECT_DIR$/markup/public/js/star-rating.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="1612" column="26" selection-start-line="1612" selection-start-column="26" selection-end-line="1612" selection-end-column="26" />
-          <folding>
-            <element signature="e#2867#3154#0" expanded="false" />
-            <element signature="e#16011#16891#0" expanded="false" />
-            <element signature="e#52899#53319#0" expanded="false" />
-            <element signature="e#82119#82414#0" expanded="false" />
-            <element signature="e#85517#85720#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/personal-payment-history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/search-results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="1043" column="123" selection-start-line="1043" selection-start-column="123" selection-end-line="1043" selection-end-column="123" />
+          <folding />
         </state>
       </provider>
     </entry>

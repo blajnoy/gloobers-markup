@@ -302,74 +302,77 @@
 	@if $filename == sea-view {
 		$char: \E05B;
 	}
-	@if $filename == shopping {
+	@if $filename == search {
 		$char: \E05C;
 	}
-	@if $filename == sightseeing {
+	@if $filename == shopping {
 		$char: \E05D;
 	}
-	@if $filename == ski {
+	@if $filename == sightseeing {
 		$char: \E05E;
 	}
-	@if $filename == spa {
+	@if $filename == ski {
 		$char: \E05F;
 	}
-	@if $filename == sports {
+	@if $filename == spa {
 		$char: \E060;
 	}
-	@if $filename == staff {
+	@if $filename == sports {
 		$char: \E061;
 	}
-	@if $filename == star {
+	@if $filename == staff {
 		$char: \E062;
 	}
-	@if $filename == street-map {
+	@if $filename == star {
 		$char: \E063;
 	}
-	@if $filename == things-to-keep-in-mind {
+	@if $filename == street-map {
 		$char: \E064;
 	}
-	@if $filename == transportation {
+	@if $filename == things-to-keep-in-mind {
 		$char: \E065;
 	}
-	@if $filename == trekking {
+	@if $filename == transportation {
 		$char: \E066;
 	}
-	@if $filename == tv {
+	@if $filename == trekking {
 		$char: \E067;
 	}
-	@if $filename == twitter {
+	@if $filename == tv {
 		$char: \E068;
 	}
-	@if $filename == user {
+	@if $filename == twitter {
 		$char: \E069;
 	}
-	@if $filename == users-group {
+	@if $filename == user {
 		$char: \E06A;
 	}
-	@if $filename == users {
+	@if $filename == users-group {
 		$char: \E06B;
 	}
-	@if $filename == washing {
+	@if $filename == users {
 		$char: \E06C;
 	}
-	@if $filename == water-sports {
+	@if $filename == washing {
 		$char: \E06D;
 	}
-	@if $filename == wellness {
+	@if $filename == water-sports {
 		$char: \E06E;
 	}
-	@if $filename == wifi {
+	@if $filename == wellness {
 		$char: \E06F;
 	}
-	@if $filename == wildlife {
+	@if $filename == wifi {
 		$char: \E070;
 	}
-	@if $filename == wine {
+	@if $filename == wildlife {
 		$char: \E071;
 	}
-	@if $filename == worldwide {
+	@if $filename == wine {
 		$char: \E072;
+	}
+	@if $filename == worldwide {
+		$char: \E073;
 	}
 
 	@return $char;
@@ -661,6 +664,9 @@
 }
 .gl-ico-sea-view {
 	@include gl-ico(sea-view);
+}
+.gl-ico-search {
+	@include gl-ico(search);
 }
 .gl-ico-shopping {
 	@include gl-ico(shopping);

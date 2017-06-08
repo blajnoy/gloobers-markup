@@ -430,96 +430,100 @@ table {
   content: "\E05B";
 }
 
-.gl-ico-shopping:before {
+.gl-ico-search:before {
   content: "\E05C";
 }
 
-.gl-ico-sightseeing:before {
+.gl-ico-shopping:before {
   content: "\E05D";
 }
 
-.gl-ico-ski:before {
+.gl-ico-sightseeing:before {
   content: "\E05E";
 }
 
-.gl-ico-spa:before {
+.gl-ico-ski:before {
   content: "\E05F";
 }
 
-.gl-ico-sports:before {
+.gl-ico-spa:before {
   content: "\E060";
 }
 
-.gl-ico-staff:before {
+.gl-ico-sports:before {
   content: "\E061";
 }
 
-.gl-ico-star:before {
+.gl-ico-staff:before {
   content: "\E062";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-star:before {
   content: "\E063";
 }
 
-.gl-ico-things-to-keep-in-mind:before {
+.gl-ico-street-map:before {
   content: "\E064";
 }
 
-.gl-ico-transportation:before {
+.gl-ico-things-to-keep-in-mind:before {
   content: "\E065";
 }
 
-.gl-ico-trekking:before {
+.gl-ico-transportation:before {
   content: "\E066";
 }
 
-.gl-ico-tv:before {
+.gl-ico-trekking:before {
   content: "\E067";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-tv:before {
   content: "\E068";
 }
 
-.gl-ico-user:before {
+.gl-ico-twitter:before {
   content: "\E069";
 }
 
-.gl-ico-users-group:before {
+.gl-ico-user:before {
   content: "\E06A";
 }
 
-.gl-ico-users:before {
+.gl-ico-users-group:before {
   content: "\E06B";
 }
 
-.gl-ico-washing:before {
+.gl-ico-users:before {
   content: "\E06C";
 }
 
-.gl-ico-water-sports:before {
+.gl-ico-washing:before {
   content: "\E06D";
 }
 
-.gl-ico-wellness:before {
+.gl-ico-water-sports:before {
   content: "\E06E";
 }
 
-.gl-ico-wifi:before {
+.gl-ico-wellness:before {
   content: "\E06F";
 }
 
-.gl-ico-wildlife:before {
+.gl-ico-wifi:before {
   content: "\E070";
 }
 
-.gl-ico-wine:before {
+.gl-ico-wildlife:before {
   content: "\E071";
 }
 
-.gl-ico-worldwide:before {
+.gl-ico-wine:before {
   content: "\E072";
+}
+
+.gl-ico-worldwide:before {
+  content: "\E073";
 }
 
 body {
@@ -3344,11 +3348,13 @@ fieldset[disabled] .btn {
   padding: 0 0 0 28px;
 }
 
-.search-row .fa {
+.search-row .gl-ico, .search-row .slick-slider .slick-arrow, .slick-slider .search-row .slick-arrow, .search-row .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .search-row b, .search-row .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .search-row .iti-arrow {
   vertical-align: middle;
   margin: 0 -22px 0 0;
   position: relative;
   z-index: 2;
+  font-size: 16px;
+  color: #501e00;
 }
 
 .search-row .search-field {
@@ -3976,6 +3982,11 @@ input.daterange-input {
 .search-bar .btn-search {
   float: left;
   margin: -10px 0;
+}
+
+.search-bar .btn-search .gl-ico-search {
+  font-size: 18px;
+  vertical-align: middle;
 }
 
 .search-bar .btn-search .gl-ico-marker-add {
@@ -5189,11 +5200,40 @@ input.daterange-input {
   font-size: 18px;
 }
 
+.filters-wrap {
+  font-size: 14px;
+}
+
+.lnk-filter {
+  margin-right: 55px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.lnk-filter:focus, .lnk-filter:active, .lnk-filter:hover {
+  text-decoration: none;
+}
+
+.lnk-filter .gl-ico, .lnk-filter .slick-slider .slick-arrow, .slick-slider .lnk-filter .slick-arrow, .lnk-filter .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .lnk-filter b, .lnk-filter .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .lnk-filter .iti-arrow {
+  vertical-align: -15%;
+  margin-left: 5px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.lnk-filter.up .gl-ico, .lnk-filter.up .slick-slider .slick-arrow, .slick-slider .lnk-filter.up .slick-arrow, .lnk-filter.up .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .lnk-filter.up b, .lnk-filter.up .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .lnk-filter.up .iti-arrow {
+  -webkit-transform: rotate3d(1, 0, 0, 180deg);
+  transform: rotate3d(1, 0, 0, 180deg);
+}
+
 .search-ttl {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0 0 30px;
 }
 
@@ -5215,6 +5255,29 @@ input.daterange-input {
 .search-ttl .search-txt {
   width: 325px;
   margin-left: auto;
+}
+
+.search-txt {
+  position: relative;
+}
+
+.search-txt input {
+  border-color: #dbdbdb;
+  padding: 1px 15px 0 40px;
+  min-height: 33px;
+  font-size: 12px;
+  font-family: 'Open Sans';
+}
+
+.search-txt .gl-ico-search {
+  position: absolute;
+  left: 21px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: #ccc;
 }
 
 .object-rate-info {
