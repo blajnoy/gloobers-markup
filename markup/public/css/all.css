@@ -110,420 +110,424 @@ table {
   content: "\E00B";
 }
 
-.gl-ico-balcony:before {
+.gl-ico-attention:before {
   content: "\E00C";
 }
 
-.gl-ico-bar:before {
+.gl-ico-balcony:before {
   content: "\E00D";
 }
 
-.gl-ico-bathroom:before {
+.gl-ico-bar:before {
   content: "\E00E";
 }
 
-.gl-ico-beach:before {
+.gl-ico-bathroom:before {
   content: "\E00F";
 }
 
-.gl-ico-bedroom:before {
+.gl-ico-beach:before {
   content: "\E010";
 }
 
-.gl-ico-bell:before {
+.gl-ico-bedroom:before {
   content: "\E011";
 }
 
-.gl-ico-bike:before {
+.gl-ico-bell:before {
   content: "\E012";
 }
 
-.gl-ico-book:before {
+.gl-ico-bike:before {
   content: "\E013";
 }
 
-.gl-ico-boutique:before {
+.gl-ico-book:before {
   content: "\E014";
 }
 
-.gl-ico-briefcase:before {
+.gl-ico-boutique:before {
   content: "\E015";
 }
 
-.gl-ico-business:before {
+.gl-ico-briefcase:before {
   content: "\E016";
 }
 
-.gl-ico-calendar:before {
+.gl-ico-business:before {
   content: "\E017";
 }
 
-.gl-ico-campaign:before {
+.gl-ico-calendar:before {
   content: "\E018";
 }
 
-.gl-ico-cart-delete:before {
+.gl-ico-campaign:before {
   content: "\E019";
 }
 
-.gl-ico-casino:before {
+.gl-ico-cart-delete:before {
   content: "\E01A";
 }
 
-.gl-ico-catering:before {
+.gl-ico-casino:before {
   content: "\E01B";
 }
 
-.gl-ico-check-mark-button:before {
+.gl-ico-catering:before {
   content: "\E01C";
 }
 
-.gl-ico-check:before {
+.gl-ico-check-mark-button:before {
   content: "\E01D";
 }
 
-.gl-ico-close-cross:before {
+.gl-ico-check:before {
   content: "\E01E";
 }
 
-.gl-ico-conceptual:before {
+.gl-ico-close-cross:before {
   content: "\E01F";
 }
 
-.gl-ico-conditioning:before {
+.gl-ico-conceptual:before {
   content: "\E020";
 }
 
-.gl-ico-dinner:before {
+.gl-ico-conditioning:before {
   content: "\E021";
 }
 
-.gl-ico-disability:before {
+.gl-ico-dinner:before {
   content: "\E022";
 }
 
-.gl-ico-distances:before {
+.gl-ico-disability:before {
   content: "\E023";
 }
 
-.gl-ico-edit:before {
+.gl-ico-distances:before {
   content: "\E024";
 }
 
-.gl-ico-entertainment:before {
+.gl-ico-edit:before {
   content: "\E025";
 }
 
-.gl-ico-europe:before {
+.gl-ico-entertainment:before {
   content: "\E026";
 }
 
-.gl-ico-facebook:before {
+.gl-ico-europe:before {
   content: "\E027";
 }
 
-.gl-ico-facilities:before {
+.gl-ico-facebook:before {
   content: "\E028";
 }
 
-.gl-ico-facilities01:before {
+.gl-ico-facilities:before {
   content: "\E029";
 }
 
-.gl-ico-family:before {
+.gl-ico-facilities01:before {
   content: "\E02A";
 }
 
-.gl-ico-fishing:before {
+.gl-ico-family:before {
   content: "\E02B";
 }
 
-.gl-ico-fitness:before {
+.gl-ico-fishing:before {
   content: "\E02C";
 }
 
-.gl-ico-fooding:before {
+.gl-ico-fitness:before {
   content: "\E02D";
 }
 
-.gl-ico-golf:before {
+.gl-ico-fooding:before {
   content: "\E02E";
 }
 
-.gl-ico-google-plus:before {
+.gl-ico-golf:before {
   content: "\E02F";
 }
 
-.gl-ico-health:before {
+.gl-ico-google-plus:before {
   content: "\E030";
 }
 
-.gl-ico-heart:before {
+.gl-ico-health:before {
   content: "\E031";
 }
 
-.gl-ico-historic:before {
+.gl-ico-heart:before {
   content: "\E032";
 }
 
-.gl-ico-home-user:before {
+.gl-ico-historic:before {
   content: "\E033";
 }
 
-.gl-ico-home:before {
+.gl-ico-home-user:before {
   content: "\E034";
 }
 
-.gl-ico-hotel-type:before {
+.gl-ico-home:before {
   content: "\E035";
 }
 
-.gl-ico-instagram:before {
+.gl-ico-hotel-type:before {
   content: "\E036";
 }
 
-.gl-ico-internet:before {
+.gl-ico-instagram:before {
   content: "\E037";
 }
 
-.gl-ico-kids-activities:before {
+.gl-ico-internet:before {
   content: "\E038";
 }
 
-.gl-ico-kitchen:before {
+.gl-ico-kids-activities:before {
   content: "\E039";
 }
 
-.gl-ico-like:before {
+.gl-ico-kitchen:before {
   content: "\E03A";
 }
 
-.gl-ico-local-culture:before {
+.gl-ico-like:before {
   content: "\E03B";
 }
 
-.gl-ico-location:before {
+.gl-ico-local-culture:before {
   content: "\E03C";
 }
 
-.gl-ico-logo:before {
+.gl-ico-location:before {
   content: "\E03D";
 }
 
-.gl-ico-luxury:before {
+.gl-ico-logo:before {
   content: "\E03E";
 }
 
-.gl-ico-mail:before {
+.gl-ico-luxury:before {
   content: "\E03F";
 }
 
-.gl-ico-marker-add:before {
+.gl-ico-mail:before {
   content: "\E040";
 }
 
-.gl-ico-marker-empty:before {
+.gl-ico-marker-add:before {
   content: "\E041";
 }
 
-.gl-ico-marker-full:before {
+.gl-ico-marker-empty:before {
   content: "\E042";
 }
 
-.gl-ico-marker:before {
+.gl-ico-marker-full:before {
   content: "\E043";
 }
 
-.gl-ico-meals:before {
+.gl-ico-marker:before {
   content: "\E044";
 }
 
-.gl-ico-methods-of-payment:before {
+.gl-ico-meals:before {
   content: "\E045";
 }
 
-.gl-ico-minus:before {
+.gl-ico-methods-of-payment:before {
   content: "\E046";
 }
 
-.gl-ico-motor-sports:before {
+.gl-ico-minus:before {
   content: "\E047";
 }
 
-.gl-ico-music:before {
+.gl-ico-motor-sports:before {
   content: "\E048";
 }
 
-.gl-ico-nightlife:before {
-  content: "\E04A";
+.gl-ico-music:before {
+  content: "\E049";
 }
 
 .gl-ico-nightlife:before {
-  content: "\E04A";
-}
-
-.gl-ico-person:before {
   content: "\E04B";
 }
 
-.gl-ico-photo-camera:before {
+.gl-ico-nightlife:before {
+  content: "\E04B";
+}
+
+.gl-ico-person:before {
   content: "\E04C";
 }
 
-.gl-ico-photography:before {
+.gl-ico-photo-camera:before {
   content: "\E04D";
 }
 
-.gl-ico-plus-rounded:before {
+.gl-ico-photography:before {
   content: "\E04E";
 }
 
-.gl-ico-plus:before {
+.gl-ico-plus-rounded:before {
   content: "\E04F";
 }
 
-.gl-ico-points-of-interest:before {
+.gl-ico-plus:before {
   content: "\E050";
 }
 
-.gl-ico-pool:before {
+.gl-ico-points-of-interest:before {
   content: "\E051";
 }
 
-.gl-ico-push-pin:before {
+.gl-ico-pool:before {
   content: "\E052";
 }
 
-.gl-ico-question-mark:before {
+.gl-ico-push-pin:before {
   content: "\E053";
 }
 
-.gl-ico-road-trips:before {
+.gl-ico-question-mark:before {
   content: "\E054";
 }
 
-.gl-ico-room-distribution-alt:before {
+.gl-ico-road-trips:before {
   content: "\E055";
 }
 
-.gl-ico-room-distribution:before {
+.gl-ico-room-distribution-alt:before {
   content: "\E056";
 }
 
-.gl-ico-room-facilities:before {
+.gl-ico-room-distribution:before {
   content: "\E057";
 }
 
-.gl-ico-sailing:before {
+.gl-ico-room-facilities:before {
   content: "\E058";
 }
 
-.gl-ico-school-book-bag:before {
+.gl-ico-sailing:before {
   content: "\E059";
 }
 
-.gl-ico-scuba-diving:before {
+.gl-ico-school-book-bag:before {
   content: "\E05A";
 }
 
-.gl-ico-sea-view:before {
+.gl-ico-scuba-diving:before {
   content: "\E05B";
 }
 
-.gl-ico-search:before {
+.gl-ico-sea-view:before {
   content: "\E05C";
 }
 
-.gl-ico-shopping:before {
+.gl-ico-search:before {
   content: "\E05D";
 }
 
-.gl-ico-sightseeing:before {
+.gl-ico-shopping:before {
   content: "\E05E";
 }
 
-.gl-ico-ski:before {
+.gl-ico-sightseeing:before {
   content: "\E05F";
 }
 
-.gl-ico-spa:before {
+.gl-ico-ski:before {
   content: "\E060";
 }
 
-.gl-ico-sports:before {
+.gl-ico-spa:before {
   content: "\E061";
 }
 
-.gl-ico-staff:before {
+.gl-ico-sports:before {
   content: "\E062";
 }
 
-.gl-ico-star:before {
+.gl-ico-staff:before {
   content: "\E063";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-star:before {
   content: "\E064";
 }
 
-.gl-ico-things-to-keep-in-mind:before {
+.gl-ico-street-map:before {
   content: "\E065";
 }
 
-.gl-ico-transportation:before {
+.gl-ico-things-to-keep-in-mind:before {
   content: "\E066";
 }
 
-.gl-ico-trekking:before {
+.gl-ico-transportation:before {
   content: "\E067";
 }
 
-.gl-ico-tv:before {
+.gl-ico-trekking:before {
   content: "\E068";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-tv:before {
   content: "\E069";
 }
 
-.gl-ico-user:before {
+.gl-ico-twitter:before {
   content: "\E06A";
 }
 
-.gl-ico-users-group:before {
+.gl-ico-user:before {
   content: "\E06B";
 }
 
-.gl-ico-users:before {
+.gl-ico-users-group:before {
   content: "\E06C";
 }
 
-.gl-ico-washing:before {
+.gl-ico-users:before {
   content: "\E06D";
 }
 
-.gl-ico-water-sports:before {
+.gl-ico-washing:before {
   content: "\E06E";
 }
 
-.gl-ico-wellness:before {
+.gl-ico-water-sports:before {
   content: "\E06F";
 }
 
-.gl-ico-wifi:before {
+.gl-ico-wellness:before {
   content: "\E070";
 }
 
-.gl-ico-wildlife:before {
+.gl-ico-wifi:before {
   content: "\E071";
 }
 
-.gl-ico-wine:before {
+.gl-ico-wildlife:before {
   content: "\E072";
 }
 
-.gl-ico-worldwide:before {
+.gl-ico-wine:before {
   content: "\E073";
+}
+
+.gl-ico-worldwide:before {
+  content: "\E074";
 }
 
 body {
@@ -965,7 +969,7 @@ svg {
 .checkbox input[type="checkbox"]:checked + label:after, .checkbox input[type="radio"]:checked + label:after {
   font-size: 19px;
   font-family: "gloobers-icons";
-  content: "\E01C";
+  content: "\E01D";
   color: #1f97d7;
   text-shadow: 0 3px 2px rgba(0, 0, 0, 0.4);
 }
@@ -2940,8 +2944,8 @@ fieldset[disabled] .btn {
 }
 
 .drop-element.drop-theme-arrows-bounce .drop-content {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   position: relative;
   font-family: inherit;
   background: #fff;
@@ -3654,6 +3658,10 @@ fieldset[disabled] .btn {
   align-items: center;
 }
 
+.nav:before, .how-it-works-slider .slider-tabs:before, .nav:after, .how-it-works-slider .slider-tabs:after {
+  content: none;
+}
+
 .nav ul, .how-it-works-slider .slider-tabs ul {
   display: inline-block;
   vertical-align: middle;
@@ -3738,6 +3746,7 @@ fieldset[disabled] .btn {
 .user-avatar {
   display: inline-block;
   vertical-align: middle;
+  margin: 0 0 0 30px;
 }
 
 .user-avatar .avatar {
@@ -3746,6 +3755,7 @@ fieldset[disabled] .btn {
   width: 35px;
   height: 35px;
   object-fit: cover;
+  vertical-align: middle;
 }
 
 .notifications-indicator {
@@ -3754,7 +3764,11 @@ fieldset[disabled] .btn {
   font-size: 18px;
   line-height: 21px;
   position: relative;
-  margin: 0 30px 0 0;
+}
+
+.main-nav + .notifications-indicator,
+.btn + .notifications-indicator {
+  margin: 0 0 0 30px;
 }
 
 .notifications-indicator .gl-ico, .notifications-indicator .slick-slider .slick-arrow, .slick-slider .notifications-indicator .slick-arrow, .notifications-indicator .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .notifications-indicator b, .notifications-indicator .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .notifications-indicator .iti-arrow {
@@ -4194,7 +4208,7 @@ input.daterange-input {
 
 .drop-list ul li a {
   display: block;
-  padding: 15px;
+  padding: 15px 5px;
   color: #000;
   text-align: center;
 }
@@ -4211,6 +4225,25 @@ input.daterange-input {
 
 .drop-list ul li + li {
   border-top: 1px solid #e5e5e5;
+}
+
+.drop-list ul li:last-child {
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.drop-list ul li:last-child a {
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.drop-list ul li.lnk-logout {
+  border-top: 0;
+}
+
+.drop-list ul li.lnk-logout a {
+  background: #eee;
+  margin: 0 -20px -20px;
 }
 
 .drop-list.rooms-drop ul li a {
@@ -5124,6 +5157,49 @@ input.daterange-input {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.hotel-facilities {
+  padding: 50px 0 0;
+}
+
+.list-icons-text {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.list-icons-text li {
+  padding: 0 0 10px;
+}
+
+.list-icons-text .gl-ico, .list-icons-text .slick-slider .slick-arrow, .slick-slider .list-icons-text .slick-arrow, .list-icons-text .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .list-icons-text b, .list-icons-text .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .list-icons-text .iti-arrow {
+  font-size: 28px;
+  vertical-align: middle;
+  margin: 0 15px 0 0;
+  color: #501e00;
+}
+
+.list-icons-text.list-inline {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 -25px;
+}
+
+.list-icons-text.list-inline li {
+  padding: 0 25px 20px;
 }
 
 .review-footer-info {
@@ -8149,6 +8225,11 @@ input.daterange-input {
   max-width: 780px;
 }
 
+.modal-custom-sm {
+  width: 100%;
+  max-width: 410px;
+}
+
 .modal-content {
   padding: 24px;
   -webkit-border-radius: 10px;
@@ -8169,6 +8250,109 @@ input.daterange-input {
 .modal-header .sub-ttl {
   display: block;
   opacity: .5;
+}
+
+.has-error .help-block-wrap,
+.has-error .checkbox,
+.has-error .checkbox-inline,
+.has-error .control-label,
+.has-error .help-block,
+.has-error .radio,
+.has-error .radio-inline,
+.has-error.checkbox label,
+.has-error.checkbox-inline label,
+.has-error.radio label,
+.has-error.radio-inline label {
+  color: #f00;
+}
+
+.has-error .form-control,
+.has-error .form-control:focus {
+  border-color: #f00;
+}
+
+.help-block-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.help-block-wrap.text-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.help-block-wrap .gl-ico-attention {
+  display: none;
+  font-size: 13px;
+  margin: 5px 5px 10px 0;
+}
+
+.has-error .help-block-wrap .gl-ico-attention {
+  display: inline-block;
+}
+
+.modal-login {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.modal-login.modal-dialog > h4 {
+  color: #fff;
+  font: bold 56px/60px 'PT Sans';
+  margin: 0 -30px 30px;
+}
+
+.modal-login .login-ttl {
+  display: block;
+  margin: 0 0 30px;
+}
+
+.login-form {
+  padding: 0 0 40px;
+}
+
+.login-w-socials {
+  border-top: 2px solid #e5e5e5;
+  background: #fbfbfb;
+  padding: 20px 24px 40px;
+  margin: 0 -24px -24px;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.extra-ttl {
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 -20px 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.extra-ttl:after, .extra-ttl:before {
+  content: "";
+  height: 1px;
+  margin: 0 20px;
+  background: #e1e1e1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .edit-recommendation-holder {

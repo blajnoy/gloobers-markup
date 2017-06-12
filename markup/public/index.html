@@ -28,9 +28,28 @@
 						<ul class="main-nav">
 							<li><a href="#">About <i class="gl-ico gl-ico-arrow-down"></i></a></li>
 							<li class="active"><a href="#">Professionals</a></li>
-							<li><a href="#">Log in</a></li>
+							<li><a href="#" data-toggle="modal" data-target="#exampleModal">Log in</a></li>
 						</ul>
 						<a href="#" class="btn btn-default">Refer a professional</a>
+						<!--<div class="notifications-indicator">
+							<a href="#"><i class="gl-ico gl-ico-bell"></i></a>
+							<span class="notifications-count">99</span>
+						</div>-->
+						<a class="user-avatar open-drop" data-position="bottom right" data-offset="-10px -5px" data-theme="drop-theme-arrows-bounce" href="#"><img src="images/photo01.jpg" alt="photo" class="avatar"></a>
+						<div class="drop-content hide">
+							<div class="drop-list">
+								<ul>
+									<li class="active"><a href="#">Travel credits</a></li>
+									<li><a href="#">Trips</a></li>
+									<li><a href="#">Recommendations</a></li>
+									<li><a href="#">Listing</a></li>
+									<li><a href="#">Notifications</a></li>
+									<li><a href="#">Profile</a></li>
+									<li><a href="#">Account</a></li>
+									<li class="lnk-logout"><a href="#">Logout</a></li>
+								</ul>
+							</div>
+						</div>
 					</nav>
 				</div>
 				<div class="search-area">
@@ -628,6 +647,41 @@
 				</ul>
 			</div>
 		</footer>
+
+		<!-- start modal window recommendation -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+			<div class="modal-dialog modal-custom-sm modal-login" role="document">
+				<h4 class="text-center">New on Gloobers?</h4>
+				<div class="modal-content">
+					<strong class="login-ttl text-center">Log in with your Email</strong>
+					<div class="login-form">
+						<form action="#" data-toggle="validator" role="form">
+							<div class="form-group">
+								<input type="email" class="form-control text-center" id="inputEmail" placeholder="E-mail" data-error="Error message" required>
+								<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+								<div class="help-block-wrap text-center">
+									<i class="gl-ico gl-ico-attention"></i>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							<div class="form-group">
+								<input class="form-control text-center" type="password" placeholder="password" >
+							</div>
+							<a href="#" class="btn btn-default fill-width">Log in</a>
+						</form>
+					</div>
+					<div class="login-w-socials">
+						<strong class="extra-ttl">Or log into your account</strong>
+						<a href="#" class="btn btn-facebook fill-width"><i class="gl-ico gl-ico-facebook"></i> <span class="btn-ico-text">Login with Facebook</span></a>
+					</div>
+				</div>
+				<div class="login-extra-links">
+					<p>Forget your password? <a href="#">Request a new</a></p>
+					<p>Dont have account yet? <a href="#">Sign up</a></p>
+				</div>
+			</div>
+		</div>
+		<!-- end modal window recommendation -->
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/36fe5b07c5.js"></script>
@@ -641,6 +695,8 @@
 
 	<script src="js/tether.min.js"></script>
 	<script src="js/drop.min.js"></script>
+
+	<script type="text/javascript" src="js/validator.js"></script>
 
 	<script src="js/main.js"></script>
 </body>
