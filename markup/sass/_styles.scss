@@ -3519,9 +3519,7 @@ input.daterange-input {
 		margin: 0 0 0 40px;
 	}
 }
-.object-desc-target {
 
-}
 
 /* start rating-container */
 
@@ -3534,7 +3532,7 @@ input.daterange-input {
 	line-height: 34px;
 }
 .rating-md {
-	font-size: 27px;
+	font-size: 26px;
 	line-height: 30px;
 }
 
@@ -3542,21 +3540,31 @@ input.daterange-input {
 	letter-spacing: 8px;
 	color: #bbe0f3;
 
-	.rating-stars {
-		color: $linkColor;
+	.star {
+		margin: 0;
+	}
 
-		&:before {
+	.rating-stars {
+
+		.empty-stars {
+			color: #bbe0f3;
+		}
+
+		.filled-stars {
+			color: $linkColor;
+			-webkit-text-stroke: 0;
 			text-shadow: none;
 		}
 	}
+
+	.clear-rating,
+	.caption{display: none;}
 }
 .star-rating{
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 10px 0 0;
 }
-.star-rating .clear-rating,
-.star-rating .caption{display: none;}
 
 
 /* end rating-container */
@@ -4166,6 +4174,18 @@ input.daterange-input {
 	}
 }
 
+.login-extra-links {
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 17px;
+	color: #fff;
+
+	p {
+		margin: 0 0 15px;
+	}
+}
+
 .has-error {
 
 	.help-block-wrap,
@@ -4193,6 +4213,9 @@ input.daterange-input {
 	align-items: center;
 	font-size: 12px;
 	line-height: 15px;
+	min-height: 30px;
+	margin: 0 0 -30px;
+
 
 	&.text-center {
 		justify-content: center;
@@ -4232,6 +4255,41 @@ input.daterange-input {
 .login-form {
 	padding: 0 0 40px;
 
+	.form-group {
+		margin-bottom: 30px;
+		position: relative;
+	}
+
+	.agree {
+		margin: 0 0 30px;
+
+		.info-desc {
+			line-height: inherit;
+		}
+	}
+}
+
+.wrap-w-side-spaces {
+	padding: 0 30px;
+}
+
+.form-flex-row {
+	display: flex;
+	margin-left: -5px;
+	margin-right: -5px;
+
+	.col {
+		padding: 0 5px;
+		flex: 1;
+	}
+}
+
+.help-block {
+	display: none;
+
+	.has-error & {
+		display: block;
+	}
 }
 
 .login-w-socials {
@@ -5770,6 +5828,7 @@ input.daterange-input {
 		}
 	}
 }
+
 .credits-statistics {
 	display: flex;
 	font-size: 18px;

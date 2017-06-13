@@ -1,5 +1,19 @@
 $(document).ready(function () {
 
+    /* star ratings */
+
+    if ($('.rating-gl').length != 0) {
+        $('.rating-gl').rating({
+            filledStar: '<i class="gl-ico gl-ico-star"></i>',
+            emptyStar: '<i class="gl-ico gl-ico-star"></i>'
+        });
+    }
+
+
+
+
+
+
     $('.stored-addresses').find('.btn-address').on('click', function (e) {
         $('.stored-addresses').find('.btn-address').removeClass('selected');
         $(this).addClass('selected');

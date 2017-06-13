@@ -109,6 +109,13 @@
 .btn-twitter {
 	@include button-variant($color: #fff, $background: #64a8f2, $borderColor: #64a8f2, $needShadow: true);
 }
+
+.btn-ico-text {
+	border-left: 1px solid rgba(#fff, .5);
+	padding: 4px 0 5px 20px;
+	margin: -4px 0 -5px 12px;
+}
+
 .btn-second-color {
 	@include button-variant($color: $secondTextColor, $background: none, $borderColor: $secondTextColor);
 }

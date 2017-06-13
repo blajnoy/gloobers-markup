@@ -10,7 +10,7 @@
 		font-size: 18px;
 		color: #333;
 
-		&:before {
+		&:after {
 			content: "";
 			display: inline-block;
 			position: absolute;
@@ -24,7 +24,7 @@
 			background-color: #fff;
 			transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
 		}
-		&:after {
+		&:before {
 			font-style: normal;
 			display: inline-block;
 			position: absolute;
@@ -47,26 +47,30 @@
 			z-index: 1;
 		}
 
-		&[type="checkbox"]:focus + label:before,
-		&[type="radio"]:focus + label:before {
+		&[type="checkbox"]:focus + label:after,
+		&[type="radio"]:focus + label:after {
 			outline: 0;
 		}
-		&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
-			font-size: 19px;
+		&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
 			font-family: "gloobers-icons";
-			content: "\E01D";
+			font-size: 19px;
+
+			@extend .gl-ico-check:before;
+
+			z-index: 2;
+
 			color: #1f97d7;
 			text-shadow: 0 3px 2px rgba(0, 0, 0, .4);
 		}
 		&[type="checkbox"]:disabled + label, &[type="radio"]:disabled + label {
 			opacity: 0.65;
 		}
-		&[type="checkbox"]:disabled + label:before, &[type="radio"]:disabled + label:before {
+		&[type="checkbox"]:disabled + label:after, &[type="radio"]:disabled + label:after {
 			background-color: #eeeeee;
 			cursor: not-allowed;
 		}
 	}
-	&.checkbox-circle label:before {
+	&.checkbox-circle label:after {
 		border-radius: 50%;
 	}
 	&.checkbox-inline {
@@ -76,51 +80,51 @@
 }
 
 .checkbox-primary input {
-	&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
+	&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
 		background-color: #337ab7;
 		border-color: #337ab7;
 	}
-	&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
+	&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
 		color: #fff;
 	}
 }
 
 .checkbox-danger input {
-	&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
+	&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
 		background-color: #d9534f;
 		border-color: #d9534f;
 	}
-	&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
+	&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
 		color: #fff;
 	}
 }
 
 .checkbox-info input {
-	&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
+	&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
 		background-color: #5bc0de;
 		border-color: #5bc0de;
 	}
-	&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
+	&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
 		color: #fff;
 	}
 }
 
 .checkbox-warning input {
-	&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
+	&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
 		background-color: #f0ad4e;
 		border-color: #f0ad4e;
 	}
-	&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
+	&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
 		color: #fff;
 	}
 }
 
 .checkbox-success input {
-	&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
+	&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
 		background-color: #5cb85c;
 		border-color: #5cb85c;
 	}
-	&[type="checkbox"]:checked + label:after, &[type="radio"]:checked + label:after {
+	&[type="checkbox"]:checked + label:before, &[type="radio"]:checked + label:before {
 		color: #fff;
 	}
 }
@@ -139,7 +143,7 @@
 		text-transform: uppercase;
 		cursor: default;
 
-		&:before {
+		&:after {
 			content: "";
 			display: inline-block;
 			position: absolute;
@@ -153,7 +157,7 @@
 			background-color: #fff;
 			transition: border 0.15s ease-in-out;
 		}
-		&:after {
+		&:before {
 			display: inline-block;
 			position: absolute;
 			content: " ";
@@ -161,6 +165,7 @@
 			height: 14px;
 			left: 5px;
 			top: 5px;
+			z-index: 2;
 			margin-left: -24px;
 			border-radius: 50%;
 			background-color: rgb(0,126,194);
@@ -173,15 +178,15 @@
 	input[type="radio"] {
 		opacity: 0;
 		z-index: 1;
-		&:focus + label:before {
+		&:focus + label:after {
 			outline: 0;
 		}
-		&:checked + label:after {
+		&:checked + label:before {
 			transform: scale(1, 1);
 		}
 		&:disabled + label {
 			opacity: 0.65;
-			&:before {
+			&:after {
 				cursor: not-allowed;
 			}
 		}
@@ -193,81 +198,81 @@
 }
 
 .radio-primary input[type="radio"] {
-	+ label:after {
+	+ label:before {
 		background-color: #337ab7;
 	}
 	&:checked + label {
-		&:before {
+		&:after {
 			border-color: #337ab7;
 		}
-		&:after {
+		&:before {
 			background-color: #337ab7;
 		}
 	}
 }
 
 .radio-danger input[type="radio"] {
-	+ label:after {
+	+ label:before {
 		background-color: #d9534f;
 	}
 	&:checked + label {
-		&:before {
+		&:after {
 			border-color: #d9534f;
 		}
-		&:after {
+		&:before {
 			background-color: #d9534f;
 		}
 	}
 }
 
 .radio-info input[type="radio"] {
-	+ label:after {
+	+ label:before {
 		background-color: #5bc0de;
 	}
 	&:checked + label {
-		&:before {
+		&:after {
 			border-color: #5bc0de;
 		}
-		&:after {
+		&:before {
 			background-color: #5bc0de;
 		}
 	}
 }
 
 .radio-warning input[type="radio"] {
-	+ label:after {
+	+ label:before {
 		background-color: #f0ad4e;
 	}
 	&:checked + label {
-		&:before {
+		&:after {
 			border-color: #f0ad4e;
 		}
-		&:after {
+		&:before {
 			background-color: #f0ad4e;
 		}
 	}
 }
 
 .radio-success input[type="radio"] {
-	+ label:after {
+	+ label:before {
 		background-color: #5cb85c;
 	}
 	&:checked + label {
-		&:before {
+		&:after {
 			border-color: #5cb85c;
 		}
-		&:after {
+		&:before {
 			background-color: #5cb85c;
 		}
 	}
 }
 
 input {
-	&[type="checkbox"].styled:checked + label:after, &[type="radio"].styled:checked + label:after {
+	&[type="checkbox"].styled:checked + label:before, &[type="radio"].styled:checked + label:before {
 		font-family: 'FontAwesome';
 		content: "\f00c";
 	}
-	&[type="checkbox"] .styled:checked + label:before, &[type="radio"] .styled:checked + label:before, &[type="checkbox"] .styled:checked + label:after, &[type="radio"] .styled:checked + label:after {
+	&[type="checkbox"] .styled:checked + label:after, &[type="radio"] .styled:checked + label:after, &[type="checkbox"] .styled:checked + label:before, &[type="radio"] .styled:checked + label:before {
 		color: #fff;
 	}
 }
