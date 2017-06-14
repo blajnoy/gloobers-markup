@@ -133,6 +133,19 @@
 		text-decoration: underline;
 	}
 }
+
+input[type=submit].btn-link,
+input[type=submit].btn-link,
+input[type=button].btn-link,
+input[type=button].btn-link,
+button.btn-link {
+	&:hover,
+	&:focus,
+	&:active {
+		background: none;
+	}
+}
+
 .btn-search {
 	border-radius: 0 10px 10px 0;
 	float: right;

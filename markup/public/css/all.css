@@ -182,7 +182,7 @@ table {
   content: "\E01D";
 }
 
-.gl-ico-check:before, .checkbox input[type="checkbox"]:checked + label:before, .checkbox input[type="radio"]:checked + label:before {
+.gl-ico-check:before, .checkbox input[type="checkbox"]:checked + label:before, .checkbox input[type="radio"]:checked + label:before, .passions-list .item.selected:before {
   content: "\E01E";
 }
 
@@ -330,7 +330,7 @@ table {
   content: "\E042";
 }
 
-.gl-ico-marker-full:before {
+.gl-ico-marker-full:before, .map-types .marker:hover .marker-ico:before, .map-types .marker:hover .marker-ico:after, .map-types .marker input[type=radio]:checked ~ .marker-ico:before, .map-types .marker input[type=radio]:checked ~ .marker-ico:after {
   content: "\E043";
 }
 
@@ -1655,6 +1655,22 @@ fieldset[disabled] .btn {
 
 .btn-link:hover {
   text-decoration: underline;
+}
+
+input[type=submit].btn-link:hover, input[type=submit].btn-link:focus, input[type=submit].btn-link:active,
+input[type=submit].btn-link:hover,
+input[type=submit].btn-link:focus,
+input[type=submit].btn-link:active,
+input[type=button].btn-link:hover,
+input[type=button].btn-link:focus,
+input[type=button].btn-link:active,
+input[type=button].btn-link:hover,
+input[type=button].btn-link:focus,
+input[type=button].btn-link:active,
+button.btn-link:hover,
+button.btn-link:focus,
+button.btn-link:active {
+  background: none;
 }
 
 .btn-search {
@@ -5929,7 +5945,6 @@ input.daterange-input {
 
 .passions-list .item.selected:before {
   font-family: "gloobers-icons";
-  content: "\E01C";
   position: absolute;
   top: -8px;
   right: -8px;
@@ -8035,6 +8050,13 @@ input.daterange-input {
 
 .markered-list li .text-h p {
   margin: 0;
+}
+
+.how-it-works-slider .slider-tabs {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .prof-page .how-it-works-slider .slider-tabs,
@@ -11190,13 +11212,11 @@ input.daterange-input {
 }
 
 .map-types .marker:hover .marker-ico:before {
-  content: "\E040";
   -webkit-text-fill-color: transparent;
   text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .map-types .marker:hover .marker-ico:after {
-  content: "\E040";
   background: -webkit-gradient(linear, left top, left bottom, from(#1e97d8), to(#5795b6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -11252,13 +11272,11 @@ input.daterange-input {
 }
 
 .map-types .marker input[type=radio]:checked ~ .marker-ico:before {
-  content: "\E040";
   -webkit-text-fill-color: transparent;
   text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .map-types .marker input[type=radio]:checked ~ .marker-ico:after {
-  content: "\E040";
   background: -webkit-gradient(linear, left top, left bottom, from(#ffc200), to(#d6a300));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

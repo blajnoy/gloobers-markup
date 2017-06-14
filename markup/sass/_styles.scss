@@ -2228,7 +2228,6 @@ input.daterange-input {
 		}
 
 		&:hover {
-			//box-shadow: 10px 20px 20px 0 rgba(0, 0, 0, 0.4);
 			text-decoration: none;
 
 			&:after {
@@ -2237,14 +2236,17 @@ input.daterange-input {
 		}
 
 		&.selected {
+
+
 			&:after {
 				background-color: rgba(30, 151, 216, .6);
 				border: 2px solid #1e97d8;
 			}
 
 			&:before {
+
 				font-family: "gloobers-icons";
-				content: "\E01C";
+				@extend .gl-ico-check:before;
 				position: absolute;
 				top: -8px;
 				right: -8px;
@@ -3957,6 +3959,8 @@ input.daterange-input {
 .how-it-works-slider {
 	.slider-tabs {
 		@extend .nav;
+
+		justify-content: center;
 
 		.prof-page &,
 		.hp & {
@@ -6607,13 +6611,13 @@ input.daterange-input {
 
 			.marker-ico {
 				&:before {
-					content: "\E040";
+					@extend .gl-ico-marker-full:before;
 					-webkit-text-fill-color: transparent;
 					text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
 				}
 
 				&:after {
-					content: "\E040";
+					@extend .gl-ico-marker-full:before;
 					background: -webkit-gradient(linear, left top, left bottom, from(#1e97d8), to(#5795b6));
 					-webkit-background-clip: text;
 					-webkit-text-fill-color: transparent;
@@ -6671,13 +6675,13 @@ input.daterange-input {
 			&:checked ~ {
 				.marker-ico {
 					&:before {
-						content: "\E040";
+						@extend .gl-ico-marker-full:before;
 						-webkit-text-fill-color: transparent;
 						text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.25);
 					}
 
 					&:after {
-						content: "\E040";
+						@extend .gl-ico-marker-full:before;
 						background: -webkit-gradient(linear, left top, left bottom, from(#ffc200), to(#d6a300));
 						-webkit-background-clip: text;
 						-webkit-text-fill-color: transparent;

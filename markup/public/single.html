@@ -713,233 +713,235 @@
 	</div>
 
 	<!-- start modal window recommendation -->
-	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-		<div class="modal-dialog modal-custom-md" role="document">
-			<div class="modal-content">
-				<div class="recommend-wrap <!--recommend-type01-->">
-					<div class="modal-header">
-						<h4 class="modal-title">Recommend this activity</h4>
-						<strong class="sub-ttl">And get rewarded when other travelers follow your recommendatuion</strong>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+	<div class="modal-dialog modal-custom-md" role="document">
+		<div class="modal-content">
+			<div class="recommend-wrap recommend-type01">
+				<div class="modal-header">
+					<h4 class="modal-title">Recommend this activity</h4>
+					<strong class="sub-ttl">And get rewarded when other travelers follow your recommendatuion</strong>
+				</div>
+				<div class="modal-body">
+					<div class="step-block hidden" id="recommend-step01">
+						<div class="modal-block-ttl">
+							<h2>Travellers' centers of interest:</h2>
+							<p class="info-desc">Please select at least one type of hotel</p>
+						</div>
+						<div class="passions-list" id="passions-choice">
+							<div data-item-id="passion01" class="item">
+								<div class="img-h">
+									<img src="images/types-of-hotels/design.jpg" alt="image">
+								</div>
+								<span class="passion-label">Design</span>
+								<input type="checkbox" class="passion-check" name="passion01" id="passion01">
+							</div>
+							<div data-item-id="passion02" class="item">
+								<div class="img-h">
+									<img src="images/types-of-hotels/beach.jpg" alt="image">
+								</div>
+								<span class="passion-label">Beach <br>hotel</span>
+								<input type="checkbox" class="passion-check" name="passion02" id="passion02">
+							</div>
+							<div data-item-id="passion03" class="item">
+								<div class="img-h">
+									<img src="images/types-of-hotels/green.jpg" alt="image">
+								</div>
+								<span class="passion-label">Green <br>hotel</span>
+								<input type="checkbox" class="passion-check" name="passion03" id="passion03">
+							</div>
+							<div data-item-id="passion04" class="item">
+								<div class="img-h">
+									<img src="images/types-of-hotels/only-adults.jpg" alt="image">
+								</div>
+								<span class="passion-label">Only <br>adults</span>
+								<input type="checkbox" class="passion-check" name="passion04" id="passion04">
+							</div>
+							<div data-item-id="passion05" class="item middle-width">
+								<div class="img-h">
+									<img src="images/types-of-hotels/with-charm.jpg" alt="image">
+								</div>
+								<span class="passion-label">Hotels with charm</span>
+								<input type="checkbox" class="passion-check" name="passion05" id="passion05">
+							</div>
+							<div data-item-id="passion06" class="item">
+								<div class="img-h">
+									<img src="images/types-of-hotels/golf.jpg" alt="image">
+								</div>
+								<span class="passion-label">Golf <br>hotel</span>
+								<input type="checkbox" class="passion-check" name="passion06" id="passion06">
+							</div>
+							<div data-item-id="passion07" class="item">
+								<div class="img-h">
+									<img src="images/types-of-hotels/historical.jpg" alt="image">
+								</div>
+								<span class="passion-label">Historical</span>
+								<input type="checkbox" class="passion-check" name="passion07" id="passion07">
+							</div>
+							<div data-item-id="passion08" class="item middle-width">
+								<div class="img-h">
+									<img src="images/types-of-hotels/pet-friendly.jpg" alt="image">
+								</div>
+								<span class="passion-label">pet friendly hotel</span>
+								<input type="checkbox" class="passion-check" name="passion08" id="passion08">
+							</div>
+							<div data-item-id="passion09" class="item">
+								<div class="img-h">
+									<img src="images/types-of-hotels/rural.jpg" alt="image">
+								</div>
+								<span class="passion-label">rural <br>hotel</span>
+								<input type="checkbox" class="passion-check" name="passion09" id="passion09">
+							</div>
+							<div data-item-id="passion10" class="item">
+								<div class="img-h">
+									<img src="images/types-of-hotels/family.jpg" alt="image">
+								</div>
+								<span class="passion-label">Family <br>hotel</span>
+								<input type="checkbox" class="passion-check" name="passion10" id="passion10">
+							</div>
+							<div data-item-id="passion11" class="item middle-width">
+								<div class="img-h">
+									<img src="images/types-of-hotels/business.jpg" alt="image">
+								</div>
+								<span class="passion-label">business hotel</span>
+								<input type="checkbox" class="passion-check" name="passion11" id="passion11">
+							</div>
+							<div data-item-id="passion12" class="item">
+								<div class="img-h">
+									<img src="images/types-of-hotels/ski.jpg" alt="image">
+								</div>
+								<span class="passion-label">ski <br>hotel</span>
+								<input type="checkbox" class="passion-check" name="passion12" id="passion12">
+							</div>
+							<div data-item-id="passion13" class="item middle-width">
+								<div class="img-h">
+									<img src="images/types-of-hotels/with-spa.jpg" alt="image">
+								</div>
+								<span class="passion-label">Hotel with spa</span>
+								<input type="checkbox" class="passion-check" name="passion13" id="passion13">
+							</div>
+							<div data-item-id="passion14" class="item">
+								<div class="img-h">
+									<img src="images/types-of-hotels/sport.jpg" alt="image">
+								</div>
+								<span class="passion-label">Sport <br>hotel</span>
+								<input type="checkbox" class="passion-check" name="passion14" id="passion14">
+							</div>
+						</div>
 					</div>
-					<div class="modal-body">
-						<div class="step-block hidden" id="recommend-step01">
-							<div class="modal-block-ttl">
-								<h2>Travellers' centers of interest:</h2>
-								<p class="info-desc">Please select at least one type of hotel</p>
-							</div>
-							<div class="passions-list" id="passions-choice">
-								<div data-item-id="passion01" class="item">
-									<div class="img-h">
-										<img src="images/types-of-hotels/design.jpg" alt="image">
-									</div>
-									<span class="passion-label">Design</span>
-									<input type="checkbox" class="passion-check" name="passion01" id="passion01">
+					<div class="step-block hidden" id="recommend-step02">
+						<div class="modal-block-ttl">
+							<h2>Travelers interested in:</h2>
+							<p class="info-desc">Please select at least one type of hotel</p>
+						</div>
+						<div class="map-types">
+							<img class="map-types-img" src="images/bg-map.png" alt="">
+							<label for="markerId01" class="marker" style="left: 60px; top: 80px;">
+								<input type="radio" name="markerTypes" id="markerId01" checked="checked">
+								<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-school-book-bag"></i></span>
+								<strong class="marker-txt">Alone trip</strong>
+							</label>
+							<label for="markerId02" class="marker selected" style="left: 210px; top: 140px;">
+								<input type="radio" name="markerTypes" id="markerId02">
+								<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-users"></i></span>
+								<strong class="marker-txt">Trip with the friend</strong>
+							</label>
+							<label for="markerId03" class="marker" style="left: 480px; top: 110px;">
+								<input type="radio" name="markerTypes" id="markerId03">
+								<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-users-group"></i></span>
+								<strong class="marker-txt">Trip with a group</strong>
+							</label>
+							<label for="markerId04" class="marker" style="left: 140px; top: 210px;">
+								<input type="radio" name="markerTypes" id="markerId04">
+								<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-family"></i></span>
+								<strong class="marker-txt">Family trip</strong>
+							</label>
+							<label for="markerId05" class="marker" style="left: 100px; top: 280px;">
+								<input type="radio" name="markerTypes" id="markerId05">
+								<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-business"></i></span>
+								<strong class="marker-txt">Business trip</strong>
+							</label>
+							<label for="markerId06" class="marker" style="left: 400px; top: 250px;">
+								<input type="radio" name="markerTypes" id="markerId06">
+								<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-heart"></i></span>
+								<strong class="marker-txt">Romantic trip</strong>
+							</label>
+						</div>
+						<div class="error-container"></div>
+					</div>
+					<div class="step-block" id="recommend-step03">
+						<div class="recommend-edit-area">
+							<textarea name="reco" id="" cols="30" rows="10">Write your recommendation here</textarea>
+						</div>
+					</div>
+					<div class="step-block hidden" id="recommend-step04">
+						<div class="modal-block-ttl">
+							<h2>Share this link</h2>
+						</div>
+						<div class="share-area">
+							<strong class="share-ttl">Share this link</strong>
+							<div class="share-group">
+								<div class="form-group">
+									<input class="form-control" type="text" value="www.gloobers.com/share">
 								</div>
-								<div data-item-id="passion02" class="item">
-									<div class="img-h">
-										<img src="images/types-of-hotels/beach.jpg" alt="image">
-									</div>
-									<span class="passion-label">Beach <br>hotel</span>
-									<input type="checkbox" class="passion-check" name="passion02" id="passion02">
-								</div>
-								<div data-item-id="passion03" class="item">
-									<div class="img-h">
-										<img src="images/types-of-hotels/green.jpg" alt="image">
-									</div>
-									<span class="passion-label">Green <br>hotel</span>
-									<input type="checkbox" class="passion-check" name="passion03" id="passion03">
-								</div>
-								<div data-item-id="passion04" class="item">
-									<div class="img-h">
-										<img src="images/types-of-hotels/only-adults.jpg" alt="image">
-									</div>
-									<span class="passion-label">Only <br>adults</span>
-									<input type="checkbox" class="passion-check" name="passion04" id="passion04">
-								</div>
-								<div data-item-id="passion05" class="item middle-width">
-									<div class="img-h">
-										<img src="images/types-of-hotels/with-charm.jpg" alt="image">
-									</div>
-									<span class="passion-label">Hotels with charm</span>
-									<input type="checkbox" class="passion-check" name="passion05" id="passion05">
-								</div>
-								<div data-item-id="passion06" class="item">
-									<div class="img-h">
-										<img src="images/types-of-hotels/golf.jpg" alt="image">
-									</div>
-									<span class="passion-label">Golf <br>hotel</span>
-									<input type="checkbox" class="passion-check" name="passion06" id="passion06">
-								</div>
-								<div data-item-id="passion07" class="item">
-									<div class="img-h">
-										<img src="images/types-of-hotels/historical.jpg" alt="image">
-									</div>
-									<span class="passion-label">Historical</span>
-									<input type="checkbox" class="passion-check" name="passion07" id="passion07">
-								</div>
-								<div data-item-id="passion08" class="item middle-width">
-									<div class="img-h">
-										<img src="images/types-of-hotels/pet-friendly.jpg" alt="image">
-									</div>
-									<span class="passion-label">pet friendly hotel</span>
-									<input type="checkbox" class="passion-check" name="passion08" id="passion08">
-								</div>
-								<div data-item-id="passion09" class="item">
-									<div class="img-h">
-										<img src="images/types-of-hotels/rural.jpg" alt="image">
-									</div>
-									<span class="passion-label">rural <br>hotel</span>
-									<input type="checkbox" class="passion-check" name="passion09" id="passion09">
-								</div>
-								<div data-item-id="passion10" class="item">
-									<div class="img-h">
-										<img src="images/types-of-hotels/family.jpg" alt="image">
-									</div>
-									<span class="passion-label">Family <br>hotel</span>
-									<input type="checkbox" class="passion-check" name="passion10" id="passion10">
-								</div>
-								<div data-item-id="passion11" class="item middle-width">
-									<div class="img-h">
-										<img src="images/types-of-hotels/business.jpg" alt="image">
-									</div>
-									<span class="passion-label">business hotel</span>
-									<input type="checkbox" class="passion-check" name="passion11" id="passion11">
-								</div>
-								<div data-item-id="passion12" class="item">
-									<div class="img-h">
-										<img src="images/types-of-hotels/ski.jpg" alt="image">
-									</div>
-									<span class="passion-label">ski <br>hotel</span>
-									<input type="checkbox" class="passion-check" name="passion12" id="passion12">
-								</div>
-								<div data-item-id="passion13" class="item middle-width">
-									<div class="img-h">
-										<img src="images/types-of-hotels/with-spa.jpg" alt="image">
-									</div>
-									<span class="passion-label">Hotel with spa</span>
-									<input type="checkbox" class="passion-check" name="passion13" id="passion13">
-								</div>
-								<div data-item-id="passion14" class="item">
-									<div class="img-h">
-										<img src="images/types-of-hotels/sport.jpg" alt="image">
-									</div>
-									<span class="passion-label">Sport <br>hotel</span>
-									<input type="checkbox" class="passion-check" name="passion14" id="passion14">
-								</div>
+								<a href="#" class="btn"><i class="gl-ico gl-ico-mail"></i> Send via Email</a>
 							</div>
 						</div>
-						<div class="step-block" id="recommend-step02">
-							<div class="modal-block-ttl">
-								<h2>Travelers interested in:</h2>
-								<p class="info-desc">Please select at least one type of hotel</p>
-							</div>
-							<div class="map-types">
-								<img class="map-types-img" src="images/bg-map.png" alt="">
-								<label for="markerId01" class="marker" style="left: 60px; top: 80px;">
-									<input type="radio" name="markerTypes" id="markerId01" checked="checked">
-									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-school-book-bag"></i></span>
-									<strong class="marker-txt">Alone trip</strong>
-								</label>
-								<label for="markerId02" class="marker selected" style="left: 210px; top: 140px;">
-									<input type="radio" name="markerTypes" id="markerId02">
-									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-users"></i></span>
-									<strong class="marker-txt">Trip with the friend</strong>
-								</label>
-								<label for="markerId03" class="marker" style="left: 480px; top: 110px;">
-									<input type="radio" name="markerTypes" id="markerId03">
-									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-users-group"></i></span>
-									<strong class="marker-txt">Trip with a group</strong>
-								</label>
-								<label for="markerId04" class="marker" style="left: 140px; top: 210px;">
-									<input type="radio" name="markerTypes" id="markerId04">
-									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-family"></i></span>
-									<strong class="marker-txt">Family trip</strong>
-								</label>
-								<label for="markerId05" class="marker" style="left: 100px; top: 280px;">
-									<input type="radio" name="markerTypes" id="markerId05">
-									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-business"></i></span>
-									<strong class="marker-txt">Business trip</strong>
-								</label>
-								<label for="markerId06" class="marker" style="left: 400px; top: 250px;">
-									<input type="radio" name="markerTypes" id="markerId06">
-									<span class="marker-ico gl-ico gl-ico-marker-empty"><i class="gl-ico gl-ico-heart"></i></span>
-									<strong class="marker-txt">Romantic trip</strong>
-								</label>
-							</div>
-						</div>
-						<div class="step-block hidden" id="recommend-step03">
-							<div class="recommend-edit-area">
-								<textarea name="reco" id="" cols="30" rows="10">Write your recommendation here</textarea>
-							</div>
-						</div>
-						<div class="step-block hidden" id="recommend-step04">
-							<div class="modal-block-ttl">
-								<h2>Share this link</h2>
-							</div>
-							<div class="share-area">
-								<strong class="share-ttl">Share this link</strong>
-								<div class="share-group">
-									<div class="form-group">
-										<input class="form-control" type="text" value="www.gloobers.com/share">
+						<div class="recommend-embed">
+							<div class="embed-wrap">
+								<div class="card card-embed">
+									<div class="img-h">
+										<span class="img-wrap">
+											<img src="images/img01.jpg" alt="image">
+										</span>
 									</div>
-									<a href="#" class="btn"><i class="gl-ico gl-ico-mail"></i> Send via Email</a>
+									<strong class="ttl">Gloobers.com <br>Listing name Location name</strong>
+									<span class="sub-ttl">Be friendly - Travel for free. Travel for free thanks to your helpful recommendations. Drop us your email and be the first to know when we launch. Stay tuned on. </span>
 								</div>
 							</div>
-							<div class="recommend-embed">
-								<div class="embed-wrap">
-									<div class="card card-embed">
-										<div class="img-h">
-											<span class="img-wrap">
-												<img src="images/img01.jpg" alt="image">
-											</span>
+							<div class="embed-edit-area">
+								<textarea name="reco" id="" cols="30" rows="10">
+									<div id="glooberUplass='10030208_67677' style="float:left;text-align:center;width:100%"> <div style="background:#efefef;padding:10px;max-width:600px;display:inline-block"><ahref="https://www.gloobers.com/experience/307?ruid=MTA1OA==&FBsrc=https://www.gloobers.com/sites/default/files/styles/sharing_listing_image/products/1477831586_Capture%20d%E2%80%99e%CC%81cran%202016-10-17%20a%CC%80%2011.11.27.png?itok=RJlh2EsH&base_url=https://www.gloobers.com"><img src="https://www.gloobers.com/sites/default/files/styles/sharing_listing_image/products/1477831586_Capture%20d%E2%80%99e%CC%81cran%202016-10-17%20a%CC%80%2011.11.27.png?itok=RJlh2EsH" style="width:100%;border:0;outline:0;margin-bottom:10px" alt="" title="">
+											</a><p style="color:#414141;font-size:20px;font-family:arial;font-weight:bold;margin:0px">Gloobers.com - Kart racing fabien Tel Aviv-Yafo, Israel</p>
+											<p style="color:#414141;font-size:16px;font-family:arial;">Be friendly - Travel for free. Travel for free thanks to your helpful recommendations. Drop us your email and be the first to know when we launch. Stay tuned on. </p>
 										</div>
-										<strong class="ttl">Gloobers.com <br>Listing name Location name</strong>
-										<span class="sub-ttl">Be friendly - Travel for free. Travel for free thanks to your helpful recommendations. Drop us your email and be the first to know when we launch. Stay tuned on. </span>
 									</div>
-								</div>
-								<div class="embed-edit-area">
-									<textarea name="reco" id="" cols="30" rows="10">
-										<div id="glooberUplass='10030208_67677' style="float:left;text-align:center;width:100%"> <div style="background:#efefef;padding:10px;max-width:600px;display:inline-block"><ahref="https://www.gloobers.com/experience/307?ruid=MTA1OA==&FBsrc=https://www.gloobers.com/sites/default/files/styles/sharing_listing_image/products/1477831586_Capture%20d%E2%80%99e%CC%81cran%202016-10-17%20a%CC%80%2011.11.27.png?itok=RJlh2EsH&base_url=https://www.gloobers.com"><img src="https://www.gloobers.com/sites/default/files/styles/sharing_listing_image/products/1477831586_Capture%20d%E2%80%99e%CC%81cran%202016-10-17%20a%CC%80%2011.11.27.png?itok=RJlh2EsH" style="width:100%;border:0;outline:0;margin-bottom:10px" alt="" title="">
-												</a><p style="color:#414141;font-size:20px;font-family:arial;font-weight:bold;margin:0px">Gloobers.com - Kart racing fabien Tel Aviv-Yafo, Israel</p>
-												<p style="color:#414141;font-size:16px;font-family:arial;">Be friendly - Travel for free. Travel for free thanks to your helpful recommendations. Drop us your email and be the first to know when we launch. Stay tuned on. </p>
-											</div>
-										</div>
-									</textarea>
-								</div>
-								<div class="share-soc">
-									<strong class="share-ttl">Share in socials</strong>
-									<div class="soc-btns-row">
-										<a href="#" class="btn btn-facebook"><i class="gl-ico gl-ico-facebook"></i> Facebook</a>
-										<a href="#" class="btn btn-google-plus"><i class="gl-ico gl-ico-google-plus"></i> Google +</a>
-										<a href="#" class="btn btn-instagram"><i class="gl-ico gl-ico-instagram"></i> Instagram</a>
-										<a href="#" class="btn btn-twitter"><i class="gl-ico gl-ico-twitter"></i> Twitter</a>
-									</div>
+								</textarea>
+							</div>
+							<div class="share-soc">
+								<strong class="share-ttl">Share in socials</strong>
+								<div class="soc-btns-row">
+									<a href="#" class="btn btn-facebook"><i class="gl-ico gl-ico-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-google-plus"><i class="gl-ico gl-ico-google-plus"></i> Google +</a>
+									<a href="#" class="btn btn-instagram"><i class="gl-ico gl-ico-instagram"></i> Instagram</a>
+									<a href="#" class="btn btn-twitter"><i class="gl-ico gl-ico-twitter"></i> Twitter</a>
 								</div>
 							</div>
 						</div>
-						<div class="steps-nav">
-							<div class="steps-nav-btns">
-								<div class="steps-counter">
-									<strong class="current-step">1</strong>
-									<i class="separator">/</i>
-									<div class="total-steps">
-										<span>4</span>
-										<span>step</span>
-									</div>
+					</div>
+					<div class="steps-nav">
+						<div class="steps-nav-btns">
+							<div class="steps-counter">
+								<strong class="current-step">1</strong>
+								<i class="separator">/</i>
+								<div class="total-steps">
+									<span>4</span>
+									<span>step</span>
 								</div>
-								<a href="#" class="btn btn-link">Back</a>
-								<a href="#" class="btn btn-default">next</a>
 							</div>
-							<div class="progress">
-								<div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%"></div>
-							</div>
+							<button type="button" class="action btn-link back btn">Back</button>
+							<button type="button" class="action btn-default next btn">Next</button>
+							<!--<button type="submit" class="action btn-hot submit btn">Submit</button>-->
+						</div>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:25%"></div>
 						</div>
 					</div>
 				</div>
-				<p class="info-desc text-center">*Description section. Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry.Lorem Ipsum has been the industry's standard </p>
 			</div>
+			<p class="info-desc text-center">*Description section. Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry.Lorem Ipsum has been the industry's standard </p>
 		</div>
 	</div>
+</div>
 	<!--<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
 		<div class="modal-dialog modal-custom-md" role="document">
 			<div class="modal-content">
