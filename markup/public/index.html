@@ -642,7 +642,7 @@
 				</ul>
 			</div>
 			<div class="footer-row container">
-				<p class="copy"><strong>Gloobers Global Ltd.</strong> 2016. All rights reserved</p>
+				<p class="copy"><strong>Gloobers International Ltd.</strong> 2016. All rights reserved</p>after
 				<ul class="extra-nav">
 					<li><a href="#">Help center</a></li>
 					<li><a href="#">Terms and Conditions</a></li>
@@ -659,14 +659,14 @@
 					<div class="login-form">
 						<form action="#" data-toggle="validator" role="form">
 							<div class="form-group">
-								<input type="email" class="form-control text-center" id="inputEmail" placeholder="E-mail" data-error="Error message" required>
-								<div class="help-block-wrap text-center">
-									<i class="gl-ico gl-ico-attention"></i>
-									<div class="help-block with-errors"></div>
-								</div>
+								<input type="email" class="form-control text-center" id="inputEmail" placeholder="E-mail">
 							</div>
 							<div class="form-group">
 								<input type="password" class="form-control text-center" id="inputPassword" placeholder="Password">
+							</div>
+							<div class="error-message text-center">
+								<i class="gl-ico gl-ico-attention"></i>
+								<div class="error-txt">Error message</div>
 							</div>
 							<div class="wrap-w-side-spaces">
 								<a href="#" class="btn btn-default fill-width">Log in</a>
@@ -681,7 +681,7 @@
 					</div>
 				</div>
 				<div class="login-extra-links">
-					<p>Forget your password? <a href="#">Request a new</a></p>
+					<p>Forget your password? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalChangePassword">Request a new</a></p>
 					<p>Dont have account yet? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalSignUp">Sign up</a></p>
 				</div>
 			</div>
@@ -754,6 +754,60 @@
 			</div>
 		</div>
 		<!-- end modal sign up -->
+		<!-- start modal change pass -->
+		<div class="modal fade" id="modalChangePassword" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+			<div class="modal-dialog modal-custom-sm modal-login" role="document">
+				<div class="modal-content">
+					<div class="login-form change-pass-form">
+						<form action="" data-toggle="validator" role="form">
+							<div class="change-pass-form-wrap">
+								<strong class="ttl">Enter your E-mail</strong>
+								<div class="form-group">
+									<input type="email" class="form-control text-center" id="ConfirmEmail" placeholder="E-mail" data-error="Error message" required>
+									<div class="help-block-wrap text-center">
+										<i class="gl-ico gl-ico-attention"></i>
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+								<p class="info-desc">Here will be description about the adding process ofthe telephone number.</p>
+							</div>
+							<div class="btns-row">
+								<a href="#" class="btn-link btn" data-dismiss="modal" data-toggle="modal" data-target="#modalSignIn">Cancel</a>
+								<a href="#" class="btn-default btn" data-dismiss="modal" data-toggle="modal" data-target="#modalSendMsgConfirm">Send</a>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="img-back-wrap">
+					<div class="img-back l"><img src="images/img-login-l.png" alt=""></div>
+					<div class="img-back r"><img src="images/img-login-r.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<!-- end modal change pass -->
+		<!-- start modal change pass -->
+		<div class="modal fade" id="modalSendMsgConfirm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+			<div class="modal-dialog modal-custom-sm modal-login" role="document">
+				<div class="modal-content">
+					<div class="login-form change-pass-form">
+						<form action="" data-toggle="validator" role="form">
+							<div class="change-pass-form-wrap confirm-msg-wrap">
+								<strong class="confirm-msg"><i class="gl-ico gl-ico-send-mail"></i> We will send you <br>new password, ok?</strong>
+							</div>
+							<div class="btns-row">
+								<a href="#" class="btn-link btn" data-dismiss="modal" data-toggle="modal" data-target="#modalChangePassword">Back</a>
+								<a href="#" class="btn-default btn">Confirm</a>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="img-back-wrap">
+					<div class="img-back l"><img src="images/img-login-l.png" alt=""></div>
+					<div class="img-back r"><img src="images/img-login-r.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<!-- end modal change pass -->
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/36fe5b07c5.js"></script>

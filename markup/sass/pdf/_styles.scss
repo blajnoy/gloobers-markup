@@ -1,0 +1,86 @@
+body {
+	background: #fff;
+}
+.pdf {
+
+}
+.header {
+	background: #fdfdfd;
+	padding: 100px 0 60px;
+	margin: 0 0 90px;
+}
+.logo {
+	display: block;
+	margin: 0 0 115px;
+}
+.voucher-header-desc {
+
+	.name {
+		float: left;
+		width: 60%;
+		padding: 100px 0 0;
+
+		strong {
+			display: block;
+			font-size: 40px;
+			line-height: normal;
+			font-weight: bold;
+			color: #575757;
+			font-family: 'PT Sans';
+			padding: 0 0 15px;
+		}
+
+		.date {
+			font-size: 25px;
+			line-height: 28px;
+			color: #8b8b8b;
+			display: block;
+		}
+
+
+	}
+
+	.ttl {
+		float: right;
+		width: 33.33%;
+
+		h2 {
+			min-height: 100px;
+			margin: 0;
+			font-size: 58px;
+			line-height: 58px;
+			text-transform: uppercase;
+			color: #575757;
+			font-family: 'Open Sans';
+			font-weight: 800;
+		}
+	}
+
+
+}
+.voucher-header-desc:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.reference-number {
+	background: #1e97d8;
+	color: #fff;
+	text-align: right;
+	font-weight: bold;
+	padding: 40px 0 40px 30px;
+
+	span {
+		display: block;
+		font-size: 20px;
+		line-height: 23px;
+		padding: 0 0 10px;
+	}
+
+	strong {
+		display: block;
+		font-size: 50px;
+		line-height: 50px;
+	}
+}

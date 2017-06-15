@@ -1,5 +1,8 @@
 $(document).ready(function () {
 
+    var passionsToShow = [2, 3];
+    renderPassionsList(passionsToShow);
+
     /* star ratings */
 
     if ($('.rating-gl').length != 0) {
@@ -216,13 +219,21 @@ $(document).ready(function () {
         $('#passions-selected .item').removeClass('show');
 
         $('#passions-selected .item').filter(function () {
-            return passionsList.indexOf($(this).data('itemId')) != -1;
+            return passionsList.indexOf( $(this).data('itemId') ) != -1;
         }).addClass('show');
 
         $('#PassionsModal').modal('hide');
 
         return false;
     });
+
+    function renderPassionsList(arrPassions) {
+        $('#passions-selected .item').removeClass('show');
+
+        $('#passions-selected .item').filter(function () {
+            return arrPassions.indexOf( $(this).data('itemId') ) != -1;
+        }).addClass('show');
+    }
 
 
     function addPassionInArray(id) {

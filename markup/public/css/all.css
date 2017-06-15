@@ -438,96 +438,100 @@ table {
   content: "\E05D";
 }
 
-.gl-ico-shopping:before {
+.gl-ico-send-mail:before {
   content: "\E05E";
 }
 
-.gl-ico-sightseeing:before {
+.gl-ico-shopping:before {
   content: "\E05F";
 }
 
-.gl-ico-ski:before {
+.gl-ico-sightseeing:before {
   content: "\E060";
 }
 
-.gl-ico-spa:before {
+.gl-ico-ski:before {
   content: "\E061";
 }
 
-.gl-ico-sports:before {
+.gl-ico-spa:before {
   content: "\E062";
 }
 
-.gl-ico-staff:before {
+.gl-ico-sports:before {
   content: "\E063";
 }
 
-.gl-ico-star:before {
+.gl-ico-staff:before {
   content: "\E064";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-star:before {
   content: "\E065";
 }
 
-.gl-ico-things-to-keep-in-mind:before {
+.gl-ico-street-map:before {
   content: "\E066";
 }
 
-.gl-ico-transportation:before {
+.gl-ico-things-to-keep-in-mind:before {
   content: "\E067";
 }
 
-.gl-ico-trekking:before {
+.gl-ico-transportation:before {
   content: "\E068";
 }
 
-.gl-ico-tv:before {
+.gl-ico-trekking:before {
   content: "\E069";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-tv:before {
   content: "\E06A";
 }
 
-.gl-ico-user:before {
+.gl-ico-twitter:before {
   content: "\E06B";
 }
 
-.gl-ico-users-group:before {
+.gl-ico-user:before {
   content: "\E06C";
 }
 
-.gl-ico-users:before {
+.gl-ico-users-group:before {
   content: "\E06D";
 }
 
-.gl-ico-washing:before {
+.gl-ico-users:before {
   content: "\E06E";
 }
 
-.gl-ico-water-sports:before {
+.gl-ico-washing:before {
   content: "\E06F";
 }
 
-.gl-ico-wellness:before {
+.gl-ico-water-sports:before {
   content: "\E070";
 }
 
-.gl-ico-wifi:before {
+.gl-ico-wellness:before {
   content: "\E071";
 }
 
-.gl-ico-wildlife:before {
+.gl-ico-wifi:before {
   content: "\E072";
 }
 
-.gl-ico-wine:before {
+.gl-ico-wildlife:before {
   content: "\E073";
 }
 
-.gl-ico-worldwide:before {
+.gl-ico-wine:before {
   content: "\E074";
+}
+
+.gl-ico-worldwide:before {
+  content: "\E075";
 }
 
 body {
@@ -8269,6 +8273,7 @@ input.daterange-input {
   padding: 24px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
+  z-index: 2;
 }
 
 .modal-header {
@@ -8287,6 +8292,61 @@ input.daterange-input {
   opacity: .5;
 }
 
+.img-back-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.img-back-wrap .img-back {
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.5s ease-out 0.5s;
+  transition: all 0.5s ease-out 0.5s;
+}
+
+.img-back-wrap .img-back.l {
+  -webkit-transform: translateX(150px);
+  -ms-transform: translateX(150px);
+  transform: translateX(150px);
+}
+
+.in .img-back-wrap .img-back.l {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.img-back-wrap .img-back.r {
+  -webkit-transition: all 0.4s ease-out 0.7s;
+  transition: all 0.4s ease-out 0.7s;
+  -webkit-transform: translateX(-150px);
+  -ms-transform: translateX(-150px);
+  transform: translateX(-150px);
+}
+
+.in .img-back-wrap .img-back.r {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.img-back-wrap .img-back .img {
+  display: block;
+}
+
 .login-extra-links {
   padding: 20px;
   text-align: center;
@@ -8299,7 +8359,7 @@ input.daterange-input {
   margin: 0 0 15px;
 }
 
-.has-error .help-block-wrap,
+.has-error .help-block-wrap, .has-error .error-message,
 .has-error .checkbox,
 .has-error .checkbox-inline,
 .has-error .control-label,
@@ -8318,7 +8378,7 @@ input.daterange-input {
   border-color: #f00;
 }
 
-.help-block-wrap {
+.help-block-wrap, .error-message {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8333,20 +8393,35 @@ input.daterange-input {
   margin: 0 0 -30px;
 }
 
-.help-block-wrap.text-center {
+.help-block-wrap.text-center, .text-center.error-message {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
-.help-block-wrap .gl-ico-attention {
+.help-block-wrap .gl-ico-attention, .error-message .gl-ico-attention {
   display: none;
   font-size: 13px;
   margin: 5px 5px 10px 0;
 }
 
-.has-error .help-block-wrap .gl-ico-attention {
+.has-error .help-block-wrap .gl-ico-attention, .has-error .error-message .gl-ico-attention {
+  display: inline-block;
+}
+
+.error-message {
+  color: #f00;
+  margin: -30px 0 0;
+}
+
+.error-message .gl-ico-attention {
+  display: block;
+}
+
+.error-message .error-txt {
+  margin-top: 5px;
+  margin-bottom: 10px;
   display: inline-block;
 }
 
@@ -8370,6 +8445,14 @@ input.daterange-input {
   padding: 0 0 40px;
 }
 
+.login-form.change-pass-form {
+  padding: 0 0 10px;
+}
+
+.login-form .change-pass-form-wrap {
+  min-height: 300px;
+}
+
 .login-form .form-group {
   margin-bottom: 30px;
   position: relative;
@@ -8381,6 +8464,54 @@ input.daterange-input {
 
 .login-form .agree .info-desc {
   line-height: inherit;
+}
+
+.login-form .ttl {
+  display: block;
+  font-size: 18px;
+  line-height: 21px;
+  color: #501e00;
+  padding: 0 0 15px;
+  font-weight: bold;
+}
+
+.login-form .btns-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border-top: 1px solid #e5e5e5;
+  padding: 30px 0 0;
+}
+
+.confirm-msg-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.confirm-msg-wrap .confirm-msg {
+  margin: auto;
+  color: #501e00;
+  font: bold 30px/34px 'PT Sans';
+  display: block;
+  text-align: center;
+}
+
+.confirm-msg-wrap .confirm-msg .gl-ico, .confirm-msg-wrap .confirm-msg .slick-slider .slick-arrow, .slick-slider .confirm-msg-wrap .confirm-msg .slick-arrow, .confirm-msg-wrap .confirm-msg .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .confirm-msg-wrap .confirm-msg b, .confirm-msg-wrap .confirm-msg .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .confirm-msg-wrap .confirm-msg .iti-arrow {
+  margin: 0 auto 20px;
+  font-size: 90px;
+  display: block;
+  color: #1e97d8;
 }
 
 .wrap-w-side-spaces {
@@ -8667,6 +8798,25 @@ input.daterange-input {
   line-height: 20px;
   color: rgba(0, 0, 0, 0.6);
   margin: 0 0 30px;
+}
+
+.modal {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
 
 .payment-aside {

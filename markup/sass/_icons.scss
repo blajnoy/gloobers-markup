@@ -308,74 +308,77 @@
 	@if $filename == search {
 		$char: \E05D;
 	}
-	@if $filename == shopping {
+	@if $filename == send-mail {
 		$char: \E05E;
 	}
-	@if $filename == sightseeing {
+	@if $filename == shopping {
 		$char: \E05F;
 	}
-	@if $filename == ski {
+	@if $filename == sightseeing {
 		$char: \E060;
 	}
-	@if $filename == spa {
+	@if $filename == ski {
 		$char: \E061;
 	}
-	@if $filename == sports {
+	@if $filename == spa {
 		$char: \E062;
 	}
-	@if $filename == staff {
+	@if $filename == sports {
 		$char: \E063;
 	}
-	@if $filename == star {
+	@if $filename == staff {
 		$char: \E064;
 	}
-	@if $filename == street-map {
+	@if $filename == star {
 		$char: \E065;
 	}
-	@if $filename == things-to-keep-in-mind {
+	@if $filename == street-map {
 		$char: \E066;
 	}
-	@if $filename == transportation {
+	@if $filename == things-to-keep-in-mind {
 		$char: \E067;
 	}
-	@if $filename == trekking {
+	@if $filename == transportation {
 		$char: \E068;
 	}
-	@if $filename == tv {
+	@if $filename == trekking {
 		$char: \E069;
 	}
-	@if $filename == twitter {
+	@if $filename == tv {
 		$char: \E06A;
 	}
-	@if $filename == user {
+	@if $filename == twitter {
 		$char: \E06B;
 	}
-	@if $filename == users-group {
+	@if $filename == user {
 		$char: \E06C;
 	}
-	@if $filename == users {
+	@if $filename == users-group {
 		$char: \E06D;
 	}
-	@if $filename == washing {
+	@if $filename == users {
 		$char: \E06E;
 	}
-	@if $filename == water-sports {
+	@if $filename == washing {
 		$char: \E06F;
 	}
-	@if $filename == wellness {
+	@if $filename == water-sports {
 		$char: \E070;
 	}
-	@if $filename == wifi {
+	@if $filename == wellness {
 		$char: \E071;
 	}
-	@if $filename == wildlife {
+	@if $filename == wifi {
 		$char: \E072;
 	}
-	@if $filename == wine {
+	@if $filename == wildlife {
 		$char: \E073;
 	}
-	@if $filename == worldwide {
+	@if $filename == wine {
 		$char: \E074;
+	}
+	@if $filename == worldwide {
+		$char: \E075;
 	}
 
 	@return $char;
@@ -673,6 +676,9 @@
 }
 .gl-ico-search {
 	@include gl-ico(search);
+}
+.gl-ico-send-mail {
+	@include gl-ico(send-mail);
 }
 .gl-ico-shopping {
 	@include gl-ico(shopping);
