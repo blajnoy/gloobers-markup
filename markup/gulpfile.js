@@ -35,7 +35,7 @@ gulp.task('iconfont', function(){
 
 
 gulp.task('sass', function() {
-	return gulp.src('sass/**/*.scss')
+	return gulp.src('sass/all/**/*.scss')
 		.pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
 		.pipe(autoprefixer({
 			browsers: ['last 20 versions'],
@@ -47,7 +47,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('sass:watch', function() {
-	gulp.watch('sass/**/*.scss', ['sass']);
+	gulp.watch('sass/all/**/*.scss', ['sass']);
 });
 
 gulp.task('coming', function() {

@@ -8,7 +8,8 @@
 	<title>Gloobers</title>
 	<link rel="shortcut icon" href="images/favicon.ico" />
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|PT+Sans:400,700" rel="stylesheet">
+	<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|PT+Sans:400,700" rel="stylesheet">-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800|PT+Sans:400,700" rel="stylesheet">
 	<link href="css/sprite.css" rel="stylesheet">
 	<link href="css/jquery.fancybox.css" rel="stylesheet">
 
@@ -72,10 +73,84 @@
 				<div class="row flex-row">
 					<div class="col-xs-3">
 						<div class="personal-photo">
-							<div class="photo">
+							<!--<div class="photo">
 								<img src="images/photo01-big.jpg" alt="">
+							</div>-->
+
+							<!---->
+							<div id="crop-avatar">
+
+								<!-- Current avatar -->
+								<div class="photo avatar-view" title="Change the avatar">
+									<img src="images/photo01-big.jpg" alt="avatar">
+								</div>
+								<a data-toggle="modal" data-target="#uploadPhoto" href="#" class="btn fill-width"><i class="gl-ico gl-ico-photo-camera"></i> Change photo</a>
+
+								<!-- Cropping modal -->
+								<div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<form class="avatar-form" action="crop.php" enctype="multipart/form-data" method="post">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+													<h4 class="modal-title" id="avatar-modal-label">Change Avatar</h4>
+												</div>
+												<div class="modal-body">
+													<div class="avatar-body">
+
+														<!-- Upload image and data -->
+														<div class="avatar-upload">
+															<input type="hidden" class="avatar-src" name="avatar_src">
+															<input type="hidden" class="avatar-data" name="avatar_data">
+															<label for="avatarInput">Local upload</label>
+															<input type="file" class="avatar-input" id="avatarInput" name="avatar_file">
+														</div>
+
+														<!-- Crop and preview -->
+														<div class="row">
+															<div class="col-md-9">
+																<div class="avatar-wrapper"></div>
+															</div>
+															<div class="col-md-3">
+																<div class="avatar-preview preview-lg"></div>
+																<div class="avatar-preview preview-md"></div>
+																<!--<div class="avatar-preview preview-sm"></div>-->
+															</div>
+														</div>
+
+														<div class="row avatar-btns">
+															<div class="col-md-9">
+																<div class="btn-group">
+																	<button type="button" class="btn btn-primary" data-method="rotate" data-option="-90" title="Rotate -90 degrees">Rotate Left</button>
+																	<button type="button" class="btn btn-primary" data-method="rotate" data-option="-15">-15deg</button>
+																	<button type="button" class="btn btn-primary" data-method="rotate" data-option="-30">-30deg</button>
+																	<button type="button" class="btn btn-primary" data-method="rotate" data-option="-45">-45deg</button>
+																</div>
+																<div class="btn-group">
+																	<button type="button" class="btn btn-primary" data-method="rotate" data-option="90" title="Rotate 90 degrees">Rotate Right</button>
+																	<button type="button" class="btn btn-primary" data-method="rotate" data-option="15">15deg</button>
+																	<button type="button" class="btn btn-primary" data-method="rotate" data-option="30">30deg</button>
+																	<button type="button" class="btn btn-primary" data-method="rotate" data-option="45">45deg</button>
+																</div>
+															</div>
+															<div class="col-md-3">
+																<button type="submit" class="btn btn-primary btn-block avatar-save">Done</button>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- <div class="modal-footer">
+                                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div> -->
+											</form>
+										</div>
+									</div>
+								</div><!-- /.modal -->
+
+								<!-- Loading state -->
+								<div class="loading" aria-label="Loading" role="img" tabindex="-1"></div>
 							</div>
-							<a data-toggle="modal" data-target="#uploadPhoto" href="#" class="btn fill-width"><i class="gl-ico gl-ico-photo-camera"></i> Change photo</a>
+							<!---->
 							<span class="info-desc text-center">* Description about photo</span>
 						</div>
 					</div>
@@ -740,6 +815,7 @@
 	<script src="js/scroll-menu.js"></script>
 
 	<script src="js/cropper.min.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js" integrity="sha384-tIwI8+qJdZBtYYCKwRkjxBGQVZS3gGozr3CtI+5JF/oL1JmPEHzCEnIKbDbLTCer" crossorigin="anonymous"></script>
 
 
@@ -748,11 +824,10 @@
 	<script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyA9ZXW_xxCYbGV5hAN13jO2yquESD3MY10 &libraries=places&language=en"></script>
 
 	<script src="https://cdn.sobekrepository.org/includes/gmaps-markerwithlabel/1.9.1/gmaps-markerwithlabel-1.9.1.min.js"></script>
+	<script src="js/cropper-main-custom.js"></script>
 
-
-	<script src="js/main.js"></script>
-
-
+	<script src="js/main.js"></script
+>
 
 </body>
 </html>

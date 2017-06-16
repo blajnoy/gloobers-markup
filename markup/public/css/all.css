@@ -8307,14 +8307,13 @@ input.daterange-input {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  margin-top: 20px;
 }
 
 .img-back-wrap .img-back {
   display: inline-block;
   vertical-align: top;
-  -webkit-transition: all 0.5s ease-out 0.5s;
-  transition: all 0.5s ease-out 0.5s;
+  -webkit-transition: all 0.4s ease-out 0.5s;
+  transition: all 0.4s ease-out 0.5s;
 }
 
 .img-back-wrap .img-back.l {
@@ -8330,8 +8329,6 @@ input.daterange-input {
 }
 
 .img-back-wrap .img-back.r {
-  -webkit-transition: all 0.4s ease-out 0.7s;
-  transition: all 0.4s ease-out 0.7s;
   -webkit-transform: translateX(-150px);
   -ms-transform: translateX(-150px);
   transform: translateX(-150px);
@@ -8798,25 +8795,6 @@ input.daterange-input {
   line-height: 20px;
   color: rgba(0, 0, 0, 0.6);
   margin: 0 0 30px;
-}
-
-.modal {
-  text-align: center;
-  padding: 0 !important;
-}
-
-.modal:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -4px;
-}
-
-.modal-dialog {
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
 }
 
 .payment-aside {
@@ -11502,24 +11480,24 @@ input.daterange-input {
 }
 
 /* cropper */
+/*
+
 .avatar-view {
-  display: block;
-  margin: 15% auto 5%;
-  height: 220px;
-  width: 220px;
-  border: 3px solid #fff;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  overflow: hidden;
+	display: block;
+	margin: 15% auto 5%;
+	height: 220px;
+	width: 220px;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,.15);
+	cursor: pointer;
+	overflow: hidden;
 }
 
 .avatar-view img {
-  width: 100%;
+	width: 100%;
 }
-
+*/
 .avatar-body {
   padding-right: 15px;
   padding-left: 15px;

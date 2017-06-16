@@ -1,0 +1,45 @@
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+	+ label {
+		font-size: 20px;
+		line-height: 36px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		cursor: pointer;
+		display: inline-block;
+		vertical-align: middle;
+		overflow: hidden;
+		padding: 10px 20px;
+		min-height: 60px;
+		color: #fff;
+		border: 2px solid #ef5519;
+		border-image-slice: 1;
+		border-radius: 5px;
+		margin: 0 22px 20px 0;
+		text-align: center;
+		svg {
+			width: 1em;
+			height: 1em;
+			vertical-align: middle;
+			fill: currentColor;
+			margin-top: -4px;
+			margin-right: 4px;
+		}
+		@include breakpoint(max-width $sm) {
+			width: 100%;
+			margin: 0 0 20px;
+		}
+	}
+	&:focus + label,
+	&.has-focus + label,
+	& + label:hover {
+		outline: none;
+		color: #ef5519;
+	}
+}
+

@@ -864,81 +864,262 @@ svg {
 
 body {
   background: #fff;
+  font: 11px/17px 'PT Sans', Arial, sans-serif;
 }
 
-.header {
-  background: #fdfdfd;
-  padding: 100px 0 60px;
-  margin: 0 0 90px;
+.pdf * {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
 }
 
-.logo {
+.pdf strong {
+  font-weight: bold;
+}
+
+.pdf .pdf--container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+.pdf .pdf--container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pdf .pdf--header {
+  background: #fdfdfd url(../images/for-pdf/bg-header.jpg) 200% 0 no-repeat;
+  padding: 10px 0 30px;
+  margin: 0 0 20px;
+}
+
+.pdf .pdf--logo {
   display: block;
-  margin: 0 0 115px;
+  margin: 0 0 40px;
 }
 
-.voucher-header-desc .name {
+.pdf .pdf--voucher-header-desc {
+  overflow: hidden;
+}
+
+.pdf .pdf--voucher-header-desc:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pdf .pdf--voucher-header-desc .pdf--name {
   float: left;
   width: 60%;
-  padding: 100px 0 0;
+  padding: 52px 0 0;
 }
 
-.voucher-header-desc .name strong {
+.pdf .pdf--voucher-header-desc .pdf--name strong {
   display: block;
-  font-size: 40px;
-  line-height: normal;
+  font-size: 27px;
+  line-height: 33px;
   font-weight: bold;
   color: #575757;
   font-family: 'PT Sans';
   padding: 0 0 15px;
 }
 
-.voucher-header-desc .name .date {
-  font-size: 25px;
-  line-height: 28px;
+.pdf .pdf--voucher-header-desc .pdf--name .pdf--date {
+  font-size: 17px;
+  line-height: 20px;
   color: #8b8b8b;
   display: block;
 }
 
-.voucher-header-desc .ttl {
+.pdf .pdf--voucher-header-desc .pdf--ttl {
   float: right;
-  width: 33.33%;
+  width: 245px;
 }
 
-.voucher-header-desc .ttl h2 {
-  min-height: 100px;
+.pdf .pdf--voucher-header-desc .pdf--ttl h2 {
+  min-height: 60px;
   margin: 0;
-  font-size: 58px;
-  line-height: 58px;
+  font-size: 39px;
+  line-height: 39px;
   text-transform: uppercase;
   color: #575757;
   font-family: 'Open Sans';
   font-weight: 800;
 }
 
-.voucher-header-desc:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.reference-number {
+.pdf .pdf--reference-number {
   background: #1e97d8;
   color: #fff;
   text-align: right;
   font-weight: bold;
-  padding: 40px 0 40px 30px;
+  padding: 30px 1000px 30px 30px;
+  margin: 0 -1000px 0 0;
 }
 
-.reference-number span {
+.pdf .pdf--reference-number span {
   display: block;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 14px;
+  line-height: 17px;
   padding: 0 0 10px;
 }
 
-.reference-number strong {
+.pdf .pdf--reference-number strong {
   display: block;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 34px;
+  line-height: 34px;
+}
+
+.pdf h3 {
+  font-size: 23px;
+  line-height: 26px;
+  color: #8b8b8b;
+  margin: 0 0 15px;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+}
+
+.pdf .pdf--content {
+  padding: 0 0 20px;
+}
+
+.pdf .pdf--desc {
+  padding: 0 0 10px;
+}
+
+.pdf .pdf--desc-table {
+  width: 100%;
+  color: #000000;
+  font: 13px/16px 'Open Sans', Arial, sans-serif;
+  margin: 0 0 25px;
+}
+
+.pdf .pdf--desc-table thead th {
+  border-bottom: 2px solid #eee;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.pdf .pdf--desc-table thead th:last-child {
+  text-align: right;
+}
+
+.pdf .pdf--desc-table tbody td {
+  text-align: left;
+  padding: 5px 0;
+}
+
+.pdf .pdf--desc-table tbody td:last-child {
+  text-align: right;
+}
+
+.pdf .pdf--two-columns {
+  font-size: 0;
+  margin: 0 -22px 25px;
+}
+
+.pdf .pdf--two-columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pdf .pdf--two-columns .pdf--col {
+  padding: 0;
+  font: 11px/17px 'PT Sans', Arial, sans-serif;
+  float: left;
+  vertical-align: top;
+  width: 50%;
+}
+
+.pdf .pdf--two-columns .pdf--col p {
+  margin: 0 22px 20px;
+}
+
+.pdf .pdf--provider {
+  background: #ffc200;
+  margin: 0 0 30px;
+}
+
+.pdf .pdf--provider .pdf--img-h {
+  float: left;
+  width: 267px;
+  height: 195px;
+  margin: -13px 40px -13px 0;
+}
+
+.pdf .pdf--provider .pdf--img-h img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.pdf .pdf--provider .pdf--text-h {
+  display: table-cell;
+  vertical-align: middle;
+  height: 170px;
+  font: 11px/17px 'PT Sans', Arial, sans-serif;
+}
+
+.pdf .pdf--provider .pdf--text-h .pdf--provider-name {
+  display: block;
+  font-size: 23px;
+  line-height: 26px;
+  margin: 0 0 15px;
+  font-family: 'PT Sans';
+  color: #501e00;
+  font-weight: bold;
+}
+
+.pdf .pdf--provider .pdf--text-h .pdf--ref {
+  display: block;
+}
+
+.pdf .pdf--provider .pdf--text-h .pdf--ref strong {
+  font-weight: bold;
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+.pdf .pdf--booked-info {
+  line-height: 30px;
+}
+
+.pdf .pdf--booked-info .pdf--thank {
+  float: left;
+  font-size: 17px;
+  line-height: 30px;
+  color: #501e00;
+  font-weight: bold;
+  padding: 0 0 0 20px;
+  background: url(../images/for-pdf/ico-heart.png) 0 50% no-repeat;
+}
+
+.pdf .pdf--booked-info .pdf--booked-by {
+  overflow: hidden;
+  text-align: right;
+  font-size: 13px;
+}
+
+.pdf .pdf--footer {
+  font-size: 12px;
+  color: #c5c5c5;
+  padding: 0 0 20px;
+}
+
+.pdf .pdf--footer .pdf--copy {
+  float: left;
+  margin: 0;
+}
+
+.pdf .pdf--footer .pdf--pages {
+  display: block;
+  overflow: hidden;
+  text-align: right;
 }

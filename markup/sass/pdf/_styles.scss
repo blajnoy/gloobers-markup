@@ -1,86 +1,243 @@
 body {
 	background: #fff;
+	font: 11px/17px 'PT Sans', Arial, sans-serif;
 }
 .pdf {
-
-}
-.header {
-	background: #fdfdfd;
-	padding: 100px 0 60px;
-	margin: 0 0 90px;
-}
-.logo {
-	display: block;
-	margin: 0 0 115px;
-}
-.voucher-header-desc {
-
-	.name {
-		float: left;
-		width: 60%;
-		padding: 100px 0 0;
-
-		strong {
-			display: block;
-			font-size: 40px;
-			line-height: normal;
-			font-weight: bold;
-			color: #575757;
-			font-family: 'PT Sans';
-			padding: 0 0 15px;
-		}
-
-		.date {
-			font-size: 25px;
-			line-height: 28px;
-			color: #8b8b8b;
-			display: block;
-		}
-
-
-	}
-
-	.ttl {
-		float: right;
-		width: 33.33%;
-
-		h2 {
-			min-height: 100px;
-			margin: 0;
-			font-size: 58px;
-			line-height: 58px;
-			text-transform: uppercase;
-			color: #575757;
-			font-family: 'Open Sans';
-			font-weight: 800;
-		}
-	}
-
-
-}
-.voucher-header-desc:after {
-	content: '';
-	display: table;
-	clear: both;
-}
-
-.reference-number {
-	background: #1e97d8;
-	color: #fff;
-	text-align: right;
-	font-weight: bold;
-	padding: 40px 0 40px 30px;
-
-	span {
-		display: block;
-		font-size: 20px;
-		line-height: 23px;
-		padding: 0 0 10px;
+	* {
+		box-sizing: content-box;
 	}
 
 	strong {
+		font-weight: bold;
+	}
+
+	.pdf--container {
+		margin: 0 auto;
+		max-width: 800px;
+		padding: 0 15px;
+		@include clearfix();
+	}
+	.pdf--header {
+		background: #fdfdfd url(../images/for-pdf/bg-header.jpg) 200% 0 no-repeat;
+		padding: 10px 0 30px;
+		margin: 0 0 20px;
+	}
+
+	.pdf--logo {
 		display: block;
-		font-size: 50px;
-		line-height: 50px;
+		margin: 0 0 40px;
+	}
+
+	.pdf--voucher-header-desc {
+		overflow: hidden;
+		@include clearfix();
+
+		.pdf--name {
+			float: left;
+			width: 60%;
+			padding: 52px 0 0;
+
+			strong {
+				display: block;
+				font-size: 27px;
+				line-height: 33px;
+				font-weight: bold;
+				color: #575757;
+				font-family: 'PT Sans';
+				padding: 0 0 15px;
+			}
+
+			.pdf--date {
+				font-size: 17px;
+				line-height: 20px;
+				color: #8b8b8b;
+				display: block;
+			}
+
+
+		}
+
+		.pdf--ttl {
+			float: right;
+			width: 245px;
+
+			h2 {
+				min-height: 60px;
+				margin: 0;
+				font-size: 39px;
+				line-height: 39px;
+				text-transform: uppercase;
+				color: #575757;
+				font-family: 'Open Sans';
+				font-weight: 800;
+			}
+		}
+	}
+
+	.pdf--reference-number {
+		background: #1e97d8;
+		color: #fff;
+		text-align: right;
+		font-weight: bold;
+		padding: 30px 1000px 30px 30px;
+		margin: 0 -1000px 0 0;
+
+		span {
+			display: block;
+			font-size: 14px;
+			line-height: 17px;
+			padding: 0 0 10px;
+		}
+
+		strong {
+			display: block;
+			font-size: 34px;
+			line-height: 34px;
+		}
+	}
+	h3 {
+		font-size: 23px;
+		line-height: 26px;
+		color: #8b8b8b;
+		margin: 0 0 15px;
+		font-family: 'Open Sans';
+		text-transform: uppercase;
+	}
+
+	.pdf--content {
+		padding: 0 0 20px;
+	}
+	.pdf--desc {
+		padding: 0 0 10px;
+	}
+	.pdf--desc-table {
+		width: 100%;
+		color: #000000;
+		font: 13px/16px 'Open Sans', Arial, sans-serif;
+		margin: 0 0 25px;
+
+		thead {
+			th {
+				border-bottom: 2px solid #eee;
+				text-align: left;
+				font-weight: bold;
+				padding: 5px 0;
+
+				&:last-child {
+					text-align: right;
+				}
+			}
+		}
+
+		tbody {
+			td {
+				text-align: left;
+				padding: 5px 0;
+
+				&:last-child {
+					text-align: right;
+				}
+			}
+		}
+	}
+	.pdf--two-columns {
+		font-size: 0;
+		margin: 0 -22px 25px;
+		@include clearfix();
+
+		.pdf--col {
+			padding: 0;
+			font: 11px/17px 'PT Sans', Arial, sans-serif;
+			float: left;
+			vertical-align: top;
+			width: 50%;
+
+			p {
+				margin: 0 22px 20px;
+			}
+		}
+	}
+	.pdf--provider {
+		background: #ffc200;
+		margin: 0 0 30px;
+
+		.pdf--img-h {
+			float: left;
+			width: 267px;
+			height: 195px;
+			margin: -13px 40px -13px 0;
+
+			img {
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				border-radius: 10px;
+				box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+			}
+		}
+
+		.pdf--text-h {
+			display: table-cell;
+			vertical-align: middle;
+			height: 170px;
+			font: 11px/17px 'PT Sans', Arial, sans-serif;
+
+			.pdf--provider-name {
+				display: block;
+				font-size: 23px;
+				line-height: 26px;
+				margin: 0 0 15px;
+				font-family: 'PT Sans';
+				color: $secondTextColor;
+				font-weight: bold;
+			}
+
+			.pdf--ref {
+				display: block;
+
+				strong {
+					font-weight: bold;
+					display: inline-block;
+					margin: 0 20px 0 0;
+				}
+			}
+		}
+	}
+	.pdf--booked-info {
+		line-height: 30px;
+
+		.pdf--thank {
+			float: left;
+			font-size: 17px;
+			line-height: 30px;
+			color: $secondTextColor;
+			font-weight: bold;
+			padding: 0 0 0 20px;
+			background: url(../images/for-pdf/ico-heart.png) 0 50% no-repeat;
+		}
+
+		.pdf--booked-by {
+			overflow: hidden;
+			text-align: right;
+			font-size: 13px;
+		}
+	}
+
+	.pdf--footer {
+		font-size: 12px;
+		color: #c5c5c5;
+		padding: 0 0 20px;
+
+		.pdf--copy {
+			float: left;
+			margin: 0;
+		}
+
+		.pdf--pages {
+			display: block;
+			overflow: hidden;
+			text-align: right;
+		}
 	}
 }
