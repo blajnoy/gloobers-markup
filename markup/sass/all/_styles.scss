@@ -889,6 +889,18 @@ input.daterange-input {
 		flex: 1;
 		margin: 0 15px 40px;
 	}
+
+	&.personal-cabinet-users-travel {
+
+		.card {
+			.img-h {
+				.img-wrap {
+					display: block;
+					@include aspect-ratio(36, 24);
+				}
+			}
+		}
+	}
 }
 .card {
 	position: relative;
@@ -2880,6 +2892,24 @@ input.daterange-input {
 			border-radius: 10px;
 		}
 	}
+
+	&.personal-cabinet-whish-list {
+		padding: 0;
+		margin-top: -15px;
+
+		.item {
+			margin: 15px;
+
+			> a {
+				@include aspect-ratio(36, 24);
+			}
+
+			.city-name {
+				font: bold 40px/40px 'PT Sans', sans-serif;
+				padding: 0 0 13px;
+			}
+		}
+	}
 }
 .reviews-list {
 	padding: 7px 0 0;
@@ -3203,6 +3233,37 @@ input.daterange-input {
 		}
 	}
 }
+
+.two-columns-recommendation-block {
+	display: flex;
+	padding-top: 70px;
+	margin-top: 70px;
+	border-top: 2px solid #e1e1e1;
+
+	.share-area {
+		flex: auto;
+
+		p {
+			margin: 0 0 15px;
+		}
+	}
+
+	.share-soc {
+		flex: 0 auto;
+		margin-left: 120px;
+
+		.soc-btns-row {
+			margin: 0 -15px;
+			padding-top: 8px;
+
+			.btn {
+				margin: 0 15px 20px;
+			}
+		}
+	}
+}
+
+
 .soc-btns-row {
 	@extend .share-group;
 	margin: 0 -20px;

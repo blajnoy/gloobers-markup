@@ -4315,6 +4315,28 @@ input.daterange-input {
   margin: 0 15px 40px;
 }
 
+.recommendations.personal-cabinet-users-travel .card .img-h .img-wrap, .recommendations.personal-cabinet-users-travel .review-card .img-h .img-wrap {
+  display: block;
+  display: block;
+  position: relative;
+}
+
+.recommendations.personal-cabinet-users-travel .card .img-h .img-wrap:before, .recommendations.personal-cabinet-users-travel .review-card .img-h .img-wrap:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: -webkit-calc( ( 24 / 36 ) * 100% - 0px);
+  padding-top: calc( ( 24 / 36 ) * 100% - 0px);
+}
+
+.recommendations.personal-cabinet-users-travel .card .img-h .img-wrap > img, .recommendations.personal-cabinet-users-travel .review-card .img-h .img-wrap > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .card, .review-card {
   position: relative;
   border: 1px solid #e5e5e5;
@@ -6744,6 +6766,41 @@ input.daterange-input {
   border-radius: 10px;
 }
 
+.cities-list.personal-cabinet-whish-list {
+  padding: 0;
+  margin-top: -15px;
+}
+
+.cities-list.personal-cabinet-whish-list .item {
+  margin: 15px;
+}
+
+.cities-list.personal-cabinet-whish-list .item > a {
+  display: block;
+  position: relative;
+}
+
+.cities-list.personal-cabinet-whish-list .item > a:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: -webkit-calc( ( 24 / 36 ) * 100% - 0px);
+  padding-top: calc( ( 24 / 36 ) * 100% - 0px);
+}
+
+.cities-list.personal-cabinet-whish-list .item > a > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cities-list.personal-cabinet-whish-list .item .city-name {
+  font: bold 40px/40px 'PT Sans', sans-serif;
+  padding: 0 0 13px;
+}
+
 .reviews-list {
   padding: 7px 0 0;
 }
@@ -7154,6 +7211,44 @@ input.daterange-input {
   -webkit-flex: 0 0 -webkit-calc(30% - 20px);
   -ms-flex: 0 0 calc(30% - 20px);
   flex: 0 0 calc(30% - 20px);
+}
+
+.two-columns-recommendation-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px;
+  margin-top: 70px;
+  border-top: 2px solid #e1e1e1;
+}
+
+.two-columns-recommendation-block .share-area {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.two-columns-recommendation-block .share-area p {
+  margin: 0 0 15px;
+}
+
+.two-columns-recommendation-block .share-soc {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  margin-left: 120px;
+}
+
+.two-columns-recommendation-block .share-soc .soc-btns-row {
+  margin: 0 -15px;
+  padding-top: 8px;
+}
+
+.two-columns-recommendation-block .share-soc .soc-btns-row .btn {
+  margin: 0 15px 20px;
 }
 
 .soc-btns-row {

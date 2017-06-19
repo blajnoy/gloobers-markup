@@ -2,107 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="person counter">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/for-pdf/bg-header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/for-pdf/img01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/personal-upload-img.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/crop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_breakpoint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_coming-soon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_custom-chk&amp;radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_custom-input-file.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_daterangepicker.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_drop-theme-arrows.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_full-calendar-customization.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_global.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_main-soon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_mixins-sassy-form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_popover-extra-placements.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_slick.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_styles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/_context.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/_helpers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/_legacy-settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/_no-query.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/_parsers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/_respond-to.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/_double.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/_query.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/_resolution.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/_single.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/_triple.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/double/_default-pair.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/double/_default.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/double/_double-string.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/resolution/_resolution.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/single/_default.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/breakpoint/parsers/triple/_default.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/range-slider/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/range-slider/_rules.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/sass/all/range-slider/_variables.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/public/images/for-pdf/bg-header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/public/login-change-pass.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_breakpoint.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_coming-soon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_custom-chk&amp;radio.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_custom-input-file.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_daterangepicker.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_drop-theme-arrows.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_full-calendar-customization.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_main-soon.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_menu.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_mixins-sassy-form.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_popover-extra-placements.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_reset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_slick.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_styles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/_context.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/_helpers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/_legacy-settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/_no-query.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/_parsers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/_respond-to.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/_settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/_double.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/_query.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/_resolution.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/_single.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/_triple.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/double/_default-pair.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/double/_default.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/double/_double-string.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/resolution/_resolution.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/single/_default.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/breakpoint/parsers/triple/_default.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/range-slider/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/range-slider/_rules.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/sass/range-slider/_variables.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/images/for-pdf/ico-heart.png" afterPath="$PROJECT_DIR$/markup/public/images/for-pdf/ico-heart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/images/for-pdf/logo.png" afterPath="$PROJECT_DIR$/markup/public/images/for-pdf/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/markup.zip" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/gulpfile.js" afterPath="$PROJECT_DIR$/markup/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/css/all.css" afterPath="$PROJECT_DIR$/markup/public/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/css/pdf.css" afterPath="$PROJECT_DIR$/markup/public/css/pdf.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-cabinet-profile.html" afterPath="$PROJECT_DIR$/markup/public/personal-cabinet-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/voucher.html" afterPath="$PROJECT_DIR$/markup/public/voucher.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/pdf/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/pdf/_styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/all/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/all/_styles.scss" />
     </list>
     <ignored path="gloobers-markup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,34 +30,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="personal-cabinet-profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/public/personal-cabinet-profile.html">
+      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/public/single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="124" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="127" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="683" column="38" selection-start-line="658" selection-start-column="32" selection-end-line="683" selection-end-column="38" />
               <folding>
-                <element signature="e#1264#1547#0" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_styles.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/markup/sass/all/_styles.scss">
+      <file leaf-file-name="single-hotel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/public/single-hotel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="4367" column="28" selection-start-line="4367" selection-start-column="28" selection-end-line="4367" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="119">
+              <caret line="1366" column="30" selection-start-line="1366" selection-start-column="30" selection-end-line="1366" selection-end-column="30" />
+              <folding>
+                <element signature="n#div#2;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,24 +78,63 @@
       <file leaf-file-name="cropper-main-custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/public/js/cropper-main-custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-425">
-              <caret line="232" column="14" selection-start-line="232" selection-start-column="4" selection-end-line="232" selection-end-column="14" />
+            <state relative-caret-position="-677">
+              <caret line="260" column="6" selection-start-line="260" selection-start-column="6" selection-end-line="260" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="voucher.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/markup/public/voucher.html">
+      <file leaf-file-name="upload-2.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/node_modules/vue-image-crop-upload/upload-2.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="110" column="67" selection-start-line="110" selection-start-column="67" selection-end-line="110" selection-end-column="67" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/node_modules/vue-image-crop-upload/upload.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6534">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/markup/node_modules/vue-image-crop-upload/scss/upload.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personal-cabinet-profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/public/personal-cabinet-profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="536" column="55" selection-start-line="536" selection-start-column="55" selection-end-line="536" selection-end-column="64" />
               <folding>
-                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#5;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/markup/sass/all/_styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="3239" column="17" selection-start-line="3239" selection-start-column="17" selection-end-line="3239" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -195,7 +142,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markup/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5580">
+            <state relative-caret-position="18">
               <caret line="310" column="12" selection-start-line="310" selection-start-column="9" selection-end-line="310" selection-end-column="12" />
               <folding>
                 <element signature="n#!!block;n#initMarkers#0" expanded="false" />
@@ -270,8 +217,8 @@
         <option value="$PROJECT_DIR$/markup/public/js/cropper-main-custom.js" />
         <option value="$PROJECT_DIR$/markup/sass/_styles.scss" />
         <option value="$PROJECT_DIR$/markup/gulpfile.js" />
-        <option value="$PROJECT_DIR$/markup/sass/all/_styles.scss" />
         <option value="$PROJECT_DIR$/markup/public/personal-cabinet-profile.html" />
+        <option value="$PROJECT_DIR$/markup/sass/all/_styles.scss" />
       </list>
     </option>
   </component>
@@ -388,7 +335,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,11 +353,63 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
+              <option name="myItemId" value="vue-image-crop-upload" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gloobers-markup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gloobers-markup" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markup" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-image-crop-upload" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screenshot" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gloobers-markup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gloobers-markup" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markup" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue-image-crop-upload" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,14 +528,7 @@
       <workItem from="1495447092203" duration="46219000" />
       <workItem from="1495637657203" duration="160396000" />
       <workItem from="1497518107740" duration="32605000" />
-      <workItem from="1497616726672" duration="2666000" />
-    </task>
-    <task id="LOCAL-00030" summary="calendar">
-      <created>1489593232632</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1489593232632</updated>
+      <workItem from="1497616726672" duration="10202000" />
     </task>
     <task id="LOCAL-00031" summary="calendar">
       <created>1489767499641</created>
@@ -874,11 +866,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497546683111</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="person counter">
+      <created>1497631322652</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1497631322656</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="945705000" />
+    <option name="totallyTimeSpent" value="953241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,20 +894,20 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15565032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36403033" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40086675" sideWeight="0.5063966" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4301192" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24377032" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33802816" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" x="14" y="562" width="1892" height="411" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -955,34 +954,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/markup/public/personal-review-single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/temp/Kidsadvisor/markup/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/js/terms&amp;conditions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/personal-followed-recommendations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="76" column="124" selection-start-line="74" selection-start-column="28" selection-end-line="76" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/public/personal-my-reviews.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1067,13 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/single-hotel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/bootstrap-star-rating-master/bootstrap-star-rating-master/css/star-rating.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1332">
@@ -1102,6 +1066,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,6 +1096,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,6 +1160,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5723">
           <caret line="867" column="0" selection-start-line="867" selection-start-column="0" selection-end-line="867" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,13 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="786" column="52" selection-start-line="786" selection-start-column="52" selection-end-line="786" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1239,25 +1199,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5580">
-          <caret line="310" column="12" selection-start-line="310" selection-start-column="9" selection-end-line="310" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!block;n#initMarkers#0" expanded="false" />
-            <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/css/cropper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/markup/public/css/all.css" />
     <entry file="file://$PROJECT_DIR$/markup/sass/pdf/_styles.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -1283,6 +1224,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/single-hotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1366" column="30" selection-start-line="1366" selection-start-column="30" selection-end-line="1366" selection-end-column="30" />
+          <folding>
+            <element signature="n#div#2;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="683" column="38" selection-start-line="658" selection-start-column="32" selection-end-line="683" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/markup/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -1293,26 +1265,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/js/cropper-main-custom.js">
+    <entry file="file://$PROJECT_DIR$/markup/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="232" column="14" selection-start-line="232" selection-start-column="4" selection-end-line="232" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="18">
+          <caret line="310" column="12" selection-start-line="310" selection-start-column="9" selection-end-line="310" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!block;n#initMarkers#0" expanded="false" />
+            <element signature="n#!!block;n#closeAllInfoWindows#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markup/public/personal-cabinet-profile.html">
+    <entry file="file://$PROJECT_DIR$/markup/public/css/cropper.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="124" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="127" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/markup/sass/all/_styles.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="3239" column="17" selection-start-line="3239" selection-start-column="17" selection-end-line="3239" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/personal-cabinet-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="536" column="55" selection-start-line="536" selection-start-column="55" selection-end-line="536" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#4;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="4367" column="28" selection-start-line="4367" selection-start-column="28" selection-end-line="4367" selection-end-column="28" />
+          <caret line="2147" column="0" selection-start-line="2147" selection-start-column="0" selection-end-line="2147" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/public/js/cropper-main-custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="260" column="6" selection-start-line="260" selection-start-column="6" selection-end-line="260" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/node_modules/vue-image-crop-upload/upload-2.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/node_modules/vue-image-crop-upload/upload.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6534">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markup/node_modules/vue-image-crop-upload/scss/upload.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
