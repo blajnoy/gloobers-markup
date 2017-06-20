@@ -1418,7 +1418,7 @@ input[type="checkbox"] .styled:checked + label:after, input[type="radio"] .style
   transition: all 100ms linear;
 }
 
-.btn:hover, .btn:active, .btn.focus {
+.btn:hover, .btn:active, .btn:focus {
   color: #35a1da;
   text-decoration: none;
 }
@@ -1563,8 +1563,8 @@ fieldset[disabled] .btn {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
 }
 
-.btn-facebook:hover, .btn-facebook:active, .btn-facebook.focus {
-  color: #fff;
+.btn-facebook:hover, .btn-facebook:active, .btn-facebook:focus {
+  color: #e6e6e6;
   background: #2d4373;
   border-color: #2d4373;
 }
@@ -1577,8 +1577,8 @@ fieldset[disabled] .btn {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
 }
 
-.btn-google-plus:hover, .btn-google-plus:active, .btn-google-plus.focus {
-  color: #fff;
+.btn-google-plus:hover, .btn-google-plus:active, .btn-google-plus:focus {
+  color: #e6e6e6;
   background: #bf3322;
   border-color: #bf3322;
 }
@@ -1596,8 +1596,8 @@ fieldset[disabled] .btn {
   padding: 12px;
 }
 
-.btn-instagram:hover, .btn-instagram:active, .btn-instagram.focus {
-  color: #fff;
+.btn-instagram:hover, .btn-instagram:active, .btn-instagram:focus {
+  color: #e6e6e6;
   background: #5532c2;
   border-color: #5532c2;
 }
@@ -1615,10 +1615,21 @@ fieldset[disabled] .btn {
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
 }
 
-.btn-twitter:hover, .btn-twitter:active, .btn-twitter.focus {
-  color: #fff;
+.btn-twitter:hover, .btn-twitter:active, .btn-twitter:focus {
+  color: #e6e6e6;
   background: #358eee;
   border-color: #358eee;
+}
+
+.btn-white {
+  color: #fff;
+  background: none;
+  border: 2px solid #fff;
+}
+
+.btn-white:hover, .btn-white:active, .btn-white:focus {
+  color: #e6e6e6;
+  border-color: #e6e6e6;
 }
 
 .btn-ico-text {
@@ -1633,8 +1644,8 @@ fieldset[disabled] .btn {
   border: 2px solid #501e00;
 }
 
-.btn-second-color:hover, .btn-second-color:active, .btn-second-color.focus {
-  color: #501e00;
+.btn-second-color:hover, .btn-second-color:active, .btn-second-color:focus {
+  color: #1d0b00;
   border-color: #1d0b00;
 }
 
@@ -1646,8 +1657,8 @@ fieldset[disabled] .btn {
   text-align: left;
 }
 
-.btn-address:hover, .btn-address:active, .btn-address.focus {
-  color: #501e00;
+.btn-address:hover, .btn-address:active, .btn-address:focus {
+  color: #1d0b00;
   border-color: #cc9b00;
 }
 

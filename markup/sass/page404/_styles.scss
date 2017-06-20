@@ -1,0 +1,65 @@
+html, body {
+	height: 100%;
+}
+body {
+	background: url(../images/bg-page-404.jpg) 50% 0 no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100%;
+
+	@include breakpoint(769px) {
+		background-position: 100% 0;
+	}
+}
+.logo {
+	margin: -3vh 0 3vh;
+	display: inline-block;
+	vertical-align: top;
+
+	img {
+		display: block;
+	}
+}
+.wrapper {
+	max-width: 1750px;
+	height: 100vh;
+	padding: 10vh 25px 15vh;
+	margin: auto;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.intro-holder {
+
+}
+
+h1 {
+	font-size: 70px;
+	line-height: 73px;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	@include breakpoint(769px) {
+		font-size: 100px;
+		line-height: 100px;
+	}
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 33px;
+	font-weight: normal;
+	margin: 0 0 10vh;
+	color: #fff;
+	font-family: 'Open Sans';
+	letter-spacing: 1px;
+
+	@include breakpoint(769px) {
+		font-size: 46px;
+		line-height: 46px;
+	}
+}
+

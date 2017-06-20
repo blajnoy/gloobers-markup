@@ -19,7 +19,7 @@
 
 	&:hover,
 	&:active,
-	&.focus {
+	&:focus {
 		color: darken(#60b5e2, 10%);
 		text-decoration: none;
 	}
@@ -104,10 +104,13 @@
 		$darkenGradientColorTo: darken(rgb(238,42,123), 10%);
 		background-image: linear-gradient( 25deg, $darkenGradientColorFrom 0%, $darkenGradientColorTo 100%);
 	}
-
 }
 .btn-twitter {
 	@include button-variant($color: #fff, $background: #64a8f2, $borderColor: #64a8f2, $needShadow: true);
+}
+
+.btn-white {
+	@include button-variant($color: #fff, $background: none, $borderColor: #fff, $needShadow: false);
 }
 
 .btn-ico-text {

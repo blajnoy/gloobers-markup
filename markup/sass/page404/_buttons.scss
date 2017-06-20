@@ -1,0 +1,181 @@
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 0;
+	text-align: center;
+	touch-action: manipulation;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 10px;
+	border: 2px solid currentColor;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	color: #60b5e2;
+	text-shadow: none;
+
+	transition: all 100ms linear;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: darken(#60b5e2, 10%);
+		text-decoration: none;
+	}
+
+	&:active,
+	&.active {
+		outline: 0;
+	}
+
+	&.disabled,
+	&[disabled],
+	fieldset[disabled] & {
+		cursor: default;
+		color: #c9c9c9;
+		border-color: #c9c9c9;
+		/*pointer-events: auto !important;*/
+	}
+
+	&-sm {
+		font-size: 12px;
+		padding: 6px 10px 5px;
+	}
+
+	.gl-ico {
+		vertical-align: middle;
+		font-size: 20px;
+		line-height: inherit;
+		margin: -1px 5px -1px 0;
+	}
+
+	.gl-ico-arrow-down,
+	.gl-ico-arrow-up,
+	.gl-ico-arrow-left,
+	.gl-ico-arrow-right {
+		font-size: inherit;
+	}
+
+
+	.gl-ico-twitter,
+	.gl-ico-instagram,
+	.gl-ico-google-plus,
+	.gl-ico-facebook {
+		font-size: 22px;
+		line-height: inherit;
+		margin: -1px 5px;
+	}
+	.gl-ico-google-plus,
+	.gl-ico-twitter {
+		font-size: 16px;
+	}
+	.gl-ico-logo {
+		font-size: 22px;
+		line-height: inherit;
+		margin: -1px 10px -1px 0;
+	}
+
+}
+.btn-default {
+	@include button-gradient($secondTextColor, $gradientColorFrom, $gradientColorTo)
+}
+.btn-primary {
+	@include button-gradient(#fff, #1e97d8, #007fc2)
+}
+.btn-gray {
+	@include button-gradient(#fff, #919191, #626262)
+}
+.btn-facebook {
+	@include button-variant($color: #fff, $background: #3b5998, $borderColor: #3b5998, $needShadow: true);
+}
+.btn-google-plus {
+	@include button-variant($color: #fff, $background: #dc4a38, $borderColor: #dc4a38, $needShadow: true);
+}
+.btn-instagram {
+	@include button-variant($color: #fff, $background: #7354d3, $borderColor: #7354d3, $needShadow: true);
+	background-color: rgba(249,236,50,1);
+	background-image: linear-gradient( 25deg, rgb(249,237,50) 0%, rgb(238,42,123) 100%);
+	border: 0;
+	padding: 12px;
+
+	&:hover {
+		$darkenGradientColorFrom: darken(rgb(249,237,50), 10%);
+		$darkenGradientColorTo: darken(rgb(238,42,123), 10%);
+		background-image: linear-gradient( 25deg, $darkenGradientColorFrom 0%, $darkenGradientColorTo 100%);
+	}
+}
+.btn-twitter {
+	@include button-variant($color: #fff, $background: #64a8f2, $borderColor: #64a8f2, $needShadow: true);
+}
+
+.btn-white {
+	@include button-variant($color: #fff, $background: none, $borderColor: #fff, $needShadow: false);
+}
+
+.btn-ico-text {
+	border-left: 1px solid rgba(#fff, .5);
+	padding: 4px 0 5px 20px;
+	margin: -4px 0 -5px 12px;
+}
+
+.btn-second-color {
+	@include button-variant($color: $secondTextColor, $background: none, $borderColor: $secondTextColor);
+}
+.btn-address {
+	@include button-variant($color: $secondTextColor, $background: none, $borderColor: #ffc200);
+	text-transform: none;
+	text-align: left;
+}
+.btn-link {
+	text-transform: none;
+	border-color: transparent;
+	color: $secondTextColor;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+input[type=submit].btn-link,
+input[type=submit].btn-link,
+input[type=button].btn-link,
+input[type=button].btn-link,
+button.btn-link {
+	&:hover,
+	&:focus,
+	&:active {
+		background: none;
+	}
+}
+
+.btn-search {
+	border-radius: 0 10px 10px 0;
+	float: right;
+	color: $secondTextColor;
+	width: 74px;
+	height: 80px;
+	padding: 0;
+}
+
+.btn-marketing-a {
+	border: 2px solid rgba(255, 255, 255, .2);
+	color: #fff;
+
+	&:hover,
+	&:focus,
+	&.focus {
+		color: darken(#fff, 10%);
+	}
+}
+.btn-marketing-b {
+	@include button-gradient($secondTextColor, $gradientColorFrom, $gradientColorTo)
+}
+.btn-recommend {
+	min-width: 90px;
+
+	.gl-ico {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}

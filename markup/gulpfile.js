@@ -84,6 +84,24 @@ gulp.task('pdf:watch', function() {
 });
 /* end start pdf */
 
+
+/* start 404 */
+gulp.task('page404', function() {
+	return gulp.src('sass/page404/**/*.scss')
+		.pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
+		.pipe(autoprefixer({
+			browsers: ['last 20 versions'],
+			cascade: false
+		}))
+		.pipe(rename('page404.css'))
+		.pipe(gulp.dest('public/css'));
+});
+
+gulp.task('page404:watch', function() {
+	gulp.watch('sass/page404/**/*.scss', ['page404']);
+});
+/* end start 404 */
+
 gulp.task('sprite', function () {
 	var spriteData = gulp.src('assets/png/*.png').pipe(spritesmith({
 		imgPath: '../public/images/sprite.png',

@@ -15,8 +15,8 @@
 
 	&:hover,
 	&:active,
-	&.focus {
-		color: #{$color};
+	&:focus {
+		color: darken($color, 10%);
 		@if $background != none {
 			background: darken($background, 10%);
 		}
