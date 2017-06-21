@@ -1,5 +1,12 @@
 $(document).ready(function () {
 
+
+    $('.btn-scroll').on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+    });
+
+
     var passionsToShow = [2, 3];
     renderPassionsList(passionsToShow);
 

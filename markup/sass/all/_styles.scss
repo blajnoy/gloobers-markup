@@ -772,15 +772,65 @@ input.daterange-input {
 	text-transform: uppercase;
 	color: #000;
 }
+
 .btn-scroll {
-	display: block;
-	width: 30px;
-	height: 45px;
 	position: absolute;
 	bottom: -90px;
 	left: 50%;
-	margin: 0 0 0 -15px;
+	transform: translate(0, -50%);
+	transition: opacity .3s;
+
+	width: 30px;
+	height: 45px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 3px;
+		left: 50%;
+		width: 2px;
+		height: 10px;
+		margin-left: -1px;
+		background-color: #fff;
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		margin-left: -3px;
+		background-color: #fff;
+		animation: mouse-scroll 2s infinite;
+	}
+
+	&:hover {
+		opacity: .8;
+	}
 }
+
+@keyframes mouse-scroll {
+	0% {
+		transform: translate(0, 0);
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	80% {
+		transform: translate(0, 8px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
 .date-range {
 
 	.date-col {
@@ -946,6 +996,7 @@ input.daterange-input {
 		}
 	}
 	.img-h {
+		display: block;
 		overflow: hidden;
 		position: relative;
 		margin: -16px -16px 13px;
@@ -1793,6 +1844,7 @@ input.daterange-input {
 	.item {
 		img {
 			display: block;
+			object-fit: cover;
 		}
 	}
 
@@ -4207,6 +4259,10 @@ input.daterange-input {
 }
 .modal-backdrop {
 	z-index: 99991;
+
+	&.in {
+		opacity: .8;
+	}
 }
 .modal-custom-lg {
 	width: 100%;
@@ -5138,6 +5194,16 @@ input.daterange-input {
 			color: #000;
 		}
 	}
+
+}
+
+.form-footer-btns {
+	@extend .textarea-desc;
+	padding-top: 100px;
+}
+
+.color-link {
+	color: $linkColor;
 }
 
 .payment-types {
@@ -6523,23 +6589,25 @@ input.daterange-input {
 		line-height: 28px;
 	}
 
-	.textarea-desc {
-		display: flex;
-		align-items: baseline;
+}
 
-		.info-desc {
-			flex: auto;
-		}
+.textarea-desc {
+	display: flex;
+	align-items: baseline;
 
-		.btn-link {
-			text-transform: none;
+	.info-desc {
+		flex: auto;
+	}
 
-			&.btn-cancel {
-				color: #818181;
-			}
+	.btn-link {
+		text-transform: none;
+
+		&.btn-cancel {
+			color: #818181;
 		}
 	}
 }
+
 /* steps recommendation & review */
 .steps-nav {
 
