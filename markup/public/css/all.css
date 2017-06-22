@@ -3750,7 +3750,30 @@ button.btn-link:active {
 .nav ul li a:active, .how-it-works-slider .slider-tabs ul li a:active,
 .nav ul li a:focus, .how-it-works-slider .slider-tabs ul li a:focus {
   text-decoration: none;
-  color: #000;
+  color: currentColor;
+  outline: 0;
+}
+
+.prof-page .nav ul li.active a, .prof-page .how-it-works-slider .slider-tabs ul li.active a, .how-it-works-slider .prof-page .slider-tabs ul li.active a,
+.hp .nav ul li.active a,
+.hp .how-it-works-slider .slider-tabs ul li.active a, .how-it-works-slider
+.hp .slider-tabs ul li.active a, .prof-page
+.nav ul li a:hover, .prof-page .how-it-works-slider .slider-tabs ul li a:hover, .how-it-works-slider .prof-page .slider-tabs ul li a:hover,
+.hp
+.nav ul li a:hover,
+.hp .how-it-works-slider .slider-tabs ul li a:hover, .how-it-works-slider
+.hp .slider-tabs ul li a:hover, .prof-page
+.nav ul li a:active, .prof-page .how-it-works-slider .slider-tabs ul li a:active, .how-it-works-slider .prof-page .slider-tabs ul li a:active,
+.hp
+.nav ul li a:active,
+.hp .how-it-works-slider .slider-tabs ul li a:active, .how-it-works-slider
+.hp .slider-tabs ul li a:active, .prof-page
+.nav ul li a:focus, .prof-page .how-it-works-slider .slider-tabs ul li a:focus, .how-it-works-slider .prof-page .slider-tabs ul li a:focus,
+.hp
+.nav ul li a:focus,
+.hp .how-it-works-slider .slider-tabs ul li a:focus, .how-it-works-slider
+.hp .slider-tabs ul li a:focus {
+  color: #fff;
 }
 
 .nav ul li.active a:after, .how-it-works-slider .slider-tabs ul li.active a:after,
@@ -8397,6 +8420,22 @@ input.daterange-input {
 /* modal windows */
 .modal {
   z-index: 99992;
+  text-align: center;
+  padding: 0 !important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
 
 .modal .btns-row {
