@@ -72,6 +72,21 @@
 			<div class="container">
 				<div class="row flex-row">
 					<div class="col-xs-3">
+
+
+						<form class="box" method="post" action="" enctype="multipart/form-data">
+							<div class="box__input">
+								<input type="file" name="file[]" id="file" class="box__file inputfile" data-multiple-caption="{count} files selected" multiple />
+								<label for="file"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Choose a file&hellip;</span></label>
+
+								<button class="box__button" type="submit">Upload</button>
+							</div>
+							<div class="box__uploading">Uploading&hellip;</div>
+							<div class="box__success">Done!</div>
+							<div class="box__error">Error! <span></span>.</div>
+						</form>
+
+
 						<div class="personal-photo">
 							<!---->
 							<div id="crop-avatar">
@@ -79,16 +94,17 @@
 								<div class="photo avatar-view" title="Change the avatar">
 									<img src="images/photo01-big.jpg" alt="avatar">
 								</div>
-								<a data-toggle="modal" data-target="#uploadPhoto" href="#" class="btn fill-width"><i class="gl-ico gl-ico-photo-camera"></i> Change photo</a>
+								<a data-toggle="modal" data-target="#avatar-modal" href="#" class="btn fill-width"><i class="gl-ico gl-ico-photo-camera"></i> Change photo</a>
 
 								<!-- Cropping modal -->
 								<div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
 									<div class="modal-dialog modal-lg">
 										<div class="modal-content">
-											<form class="avatar-form" action="crop.php" enctype="multipart/form-data" method="post">
+											<form class="avatar-form dropzone" action="crop.php" enctype="multipart/form-data" method="post">
 												<div class="modal-header">
 													<button type="button" class="close" data-dismiss="modal">&times;</button>
-													<h4 class="modal-title" id="avatar-modal-label">Change Avatar</h4>
+													<h4 class="modal-title" id="avatar-modal-label">Profile image creation</h4>
+													<strong class="sub-ttl">You can upload JPEG, PNG image and crop it in<br> right dimmentions here. </strong>
 												</div>
 												<div class="modal-body">
 													<div class="avatar-body">
@@ -103,8 +119,12 @@
 
 														<!-- Crop and preview -->
 														<div class="row">
-															<div class="col-md-9">
+															<div class="col-md-9 load-image-wrapper">
 																<div class="avatar-wrapper"></div>
+																<div class="load-image-area">
+																	<a href="#" class="btn btn-default btn-lg">LOAD IMAGE</a>
+																	<span class="info-desc">Or drag &amp; drop them here</span>
+																</div>
 															</div>
 															<div class="col-md-3">
 																<div class="avatar-preview preview-lg"></div>
@@ -112,8 +132,7 @@
 																<!--<div class="avatar-preview preview-sm"></div>-->
 															</div>
 														</div>
-
-														<div class="row avatar-btns">
+														<!--<div class="row avatar-btns">
 															<div class="col-md-9">
 																<div class="btn-group">
 																	<button type="button" class="btn btn-primary" data-method="rotate" data-option="-90" title="Rotate -90 degrees">Rotate Left</button>
@@ -128,9 +147,13 @@
 																	<button type="button" class="btn btn-primary" data-method="rotate" data-option="45">45deg</button>
 																</div>
 															</div>
-															<div class="col-md-3">
-																<button type="submit" class="btn btn-primary btn-block avatar-save">Done</button>
+														</div>-->
+														<div class="upload-btns-row">
+															<div class="edit-file-col">
+
 															</div>
+															<a href="#" class="btn btn-link" data-dismiss="modal">Cancel</a>
+															<button type="submit" class="btn btn-default avatar-save">SAVE</button>
 														</div>
 													</div>
 												</div>
@@ -845,8 +868,10 @@
 	<script src="https://cdn.sobekrepository.org/includes/gmaps-markerwithlabel/1.9.1/gmaps-markerwithlabel-1.9.1.min.js"></script>
 	<script src="js/cropper-main-custom.js"></script>
 
-	<script src="js/main.js"></script
->
+
+	<script src="js/jquery.custom-file-input"></script>
+	<script src="js/personal-cabinet-profile.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>
