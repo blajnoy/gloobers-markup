@@ -72,21 +72,6 @@
 			<div class="container">
 				<div class="row flex-row">
 					<div class="col-xs-3">
-
-
-						<form class="box" method="post" action="" enctype="multipart/form-data">
-							<div class="box__input">
-								<input type="file" name="file[]" id="file" class="box__file inputfile" data-multiple-caption="{count} files selected" multiple />
-								<label for="file"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Choose a file&hellip;</span></label>
-
-								<button class="box__button" type="submit">Upload</button>
-							</div>
-							<div class="box__uploading">Uploading&hellip;</div>
-							<div class="box__success">Done!</div>
-							<div class="box__error">Error! <span></span>.</div>
-						</form>
-
-
 						<div class="personal-photo">
 							<!---->
 							<div id="crop-avatar">
@@ -100,7 +85,7 @@
 								<div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
 									<div class="modal-dialog modal-lg">
 										<div class="modal-content">
-											<form class="avatar-form dropzone" action="crop.php" enctype="multipart/form-data" method="post">
+											<form class="avatar-form box" action="crop.php" enctype="multipart/form-data" method="post">
 												<div class="modal-header">
 													<button type="button" class="close" data-dismiss="modal">&times;</button>
 													<h4 class="modal-title" id="avatar-modal-label">Profile image creation</h4>
@@ -114,7 +99,14 @@
 															<input type="hidden" class="avatar-src" name="avatar_src">
 															<input type="hidden" class="avatar-data" name="avatar_data">
 															<label for="avatarInput">Local upload</label>
-															<input type="file" class="avatar-input" id="avatarInput" name="avatar_file">
+															<div class="box__input">
+																<input type="file" name="file[]" id="avatarInput" class="box__file inputfile avatar-input" data-multiple-caption="{count} files selected" multiple />
+																<label for="avatarInput"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg> <span>Choose a file&hellip;</span></label>
+																<button class="box__button" type="submit">Upload</button>
+															</div>
+															<div class="box__uploading">Uploading&hellip;</div>
+															<div class="box__success">Done!</div>
+															<div class="box__error">Error! <span></span>.</div>
 														</div>
 
 														<!-- Crop and preview -->
@@ -866,11 +858,13 @@
 	<script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyA9ZXW_xxCYbGV5hAN13jO2yquESD3MY10 &libraries=places&language=en"></script>
 
 	<script src="https://cdn.sobekrepository.org/includes/gmaps-markerwithlabel/1.9.1/gmaps-markerwithlabel-1.9.1.min.js"></script>
+
+
+
 	<script src="js/cropper-main-custom.js"></script>
+	<script src="js/jquery.custom-file-input.js"></script>
+	<!--<script src="js/personal-cabinet-profile.js"></script>-->
 
-
-	<script src="js/jquery.custom-file-input"></script>
-	<script src="js/personal-cabinet-profile.js"></script>
 	<script src="js/main.js"></script>
 
 </body>

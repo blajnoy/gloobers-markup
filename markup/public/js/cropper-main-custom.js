@@ -15,6 +15,14 @@
 
   var console = window.console || { log: function () {} };
 
+  var isAdvancedUpload = function() {
+    var div = document.createElement('div');
+    return (('draggable' in div) || ('ondragstart' in div && 'ondrop' in div)) && 'FormData' in window && 'FileReader' in window;
+  }();
+
+  var droppedFiles = false;
+
+
   function CropAvatar($element) {
     this.$container = $element;
 
@@ -58,11 +66,40 @@
       this.addListener();
     },
 
+    dragDrop : function(e) {
+
+      if (isAdvancedUpload) {
+
+        var $form = this.$avatarForm;
+
+        $form.addClass('has-advanced-upload');
+
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (e.type === 'dragover' || 'dragenter' ){
+          $form.addClass('is-dragover');
+        }
+
+        if (e.type === 'dragleave' || 'dragend' || 'drop' ){
+          $form.removeClass('is-dragover');
+        }
+
+        if (e.type === 'drop' ){
+          droppedFiles = e.originalEvent.dataTransfer.files;
+          $.proxy(this.change, this)();
+        }
+      }
+
+    },
+
     addListener: function () {
       this.$avatarView.on('click', $.proxy(this.click, this));
       this.$avatarInput.on('change', $.proxy(this.change, this));
       this.$avatarForm.on('submit', $.proxy(this.submit, this));
       this.$avatarBtns.on('click', $.proxy(this.rotate, this));
+      this.$avatarBtns.on('click', $.proxy(this.rotate, this));
+      this.$avatarForm.on('drag dragstart dragend dragover dragenter dragleave drop', $.proxy(this.dragDrop, this));
     },
 
     initTooltip: function () {
@@ -134,13 +171,19 @@
       var files;
       var file;
 
+
       if (this.support.datauri) {
         files = this.$avatarInput.prop('files');
+
+        if (files.length === 0) {
+          files = droppedFiles;
+        }
 
         if (files.length > 0) {
           file = files[0];
 
           if (this.isImageFile(file)) {
+
             if (this.url) {
               URL.revokeObjectURL(this.url); // Revoke the old one
             }
@@ -150,7 +193,7 @@
           }
         }
       } else {
-        file = this.$avatarInput.val();
+        file = this.$avatarInput.val() || droppedFiles;
 
         if (this.isImageFile(file)) {
           this.syncUpload();
@@ -159,7 +202,7 @@
     },
 
     submit: function () {
-      if (!this.$avatarSrc.val() && !this.$avatarInput.val()) {
+      if (!this.$avatarSrc.val() && !this.$avatarInput.val() && !droppedFiles) {
         return false;
       }
 
@@ -285,6 +328,7 @@
           }
 
           this.$avatarInput.val('');
+          droppedFiles = false;
         } else if (data.message) {
           this.alert(data.message);
         }
