@@ -1,5 +1,12 @@
 $(document).ready(function () {
 
+    $('.btn-send-pass').on('click', function(){
+        if(!$(this).hasClass('disabled')) {
+            $('#modalChangePassword').modal('hide');
+            $('#modalSendMsgConfirm').modal('show');
+        }
+    });
+
 
     $('.btn-scroll').on('click', function(e) {
         e.preventDefault();

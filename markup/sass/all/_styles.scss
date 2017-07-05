@@ -123,10 +123,10 @@
 .search-nav-row {
 	display: flex;
 	padding: 0 0 32px;
-	margin: 0 -30px;
+	justify-content: space-between;
+
 
 	.sidebar-holder & {
-		//flex-wrap: wrap;
 		margin: 0 -10px;
 
 		.col {
@@ -136,7 +136,6 @@
 
 	.col {
 		display: inline-block;
-		padding: 0 30px;
 		font-size: 16px;
 		line-height: 19px;
 
@@ -161,6 +160,11 @@
 			min-height: 1px;
 			border: 0;
 			min-width: 1px;
+			width: 160px;
+
+			.sidebar-holder & {
+				width: 100%;
+			}
 		}
 	}
 	.ttl {
@@ -1185,12 +1189,25 @@ input.daterange-input {
 			color: currentColor;
 		}
 	}
+
 	footer {
 		font-size: 16px;
 		line-height: 19px;
 		padding: 21px 0 0;
 		display: flex;
+		align-items: flex-start;
 		justify-content: space-between;
+		flex-wrap: wrap;
+
+		& > .btn {
+			flex: auto;
+			margin-bottom: 20px;
+		}
+
+		.card-rate-info {
+			padding: 0 0 20px 10px;
+			flex: auto;
+		}
 
 		.category {
 			opacity: .5;
@@ -1198,6 +1215,7 @@ input.daterange-input {
 		.recommend,
 		.reviews {
 			float: right;
+			white-space: nowrap;
 
 			strong {
 				font-weight: bold;
@@ -1839,6 +1857,7 @@ input.daterange-input {
 
 }
 .main-slider {
+	height: 550px;
 
 	.no-js & {
 		height: 550px;
@@ -1900,7 +1919,7 @@ input.daterange-input {
 	margin: 0 -15px -12px;
 
 	.card footer + & {
-		margin-top: 20px;
+		/*margin-top: 20px;*/
 	}
 }
 .show-more-row {
@@ -3073,6 +3092,10 @@ input.daterange-input {
 .pagination {
 	font-size: 14px;
 	line-height: 21px;
+
+	.personal-content-block & {
+		margin-bottom: 0;
+	}
 
 	li {
 		a, span {
@@ -5181,7 +5204,33 @@ input.daterange-input {
 
 	.intl-tel-input {
 		width: 100%;
+
+		label.error {
+			display: none;
+		}
 	}
+}
+.clear-filters {
+	color: $linkColor;
+	cursor: pointer;
+	display: inline-block;
+	padding: 12px;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.no-results-info {
+	text-align: center;
+	width: 100%;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: bold;
+	color: $secondTextColor;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .billing-form {
@@ -5189,7 +5238,7 @@ input.daterange-input {
 	.form-row {
 
 		&:not(:first-child) {
-			padding-top: 30px;
+			padding-top: 10px;
 		}
 	}
 
@@ -5653,6 +5702,20 @@ input.daterange-input {
 
 	> div {
 		text-align: left;
+	}
+
+	.card {
+
+		.img-h {
+			.price {
+				text-align: right;
+				padding: 7px 15px 12px 17px;
+
+				span {
+					padding: 0 0 5px;
+				}
+			}
+		}
 	}
 }
 .gm-style .card {
@@ -6205,7 +6268,7 @@ input.daterange-input {
 
 
 	.flex-row & {
-		min-height: calc(100% - 30px);
+		min-height: calc(100% - 20px);
 	}
 
 	.ttl {
@@ -6259,7 +6322,7 @@ input.daterange-input {
 	@extend .personal-box;
 	padding: 30px;
 	width: 100%;
-	min-height: 1px !important;
+	//min-height: 1px !important;
 
 	&.trips-list-wrap {
 		border: 0;

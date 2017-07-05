@@ -47,6 +47,22 @@
 		background: linear-gradient(to bottom, lighten($gradientColorStart, 10%) 0%, $gradientColorEnd 100%);
 		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28), 0 10px 15px 0 rgba(0, 0, 0, 0.25);
 	}
+
+	&.disabled,
+	&[disabled],
+	fieldset[disabled] & {
+		color: $color;
+		background: linear-gradient(to bottom, $gradientColorStart 0%, $gradientColorEnd 100%);
+
+		&:hover,
+		&:active,
+		&:focus {
+			color: $color;
+			background: linear-gradient(to bottom, $gradientColorStart 0%, $gradientColorEnd 100%);
+			box-shadow: none;
+		}
+	}
+
 }
 
 @mixin aspect-ratio($width, $height, $offset: 0px) {

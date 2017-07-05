@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" xmlns="http://www.w3.org/1999/html">
 
 <head>
 	<meta charset="utf-8">
@@ -646,19 +646,19 @@
 				<div class="modal-content">
 					<strong class="login-ttl text-center">Log in with your Email</strong>
 					<div class="login-form">
-						<form action="#" data-toggle="validator" role="form">
+						<form action="#" data-toggle="validator" role="form" data-focus="false">
 							<div class="form-group">
-								<input type="email" class="form-control text-center" id="inputEmail" placeholder="E-mail">
+								<input type="email" class="form-control text-center" id="inputEmail" placeholder="E-mail" required>
+								<div class="help-block-wrap text-center">
+									<i class="gl-ico gl-ico-attention"></i>
+									<div class="help-block with-errors"></div>
+								</div>
 							</div>
 							<div class="form-group">
 								<input type="password" class="form-control text-center" id="inputPassword" placeholder="Password">
 							</div>
-							<div class="error-message text-center">
-								<i class="gl-ico gl-ico-attention"></i>
-								<div class="error-txt">Error message</div>
-							</div>
 							<div class="wrap-w-side-spaces">
-								<a href="#" class="btn btn-default fill-width">Log in</a>
+								<button type="submit" class="btn btn-default fill-width">Log in</button>
 							</div>
 						</form>
 					</div>
@@ -683,7 +683,7 @@
 				<div class="modal-content">
 					<strong class="login-ttl text-center">Sign up with your Email</strong>
 					<div class="login-form">
-						<form action="#" data-toggle="validator" role="form">
+						<form action="#" data-toggle="validator" role="form" data-focus="false">
 							<div class="form-flex-row">
 								<div class="form-group col">
 									<input type="text" class="form-control text-center" id="inputFirstName" name="firstName" placeholder="First name" data-error="Error message" required>
@@ -748,7 +748,7 @@
 			<div class="modal-dialog modal-custom-sm modal-login" role="document">
 				<div class="modal-content">
 					<div class="login-form change-pass-form">
-						<form action="" data-toggle="validator" role="form">
+						<form action="" data-toggle="validator" role="form" data-focus="false">
 							<div class="change-pass-form-wrap">
 								<strong class="ttl">Enter your E-mail</strong>
 								<div class="form-group">
@@ -762,7 +762,7 @@
 							</div>
 							<div class="btns-row">
 								<a href="#" class="btn-link btn" data-dismiss="modal" data-toggle="modal" data-target="#modalSignIn">Cancel</a>
-								<a href="#" class="btn-default btn" data-dismiss="modal" data-toggle="modal" data-target="#modalSendMsgConfirm">Send</a>
+								<button type="submit" class="btn-default btn btn-send-pass">Send</button>
 							</div>
 						</form>
 					</div>
@@ -779,7 +779,7 @@
 			<div class="modal-dialog modal-custom-sm modal-login" role="document">
 				<div class="modal-content">
 					<div class="login-form change-pass-form">
-						<form action="" data-toggle="validator" role="form">
+						<form action="" data-toggle="validator" role="form" data-focus="false">
 							<div class="change-pass-form-wrap confirm-msg-wrap">
 								<strong class="confirm-msg"><i class="gl-ico gl-ico-send-mail"></i> We will send you <br>new password, ok?</strong>
 							</div>

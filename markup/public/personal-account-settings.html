@@ -81,39 +81,67 @@
 					<div class="col-xs-9">
 						<div class="personal-content-block">
 							<div class="billing-form">
-								<div class="form-row">
-									<div class="form-row-col">
-										<label for="">First name</label>
-										<input type="text" class="form-control" placeholder="Example text">
+								<form id="form" action="#" data-toggle="validator" role="form" data-focus="false">
+									<div class="form-row">
+										<div class="form-group form-row-col">
+											<label for="">First name</label>
+											<input type="text" class="form-control" placeholder="Example text" data-error="Error message" required>
+											<div class="help-block-wrap text-center">
+												<i class="gl-ico gl-ico-attention"></i>
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+										<div class="form-group form-row-col">
+											<label for="">Last name</label>
+											<input type="text" class="form-control" placeholder="Example text" data-error="Error message" required>
+											<div class="help-block-wrap text-center">
+												<i class="gl-ico gl-ico-attention"></i>
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+										<div class="form-group form-row-col">
+											<label for="">Phone number</label>
+											<input id="phone" type="tel" class="form-control" placeholder="00-000-00-00">
+											<div class="help-block-wrap text-center">
+												<i class="gl-ico gl-ico-attention"></i>
+												<div class="help-block with-errors">
+													<span id="error-msg" class="hide">Invalid number</span>
+												</div>
+											</div>
+										</div>
 									</div>
-									<div class="form-row-col">
-										<label for="">Last name</label>
-										<input type="text" class="form-control" placeholder="Example text">
+									<div class="form-row">
+										<div class="form-group form-row-col">
+											<label for="">E-mail</label>
+											<input type="email" name="email" class="form-control" placeholder="Example text" data-error="Error message" required>
+											<div class="help-block-wrap text-center">
+												<i class="gl-ico gl-ico-attention"></i>
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+										<div class="form-group form-row-col">
+											<label for="">Password</label>
+											<input type="password" class="form-control" placeholder="Example text" data-error="Error message" required>
+											<div class="help-block-wrap text-center">
+												<i class="gl-ico gl-ico-attention"></i>
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+										<div class="form-group form-row-col">
+											<label for="">Confirm password</label>
+											<input type="password" class="form-control" placeholder="Example text" data-error="Error message" required>
+											<div class="help-block-wrap text-center">
+												<i class="gl-ico gl-ico-attention"></i>
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
 									</div>
-									<div class="form-row-col">
-										<label for="">Phone number</label>
-										<input id="phone" type="tel" class="form-control" placeholder="00-000-00-00">
+									<div class="form-footer-btns">
+										<span class="info-desc">* Description about settings</span>
+										<a href="#" class="btn btn-link btn-cancel">Сancel</a>
+										<a href="javascript:void(0)" id="btnSubmit" class="btn btn-link color-link">Save</a>
 									</div>
-								</div>
-								<div class="form-row">
-									<div class="form-row-col">
-										<label for="">E-mail</label>
-										<input type="text" class="form-control" placeholder="Example text">
-									</div>
-									<div class="form-row-col">
-										<label for="">Password</label>
-										<input type="text" class="form-control" placeholder="Example text">
-									</div>
-									<div class="form-row-col">
-										<label for="">Confirm password</label>
-										<input type="text" class="form-control" placeholder="Example text">
-									</div>
-								</div>
-								<div class="form-footer-btns">
-									<span class="info-desc">* Description about settings</span>
-									<a href="#" class="btn btn-link btn-cancel">Сancel</a>
-									<a href="#" class="btn btn-link color-link">Save</a>
-								</div>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -351,7 +379,12 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 
+
+	<script type="text/javascript" src="js/validator.js"></script>
+
 	<script src="js/intlTelInput.min.js"></script>
+
+
 
 	<script src="js/main.js"></script>
 

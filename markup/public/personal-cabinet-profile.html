@@ -178,11 +178,16 @@
 					</div>
 				</div>
 				<div class="personal-box">
-					<div class="personal-info-form">
+					<form action="#" data-toggle="validator" role="form">
+						<div class="personal-info-form">
 						<div class="col">
-							<div class="input-row">
+							<div class="form-group input-row">
 								<label for="">First name</label>
-								<input type="text" value="Marcus">
+								<input type="text" class="form-control" placeholder="Marcus" data-error="Error message" required>
+								<div class="help-block-wrap text-center">
+									<i class="gl-ico gl-ico-attention"></i>
+									<div class="help-block with-errors"></div>
+								</div>
 							</div>
 							<div class="input-row">
 								<label for="">Hometown</label>
@@ -200,9 +205,13 @@
 							</div>
 						</div>
 						<div class="col col-large">
-							<div class="input-row">
+							<div class="form-group input-row">
 								<label for="">About</label>
-								<textarea name="" id="" cols="30" rows="2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer too a galley of type and scrambled</textarea>
+								<textarea class="form-control" name="" id="" cols="30" rows="2" data-error="Error message" required>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer too a galley of type and scrambled</textarea>
+								<div class="help-block-wrap text-center">
+									<i class="gl-ico gl-ico-attention"></i>
+									<div class="help-block with-errors"></div>
+								</div>
 							</div>
 							<div class="textarea-desc">
 								<span class="info-desc">* Description about photo</span>
@@ -211,6 +220,7 @@
 							</div>
 						</div>
 					</div>
+					</form>
 				</div>
 				<div class="personal-box">
 					d
@@ -860,10 +870,12 @@
 	<script src="https://cdn.sobekrepository.org/includes/gmaps-markerwithlabel/1.9.1/gmaps-markerwithlabel-1.9.1.min.js"></script>
 
 
+	<script type="text/javascript" src="js/validator.js"></script>
 
 	<script src="js/cropper-main-custom.js"></script>
 	<script src="js/jquery.custom-file-input.js"></script>
 	<!--<script src="js/personal-cabinet-profile.js"></script>-->
+
 
 	<script src="js/main.js"></script>
 

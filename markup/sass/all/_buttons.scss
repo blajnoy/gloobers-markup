@@ -33,9 +33,15 @@
 	&[disabled],
 	fieldset[disabled] & {
 		cursor: default;
-		color: #c9c9c9;
-		border-color: #c9c9c9;
+		/*color: #c9c9c9;
+		border-color: #c9c9c9;*/
 		/*pointer-events: auto !important;*/
+
+		&:hover,
+		&:active,
+		&:focus {
+			box-shadow: none;
+		}
 	}
 
 	&-sm {
