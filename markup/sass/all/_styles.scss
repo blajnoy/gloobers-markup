@@ -7073,17 +7073,11 @@ input.daterange-input {
 }
 
 .inputfile + label {
-	max-width: 80%;
-	font-size: 1.25rem;
-	/* 20px */
-	font-weight: 700;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	cursor: pointer;
 	display: inline-block;
 	overflow: hidden;
-	padding: 0.625rem 1.25rem;
-	/* 10px 20px */
 }
 
 .no-js .inputfile + label {
@@ -7096,11 +7090,6 @@ input.daterange-input {
 	outline: -webkit-focus-ring-color auto 5px;
 }
 
-.inputfile + label * {
-	/* pointer-events: none; */
-	/* in case of FastClick lib use */
-}
-
 .inputfile + label svg {
 	width: 1em;
 	height: 1em;
@@ -7111,18 +7100,6 @@ input.daterange-input {
 	margin-right: 0.25em;
 	/* 4px */
 }
-/* style 3 */
-
-.inputfile + label {
-	color: #d3394c;
-}
-
-.inputfile:focus + label,
-.inputfile.has-focus + label,
-.inputfile + label:hover {
-	color: #722040;
-}
-
 
 .box__dragndrop,
 .box__uploading,
@@ -7187,20 +7164,34 @@ input.daterange-input {
 }
 */
 
+.load-image-wrapper {
+	position: relative;
+	border: 2px solid #a1a1a1;
+	background: #e5e5e5 url(../images/bg-payment-card.jpg) 50% 50% no-repeat / cover;
+	height: 230px;
+	width: 230px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
 .avatar-body {
 	padding-right: 15px;
 	padding-left: 15px;
 }
 
 .avatar-upload {
-	overflow: hidden;
-}
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-50%);
+	text-align: center;
 
-.avatar-upload label {
-	display: block;
-	float: left;
-	clear: left;
-	width: 100px;
+	.has-image &{
+		position: absolute;
+		left: -9999px;
+		top: -9999px;
+	}
 }
 
 .avatar-upload input {
@@ -7214,12 +7205,9 @@ input.daterange-input {
 }
 
 .avatar-wrapper {
-	height: 364px;
-	width: 100%;
-	margin-top: 15px;
-	box-shadow: inset 0 0 5px rgba(0,0,0,.25);
-	background-color: #fcfcfc;
 	overflow: hidden;
+	width: 100%;
+	height: 100%;
 }
 
 .avatar-wrapper img {
@@ -7248,19 +7236,19 @@ input.daterange-input {
 }
 
 .preview-lg {
-	height: 184px;
-	width: 184px;
+	height: 184px !important;
+	width: 184px !important;
 	margin-top: 15px;
 }
 
 .preview-md {
-	height: 100px;
-	width: 100px;
+	height: 100px !important;
+	width: 100px !important;
 }
 
 .preview-sm {
-	height: 50px;
-	width: 50px;
+	height: 50px !important;
+	width: 50px !important;
 }
 
 @media (min-width: 992px) {
