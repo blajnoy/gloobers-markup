@@ -238,300 +238,308 @@ table {
   content: "\E02B";
 }
 
-.gl-ico-fishing:before {
+.gl-ico-file-upload:before {
   content: "\E02C";
 }
 
-.gl-ico-fitness:before {
+.gl-ico-fishing:before {
   content: "\E02D";
 }
 
-.gl-ico-fooding:before {
+.gl-ico-fitness:before {
   content: "\E02E";
 }
 
-.gl-ico-golf:before {
+.gl-ico-fooding:before {
   content: "\E02F";
 }
 
-.gl-ico-google-plus:before {
+.gl-ico-golf:before {
   content: "\E030";
 }
 
-.gl-ico-health:before {
+.gl-ico-google-plus:before {
   content: "\E031";
 }
 
-.gl-ico-heart:before {
+.gl-ico-health:before {
   content: "\E032";
 }
 
-.gl-ico-historic:before {
+.gl-ico-heart:before {
   content: "\E033";
 }
 
-.gl-ico-home-user:before {
+.gl-ico-historic:before {
   content: "\E034";
 }
 
-.gl-ico-home:before {
+.gl-ico-home-user:before {
   content: "\E035";
 }
 
-.gl-ico-hotel-type:before {
+.gl-ico-home:before {
   content: "\E036";
 }
 
-.gl-ico-instagram:before {
+.gl-ico-hotel-type:before {
   content: "\E037";
 }
 
-.gl-ico-internet:before {
+.gl-ico-instagram:before {
   content: "\E038";
 }
 
-.gl-ico-kids-activities:before {
+.gl-ico-internet:before {
   content: "\E039";
 }
 
-.gl-ico-kitchen:before {
+.gl-ico-kids-activities:before {
   content: "\E03A";
 }
 
-.gl-ico-like:before {
+.gl-ico-kitchen:before {
   content: "\E03B";
 }
 
-.gl-ico-local-culture:before {
+.gl-ico-like:before {
   content: "\E03C";
 }
 
-.gl-ico-location:before {
+.gl-ico-local-culture:before {
   content: "\E03D";
 }
 
-.gl-ico-logo:before {
+.gl-ico-location:before {
   content: "\E03E";
 }
 
-.gl-ico-luxury:before {
+.gl-ico-logo:before {
   content: "\E03F";
 }
 
-.gl-ico-mail:before {
+.gl-ico-luxury:before {
   content: "\E040";
 }
 
-.gl-ico-marker-add:before {
+.gl-ico-mail:before {
   content: "\E041";
 }
 
-.gl-ico-marker-empty:before {
+.gl-ico-marker-add:before {
   content: "\E042";
 }
 
-.gl-ico-marker-full:before, .map-types .marker:hover .marker-ico:before, .map-types .marker:hover .marker-ico:after, .map-types .marker input[type=radio]:checked ~ .marker-ico:before, .map-types .marker input[type=radio]:checked ~ .marker-ico:after {
+.gl-ico-marker-empty:before {
   content: "\E043";
 }
 
-.gl-ico-marker:before {
+.gl-ico-marker-full:before, .map-types .marker:hover .marker-ico:before, .map-types .marker:hover .marker-ico:after, .map-types .marker input[type=radio]:checked ~ .marker-ico:before, .map-types .marker input[type=radio]:checked ~ .marker-ico:after {
   content: "\E044";
 }
 
-.gl-ico-meals:before {
+.gl-ico-marker:before {
   content: "\E045";
 }
 
-.gl-ico-methods-of-payment:before {
+.gl-ico-meals:before {
   content: "\E046";
 }
 
-.gl-ico-minus:before {
+.gl-ico-methods-of-payment:before {
   content: "\E047";
 }
 
-.gl-ico-motor-sports:before {
+.gl-ico-minus:before {
   content: "\E048";
 }
 
-.gl-ico-music:before {
+.gl-ico-motor-sports:before {
   content: "\E049";
 }
 
-.gl-ico-nightlife:before {
-  content: "\E04B";
+.gl-ico-music:before {
+  content: "\E04A";
 }
 
 .gl-ico-nightlife:before {
-  content: "\E04B";
-}
-
-.gl-ico-person:before {
   content: "\E04C";
 }
 
-.gl-ico-photo-camera:before {
+.gl-ico-nightlife:before {
+  content: "\E04C";
+}
+
+.gl-ico-person:before {
   content: "\E04D";
 }
 
-.gl-ico-photography:before {
+.gl-ico-photo-camera:before {
   content: "\E04E";
 }
 
-.gl-ico-plus-rounded:before {
+.gl-ico-photography:before {
   content: "\E04F";
 }
 
-.gl-ico-plus:before {
+.gl-ico-picture:before {
   content: "\E050";
 }
 
-.gl-ico-points-of-interest:before {
+.gl-ico-plus-rounded:before {
   content: "\E051";
 }
 
-.gl-ico-pool:before {
+.gl-ico-plus:before {
   content: "\E052";
 }
 
-.gl-ico-push-pin:before {
+.gl-ico-points-of-interest:before {
   content: "\E053";
 }
 
-.gl-ico-question-mark:before {
+.gl-ico-pool:before {
   content: "\E054";
 }
 
-.gl-ico-road-trips:before {
+.gl-ico-push-pin:before {
   content: "\E055";
 }
 
-.gl-ico-room-distribution-alt:before {
+.gl-ico-question-mark:before {
   content: "\E056";
 }
 
-.gl-ico-room-distribution:before {
+.gl-ico-road-trips:before {
   content: "\E057";
 }
 
-.gl-ico-room-facilities:before {
+.gl-ico-room-distribution-alt:before {
   content: "\E058";
 }
 
-.gl-ico-sailing:before {
+.gl-ico-room-distribution:before {
   content: "\E059";
 }
 
-.gl-ico-school-book-bag:before {
+.gl-ico-room-facilities:before {
   content: "\E05A";
 }
 
-.gl-ico-scuba-diving:before {
+.gl-ico-sailing:before {
   content: "\E05B";
 }
 
-.gl-ico-sea-view:before {
+.gl-ico-school-book-bag:before {
   content: "\E05C";
 }
 
-.gl-ico-search:before {
+.gl-ico-scuba-diving:before {
   content: "\E05D";
 }
 
-.gl-ico-send-mail:before {
+.gl-ico-sea-view:before {
   content: "\E05E";
 }
 
-.gl-ico-shopping:before {
+.gl-ico-search:before {
   content: "\E05F";
 }
 
-.gl-ico-sightseeing:before {
+.gl-ico-send-mail:before {
   content: "\E060";
 }
 
-.gl-ico-ski:before {
+.gl-ico-shopping:before {
   content: "\E061";
 }
 
-.gl-ico-spa:before {
+.gl-ico-sightseeing:before {
   content: "\E062";
 }
 
-.gl-ico-sports:before {
+.gl-ico-ski:before {
   content: "\E063";
 }
 
-.gl-ico-staff:before {
+.gl-ico-spa:before {
   content: "\E064";
 }
 
-.gl-ico-star:before {
+.gl-ico-sports:before {
   content: "\E065";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-staff:before {
   content: "\E066";
 }
 
-.gl-ico-things-to-keep-in-mind:before {
+.gl-ico-star:before {
   content: "\E067";
 }
 
-.gl-ico-transportation:before {
+.gl-ico-street-map:before {
   content: "\E068";
 }
 
-.gl-ico-trekking:before {
+.gl-ico-things-to-keep-in-mind:before {
   content: "\E069";
 }
 
-.gl-ico-tv:before {
+.gl-ico-transportation:before {
   content: "\E06A";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-trekking:before {
   content: "\E06B";
 }
 
-.gl-ico-user:before {
+.gl-ico-tv:before {
   content: "\E06C";
 }
 
-.gl-ico-users-group:before {
+.gl-ico-twitter:before {
   content: "\E06D";
 }
 
-.gl-ico-users:before {
+.gl-ico-user:before {
   content: "\E06E";
 }
 
-.gl-ico-washing:before {
+.gl-ico-users-group:before {
   content: "\E06F";
 }
 
-.gl-ico-water-sports:before {
+.gl-ico-users:before {
   content: "\E070";
 }
 
-.gl-ico-wellness:before {
+.gl-ico-washing:before {
   content: "\E071";
 }
 
-.gl-ico-wifi:before {
+.gl-ico-water-sports:before {
   content: "\E072";
 }
 
-.gl-ico-wildlife:before {
+.gl-ico-wellness:before {
   content: "\E073";
 }
 
-.gl-ico-wine:before {
+.gl-ico-wifi:before {
   content: "\E074";
 }
 
-.gl-ico-worldwide:before {
+.gl-ico-wildlife:before {
   content: "\E075";
+}
+
+.gl-ico-wine:before {
+  content: "\E076";
+}
+
+.gl-ico-worldwide:before {
+  content: "\E077";
 }
 
 body {
@@ -877,13 +885,9 @@ svg {
   cursor: pointer;
 }
 
-.inputfile + label svg {
-  width: 1em;
-  height: 1em;
-  vertical-align: middle;
-  fill: currentColor;
-  margin-top: -4px;
-  margin-right: 4px;
+.inputfile + label .gl-ico, .inputfile + label .slick-slider .slick-arrow, .slick-slider .inputfile + label .slick-arrow, .inputfile + label .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .inputfile + label b, .inputfile + label .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .inputfile + label .iti-arrow {
+  vertical-align: top;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -11220,6 +11224,10 @@ input.daterange-input {
   margin-bottom: 10px;
 }
 
+.personal-photo .upload-btns-row .btn {
+  margin-bottom: 0;
+}
+
 .info-desc {
   font-size: 14px;
   line-height: 17px;
@@ -11930,6 +11938,10 @@ input.daterange-input {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .upload-btns-row .edit-file-col {
@@ -11961,6 +11973,31 @@ input.daterange-input {
 	width: 100%;
 }
 */
+.resize-crop-image {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 -20px;
+}
+
+.resize-crop-image .gl-ico-picture {
+  font-size: 15px;
+  margin: 0 20px;
+}
+
+.resize-crop-image .gl-ico-picture.sm {
+  font-size: 10px;
+}
+
 .load-image-wrapper {
   position: relative;
   border: 2px solid #a1a1a1;
@@ -12020,17 +12057,10 @@ input.daterange-input {
   float: left;
   margin-top: 15px;
   margin-right: 15px;
-  border: 1px solid #eee;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  border: 2px solid #e1e1e1;
   background-color: #fff;
   overflow: hidden;
-}
-
-.avatar-preview:hover {
-  border-color: #ccf;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  position: relative;
 }
 
 .avatar-preview img {
@@ -12051,6 +12081,12 @@ input.daterange-input {
 .preview-sm {
   height: 50px !important;
   width: 50px !important;
+}
+
+.preview-round {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 @media (min-width: 992px) {

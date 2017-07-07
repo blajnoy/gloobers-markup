@@ -47,6 +47,9 @@
 
         this.$avatarBody = this.$avatarModal.find('.avatar-body');
 
+        this.$btnExtraOpenModal = this.$container.find('.btn-open-crop-avatar');
+
+
         this.init();
     }
 
@@ -98,7 +101,9 @@
         },
 
         addListener: function () {
-            this.$avatarView.on('click', $.proxy(this.click, this));
+            //this.$avatarView.on('click', $.proxy(this.click, this));
+            this.$btnExtraOpenModal.on('click', $.proxy(this.click, this));
+
             this.$avatarInput.on('change', $.proxy(this.change, this));
             this.$avatarForm.on('submit', $.proxy(this.submit, this));
             this.$avatarBtns.on('click', $.proxy(this.rotate, this));

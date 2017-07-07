@@ -79,7 +79,8 @@
 								<div class="photo avatar-view" title="Change the avatar">
 									<img src="images/photo01-big.jpg" alt="avatar">
 								</div>
-								<a data-toggle="modal" data-target="#avatar-modal" href="#" class="btn fill-width"><i class="gl-ico gl-ico-photo-camera"></i> Change photo</a>
+								<!--<a data-toggle="modal" data-target="#avatar-modal" href="#" class="btn fill-width"><i class="gl-ico gl-ico-photo-camera"></i> Change photo</a>-->
+								<a href="#" class="btn fill-width btn-open-crop-avatar"><i class="gl-ico gl-ico-photo-camera"></i> Change photo</a>
 
 								<!-- Cropping modal -->
 								<div class="modal fade" id="avatar-modal" aria-hidden="true" aria-labelledby="avatar-modal-label" role="dialog" tabindex="-1">
@@ -116,7 +117,7 @@
 																</div>
 															</div>
 															<div class="col-md-3">
-																<div class="avatar-preview preview-lg"></div>
+																<div class="avatar-preview preview-md preview-round "></div>
 																<div class="avatar-preview preview-md"></div>
 																<!--<div class="avatar-preview preview-sm"></div>-->
 															</div>
@@ -138,8 +139,10 @@
 															</div>
 														</div>-->
 														<div class="upload-btns-row">
-															<div class="edit-file-col">
-
+															<div class="resize-crop-image">
+																<i class="gl-ico gl-ico-picture sm slider-increase"></i>
+																<input id="cropImgSize" type="text" value="" data-slider-min="50" data-slider-max="100" data-slider-step="1" data-slider-value="100"/>
+																<i class="gl-ico gl-ico-picture slider-decrease"></i>
 															</div>
 															<a href="#" class="btn btn-link" data-dismiss="modal">Cancel</a>
 															<button type="submit" class="btn btn-default avatar-save">SAVE</button>
@@ -871,7 +874,7 @@
 
 	<script src="js/cropper-main-custom.js"></script>
 	<script src="js/jquery.custom-file-input.js"></script>
-	<!--<script src="js/personal-cabinet-profile.js"></script>-->
+	<script src="js/personal-cabinet-profile.js"></script>
 
 
 	<script src="js/main.js"></script>

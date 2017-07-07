@@ -6514,6 +6514,12 @@ input.daterange-input {
 	.btn {
 		margin-bottom: 10px;
 	}
+
+	.upload-btns-row {
+		.btn {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .info-desc {
@@ -7135,6 +7141,7 @@ input.daterange-input {
 
 .upload-btns-row {
 	display: flex;
+	align-items: center;
 
 	.edit-file-col {
 		flex: auto;
@@ -7163,6 +7170,22 @@ input.daterange-input {
 	width: 100%;
 }
 */
+
+.resize-crop-image {
+	display: flex;
+	flex: auto;
+	align-items: center;
+	margin: 0 -20px;
+
+	.gl-ico-picture {
+		font-size: 15px;
+		margin: 0 20px;
+
+		&.sm {
+			font-size: 10px;
+		}
+	}
+}
 
 .load-image-wrapper {
 	position: relative;
@@ -7220,15 +7243,10 @@ input.daterange-input {
 	float: left;
 	margin-top: 15px;
 	margin-right: 15px;
-	border: 1px solid #eee;
-	border-radius: 4px;
+	border: 2px solid #e1e1e1;
 	background-color: #fff;
 	overflow: hidden;
-}
-
-.avatar-preview:hover {
-	border-color: #ccf;
-	box-shadow: 0 0 5px rgba(0,0,0,.15);
+	position: relative;
 }
 
 .avatar-preview img {
@@ -7249,6 +7267,11 @@ input.daterange-input {
 .preview-sm {
 	height: 50px !important;
 	width: 50px !important;
+}
+
+.preview-round {
+	border-radius: 50%;
+	overflow: hidden;
 }
 
 @media (min-width: 992px) {

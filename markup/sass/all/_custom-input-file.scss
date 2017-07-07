@@ -9,14 +9,12 @@
 		text-overflow: ellipsis;
 		white-space: nowrap;
 		cursor: pointer;
-		svg {
-			width: 1em;
-			height: 1em;
-			vertical-align: middle;
-			fill: currentColor;
-			margin-top: -4px;
-			margin-right: 4px;
+
+		.gl-ico {
+			vertical-align: top;
+			font-size: 18px;
 		}
+
 		@include breakpoint(max-width $sm) {
 			width: 100%;
 			margin: 0 0 20px;
