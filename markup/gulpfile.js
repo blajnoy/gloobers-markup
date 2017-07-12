@@ -10,10 +10,9 @@ var gulp = require('gulp'),
 	iconfontCss = require('gulp-iconfont-css');
 
 
-
-
 var fontName = 'gloobers-icons',
 	cssClass = 'gl-ico';
+
 
 gulp.task('iconfont', function(){
 	gulp.src(['assets/icons/*.svg'])
@@ -83,7 +82,6 @@ gulp.task('pdf:watch', function() {
 	gulp.watch('sass/pdf/**/*.scss', ['pdf']);
 });
 /* end start pdf */
-
 
 /* start 404 */
 gulp.task('page404', function() {

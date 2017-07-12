@@ -31,7 +31,8 @@
 	.hp & {
 		min-height: 100vh;
 		padding: 0 0 115px;
-		background: url(../images/bg-main.jpg) 50% 0 no-repeat fixed / cover;
+		background: url(../images/bg-main.jpg) 50% 0 no-repeat fixed;
+		background-size: cover;
 		position: relative;
 
 		.container {
@@ -4322,6 +4323,14 @@ input.daterange-input {
 	width: 100%;
 	max-width: 410px;
 }
+.modal-upload-sm {
+	width: 100%;
+	max-width: 700px;
+}
+.modal-upload-lg {
+	width: 100%;
+	max-width: 1080px;
+}
 .modal-content {
 	padding: 24px;
 	border-radius: 10px;
@@ -6598,14 +6607,23 @@ input.daterange-input {
 			border-radius: 10px 10px 0 0;
 			object-fit: cover;
 		}
+	}
 
-		.change-picture {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			z-index: 2;
-			transform: translate(-50%, -50%);
+	&-holder {
+		position: relative;
+
+		.btn {
+			margin-bottom: 10px;
 		}
+	}
+
+	.change-picture {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: 2;
+		transform: translate(-50%, -50%);
+		transition: .1s all linear;
 	}
 
 	.picture-desc {
@@ -7142,6 +7160,7 @@ input.daterange-input {
 .upload-btns-row {
 	display: flex;
 	align-items: center;
+	font-size: 14px;
 
 	.edit-file-col {
 		flex: auto;
@@ -7149,6 +7168,42 @@ input.daterange-input {
 
 	.btn {
 		min-width: 120px;
+
+		&.btn-link {
+			margin-left: auto;
+		}
+	}
+
+	.file-upload-extra {
+		display: none;
+		margin: 0 20px;
+
+		.has-image & {
+			display: inline-block;
+		}
+
+		.gl-ico {
+			font-size: 18px;
+			vertical-align: -10%;
+			margin-right: 5px;
+		}
+	}
+}
+
+.cropper-row {
+	display: flex;
+	padding: 0 100px 80px;
+
+	.preview-wrap {
+		margin: 0 0 0 auto;
+
+		.avatar-preview {
+			margin: 0;
+
+			+ .avatar-preview {
+				margin: 30px 0 0;
+			}
+		}
 	}
 }
 
@@ -7172,10 +7227,15 @@ input.daterange-input {
 */
 
 .resize-crop-image {
-	display: flex;
+	display: none;
 	flex: auto;
 	align-items: center;
-	margin: 0 -20px;
+	margin: 0 0 0 -20px;
+	color: #ccc;
+
+	.has-image & {
+		display: flex;
+	}
 
 	.gl-ico-picture {
 		font-size: 15px;
@@ -7195,13 +7255,21 @@ input.daterange-input {
 	width: 230px;
 	border-radius: 10px;
 	overflow: hidden;
+
+	&.load-picture-wrapper {
+		height: 230px;
+		width: 100%;
+	}
+
 }
 
+.picture-body,
 .avatar-body {
 	padding-right: 15px;
 	padding-left: 15px;
 }
 
+.picture-upload,
 .avatar-upload {
 	position: absolute;
 	top: 50%;
@@ -7217,28 +7285,34 @@ input.daterange-input {
 	}
 }
 
-.avatar-upload input {
-	display: block;
-	margin-left: 110px;
+.avatar-picture,
+.avatar-upload {
+	input {
+		display: block;
+		margin-left: 110px;
+	}
 }
 
+.picture-alert,
 .avatar-alert {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
+.picture-wrapper,
 .avatar-wrapper {
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
+
+	img {
+		display: block;
+		height: auto;
+		max-width: 100%;
+	}
 }
 
-.avatar-wrapper img {
-	display: block;
-	height: auto;
-	max-width: 100%;
-}
-
+.picture-preview,
 .avatar-preview {
 	float: left;
 	margin-top: 15px;
@@ -7247,11 +7321,12 @@ input.daterange-input {
 	background-color: #fff;
 	overflow: hidden;
 	position: relative;
+
+	img {
+		width: 100%;
+	}
 }
 
-.avatar-preview img {
-	width: 100%;
-}
 
 .preview-lg {
 	height: 184px !important;
@@ -7301,6 +7376,15 @@ input.daterange-input {
 	filter: alpha(opacity=75);
 	z-index: 20140628;
 }
+
+.cropper-info {
+	border-top-width: 2px;
+	margin: 30px -24px 0;
+	padding: 40px 50px 20px;
+}
+
+
+
 /* spinner */
 .loadingoverlay {
 	color: #fff;
@@ -7310,6 +7394,9 @@ input.daterange-input {
 .sel-pass {
 	min-width: 265px;
 }
+
+
+
 
 
 

@@ -125,8 +125,8 @@ class CropAvatar {
 
       $tmp_img_w = $data -> width;
       $tmp_img_h = $data -> height;
-      $dst_img_w = 220;
-      $dst_img_h = 220;
+      $dst_img_w = 270;
+      $dst_img_h = 270;
 
       $src_x = $data -> x;
       $src_y = $data -> y;
@@ -213,6 +213,7 @@ $crop = new CropAvatar(
   isset($_POST['avatar_data']) ? $_POST['avatar_data'] : null,
   isset($_FILES['avatar_file']) ? $_FILES['avatar_file'] : null
 );
+
 
 $response = array(
   'state'  => 200,
