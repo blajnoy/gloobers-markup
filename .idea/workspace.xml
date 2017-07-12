@@ -1,213 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/.github/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/.nvmrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/.sass-lint.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/dependencies/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/dependencies/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/dependencies/js/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/dist/bootstrap-slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/dist/bootstrap-slider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/dist/css/bootstrap-slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/dist/css/bootstrap-slider.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/scripts/release.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/src/js/bootstrap-slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/src/less/bootstrap-slider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/src/less/rules.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/src/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/src/sass/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/src/sass/_rules.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/src/sass/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/src/sass/bootstrap-slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/phantom_bind_polyfill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/AccessibilitySpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/AriaValueTextFormatterSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/AutoRegisterDataProvideSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/ConflictingOptionsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/DestroyMethodTests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/DraggingHandlesSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/ElementDataAttributesSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/EventsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/FocusOptionSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/KeyboardSupportSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/LogarithmicScaleSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/LowAndHighTrackSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/NamespaceSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/OrientationSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/PublicMethodsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/RangeHighlightsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/RefreshMethodSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/ResizeSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/RtlOptionsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/ScrollableBodySpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/ScrollableContainerSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/TickClickingBehaviorSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/TickLabelSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/TickMarksSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/TooltipMouseOverOptionSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/TooltipPositionOptionSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/TooltipSplitOptionSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/test/specs/offMethodSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/tpl/SpecRunner.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/bootstrap-slider/tpl/index.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/TODO.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/cropit.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/demo/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/demo/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/demo/image-background.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/demo/pica.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/dist/jquery.cropit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/src/constants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/src/cropit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/src/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/src/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/src/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/src/zoomer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/test/cropit.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/test/cropit_view.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/test/fixtures/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/test/fixtures/image-background.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/test/zoomer.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/update_version.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropit/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/dist/cropper.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/dist/cropper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/dist/cropper.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/dist/cropper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/css/cropper.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/change.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/cropper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/defaults.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/handlers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/methods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/preview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/render.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/cropper/src/js/utilities.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/fullcalendar.print.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/gcal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/gcal.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/af.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-dz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-ly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-ma.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-sa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar-tn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/de-at.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/en-nz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/es-do.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fr-ch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/kk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/lb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ms-my.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nl-be.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/nn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sr-cyrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/dist/locale/zh-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/fullcalendar/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/extras/loadingoverlay_progress/loadingoverlay_progress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/extras/loadingoverlay_progress/loadingoverlay_progress.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/extras/loadingoverlay_progress/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/src/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/src/loadingoverlay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/node_modules/gasparesganga-jquery-loading-overlay/src/loadingoverlay.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/markup/public/js/cropper-main-custom.js" afterPath="" />
+    <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="person counter">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/gulpfile.js" afterPath="$PROJECT_DIR$/markup/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/crop.php" afterPath="$PROJECT_DIR$/markup/public/crop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/css/all.css" afterPath="$PROJECT_DIR$/markup/public/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/js/personal-cabinet-profile.js" afterPath="$PROJECT_DIR$/markup/public/js/personal-cabinet-profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-cabinet-profile.html" afterPath="$PROJECT_DIR$/markup/public/personal-cabinet-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/all/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/all/_styles.scss" />
     </list>
     <ignored path="gloobers-markup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -567,7 +362,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="last_opened_file_path" value="D:/OpenServer/domains/smartwash.dev/bonshine_marketing" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -715,21 +510,7 @@
       <workItem from="1499781354936" duration="573000" />
       <workItem from="1499782028438" duration="1441000" />
       <workItem from="1499783478421" duration="1987000" />
-      <workItem from="1499863306054" duration="7052000" />
-    </task>
-    <task id="LOCAL-00040" summary="calendar">
-      <created>1492167672861</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1492167672861</updated>
-    </task>
-    <task id="LOCAL-00041" summary="calendar">
-      <created>1492613549298</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1492613549298</updated>
+      <workItem from="1499863306054" duration="7313000" />
     </task>
     <task id="LOCAL-00042" summary="calendar">
       <created>1492888559091</created>
@@ -1060,11 +841,25 @@
       <option name="project" value="LOCAL" />
       <updated>1499442158882</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="person counter">
+      <created>1499872347539</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1499872347539</updated>
+    </task>
+    <task id="LOCAL-00090" summary="person counter">
+      <created>1499872427679</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1499872427679</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1068813000" />
+    <option name="totallyTimeSpent" value="1069074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1077,17 +872,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16471216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36403033" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40086675" sideWeight="0.5063966" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24593717" sideWeight="0.5063966" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24593717" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24593717" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30227518" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" x="14" y="562" width="1892" height="411" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31527627" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" x="14" y="562" width="1892" height="411" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
