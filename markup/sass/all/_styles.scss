@@ -223,6 +223,10 @@
 
 		.btn {
 			margin: 0 40px;
+
+			&.disabled {
+				pointer-events: auto;
+			}
 		}
 	}
 

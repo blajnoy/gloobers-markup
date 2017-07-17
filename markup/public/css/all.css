@@ -3632,6 +3632,10 @@ fieldset[disabled] .btn-marketing-b:focus {
   margin: 0 40px;
 }
 
+.filter-dropdown .recommendations-btns .btn.disabled {
+  pointer-events: auto;
+}
+
 .filter-dropdown .btns-row {
   display: -webkit-box;
   display: -webkit-flex;
