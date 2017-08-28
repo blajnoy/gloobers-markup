@@ -1,3 +1,17 @@
+/*$(document).on('ready', function () {
+    $('#reviewFinishModal').modal('show');
+});*/
+
+
+$('.recommendations-slider').slick({
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    arrows: true,
+    prevArrow: '<a href="#" class="btn-prev"><i class="gl-ico gl-ico-arrow-left"></i></a>',
+    nextArrow: '<a href="#" class="btn-next"><i class="gl-ico gl-ico-arrow-right"></i></a>'
+});
+
+
 var existChildrenArr = [{
     'min': 1,
     'max': 20,

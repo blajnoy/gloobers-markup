@@ -21,6 +21,7 @@
 	<link href="css/select-theme-default.css" rel="stylesheet">
 
 	<link href="css/cropper.css" rel="stylesheet">
+	<link href="css/intlTelInput.css" rel="stylesheet">
 
 	<link href="css/all.css" rel="stylesheet">
 </head>
@@ -274,16 +275,16 @@
 					</div>
 					<div class="socials-connected">
 						<div class="cell">
-							<a href="#" class="btn"><i class="gl-ico gl-ico-facebook"></i> Facebook</a>
-							<span class="connection-status">Verified</span>
-						</div>
-						<div class="cell">
-							<a href="#" class="btn"><i class="gl-ico gl-ico-facebook"></i> Facebook</a>
-							<span class="connection-status">Verified</span>
-						</div>
-						<div class="cell">
-							<a href="#" class="btn disabled"><i class="gl-ico gl-ico-mail"></i> E-mail</a>
+							<a href="#" class="btn disabled" data-toggle="modal" data-target="#modalVerificationsEmail"><i class="gl-ico gl-ico-mail"></i> E-mail</a>
 							<span class="connection-status disabled">Not verified</span>
+						</div>
+						<div class="cell">
+							<a href="#" class="btn disabled" data-toggle="modal" data-target="#modalVerificationsPhone"><i class="gl-ico gl-ico-phone"></i> Telephone</a>
+							<span class="connection-status disabled">Not verified</span>
+						</div>
+						<div class="cell">
+							<a href="#" class="btn"><i class="gl-ico gl-ico-facebook"></i> Facebook</a>
+							<span class="connection-status">Verified</span>
 						</div>
 						<div class="cell">
 							<a href="#" class="btn disabled"><i class="gl-ico gl-ico-mail"></i> E-mail</a>
@@ -479,7 +480,24 @@
 									</div>
 									<div class="col">
 										<span class="ttl">Type of trip</span>
-										<select class="sel-pass" name="" id="typeOfTrip">
+										<div class="sel-pass-type">
+											<a id="typeOfTrip" href="#" class="open-drop sel-drop" data-chosen-value="" data-default-text="Select category" data-function-on-open="initSelDrop" data-offset="-10px 0" data-theme="drop-theme-arrows-bounce"><span class="sel-text">Select category</span> <i class="gl-ico gl-ico-arrow-down"></i></a>
+											<div class="drop-content hide">
+												<div class="drop-list drop-types-list">
+													<ul>
+														<li data-value="1"><a href="#"><i class="gl-ico gl-ico-home-user"></i> I live there</a></li>
+														<li data-value="2"><a href="#"><i class="gl-ico gl-ico-home"></i> I've been living there</a></li>
+														<li data-value="3"><a href="#"><i class="gl-ico gl-ico-briefcase"></i> I've been there in a business trip</a></li>
+														<li data-value="4"><a href="#"><i class="gl-ico gl-ico-heart"></i> I've been there in a romantic trip</a></li>
+														<li data-value="5"><a href="#"><i class="gl-ico gl-ico-users-group"></i> I've been there with a group</a></li>
+														<li data-value="6"><a href="#"><i class="gl-ico gl-ico-school-book-bag"></i> I've been there alone</a></li>
+														<li data-value="7"><a href="#"><i class="gl-ico gl-ico-users"></i> I've been there with the friend</a></li>
+														<li data-value="8"><a href="#"><i class="gl-ico gl-ico-family"></i> I've been in a family trip</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<!--<select class="sel-pass" name="" id="typeOfTrip">
 											<option>Select category</option>
 											<option value="1">I live there</option>
 											<option value="2">I've been living there</option>
@@ -489,7 +507,7 @@
 											<option value="6">I've been there alone</option>
 											<option value="7">I've been there with the friend</option>
 											<option value="8">I've been in a family trip</option>
-										</select>
+										</select>-->
 									</div>
 								</div>
 							</div>
@@ -629,6 +647,62 @@
 			</div>
 		</footer>
 	</div>
+
+	<!-- start modal e-mail verifications -->
+	<div class="modal fade" id="modalVerificationsEmail" tabindex="-1" role="dialog" aria-labelledby="exampleModalVerificationsEmail">
+		<div class="modal-dialog modal-custom-sm modal-login" role="document">
+			<div class="modal-content">
+				<div class="login-form change-pass-form">
+					<form action="" data-toggle="validator" role="form" data-focus="false">
+						<div class="">
+							<strong class="ttl">Enter your E-mail</strong>
+							<div class="form-group">
+								<input type="email" class="form-control" id="ConfirmEmail" placeholder="E-mail" data-error="Error message" required>
+								<div class="help-block-wrap text-center">
+									<i class="gl-ico gl-ico-attention"></i>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							<p class="info-desc">Here will be description about the adding process ofthe telephone number.</p>
+						</div>
+						<div class="btns-row">
+							<a href="#" class="btn-link btn" data-dismiss="modal" data-toggle="modal" data-target="#modalSignIn">Cancel</a>
+							<button type="submit" class="btn-default btn btn-send-pass">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal e-mail add -->
+
+	<!-- start modal phone num verifications -->
+	<div class="modal fade" id="modalVerificationsPhone" tabindex="-1" role="dialog" aria-labelledby="exampleModalVerificationsPhone">
+		<div class="modal-dialog modal-custom-sm modal-login" role="document">
+			<div class="modal-content">
+				<div class="login-form change-pass-form">
+					<form action="" data-toggle="validator" role="form" data-focus="false">
+						<div class="">
+							<strong class="ttl">Enter your phone number</strong>
+							<div class="form-group">
+								<input id="phone" type="tel" class="form-control" placeholder="00-000-00-00">
+								<div class="help-block-wrap text-center">
+									<i class="gl-ico gl-ico-attention"></i>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							<p class="info-desc">Here will be description about the adding process ofthe telephone number.</p>
+						</div>
+						<div class="btns-row">
+							<a href="#" class="btn-link btn" data-dismiss="modal" data-toggle="modal" data-target="#modalSignIn">Cancel</a>
+							<button type="submit" class="btn-default btn btn-send-pass">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal e-mail add -->
 
 	<!-- start modal passions add -->
 	<div class="modal fade" id="PassionsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
@@ -918,6 +992,10 @@
     <script src="js/cropper-picture-custom.js"></script>
 
 	<script src="js/jquery.custom-file-input.js"></script>
+
+	<script src="js/jquery.custom-sel-drop.js"></script>
+
+	<script src="js/intlTelInput.min.js"></script>
 
 	<script src="js/personal-cabinet-profile.js"></script>
 

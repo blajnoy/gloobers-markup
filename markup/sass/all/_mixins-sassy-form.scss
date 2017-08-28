@@ -20,6 +20,9 @@ $sassy-disabled-color: #eee !default;
 		background-color: $sassy-disabled-color;
 		cursor: not-allowed;
 	}
+	&[readonly] {
+		background: none;
+	}
 	
 	@include input-placeholder(rgba(#000, .5));
 }

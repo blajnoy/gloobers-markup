@@ -260,23 +260,6 @@ $(document).ready(function () {
         });
     }
 
-    /* RECO PASSIONS SELECTING */
-
-    $('#passions-choice').on('click', '.item', function () {
-        var elm = $(this);
-        var check = elm.find('.passion-check');
-
-        if (!elm.hasClass('selected')) {
-            elm.addClass('selected');
-            check.prop('checked', true);
-        } else {
-            elm.removeClass('selected');
-            check.prop('checked', false);
-        }
-
-        return false;
-    });
-
 
     /* SPINNER */
     $("#book").on("click", function (event) {
@@ -486,7 +469,7 @@ $(document).ready(function () {
 
             drop.on("open", function () {
                 if(functionOnOpen) {
-                    eval(functionOnOpen)();
+                    eval(functionOnOpen)(drop);
                 }
             });
 
@@ -1017,7 +1000,7 @@ function getRatingMarker(element) {
 
     return marker;
 
-};
+}
 
 function getHotelMarker(element) {
 
@@ -1169,72 +1152,13 @@ function getDefaultMarker(element) {
         labelContent: icon,
         labelAnchor: new google.maps.Point(offsetAnchorX, 34),
         labelClass: "custom-marker-icon",
-        labelInBackground: true
+        labelInBackground: true,
+        draggable: true,
+        raiseOnDrag: false
     });
 
-    return marker;
-
-};
-
-function addPassportMarker(location, type) {
-
-    var markerIcon = {
-        url: 'images/marker.svg',
-        scaledSize: new google.maps.Size(30, 40),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(15, 40)
-    };
-
-    var icon;
-
-    switch (type) {
-        case 1:
-            icon = '<i class="gl-ico gl-ico-home-user"></i>';
-            break;
-        case 2:
-            icon = '<i class="gl-ico gl-ico-home"></i>';
-            break;
-        case 3:
-            icon = '<i class="gl-ico gl-ico-briefcase"></i>';
-            break;
-        case 4:
-            icon = '<i class="gl-ico gl-ico-heart"></i>';
-            break;
-        case 5:
-            icon = '<i class="gl-ico gl-ico-users-group"></i>';
-            break;
-        case 6:
-            icon = '<i class="gl-ico gl-ico-school-book-bag"></i>';
-            break;
-        case 7:
-            icon = '<i class="gl-ico gl-ico-users"></i>';
-            break;
-        case 8:
-            icon = '<i class="gl-ico gl-ico-family"></i>';
-            break;
-        default:
-            console.log("no icon for this type")
-    }
-
-    $('.calcMarkerWidthElm').find('.custom-marker-icon').remove();
-
-    var calcWidthElm = '<div class="custom-marker-icon">' + icon + '</div>';
-
-    var offsetAnchorX = ( $('.calcMarkerWidthElm').append(calcWidthElm).width() ) / 2;
-
-    var marker = new MarkerWithLabel({
-        map: map,
-        animation: false, //google.maps.Animation.DROP,
-        position: location,
-        icon: markerIcon,
-        labelContent: icon,
-        labelAnchor: new google.maps.Point(offsetAnchorX, 34),
-        labelClass: "custom-marker-icon",
-        labelInBackground: true
-    });
-
-    var latLng = marker.getPosition();
-    map.setCenter(location);
+    //marker.addListener('drag', markerDragHandleEvent);
+    marker.addListener('dragend', markerDragHandleEvent);
 
     return marker;
 
@@ -1348,17 +1272,6 @@ function closeAllInfoWindows(infoWindows) {
 }
 
 
-$('#addPlace').on('click', function () {
-
-    var elm = document.getElementById('destination-hotel');
-    var type = parseInt($('#typeOfTrip').val(), 10);
-    var lat = elm.getAttribute("data-location-lat");
-    var lng = elm.getAttribute("data-location-lng");
-    var point = new google.maps.LatLng(lat, lng);
-
-    addPassportMarker(point, type);
-
-});
 
 
 var bounds = new google.maps.LatLngBounds();

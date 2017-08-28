@@ -260,131 +260,134 @@
 	@if $filename == person {
 		$char: \E04D;
 	}
-	@if $filename == photo-camera {
+	@if $filename == phone {
 		$char: \E04E;
 	}
-	@if $filename == photography {
+	@if $filename == photo-camera {
 		$char: \E04F;
 	}
-	@if $filename == picture {
+	@if $filename == photography {
 		$char: \E050;
 	}
-	@if $filename == plus-rounded {
+	@if $filename == picture {
 		$char: \E051;
 	}
-	@if $filename == plus {
+	@if $filename == plus-rounded {
 		$char: \E052;
 	}
-	@if $filename == points-of-interest {
+	@if $filename == plus {
 		$char: \E053;
 	}
-	@if $filename == pool {
+	@if $filename == points-of-interest {
 		$char: \E054;
 	}
-	@if $filename == push-pin {
+	@if $filename == pool {
 		$char: \E055;
 	}
-	@if $filename == question-mark {
+	@if $filename == push-pin {
 		$char: \E056;
 	}
-	@if $filename == road-trips {
+	@if $filename == question-mark {
 		$char: \E057;
 	}
-	@if $filename == room-distribution-alt {
+	@if $filename == road-trips {
 		$char: \E058;
 	}
-	@if $filename == room-distribution {
+	@if $filename == room-distribution-alt {
 		$char: \E059;
 	}
-	@if $filename == room-facilities {
+	@if $filename == room-distribution {
 		$char: \E05A;
 	}
-	@if $filename == sailing {
+	@if $filename == room-facilities {
 		$char: \E05B;
 	}
-	@if $filename == school-book-bag {
+	@if $filename == sailing {
 		$char: \E05C;
 	}
-	@if $filename == scuba-diving {
+	@if $filename == school-book-bag {
 		$char: \E05D;
 	}
-	@if $filename == sea-view {
+	@if $filename == scuba-diving {
 		$char: \E05E;
 	}
-	@if $filename == search {
+	@if $filename == sea-view {
 		$char: \E05F;
 	}
-	@if $filename == send-mail {
+	@if $filename == search {
 		$char: \E060;
 	}
-	@if $filename == shopping {
+	@if $filename == send-mail {
 		$char: \E061;
 	}
-	@if $filename == sightseeing {
+	@if $filename == shopping {
 		$char: \E062;
 	}
-	@if $filename == ski {
+	@if $filename == sightseeing {
 		$char: \E063;
 	}
-	@if $filename == spa {
+	@if $filename == ski {
 		$char: \E064;
 	}
-	@if $filename == sports {
+	@if $filename == spa {
 		$char: \E065;
 	}
-	@if $filename == staff {
+	@if $filename == sports {
 		$char: \E066;
 	}
-	@if $filename == star {
+	@if $filename == staff {
 		$char: \E067;
 	}
-	@if $filename == street-map {
+	@if $filename == star {
 		$char: \E068;
 	}
-	@if $filename == things-to-keep-in-mind {
+	@if $filename == street-map {
 		$char: \E069;
 	}
-	@if $filename == transportation {
+	@if $filename == things-to-keep-in-mind {
 		$char: \E06A;
 	}
-	@if $filename == trekking {
+	@if $filename == transportation {
 		$char: \E06B;
 	}
-	@if $filename == tv {
+	@if $filename == trekking {
 		$char: \E06C;
 	}
-	@if $filename == twitter {
+	@if $filename == tv {
 		$char: \E06D;
 	}
-	@if $filename == user {
+	@if $filename == twitter {
 		$char: \E06E;
 	}
-	@if $filename == users-group {
+	@if $filename == user {
 		$char: \E06F;
 	}
-	@if $filename == users {
+	@if $filename == users-group {
 		$char: \E070;
 	}
-	@if $filename == washing {
+	@if $filename == users {
 		$char: \E071;
 	}
-	@if $filename == water-sports {
+	@if $filename == washing {
 		$char: \E072;
 	}
-	@if $filename == wellness {
+	@if $filename == water-sports {
 		$char: \E073;
 	}
-	@if $filename == wifi {
+	@if $filename == wellness {
 		$char: \E074;
 	}
-	@if $filename == wildlife {
+	@if $filename == wifi {
 		$char: \E075;
 	}
-	@if $filename == wine {
+	@if $filename == wildlife {
 		$char: \E076;
 	}
-	@if $filename == worldwide {
+	@if $filename == wine {
 		$char: \E077;
+	}
+	@if $filename == worldwide {
+		$char: \E078;
 	}
 
 	@return $char;
@@ -634,6 +637,9 @@
 }
 .gl-ico-person {
 	@include gl-ico(person);
+}
+.gl-ico-phone {
+	@include gl-ico(phone);
 }
 .gl-ico-photo-camera {
 	@include gl-ico(photo-camera);

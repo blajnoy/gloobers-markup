@@ -88,7 +88,6 @@ function PersonCounter(options) { //element, persons, personDefault
         return value;
     }
 
-
     /* bind events */
     $wrapper.on('mousedown', ".number-spinner .btn", function () {
 
