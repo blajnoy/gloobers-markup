@@ -1,26 +1,421 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/js/jquery.reco&amp;review.modals.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.eot" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.ttf" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.woff" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.woff2" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.woff2" />
+    <list default="true" id="13e3b8b3-aaba-4d71-ac0f-c362c7207ab7" name="Default" comment="person counter">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/bg-message.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/bg-recommend-last-step.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/bg-recommend-last-step.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/bg-review-last-step.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/img-blamba.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/img-flower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/img-passport01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/images/img-pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/public.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/assets/icons/phone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/atob" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/atob.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/cmq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/cmq.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/cssbeautify" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/cssbeautify.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/dammit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/dammit.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/superb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/.bin/superb.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/atob/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/atob/LICENSE.DOCS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/atob/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/atob/bin/atob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/atob/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/atob/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/atob/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/.jsdoc.conf.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/AUTHORS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/_node-combine-mq.sublime-project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/lib/combine-mq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/.bin/has-ansi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/.bin/has-ansi.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/.bin/strip-ansi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/.bin/strip-ansi.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/.bin/supports-color" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/.bin/supports-color.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/ansi-regex/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/ansi-regex/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/ansi-regex/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/ansi-styles/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/ansi-styles/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/ansi-styles/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/chalk/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/chalk/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/chalk/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/has-ansi/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/has-ansi/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/has-ansi/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/has-ansi/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/strip-ansi/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/strip-ansi/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/strip-ansi/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/strip-ansi/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/supports-color/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/supports-color/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/supports-color/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/node_modules/supports-color/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/test/actual/combined.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/test/combine-mq_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/test/expected/test.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/test/expected/test2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/test/expected/test3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/test/expected/test4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/test/expected/test5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/test/expected/test6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/combine-mq/test/expected/test7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css-parse/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css-parse/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css-parse/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css-stringify/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css-stringify/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css-stringify/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/lib/parse/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/lib/stringify/compiler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/lib/stringify/compress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/lib/stringify/identity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/lib/stringify/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/lib/stringify/source-map-support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/Makefile.dryice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/build/assert-shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/build/mini-require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/build/prefix-source-map.jsm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/build/prefix-utils.jsm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/build/suffix-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/build/suffix-source-map.jsm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/build/suffix-utils.jsm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/build/test-prefix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/build/test-suffix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/lib/source-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/lib/source-map/array-set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/lib/source-map/base64-vlq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/lib/source-map/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/lib/source-map/binary-search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/lib/source-map/mapping-list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/lib/source-map/source-map-consumer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/lib/source-map/source-map-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/lib/source-map/source-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/lib/source-map/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/run-tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/test-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/test-array-set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/test-base64-vlq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/test-base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/test-binary-search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/test-dog-fooding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/test-source-map-consumer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/test-source-map-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/test-source-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/test-util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/node_modules/source-map/test/source-map/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/css/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cssbeautify/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cssbeautify/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cssbeautify/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cssbeautify/bin/cssbeautify" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cssbeautify/cssbeautify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cssbeautify/cssbeautify.sublime-project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cssbeautify/cssbeautify.sublime-workspace" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/cssbeautify/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/lib/dammit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/example/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/all_bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/dash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/default_bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/dotted.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/long.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/num.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/parse_modified.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/short.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/node_modules/minimist/test/whitespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/src/curses.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/src/cursesNSFW.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/dammit/test/dammit_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/_gulp-combine-mq.sublime-project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/.bin/has-ansi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/.bin/has-ansi.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/.bin/strip-ansi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/.bin/strip-ansi.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/.bin/supports-color" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/.bin/supports-color.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/ansi-regex/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/ansi-regex/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/ansi-regex/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/ansi-styles/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/ansi-styles/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/ansi-styles/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/chalk/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/chalk/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/chalk/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/fs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/graceful-fs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/polyfills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/test/max-open.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/test/open.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/test/readdir-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/graceful-fs/test/write-then-read.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/File.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/PluginError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/beep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/buffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/colors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/combine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/isBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/isNull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/isStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/linefeed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/noop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/replaceExtension.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/lib/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/node_modules/through2/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/node_modules/through2/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/node_modules/through2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/node_modules/through2/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/node_modules/through2/through2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/gulp-util/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/has-ansi/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/has-ansi/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/has-ansi/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/has-ansi/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash._reinterpolate/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash._reinterpolate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash._reinterpolate/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash._reinterpolate/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.escape/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.escape/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.escape/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.escape/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.keys/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.keys/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.keys/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.keys/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.template/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.template/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.template/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.template/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.templatesettings/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.templatesettings/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.templatesettings/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/lodash.templatesettings/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/example/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/all_bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/dash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/default_bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/dotted.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/long.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/num.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/parse_modified.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/short.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/minimist/test/whitespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/path/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/path/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/path/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/path/path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/readable-stream/writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/strip-ansi/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/strip-ansi/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/strip-ansi/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/strip-ansi/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/supports-color/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/supports-color/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/supports-color/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/supports-color/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/lib/cloneBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/lib/inspectStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/lib/isBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/lib/isNull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/lib/isStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/test/File.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/test/cloneBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/test/inspectStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/test/isBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/test/isNull.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/vinyl/test/isStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/xtend/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/xtend/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/xtend/LICENCE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/xtend/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/xtend/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/xtend/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/xtend/mutable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/xtend/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/node_modules/xtend/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/test/fixtures/test.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/gulp-combine-mq/test/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/map-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/map-stream/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/map-stream/LICENCE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/map-stream/examples/pretty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/map-stream/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/map-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/map-stream/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/map-stream/test/simple-map.asynct.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/resolve-url/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/resolve-url/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/resolve-url/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/resolve-url/changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/resolve-url/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/resolve-url/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/resolve-url/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/resolve-url/resolve-url.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/resolve-url/test/resolve-url.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/generate-source-map-resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/lib/resolve-url.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/lib/source-map-resolve-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/source-map-resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/source-map-resolve.js.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/test/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/test/source-map-resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/test/windows.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-resolve/x-package.json5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-url/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-url/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-url/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-url/changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-url/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-url/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-url/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-url/source-map-url.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-url/test/source-map-url.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/source-map-url/x-package.json5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/superb/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/superb/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/superb/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/superb/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/superb/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/superb/words.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/benchmark/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/benchmark/bench.gnu" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/benchmark/bench.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/benchmark/benchmark-native.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/benchmark/benchmark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/benchmark/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/misc/compare.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/misc/perf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/rng-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/rng.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/test/mocha.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/node_modules/uuid/uuid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/temp-write/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unique-random-array/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unique-random-array/node_modules/unique-random/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unique-random-array/node_modules/unique-random/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unique-random-array/node_modules/unique-random/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unique-random-array/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unique-random-array/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unique-random/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unique-random/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/unique-random/unique-random.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/urix/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/urix/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/urix/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/urix/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/urix/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/node_modules/urix/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/markup/public/js/jquery.custom-sel-drop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/welcome-email.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/package.json" afterPath="$PROJECT_DIR$/markup/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/css/all.css" afterPath="$PROJECT_DIR$/markup/public/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.svg" afterPath="$PROJECT_DIR$/markup/public/fonts/icons/gloobers-icons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/js/jquery.persons-counter.js" afterPath="$PROJECT_DIR$/markup/public/js/jquery.persons-counter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/js/main.js" afterPath="$PROJECT_DIR$/markup/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/js/personal-cabinet-profile.js" afterPath="$PROJECT_DIR$/markup/public/js/personal-cabinet-profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/js/single-page.js" afterPath="$PROJECT_DIR$/markup/public/js/single-page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-cabinet-profile.html" afterPath="$PROJECT_DIR$/markup/public/personal-cabinet-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/personal-my-recommendations.html" afterPath="$PROJECT_DIR$/markup/public/personal-my-recommendations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/public/single.html" afterPath="$PROJECT_DIR$/markup/public/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/all/_icons.scss" afterPath="$PROJECT_DIR$/markup/sass/all/_icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/all/_mixins-sassy-form.scss" afterPath="$PROJECT_DIR$/markup/sass/all/_mixins-sassy-form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/markup/sass/all/_styles.scss" afterPath="$PROJECT_DIR$/markup/sass/all/_styles.scss" />
     </list>
     <ignored path="gloobers-markup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +441,7 @@
         <entry file="file://$PROJECT_DIR$/markup/public/personal-cabinet-profile.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
-              <caret line="483" column="32" lean-forward="true" selection-start-line="483" selection-start-column="32" selection-end-line="483" selection-end-column="32" />
+              <caret line="483" column="32" lean-forward="false" selection-start-line="483" selection-start-column="32" selection-end-line="483" selection-end-column="32" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -75,7 +470,7 @@
         <entry file="file://$PROJECT_DIR$/markup/public/js/payment.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="972">
-              <caret line="54" column="39" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="54" selection-end-column="39" />
+              <caret line="54" column="39" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="54" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -84,8 +479,8 @@
       <file leaf-file-name="_styles.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/markup/sass/all/_styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="7922" column="0" lean-forward="false" selection-start-line="7922" selection-start-column="0" selection-end-line="7922" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="7943" column="36" lean-forward="true" selection-start-line="7943" selection-start-column="36" selection-end-line="7943" selection-end-column="36" />
               <folding>
                 <element signature="e#13898#14206#0" expanded="false" />
                 <element signature="e#14215#15488#0" expanded="false" />
@@ -100,7 +495,7 @@
         <entry file="file://$PROJECT_DIR$/markup/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
-              <caret line="673" column="125" lean-forward="true" selection-start-line="673" selection-start-column="79" selection-end-line="673" selection-end-column="125" />
+              <caret line="673" column="125" lean-forward="false" selection-start-line="673" selection-start-column="79" selection-end-line="673" selection-end-column="125" />
               <folding />
             </state>
           </provider>
@@ -144,7 +539,7 @@
         <entry file="file://$PROJECT_DIR$/markup/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="861" column="17" lean-forward="true" selection-start-line="861" selection-start-column="17" selection-end-line="861" selection-end-column="17" />
+              <caret line="861" column="17" lean-forward="false" selection-start-line="861" selection-start-column="17" selection-end-line="861" selection-end-column="17" />
               <folding>
                 <element signature="e#3423#5000#0" expanded="false" />
                 <element signature="e#13372#16489#0" expanded="false" />
@@ -587,14 +982,7 @@
       <workItem from="1500457539110" duration="16970000" />
       <workItem from="1501499709735" duration="15104000" />
       <workItem from="1502789642302" duration="649000" />
-      <workItem from="1502873232368" duration="30351000" />
-    </task>
-    <task id="LOCAL-00044" summary="calendar">
-      <created>1493132045581</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1493132045581</updated>
+      <workItem from="1502873232368" duration="30662000" />
     </task>
     <task id="LOCAL-00045" summary="calendar">
       <created>1493222773889</created>
@@ -932,11 +1320,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500326695380</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="person counter">
+      <created>1503908953106</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1503908953107</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1143258000" />
+    <option name="totallyTimeSpent" value="1143569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -949,7 +1344,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17147435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36403033" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -957,9 +1351,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1419285" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42341357" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22319475" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" x="14" y="562" width="1892" height="411" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22319475" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" x="14" y="562" width="1892" height="411" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1372,7 +1766,7 @@
     <entry file="file://$PROJECT_DIR$/markup/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
-          <caret line="673" column="125" lean-forward="true" selection-start-line="673" selection-start-column="79" selection-end-line="673" selection-end-column="125" />
+          <caret line="673" column="125" lean-forward="false" selection-start-line="673" selection-start-column="79" selection-end-line="673" selection-end-column="125" />
           <folding />
         </state>
       </provider>
@@ -1380,7 +1774,7 @@
     <entry file="file://$PROJECT_DIR$/markup/public/js/payment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
-          <caret line="54" column="39" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="54" selection-end-column="39" />
+          <caret line="54" column="39" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="54" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1396,7 +1790,7 @@
     <entry file="file://$PROJECT_DIR$/markup/public/personal-cabinet-profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
-          <caret line="483" column="32" lean-forward="true" selection-start-line="483" selection-start-column="32" selection-end-line="483" selection-end-column="32" />
+          <caret line="483" column="32" lean-forward="false" selection-start-line="483" selection-start-column="32" selection-end-line="483" selection-end-column="32" />
           <folding>
             <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1443,7 +1837,7 @@
     <entry file="file://$PROJECT_DIR$/markup/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="861" column="17" lean-forward="true" selection-start-line="861" selection-start-column="17" selection-end-line="861" selection-end-column="17" />
+          <caret line="861" column="17" lean-forward="false" selection-start-line="861" selection-start-column="17" selection-end-line="861" selection-end-column="17" />
           <folding>
             <element signature="e#3423#5000#0" expanded="false" />
             <element signature="e#13372#16489#0" expanded="false" />
@@ -1454,8 +1848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/markup/sass/all/_styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7922" column="0" lean-forward="false" selection-start-line="7922" selection-start-column="0" selection-end-line="7922" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="7943" column="36" lean-forward="true" selection-start-line="7943" selection-start-column="36" selection-end-line="7943" selection-end-column="36" />
           <folding>
             <element signature="e#13898#14206#0" expanded="false" />
             <element signature="e#14215#15488#0" expanded="false" />
