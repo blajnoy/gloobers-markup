@@ -820,7 +820,8 @@ var locations = [
         "currency": "$",
         "price": 88,
         "reviews": 8,
-        "type_of_trip": 1
+        "type_of_trip": 1,
+        "id": "marker01"
         /*
          **** types of trip: ****
 
@@ -843,7 +844,8 @@ var locations = [
         "currency": "$",
         "price": 8,
         "reviews": 1,
-        "type_of_trip": 2
+        "type_of_trip": 2,
+        "id": "marker02"
     },
     {
         "content": "bla bla bla",
@@ -853,7 +855,8 @@ var locations = [
         "currency": "$",
         "price": 104,
         "reviews": 20,
-        "type_of_trip": 3
+        "type_of_trip": 3,
+        "id": "marker03"
     }
 ];
 
@@ -1093,7 +1096,8 @@ function getDefaultMarker(element) {
     };
 
     var icon,
-        type = element.type_of_trip;
+        type = element.type_of_trip,
+        markerId = element.id;
 
     /*
      **** types of trip: ****
@@ -1154,7 +1158,8 @@ function getDefaultMarker(element) {
         labelClass: "custom-marker-icon",
         labelInBackground: true,
         draggable: true,
-        raiseOnDrag: false
+        raiseOnDrag: false,
+        'id': markerId
     });
 
     //marker.addListener('drag', markerDragHandleEvent);

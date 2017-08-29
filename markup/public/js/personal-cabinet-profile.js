@@ -10,7 +10,6 @@ function initSelDrop(drop) {
         $elmTxt.text($(this).text());
         $(drop.target).data('chosen-value', $(this).parent().data('value'));
 
-
         $list.find('li').removeClass('active');
         $(this).parent().addClass('active');
 
@@ -56,6 +55,9 @@ function markerDragHandleEvent(event) {
     console.log('type of marker: ' + type);
     console.log('lat: ' + event.latLng.lat());
     console.log('lng: ' + event.latLng.lng());
+
+    console.log('id: ' + this.get("id"));
+
     console.log('----------------------------');
 }
 
