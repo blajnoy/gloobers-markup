@@ -523,13 +523,13 @@ $(document).ready(function () {
                         "autoApply": true,
                         "showCustomRangeLabel": false,
                         "alwaysShowCalendars": true
-                    });
+                    }, cb.bind(this));
                 } else {
                     _this.daterangepicker({
                         "autoApply": true,
                         "showCustomRangeLabel": false,
                         "alwaysShowCalendars": true
-                    }).on("click", function () {
+                    }, cb.bind(this)).on("click", function () {
                         return false;
                     });
 
@@ -578,6 +578,27 @@ $(document).ready(function () {
                         }
                     ]
                 });
+            });
+
+        }
+
+
+        function cb(start, end) {
+
+            var pseudoTemplate = "<div class='pseudo-daterange-picker'><span class='start'></span><i class='gl-ico gl-ico-arrow-right'></i><span class='end'></span></div>";
+
+
+            if ($(this).hasClass('pseudo')) {
+                if (!$(this).hasClass('is-pseudo')) {
+                    $(this).addClass('is-pseudo').before(pseudoTemplate);
+                }
+            }
+
+            $(this).prev('.pseudo-daterange-picker').find('.start').html(start.format('MM/D/YYYY'));
+            $(this).prev('.pseudo-daterange-picker').find('.end').html(end.format('MM/D/YYYY'));
+
+            $(this).prev('.pseudo-daterange-picker').on('click', function () {
+                $(this).next().trigger('click');
             });
 
         }

@@ -601,26 +601,48 @@
 	}
 }
 .search-tabs {
-	display: inline-block;
+	display: inline-flex;
 	vertical-align: top;
 	background: #fff;
 	border-radius: 10px 10px 0 0;
 	padding: 15px 15px 0;
-
 	box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.62);
-	font-size: 0;
+
+	@include breakpoint(max-width 767px) {
+		display: flex;
+	}
 
 	.radio-inline {
 		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 		padding-bottom: 14px;
 		padding-right: 35px;
+
+		label {
+			white-space: nowrap;
+		}
+
 		&:last-child {
+			padding-right: 0;
+		}
+
+		@include breakpoint(max-width 767px) {
+			flex: 1;
+			padding-left: 24px;
 			padding-right: 0;
 		}
 	}
 }
-.search-tabs + .search-bar {
-	border-radius: 0 10px 10px 10px;
+.search-tabs {
+	& + .search-bar {
+		border-radius: 0 10px 10px 10px;
+		display: flex;
+		flex-wrap: wrap;
+
+		@include breakpoint(max-width 767px) {
+			flex-direction: column;
+			border-radius: 0 0 10px 10px;
+		}
+	}
 }
 input.daterange-input {
 	background: none;
@@ -631,6 +653,24 @@ input.daterange-input {
 	min-height: 0;
 	border: 0;
 }
+
+.pseudo-daterange-picker {
+	font-size: 14px;
+	display: inline-flex;
+	align-items: center;
+
+	.gl-ico {
+		margin: 0 10px;
+	}
+
+	+ input.daterange-input {
+		opacity: 0;
+		z-index: -1;
+		position: absolute;
+		left: 0;
+	}
+}
+
 .search-bar {
 	background: #fff;
 	border-radius: 10px;
@@ -646,8 +686,14 @@ input.daterange-input {
 		flex: 1;
 	}
 	.btn-search {
-		float: left;
-		margin: -10px 0;
+		margin: -10px 0 -10px auto;
+
+		@include breakpoint(max-width 767px) {
+			margin: 10px 0 -10px;
+			width: 100%;
+			height: 47px;
+			border-radius: 0 0 10px 10px;
+		}
 
 		.gl-ico-search {
 			font-size: 18px;
@@ -675,6 +721,12 @@ input.daterange-input {
 		border-left: 1px solid #e5e5e5;
 		padding: 10px 15px;
 
+		@include breakpoint(max-width 767px) {
+			border-left: 0;
+			border-top: 1px solid #e5e5e5;
+			width: 100% !important;
+		}
+
 		&.col01 {
 			flex: auto;
 			border: 0;
@@ -700,6 +752,10 @@ input.daterange-input {
 
 	.tab-content > .tab-pane {
 		display: none;
+
+		@include breakpoint(max-width 767px) {
+			flex-direction: column;
+		}
 	}
 
 	.tab-content > .active {
@@ -949,7 +1005,7 @@ input.daterange-input {
 	margin: 0 -15px;
 
 	.card {
-		flex: 1;
+		flex: 1 0 250px;
 		margin: 0 15px 40px;
 	}
 
@@ -1216,6 +1272,7 @@ input.daterange-input {
 		.card-rate-info {
 			padding: 0 0 20px 10px;
 			flex: auto;
+			text-align: right;
 		}
 
 		.category {
@@ -3687,6 +3744,7 @@ input.daterange-input {
 }
 
 .testimonials-slider {
+	overflow: hidden;
 
 	.testimonials-carousel {
 		margin: 0 auto 30px;
@@ -5795,6 +5853,7 @@ input.daterange-input {
 		padding-top: 30px;
 		padding-bottom: 30px;
 		color: rgba(255, 255, 255, 0.3);
+		display: flex;
 
 		a {
 			color: currentColor;
@@ -5806,7 +5865,6 @@ input.daterange-input {
 		}
 
 		.copy {
-			float: left;
 			margin: 0;
 
 			strong {
@@ -5815,8 +5873,8 @@ input.daterange-input {
 		}
 	}
 	.extra-nav {
-		float: right;
 		text-transform: uppercase;
+		margin-left: auto;
 
 		li {
 			display: inline-block;
@@ -5854,8 +5912,10 @@ input.daterange-input {
 	}
 }
 .container {
-	padding-left: 0;
-	padding-right: 0;
+	@include breakpoint(768px) {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 .terms-wrap {
@@ -6230,7 +6290,7 @@ input.daterange-input {
 	.categories-drop {
 
 		background: #fff;
-		border-radius: 0 0 10px 10px;
+		border-radius: 0 0 0 10px;
 		border: 1px solid #e5e5e5;
 		border-top-width: 0;
 
