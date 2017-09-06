@@ -1,3 +1,5 @@
+var drops;
+
 $(document).ready(function () {
 
     $('.btn-send-pass').on('click', function(){
@@ -25,10 +27,6 @@ $(document).ready(function () {
             emptyStar: '<i class="gl-ico gl-ico-star"></i>'
         });
     }
-
-
-
-
 
 
     $('.stored-addresses').find('.btn-address').on('click', function (e) {
@@ -432,54 +430,50 @@ $(document).ready(function () {
         classPrefix: 'drop'
     });
 
-    setupDrop = function () {
+    drops = $('.open-drop').map(function() {
 
-        var drops = $('.open-drop').map(function () {
+        var $elm, content, drop, openOn, theme, position, offset, functionOnOpen;
 
-            var $elm, content, drop, openOn, theme, position, offset, functionOnOpen;
+        $elm = $(this);
+        theme = $elm.data('theme');
+        openOn = $elm.data('open-on') || 'click';
+        offset = $elm.data('offset') || '0 0';
+        position = $elm.data('position') || 'bottom center';
 
-            $elm = $(this);
-            theme = $elm.data('theme');
-            openOn = $elm.data('open-on') || 'click';
-            offset = $elm.data('offset') || '0 0';
-            position = $elm.data('position') || 'bottom center';
+        functionOnOpen = $elm.data('function-on-open');
 
-            functionOnOpen = $elm.data('function-on-open');
+        $elm.addClass(theme);
 
-            $elm.addClass(theme);
+        content = $($elm.data('drop-content')).html() || $elm.next('.drop-content').html();
 
-            content = $($elm.data('drop-content')).html() || $elm.next('.drop-content').html();
-
-            content = content.replace(/(id=")(.*)(\")/g, function (match, prefix, handler, suffix) {
-                return prefix + handler + '_dropID' + suffix;
-            });
-
-            drop = new _Drop({
-                target: $elm[0],
-                classes: theme,
-                position: position,
-                constrainToWindow: true,
-                constrainToScrollParent: false,
-                openOn: openOn,
-                content: content,
-                tetherOptions: {
-                    offset: offset
-                }
-            });
-
-            drop.on("open", function () {
-                if(functionOnOpen) {
-                    eval(functionOnOpen)(drop);
-                }
-            });
-
-            return drop;
+        content = content.replace(/(id=")(.*)(\")/g, function (match, prefix, handler, suffix) {
+            return prefix + handler + '_dropID' + suffix;
         });
 
-        return drops;
-    };
+        drop = new _Drop({
+            target: $elm[0],
+            classes: theme,
+            position: position,
+            constrainToWindow: true,
+            constrainToScrollParent: false,
+            openOn: openOn,
+            content: content,
+            tetherOptions: {
+                offset: offset
+            }
+        });
 
-    setupDrop();
+
+        drop.on("open", function () {
+            if(functionOnOpen) {
+                eval(functionOnOpen)(drop);
+            }
+        });
+
+        return drop;
+    });
+
+
 
     /* end changes persons counter  */
 
@@ -842,7 +836,7 @@ var locations = [
         "price": 88,
         "reviews": 8,
         "type_of_trip": 1,
-        "id": "marker01"
+        "id": "1"
         /*
          **** types of trip: ****
 
@@ -866,7 +860,7 @@ var locations = [
         "price": 8,
         "reviews": 1,
         "type_of_trip": 2,
-        "id": "marker02"
+        "id": "2"
     },
     {
         "content": "bla bla bla",
@@ -877,7 +871,7 @@ var locations = [
         "price": 104,
         "reviews": 20,
         "type_of_trip": 3,
-        "id": "marker03"
+        "id": "3"
     }
 ];
 
@@ -1184,7 +1178,7 @@ function getDefaultMarker(element) {
     });
 
     //marker.addListener('drag', markerDragHandleEvent);
-    marker.addListener('dragend', markerDragHandleEvent);
+    //marker.addListener('dragend', markerDragHandleEvent);
 
     return marker;
 
@@ -1198,7 +1192,6 @@ function initMarkers(objects, markerTemplate) {
     $('body').append('<div class="calcMarkerWidthElm"></div>');
 
     objects.forEach(function (element) {
-
 
         infowindow = new google.maps.InfoWindow({
             content: "holding ..."
@@ -1325,6 +1318,7 @@ function hometowngeocode(id) {
 
         autocomleteField.setAttribute("data-location-lat", place.geometry.location.lat());
         autocomleteField.setAttribute("data-location-lng", place.geometry.location.lng());
+        autocomleteField.setAttribute("data-address", place.adr_address);
     });
 }
 

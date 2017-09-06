@@ -659,6 +659,7 @@ input.daterange-input {
 	display: inline-flex;
 	align-items: center;
 
+
 	.gl-ico {
 		margin: 0 10px;
 	}
@@ -1861,6 +1862,8 @@ input.daterange-input {
 		flex: auto;
 
 		.col {
+			flex: 0 1 80px;
+
 			+ .col {
 				margin-left: 30px;
 			}
@@ -4180,6 +4183,18 @@ input.daterange-input {
 	}
 }
 
+.passport-marker-info {
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	padding: 15px 15px 13px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+	line-height: 21px;
+	background: #fff;
+	color: #000;
+}
+
 .tether-element {
 	z-index: 9998;
 }
@@ -4189,6 +4204,13 @@ input.daterange-input {
 	&.daterangepicker.dropdown-menu {
 		z-index: 9999;
 	}
+
+	&.no-hide-drop-out-of-bounds,
+	&.drop-theme-arrows-bounce.no-hide-drop-out-of-bounds {
+		display: block !important;
+	}
+
+
 }
 
 .drop {
@@ -4531,10 +4553,12 @@ input.daterange-input {
 
 		margin-top: 0;
 	}
+
 	&.drop-out-of-bounds,
 	&.drop-theme-arrows-bounce.drop-out-of-bounds {
 		display: none !important;
 	}
+
 	&.z-index-998 {
 		z-index: 998;
 	}
