@@ -10,25 +10,38 @@ function initSelDrop(drop) {
         $elmTxt.text($(this).text());
         $(drop.target).data('chosen-value', $(this).parent().data('value'));
 
-        $list.find('li').removeClass('active');
-        $(this).parent().addClass('active');
-
         drop.close();
     });
-
-    console.log(returnDropIndexById("#typeOfTrip"));
 
     return false;
 }
 
-function returnDropIndexById(dropId) {
-    return drops.findIndex(function(drop, index) {
-        return drop.target === dropId;
+function returnDropById(dropId) {
+    return drops.filter(function(obj, elm) {
+        return elm.target.id == dropId;
     });
 }
 
-function hidePassportTypeItem(type) {
-    console.log($('#typeOfTrip'));
+function hidePassportTypeItem(typeNum, dropId) {
+    var $drop = $(returnDropById(dropId)[0].drop);
+    var $target = $(returnDropById(dropId)[0].target);
+    var $elmTxt = $target.find('.sel-text');
+    var $item = $drop.find("li[data-value='" + typeNum + "']");
+
+    $target.data('chosenValue', '');
+    $elmTxt.text($target.data('defaultText'));
+    $item.addClass('hide');
+}
+
+function showPassportTypeItem(typeNum, dropId) {
+    var $drop = $(returnDropById(dropId)[0].drop);
+    var $target = $(returnDropById(dropId)[0].target);
+    var $elmTxt = $target.find('.sel-text');
+    var $item = $drop.find("li[data-value='" + typeNum + "']");
+
+    $target.data('chosenValue', '');
+    $elmTxt.text($target.data('defaultText'));
+    $item.removeClass('hide');
 }
 
 function markerDragHandleEvent(event) {
@@ -75,12 +88,25 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
+function removePoint(elm) {
+    var index = returnMarkerIndexById( $(elm).data('markerId') );
+    var type = markers[index].markerType;
+
+    markers[index].setMap(null);
+    showPassportTypeItem(type, 'typeOfTrip');
+}
+
+function returnMarkerIndexById(markerId) {
+    return markers.findIndex(function(marker, index) {
+        return marker.id === markerId;
+    });
+}
+
 function addPassportMarker(location, type) {
 
     var infowindow = new google.maps.InfoWindow({
         content: "holding ..."
     });
-
     infoWindows.push(infowindow);
 
     var markerIcon = {
@@ -140,7 +166,8 @@ function addPassportMarker(location, type) {
         //draggable: true,
         raiseOnDrag: false,
         title: 'title',
-        id: markerId
+        id: markerId,
+        markerType: type
     });
 
     var elm = document.getElementById('destination-hotel');
@@ -148,7 +175,7 @@ function addPassportMarker(location, type) {
 
     var contentString = '<div class="passport-marker-info">' +
         '<div>' + addr + '</div>' +
-        '<a class="lnk-remove-point" href="javascript: void(0)" data-marker-id='+marker.id+' onclick="removePoint(this)">remove point</a>' +
+        '<div class="text-right"><a class="lnk-remove-point" href="javascript: void(0)" data-marker-id='+marker.id+' onclick="removePoint(this)">remove point</a></div>' +
         '</div>';
 
 
@@ -234,41 +261,34 @@ function addPassportMarker(location, type) {
 
 
     var latLng = marker.getPosition();
-    map.setCenter(location);
 
+    map.setCenter(location);
     markers.push(marker);
+
+    hidePassportTypeItem(type, 'typeOfTrip');
+
+
     return marker;
 }
-
-function removePoint(elm) {
-    var index = returnMarkerIndexById( $(elm).data('markerId') );
-    markers[index].setMap(null);
-}
-
-function returnMarkerIndexById(markerId) {
-    return markers.findIndex(function(marker, index) {
-        return marker.id === markerId;
-    });
-}
-
-
-
 
 $(document).ready(function () {
 
     $('#addPlace').on('click', function () {
-
         var elm = document.getElementById('destination-hotel');
-
         var type = parseInt($('#typeOfTrip').data('chosen-value'), 10);
         var lat = elm.getAttribute("data-location-lat");
         var lng = elm.getAttribute("data-location-lng");
         var point = new google.maps.LatLng(lat, lng);
 
         addPassportMarker(point, type, contentString);
-        hidePassportTypeItem(type);
 
     });
+
+
+
+
+
+
 
 
 

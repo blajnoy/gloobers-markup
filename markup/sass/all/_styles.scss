@@ -1384,6 +1384,10 @@ input.daterange-input {
 			margin: 0 0 0 5px;
 		}
 	}
+
+	.personal-content-block & {
+		padding: 20px 0 0;
+	}
 }
 
 .recommendation-types {
@@ -2117,6 +2121,19 @@ input.daterange-input {
 	font-size: 14px;
 	line-height: 17px;
 	text-align: center;
+}
+
+.recommendations-desc-slider {
+	margin: 0 -31px;
+	z-index: 10;
+
+	.review-desc {
+		padding: 0 31px;
+	}
+}
+
+.slick-slide {
+	outline: none;
 }
 
 .recommendations-slider {
@@ -4191,6 +4208,10 @@ input.daterange-input {
 	line-height: 21px;
 	background: #fff;
 	color: #000;
+
+	.lnk-remove-point {
+		font-size: 12px;
+	}
 }
 
 .tether-element {
@@ -4203,12 +4224,9 @@ input.daterange-input {
 		z-index: 9999;
 	}
 
-	&.no-hide-drop-out-of-bounds,
-	&.drop-theme-arrows-bounce.no-hide-drop-out-of-bounds {
+	&.drop-theme-arrows-bounce.drop-out-of-bounds {
 		display: block !important;
 	}
-
-
 }
 
 .drop {

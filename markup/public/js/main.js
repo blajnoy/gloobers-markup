@@ -463,7 +463,6 @@ $(document).ready(function () {
             }
         });
 
-
         drop.on("open", function () {
             if(functionOnOpen) {
                 eval(functionOnOpen)(drop);

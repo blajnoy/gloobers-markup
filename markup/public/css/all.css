@@ -4939,6 +4939,10 @@ input.daterange-input {
   margin: 0 0 0 5px;
 }
 
+.personal-content-block .pages-nav {
+  padding: 20px 0 0;
+}
+
 .recommendation-types {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5803,6 +5807,19 @@ input.daterange-input {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
+}
+
+.recommendations-desc-slider {
+  margin: 0 -31px;
+  z-index: 10;
+}
+
+.recommendations-desc-slider .review-desc {
+  padding: 0 31px;
+}
+
+.slick-slide {
+  outline: none;
 }
 
 .recommendations-slider {
@@ -8361,6 +8378,10 @@ input.daterange-input {
   color: #000;
 }
 
+.passport-marker-info .lnk-remove-point {
+  font-size: 12px;
+}
+
 .tether-element {
   z-index: 9998;
 }
@@ -8373,7 +8394,7 @@ input.daterange-input {
   z-index: 9999;
 }
 
-.drop-element.no-hide-drop-out-of-bounds, .drop-element.drop-theme-arrows-bounce.no-hide-drop-out-of-bounds {
+.drop-element.drop-theme-arrows-bounce.drop-out-of-bounds {
   display: block !important;
 }
 
