@@ -46,822 +46,6 @@ table {
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "gloobers-icons";
-  src: url("../fonts/icons/gloobers-icons.eot");
-  src: url("../fonts/icons/gloobers-icons.eot?#iefix") format("eot"), url("../fonts/icons/gloobers-icons.woff2") format("woff2"), url("../fonts/icons/gloobers-icons.woff") format("woff"), url("../fonts/icons/gloobers-icons.ttf") format("truetype"), url("../fonts/icons/gloobers-icons.svg#gloobers-icons") format("svg");
-}
-
-.gl-ico {
-  font-family: "gloobers-icons";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-transform: none;
-  font-size: inherit;
-  line-height: 1;
-  display: inline-block;
-}
-
-.gl-ico-africa:before {
-  content: "\E001";
-}
-
-.gl-ico-airplane:before {
-  content: "\E002";
-}
-
-.gl-ico-ambiance:before {
-  content: "\E003";
-}
-
-.gl-ico-americas:before {
-  content: "\E004";
-}
-
-.gl-ico-arrow-back:before {
-  content: "\E005";
-}
-
-.gl-ico-arrow-down:before {
-  content: "\E006";
-}
-
-.gl-ico-arrow-left:before {
-  content: "\E007";
-}
-
-.gl-ico-arrow-right:before {
-  content: "\E008";
-}
-
-.gl-ico-arrow-up:before {
-  content: "\E009";
-}
-
-.gl-ico-art-culture:before {
-  content: "\E00A";
-}
-
-.gl-ico-asia-pacific:before {
-  content: "\E00B";
-}
-
-.gl-ico-attention:before {
-  content: "\E00C";
-}
-
-.gl-ico-balcony:before {
-  content: "\E00D";
-}
-
-.gl-ico-bar:before {
-  content: "\E00E";
-}
-
-.gl-ico-bathroom:before {
-  content: "\E00F";
-}
-
-.gl-ico-beach:before {
-  content: "\E010";
-}
-
-.gl-ico-bedroom:before {
-  content: "\E011";
-}
-
-.gl-ico-bell:before {
-  content: "\E012";
-}
-
-.gl-ico-bike:before {
-  content: "\E013";
-}
-
-.gl-ico-book:before {
-  content: "\E014";
-}
-
-.gl-ico-boutique:before {
-  content: "\E015";
-}
-
-.gl-ico-briefcase:before {
-  content: "\E016";
-}
-
-.gl-ico-business:before {
-  content: "\E017";
-}
-
-.gl-ico-calendar:before {
-  content: "\E018";
-}
-
-.gl-ico-campaign:before {
-  content: "\E019";
-}
-
-.gl-ico-cart-delete:before {
-  content: "\E01A";
-}
-
-.gl-ico-casino:before {
-  content: "\E01B";
-}
-
-.gl-ico-catering:before {
-  content: "\E01C";
-}
-
-.gl-ico-check-mark-button:before {
-  content: "\E01D";
-}
-
-.gl-ico-check:before {
-  content: "\E01E";
-}
-
-.gl-ico-close-cross:before {
-  content: "\E01F";
-}
-
-.gl-ico-conceptual:before {
-  content: "\E020";
-}
-
-.gl-ico-conditioning:before {
-  content: "\E021";
-}
-
-.gl-ico-dinner:before {
-  content: "\E022";
-}
-
-.gl-ico-disability:before {
-  content: "\E023";
-}
-
-.gl-ico-distances:before {
-  content: "\E024";
-}
-
-.gl-ico-edit:before {
-  content: "\E025";
-}
-
-.gl-ico-entertainment:before {
-  content: "\E026";
-}
-
-.gl-ico-europe:before {
-  content: "\E027";
-}
-
-.gl-ico-facebook:before {
-  content: "\E028";
-}
-
-.gl-ico-facilities:before {
-  content: "\E029";
-}
-
-.gl-ico-facilities01:before {
-  content: "\E02A";
-}
-
-.gl-ico-family:before {
-  content: "\E02B";
-}
-
-.gl-ico-fishing:before {
-  content: "\E02C";
-}
-
-.gl-ico-fitness:before {
-  content: "\E02D";
-}
-
-.gl-ico-fooding:before {
-  content: "\E02E";
-}
-
-.gl-ico-golf:before {
-  content: "\E02F";
-}
-
-.gl-ico-google-plus:before {
-  content: "\E030";
-}
-
-.gl-ico-health:before {
-  content: "\E031";
-}
-
-.gl-ico-heart:before {
-  content: "\E032";
-}
-
-.gl-ico-historic:before {
-  content: "\E033";
-}
-
-.gl-ico-home-user:before {
-  content: "\E034";
-}
-
-.gl-ico-home:before {
-  content: "\E035";
-}
-
-.gl-ico-hotel-type:before {
-  content: "\E036";
-}
-
-.gl-ico-instagram:before {
-  content: "\E037";
-}
-
-.gl-ico-internet:before {
-  content: "\E038";
-}
-
-.gl-ico-kids-activities:before {
-  content: "\E039";
-}
-
-.gl-ico-kitchen:before {
-  content: "\E03A";
-}
-
-.gl-ico-like:before {
-  content: "\E03B";
-}
-
-.gl-ico-local-culture:before {
-  content: "\E03C";
-}
-
-.gl-ico-location:before {
-  content: "\E03D";
-}
-
-.gl-ico-logo:before {
-  content: "\E03E";
-}
-
-.gl-ico-luxury:before {
-  content: "\E03F";
-}
-
-.gl-ico-mail:before {
-  content: "\E040";
-}
-
-.gl-ico-marker-add:before {
-  content: "\E041";
-}
-
-.gl-ico-marker-empty:before {
-  content: "\E042";
-}
-
-.gl-ico-marker-full:before {
-  content: "\E043";
-}
-
-.gl-ico-marker:before {
-  content: "\E044";
-}
-
-.gl-ico-meals:before {
-  content: "\E045";
-}
-
-.gl-ico-methods-of-payment:before {
-  content: "\E046";
-}
-
-.gl-ico-minus:before {
-  content: "\E047";
-}
-
-.gl-ico-motor-sports:before {
-  content: "\E048";
-}
-
-.gl-ico-music:before {
-  content: "\E049";
-}
-
-.gl-ico-nightlife:before {
-  content: "\E04B";
-}
-
-.gl-ico-nightlife:before {
-  content: "\E04B";
-}
-
-.gl-ico-person:before {
-  content: "\E04C";
-}
-
-.gl-ico-photo-camera:before {
-  content: "\E04D";
-}
-
-.gl-ico-photography:before {
-  content: "\E04E";
-}
-
-.gl-ico-plus-rounded:before {
-  content: "\E04F";
-}
-
-.gl-ico-plus:before {
-  content: "\E050";
-}
-
-.gl-ico-points-of-interest:before {
-  content: "\E051";
-}
-
-.gl-ico-pool:before {
-  content: "\E052";
-}
-
-.gl-ico-push-pin:before {
-  content: "\E053";
-}
-
-.gl-ico-question-mark:before {
-  content: "\E054";
-}
-
-.gl-ico-road-trips:before {
-  content: "\E055";
-}
-
-.gl-ico-room-distribution-alt:before {
-  content: "\E056";
-}
-
-.gl-ico-room-distribution:before {
-  content: "\E057";
-}
-
-.gl-ico-room-facilities:before {
-  content: "\E058";
-}
-
-.gl-ico-sailing:before {
-  content: "\E059";
-}
-
-.gl-ico-school-book-bag:before {
-  content: "\E05A";
-}
-
-.gl-ico-scuba-diving:before {
-  content: "\E05B";
-}
-
-.gl-ico-sea-view:before {
-  content: "\E05C";
-}
-
-.gl-ico-search:before {
-  content: "\E05D";
-}
-
-.gl-ico-send-mail:before {
-  content: "\E05E";
-}
-
-.gl-ico-shopping:before {
-  content: "\E05F";
-}
-
-.gl-ico-sightseeing:before {
-  content: "\E060";
-}
-
-.gl-ico-ski:before {
-  content: "\E061";
-}
-
-.gl-ico-spa:before {
-  content: "\E062";
-}
-
-.gl-ico-sports:before {
-  content: "\E063";
-}
-
-.gl-ico-staff:before {
-  content: "\E064";
-}
-
-.gl-ico-star:before {
-  content: "\E065";
-}
-
-.gl-ico-street-map:before {
-  content: "\E066";
-}
-
-.gl-ico-things-to-keep-in-mind:before {
-  content: "\E067";
-}
-
-.gl-ico-transportation:before {
-  content: "\E068";
-}
-
-.gl-ico-trekking:before {
-  content: "\E069";
-}
-
-.gl-ico-tv:before {
-  content: "\E06A";
-}
-
-.gl-ico-twitter:before {
-  content: "\E06B";
-}
-
-.gl-ico-user:before {
-  content: "\E06C";
-}
-
-.gl-ico-users-group:before {
-  content: "\E06D";
-}
-
-.gl-ico-users:before {
-  content: "\E06E";
-}
-
-.gl-ico-washing:before {
-  content: "\E06F";
-}
-
-.gl-ico-water-sports:before {
-  content: "\E070";
-}
-
-.gl-ico-wellness:before {
-  content: "\E071";
-}
-
-.gl-ico-wifi:before {
-  content: "\E072";
-}
-
-.gl-ico-wildlife:before {
-  content: "\E073";
-}
-
-.gl-ico-wine:before {
-  content: "\E074";
-}
-
-.gl-ico-worldwide:before {
-  content: "\E075";
-}
-
-body {
-  background: #fbfbfb;
-  color: #000;
-  font: 18px/28px 'Open Sans', sans-serif;
-}
-
-body .prof-page,
-body .hp {
-  background: #262626;
-}
-
-p {
-  margin: 0 0 20px;
-}
-
-a {
-  color: #1e97d8;
-  text-decoration: none;
-}
-
-a:focus, a:active, a:hover {
-  text-decoration: none;
-}
-
-h1, h2, h3, h4 {
-  font: bold 40px/43px 'PT Sans', sans-serif;
-  margin: 0 0 40px;
-  color: #501e00;
-}
-
-h1 {
-  font-size: 30px;
-  line-height: 33px;
-}
-
-h2 {
-  font-size: 40px;
-  line-height: 43px;
-  margin: 0 0 30px;
-}
-
-sup {
-  font-size: 0.55em;
-  position: relative;
-  top: -0.65em;
-}
-
-.form-control,
-input[type=text],
-input[type=url],
-input[type=email],
-input[type=password],
-input[type=number],
-input[type=tel] {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  min-height: 42px;
-  width: 100%;
-  padding: 5px 15px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  vertical-align: middle;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  outline: none;
-  background: none;
-  border: 2px solid #a1a1a1;
-}
-
-.form-control:disabled,
-input[type=text]:disabled,
-input[type=url]:disabled,
-input[type=email]:disabled,
-input[type=password]:disabled,
-input[type=number]:disabled,
-input[type=tel]:disabled {
-  background-color: #eee;
-  cursor: not-allowed;
-}
-
-.form-control::-webkit-input-placeholder,
-input[type=text]::-webkit-input-placeholder,
-input[type=url]::-webkit-input-placeholder,
-input[type=email]::-webkit-input-placeholder,
-input[type=password]::-webkit-input-placeholder,
-input[type=number]::-webkit-input-placeholder,
-input[type=tel]::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-  font-style: italic;
-}
-
-.form-control:-moz-placeholder,
-input[type=text]:-moz-placeholder,
-input[type=url]:-moz-placeholder,
-input[type=email]:-moz-placeholder,
-input[type=password]:-moz-placeholder,
-input[type=number]:-moz-placeholder,
-input[type=tel]:-moz-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-  font-style: italic;
-}
-
-.form-control::-moz-placeholder,
-input[type=text]::-moz-placeholder,
-input[type=url]::-moz-placeholder,
-input[type=email]::-moz-placeholder,
-input[type=password]::-moz-placeholder,
-input[type=number]::-moz-placeholder,
-input[type=tel]::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-  font-style: italic;
-}
-
-.form-control:-ms-input-placeholder,
-input[type=text]:-ms-input-placeholder,
-input[type=url]:-ms-input-placeholder,
-input[type=email]:-ms-input-placeholder,
-input[type=password]:-ms-input-placeholder,
-input[type=number]:-ms-input-placeholder,
-input[type=tel]:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-  font-style: italic;
-}
-
-.form-control.error,
-input[type=text].error,
-input[type=url].error,
-input[type=email].error,
-input[type=password].error,
-input[type=number].error,
-input[type=tel].error {
-  border-color: red;
-}
-
-.form-control,
-textarea {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  min-height: 42px;
-  width: 100%;
-  padding: 5px 15px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  vertical-align: middle;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  outline: none;
-  background: none;
-  border: 2px solid #a1a1a1;
-  display: block;
-  overflow: auto;
-}
-
-.form-control:disabled,
-textarea:disabled {
-  background-color: #eee;
-  cursor: not-allowed;
-}
-
-.form-control::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-  font-style: italic;
-}
-
-.form-control:-moz-placeholder,
-textarea:-moz-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-  font-style: italic;
-}
-
-.form-control::-moz-placeholder,
-textarea::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-  font-style: italic;
-}
-
-.form-control:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.5);
-  font-style: italic;
-}
-
-input[type=submit],
-input[type=button],
-button {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  cursor: pointer;
-  min-height: 42px;
-  padding: 17px 34px;
-  font-family: inherit;
-  font-size: 20px;
-  border: none;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  outline: none;
-  text-decoration: none;
-  display: inline-block;
-  vertical-align: middle;
-  color: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffc200), to(#d5a200));
-  background: -webkit-linear-gradient(top, #ffc200 0%, #d5a200 100%);
-  background: linear-gradient(to bottom, #ffc200 0%, #d5a200 100%);
-}
-
-input[type=submit]::-moz-focus-inner,
-input[type=button]::-moz-focus-inner,
-button::-moz-focus-inner {
-  border: 0;
-}
-
-input[type=submit]:hover, input[type=submit]:focus,
-input[type=button]:hover,
-input[type=button]:focus,
-button:hover,
-button:focus {
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffce33), to(#d5a200));
-  background: -webkit-linear-gradient(top, #ffce33 0%, #d5a200 100%);
-  background: linear-gradient(to bottom, #ffce33 0%, #d5a200 100%);
-}
-
-input[type=submit]:active,
-input[type=button]:active,
-button:active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffce33), to(#d5a200));
-  background: -webkit-linear-gradient(top, #ffce33 0%, #d5a200 100%);
-  background: linear-gradient(to bottom, #ffce33 0%, #d5a200 100%);
-}
-
-svg {
-  vertical-align: middle;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-/* table custom styles */
-.table {
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.table thead tr {
-  font-weight: bold;
-  color: #501e00;
-}
-
-.table thead tr th {
-  padding: 15px;
-}
-
-.table thead tr th:first-child {
-  padding-left: 0;
-}
-
-.table thead tr th:last-child {
-  padding-right: 0;
-}
-
-.table tbody tr td {
-  padding: 15px;
-}
-
-.table tbody tr td:first-child {
-  padding-left: 0;
-}
-
-.table tbody tr td:last-child {
-  padding-right: 0;
-}
-
-.table tfoot tr td {
-  padding: 15px;
-}
-
-.table tfoot tr td:first-child {
-  padding-left: 0;
-}
-
-.table tfoot tr td:last-child {
-  padding-right: 0;
-}
-
-.table strong {
-  font-weight: bold;
-}
-
-.text-success, .text-indicator.up {
-  color: #33c500;
-}
-
-.text-danger, .text-indicator.down {
-  color: #f00;
-}
-
-.text-muted {
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.text-indicator {
-  position: relative;
-  padding: 0 11px 0 0;
-  display: inline-block;
-}
-
-.text-indicator:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border: 0 solid transparent;
-  border-left-width: 4px;
-  border-right-width: 4px;
-  border-top: 6px solid currentColor;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.text-indicator.up:after {
-  border: 0 solid transparent;
-  border-left-width: 4px;
-  border-right-width: 4px;
-  border-bottom: 6px solid currentColor;
-}
-
 body {
   background: #fff;
   font: 11px/17px 'PT Sans', Arial, sans-serif;
@@ -870,6 +54,7 @@ body {
 .pdf * {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
+  font-family: 'PT Sans';
 }
 
 .pdf strong {
@@ -903,19 +88,13 @@ body {
   overflow: hidden;
 }
 
-.pdf .pdf--voucher-header-desc:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .pdf .pdf--voucher-header-desc .pdf--name {
   float: left;
   width: 60%;
   padding: 52px 0 0;
 }
 
-.pdf .pdf--voucher-header-desc .pdf--name strong {
+.pdf .pdf--voucher-header-desc .pdf--name-ttl {
   display: block;
   font-size: 27px;
   line-height: 33px;
@@ -926,6 +105,7 @@ body {
 }
 
 .pdf .pdf--voucher-header-desc .pdf--name .pdf--date {
+  font-family: 'PT Sans';
   font-size: 17px;
   line-height: 20px;
   color: #8b8b8b;
@@ -957,15 +137,17 @@ body {
   margin: 0 -1000px 0 0;
 }
 
-.pdf .pdf--reference-number span {
+.pdf .pdf--reference-number-ttl {
   display: block;
+  font-family: 'PT Sans';
   font-size: 14px;
   line-height: 17px;
   padding: 0 0 10px;
 }
 
-.pdf .pdf--reference-number strong {
+.pdf .pdf--reference-number-num {
   display: block;
+  font-family: 'PT Sans';
   font-size: 34px;
   line-height: 34px;
 }
@@ -976,6 +158,7 @@ body {
   color: #8b8b8b;
   margin: 0 0 15px;
   font-family: 'Open Sans';
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -997,6 +180,7 @@ body {
 .pdf .pdf--desc-table thead th {
   border-bottom: 2px solid #eee;
   text-align: left;
+  font-family: 'Open Sans';
   font-weight: bold;
   padding: 5px 0;
 }
@@ -1008,6 +192,8 @@ body {
 .pdf .pdf--desc-table tbody td {
   text-align: left;
   padding: 5px 0;
+  font-family: 'Open Sans';
+  border-top: 2px solid #eee;
 }
 
 .pdf .pdf--desc-table tbody td:last-child {
@@ -1035,6 +221,7 @@ body {
 
 .pdf .pdf--two-columns .pdf--col p {
   margin: 0 22px 20px;
+  font-family: 'PT Sans';
 }
 
 .pdf .pdf--provider {
@@ -1067,6 +254,10 @@ body {
   font: 11px/17px 'PT Sans', Arial, sans-serif;
 }
 
+.pdf .pdf--provider .pdf--text-h p {
+  font-family: 'PT Sans';
+}
+
 .pdf .pdf--provider .pdf--text-h .pdf--provider-name {
   display: block;
   font-size: 23px;
@@ -1081,7 +272,7 @@ body {
   display: block;
 }
 
-.pdf .pdf--provider .pdf--text-h .pdf--ref strong {
+.pdf .pdf--provider .pdf--text-h .pdf--ref-ttl {
   font-weight: bold;
   display: inline-block;
   margin: 0 20px 0 0;

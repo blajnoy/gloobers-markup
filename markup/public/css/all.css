@@ -3413,6 +3413,7 @@ fieldset[disabled] .btn-marketing-b:focus {
 
 .open-drop {
   white-space: nowrap;
+  cursor: default;
 }
 
 .filter-dropdown .filter-section {
@@ -3988,7 +3989,7 @@ input.daterange-input {
 }
 
 .pseudo-daterange-picker {
-  font-size: 14px;
+  font-size: 16px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3999,8 +4000,19 @@ input.daterange-input {
   align-items: center;
 }
 
+.pseudo-daterange-picker .start,
+.pseudo-daterange-picker .end {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 0 13px;
+  margin: 0 0 -15px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
 .pseudo-daterange-picker .gl-ico, .pseudo-daterange-picker .slick-slider .slick-arrow, .slick-slider .pseudo-daterange-picker .slick-arrow, .pseudo-daterange-picker .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .pseudo-daterange-picker b, .pseudo-daterange-picker .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .pseudo-daterange-picker .iti-arrow {
   margin: 0 10px;
+  color: #e1e1e1;
+  font-size: 14px;
 }
 
 .pseudo-daterange-picker + input.daterange-input {
@@ -4472,14 +4484,6 @@ input.daterange-input {
   color: currentColor;
 }
 
-.card .card-holder:hover, .review-card .card-holder:hover {
-  text-decoration: none;
-}
-
-.card .card-holder:hover .ttl, .review-card .card-holder:hover .ttl {
-  text-decoration: underline;
-}
-
 .card .card-holder .sub-ttl, .review-card .card-holder .sub-ttl {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4501,6 +4505,14 @@ input.daterange-input {
 
 .card .card-holder .sub-ttl strong, .review-card .card-holder .sub-ttl strong {
   font-weight: bold;
+}
+
+.card a.card-holder:hover, .review-card a.card-holder:hover {
+  text-decoration: none;
+}
+
+.card a.card-holder:hover .ttl, .review-card a.card-holder:hover .ttl {
+  text-decoration: underline;
 }
 
 .card .img-h, .review-card .img-h {
@@ -4782,6 +4794,10 @@ input.daterange-input {
   color: currentColor;
 }
 
+.card .ttl a:hover, .review-card .ttl a:hover {
+  text-decoration: underline;
+}
+
 .card footer, .review-card footer {
   font-size: 16px;
   line-height: 19px;
@@ -4916,7 +4932,10 @@ input.daterange-input {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0 0 35px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .pages-nav .lnk-prev .gl-ico, .pages-nav .lnk-prev .slick-slider .slick-arrow, .slick-slider .pages-nav .lnk-prev .slick-arrow, .pages-nav .lnk-prev .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b, .select2-container--bootstrap .select2-selection--single .select2-selection__arrow .pages-nav .lnk-prev b, .pages-nav .lnk-prev .intl-tel-input .selected-flag .iti-arrow, .intl-tel-input .selected-flag .pages-nav .lnk-prev .iti-arrow,
@@ -4929,6 +4948,11 @@ input.daterange-input {
 .pages-nav .lnk-next .iti-arrow {
   vertical-align: middle;
   margin: 0 5px 0 0;
+}
+
+.pages-nav .lnk-prev.slick-disabled,
+.pages-nav .lnk-next.slick-disabled {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .pages-nav .lnk-next {
@@ -5057,6 +5081,10 @@ input.daterange-input {
 
 .slick-slider .slick-arrow.slick-next:before {
   content: "\E007";
+}
+
+.slick-arrow.slick-hidden {
+  display: none !important;
 }
 
 .visual {
@@ -6598,6 +6626,10 @@ input.daterange-input {
   padding: 25px;
 }
 
+.review-top-nav .reviews-nav a.slick-disabled {
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .review-desc-img {
   display: block;
   position: relative;
@@ -7513,6 +7545,45 @@ input.daterange-input {
   margin: 0 0 0 auto;
 }
 
+.table-v-centered td {
+  vertical-align: middle !important;
+}
+
+.table .avatar {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.table .avatar img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+}
+
+.table .avatar .avatar-label {
+  position: absolute;
+  top: -2px;
+  right: -10px;
+  font-size: 8px;
+  line-height: 12px;
+  -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09), 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09), 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  color: #501e00;
+  background: #fec200;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 4px;
+}
+
+.type-text-following.type-text-1 {
+  color: #fec200;
+}
+
+.type-text-following.type-text-2 {
+  color: #1e97d8;
+}
+
 .connection-status {
   display: block;
   font-size: 10px;
@@ -8129,6 +8200,7 @@ input.daterange-input {
   line-height: 60px;
   font-weight: 300;
   padding: 0 0 5px;
+  white-space: nowrap;
 }
 
 .counters .col strong {
@@ -8460,7 +8532,7 @@ input.daterange-input {
 }
 
 .pricing-list {
-  padding: 25px 70px 0;
+  padding: 25px 60px 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8473,9 +8545,9 @@ input.daterange-input {
 
 .pricing-list .pricing-card {
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 270px;
-  -ms-flex: 0 1 270px;
-  flex: 0 1 270px;
+  -webkit-flex: 0 1 300px;
+  -ms-flex: 0 1 300px;
+  flex: 0 1 300px;
 }
 
 .pricing-card {
@@ -8534,7 +8606,7 @@ input.daterange-input {
   line-height: 25px;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
-  padding: 35px 20px 50px;
+  padding: 35px 15px 50px;
   -webkit-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
 }
@@ -8564,6 +8636,10 @@ input.daterange-input {
 
 .pricing-card .card-holder .price .month {
   font-size: 12px;
+}
+
+.pricing-card .card-holder .price + strong {
+  padding: 0 0 15px;
 }
 
 .pricing-card .choice-plan {
@@ -11046,6 +11122,13 @@ input.daterange-input {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 30px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 75%;
+  -ms-flex: 1 1 75%;
+  flex: 1 1 75%;
 }
 
 .statistic-counters {
@@ -11367,7 +11450,8 @@ input.daterange-input {
 }
 
 .flex-row .personal-content-block {
-  min-height: 100%;
+  width: 100%;
+  min-height: 1px;
 }
 
 .personal-content-block.trips-list-wrap {
@@ -12857,8 +12941,8 @@ input.daterange-input {
   border: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-  font-size: 16px;
-  height: 42px;
+  font-size: 14px;
+  height: 38px;
   padding: 7px 33px 7px 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -12871,11 +12955,12 @@ input.daterange-input {
 }
 
 .select2-results__options {
-  margin: -15px 0;
-  padding: 0;
+  margin: -5px -10px;
+  padding: 0 15px;
   list-style: none;
   font-size: 16px;
   line-height: 19px;
+  max-height: 50vh !important;
 }
 
 .select2-results__options .select2-results__option {

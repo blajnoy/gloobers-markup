@@ -103,7 +103,6 @@ function returnMarkerIndexById(markerId) {
 }
 
 function addPassportMarker(location, type) {
-
     var infowindow = new google.maps.InfoWindow({
         content: "holding ..."
     });
@@ -117,7 +116,7 @@ function addPassportMarker(location, type) {
     };
 
     var icon,
-        markerId = getRandomInt(1, 100);
+        markerId = getRandomInt(1, 100)+'';
 
     switch (type) {
         case 1:
@@ -154,6 +153,9 @@ function addPassportMarker(location, type) {
 
     var offsetAnchorX = ( $('.calcMarkerWidthElm').append(calcWidthElm).width() ) / 2;
 
+    var type = type+'';
+
+    //debugger;
     var marker = new MarkerWithLabel({
         map: map,
         animation: false, //google.maps.Animation.DROP,
@@ -175,7 +177,7 @@ function addPassportMarker(location, type) {
 
     var contentString = '<div class="passport-marker-info">' +
         '<div>' + addr + '</div>' +
-        '<div class="text-right"><a class="lnk-remove-point" href="javascript: void(0)" data-marker-id='+marker.id+' onclick="removePoint(this)">remove point</a></div>' +
+        '<div class="text-right"><a class="lnk-remove-point" href="javascript: void(0)" data-marker-id=' + marker.id + ' onclick="removePoint(this)">remove point</a></div>' +
         '</div>';
 
 
@@ -281,7 +283,6 @@ $(document).ready(function () {
         var point = new google.maps.LatLng(lat, lng);
 
         addPassportMarker(point, type, contentString);
-
     });
 
 

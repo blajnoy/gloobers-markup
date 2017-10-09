@@ -522,9 +522,7 @@ $(document).ready(function () {
                         "autoApply": true,
                         "showCustomRangeLabel": false,
                         "alwaysShowCalendars": true
-                    }, cb.bind(this)).on("click", function () {
-                        return false;
-                    });
+                    }, cb.bind(this));
 
                     _this.data('daterangepicker').updateElement = function () {
                         if (this.element.is('input') && !this.singleDatePicker && this.autoUpdateInput) {
@@ -575,11 +573,9 @@ $(document).ready(function () {
 
         }
 
-
         function cb(start, end) {
 
             var pseudoTemplate = "<div class='pseudo-daterange-picker'><span class='start'></span><i class='gl-ico gl-ico-arrow-right'></i><span class='end'></span></div>";
-
 
             if ($(this).hasClass('pseudo')) {
                 if (!$(this).hasClass('is-pseudo')) {
@@ -828,7 +824,7 @@ var contentString = '<div class="review-card">' +
 
 //contentString = '<div class="card card-advisor"><div class="img-h"><span class="img-wrap"><img src="images/bg-main.jpg" alt="image"></span><span class="photo-adv"><img src="images/photo01-big.jpg" alt="avatar"></span><div class="categories-adv"><span class="category"></span></div></div><div class="card-ttl"><div  class="card-ttl-col"><strong class="ttl"><a href="#">Lorem Ipsum is simply </a></strong><span class="sub-ttl">Long  location name</span></div><div class="card-rate-info"><div class="rating"><strong class="rating-ttl">7</strong><div class="stars"><span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span><span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span><span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span><span class="star"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span><span class="star empty"><i class="gl-ico gl-ico-star" aria-hidden="true"></i></span></div></div><em class="recommend"><strong>25</strong> Recommendations</em></div></div><footer><span class="adv-desc-info">21 years, <br>IT engeneer in Deftsoft</span><a href="#" class="btn">Recommendations on map</a></footer><div class="more-info"><div class="show-more-row"><a class="lnk-expand collapsed" href="#adv-drop100" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample" data-lnk-expand-text-show="Show interests (25)" data-lnk-expand-text-hide="Hide interests"><i class="gl-ico gl-ico-arrow-down"></i></a></div><div class="more-drop collapse" id="adv-drop100"><div class="more-drop-area"><div class="interests-tags">Golf, Music, Scuba diving, Road trip</div></div></div></div></div>';
 
-var locations = [
+var locations = [/*
     {
         "content": "bla bla bla",
         'advisor_latitude': 49.768525,
@@ -839,42 +835,10 @@ var locations = [
         "reviews": 8,
         "type_of_trip": 1,
         "id": "1"
-        /*
-         **** types of trip: ****
-
-         #1: I live there
-         #2: I've been living there
-         #3: I've been there in a business trip
-         #4: I've been there in a romantic trip
-         #5: I've been there with a group
-         #6: I've been there alone
-         #7: I've been there with the friend
-         #8: I've been in a family trip
-
-         */
-    },
-    {
-        "content": "bla bla bla",
-        "advisor_latitude": 50.768525,
-        "advisor_longitude": -74.075736,
-        "rate": 1,
-        "currency": "$",
-        "price": 8,
-        "reviews": 1,
-        "type_of_trip": 2,
-        "id": "2"
-    },
-    {
-        "content": "bla bla bla",
-        "advisor_latitude": 51.768525,
-        "advisor_longitude": -76.075736,
-        "rate": 5,
-        "currency": "$",
-        "price": 104,
-        "reviews": 20,
-        "type_of_trip": 3,
-        "id": "3"
     }
+    ,
+    {id: "38", content: "Paris, France", advisor_latitude: "48.85661400", advisor_longitude: "2.35222190", type_of_trip: 2}
+*/
 ];
 
 var map;
@@ -883,7 +847,7 @@ var markers = [],
     infoWindows = [];
 
 map = initMap();
-initMarkers(locations, getDefaultMarker);
+initMarkers(locations, getDefaultMarker); //locations
 
 
 function initMap() {
@@ -1176,7 +1140,7 @@ function getDefaultMarker(element) {
         labelInBackground: true,
         draggable: true,
         raiseOnDrag: false,
-        'id': markerId
+        id: markerId
     });
 
     //marker.addListener('drag', markerDragHandleEvent);

@@ -5,6 +5,7 @@ body {
 .pdf {
 	* {
 		box-sizing: content-box;
+		font-family: 'PT Sans';
 	}
 
 	strong {
@@ -17,6 +18,7 @@ body {
 		padding: 0 15px;
 		@include clearfix();
 	}
+
 	.pdf--header {
 		background: #fdfdfd url(../images/for-pdf/bg-header.jpg) 200% 0 no-repeat;
 		padding: 10px 0 30px;
@@ -30,14 +32,13 @@ body {
 
 	.pdf--voucher-header-desc {
 		overflow: hidden;
-		@include clearfix();
 
 		.pdf--name {
 			float: left;
 			width: 60%;
 			padding: 52px 0 0;
 
-			strong {
+			&-ttl {
 				display: block;
 				font-size: 27px;
 				line-height: 33px;
@@ -48,13 +49,12 @@ body {
 			}
 
 			.pdf--date {
+				font-family: 'PT Sans';
 				font-size: 17px;
 				line-height: 20px;
 				color: #8b8b8b;
 				display: block;
 			}
-
-
 		}
 
 		.pdf--ttl {
@@ -82,34 +82,40 @@ body {
 		padding: 30px 1000px 30px 30px;
 		margin: 0 -1000px 0 0;
 
-		span {
+		&-ttl {
 			display: block;
+			font-family: 'PT Sans';
 			font-size: 14px;
 			line-height: 17px;
 			padding: 0 0 10px;
 		}
 
-		strong {
+		&-num {
 			display: block;
+			font-family: 'PT Sans';
 			font-size: 34px;
 			line-height: 34px;
 		}
 	}
+
 	h3 {
 		font-size: 23px;
 		line-height: 26px;
 		color: #8b8b8b;
 		margin: 0 0 15px;
 		font-family: 'Open Sans';
+		font-weight: 600;
 		text-transform: uppercase;
 	}
 
 	.pdf--content {
 		padding: 0 0 20px;
 	}
+
 	.pdf--desc {
 		padding: 0 0 10px;
 	}
+
 	.pdf--desc-table {
 		width: 100%;
 		color: #000000;
@@ -120,6 +126,7 @@ body {
 			th {
 				border-bottom: 2px solid #eee;
 				text-align: left;
+				font-family: 'Open Sans';
 				font-weight: bold;
 				padding: 5px 0;
 
@@ -133,6 +140,8 @@ body {
 			td {
 				text-align: left;
 				padding: 5px 0;
+				font-family: 'Open Sans';
+				border-top: 2px solid #eee;
 
 				&:last-child {
 					text-align: right;
@@ -140,6 +149,7 @@ body {
 			}
 		}
 	}
+
 	.pdf--two-columns {
 		font-size: 0;
 		margin: 0 -22px 25px;
@@ -154,9 +164,11 @@ body {
 
 			p {
 				margin: 0 22px 20px;
+				font-family: 'PT Sans';
 			}
 		}
 	}
+
 	.pdf--provider {
 		background: #ffc200;
 		margin: 0 0 30px;
@@ -183,6 +195,10 @@ body {
 			height: 170px;
 			font: 11px/17px 'PT Sans', Arial, sans-serif;
 
+			p {
+				font-family: 'PT Sans';
+			}
+
 			.pdf--provider-name {
 				display: block;
 				font-size: 23px;
@@ -196,7 +212,7 @@ body {
 			.pdf--ref {
 				display: block;
 
-				strong {
+				&-ttl {
 					font-weight: bold;
 					display: inline-block;
 					margin: 0 20px 0 0;
@@ -204,6 +220,7 @@ body {
 			}
 		}
 	}
+
 	.pdf--booked-info {
 		line-height: 30px;
 

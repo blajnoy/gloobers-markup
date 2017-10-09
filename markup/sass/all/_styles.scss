@@ -194,6 +194,7 @@
 }
 .open-drop {
 	white-space: nowrap;
+	cursor: default;
 }
 .filter-dropdown {
 	.filter-section {
@@ -328,7 +329,6 @@
 	height: 650px;
 	margin: 0 -16px -16px;
 }
-
 
 .nav {
 	float: right;
@@ -655,13 +655,23 @@ input.daterange-input {
 }
 
 .pseudo-daterange-picker {
-	font-size: 14px;
+	font-size: 16px;
 	display: inline-flex;
 	align-items: center;
 
+	.start,
+	.end {
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0 0 13px;
+		margin: 0 0 -15px;
+		border-bottom: 1px solid #e1e1e1;
+	}
 
 	.gl-ico {
 		margin: 0 10px;
+		color: #e1e1e1;
+		font-size: 14px;
 	}
 
 	+ input.daterange-input {
@@ -1039,15 +1049,6 @@ input.daterange-input {
 		display: block;
 		color: currentColor;
 
-
-		&:hover {
-			text-decoration: none;
-			
-			.ttl {
-				text-decoration: underline;
-			}
-		}
-
 		.sub-ttl {
 			display: flex;
 			margin: 0;
@@ -1062,6 +1063,17 @@ input.daterange-input {
 
 			strong {
 				font-weight: bold;
+			}
+		}
+	}
+
+	a.card-holder {
+
+		&:hover {
+			text-decoration: none;
+
+			.ttl {
+				text-decoration: underline;
 			}
 		}
 	}
@@ -1253,6 +1265,10 @@ input.daterange-input {
 
 		a {
 			color: currentColor;
+
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 	}
 
@@ -1366,7 +1382,8 @@ input.daterange-input {
 	font-size: 14px;
 	line-height: 17px;
 	align-items: center;
-	padding: 0 0 35px;
+	//padding: 0 0 35px;
+	flex: 1;
 
 	.lnk-prev,
 	.lnk-next {
@@ -1374,6 +1391,10 @@ input.daterange-input {
 		.gl-ico {
 			vertical-align: middle;
 			margin: 0 5px 0 0;
+		}
+
+		&.slick-disabled {
+			color: rgba(#000, .5);
 		}
 	}
 
@@ -1448,8 +1469,6 @@ input.daterange-input {
 }
 
 .slick-slider {
-
-
 	.slick-arrow {
 		position: absolute;
 		top: 50%;
@@ -1491,6 +1510,9 @@ input.daterange-input {
 			}
 		}
 	}
+}
+.slick-arrow.slick-hidden {
+	display: none !important;
 }
 .visual {
 	width: 100%;
@@ -2808,6 +2830,10 @@ input.daterange-input {
 		a {
 			display: inline-block;
 			padding: 25px;
+
+			&.slick-disabled {
+				color: rgba(#000, .5);
+			}
 		}
 	}
 }
@@ -3532,6 +3558,49 @@ input.daterange-input {
 	}
 }
 
+.table {
+
+	&-v-centered {
+		td {
+			vertical-align: middle !important;
+		}
+	}
+
+	.avatar {
+		display: inline-block;
+		position: relative;
+		vertical-align: middle;
+
+		img {
+			border-radius: 50%;
+			display: block;
+		}
+
+		.avatar-label {
+			position: absolute;
+			top: -2px;
+			right: -10px;
+			font-size: 8px;
+			line-height: 12px;
+			box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09),0 1px 4px 0 rgba(0, 0, 0, 0.25);
+			color: $secondTextColor;
+			background: #fec200;
+			border-radius: 5px;
+			padding: 0 4px;
+		}
+	}
+}
+
+.type-text-following {
+	&.type-text-1 {
+		color: #fec200;
+	}
+
+	&.type-text-2 {
+		color: #1e97d8;
+	}
+}
+
 .connection-status {
 	display: block;
 	font-size: 10px;
@@ -3983,6 +4052,7 @@ input.daterange-input {
 			line-height: 60px;
 			font-weight: 300;
 			padding: 0 0 5px;
+			white-space: nowrap;
 		}
 
 		strong {
@@ -4291,12 +4361,12 @@ input.daterange-input {
 	}
 }
 .pricing-list {
-	padding: 25px 70px 0;
+	padding: 25px 60px 0;
 	display: flex;
 	justify-content: space-between;
 
 	.pricing-card {
-		flex: 0 1 270px;
+		flex: 0 1 300px;
 	}
 }
 
@@ -4348,7 +4418,7 @@ input.daterange-input {
 		line-height: 25px;
 		color: rgba(#000, 0.5);
 		text-align: center;
-		padding: 35px 20px 50px;
+		padding: 35px 15px 50px;
 		transition: all 100ms ease-in;
 
 		strong {
@@ -4375,6 +4445,10 @@ input.daterange-input {
 
 			.month {
 				font-size: 12px;
+			}
+
+			& + strong {
+				padding: 0 0 15px;
 			}
 		}
 	}
@@ -6519,6 +6593,8 @@ input.daterange-input {
 	> .col-xs-9 {
 		display: flex;
 		margin-bottom: 30px;
+		flex-wrap: wrap;
+		flex: 1 1 75%;
 	}
 }
 
@@ -6763,7 +6839,10 @@ input.daterange-input {
 	width: 100%;
 
 	.flex-row & {
-		min-height: 100%;
+		//min-height: 100%;
+		width: 100%;
+		min-height: 1px;
+
 	}
 
 	&.trips-list-wrap {
@@ -8124,8 +8203,8 @@ input.daterange-input {
 			background: none;
 			border: 0;
 			border-radius: 0;
-			font-size: 16px;
-			height: 42px;
+			font-size: 14px;
+			height: 38px;
 			padding: 7px 33px 7px 0;
 			box-shadow: none;
 		}
@@ -8142,11 +8221,12 @@ input.daterange-input {
 }
 
 .select2-results__options {
-	margin: -15px 0;
-	padding: 0;
+	margin: -5px -10px;
+	padding: 0 15px;
 	list-style: none;
 	font-size: 16px;
 	line-height: 19px;
+	max-height: 50vh !important;
 
 	.select2-results__option {
 		display: block;
