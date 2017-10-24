@@ -154,398 +154,402 @@ table {
   content: "\E016";
 }
 
-.gl-ico-business:before {
+.gl-ico-burger-expand:before {
   content: "\E017";
 }
 
-.gl-ico-calendar:before {
+.gl-ico-business:before {
   content: "\E018";
 }
 
-.gl-ico-campaign:before {
+.gl-ico-calendar:before {
   content: "\E019";
 }
 
-.gl-ico-cart-delete:before {
+.gl-ico-campaign:before {
   content: "\E01A";
 }
 
-.gl-ico-casino:before {
+.gl-ico-cart-delete:before {
   content: "\E01B";
 }
 
-.gl-ico-catering:before {
+.gl-ico-casino:before {
   content: "\E01C";
 }
 
-.gl-ico-check-mark-button:before {
+.gl-ico-catering:before {
   content: "\E01D";
 }
 
-.gl-ico-check:before, .checkbox input[type="checkbox"]:checked + label:before, .checkbox input[type="radio"]:checked + label:before, .passions-list .item.selected:before {
+.gl-ico-check-mark-button:before {
   content: "\E01E";
 }
 
-.gl-ico-close-cross:before {
+.gl-ico-check:before, .checkbox input[type="checkbox"]:checked + label:before, .checkbox input[type="radio"]:checked + label:before, .passions-list .item.selected:before {
   content: "\E01F";
 }
 
-.gl-ico-conceptual:before {
+.gl-ico-close-cross:before {
   content: "\E020";
 }
 
-.gl-ico-conditioning:before {
+.gl-ico-conceptual:before {
   content: "\E021";
 }
 
-.gl-ico-dinner:before {
+.gl-ico-conditioning:before {
   content: "\E022";
 }
 
-.gl-ico-disability:before {
+.gl-ico-dinner:before {
   content: "\E023";
 }
 
-.gl-ico-distances:before {
+.gl-ico-disability:before {
   content: "\E024";
 }
 
-.gl-ico-edit:before {
+.gl-ico-distances:before {
   content: "\E025";
 }
 
-.gl-ico-entertainment:before {
+.gl-ico-edit:before {
   content: "\E026";
 }
 
-.gl-ico-europe:before {
+.gl-ico-entertainment:before {
   content: "\E027";
 }
 
-.gl-ico-facebook:before {
+.gl-ico-europe:before {
   content: "\E028";
 }
 
-.gl-ico-facilities:before {
+.gl-ico-facebook:before {
   content: "\E029";
 }
 
-.gl-ico-facilities01:before {
+.gl-ico-facilities:before {
   content: "\E02A";
 }
 
-.gl-ico-family:before {
+.gl-ico-facilities01:before {
   content: "\E02B";
 }
 
-.gl-ico-file-upload:before {
+.gl-ico-family:before {
   content: "\E02C";
 }
 
-.gl-ico-fishing:before {
+.gl-ico-file-upload:before {
   content: "\E02D";
 }
 
-.gl-ico-fitness:before {
+.gl-ico-fishing:before {
   content: "\E02E";
 }
 
-.gl-ico-fooding:before {
+.gl-ico-fitness:before {
   content: "\E02F";
 }
 
-.gl-ico-golf:before {
+.gl-ico-fooding:before {
   content: "\E030";
 }
 
-.gl-ico-google-plus:before {
+.gl-ico-golf:before {
   content: "\E031";
 }
 
-.gl-ico-health:before {
+.gl-ico-google-plus:before {
   content: "\E032";
 }
 
-.gl-ico-heart:before {
+.gl-ico-health:before {
   content: "\E033";
 }
 
-.gl-ico-historic:before {
+.gl-ico-heart:before {
   content: "\E034";
 }
 
-.gl-ico-home-user:before {
+.gl-ico-historic:before {
   content: "\E035";
 }
 
-.gl-ico-home:before {
+.gl-ico-home-user:before {
   content: "\E036";
 }
 
-.gl-ico-hotel-type:before {
+.gl-ico-home:before {
   content: "\E037";
 }
 
-.gl-ico-instagram:before {
+.gl-ico-hotel-type:before {
   content: "\E038";
 }
 
-.gl-ico-internet:before {
+.gl-ico-instagram:before {
   content: "\E039";
 }
 
-.gl-ico-kids-activities:before {
+.gl-ico-internet:before {
   content: "\E03A";
 }
 
-.gl-ico-kitchen:before {
+.gl-ico-kids-activities:before {
   content: "\E03B";
 }
 
-.gl-ico-like:before {
+.gl-ico-kitchen:before {
   content: "\E03C";
 }
 
-.gl-ico-local-culture:before {
+.gl-ico-like:before {
   content: "\E03D";
 }
 
-.gl-ico-location:before {
+.gl-ico-local-culture:before {
   content: "\E03E";
 }
 
-.gl-ico-logo:before {
+.gl-ico-location:before {
   content: "\E03F";
 }
 
-.gl-ico-luxury:before {
+.gl-ico-logo:before {
   content: "\E040";
 }
 
-.gl-ico-mail:before {
+.gl-ico-luxury:before {
   content: "\E041";
 }
 
-.gl-ico-marker-add:before {
+.gl-ico-mail:before {
   content: "\E042";
 }
 
-.gl-ico-marker-empty:before {
+.gl-ico-marker-add:before {
   content: "\E043";
+}
+
+.gl-ico-marker-empty:before {
+  content: "\E044";
 }
 
 .gl-ico-marker-full:before, .map-types .marker:hover .marker-ico:before, .map-types .marker:hover .marker-ico:after, .map-types .marker input[type=checkbox]:checked ~ .marker-ico:before,
 .map-types .marker input[type=radio]:checked ~ .marker-ico:before, .map-types .marker input[type=checkbox]:checked ~ .marker-ico:after,
 .map-types .marker input[type=radio]:checked ~ .marker-ico:after {
-  content: "\E044";
-}
-
-.gl-ico-marker:before {
   content: "\E045";
 }
 
-.gl-ico-meals:before {
+.gl-ico-marker:before {
   content: "\E046";
 }
 
-.gl-ico-methods-of-payment:before {
+.gl-ico-meals:before {
   content: "\E047";
 }
 
-.gl-ico-minus:before {
+.gl-ico-methods-of-payment:before {
   content: "\E048";
 }
 
-.gl-ico-motor-sports:before {
+.gl-ico-minus:before {
   content: "\E049";
 }
 
-.gl-ico-music:before {
+.gl-ico-motor-sports:before {
   content: "\E04A";
 }
 
-.gl-ico-nightlife:before {
-  content: "\E04C";
+.gl-ico-music:before {
+  content: "\E04B";
 }
 
 .gl-ico-nightlife:before {
-  content: "\E04C";
-}
-
-.gl-ico-person:before {
   content: "\E04D";
 }
 
-.gl-ico-phone:before {
+.gl-ico-nightlife:before {
+  content: "\E04D";
+}
+
+.gl-ico-person:before {
   content: "\E04E";
 }
 
-.gl-ico-photo-camera:before {
+.gl-ico-phone:before {
   content: "\E04F";
 }
 
-.gl-ico-photography:before {
+.gl-ico-photo-camera:before {
   content: "\E050";
 }
 
-.gl-ico-picture:before {
+.gl-ico-photography:before {
   content: "\E051";
 }
 
-.gl-ico-plus-rounded:before {
+.gl-ico-picture:before {
   content: "\E052";
 }
 
-.gl-ico-plus:before {
+.gl-ico-plus-rounded:before {
   content: "\E053";
 }
 
-.gl-ico-points-of-interest:before {
+.gl-ico-plus:before {
   content: "\E054";
 }
 
-.gl-ico-pool:before {
+.gl-ico-points-of-interest:before {
   content: "\E055";
 }
 
-.gl-ico-push-pin:before {
+.gl-ico-pool:before {
   content: "\E056";
 }
 
-.gl-ico-question-mark:before {
+.gl-ico-push-pin:before {
   content: "\E057";
 }
 
-.gl-ico-road-trips:before {
+.gl-ico-question-mark:before {
   content: "\E058";
 }
 
-.gl-ico-room-distribution-alt:before {
+.gl-ico-road-trips:before {
   content: "\E059";
 }
 
-.gl-ico-room-distribution:before {
+.gl-ico-room-distribution-alt:before {
   content: "\E05A";
 }
 
-.gl-ico-room-facilities:before {
+.gl-ico-room-distribution:before {
   content: "\E05B";
 }
 
-.gl-ico-sailing:before {
+.gl-ico-room-facilities:before {
   content: "\E05C";
 }
 
-.gl-ico-school-book-bag:before {
+.gl-ico-sailing:before {
   content: "\E05D";
 }
 
-.gl-ico-scuba-diving:before {
+.gl-ico-school-book-bag:before {
   content: "\E05E";
 }
 
-.gl-ico-sea-view:before {
+.gl-ico-scuba-diving:before {
   content: "\E05F";
 }
 
-.gl-ico-search:before {
+.gl-ico-sea-view:before {
   content: "\E060";
 }
 
-.gl-ico-send-mail:before {
+.gl-ico-search:before {
   content: "\E061";
 }
 
-.gl-ico-shopping:before {
+.gl-ico-send-mail:before {
   content: "\E062";
 }
 
-.gl-ico-sightseeing:before {
+.gl-ico-shopping:before {
   content: "\E063";
 }
 
-.gl-ico-ski:before {
+.gl-ico-sightseeing:before {
   content: "\E064";
 }
 
-.gl-ico-spa:before {
+.gl-ico-ski:before {
   content: "\E065";
 }
 
-.gl-ico-sports:before {
+.gl-ico-spa:before {
   content: "\E066";
 }
 
-.gl-ico-staff:before {
+.gl-ico-sports:before {
   content: "\E067";
 }
 
-.gl-ico-star:before {
+.gl-ico-staff:before {
   content: "\E068";
 }
 
-.gl-ico-street-map:before {
+.gl-ico-star:before {
   content: "\E069";
 }
 
-.gl-ico-things-to-keep-in-mind:before {
+.gl-ico-street-map:before {
   content: "\E06A";
 }
 
-.gl-ico-transportation:before {
+.gl-ico-things-to-keep-in-mind:before {
   content: "\E06B";
 }
 
-.gl-ico-trekking:before {
+.gl-ico-transportation:before {
   content: "\E06C";
 }
 
-.gl-ico-tv:before {
+.gl-ico-trekking:before {
   content: "\E06D";
 }
 
-.gl-ico-twitter:before {
+.gl-ico-tv:before {
   content: "\E06E";
 }
 
-.gl-ico-user:before {
+.gl-ico-twitter:before {
   content: "\E06F";
 }
 
-.gl-ico-users-group:before {
+.gl-ico-user:before {
   content: "\E070";
 }
 
-.gl-ico-users:before {
+.gl-ico-users-group:before {
   content: "\E071";
 }
 
-.gl-ico-washing:before {
+.gl-ico-users:before {
   content: "\E072";
 }
 
-.gl-ico-water-sports:before {
+.gl-ico-washing:before {
   content: "\E073";
 }
 
-.gl-ico-wellness:before {
+.gl-ico-water-sports:before {
   content: "\E074";
 }
 
-.gl-ico-wifi:before {
+.gl-ico-wellness:before {
   content: "\E075";
 }
 
-.gl-ico-wildlife:before {
+.gl-ico-wifi:before {
   content: "\E076";
 }
 
-.gl-ico-wine:before {
+.gl-ico-wildlife:before {
   content: "\E077";
 }
 
-.gl-ico-worldwide:before {
+.gl-ico-wine:before {
   content: "\E078";
+}
+
+.gl-ico-worldwide:before {
+  content: "\E079";
 }
 
 body {
@@ -2720,7 +2724,7 @@ fieldset[disabled] .btn-marketing-b:focus {
   max-height: 100%;
 }
 
-.drop-element.drop-theme-arrows .drop-content {
+.drop-element.drop-theme-arrows .drop-content, .drop-element.drop-theme-arrows .notifications-list-item, .drop-element.drop-theme-arrows .no-notifications, .drop-element.drop-theme-arrows .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows .see-more-holder, .drop-element.drop-theme-arrows .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows .expand-notifications {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   position: relative;
@@ -2738,7 +2742,7 @@ fieldset[disabled] .btn-marketing-b:focus {
   box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-.drop-element.drop-theme-arrows .drop-content:before {
+.drop-element.drop-theme-arrows .drop-content:before, .drop-element.drop-theme-arrows .notifications-list-item:before, .drop-element.drop-theme-arrows .no-notifications:before, .drop-element.drop-theme-arrows .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows .see-more-holder:before, .drop-element.drop-theme-arrows .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows .expand-notifications:before {
   content: "";
   display: block;
   position: absolute;
@@ -2747,124 +2751,124 @@ fieldset[disabled] .btn-marketing-b:focus {
   border: 16px solid transparent;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .expand-notifications {
   margin-bottom: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .expand-notifications:before {
   top: 100%;
   left: 16px;
   border-top-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .expand-notifications {
   margin-left: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .expand-notifications:before {
   bottom: 16px;
   right: 100%;
   border-right-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .expand-notifications {
   margin-bottom: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .expand-notifications:before {
   top: 100%;
   right: 16px;
   border-top-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .expand-notifications {
   margin-right: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .expand-notifications:before {
   bottom: 16px;
   left: 100%;
   border-left-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .expand-notifications {
   margin-bottom: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-bottom.drop-element-attached-center .expand-notifications:before {
   top: 100%;
   left: 50%;
   margin-left: -16px;
   border-top-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .expand-notifications {
   margin-top: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .expand-notifications:before {
   bottom: 100%;
   left: 16px;
   border-bottom-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .expand-notifications {
   margin-left: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .expand-notifications:before {
   top: 16px;
   right: 100%;
   border-right-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .expand-notifications {
   margin-top: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .expand-notifications:before {
   bottom: 100%;
   right: 16px;
   border-bottom-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .expand-notifications {
   margin-right: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .expand-notifications:before {
   top: 16px;
   left: 100%;
   border-left-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .expand-notifications {
   margin-top: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-top.drop-element-attached-center .expand-notifications:before {
   bottom: 100%;
   left: 50%;
   margin-left: -16px;
   border-bottom-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .expand-notifications {
   margin-right: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-right.drop-element-attached-middle .expand-notifications:before {
   left: 100%;
   top: 50%;
   margin-top: -16px;
   border-left-color: #fff;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .drop-content {
+.drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .drop-content, .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .notifications-list-item, .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .no-notifications, .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .see-more-holder, .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .expand-notifications {
   margin-left: 16px;
 }
 
-.drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .drop-content:before {
+.drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .drop-content:before, .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .notifications-list-item:before, .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .no-notifications:before, .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .see-more-holder:before, .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows.drop-element-attached-left.drop-element-attached-middle .expand-notifications:before {
   right: 100%;
   top: 50%;
   margin-top: -16px;
@@ -2881,7 +2885,7 @@ fieldset[disabled] .btn-marketing-b:focus {
   opacity: 0;
 }
 
-.drop-element.drop-theme-arrows-bounce .drop-content {
+.drop-element.drop-theme-arrows-bounce .drop-content, .drop-element.drop-theme-arrows-bounce .notifications-list-item, .drop-element.drop-theme-arrows-bounce .no-notifications, .drop-element.drop-theme-arrows-bounce .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce .see-more-holder, .drop-element.drop-theme-arrows-bounce .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce .expand-notifications {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   position: relative;
@@ -2903,7 +2907,7 @@ fieldset[disabled] .btn-marketing-b:focus {
   transform: scale(0) translateZ(0);
 }
 
-.drop-element.drop-theme-arrows-bounce .drop-content:before {
+.drop-element.drop-theme-arrows-bounce .drop-content:before, .drop-element.drop-theme-arrows-bounce .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce .no-notifications:before, .drop-element.drop-theme-arrows-bounce .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce .see-more-holder:before, .drop-element.drop-theme-arrows-bounce .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce .expand-notifications:before {
   content: "";
   display: block;
   position: absolute;
@@ -2912,132 +2916,132 @@ fieldset[disabled] .btn-marketing-b:focus {
   border: 12px solid transparent;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .expand-notifications {
   margin-bottom: 12px;
   -webkit-transform-origin: 0 -webkit-calc(100% + 12px);
   -ms-transform-origin: 0 calc(100% + 12px);
   transform-origin: 0 calc(100% + 12px);
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-top .expand-notifications:before {
   top: 100%;
   left: 12px;
   border-top-color: #fff;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .expand-notifications {
   margin-left: 12px;
   -webkit-transform-origin: -12px 100%;
   -ms-transform-origin: -12px 100%;
   transform-origin: -12px 100%;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-left.drop-target-attached-right .expand-notifications:before {
   bottom: 12px;
   right: 100%;
   border-right-color: #fff;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .expand-notifications {
   margin-bottom: 12px;
   -webkit-transform-origin: 100% -webkit-calc(100% + 12px);
   -ms-transform-origin: 100% calc(100% + 12px);
   transform-origin: 100% calc(100% + 12px);
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-top .expand-notifications:before {
   top: 100%;
   right: 12px;
   border-top-color: #fff;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .expand-notifications {
   margin-right: 12px;
   -webkit-transform-origin: -webkit-calc(100% + 12px) 100%;
   -ms-transform-origin: calc(100% + 12px) 100%;
   transform-origin: calc(100% + 12px) 100%;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-right.drop-target-attached-left .expand-notifications:before {
   bottom: 12px;
   left: 100%;
   border-left-color: #fff;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .expand-notifications {
   margin-bottom: 12px;
   -webkit-transform-origin: 50% -webkit-calc(100% + 12px);
   -ms-transform-origin: 50% calc(100% + 12px);
   transform-origin: 50% calc(100% + 12px);
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-bottom.drop-element-attached-center .expand-notifications:before {
   top: 100%;
   left: 50%;
   margin-left: -12px;
   border-top-color: #fff;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .expand-notifications {
   margin-top: 12px;
   -webkit-transform-origin: 0 -12px;
   -ms-transform-origin: 0 -12px;
   transform-origin: 0 -12px;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-bottom .expand-notifications:before {
   bottom: 100%;
   left: 12px;
   border-bottom-color: #fff;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .expand-notifications {
   margin-left: 12px;
   -webkit-transform-origin: -12px 0;
   -ms-transform-origin: -12px 0;
   transform-origin: -12px 0;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-left.drop-target-attached-right .expand-notifications:before {
   top: 12px;
   right: 100%;
   border-right-color: #fff;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .expand-notifications {
   margin-top: 12px;
   -webkit-transform-origin: 100% -12px;
   -ms-transform-origin: 100% -12px;
   transform-origin: 100% -12px;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-bottom .expand-notifications:before {
   bottom: 100%;
   right: 12px;
   border-bottom-color: #fff;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .expand-notifications {
   margin-right: 12px;
   -webkit-transform-origin: -webkit-calc(100% + 12px) 0;
   -ms-transform-origin: calc(100% + 12px) 0;
   transform-origin: calc(100% + 12px) 0;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-right.drop-target-attached-left .expand-notifications:before {
   top: 12px;
   left: 100%;
   border-left-color: #fff;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .expand-notifications {
   margin-top: 12px;
   -webkit-transform-origin: 50% -12px;
   -ms-transform-origin: 50% -12px;
   transform-origin: 50% -12px;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-top.drop-element-attached-center .expand-notifications:before {
   bottom: 100%;
   left: 50%;
   margin-left: -12px;
@@ -3058,33 +3062,33 @@ fieldset[disabled] .btn-marketing-b:focus {
   opacity: 1;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-after-open .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-after-open .drop-content, .drop-element.drop-theme-arrows-bounce.drop-after-open .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-after-open .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-after-open .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-after-open .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-after-open .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-after-open .expand-notifications {
   -webkit-transform: scale(1) translateZ(0);
   transform: scale(1) translateZ(0);
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .expand-notifications {
   margin-right: 12px;
   -webkit-transform-origin: -webkit-calc(100% + 12px) 50%;
   -ms-transform-origin: calc(100% + 12px) 50%;
   transform-origin: calc(100% + 12px) 50%;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-right.drop-element-attached-middle .expand-notifications:before {
   left: 100%;
   top: 50%;
   margin-top: -12px;
   border-left-color: #fff;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .drop-content {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .drop-content, .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .expand-notifications {
   margin-left: 12px;
   -webkit-transform-origin: -12px 50%;
   -ms-transform-origin: -12px 50%;
   transform-origin: -12px 50%;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .drop-content:before {
+.drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .drop-content:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .notifications-list-item:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .no-notifications:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .notifications-nav .see-more-holder:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .see-more-holder:before, .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .notifications-nav .expand-notifications:before, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-element-attached-left.drop-element-attached-middle .expand-notifications:before {
   right: 100%;
   top: 50%;
   margin-top: -12px;
@@ -3099,7 +3103,7 @@ fieldset[disabled] .btn-marketing-b:focus {
   display: block;
 }
 
-.drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .drop-content, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .drop-content {
+.drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .drop-content, .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-list-item, .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .no-notifications, .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .see-more-holder, .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .expand-notifications, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .drop-content, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .expand-notifications {
   background: red;
 }
 
@@ -4377,7 +4381,7 @@ input.daterange-input {
   color: #1e97d8;
 }
 
-.drop-list ul li + li {
+.drop-list ul li:not(.hidden) ~ li:not(.hidden) {
   border-top: 1px solid #e5e5e5;
 }
 
@@ -4953,6 +4957,13 @@ input.daterange-input {
 .pages-nav .lnk-prev.slick-disabled,
 .pages-nav .lnk-next.slick-disabled {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.pages-nav .lnk-prev.disabled,
+.pages-nav .lnk-next.disabled {
+  color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  cursor: not-allowed;
 }
 
 .pages-nav .lnk-next {
@@ -6628,6 +6639,12 @@ input.daterange-input {
 
 .review-top-nav .reviews-nav a.slick-disabled {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.review-top-nav .reviews-nav a.disabled {
+  color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  cursor: not-allowed;
 }
 
 .review-desc-img {
@@ -8470,8 +8487,191 @@ input.daterange-input {
   display: block !important;
 }
 
+.drop-element.drop-theme-bg-no > .drop-content, .drop-element.drop-theme-bg-no > .notifications-list-item, .drop-element.drop-theme-bg-no > .no-notifications, .notifications-nav .drop-element.drop-theme-bg-no > .see-more-holder, .notifications-nav .drop-element.drop-theme-bg-no > .expand-notifications {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.drop-element.drop-theme-bg-no > .drop-content:before, .drop-element.drop-theme-bg-no > .notifications-list-item:before, .drop-element.drop-theme-bg-no > .no-notifications:before, .notifications-nav .drop-element.drop-theme-bg-no > .see-more-holder:before, .notifications-nav .drop-element.drop-theme-bg-no > .expand-notifications:before {
+  content: none;
+}
+
 .drop .drop-area.hide {
   display: block !important;
+}
+
+.notifications-list {
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 10px;
+}
+
+.notifications-list li:not(:first-child):before {
+  content: none !important;
+}
+
+.notifications-list li:hover {
+  -webkit-transform: translateX(-10px) !important;
+  -ms-transform: translateX(-10px) !important;
+  transform: translateX(-10px) !important;
+}
+
+.notifications-list-item, .no-notifications {
+  width: 385px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  margin-top: 10px !important;
+  padding: 10px !important;
+  cursor: move;
+  cursor: grab;
+  cursor: -webkit-grab;
+}
+
+.notifications-list-item:not(:first-child):before, .no-notifications:not(:first-child):before {
+  content: none !important;
+}
+
+.notifications-list-item .avatar, .no-notifications .avatar {
+  margin: 0 15px 0 0;
+}
+
+.notifications-list-item .avatar img, .no-notifications .avatar img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+}
+
+.notifications-list-item .text-h, .no-notifications .text-h {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+}
+
+.notifications-list-item .text-h .notification-ttl, .no-notifications .text-h .notification-ttl {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.notifications-list-item .text-h .notification-ttl a, .no-notifications .text-h .notification-ttl a {
+  color: #000;
+}
+
+.notifications-list-item .text-h .notification-ttl a:hover, .no-notifications .text-h .notification-ttl a:hover {
+  text-decoration: underline;
+}
+
+.notifications-list-item .desc, .no-notifications .desc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+}
+
+.notifications-list-item .desc strong, .no-notifications .desc strong {
+  font-weight: bold;
+}
+
+.notifications-list-item .desc .date, .no-notifications .desc .date {
+  margin-left: auto;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.notifications-list-item.gu-transit, .gu-transit.no-notifications {
+  opacity: 0;
+}
+
+.notifications-list-item.gu-mirror, .gu-mirror.no-notifications {
+  padding: 1em;
+  background: #fff;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 0 !important;
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.no-notifications {
+  cursor: default;
+}
+
+.notifications-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px 0 0;
+  position: relative;
+}
+
+.notifications-nav .see-more-holder, .notifications-nav .expand-notifications {
+  background: #fff;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 10px 0 0 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  padding: 10px !important;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.notifications-nav .see-more-holder:before, .notifications-nav .expand-notifications:before {
+  content: none !important;
+}
+
+.notifications-nav .see-more-holder .btn, .notifications-nav .expand-notifications .btn {
+  margin-left: auto;
+}
+
+.notifications-nav .see-more-holder p, .notifications-nav .expand-notifications p {
+  margin: 0 0 0 5px;
+}
+
+.notifications-nav .expand-notifications {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 62px;
+  -ms-flex: 0 0 62px;
+  flex: 0 0 62px;
+  height: 62px;
+  font-size: 27px !important;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: auto !important;
 }
 
 .headings-menu {
@@ -8857,7 +9057,7 @@ input.daterange-input {
   z-index: 998;
 }
 
-.daterangepicker .drop-content:after {
+.daterangepicker .drop-content:after, .daterangepicker .notifications-list-item:after, .daterangepicker .no-notifications:after, .daterangepicker .notifications-nav .see-more-holder:after, .notifications-nav .daterangepicker .see-more-holder:after, .daterangepicker .notifications-nav .expand-notifications:after, .notifications-nav .daterangepicker .expand-notifications:after {
   content: "";
   display: table;
   clear: both;
@@ -11129,6 +11329,7 @@ input.daterange-input {
   -webkit-flex: 1 1 75%;
   -ms-flex: 1 1 75%;
   flex: 1 1 75%;
+  min-width: 0;
 }
 
 .statistic-counters {
@@ -12970,19 +13171,23 @@ input.daterange-input {
   text-align: center;
 }
 
-.select2-results__options .select2-results__option + .select2-results__option {
+.select2-results__options .select2-results__option + .select2-results__option:not(:hidden) {
   border-top: 1px solid #e5e5e5;
 }
 
 .select2-results__options .select2-results__option--highlighted[aria-selected] {
   text-decoration: none;
-  color: #1e97d8;
+  color: #000;
   background: none;
 }
 
-.select2-results__options .select2-results__option[aria-selected=true] {
+.select2-results__options .select2-results__option:hover, .select2-results__options .select2-results__option[aria-selected=true] {
   background: none;
   color: #1e97d8;
+}
+
+.select2-results__options .select2-results__option[aria-selected=true] {
+  display: none;
 }
 
 .fc-toolbar h2 {

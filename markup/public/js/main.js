@@ -440,13 +440,20 @@ $(document).ready(function () {
         offset = $elm.data('offset') || '0 0';
         position = $elm.data('position') || 'bottom center';
 
+
+        if ( this.hasAttribute("data-constrain-to-window") ) {
+            constrainToWindow = $elm.data('constrain-to-window');
+        } else {
+            constrainToWindow = true;
+        }
+
         functionOnOpen = $elm.data('function-on-open');
 
         $elm.addClass(theme);
 
         content = $($elm.data('drop-content')).html() || $elm.next('.drop-content').html();
 
-        content = content.replace(/(id=")(.*)(\")/g, function (match, prefix, handler, suffix) {
+        content = content.replace(/(id=")(.[^"]*)(\")/g, function (match, prefix, handler, suffix) {
             return prefix + handler + '_dropID' + suffix;
         });
 
@@ -454,7 +461,7 @@ $(document).ready(function () {
             target: $elm[0],
             classes: theme,
             position: position,
-            constrainToWindow: true,
+            constrainToWindow: constrainToWindow,
             constrainToScrollParent: false,
             openOn: openOn,
             content: content,
@@ -471,29 +478,6 @@ $(document).ready(function () {
 
         return drop;
     });
-
-
-
-    /* end changes persons counter  */
-
-
-    
-
-
-    /**/
-    /*$(function() {
-     var target = $('.date-input'),
-     elm;
-
-
-     new Tether({
-     element: elm,
-     target: target,
-     attachment: 'top center',
-     targetAttachment: 'top center'
-     });
-     });*/
-
 
     (function () {
 

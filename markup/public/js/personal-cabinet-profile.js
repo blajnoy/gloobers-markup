@@ -285,18 +285,6 @@ $(document).ready(function () {
         addPassportMarker(point, type, contentString);
     });
 
-
-
-
-
-
-
-
-
-
-
-
-
     var telInput = $("#phone")/*,
      errorMsg = $("#error-msg"),
      validMsg = $("#valid-msg")*/;

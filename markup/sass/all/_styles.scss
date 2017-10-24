@@ -970,7 +970,8 @@ input.daterange-input {
 					color: #1e97d8;
 				}
 			}
-			+ li {
+
+			&:not(.hidden) ~ li:not(.hidden) {
 				border-top: 1px solid #e5e5e5;
 			}
 
@@ -1395,6 +1396,12 @@ input.daterange-input {
 
 		&.slick-disabled {
 			color: rgba(#000, .5);
+		}
+
+		&.disabled {
+			color: rgba(#000, .5);
+			pointer-events: none;
+			cursor: not-allowed;
 		}
 	}
 
@@ -2152,6 +2159,7 @@ input.daterange-input {
 	.review-desc {
 		padding: 0 31px;
 	}
+
 }
 
 .slick-slide {
@@ -2178,6 +2186,7 @@ input.daterange-input {
 	}
 
 	.item {
+
 		&:focus {
 			outline: none;
 		}
@@ -2833,6 +2842,12 @@ input.daterange-input {
 
 			&.slick-disabled {
 				color: rgba(#000, .5);
+			}
+
+			&.disabled {
+				color: rgba(#000, .5);
+				pointer-events: none;
+				cursor: not-allowed;
 			}
 		}
 	}
@@ -4297,6 +4312,18 @@ input.daterange-input {
 	&.drop-theme-arrows-bounce.drop-out-of-bounds {
 		display: block !important;
 	}
+
+	&.drop-theme-bg-no {
+		> .drop-content {
+			background: none;
+			box-shadow: none;
+			border-radius: 0;
+
+			&:before {
+				content: none;
+			}
+		}
+	}
 }
 
 .drop {
@@ -4304,6 +4331,151 @@ input.daterange-input {
 		&.hide {
 			display: block !important;
 		}
+	}
+}
+
+.notifications-list {
+	font-size: 14px;
+	line-height: 17px;
+	margin: 0 0 10px;
+
+	li {
+		&:not(:first-child) {
+			&:before {
+				content: none !important;
+			}
+		}
+
+		&:hover {
+			transform: translateX(-10px) !important;
+		}
+	}
+}
+
+.notifications-list-item {
+	@extend .drop-content;
+	width: 385px;
+	display: flex;
+	align-items: center;
+	font-size: 14px !important;
+	line-height: 21px !important;
+	margin-top: 10px !important;
+	padding: 10px !important;
+	cursor: move;
+	cursor: grab;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
+
+	&:not(:first-child) {
+		&:before {
+			content: none !important;
+		}
+	}
+
+	.avatar {
+		margin: 0 15px 0 0;
+
+		img {
+			border-radius: 50%;
+			display: block;
+		}
+	}
+	.text-h {
+		flex: 1;
+		min-width: 0;
+
+		.notification-ttl {
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			margin: 0;
+
+			a {
+				color: #000;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.desc {
+		display: flex;
+		font-size: 12px;
+
+		strong {
+			font-weight: bold;
+		}
+
+		.date {
+			margin-left: auto;
+			font-style: normal;
+			color: rgba(#000, .5);
+		}
+	}
+
+	&.gu-transit {
+		opacity: 0;
+	}
+
+	&.gu-mirror {
+		padding: 1em;
+		background: #fff;
+		border-radius: 10px;
+		box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
+		font-size: 14px;
+		line-height: 17px;
+		margin-top: 0 !important;
+		cursor: grabbing;
+		cursor: -moz-grabbing;
+		cursor: -webkit-grabbing;
+	}
+
+}
+
+.no-notifications {
+	@extend .notifications-list-item;
+	cursor: default;
+}
+
+.notifications-nav {
+	display: flex;
+	margin: 0 -10px 0 0;
+	position: relative;
+
+	.see-more-holder {
+		@extend .drop-content;
+		background: #fff;
+		border-radius: 10px;
+		box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.2);
+		margin: 0 10px 0 0 !important;
+		font-size: 14px !important;
+		line-height: 17px !important;
+		padding: 10px !important;
+		flex: auto;
+		display: flex;
+		align-items: center;
+
+		&:before {
+			content: none !important;
+		}
+
+		.btn {
+			margin-left: auto;
+		}
+
+		p {
+			margin: 0 0 0 5px;
+		}
+	}
+
+	.expand-notifications {
+		@extend .see-more-holder;
+		flex: 0 0 62px;
+		height: 62px;
+		font-size: 27px !important;
+		justify-content: center;
+		margin-left: auto !important;
 	}
 }
 
@@ -6595,6 +6767,7 @@ input.daterange-input {
 		margin-bottom: 30px;
 		flex-wrap: wrap;
 		flex: 1 1 75%;
+		min-width: 0;
 	}
 }
 
@@ -8234,19 +8407,24 @@ input.daterange-input {
 		color: #000;
 		text-align: center;
 
-		+ .select2-results__option {
+		+ .select2-results__option:not(:hidden) {
 			border-top: 1px solid #e5e5e5;
 		}
 
 		&--highlighted[aria-selected] {
 			text-decoration: none;
-			color: #1e97d8;
+			color: #000;
 			background: none;
 		}
 
+		&:hover,
 		&[aria-selected=true] {
 			background: none;
 			color: #1e97d8;
+		}
+
+		&[aria-selected=true] {
+			display: none;
 		}
 	}
 }
