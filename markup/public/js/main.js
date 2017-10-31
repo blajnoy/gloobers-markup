@@ -502,6 +502,7 @@ $(document).ready(function () {
                         "alwaysShowCalendars": true
                     }, cb.bind(this));
                 } else {
+
                     _this.daterangepicker({
                         "autoApply": true,
                         "showCustomRangeLabel": false,
@@ -547,11 +548,11 @@ $(document).ready(function () {
                     attachment: 'top left',
                     targetAttachment: position,
                     offset: offset,
-                    constraints: [
+                    /*constraints: [
                         {
                             to: 'scrollParent'
                         }
-                    ]
+                    ]*/
                 });
             });
 
@@ -830,9 +831,11 @@ var map;
 var markers = [],
     infoWindows = [];
 
-map = initMap();
-initMarkers(locations, getDefaultMarker); //locations
 
+if($('#map').length != 0) {
+    map = initMap();
+    initMarkers(locations, getDefaultMarker);
+}
 
 function initMap() {
 
@@ -1242,18 +1245,20 @@ function closeAllInfoWindows(infoWindows) {
 
 
 
+if($('#map').length != 0) {
+    var bounds = new google.maps.LatLngBounds();
+    //  Go through each...
 
-var bounds = new google.maps.LatLngBounds();
+    for (var i = 0; i < markers.length; i++) {
+        bounds.extend(markers[i].position);
+    }
+    //  Fit these bounds to the map
+    map.fitBounds(bounds);
 
-//  Go through each...
-
-for (var i = 0; i < markers.length; i++) {
-    bounds.extend(markers[i].position);
+    /**/
 }
-//  Fit these bounds to the map
-map.fitBounds(bounds);
 
-/**/
+
 
 
 function hometowngeocode(id) {

@@ -3182,6 +3182,7 @@ fieldset[disabled] .btn-marketing-b:focus {
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
+  height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -4425,6 +4426,9 @@ input.daterange-input {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
 }
 
 .recommendations {
@@ -5628,6 +5632,11 @@ input.daterange-input {
 
 .main-slider {
   height: 550px;
+  min-height: 73px;
+}
+
+.main-slider.slick-initialized {
+  height: auto;
 }
 
 .no-js .main-slider {
@@ -5635,8 +5644,28 @@ input.daterange-input {
   overflow: hidden;
 }
 
-.main-slider .item img {
+.main-slider .item {
   display: block;
+  position: relative;
+}
+
+.main-slider .item:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: -webkit-calc( ( 550 / 1920 ) * 100% - 0px);
+  padding-top: calc( ( 550 / 1920 ) * 100% - 0px);
+}
+
+.main-slider .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-slider .item img {
   object-fit: cover;
 }
 
@@ -13267,4 +13296,31 @@ input.daterange-input {
 
 .intl-tel-input .country-list {
   font-size: 13px;
+}
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
 }

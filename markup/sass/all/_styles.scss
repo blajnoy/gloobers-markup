@@ -1,6 +1,7 @@
 .wrapper {
 	display: flex;
 	min-height: 100vh;
+	height: 100vh;
 	flex-direction: column;
 }
 .header {
@@ -1010,6 +1011,7 @@ input.daterange-input {
 }
 .main {
 	flex: 1;
+	flex-basis: auto;
 }
 .recommendations {
 	display: flex;
@@ -1949,7 +1951,6 @@ input.daterange-input {
 
 		.star {
 			color: #1e97d8;
-			//margin: 0 2px;
 
 			&.empty {
 				color : #bbe0f3;
@@ -1958,11 +1959,19 @@ input.daterange-input {
 	}
 }
 
-.result-list {
-
-}
 .main-slider {
 	height: 550px;
+	min-height: 73px;
+	//overflow: hidden;
+
+	.slick-list {
+		//padding:0 10% 0 0;
+		//margin: 0 -10px;
+	}
+
+	&.slick-initialized {
+		height: auto;
+	}
 
 	.no-js & {
 		height: 550px;
@@ -1970,8 +1979,10 @@ input.daterange-input {
 	}
 
 	.item {
+		@include aspect-ratio(1920, 550);
+		//margin: 0 10px;
+
 		img {
-			display: block;
 			object-fit: cover;
 		}
 	}
@@ -8516,5 +8527,18 @@ input.daterange-input {
 
 	.country-list {
 		font-size: 13px;
+	}
+}
+
+
+.fa-spin{
+	animation: fa-spin 2s infinite linear
+}
+@keyframes fa-spin{
+	0% {
+		transform:rotate(0deg)
+	}
+	100% {
+		transform:rotate(359deg)
 	}
 }

@@ -13,10 +13,16 @@ $('.recommendations-slider').slick({
 
 
 var existChildrenArr = [{
-    'min': 1,
-    'max': 20,
-    'val': 11
-}];
+        'min': 1,
+        'max': 20,
+        'val': 11
+    },
+    {
+        'min': 2,
+        'max': 20,
+        'val': 8
+    }
+];
 
 var existAdultsArr = [{
     'min': 18,
