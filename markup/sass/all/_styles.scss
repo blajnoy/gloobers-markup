@@ -4320,8 +4320,23 @@ input.daterange-input {
 		z-index: 9999;
 	}
 
+	&.drop-out-of-bounds,
 	&.drop-theme-arrows-bounce.drop-out-of-bounds {
-		display: block !important;
+		display: none;
+
+		&.drop-open {
+			display: block !important;
+		}
+
+		&.drop-out-of-bounds-bottom {
+			&.drop-out-of-bounds-top {
+				display: block;
+
+				.drop-content {
+					background: #fff;
+				}
+			}
+		}
 	}
 
 	&.drop-theme-bg-no {

@@ -8512,8 +8512,20 @@ input.daterange-input {
   z-index: 9999;
 }
 
-.drop-element.drop-theme-arrows-bounce.drop-out-of-bounds {
+.drop-element.drop-out-of-bounds, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds {
+  display: none;
+}
+
+.drop-element.drop-out-of-bounds.drop-open, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-open {
   display: block !important;
+}
+
+.drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top {
+  display: block;
+}
+
+.drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .drop-content, .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-list-item, .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .no-notifications, .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .see-more-holder, .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .expand-notifications, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .drop-content, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-list-item, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .no-notifications, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-nav .see-more-holder, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .see-more-holder, .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .notifications-nav .expand-notifications, .notifications-nav .drop-element.drop-theme-arrows-bounce.drop-out-of-bounds.drop-out-of-bounds-bottom.drop-out-of-bounds-top .expand-notifications {
+  background: #fff;
 }
 
 .drop-element.drop-theme-bg-no > .drop-content, .drop-element.drop-theme-bg-no > .notifications-list-item, .drop-element.drop-theme-bg-no > .no-notifications, .notifications-nav .drop-element.drop-theme-bg-no > .see-more-holder, .notifications-nav .drop-element.drop-theme-bg-no > .expand-notifications {

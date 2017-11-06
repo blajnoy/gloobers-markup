@@ -440,7 +440,6 @@ $(document).ready(function () {
         offset = $elm.data('offset') || '0 0';
         position = $elm.data('position') || 'bottom center';
 
-
         if ( this.hasAttribute("data-constrain-to-window") ) {
             constrainToWindow = $elm.data('constrain-to-window');
         } else {
