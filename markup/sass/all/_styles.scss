@@ -4701,6 +4701,42 @@ input.daterange-input {
 	}
 }
 
+//invitation
+.invitation-intro {
+	padding: 80px 0 200px;
+	background: #501e00;
+	position: relative;
+	text-align: center;
+	color: #fff;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: url(../images/bg-invite.jpg) 50% 50% no-repeat;
+		background-size: cover;
+		opacity: .15;
+	}
+
+	.container {
+		position: relative;
+		z-index: 1;
+	}
+}
+.invitation-avatar {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 30px;
+
+	img {
+		border-radius: 50%;
+		display: block;
+	}
+}
+
 .markered-list {
 	display: flex;
 	flex-wrap: wrap;
