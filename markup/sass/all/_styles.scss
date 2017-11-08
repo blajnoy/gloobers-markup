@@ -3754,6 +3754,16 @@ input.daterange-input {
 			flex: 0 0 calc(30% - 20px);
 		}
 	}
+
+	&.import-services {
+		margin: 0 -15px 15px;
+		justify-content: center;
+
+		.btn {
+			margin: 0 15px 10px;
+			flex: 0 1 165px;
+		}
+	}
 }
 
 .two-columns-recommendation-block {
@@ -4708,6 +4718,8 @@ input.daterange-input {
 	position: relative;
 	text-align: center;
 	color: #fff;
+	font-size: 18px;
+	line-height: 28px;
 
 	&:before {
 		content: '';
@@ -4721,9 +4733,43 @@ input.daterange-input {
 		opacity: .15;
 	}
 
+	.btn-close-invitation {
+		position: absolute;
+		top: 80px;
+		right: 80px;
+		font-size: 18px;
+		line-height: 18px;
+		color: rgba(#fff, .6);
+
+		&:hover {
+			color: #fff;
+		}
+	}
+
 	.container {
 		position: relative;
 		z-index: 1;
+	}
+
+	h2 {
+		color: #fff;
+		font-size: 54px;
+		line-height: 59px;
+		margin: 0 0 20px;
+	}
+	
+	a {
+		color: #fff;
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.invitation-intro-text {
+		margin: 0;
+		padding: 0 19%;
 	}
 }
 .invitation-avatar {
@@ -4736,6 +4782,199 @@ input.daterange-input {
 		display: block;
 	}
 }
+
+.invitation-holder {
+	padding: 0 0 70px;
+	position: relative;
+	margin: -140px 0 0;
+
+
+	.features-list {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -30px -20px;
+
+		.item {
+			font-size: 16px;
+			line-height: 24px;
+			padding: 0 30px 20px;
+			flex: 1 1 250px;
+		}
+
+		.img-h {
+			padding-top: 0;
+		}
+	}
+}
+
+.invitation-block {
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+	padding: 25px 30px;
+	background: #fff;
+
+	+ .invitation-block {
+		margin-top: 30px;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 21px;
+		font-family: 'Open Sans';
+	}
+}
+
+.tribe-num {
+	color: rgba(#000, .5);
+}
+
+.invitation-ttl {
+	display: flex;
+	padding: 0 0 20px;
+
+	h3 {
+		margin: 0;
+	}
+}
+
+.input-group-btn {
+	&:last-child {
+		> {
+			.btn,
+			.btn-group {
+				margin-left: -2px;
+			}
+		}
+	}
+}
+
+.send-invitation {
+	margin: 0 0 55px;
+
+	.btn {
+		min-width: 220px;
+	}
+}
+
+.ttl-line-behind {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: rgba(#000, .5);
+	font-size: 16px;
+	line-height: 19px;
+	margin: 0 0 15px;
+
+	&:before,
+	&:after {
+		flex-grow: 1;
+		height: 1px;
+		content: '';
+		background-color: #e5e5e5;
+		position: relative;
+		top: 0.55em;
+	}
+
+	&:before {
+		margin-right: 20px;
+	}
+
+	&:after {
+		margin-left: 20px;
+	}
+}
+
+.tribe-list {
+	margin: 0 -30px -10px;
+	padding: 2px 0 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 30px;
+		left: 30px;
+		height: 2px;
+		background: #e5e5e5;
+	}
+
+	li {
+		border-top: 1px solid #e5e5e5;
+		min-width: 240px;
+		flex: 1 0 calc(50% - 60px);
+		margin: -1px 30px 1px;
+		padding: 10px 20px;
+		display: flex;
+		align-items: center;
+
+		img {
+			display: inline-block;
+			border-radius: 50%;
+			margin: 0 20px 0 0;
+		}
+
+		.text-h {
+			font-size: 14px;
+			line-height: 17px;
+			color: rgba(#000, .5);
+		}
+
+		.name {
+			color: #000;
+			font-size: 18px;
+			line-height: 21px;
+			display: block;
+			padding: 0 0 5px;
+		}
+
+		p {
+			margin: 0;
+		}
+	}
+}
+
+.invites-list-wrap {
+	overflow: auto;
+	max-height: calc(100vh - 110px - 66px - 125px);
+	min-height: 240px;
+	margin: 0 -24px;
+
+	.tribe-list {
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+
+		&:before {
+			content: none;
+		}
+	}
+}
+
+.modal-invitations {
+	.modal-title {
+		font-size: 25px;
+		margin: 0 0 10px;
+	}
+
+	.sub-ttl {
+		font-size: 18px;
+		line-height: 21px;
+		display: block;
+		color: rgba(#000, .5);
+	}
+}
+
+.selected-num {
+	.modal-title & {
+		color: rgba(#000, .3);
+	}
+}
+
 
 .markered-list {
 	display: flex;
@@ -4974,6 +5213,20 @@ input.daterange-input {
 		&.text-right {
 			justify-content: flex-end;
 		}
+
+		.checkbox-inline {
+			flex: 1;
+
+			label {
+				font-size: 14px;
+			}
+		}
+
+		&.modal-footer-bordered {
+			border-top: 2px solid #e5e5e5;
+			padding: 30px 30px 0 50px;
+			margin: 0 -24px;
+		}
 	}
 
 	.info-desc {
@@ -5028,6 +5281,12 @@ input.daterange-input {
 		display: block;
 		opacity: .5;
 	}
+}
+
+.modal-header-bordered {
+	border-bottom: 2px solid #e5e5e5;
+	margin: 0 -24px;
+	padding: 0 30px 30px;
 }
 
 .img-back-wrap {
