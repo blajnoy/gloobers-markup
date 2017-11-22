@@ -196,7 +196,6 @@
         },
 
         change: function () {
-            //debugger;
             var files;
             var file;
 
@@ -228,9 +227,6 @@
         },
 
         submit: function () {
-
-            debugger;
-
             if (!this.$avatarSrc.val() && !this.$avatarInput.val() && !droppedFiles) {
                 return false;
             }

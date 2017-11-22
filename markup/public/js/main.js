@@ -360,7 +360,7 @@ $(document).ready(function () {
 
     $('.main-slider').slick({
         slidesToShow: 1,
-        fade: true,
+        //fade: true,
         arrows: true,
         prevArrow: '<a href="#" class="btn-prev"><i class="gl-ico gl-ico-arrow-left"></i></a>',
         nextArrow: '<a href="#" class="btn-next"><i class="gl-ico gl-ico-arrow-right"></i></a>',
@@ -376,7 +376,8 @@ $(document).ready(function () {
     $('.how-slider')
         .slick({
             slidesToShow: 1,
-            arrows: false
+            arrows: false,
+            adaptiveHeight: true
         })
         .on('afterChange', function (event, slick, currentSlide, nextSlide) {
             $('.slider-tabs li').removeClass("active").eq(currentSlide).addClass("active");

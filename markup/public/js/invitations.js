@@ -20,6 +20,10 @@ $(document).ready(function () {
             name: 'Natali Coltrain3',
             email: 'Lorem@gmail.com',
             image: 'images/photo06.jpg'
+        },{
+            name: 'Natali Coltrain3',
+            email: 'Lorem@gmail.com',
+            image: 'images/photo06.jpg'
         }
     ];
 

@@ -196,7 +196,6 @@
         },
 
         change: function () {
-            //debugger;
             var files;
             var file;
 
@@ -225,7 +224,6 @@
                 }
             }
 
-            console.log()
         },
 
         submit: function () {

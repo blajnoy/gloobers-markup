@@ -17,6 +17,7 @@ a {
 	&:active,
 	&:hover {
 		text-decoration: none;
+		outline: none;
 	}
 }
 h1, h2, h3, h4 {
@@ -32,6 +33,11 @@ h2 {
 	font-size: 40px;
 	line-height: 43px;
 	margin: 0 0 30px;
+
+	@include breakpoint(max-width 640px) {
+		font-size: 24px;
+		line-height: 27px;
+	}
 }
 sup {
 	font-size: 0.55em;

@@ -1023,6 +1023,24 @@ input.daterange-input {
 		margin: 0 15px 40px;
 	}
 
+	&.slick-slider {
+		overflow: hidden;
+		margin: 0 -15px 0 -5px;
+		display: block;
+
+		.slick-list {
+			padding:0 10% 0 0;
+
+			@include breakpoint(max-width 640px) {
+				padding:0 10px 0 0;
+			}
+		}
+
+		.slick-slide {
+			margin: 0 5px;
+		}
+	}
+
 	&.personal-cabinet-users-travel {
 
 		.card {
@@ -1035,6 +1053,23 @@ input.daterange-input {
 		}
 	}
 }
+
+.result-list {
+	display: flex;
+	flex-wrap: wrap;
+
+	&:after,
+	&:before {
+		content: none;
+	}
+
+	> [class^="col-"] {
+		float: none;
+		flex: 1 1 50%;
+		min-width: 300px;
+	}
+}
+
 .card {
 	position: relative;
 	border: 1px solid #e5e5e5;
@@ -1244,7 +1279,7 @@ input.daterange-input {
 			font-size: 14px;
 			line-height: 18px;
 			opacity: .5;
-			margin: 0 20px 0 0;
+			margin: 0 20px 10px 0;
 			flex: 1 0 calc(40% - 20px);
 		}
 	}
@@ -1478,6 +1513,11 @@ input.daterange-input {
 }
 
 .slick-slider {
+
+	&.recommendations-desc-slider {
+		user-select: auto;
+	}
+
 	.slick-arrow {
 		position: absolute;
 		top: 50%;
@@ -1962,10 +2002,10 @@ input.daterange-input {
 .main-slider {
 	height: 550px;
 	min-height: 73px;
-	//overflow: hidden;
+	overflow: hidden;
 
 	.slick-list {
-		//padding:0 10% 0 0;
+		padding:0 10% 0 0;
 		//margin: 0 -10px;
 	}
 
@@ -2625,20 +2665,15 @@ input.daterange-input {
 
 .passions-slider {
 	margin: 0 -10px;
+
 	.slide {
 		outline: none;
 	}
 
 	.slick-dots {
-		text-align: center;
-		font-size: 0;
-		padding: 10px 0 0;
+		padding: 10px 0;
 
 		li {
-			display: inline-block;
-			padding: 0 5px;
-			cursor: pointer;
-
 			&.slick-active {
 				.custom-dot {
 					background: #b8b8b8;
@@ -2647,14 +2682,37 @@ input.daterange-input {
 		}
 
 		.custom-dot {
-			display: block;
-			width: 10px;
-			height: 10px;
 			background: #e5e5e5;
-			border-radius: 50%;
 		}
-
 	}
+}
+.slick-dots {
+	text-align: center;
+	font-size: 0;
+	padding: 30px 0;
+	line-height: 0;
+
+	li {
+		display: inline-block;
+		vertical-align: top;
+		padding: 0 5px;
+		cursor: pointer;
+
+		&.slick-active {
+			.custom-dot {
+				background: #501e00;
+			}
+		}
+	}
+
+	.custom-dot {
+		display: block;
+		width: 10px;
+		height: 10px;
+		background: rgba(#501e00, .2);
+		border-radius: 50%;
+	}
+
 }
 
 .btn-next-passions-slider,
@@ -2880,7 +2938,7 @@ input.daterange-input {
 
 	&-ttl {
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		padding: 0 30px 10px;
 		border-bottom: 1px solid #e5e5e5;
 		margin: 0 -30px 25px;
@@ -2894,10 +2952,36 @@ input.daterange-input {
 				font-weight: bold;
 				color: $secondTextColor;
 				padding: 0 0 10px;
+
+				a {
+					color: $secondTextColor;
+					text-decoration: none;
+
+					&:hover {
+						text-decoration: underline;
+					}
+				}
 			}
 			.review-sub-ttl {
 				display: block;
 			}
+		}
+
+		.review-ttl-row {
+			display: flex;
+
+			.date {
+				margin-left: auto;
+			}
+		}
+
+		.date {
+			font-style: normal;
+			font-weight: bold;
+			color: rgba(#000, .5);
+			font-size: 12px;
+			display: block;
+			padding: 2px 0;
 		}
 
 		&-info {
@@ -2905,15 +2989,6 @@ input.daterange-input {
 			text-align: right;
 			font-size: 14px;
 			line-height: 17px;
-
-			.date {
-				font-style: normal;
-				font-weight: bold;
-				color: rgba(#000, .5);
-				font-size: 12px;
-				display: block;
-				padding: 2px 0;
-			}
 
 			.recommendators-name {
 				display: flex;
@@ -3260,6 +3335,11 @@ input.daterange-input {
 	line-height: 23px;
 	padding: 0 0 35px;
 
+	@include breakpoint(max-width 640px) {
+		text-align: left;
+		font-size: 16px;
+	}
+
 	&.left {
 		text-align: left;
 	}
@@ -3289,6 +3369,30 @@ input.daterange-input {
 	font-size: 0;
 	margin: 0 -15px;
 	padding: 0 0 25px;
+
+	&.slick-slider {
+		overflow: hidden;
+		margin: 0 -15px 0 -5px;
+		display: block;
+
+		.slick-list {
+			padding:0 10% 17px 0;
+
+			@include breakpoint(max-width 640px) {
+				padding:0 10px 17px 0;
+				margin-bottom: -17px;
+			}
+		}
+
+		.slick-slide,
+		.slick-slide.big {
+			margin: 0 5px;
+
+			> a {
+				@include aspect-ratio(28, 14);
+			}
+		}
+	}
 
 	.item {
 		display: inline-block;
@@ -3353,6 +3457,11 @@ input.daterange-input {
 			font: bold 56px/59px 'PT Sans', sans-serif;
 			display: block;
 			padding: 0 0 9px;
+
+			@include breakpoint(max-width 640px) {
+				font-size: 30px;
+				line-height: 33px;
+			}
 		}
 		.events-num {
 			display: block;
@@ -3899,6 +4008,26 @@ input.daterange-input {
 				}
 			}
 		}
+
+		@include breakpoint(max-width 640px) {
+			width: 100%;
+
+			.item {
+				.img-h {
+					margin: 35px 10px;
+
+					img {
+						width: 40px;
+						height: 40px;
+					}
+				}
+				&.slick-current {
+					.img-h img {
+						transform: scale(2);
+					}
+				}
+			}
+		}
 	}
 	.testimonials-blockquote {
 		margin: 0 auto 35px;
@@ -3908,7 +4037,7 @@ input.daterange-input {
 			outline: none !important;
 			position: relative;
 			font-size: 18px;
-			line-height:28px;
+			line-height: 28px;
 			color: #000;
 			text-align: center;
 
@@ -3918,6 +4047,17 @@ input.daterange-input {
 				}
 			}
 		}
+
+		@include breakpoint(max-width 640px) {
+			width: 100%;
+
+			.item {
+				font-size: 14px;
+				line-height: 24px;
+				text-align: left;
+			}
+		}
+
 	}
 	.testimonials-cite {
 		margin: 0 auto 35px;
@@ -3949,6 +4089,10 @@ input.daterange-input {
 				}
 			}
 		}
+
+		@include breakpoint(max-width 640px) {
+			width: 100%;
+		}
 	}
 }
 .columns {
@@ -3959,16 +4103,34 @@ input.daterange-input {
 		flex: 1;
 		padding: 0 15px;
 	}
+
+	@include breakpoint(max-width 640px) {
+		flex-wrap: wrap;
+
+		.col {
+			flex: auto;
+		}
+	}
 }
 .faq {
 	font-size: 18px;
 	line-height: 24px;
+
+	@include breakpoint(max-width 640px) {
+		font-size: 15px;
+		line-height: 24px;
+	}
 
 	h3 {
 		font-size: 18px;
 		line-height: 24px;
 		margin: 0 0 10px;
 		font-family: "Open Sans";
+
+		@include breakpoint(max-width 640px) {
+			font-size: 15px;
+			line-height: 24px;
+		}
 	}
 	p {
 		margin: 0 0 30px;
@@ -4905,12 +5067,15 @@ input.daterange-input {
 
 	li {
 		border-top: 1px solid #e5e5e5;
-		min-width: 240px;
-		flex: 1 0 calc(50% - 60px);
+		flex: 0 0 calc(50% - 60px);
 		margin: -1px 30px 1px;
 		padding: 10px 20px;
 		display: flex;
 		align-items: center;
+
+		@include breakpoint(max-width 767px) {
+			flex: 1 1 calc(100% - 60px);
+		}
 
 		img {
 			display: inline-block;
@@ -5026,12 +5191,24 @@ input.daterange-input {
 		}
 
 		ul {
+			flex: 1;
+			display: flex;
+			justify-content: center;
+
+			@include breakpoint(max-width 640px) {
+				justify-content: space-between;
+			}
+
 			li {
 				display: inline-block;
 				vertical-align: top;
 				font-size: 14px;
 				line-height: 17px;
 				padding: 0 20px;
+
+				@include breakpoint(max-width 640px) {
+					padding: 0;
+				}
 
 				a {
 					color: #fff;
@@ -5054,7 +5231,10 @@ input.daterange-input {
 
 			.steps {
 				margin: 0 -3%;
-				text-align: center;
+
+				@include breakpoint(max-width 640px) {
+					margin: 0 -3%;
+				}
 			}
 
 			.step {
@@ -5063,8 +5243,15 @@ input.daterange-input {
 				width: calc(100%/3);
 				padding: 0 3%;
 				text-align: center;
-				font-size: 14px;
-				line-height: 24px;
+				font: 14px/24px 'Open Sans', Arial, sans-serif;
+
+				@include breakpoint(max-width 640px) {
+					width: 100%;
+					padding: 0 3%;
+					display: flex;
+					text-align: left;
+					padding-bottom: 20px;
+				}
 			}
 			.img-h {
 				height: 230px;
@@ -5072,19 +5259,46 @@ input.daterange-input {
 				text-align: center;
 				margin: 0 0 30px;
 
+				@include breakpoint(max-width 640px) {
+					height: auto;
+					line-height: 0;
+					flex: 0 0 25%;
+					padding: 0 15px 0 0;
+					text-align: center;
+					margin: 0 0 10px;
+				}
+
 				img {
 					display: inline;
 					vertical-align: middle;
 					max-width: 100%;
 					height: auto;
+
+					@include breakpoint(max-width 640px) {
+						max-width: 90%;
+					}
 				}
 			}
+
+			.text-h {
+				@include breakpoint(max-width 640px) {
+					flex: auto;
+				}
+			}
+
 			.ttl {
 				font: bold 30px/33px 'PT Sans', sans-serif;
 				display: block;
 				padding: 0 0 20px;
 				opacity: .9;
+
+				@include breakpoint(max-width 640px) {
+					font-size: 18px;
+					line-height: 21px;
+					padding: 0 0 10px;
+				}
 			}
+
 			p {
 				margin: 0;
 				opacity: .8;
@@ -5360,7 +5574,14 @@ input.daterange-input {
 	.form-control:focus {
 		border-color: #f00;
 	}
+
+	.select2-container--bootstrap {
+		.select2-selection {
+			border-color: #f00;
+		}
+	}
 }
+
 .help-block-wrap {
 	display: flex;
 	align-items: center;
@@ -7277,7 +7498,7 @@ input.daterange-input {
 
 
 	.flex-row & {
-		min-height: calc(100% - 20px);
+		min-height: calc(100% - 30px);
 	}
 
 	.ttl {
@@ -7523,6 +7744,7 @@ input.daterange-input {
 }
 .personal-photo {
 	@extend .personal-box;
+	margin-bottom: 0;
 
 	.photo {
 		margin: -16px -16px 20px;
@@ -7532,9 +7754,6 @@ input.daterange-input {
 			border-radius: 10px 10px 0 0;
 			object-fit: cover;
 		}
-	}
-	.btn {
-		margin-bottom: 10px;
 	}
 
 	.upload-btns-row {
@@ -7600,9 +7819,12 @@ input.daterange-input {
 .personal-bg-picture {
 	@extend .personal-box;
 
+	width: 100%;
+	margin-bottom: 0;
+
 	.bg-picture {
-		margin: -16px -16px 20px;
-		@include aspect-ratio(870, 270);
+		margin: -16px;
+		@include aspect-ratio(870, 347);
 
 		&:after {
 			content: "";
@@ -7864,6 +8086,10 @@ input.daterange-input {
 		line-height: 28px;
 		color: rgba(#000, 0.6);
 		margin: 0 0 30px;
+
+		.card & {
+			color: #000;
+		}
 	}
 }
 
