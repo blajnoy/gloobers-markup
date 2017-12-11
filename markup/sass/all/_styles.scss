@@ -1794,6 +1794,7 @@ input.daterange-input {
 	.card {
 		margin: 15px;
 		flex: 0 0 calc(50% - 30px);
+		padding-bottom: 58px;
 
 		.img-wrap {
 			@include aspect-ratio(390, 198);
@@ -1841,6 +1842,10 @@ input.daterange-input {
 	padding: 15px 0 0;
 	align-items: center;
 	line-height: 17px;
+	position: absolute;
+	bottom: 13px;
+	left: 15px;
+	right: 15px;
 
 	.rating {
 		padding: 5px 0;
@@ -2005,8 +2010,7 @@ input.daterange-input {
 	overflow: hidden;
 
 	.slick-list {
-		padding:0 10% 0 0;
-		//margin: 0 -10px;
+		/*padding:0 10% 0 0;*/
 	}
 
 	&.slick-initialized {
@@ -2020,7 +2024,6 @@ input.daterange-input {
 
 	.item {
 		@include aspect-ratio(1920, 550);
-		//margin: 0 10px;
 
 		img {
 			object-fit: cover;
@@ -3310,6 +3313,10 @@ input.daterange-input {
 .block {
 	padding: 60px 0;
 
+	@include breakpoint(max-width 640px) {
+		padding: 20px 0;
+	}
+
 	&.coloured {
 		background: #fff;
 	}
@@ -4140,6 +4147,10 @@ input.daterange-input {
 	overflow: hidden;
 	padding: 0 0 80px;
 
+	@include breakpoint(max-width 640px) {
+		padding: 0 0 20px;
+	}
+
 	.container {
 
 		& > .row {
@@ -4161,6 +4172,10 @@ input.daterange-input {
 	.img-col {
 		flex: 1;
 		padding: 0 15px;
+
+		@include breakpoint(max-width 640px) {
+			display: none;
+		}
 
 		img {
 			display: block;
@@ -4205,9 +4220,14 @@ input.daterange-input {
 	.item {
 		@include clearfix();
 		font-size: 18px;
-		line-height:24px;
+		line-height: 24px;
 		padding: 0 0 20px;
 		color: #656b6f;
+
+		@include breakpoint(max-width 640px) {
+			font-size: 15px;
+			line-height: 24px;
+		}
 	}
 	.img-h {
 		width: 70px;
@@ -4229,6 +4249,11 @@ input.daterange-input {
 			font-size: 18px;
 			line-height: 24px;
 			margin: 0;
+
+			@include breakpoint(max-width 640px) {
+				font-size: 15px;
+				line-height: 24px;
+			}
 		}
 		p {
 			margin: 0;
@@ -4269,16 +4294,42 @@ input.daterange-input {
 
 	.block-title {
 		padding: 0;
+		display: flex;
+		align-items: flex-start;
 
 		h2 {
 			color: #fff;
+			flex: auto;
+		}
+
+		@include breakpoint(max-width 640px) {
+			flex-wrap: wrap;
+			text-align: center;
+			margin: 0 -10px;
+
+			h2 {
+				margin-bottom: 13px;
+			}
 		}
 	}
+
 	.btn {
-		margin: 0 0 0 40px;
+		margin: 0 40px 0 auto;
+
+		+ .btn {
+			margin-right: 0;
+		}
+
+		@include breakpoint(max-width 640px) {
+			margin: 0 10px;
+			flex: 1 0 calc(50% - 20px);
+
+			+ .btn {
+				margin-right: 10px;
+			}
+		}
 	}
 }
-
 
 /* start rating-container */
 
@@ -6039,6 +6090,10 @@ input.daterange-input {
 	padding: 0 0 20px;
 }
 
+#confirm-order.disabled {
+	pointer-events: auto !important;
+}
+
 .payment-total-price {
 	display: flex;
 	font-size: 18px;
@@ -6669,12 +6724,24 @@ input.daterange-input {
 	}
 
 	.logo {
-		margin-top: -27px;
-		float: left;
+
+		@include breakpoint(max-width 640px) {
+			margin: 0 !important;
+			overflow: hidden;
+			width: 47px;
+		}
 	}
+
 	.container {
-		padding-top: 70px;
+		padding-top: 50px;
 		padding-bottom: 45px;
+		display: flex;
+		align-items: center;
+
+		@include breakpoint(max-width 640px) {
+			padding-top: 35px;
+			padding-bottom: 30px;
+		}
 	}
 	.footer-row {
 		border-top: 2px solid rgba(255, 255, 255, 0.1);
@@ -6698,11 +6765,25 @@ input.daterange-input {
 			strong {
 				font-weight: bold;
 			}
+
+			@include breakpoint(max-width 640px) {
+				text-align: center;
+				flex: auto;
+				line-height: 22px;
+
+				strong {
+					display: block;
+				}
+			}
 		}
 	}
 	.extra-nav {
 		text-transform: uppercase;
 		margin-left: auto;
+
+		@include breakpoint(max-width 640px) {
+			display: none;
+		}
 
 		li {
 			display: inline-block;
@@ -6712,8 +6793,8 @@ input.daterange-input {
 	}
 }
 .soc-list {
-	float: right;
-	font-size: 18px;
+	font-size: 14px;
+	margin-left: auto;
 
 	a {
 		margin: 0 0 0 20px;
@@ -6728,6 +6809,11 @@ input.daterange-input {
 	text-transform: uppercase;
 	overflow: hidden;
 	text-align: center;
+	flex: auto;
+
+	@include breakpoint(max-width 640px) {
+		display: none;
+	}
 
 	li {
 		display: inline-block;
@@ -8986,6 +9072,15 @@ input.daterange-input {
 	}
 }
 
+.fc {
+	.fc-event {
+		&.fc-event-active {
+			background-color: #fff;
+			color: rgb(58, 135, 173);
+		}
+	}
+}
+
 /* Select2 customization */
 .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
 	position: absolute;
@@ -9066,15 +9161,62 @@ input.daterange-input {
 	}
 }
 
-
 .fa-spin{
 	animation: fa-spin 2s infinite linear
 }
-@keyframes fa-spin{
+
+@keyframes fa-spin {
 	0% {
-		transform:rotate(0deg)
+		transform: rotate(0deg)
 	}
 	100% {
-		transform:rotate(359deg)
+		transform: rotate(359deg)
 	}
 }
+
+/*
+.rhombs-container {
+	width: 1000px;
+	margin: 0 auto;
+	background: grey;
+}
+.rhombs {
+	font-size: 0;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 36px 0 89px;
+
+	.item {
+		flex: 0 0 25%;
+		padding: 0 36px;
+
+		.img-h {
+			position: relative;
+			overflow: hidden;
+			transform: rotate(45deg);
+			padding-top: 100%;
+			margin-bottom: -53px;
+
+			img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 142%;
+				height: auto;
+				transform-origin: 0 0;
+				transform: rotate(-45deg) translate(-50%, -50%);
+			}
+		}
+
+		&:nth-child(5n+5) {
+			margin-left: 1px;
+		}
+
+		&:nth-child(9n+9) {
+			margin-left: -1px;
+		}
+
+	}
+}*/

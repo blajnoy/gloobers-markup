@@ -175,7 +175,9 @@ button.btn-link {
 	}
 }
 .btn-marketing-b {
-	@include button-gradient($secondTextColor, $gradientColorFrom, $gradientColorTo)
+	@include button-gradient($secondTextColor, $gradientColorFrom, $gradientColorTo);
+	padding-left: 12px;
+	padding-right: 12px;
 }
 .btn-recommend {
 	min-width: 90px;

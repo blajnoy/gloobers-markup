@@ -1622,6 +1622,8 @@ button.btn-link:active {
   background: -webkit-gradient(linear, left top, left bottom, from(#ffc200), to(#d5a200));
   background: -webkit-linear-gradient(top, #ffc200 0%, #d5a200 100%);
   background: linear-gradient(to bottom, #ffc200 0%, #d5a200 100%);
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .btn-marketing-b.btn-sm {
@@ -5452,6 +5454,7 @@ input.daterange-input {
   -webkit-flex: 0 0 -webkit-calc(50% - 30px);
   -ms-flex: 0 0 calc(50% - 30px);
   flex: 0 0 calc(50% - 30px);
+  padding-bottom: 58px;
 }
 
 .my-reviews-list .card .img-wrap, .my-reviews-list .review-card .img-wrap {
@@ -5529,6 +5532,10 @@ input.daterange-input {
   -ms-flex-align: center;
   align-items: center;
   line-height: 17px;
+  position: absolute;
+  bottom: 13px;
+  left: 15px;
+  right: 15px;
 }
 
 .review-footer-info .rating {
@@ -5707,7 +5714,7 @@ input.daterange-input {
 }
 
 .main-slider .slick-list {
-  padding: 0 10% 0 0;
+  /*padding:0 10% 0 0;*/
 }
 
 .main-slider.slick-initialized {
@@ -7254,6 +7261,12 @@ input.daterange-input {
   padding: 60px 0;
 }
 
+@media (max-width: 640px) {
+  .block {
+    padding: 20px 0;
+  }
+}
+
 .block.coloured {
   background: #fff;
 }
@@ -8351,6 +8364,12 @@ input.daterange-input {
   padding: 0 0 80px;
 }
 
+@media (max-width: 640px) {
+  .features {
+    padding: 0 0 20px;
+  }
+}
+
 .features .container > .row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8381,6 +8400,12 @@ input.daterange-input {
   -ms-flex: 1;
   flex: 1;
   padding: 0 15px;
+}
+
+@media (max-width: 640px) {
+  .features .img-col {
+    display: none;
+  }
 }
 
 .features .img-col img {
@@ -8446,6 +8471,13 @@ input.daterange-input {
   clear: both;
 }
 
+@media (max-width: 640px) {
+  .features-list .item {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
 .features-list .img-h {
   width: 70px;
   float: left;
@@ -8468,6 +8500,13 @@ input.daterange-input {
   font-size: 18px;
   line-height: 24px;
   margin: 0;
+}
+
+@media (max-width: 640px) {
+  .features-list .text-h h4 {
+    font-size: 15px;
+    line-height: 24px;
+  }
 }
 
 .features-list .text-h p {
@@ -8512,14 +8551,56 @@ input.daterange-input {
 
 .marketing .block-title {
   padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .marketing .block-title h2 {
   color: #fff;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+@media (max-width: 640px) {
+  .marketing .block-title {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 -10px;
+  }
+  .marketing .block-title h2 {
+    margin-bottom: 13px;
+  }
 }
 
 .marketing .btn {
-  margin: 0 0 0 40px;
+  margin: 0 40px 0 auto;
+}
+
+.marketing .btn + .btn {
+  margin-right: 0;
+}
+
+@media (max-width: 640px) {
+  .marketing .btn {
+    margin: 0 10px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 -webkit-calc(50% - 20px);
+    -ms-flex: 1 0 calc(50% - 20px);
+    flex: 1 0 calc(50% - 20px);
+  }
+  .marketing .btn + .btn {
+    margin-right: 10px;
+  }
 }
 
 /* start rating-container */
@@ -10530,6 +10611,10 @@ input.daterange-input {
   padding: 0 0 20px;
 }
 
+#confirm-order.disabled {
+  pointer-events: auto !important;
+}
+
 .payment-total-price {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11280,14 +11365,32 @@ input.daterange-input {
   color: #fff;
 }
 
-.footer .logo {
-  margin-top: -27px;
-  float: left;
+@media (max-width: 640px) {
+  .footer .logo {
+    margin: 0 !important;
+    overflow: hidden;
+    width: 47px;
+  }
 }
 
 .footer .container {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 45px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
+  .footer .container {
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
 }
 
 .footer .footer-row {
@@ -11318,9 +11421,29 @@ input.daterange-input {
   font-weight: bold;
 }
 
+@media (max-width: 640px) {
+  .footer .footer-row .copy {
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    line-height: 22px;
+  }
+  .footer .footer-row .copy strong {
+    display: block;
+  }
+}
+
 .footer .extra-nav {
   text-transform: uppercase;
   margin-left: auto;
+}
+
+@media (max-width: 640px) {
+  .footer .extra-nav {
+    display: none;
+  }
 }
 
 .footer .extra-nav li {
@@ -11330,8 +11453,8 @@ input.daterange-input {
 }
 
 .soc-list {
-  float: right;
-  font-size: 18px;
+  font-size: 14px;
+  margin-left: auto;
 }
 
 .soc-list a {
@@ -11347,6 +11470,16 @@ input.daterange-input {
   text-transform: uppercase;
   overflow: hidden;
   text-align: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+@media (max-width: 640px) {
+  .footer-nav {
+    display: none;
+  }
 }
 
 .footer-nav li {
@@ -13909,6 +14042,11 @@ input.daterange-input {
   margin: 0;
 }
 
+.fc .fc-event.fc-event-active {
+  background-color: #fff;
+  color: #3a87ad;
+}
+
 /* Select2 customization */
 .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
   position: absolute;
@@ -14006,3 +14144,50 @@ input.daterange-input {
     transform: rotate(359deg);
   }
 }
+
+/*
+.rhombs-container {
+	width: 1000px;
+	margin: 0 auto;
+	background: grey;
+}
+.rhombs {
+	font-size: 0;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 36px 0 89px;
+
+	.item {
+		flex: 0 0 25%;
+		padding: 0 36px;
+
+		.img-h {
+			position: relative;
+			overflow: hidden;
+			transform: rotate(45deg);
+			padding-top: 100%;
+			margin-bottom: -53px;
+
+			img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 142%;
+				height: auto;
+				transform-origin: 0 0;
+				transform: rotate(-45deg) translate(-50%, -50%);
+			}
+		}
+
+		&:nth-child(5n+5) {
+			margin-left: 1px;
+		}
+
+		&:nth-child(9n+9) {
+			margin-left: -1px;
+		}
+
+	}
+}*/

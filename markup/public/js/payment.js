@@ -18,9 +18,6 @@ $(document).ready(function () {
         $(this).find('.input-tc-val').focus();
     });
 
-
-
-
     var telInput = $("#phone")/*,
         errorMsg = $("#error-msg"),
         validMsg = $("#valid-msg")*/;

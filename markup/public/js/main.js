@@ -168,7 +168,46 @@ $(document).ready(function () {
                     url: 'http://google.com/',
                     start: '2014-06-28'
                 }
-            ]
+            ],
+            eventClick: function (date, jsEvent, view) {
+                var color = $(this).css("background-color");
+                if (color == 'rgb(58, 135, 173)') {
+                    var startDate = date.start.format('DD/MM/YYYY'); // moment(date.start, "DD/MM/YYYY");
+                    var adults = $('#preview-adult-count-asp').html();
+                    $('.fc-event').css('background-color', 'rgb(58, 135, 173)');
+                    $('.fc-event').html('Press to book');
+                    $('.fc-event').css('color', 'white');
+                    $(this).css('background-color', 'white');
+                    $(this).css('color', 'rgb(58, 135, 173)');
+                    $(this).html('Unbook');
+                    var persons = {};
+
+                    if (isInitPersonsCounter) {
+                        persons = getAllPersons();
+                    } else {
+                        persons = {
+                            ad: adultsArr.join(','),
+                            ch: childrenArr.join(',')
+                        }
+                    }
+                    if (persons.ad != '0') {
+                        $("#checkout").attr('href', '/activities/' + activity.code + '/checkout?start=' + startDate + '&childrenMinAge=' + childrenMinAge + '&adultsMinAge=' + adultsMinAge + '&adults=' + persons.ad + '&children=' + persons.ch + '&ruid=' + ruid + '&daterange=' + daterange).removeClass('disabled');
+                        $('#choosen-date').val(startDate);
+                        $('.daterange-input').val(startDate);
+                    } else {
+                        $("#checkout").attr('href', 'javascript:void(0)').addClass('disabled');
+                    }
+
+
+                } else {
+                    $("#checkout").attr('href', 'javascript:void(0)').addClass('disabled');
+                    $(this).css('background-color', 'rgb(58, 135, 173)');
+                    $(this).html('Press to book');
+                    $(this).css('color', 'white');
+                }
+
+
+            }
         });
     }
 
@@ -740,7 +779,7 @@ $(document).ready(function () {
 
 
 if ($('.sel-no-border').length != 0) {
-    $(".sel-no-border").select2({
+    $('.sel-no-border').select2({
         width: '100%',
         minimumResultsForSearch: -1,
         theme: "bootstrap no-border",
@@ -749,7 +788,7 @@ if ($('.sel-no-border').length != 0) {
 }
 
 if ($('.sel').length != 0) {
-    $(".sel").select2({
+    $('.sel').select2({
         width: '100%',
         minimumResultsForSearch: -1,
         theme: "bootstrap",

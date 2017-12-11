@@ -77,17 +77,19 @@
 										<input tabindex="1" type="text" value="0000  0000  0000  0000">
 									</div>
 									<div class="col">
-										<strong class="col-ttl">Expiration moth &amp; year</strong>
+										<strong class="col-ttl">Expiration month &amp;amp; year</strong>
 										<div class="form-row">
 											<div class="form-row-col">
-												<select tabindex="2" class="sel" name="" id="">
+												<select tabindex="2" class="sel" name="" id="month" data-placeholder="month">
+													<option></option>
 													<option value="opt01">01</option>
 													<option value="opt02">02</option>
 													<option value="opt03">03</option>
 												</select>
 											</div>
 											<div class="form-row-col">
-												<select  tabindex="3" class="sel" name="" id="">
+												<select  tabindex="3" class="sel" name="" id="year" data-placeholder="year">
+													<option></option>
 													<option value="opt01">2016</option>
 													<option value="opt02">2017</option>
 													<option value="opt03">2018</option>
@@ -308,7 +310,7 @@
 							</div>
 							<div class="payment-confirm-btns">
 								<a href="#" class="btn btn-gray disabled">Modify</a>
-								<a href="#" class="btn btn-primary disabled">Confirm your order</a>
+								<a href="#" id="confirm-order" class="btn btn-primary disabled">Confirm your order</a>
 							</div>
 							<p class="info-desc text-center">I agree on Gloobers <a href="#">Terms &amp; Conditions</a></p>
 						</div>
